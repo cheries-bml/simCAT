@@ -1,0 +1,6 @@
+[
+  {"username":"cheries","password":"rb@testing321","role":"admin","name":"Cheries"},
+  {"username":"vone","password":"miss^2@vone","role":"teacher","name":"Ms. Vone"},
+  {"username":"lidia","password":"miss^2@lidia","role":"teacher","name":"Ms. Lidia"},
+  {"username":"rbkid","password":"rb@kid26","role":"student","name":"RB Kid"}
+]

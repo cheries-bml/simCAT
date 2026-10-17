@@ -1,0 +1,37 @@
+{
+  "meta": {"title":"Basic English Grammar","timeLimits":{"fast":5,"normal":10,"easy":20}},
+  "questions": [
+    {
+      "id":1,"type":"mcq",
+      "question":"Which is correct?",
+      "options":{"A":"She don't like","B":"She doesn't like","C":"She doesn't likes","D":"She don't likes"},
+      "correctAnswer":"B",
+      "explanation":"Third person singular uses doesn't + base verb"
+    },
+    {
+      "id":2,"type":"click_correct",
+      "question":"Click the incorrect word and correct it",
+      "sentence":"He don't knows the answer",
+      "tokens":["He","don't","knows","the","answer"],
+      "incorrectIndex":1,
+      "correctAnswers":["doesn't","does not"],
+      "explanation":"He requires doesn't"
+    },
+    {
+      "id":3,"type":"passage_mcq",
+      "passage":"Reading expands vocabulary...",
+      "question":"What improves comprehension?",
+      "options":{"A":"Writing","B":"Reading regularly","C":"TV","D":"Games"},
+      "correctAnswer":"B",
+      "explanation":"Passage states reading improves comprehension"
+    },
+    {
+      "id":4,"type":"image_mcq",
+      "question":"Which shape completes pattern?",
+      "image":"https://via.placeholder.com/400x200/800000/ffffff?text=Pattern",
+      "options":{"A":"Circle","B":"Triangle","C":"Square","D":"Star"},
+      "correctAnswer":"A",
+      "explanation":"Triangle, Square, Circle repeating"
+    }
+  ]
+}
