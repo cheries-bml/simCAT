@@ -1,0 +1,64 @@
+[
+  {
+    "id": "eng-read-001",
+    "type": "multiple_choice",
+    "passage": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during which predominantly agrarian, rural societies in Europe and America became industrial and urban. Prior to the Industrial Revolution, manufacturing was often done in people's homes using hand tools. Industrialization marked a shift to powered, special-purpose machinery, factories and mass production.",
+    "question": "According to the passage, where was manufacturing done before the Industrial Revolution?",
+    "options": {
+      "A": "In factories",
+      "B": "In people's homes",
+      "C": "In urban centers",
+      "D": "In government buildings"
+    },
+    "correct": "B",
+    "explanation": "The passage states: 'Prior to the Industrial Revolution, manufacturing was often done in people's homes using hand tools.'",
+    "level": "intermediate",
+    "group": "english",
+    "topic": "reading"
+  },
+  {
+    "id": "eng-read-002",
+    "type": "multiple_choice",
+    "passage": "The Industrial Revolution, which took place from the 18th to 19th centuries, was a period during which predominantly agrarian, rural societies in Europe and America became industrial and urban. Prior to the Industrial Revolution, manufacturing was often done in people's homes using hand tools. Industrialization marked a shift to powered, special-purpose machinery, factories and mass production.",
+    "question": "What marked the shift during Industrialization?",
+    "options": {
+      "A": "Hand tools and homes",
+      "B": "Powered machinery, factories and mass production",
+      "C": "Agrarian societies",
+      "D": "Rural lifestyle"
+    },
+    "correct": "B",
+    "explanation": "Industrialization marked a shift to powered, special-purpose machinery, factories and mass production.",
+    "level": "intermediate",
+    "group": "english",
+    "topic": "reading"
+  },
+  {
+    "id": "eng-read-003",
+    "type": "error_correction",
+    "question": "The sentence has one incorrect phrase. Click it and correct it.",
+    "sentence": "He can not come because he is ill",
+    "words": [
+      "He",
+      "can",
+      "not",
+      "come",
+      "because",
+      "he",
+      "is",
+      "ill"
+    ],
+    "errorWord": "can not",
+    "errorIndex": 2,
+    "correctAnswers": [
+      "cannot",
+      "can't",
+      "can not"
+    ],
+    "correctWord": "cannot",
+    "explanation": "Both 'cannot' (one word) and 'can't' are correct. 'can not' as two words is generally considered less formal but accepted in this test as alternative. Multiple forms accepted.",
+    "level": "intermediate",
+    "group": "english",
+    "topic": "reading"
+  }
+]

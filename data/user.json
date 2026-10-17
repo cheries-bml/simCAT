@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "username": "cheries",
+    "password": "rb@testing321",
+    "role": "admin",
+    "name": "Cheries",
+    "email": "cheries@edutech.com"
+  },
+  {
+    "id": 2,
+    "username": "miss",
+    "password": "miss^2",
+    "role": "teacher",
+    "name": "Miss Kuadrat",
+    "email": "miss@edutech.com"
+  },
+  {
+    "id": 3,
+    "username": "rbstudent",
+    "password": "rb@jaya2026",
+    "role": "user",
+    "name": "Siswa RB",
+    "email": "rbstudent@edutech.com"
+  }
+]

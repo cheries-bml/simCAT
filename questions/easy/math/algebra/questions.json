@@ -1,0 +1,51 @@
+[
+  {
+    "id": "math-alg-001",
+    "type": "multiple_choice",
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": {
+      "A": "x = 3",
+      "B": "x = 5",
+      "C": "x = 10",
+      "D": "x = 7.5"
+    },
+    "correct": "B",
+    "explanation": "2x + 5 = 15 \u2192 2x = 10 \u2192 x = 5",
+    "level": "easy",
+    "group": "math",
+    "topic": "algebra"
+  },
+  {
+    "id": "math-alg-002",
+    "type": "multiple_choice",
+    "question": "What is the value of 3\u00b2 + 4\u00b2?",
+    "image": "https://picsum.photos/seed/math1/400/200",
+    "options": {
+      "A": "12",
+      "B": "25",
+      "C": "14",
+      "D": "49"
+    },
+    "correct": "B",
+    "explanation": "3\u00b2 = 9, 4\u00b2 = 16, 9+16 = 25. This is the Pythagorean theorem example.",
+    "level": "easy",
+    "group": "math",
+    "topic": "algebra"
+  },
+  {
+    "id": "math-alg-003",
+    "type": "multiple_choice",
+    "question": "If y = 2x + 3, what is y when x = 4?",
+    "options": {
+      "A": "7",
+      "B": "11",
+      "C": "8",
+      "D": "5"
+    },
+    "correct": "B",
+    "explanation": "y = 2*4 + 3 = 8+3 = 11",
+    "level": "easy",
+    "group": "math",
+    "topic": "algebra"
+  }
+]

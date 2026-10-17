@@ -1,0 +1,18 @@
+{
+  "appName": "simCAT by Cheries",
+  "pageTitle": "Computer Aided Test by SimAcc",
+  "companyName": "SimAcc App Solutions",
+  "welcomeTitle": "Welcome to Simple CAT - Professional Computer Aided Testing System",
+  "welcomeSubtitle": "If you are cheating, you are not learning. If you are not learning, you are not growing. If you are not growing, you are dying.",
+  "logo": "\ud83c\udf93",
+  "logoUrl": "",
+  "footer": "\u00a9 2026 SimAcc App Solutions - All Rights Reserved",
+  "designer": "Designed by Cheries M.",
+  "timePerQuestion": {
+    "fast": 45,
+    "normal": 90,
+    "easy": 150
+  },
+  "contactEmail": "support@simacc.com",
+  "version": "2.1.0"
+}
