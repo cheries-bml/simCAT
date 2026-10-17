@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "title": "Simple Present & Present Continuous Tense English Test",
+    "timeLimits": {
+      "fast": 40,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "I usually drink coffee, but today I ___ tea.",
+      "options": {
+        "A": "am drinking",
+        "B": "drink",
+        "C": "drinks",
+        "D": "drinking"
+      },
+      "correctAnswer": "A",
+      "explanation": "The present continuous tense is used for temporary actions happening around the present time ('today'), contrasting with the simple present habit ('usually')."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She are reading a book right now.",
+      "tokens": [
+        "She",
+        "are",
+        "reading",
+        "a",
+        "book",
+        "right",
+        "now."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The third person singular subject 'She' requires the auxiliary verb 'is', not 'are'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "The sun ___ in the east every morning.",
+      "options": {
+        "A": "rise",
+        "B": "rises",
+        "C": "is rising",
+        "D": "rising"
+      },
+      "correctAnswer": "B",
+      "explanation": "General facts and truths use the simple present tense. 'The sun' is third person singular, requiring 'rises'."
+    },
+    {
+      "id": 4,
+      "type": "image_mcq",
+      "question": "What is the person in the image doing?",
+      "image": "https://via.placeholder.com/400x200/00FF00/ffffff?text=Person+running",
+      "options": {
+        "A": "He runs every day.",
+        "B": "He is running.",
+        "C": "He ran.",
+        "D": "He will run."
+      },
+      "correctAnswer": "B",
+      "explanation": "The image shows an action in progress at the moment of speaking, requiring the present continuous form 'is running'."
+    },
+    {
+      "id": 5,
+      "type": "passage_mcq",
+      "passage": "Sarah is a nurse. She usually works at the city hospital from 8 AM to 4 PM. Every day, she takes the bus to work. However, this week is different. Her car is in the shop, so she is riding her bicycle to work. Right now, she is having her lunch break in the park. She is eating a sandwich and reading a magazine. She loves her job, but this week she is feeling a bit tired because of the extra exercise.",
+      "question": "What does Sarah usually do to get to work?",
+      "options": {
+        "A": "She drives her car.",
+        "B": "She takes the bus.",
+        "C": "She rides a bicycle.",
+        "D": "She walks."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'Every day, she takes the bus to work,' indicating her simple present habit."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Be quiet! The baby ___.",
+      "options": {
+        "A": "sleep",
+        "B": "sleeps",
+        "C": "is sleeping",
+        "D": "are sleeping"
+      },
+      "correctAnswer": "C",
+      "explanation": "The singular subject 'baby' requires 'is' + verb-ing to describe an action happening at the exact moment of speaking."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He don't likes apples.",
+      "tokens": [
+        "He",
+        "don't",
+        "likes",
+        "apples."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "The third person singular subject 'He' requires 'doesn't' or 'does not' for negative simple present sentences."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "They ___ to the cinema every Friday.",
+      "options": {
+        "A": "goes",
+        "B": "going",
+        "C": "go",
+        "D": "are going"
+      },
+      "correctAnswer": "C",
+      "explanation": "The plural subject 'They' takes the base form of the verb 'go' for regular habits in the simple present tense."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "I ___ what you mean.",
+      "options": {
+        "A": "am understanding",
+        "B": "understands",
+        "C": "understanding",
+        "D": "understand"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Understand' is a stative verb and is generally not used in the continuous form, so the simple present 'understand' is correct."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "The Johnson family is currently renovating their house. Mr. Johnson usually paints on weekends, but today he is painting the living room walls blue. Mrs. Johnson is in the kitchen baking cookies. The children are playing in the backyard. They normally play video games inside, but the weather is sunny today, so they are playing outside. Everyone is working hard and having fun.",
+      "question": "What is Mr. Johnson doing today?",
+      "options": {
+        "A": "He is painting the living room walls blue.",
+        "B": "He is baking cookies.",
+        "C": "He is playing video games.",
+        "D": "He is working in the garden."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'today he is painting the living room walls blue,' using the present continuous for an action happening now."
+    },
+    {
+      "id": 11,
+      "type": "image_mcq",
+      "question": "Which sentence describes a general truth related to the image?",
+      "image": "https://via.placeholder.com/400x200/FFD700/000000?text=Sun+rising",
+      "options": {
+        "A": "The sun rise in the east.",
+        "B": "The sun rises in the east.",
+        "C": "The sun is rising in the east.",
+        "D": "The sun rose in the east."
+      },
+      "correctAnswer": "B",
+      "explanation": "General facts use the simple present tense. 'The sun' is third person singular, requiring 'rises'."
+    },
+    {
+      "id": 12,
+      "type": "passage_mcq",
+      "passage": "Sarah is a nurse. She usually works at the city hospital from 8 AM to 4 PM. Every day, she takes the bus to work. However, this week is different. Her car is in the shop, so she is riding her bicycle to work. Right now, she is having her lunch break in the park. She is eating a sandwich and reading a magazine. She loves her job, but this week she is feeling a bit tired because of the extra exercise.",
+      "question": "What is Sarah doing right now?",
+      "options": {
+        "A": "She is working at the hospital.",
+        "B": "She is eating a sandwich and reading a magazine.",
+        "C": "She is fixing her car.",
+        "D": "She is taking the bus."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'Right now, she is having her lunch break... She is eating a sandwich and reading a magazine.'"
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We is waiting for the bus.",
+      "tokens": [
+        "We",
+        "is",
+        "waiting",
+        "for",
+        "the",
+        "bus."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The first-person plural subject 'We' requires the auxiliary verb 'are', not 'is'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Look! It ___ outside.",
+      "options": {
+        "A": "snows",
+        "B": "snow",
+        "C": "is snowing",
+        "D": "snowing"
+      },
+      "correctAnswer": "C",
+      "explanation": "The exclamation 'Look!' indicates an action happening at the moment of speaking, requiring the present continuous 'is snowing'."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "My brother ___ his homework after dinner.",
+      "options": {
+        "A": "do",
+        "B": "doing",
+        "C": "are doing",
+        "D": "does"
+      },
+      "correctAnswer": "D",
+      "explanation": "The third person singular subject 'My brother' requires the verb form 'does' in the simple present tense."
+    },
+    {
+      "id": 16,
+      "type": "passage_mcq",
+      "passage": "Water is essential for life. It covers about 71% of the Earth's surface. Currently, scientists are studying the effects of climate change on ocean temperatures. The oceans are getting warmer, which affects marine life. However, water always seeks its own level, and the water cycle continues to operate naturally.",
+      "question": "What percentage of the Earth's surface does water cover?",
+      "options": {
+        "A": "about 71%",
+        "B": "about 50%",
+        "C": "about 90%",
+        "D": "about 30%"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states as a general fact: 'It covers about 71% of the Earth's surface.'"
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "___ your sister like pizza?",
+      "options": {
+        "A": "Do",
+        "B": "Does",
+        "C": "Is",
+        "D": "Are"
+      },
+      "correctAnswer": "B",
+      "explanation": "The third person singular subject 'your sister' requires the auxiliary verb 'Does' for simple present questions."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Where do your sister work?",
+      "tokens": [
+        "Where",
+        "do",
+        "your",
+        "sister",
+        "work?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "does"
+      ],
+      "explanation": "The third person singular subject 'your sister' requires the auxiliary verb 'does', not 'do'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "She ___ her teeth twice a day.",
+      "options": {
+        "A": "brush",
+        "B": "brushing",
+        "C": "brushes",
+        "D": "brushed"
+      },
+      "correctAnswer": "C",
+      "explanation": "Verbs ending in -sh add -es for third person singular subjects in the simple present tense, making it 'brushes'."
+    },
+    {
+      "id": 20,
+      "type": "passage_mcq",
+      "passage": "Sarah is a nurse. She usually works at the city hospital from 8 AM to 4 PM. Every day, she takes the bus to work. However, this week is different. Her car is in the shop, so she is riding her bicycle to work. Right now, she is having her lunch break in the park. She is eating a sandwich and reading a magazine. She loves her job, but this week she is feeling a bit tired because of the extra exercise.",
+      "question": "Why is Sarah riding her bicycle this week?",
+      "options": {
+        "A": "Because she loves exercise.",
+        "B": "Because her car is in the shop.",
+        "C": "Because the bus is late.",
+        "D": "Because she lost her license."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'Her car is in the shop, so she is riding her bicycle to work.'"
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "The train ___ at 8:00 AM sharp.",
+      "options": {
+        "A": "leave",
+        "B": "leaving",
+        "C": "left",
+        "D": "leaves"
+      },
+      "correctAnswer": "D",
+      "explanation": "Scheduled events use the simple present tense. 'The train' is third person singular, requiring 'leaves'."
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "passage": "The Johnson family is currently renovating their house. Mr. Johnson usually paints on weekends, but today he is painting the living room walls blue. Mrs. Johnson is in the kitchen baking cookies. The children are playing in the backyard. They normally play video games inside, but the weather is sunny today, so they are playing outside. Everyone is working hard and having fun.",
+      "question": "What do the children normally do?",
+      "options": {
+        "A": "They play outside.",
+        "B": "They play video games inside.",
+        "C": "They bake cookies.",
+        "D": "They paint walls."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage states, 'They normally play video games inside,' using the simple present for a regular habit."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "We ___ a party next Saturday.",
+      "options": {
+        "A": "have",
+        "B": "has",
+        "C": "are having",
+        "D": "having"
+      },
+      "correctAnswer": "C",
+      "explanation": "The present continuous tense is used to talk about fixed future arrangements ('next Saturday')."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The cats is playing with a ball.",
+      "tokens": [
+        "The",
+        "cats",
+        "is",
+        "playing",
+        "with",
+        "a",
+        "ball."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The plural subject 'The cats' requires the plural auxiliary verb 'are', not 'is'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "You ___ always ___ your keys! It's so frustrating.",
+      "options": {
+        "A": "do / lose",
+        "B": "are / losing",
+        "C": "does / lose",
+        "D": "is / losing"
+      },
+      "correctAnswer": "B",
+      "explanation": "The present continuous with 'always' is used to express annoyance at a repeated habit."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "My parents ___ to visit us next month.",
+      "options": {
+        "A": "are coming",
+        "B": "is coming",
+        "C": "comes",
+        "D": "come"
+      },
+      "correctAnswer": "A",
+      "explanation": "The plural subject 'My parents' requires 'are' + verb-ing to describe a fixed future arrangement."
+    },
+    {
+      "id": 27,
+      "type": "image_mcq",
+      "question": "What is happening in the picture?",
+      "image": "https://via.placeholder.com/400x200/0000FF/ffffff?text=People+swimming",
+      "options": {
+        "A": "They swim every day.",
+        "B": "They swam yesterday.",
+        "C": "They are swimming right now.",
+        "D": "They will swim tomorrow."
+      },
+      "correctAnswer": "C",
+      "explanation": "The image depicts an ongoing action, which is best described using the present continuous tense 'are swimming'."
+    },
+    {
+      "id": 28,
+      "type": "passage_mcq",
+      "passage": "Water is essential for life. It covers about 71% of the Earth's surface. Currently, scientists are studying the effects of climate change on ocean temperatures. The oceans are getting warmer, which affects marine life. However, water always seeks its own level, and the water cycle continues to operate naturally.",
+      "question": "What are scientists currently doing?",
+      "options": {
+        "A": "They are covering the Earth.",
+        "B": "They are seeking their own level.",
+        "C": "They are studying the effects of climate change.",
+        "D": "They are operating the water cycle."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states, 'Currently, scientists are studying the effects of climate change on ocean temperatures.'"
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "___ it ___ outside at the moment?",
+      "options": {
+        "A": "Do / rain",
+        "B": "Does / rain",
+        "C": "Are / raining",
+        "D": "Is / raining"
+      },
+      "correctAnswer": "D",
+      "explanation": "The singular subject 'it' requires the auxiliary 'Is' + verb-ing for present continuous questions."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am study for my history test.",
+      "tokens": [
+        "I",
+        "am",
+        "study",
+        "for",
+        "my",
+        "history",
+        "test."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "studying"
+      ],
+      "explanation": "The verb must take the -ing form after the auxiliary 'am' to form the present continuous tense."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Sarah and Tom ___ in the same class.",
+      "options": {
+        "A": "studies",
+        "B": "studying",
+        "C": "study",
+        "D": "studied"
+      },
+      "correctAnswer": "C",
+      "explanation": "The compound subject 'Sarah and Tom' is plural, so it takes the base verb 'study' in the simple present tense."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "My phone ___. Can you answer it?",
+      "options": {
+        "A": "rings",
+        "B": "is ringing",
+        "C": "ring",
+        "D": "ringing"
+      },
+      "correctAnswer": "B",
+      "explanation": "The action is happening at the exact moment of speaking, requiring the present continuous 'is ringing'."
+    },
+    {
+      "id": 33,
+      "type": "passage_mcq",
+      "passage": "The Johnson family is currently renovating their house. Mr. Johnson usually paints on weekends, but today he is painting the living room walls blue. Mrs. Johnson is in the kitchen baking cookies. The children are playing in the backyard. They normally play video games inside, but the weather is sunny today, so they are playing outside. Everyone is working hard and having fun.",
+      "question": "Why are the children playing outside today?",
+      "options": {
+        "A": "Because they are renovating.",
+        "B": "Because the weather is sunny.",
+        "C": "Because they are baking cookies.",
+        "D": "Because they are painting."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage states, 'the weather is sunny today, so they are playing outside.'"
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The weather ___ colder these days.",
+      "options": {
+        "A": "gets",
+        "B": "get",
+        "C": "is getting",
+        "D": "getting"
+      },
+      "correctAnswer": "C",
+      "explanation": "Changing or developing situations around the present time use the present continuous tense."
+    },
+    {
+      "id": 35,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He is runing very fast.",
+      "tokens": [
+        "He",
+        "is",
+        "runing",
+        "very",
+        "fast."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "running"
+      ],
+      "explanation": "Verbs ending in a single consonant preceded by a single vowel double the consonant before adding -ing (run -> running)."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "My father ___ a car to work.",
+      "options": {
+        "A": "drive",
+        "B": "driving",
+        "C": "drove",
+        "D": "drives"
+      },
+      "correctAnswer": "D",
+      "explanation": "The third person singular subject 'My father' requires the verb form 'drives' in the simple present tense."
+    },
+    {
+      "id": 37,
+      "type": "image_mcq",
+      "question": "Which sentence best describes the daily routine shown?",
+      "image": "https://via.placeholder.com/400x200/FFA500/000000?text=Boy+eating+breakfast",
+      "options": {
+        "A": "He eats breakfast at 7:00 AM.",
+        "B": "He eat breakfast at 7:00 AM.",
+        "C": "He is eating breakfast at 7:00 AM.",
+        "D": "He ate breakfast at 7:00 AM."
+      },
+      "correctAnswer": "A",
+      "explanation": "Describing a daily routine uses the simple present tense. Third person singular requires 'eats'."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Where ___ they ___ for their summer vacation?",
+      "options": {
+        "A": "do / go",
+        "B": "is / going",
+        "C": "are / going",
+        "D": "does / go"
+      },
+      "correctAnswer": "C",
+      "explanation": "The plural subject 'they' requires the auxiliary 'are' + verb-ing for future arrangements."
+    },
+    {
+      "id": 39,
+      "type": "passage_mcq",
+      "passage": "The Johnson family is currently renovating their house. Mr. Johnson usually paints on weekends, but today he is painting the living room walls blue. Mrs. Johnson is in the kitchen baking cookies. The children are playing in the backyard. They normally play video games inside, but the weather is sunny today, so they are playing outside. Everyone is working hard and having fun.",
+      "question": "What is Mrs. Johnson doing?",
+      "options": {
+        "A": "She is painting the walls.",
+        "B": "She is playing video games.",
+        "C": "She is working hard.",
+        "D": "She is baking cookies."
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage explicitly states, 'Mrs. Johnson is in the kitchen baking cookies.'"
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "I ___ to the music at the moment.",
+      "options": {
+        "A": "am listening",
+        "B": "is listening",
+        "C": "listen",
+        "D": "listens"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first-person singular subject 'I' takes 'am' + verb-ing in the present continuous tense."
+    },
+    {
+      "id": 41,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They doesn't live here.",
+      "tokens": [
+        "They",
+        "doesn't",
+        "live",
+        "here."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "don't",
+        "do not"
+      ],
+      "explanation": "The plural subject 'They' requires 'don't' or 'do not', not 'doesn't'."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "___ the Earth go around the Sun?",
+      "options": {
+        "A": "Does",
+        "B": "Do",
+        "C": "Is",
+        "D": "Are"
+      },
+      "correctAnswer": "A",
+      "explanation": "'The Earth' is a third person singular subject, requiring the auxiliary 'Does' for simple present questions."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "She ___ to the gym every morning.",
+      "options": {
+        "A": "going",
+        "B": "gone",
+        "C": "goes",
+        "D": "go"
+      },
+      "correctAnswer": "C",
+      "explanation": "The third person singular subject 'She' requires the verb form 'goes' in the simple present tense."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Which verb form is correct for stating a general fact?",
+      "options": {
+        "A": "covers",
+        "B": "are studying",
+        "C": "is getting",
+        "D": "changing"
+      },
+      "correctAnswer": "A",
+      "explanation": "General facts use the simple present tense. 'Covers' is the correct third person singular simple present form."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "He ___ an email to his boss right now.",
+      "options": {
+        "A": "writes",
+        "B": "write",
+        "C": "writing",
+        "D": "is writing"
+      },
+      "correctAnswer": "D",
+      "explanation": "The phrase 'right now' indicates an action in progress, requiring the present continuous 'is writing'."
+    },
+    {
+      "id": 46,
+      "type": "image_mcq",
+      "question": "Choose the correct present continuous sentence for the image.",
+      "image": "https://via.placeholder.com/400x200/FF00FF/ffffff?text=Girl+riding+bicycle",
+      "options": {
+        "A": "She rides a bicycle.",
+        "B": "She is riding a bicycle.",
+        "C": "She rode a bicycle.",
+        "D": "She has ridden a bicycle."
+      },
+      "correctAnswer": "B",
+      "explanation": "Option B correctly uses the present continuous tense ('is riding') to describe the ongoing action in the image."
+    },
+    {
+      "id": 47,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Is he play video games now?",
+      "tokens": [
+        "Is",
+        "he",
+        "play",
+        "video",
+        "games",
+        "now?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "playing"
+      ],
+      "explanation": "After the auxiliary 'Is', the main verb must be in the -ing form ('playing')."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "The museum ___ at 9:00 AM every day.",
+      "options": {
+        "A": "opens",
+        "B": "open",
+        "C": "opening",
+        "D": "opened"
+      },
+      "correctAnswer": "A",
+      "explanation": "Scheduled events use the simple present tense. 'The museum' is third person singular, requiring 'opens'."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "They ___ play video games on weekdays.",
+      "options": {
+        "A": "isn't",
+        "B": "doesn't",
+        "C": "aren't",
+        "D": "don't"
+      },
+      "correctAnswer": "D",
+      "explanation": "The plural subject 'They' requires 'don't' (do not) for negative simple present sentences."
+    },
+    {
+      "id": 50,
+      "type": "passage_mcq",
+      "passage": "Water is essential for life. It covers about 71% of the Earth's surface. Currently, scientists are studying the effects of climate change on ocean temperatures. The oceans are getting warmer, which affects marine life. However, water always seeks its own level, and the water cycle continues to operate naturally.",
+      "question": "What is happening to the oceans according to the passage?",
+      "options": {
+        "A": "They are covering 71% of the Earth.",
+        "B": "They are seeking their own level.",
+        "C": "They are operating naturally.",
+        "D": "They are getting warmer."
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage explicitly states, 'The oceans are getting warmer, which affects marine life.'"
+    }
+  ]
+}
