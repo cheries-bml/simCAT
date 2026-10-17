@@ -1,5 +1,4 @@
 [
-  {"level":"easy","group":"english","topic":"mix","path":"questions/easy/english/mix/question.json","title":"Easy English Test (Mix)"},
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/simple_present_tense.json","title":"Simple Present Tense"},
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/present_continous_tense.json","title":"Present Continuous Tense"},
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/mix_simple_continuous.json","title":"Simple Present With Present Continuous"},
