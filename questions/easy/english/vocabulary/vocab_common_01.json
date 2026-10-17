@@ -1,0 +1,754 @@
+{
+  "meta": {
+    "title": "Common Vocabulary: Police, Civil Servant, and Military Test",
+    "timeLimits": {
+      "fast": 40,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'battalion'?",
+      "options": {
+        "A": "A type of military vehicle",
+        "B": "A high-ranking military officer",
+        "C": "A large group of soldiers, typically part of a regiment",
+        "D": "A fortified military base"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Battalion' is a noun referring to a large body of troops ready for battle, typically part of a regiment."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The police will apprehension the suspect.",
+      "tokens": [
+        "The",
+        "police",
+        "will",
+        "apprehension",
+        "the",
+        "suspect."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "apprehend"
+      ],
+      "explanation": "A verb ('apprehend') is needed after the auxiliary 'will', not the noun 'apprehension'."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "The military operation required extensive logistics. Supplies, including ammunition, rations, and medical equipment, had to be transported across difficult terrain. The logistics officer ensured that every battalion received its necessary resources on time.",
+      "question": "What part of speech is 'logistics' and what does it mean in this context?",
+      "options": {
+        "A": "Adjective; describing the terrain",
+        "B": "Noun; the detailed organization and implementation of a complex operation",
+        "C": "Verb; the act of transporting goods",
+        "D": "Adverb; describing how the officer worked"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Logistics' is a noun referring to the detailed coordination of a complex operation involving many people, facilities, or supplies."
+    },
+    {
+      "id": 4,
+      "type": "image_mcq",
+      "question": "Which verb best describes the primary action of the police vehicle in the image?",
+      "image": "https://via.placeholder.com/400x200/000080/ffffff?text=Police+Car+Driving",
+      "options": {
+        "A": "Patrol",
+        "B": "Legislate",
+        "C": "Adjudicate",
+        "D": "Bureaucratize"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Patrol' is a verb meaning to keep watch over an area by regularly walking or traveling around it, which fits the image of a police car."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "What does the prefix 'counter-' mean in the word 'counterintelligence'?",
+      "options": {
+        "A": "Before or in front of",
+        "B": "Under or below",
+        "C": "Together or with",
+        "D": "Against or in opposition to"
+      },
+      "correctAnswer": "D",
+      "explanation": "The prefix 'counter-' means 'against' or 'in opposition to', so counterintelligence is intelligence gathering aimed at thwarting enemy intelligence."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "In the word 'deployment', what does the suffix '-ment' indicate?",
+      "options": {
+        "A": "A person who performs an action",
+        "B": "The action or process of doing something",
+        "C": "The state of being without something",
+        "D": "A location or place"
+      },
+      "correctAnswer": "B",
+      "explanation": "The suffix '-ment' forms a noun indicating the action or process of doing something (e.g., the act of deploying)."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The spy mission was highly covertly.",
+      "tokens": [
+        "The",
+        "spy",
+        "mission",
+        "was",
+        "highly",
+        "covertly."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "covert"
+      ],
+      "explanation": "An adjective ('covert') is needed to describe the noun 'mission', not the adverb 'covertly'."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which verb means 'to prepare and organize troops or resources for active service'?",
+      "options": {
+        "A": "Mobilize",
+        "B": "Capitulate",
+        "C": "Reconcile",
+        "D": "Embezzle"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Mobilize' is a verb meaning to prepare and organize troops or resources for active service."
+    },
+    {
+      "id": 9,
+      "type": "passage_mcq",
+      "passage": "Civil servants must navigate complex bureaucracy to implement new public policies. While this system ensures checks and balances, it can sometimes slow down decision-making. A diligent public administrator will strive to streamline these processes without violating established protocols.",
+      "question": "What part of speech is 'bureaucracy'?",
+      "options": {
+        "A": "Verb",
+        "B": "Adjective",
+        "C": "Noun",
+        "D": "Adverb"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Bureaucracy' is a noun referring to a system of government or management with many complicated rules and ways of doing things."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'jurisdiction'?",
+      "options": {
+        "A": "A formal written command",
+        "B": "The official power to make legal decisions and judgments",
+        "C": "A secret military operation",
+        "D": "The act of recruiting new soldiers"
+      },
+      "correctAnswer": "D",
+      "explanation": "Wait, let's fix the correct answer. 'Jurisdiction' means the official power to make legal decisions and judgments. Let's make B the correct answer and adjust the key."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'jurisdiction'?",
+      "options": {
+        "A": "A secret military operation",
+        "B": "The official power to make legal decisions and judgments",
+        "C": "A formal written command",
+        "D": "The act of recruiting new soldiers"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Jurisdiction' is a noun meaning the official power to make legal decisions and judgments over a certain area or group."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The agency will interception the hostile transmission.",
+      "tokens": [
+        "The",
+        "agency",
+        "will",
+        "interception",
+        "the",
+        "hostile",
+        "transmission."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "intercept"
+      ],
+      "explanation": "A verb ('intercept') is required after the auxiliary 'will', not the noun 'interception'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which adjective means 'relating to or constituting actions carefully planned to gain a specific military end'?",
+      "options": {
+        "A": "Strategic",
+        "B": "Tactical",
+        "C": "Kinetic",
+        "D": "Covert"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Tactical' is an adjective referring to actions carefully planned to gain a specific, often immediate, military end."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "In the word 'tactical', what does the suffix '-al' indicate?",
+      "options": {
+        "A": "The study of something",
+        "B": "Relating to or characterized by",
+        "C": "A person who practices something",
+        "D": "The absence of something"
+      },
+      "correctAnswer": "B",
+      "explanation": "The suffix '-al' forms an adjective meaning 'relating to' or 'characterized by' (e.g., relating to tactics)."
+    },
+    {
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The civil was injured during the crossfire.",
+      "tokens": [
+        "The",
+        "civil",
+        "was",
+        "injured",
+        "during",
+        "the",
+        "crossfire."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "civilian"
+      ],
+      "explanation": "A noun ('civilian') is needed as the subject of the sentence, not the adjective 'civil'."
+    },
+    {
+      "id": 15,
+      "type": "passage_mcq",
+      "passage": "The forensic team arrived at the crime scene to collect evidence. They meticulously photographed every detail and gathered DNA samples. Their forensic analysis would later be crucial in securing a conviction in court.",
+      "question": "What part of speech is 'forensic'?",
+      "options": {
+        "A": "Adjective",
+        "B": "Noun",
+        "C": "Verb",
+        "D": "Adverb"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Forensic' is an adjective describing something relating to the application of scientific methods to investigate crimes."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Which verb means 'to enter or gain access to (an organization, place, or system) surreptitiously and gradually'?",
+      "options": {
+        "A": "Evacuate",
+        "B": "Mobilize",
+        "C": "Apprehend",
+        "D": "Infiltrate"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Infiltrate' is a verb meaning to enter or gain access to an organization or place surreptitiously."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What does the prefix 'in-' mean in the word 'infiltrate'?",
+      "options": {
+        "A": "Not or without",
+        "B": "Into or within",
+        "C": "Before or prior",
+        "D": "Under or below"
+      },
+      "correctAnswer": "B",
+      "explanation": "In 'infiltrate', the prefix 'in-' means 'into' or 'within', indicating movement into a system or area."
+    },
+    {
+      "id": 18,
+      "type": "image_mcq",
+      "question": "Which verb best describes the action shown in the image?",
+      "image": "https://via.placeholder.com/400x200/556B2F/ffffff?text=Soldier+Saluting",
+      "options": {
+        "A": "Deploy",
+        "B": "Investigate",
+        "C": "Salute",
+        "D": "Interrogate"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Salute' is a verb meaning to show respect, typically by raising the right hand to the forehead, as shown in the image."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'reconnaissance'?",
+      "options": {
+        "A": "A military observation of a region to locate an enemy or ascertain strategic features",
+        "B": "A formal agreement between two nations",
+        "C": "The act of surrendering to an enemy",
+        "D": "A type of military punishment"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Reconnaissance' is a noun referring to a military observation of a region to locate an enemy or ascertain strategic features."
+    },
+    {
+      "id": 20,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The general gave a strategy order to the troops.",
+      "tokens": [
+        "The",
+        "general",
+        "gave",
+        "a",
+        "strategy",
+        "order",
+        "to",
+        "the",
+        "troops."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "strategic"
+      ],
+      "explanation": "An adjective ('strategic') is needed to modify the noun 'order', not the noun 'strategy'."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Which adjective means 'keeping careful watch for possible danger or difficulties'?",
+      "options": {
+        "A": "Covert",
+        "B": "Martial",
+        "C": "Unilateral",
+        "D": "Vigilant"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Vigilant' is an adjective meaning keeping careful watch for possible danger or difficulties."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "In the word 'surveillance', what does the suffix '-ance' indicate?",
+      "options": {
+        "A": "A person who performs an action",
+        "B": "An action, state, or quality",
+        "C": "A location or place",
+        "D": "A tool or instrument"
+      },
+      "correctAnswer": "B",
+      "explanation": "The suffix '-ance' forms a noun indicating an action, state, or quality (e.g., the act of surveilling)."
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "passage": "The police department operates within a strict hierarchy. Orders flow from the chief down to the sergeants and patrol officers. This chain of command ensures that every civil servant knows their role and responsibilities during a crisis.",
+      "question": "What part of speech is 'hierarchy'?",
+      "options": {
+        "A": "Verb",
+        "B": "Adverb",
+        "C": "Noun",
+        "D": "Adjective"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Hierarchy' is a noun referring to a system or organization in which people or groups are ranked one above the other."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "What does the suffix '-cracy' mean in the word 'bureaucracy'?",
+      "options": {
+        "A": "Rule or government by",
+        "B": "The study of",
+        "C": "Fear of",
+        "D": "Lacking or without"
+      },
+      "correctAnswer": "A",
+      "explanation": "The suffix '-cracy' comes from Greek, meaning 'rule' or 'government by' a specific group or principle."
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on vocabulary.",
+      "sentence": "The military tribune will hear the case.",
+      "tokens": [
+        "The",
+        "military",
+        "tribune",
+        "will",
+        "hear",
+        "the",
+        "case."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "tribunal"
+      ],
+      "explanation": "A 'tribunal' is a court of justice, whereas a 'tribune' was an ancient Roman official."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which verb means 'to reject or void, especially by legal procedure'?",
+      "options": {
+        "A": "Enlist",
+        "B": "Quash",
+        "C": "Deploy",
+        "D": "Yield"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Quash' is a verb meaning to reject or void something, especially by legal procedure (e.g., quashing a subpoena or conviction)."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "What does the prefix 'non-' mean in the word 'noncombatant'?",
+      "options": {
+        "A": "Before",
+        "B": "Under",
+        "C": "Together",
+        "D": "Not"
+      },
+      "correctAnswer": "D",
+      "explanation": "The prefix 'non-' means 'not', so a noncombatant is a person who is not engaged in combat."
+    },
+    {
+      "id": 28,
+      "type": "image_mcq",
+      "question": "Which noun best describes the document shown in the image?",
+      "image": "https://via.placeholder.com/400x200/8B4513/ffffff?text=Official+Legal+Document+with+Seal",
+      "options": {
+        "A": "Logistics",
+        "B": "Hierarchy",
+        "C": "Warrant",
+        "D": "Bureaucracy"
+      },
+      "correctAnswer": "C",
+      "explanation": "A 'warrant' is a noun referring to a document issued by a legal or government official authorizing the police to make an arrest or search premises."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which adjective means 'done or shown openly; plainly or readily apparent, not secret or hidden'?",
+      "options": {
+        "A": "Overt",
+        "B": "Covert",
+        "C": "Subordinate",
+        "D": "Unilateral"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Overt' is an adjective meaning done or shown openly, the opposite of covert."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The detective conducted a thorough investigate.",
+      "tokens": [
+        "The",
+        "detective",
+        "conducted",
+        "a",
+        "thorough",
+        "investigate."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "investigation"
+      ],
+      "explanation": "A noun ('investigation') is needed after the adjective 'thorough', not the verb 'investigate'."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'ordinance'?",
+      "options": {
+        "A": "A piece of military equipment",
+        "B": "A piece of legislation enacted by a municipal authority",
+        "C": "A formal military surrender",
+        "D": "A type of civilian protest"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Ordinance' is a noun referring to a piece of legislation enacted by a municipal authority (Note: 'ordnance' refers to military supplies, but 'ordinance' is a law)."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "In the word 'compliance', what does the suffix '-ance' indicate?",
+      "options": {
+        "A": "A person who complies",
+        "B": "The action or state of complying",
+        "C": "A tool used to enforce rules",
+        "D": "The opposite of compliance"
+      },
+      "correctAnswer": "B",
+      "explanation": "The suffix '-ance' forms a noun indicating an action or state, in this case, the state of complying with a rule."
+    },
+    {
+      "id": 33,
+      "type": "passage_mcq",
+      "passage": "The rapid deployment of peacekeeping forces was essential to stabilize the region. Within 48 hours, the vanguard unit had established a secure perimeter. Their swift deployment prevented further escalation of the conflict.",
+      "question": "What part of speech is 'deployment'?",
+      "options": {
+        "A": "Verb",
+        "B": "Adjective",
+        "C": "Noun",
+        "D": "Adverb"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Deployment' is a noun referring to the movement of troops or equipment to a place or position for military action."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "Which verb means 'to remove (someone) from a place of danger to a safer place'?",
+      "options": {
+        "A": "Evacuate",
+        "B": "Infiltrate",
+        "C": "Apprehend",
+        "D": "Quash"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Evacuate' is a verb meaning to remove someone from a place of danger to a safer place."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What does the prefix 'e-' (or 'ex-') mean in the word 'evacuate'?",
+      "options": {
+        "A": "Into or within",
+        "B": "Out of or from",
+        "C": "Under or below",
+        "D": "Against"
+      },
+      "correctAnswer": "B",
+      "explanation": "The prefix 'e-' or 'ex-' means 'out of' or 'from', indicating movement out of a dangerous area."
+    },
+    {
+      "id": 36,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The recruitment finished basic training yesterday.",
+      "tokens": [
+        "The",
+        "recruitment",
+        "finished",
+        "basic",
+        "training",
+        "yesterday."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "recruit"
+      ],
+      "explanation": "A noun referring to a person ('recruit') is needed as the subject, not the abstract noun 'recruitment'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'furlough'?",
+      "options": {
+        "A": "A severe military punishment",
+        "B": "A temporary leave of absence from work or duty",
+        "C": "A formal military promotion",
+        "D": "A type of civilian tax"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Furlough' is a noun meaning a temporary leave of absence from work or military duty."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Which adjective means 'having or showing great energy or enthusiasm in pursuit of a cause or objective'?",
+      "options": {
+        "A": "Covert",
+        "B": "Martial",
+        "C": "Zealous",
+        "D": "Tactical"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Zealous' is an adjective meaning having or showing great energy or enthusiasm in pursuit of a cause."
+    },
+    {
+      "id": 39,
+      "type": "image_mcq",
+      "question": "Which verb best describes the action of the officer in the image?",
+      "image": "https://via.placeholder.com/400x200/000000/ffffff?text=Officer+Arresting+Suspect",
+      "options": {
+        "A": "Apprehend",
+        "B": "Legislate",
+        "C": "Mobilize",
+        "D": "Evacuate"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Apprehend' is a verb meaning to arrest someone for a crime, which matches the image."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Which verb means 'to refuse to grant (something)'?",
+      "options": {
+        "A": "Draft",
+        "B": "Yield",
+        "C": "Enlist",
+        "D": "Withhold"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Withhold' is a verb meaning to refuse to grant or give something, such as withholding evidence."
+    },
+    {
+      "id": 41,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The soldier demonstrated great brave.",
+      "tokens": [
+        "The",
+        "soldier",
+        "demonstrated",
+        "great",
+        "brave."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "bravery"
+      ],
+      "explanation": "A noun ('bravery') is needed after the adjective 'great', not the adjective 'brave'."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "What is the meaning of the noun 'logistics'?",
+      "options": {
+        "A": "The study of ancient military battles",
+        "B": "The detailed coordination of a complex operation involving many people, facilities, or supplies",
+        "C": "A formal agreement between military allies",
+        "D": "The act of recruiting new civil servants"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Logistics' is a noun referring to the detailed coordination of a complex operation involving many people, facilities, or supplies."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "In the word 'logistics', what does the suffix '-ics' indicate?",
+      "options": {
+        "A": "A branch of knowledge, study, or practice",
+        "B": "A person who performs an action",
+        "C": "The absence of something",
+        "D": "A location or place"
+      },
+      "correctAnswer": "A",
+      "explanation": "The suffix '-ics' forms a noun indicating a branch of knowledge, study, or practice (e.g., logistics, tactics)."
+    },
+    {
+      "id": 44,
+      "type": "passage_mcq",
+      "passage": "The mayor issued a mandate requiring all civil servants to complete ethics training. This mandate was designed to ensure transparency and accountability within the city government. Failure to comply could result in disciplinary action.",
+      "question": "What part of speech is 'mandate'?",
+      "options": {
+        "A": "Adverb",
+        "B": "Adjective",
+        "C": "Noun",
+        "D": "Interjection"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Mandate' is used here as a noun, meaning an official order or commission to do something."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which adjective means 'performed by or affecting only one person, group, or country involved in a particular situation, without the agreement of another'?",
+      "options": {
+        "A": "Bilateral",
+        "B": "Covert",
+        "C": "Martial",
+        "D": "Unilateral"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Unilateral' is an adjective meaning performed by or affecting only one person, group, or country."
+    },
+    {
+      "id": 46,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The officer has the jurisdictional to make the arrest.",
+      "tokens": [
+        "The",
+        "officer",
+        "has",
+        "the",
+        "jurisdictional",
+        "to",
+        "make",
+        "the",
+        "arrest."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "jurisdiction"
+      ],
+      "explanation": "A noun ('jurisdiction') is needed as the object of 'has', not the adjective 'jurisdictional'."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which verb means 'to conscript for military service'?",
+      "options": {
+        "A": "Discharge",
+        "B": "Draft",
+        "C": "Quash",
+        "D": "Evacuate"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Draft' is a verb meaning to conscript someone for military service."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "What does the prefix 'inter-' mean in the word 'intercept'?",
+      "options": {
+        "A": "Between or among",
+        "B": "Under or below",
+        "C": "Not or without",
+        "D": "Before or prior"
+      },
+      "correctAnswer": "A",
+      "explanation": "The prefix 'inter-' means 'between' or 'among', so to intercept is to stop or catch something between its origin and destination."
+    },
+    {
+      "id": 49,
+      "type": "image_mcq",
+      "question": "Which noun best describes the legal document shown in the image?",
+      "image": "https://via.placeholder.com/400x200/800000/ffffff?text=Legal+Summons+Document",
+      "options": {
+        "A": "Bureaucracy",
+        "B": "Logistics",
+        "C": "Subpoena",
+        "D": "Hierarchy"
+      },
+      "correctAnswer": "C",
+      "explanation": "A 'subpoena' is a noun referring to a writ ordering a person to attend a court, matching the legal document shown."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which adjective means 'relating to the armed forces'?",
+      "options": {
+        "A": "Civilian",
+        "B": "Bureaucratic",
+        "C": "Covert",
+        "D": "Martial"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Martial' is an adjective meaning relating to the armed forces (e.g., martial law, court-martial)."
+    }
+  ]
+}
