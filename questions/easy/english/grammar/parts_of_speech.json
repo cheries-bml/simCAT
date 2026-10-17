@@ -1,0 +1,743 @@
+{
+  "meta": {
+    "title": "Parts of Speech English Test",
+    "timeLimits": {
+      "fast": 30,
+      "normal": 50,
+      "easy": 75
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which word is a noun in the following sentence: 'The quick brown fox jumps over the lazy dog.'?",
+      "options": {
+        "A": "quick",
+        "B": "jumps",
+        "C": "fox",
+        "D": "over"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Fox' is a person, place, or thing, making it a noun."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Identify the pronoun: 'She gave him the book because he asked for it.'",
+      "options": {
+        "A": "gave",
+        "B": "book",
+        "C": "because",
+        "D": "him"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Him' is a pronoun used to replace a male noun."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "She sings beautiful.",
+      "tokens": [
+        "She",
+        "sings",
+        "beautiful",
+        "."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "beautifully"
+      ],
+      "explanation": "An adverb ('beautifully') is needed to modify the verb 'sings', not an adjective."
+    },
+    {
+      "id": 4,
+      "type": "passage_mcq",
+      "passage": "The old clock ticked loudly in the silent hallway. Suddenly, it stopped, and a mouse scurried across the floor.",
+      "question": "What part of speech is 'loudly'?",
+      "options": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adverb",
+        "D": "Adjective"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Loudly' modifies the verb 'ticked', describing how the action was performed, making it an adverb."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Which word is a preposition? 'The cat is under the table.'",
+      "options": {
+        "A": "cat",
+        "B": "is",
+        "C": "under",
+        "D": "table"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Under' shows the relationship in space between the cat and the table."
+    },
+    {
+      "id": 6,
+      "type": "image_mcq",
+      "question": "Which word in the options is an adjective describing the image?",
+      "image": "https://via.placeholder.com/400x200/FF5733/ffffff?text=A+Red+Apple",
+      "options": {
+        "A": "Red",
+        "B": "Apple",
+        "C": "Eat",
+        "D": "Quickly"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Red' is an adjective that describes the noun 'Apple'."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Identify the conjunction: 'I wanted to go for a walk, but it started raining.'",
+      "options": {
+        "A": "wanted",
+        "B": "but",
+        "C": "walk",
+        "D": "started"
+      },
+      "correctAnswer": "B",
+      "explanation": "'But' is a coordinating conjunction used to connect two contrasting ideas."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on pronoun case.",
+      "sentence": "Him and I went to the store.",
+      "tokens": [
+        "Him",
+        "and",
+        "I",
+        "went",
+        "to",
+        "the",
+        "store",
+        "."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "He"
+      ],
+      "explanation": "The subject pronoun 'He' is required here, not the object pronoun 'Him'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which word is an interjection? 'Wow! That was an amazing performance.'",
+      "options": {
+        "A": "Wow",
+        "B": "That",
+        "C": "amazing",
+        "D": "performance"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Wow' is an interjection used to express sudden emotion or surprise."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Maria baked a delicious cake for her brother's birthday. She decorated it with colorful frosting and fresh strawberries.",
+      "question": "What part of speech is 'delicious'?",
+      "options": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adverb",
+        "D": "Adjective"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Delicious' describes the noun 'cake', making it an adjective."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Identify the adverb: 'The turtle moved slowly across the sand.'",
+      "options": {
+        "A": "turtle",
+        "B": "moved",
+        "C": "slowly",
+        "D": "sand"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Slowly' modifies the verb 'moved', describing the manner of the action."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Which word is a verb? 'The children play in the park every afternoon.'",
+      "options": {
+        "A": "children",
+        "B": "play",
+        "C": "park",
+        "D": "afternoon"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Play' is an action word, making it a verb."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "The dog barked loud at the mailman.",
+      "tokens": [
+        "The",
+        "dog",
+        "barked",
+        "loud",
+        "at",
+        "the",
+        "mailman",
+        "."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "loudly"
+      ],
+      "explanation": "An adverb ('loudly') is needed to modify the verb 'barked'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which of the following is a proper noun?",
+      "options": {
+        "A": "city",
+        "B": "river",
+        "C": "London",
+        "D": "country"
+      },
+      "correctAnswer": "C",
+      "explanation": "'London' is the specific name of a city and is capitalized, making it a proper noun."
+    },
+    {
+      "id": 15,
+      "type": "image_mcq",
+      "question": "Which word represents the action in the image?",
+      "image": "https://via.placeholder.com/400x200/33FF57/000000?text=Person+running+fast",
+      "options": {
+        "A": "Fast",
+        "B": "Running",
+        "C": "Person",
+        "D": "Green"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Running' is the verb (action word) depicted in the image."
+    },
+    {
+      "id": 16,
+      "type": "passage_mcq",
+      "passage": "Although it was raining, we decided to go hiking. We packed our bags and left early.",
+      "question": "What part of speech is 'Although'?",
+      "options": {
+        "A": "Preposition",
+        "B": "Adverb",
+        "C": "Noun",
+        "D": "Conjunction"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Although' is a subordinating conjunction that connects a dependent clause to an independent clause."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Identify the adjective: 'The tall building cast a long shadow.'",
+      "options": {
+        "A": "tall",
+        "B": "building",
+        "C": "cast",
+        "D": "shadow"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Tall' describes the noun 'building', making it an adjective."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "She is a good dancer and dances good.",
+      "tokens": [
+        "She",
+        "is",
+        "a",
+        "good",
+        "dancer",
+        "and",
+        "dances",
+        "good",
+        "."
+      ],
+      "incorrectIndex": 7,
+      "correctAnswers": [
+        "well"
+      ],
+      "explanation": "An adverb ('well') is required to modify the verb 'dances', not the adjective 'good'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Which word is a pronoun? 'Everyone should bring their own lunch.'",
+      "options": {
+        "A": "should",
+        "B": "bring",
+        "C": "own",
+        "D": "Everyone"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Everyone' is an indefinite pronoun referring to all people in a group."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Identify the preposition: 'The keys are on the kitchen counter.'",
+      "options": {
+        "A": "keys",
+        "B": "on",
+        "C": "kitchen",
+        "D": "counter"
+      },
+      "correctAnswer": "B",
+      "explanation": "'On' shows the spatial relationship between the keys and the counter."
+    },
+    {
+      "id": 21,
+      "type": "passage_mcq",
+      "passage": "The brilliant scientist made a groundbreaking discovery. Her research will change the world forever.",
+      "question": "What part of speech is 'brilliant'?",
+      "options": {
+        "A": "Adjective",
+        "B": "Noun",
+        "C": "Verb",
+        "D": "Adverb"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Brilliant' modifies the noun 'scientist', making it an adjective."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Which word is an interjection? 'Ouch! I stubbed my toe.'",
+      "options": {
+        "A": "I",
+        "B": "stubbed",
+        "C": "Ouch",
+        "D": "toe"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Ouch' is an interjection expressing sudden pain."
+    },
+    {
+      "id": 23,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on conjunction usage.",
+      "sentence": "He is smart, or he is hardworking.",
+      "tokens": [
+        "He",
+        "is",
+        "smart,",
+        "or",
+        "he",
+        "is",
+        "hardworking",
+        "."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "and"
+      ],
+      "explanation": "'And' is the appropriate coordinating conjunction to add two positive traits together."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Identify the verb: 'The sun shines brightly in the sky.'",
+      "options": {
+        "A": "sun",
+        "B": "brightly",
+        "C": "sky",
+        "D": "shines"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Shines' is the action word in the sentence, making it a verb."
+    },
+    {
+      "id": 25,
+      "type": "image_mcq",
+      "question": "Which word is a preposition describing the cat's location?",
+      "image": "https://via.placeholder.com/400x200/3357FF/ffffff?text=A+cat+under+a+table",
+      "options": {
+        "A": "under",
+        "B": "cat",
+        "C": "table",
+        "D": "blue"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Under' is the preposition indicating the spatial relationship of the cat to the table."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which of the following is a common noun?",
+      "options": {
+        "A": "Microsoft",
+        "B": "happiness",
+        "C": "Jupiter",
+        "D": "Monday"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Happiness' is a general, non-specific concept (an abstract common noun), unlike the proper nouns listed."
+    },
+    {
+      "id": 27,
+      "type": "passage_mcq",
+      "passage": "The wind howled fiercely through the trees. Leaves danced wildly in the autumn air.",
+      "question": "What part of speech is 'wildly'?",
+      "options": {
+        "A": "Noun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Verb"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Wildly' modifies the verb 'danced', describing how the leaves moved."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Identify the adjective: 'We visited a historic castle in Scotland.'",
+      "options": {
+        "A": "visited",
+        "B": "castle",
+        "C": "in",
+        "D": "historic"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Historic' describes the noun 'castle', making it an adjective."
+    },
+    {
+      "id": 29,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on pronoun case.",
+      "sentence": "Me and my friend went to the movies.",
+      "tokens": [
+        "Me",
+        "and",
+        "my",
+        "friend",
+        "went",
+        "to",
+        "the",
+        "movies",
+        "."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "I"
+      ],
+      "explanation": "The subject pronoun 'I' is required as part of the compound subject, not the object pronoun 'Me'."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Which word is a conjunction? 'Do you want pizza or pasta for dinner?'",
+      "options": {
+        "A": "want",
+        "B": "pizza",
+        "C": "or",
+        "D": "dinner"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Or' is a coordinating conjunction presenting an alternative."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Identify the preposition: 'She walked through the dark forest.'",
+      "options": {
+        "A": "She",
+        "B": "through",
+        "C": "dark",
+        "D": "forest"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Through' indicates movement from one side of the forest to the other."
+    },
+    {
+      "id": 32,
+      "type": "passage_mcq",
+      "passage": "Alas, the team lost the championship game. They played well, but the other team was simply better.",
+      "question": "What part of speech is 'Alas'?",
+      "options": {
+        "A": "Adverb",
+        "B": "Conjunction",
+        "C": "Noun",
+        "D": "Interjection"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Alas' is an interjection used to express grief, pity, or concern."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which word is a verb? 'The artist painted a beautiful portrait.'",
+      "options": {
+        "A": "painted",
+        "B": "artist",
+        "C": "beautiful",
+        "D": "portrait"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Painted' is the action performed by the artist, making it a verb."
+    },
+    {
+      "id": 34,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on subject-verb agreement.",
+      "sentence": "The quick brown fox jump over the fence.",
+      "tokens": [
+        "The",
+        "quick",
+        "brown",
+        "fox",
+        "jump",
+        "over",
+        "the",
+        "fence",
+        "."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "jumps"
+      ],
+      "explanation": "The singular subject 'fox' requires the third-person singular verb form 'jumps'."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Identify the adverb: 'He answered the question correctly.'",
+      "options": {
+        "A": "He",
+        "B": "answered",
+        "C": "question",
+        "D": "correctly"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Correctly' modifies the verb 'answered', describing how the action was done."
+    },
+    {
+      "id": 36,
+      "type": "image_mcq",
+      "question": "Which word is an adjective that could describe the child in the image?",
+      "image": "https://via.placeholder.com/400x200/FF33A8/ffffff?text=A+Happy+Smiling+Child",
+      "options": {
+        "A": "Smile",
+        "B": "Happy",
+        "C": "Child",
+        "D": "Run"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Happy' is an adjective describing the emotional state of the noun 'Child'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which word is a pronoun? 'Nobody knows the answer to that riddle.'",
+      "options": {
+        "A": "Nobody",
+        "B": "knows",
+        "C": "answer",
+        "D": "riddle"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Nobody' is an indefinite pronoun referring to no person."
+    },
+    {
+      "id": 38,
+      "type": "passage_mcq",
+      "passage": "During the storm, the power went out. We lit candles and waited patiently for the electricity to return.",
+      "question": "What part of speech is 'During'?",
+      "options": {
+        "A": "Verb",
+        "B": "Adverb",
+        "C": "Preposition",
+        "D": "Conjunction"
+      },
+      "correctAnswer": "C",
+      "explanation": "'During' is a preposition showing the relationship in time between the storm and the power outage."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Identify the conjunction: 'Neither the blue shirt nor the red one fits me.'",
+      "options": {
+        "A": "blue",
+        "B": "shirt",
+        "C": "fits",
+        "D": "nor"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Nor' is a coordinating conjunction used in correlation with 'neither'."
+    },
+    {
+      "id": 40,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on pronoun case.",
+      "sentence": "She gave the book to he.",
+      "tokens": [
+        "She",
+        "gave",
+        "the",
+        "book",
+        "to",
+        "he",
+        "."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "him"
+      ],
+      "explanation": "The object pronoun 'him' is required after the preposition 'to', not the subject pronoun 'he'."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which word is an adjective? 'The mysterious package arrived yesterday.'",
+      "options": {
+        "A": "arrived",
+        "B": "yesterday",
+        "C": "mysterious",
+        "D": "package"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Mysterious' describes the noun 'package', making it an adjective."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which word is an interjection? 'Hey! Watch where you are going.'",
+      "options": {
+        "A": "Hey",
+        "B": "Watch",
+        "C": "where",
+        "D": "going"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Hey' is an interjection used to call attention or express a sudden emotion."
+    },
+    {
+      "id": 43,
+      "type": "passage_mcq",
+      "passage": "The chef carefully chopped the vegetables. He then simmered the soup for two hours.",
+      "question": "What part of speech is 'carefully'?",
+      "options": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adjective",
+        "D": "Adverb"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Carefully' modifies the verb 'chopped', describing the manner of the action."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "Identify the noun: 'The elephant walked slowly.'",
+      "options": {
+        "A": "The",
+        "B": "elephant",
+        "C": "walked",
+        "D": "slowly"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Elephant' is a thing (an animal), making it a noun."
+    },
+    {
+      "id": 45,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on parts of speech.",
+      "sentence": "He runs very fastly.",
+      "tokens": [
+        "He",
+        "runs",
+        "very",
+        "fastly",
+        "."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "fast"
+      ],
+      "explanation": "'Fast' is both an adjective and an adverb; 'fastly' is not a standard English word."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which word is a preposition? 'The bird flew above the clouds.'",
+      "options": {
+        "A": "bird",
+        "B": "flew",
+        "C": "above",
+        "D": "clouds"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Above' shows the spatial relationship between the bird and the clouds."
+    },
+    {
+      "id": 47,
+      "type": "image_mcq",
+      "question": "Which word is an adverb describing how the person is speaking?",
+      "image": "https://via.placeholder.com/400x200/A833FF/ffffff?text=A+person+speaking+louder",
+      "options": {
+        "A": "Person",
+        "B": "Speaking",
+        "C": "Purple",
+        "D": "Loudly"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Loudly' is an adverb that modifies the verb 'speaking', describing the volume of the action."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Identify the pronoun: 'Who left their umbrella in the hallway?'",
+      "options": {
+        "A": "left",
+        "B": "their",
+        "C": "umbrella",
+        "D": "hallway"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Their' is a possessive pronoun indicating ownership of the umbrella."
+    },
+    {
+      "id": 49,
+      "type": "passage_mcq",
+      "passage": "If you study hard, you will pass the exam. Therefore, you should start reviewing your notes today.",
+      "question": "What part of speech is 'If'?",
+      "options": {
+        "A": "Conjunction",
+        "B": "Preposition",
+        "C": "Adverb",
+        "D": "Noun"
+      },
+      "correctAnswer": "A",
+      "explanation": "'If' is a subordinating conjunction that introduces a conditional clause."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which word is an adjective? 'The ancient ruins attracted many tourists.'",
+      "options": {
+        "A": "ruins",
+        "B": "attracted",
+        "C": "ancient",
+        "D": "tourists"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Ancient' describes the noun 'ruins', making it an adjective."
+    }
+  ]
+}
