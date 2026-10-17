@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "title": "Present Continuous Tense English Test",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Look! The children ___ in the garden.",
+      "options": {
+        "A": "play",
+        "B": "plays",
+        "C": "are playing",
+        "D": "is playing"
+      },
+      "correctAnswer": "C",
+      "explanation": "The plural subject 'children' requires the auxiliary 'are' + verb-ing for actions happening right now."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She are watching a movie right now.",
+      "tokens": [
+        "She",
+        "are",
+        "watching",
+        "a",
+        "movie",
+        "right",
+        "now."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The third-person singular subject 'She' requires the auxiliary verb 'is', not 'are'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "I ___ to the music at the moment.",
+      "options": {
+        "A": "am listening",
+        "B": "is listening",
+        "C": "listen",
+        "D": "listens"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first-person singular subject 'I' takes 'am' + verb-ing in the present continuous tense."
+    },
+    {
+      "id": 4,
+      "type": "image_mcq",
+      "question": "What is the person in the image doing?",
+      "image": "https://via.placeholder.com/400x200/00FF00/ffffff?text=Person+cooking",
+      "options": {
+        "A": "He cooks",
+        "B": "He is cook",
+        "C": "He cooked",
+        "D": "He is cooking"
+      },
+      "correctAnswer": "D",
+      "explanation": "The image shows an ongoing action, requiring the present continuous form 'is cooking'."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They is studying for their exam.",
+      "tokens": [
+        "They",
+        "is",
+        "studying",
+        "for",
+        "their",
+        "exam."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The plural subject 'They' requires the auxiliary verb 'are', not 'is'."
+    },
+    {
+      "id": 6,
+      "type": "passage_mcq",
+      "passage": "It is a rainy Sunday. John is sitting by the window. He is drinking a cup of tea and reading a mystery novel. His dog is sleeping on the rug. They are not going to the park today because of the weather.",
+      "question": "What is John doing?",
+      "options": {
+        "A": "He is sleeping",
+        "B": "He is drinking tea and reading",
+        "C": "He is walking the dog",
+        "D": "He is cooking"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'He is drinking a cup of tea and reading a mystery novel.'"
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Why ___ you ___ that old shirt? It has a hole in it.",
+      "options": {
+        "A": "do / wear",
+        "B": "does / wear",
+        "C": "are / wears",
+        "D": "are / wearing"
+      },
+      "correctAnswer": "D",
+      "explanation": "Questions in the present continuous with 'you' use the auxiliary 'are' + subject + verb-ing."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We am waiting for the bus.",
+      "tokens": [
+        "We",
+        "am",
+        "waiting",
+        "for",
+        "the",
+        "bus."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The first-person plural subject 'We' requires the auxiliary verb 'are', not 'am'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "My brother ___ his homework right now.",
+      "options": {
+        "A": "is doing",
+        "B": "are doing",
+        "C": "do",
+        "D": "does"
+      },
+      "correctAnswer": "A",
+      "explanation": "The third-person singular subject 'My brother' requires 'is' + verb-ing."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Be quiet! The baby ___.",
+      "options": {
+        "A": "sleep",
+        "B": "sleeps",
+        "C": "is sleeping",
+        "D": "are sleeping"
+      },
+      "correctAnswer": "C",
+      "explanation": "The singular subject 'baby' requires 'is' + verb-ing to describe an action happening at the moment of speaking."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He is runing very fast.",
+      "tokens": [
+        "He",
+        "is",
+        "runing",
+        "very",
+        "fast."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "running"
+      ],
+      "explanation": "Verbs ending in a single consonant preceded by a single vowel double the consonant before adding -ing (run -> running)."
+    },
+    {
+      "id": 12,
+      "type": "image_mcq",
+      "question": "Which sentence correctly describes the image?",
+      "image": "https://via.placeholder.com/400x200/0000FF/ffffff?text=People+swimming",
+      "options": {
+        "A": "They swim every day.",
+        "B": "They are swimming right now.",
+        "C": "They swam yesterday.",
+        "D": "They will swim tomorrow."
+      },
+      "correctAnswer": "B",
+      "explanation": "The image depicts an ongoing action, which is best described using the present continuous tense."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "She ___ to the office by car this week because her bike is broken.",
+      "options": {
+        "A": "go",
+        "B": "goes",
+        "C": "are going",
+        "D": "is going"
+      },
+      "correctAnswer": "D",
+      "explanation": "The present continuous is used for temporary situations happening around the present time ('this week')."
+    },
+    {
+      "id": 14,
+      "type": "passage_mcq",
+      "passage": "Currently, the city is undergoing major changes. New roads are being built, and many old buildings are being renovated. People are complaining about the noise, but the mayor says the improvements are necessary.",
+      "question": "Why are people complaining?",
+      "options": {
+        "A": "Because of the noise",
+        "B": "Because of the new roads",
+        "C": "Because the mayor is renovating",
+        "D": "Because buildings are old"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'People are complaining about the noise'."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "What do you doing right now?",
+      "tokens": [
+        "What",
+        "do",
+        "you",
+        "doing",
+        "right",
+        "now?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "Questions in the present continuous use the verb 'to be' (are), not the auxiliary 'do'."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "We ___ a party next Saturday. (Future arrangement)",
+      "options": {
+        "A": "have",
+        "B": "are having",
+        "C": "has",
+        "D": "having"
+      },
+      "correctAnswer": "B",
+      "explanation": "The present continuous tense is used to talk about fixed future arrangements."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "I ___ what you mean.",
+      "options": {
+        "A": "am understanding",
+        "B": "is understanding",
+        "C": "understand",
+        "D": "are understanding"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Understand' is a stative verb and is generally not used in the continuous form."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The cats is playing with a ball.",
+      "tokens": [
+        "The",
+        "cats",
+        "is",
+        "playing",
+        "with",
+        "a",
+        "ball."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The plural subject 'The cats' requires the plural auxiliary verb 'are'."
+    },
+    {
+      "id": 19,
+      "type": "image_mcq",
+      "question": "What is happening in the picture?",
+      "image": "https://via.placeholder.com/400x200/FFFF00/000000?text=Man+writing+on+whiteboard",
+      "options": {
+        "A": "He is writing on the whiteboard.",
+        "B": "He writes on the whiteboard every day.",
+        "C": "He wrote on the whiteboard.",
+        "D": "He will write on the whiteboard."
+      },
+      "correctAnswer": "A",
+      "explanation": "The image shows an action in progress, requiring the present continuous form 'is writing'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "___ it ___ outside at the moment?",
+      "options": {
+        "A": "Do / snow",
+        "B": "Does / snow",
+        "C": "Are / snowing",
+        "D": "Is / snowing"
+      },
+      "correctAnswer": "D",
+      "explanation": "The singular subject 'it' requires the auxiliary 'Is' + verb-ing for present continuous questions."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They aren't listens to the teacher.",
+      "tokens": [
+        "They",
+        "aren't",
+        "listens",
+        "to",
+        "the",
+        "teacher."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "listening"
+      ],
+      "explanation": "In the present continuous tense, the main verb must always be in the -ing form."
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "passage": "Right now, Maria is working on her laptop. She is typing an important email to her client. Her phone is ringing, but she is ignoring it because she needs to focus.",
+      "question": "Why is Maria ignoring her phone?",
+      "options": {
+        "A": "It is broken",
+        "B": "She is talking on it",
+        "C": "She needs to focus",
+        "D": "She is typing a text message"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states she is ignoring it 'because she needs to focus'."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "You ___ always ___ your keys! It's so frustrating.",
+      "options": {
+        "A": "are / losing",
+        "B": "do / lose",
+        "C": "is / losing",
+        "D": "does / lose"
+      },
+      "correctAnswer": "A",
+      "explanation": "The present continuous with 'always' is used to express annoyance at a repeated habit."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am study for my history test.",
+      "tokens": [
+        "I",
+        "am",
+        "study",
+        "for",
+        "my",
+        "history",
+        "test."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "studying"
+      ],
+      "explanation": "The verb must take the -ing form after the auxiliary 'am' to form the present continuous."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Where ___ they ___ for their summer vacation?",
+      "options": {
+        "A": "do / go",
+        "B": "are / going",
+        "C": "is / going",
+        "D": "does / go"
+      },
+      "correctAnswer": "B",
+      "explanation": "The plural subject 'they' requires the auxiliary 'are' + verb-ing for future arrangements or current actions."
+    },
+    {
+      "id": 26,
+      "type": "image_mcq",
+      "question": "Choose the correct present continuous sentence for the image.",
+      "image": "https://via.placeholder.com/400x200/FF00FF/ffffff?text=Girl+riding+bicycle",
+      "options": {
+        "A": "She rides a bicycle.",
+        "B": "She rode a bicycle.",
+        "C": "She is riding a bicycle.",
+        "D": "She has ridden a bicycle."
+      },
+      "correctAnswer": "C",
+      "explanation": "Option C correctly uses the present continuous tense ('is riding') to describe the ongoing action in the image."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Is he play video games now?",
+      "tokens": [
+        "Is",
+        "he",
+        "play",
+        "video",
+        "games",
+        "now?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "playing"
+      ],
+      "explanation": "After the auxiliary 'Is', the main verb must be in the -ing form ('playing')."
+    },
+    {
+      "id": 28,
+      "type": "passage_mcq",
+      "passage": "The students are taking a test right now. The teacher is walking around the room to make sure no one is cheating. Everyone is working quietly.",
+      "question": "What is the teacher doing?",
+      "options": {
+        "A": "Taking a test",
+        "B": "Cheating",
+        "C": "Working quietly",
+        "D": "Walking around the room"
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage states, 'The teacher is walking around the room'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "My parents ___ to visit us next month.",
+      "options": {
+        "A": "are coming",
+        "B": "is coming",
+        "C": "come",
+        "D": "comes"
+      },
+      "correctAnswer": "A",
+      "explanation": "The plural subject 'My parents' requires 'are' + verb-ing to describe a fixed future arrangement."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We is having a great time at the beach.",
+      "tokens": [
+        "We",
+        "is",
+        "having",
+        "a",
+        "great",
+        "time",
+        "at",
+        "the",
+        "beach."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The first-person plural subject 'We' requires the auxiliary verb 'are', not 'is'."
+    }
+  ]
+}
