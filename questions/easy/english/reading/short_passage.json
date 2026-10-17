@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "title": "English Reading (Short Passage) Test",
+    "timeLimits": {
+      "fast": 30,
+      "normal": 45,
+      "easy": 60
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "passage_mcq",
+      "passage": "Mr. Henderson’s bookstore has been a town staple for over forty years. Tucked away on a quiet cobblestone street, it smells of aged paper and vanilla. Unlike modern chains, this shop specializes in rare, first-edition novels. Mr. Henderson believes every book has a soul, and he personally recommends a title to each visitor.",
+      "question": "What makes Mr. Henderson's bookstore unique?",
+      "options": {
+        "A": "It sells modern bestsellers.",
+        "B": "It is located on a busy highway.",
+        "C": "It specializes in rare, first-edition novels.",
+        "D": "It is a large chain store."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states that the shop 'specializes in rare, first-edition novels.'"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "In the passage about the bookstore, the word 'staple' most likely means:",
+      "options": {
+        "A": "A metal fastener",
+        "B": "An essential and prominent feature",
+        "C": "A type of food",
+        "D": "A temporary attraction"
+      },
+      "correctAnswer": "B",
+      "explanation": "In this context, 'staple' refers to something that is a main or important element of the town."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "The shop specializes in rare, modern novels.",
+      "tokens": [
+        "The",
+        "shop",
+        "specializes",
+        "in",
+        "rare,",
+        "modern",
+        "novels."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "first-edition",
+        "antique",
+        "old"
+      ],
+      "explanation": "The passage states the shop specializes in 'first-edition' novels, not modern ones."
+    },
+    {
+      "id": 4,
+      "type": "passage_mcq",
+      "passage": "Honeybees are vital to our ecosystem primarily because of pollination. As they travel from flower to flower collecting nectar, they transfer pollen, enabling plants to produce fruits and seeds. A single hive can contain up to 60,000 bees, all working together under the direction of one queen.",
+      "question": "Why are honeybees vital to the ecosystem?",
+      "options": {
+        "A": "They produce honey for humans.",
+        "B": "They protect flowers from predators.",
+        "C": "They transfer pollen to help plants produce fruits and seeds.",
+        "D": "They keep the hive warm."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states that bees are vital 'because of pollination,' which enables plants to produce fruits and seeds."
+    },
+    {
+      "id": 5,
+      "type": "image_mcq",
+      "question": "Which image best illustrates the main activity of honeybees described in the passage?",
+      "image": "https://via.placeholder.com/400x200/FFD700/000000?text=Bees+and+Flowers",
+      "options": {
+        "A": "https://via.placeholder.com/150/FFD700/000000?text=Bees+sleeping",
+        "B": "https://via.placeholder.com/150/FFD700/000000?text=Bees+pollinating+flowers",
+        "C": "https://via.placeholder.com/150/FFD700/000000?text=Bees+fighting",
+        "D": "https://via.placeholder.com/150/FFD700/000000?text=Bees+building+wood"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage describes bees traveling from flower to flower to transfer pollen, which is pollination."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "A single hive can contain up to 60,000 ants.",
+      "tokens": [
+        "A",
+        "single",
+        "hive",
+        "can",
+        "contain",
+        "up",
+        "to",
+        "60,000",
+        "ants."
+      ],
+      "incorrectIndex": 8,
+      "correctAnswers": [
+        "bees."
+      ],
+      "explanation": "The passage specifies that a hive contains up to 60,000 'bees', not ants."
+    },
+    {
+      "id": 7,
+      "type": "passage_mcq",
+      "passage": "Hi Team, Just a quick reminder that our monthly strategy meeting has been moved from Thursday to Wednesday at 2:00 PM. Please bring your updated sales reports. The conference room on the third floor is booked. Let me know if you have any conflicts. Best, Sarah.",
+      "question": "What is the main purpose of this email?",
+      "options": {
+        "A": "To request a day off",
+        "B": "To inform the team about a schedule change for a meeting",
+        "C": "To share the final sales reports",
+        "D": "To book a new conference room"
+      },
+      "correctAnswer": "B",
+      "explanation": "The email's primary goal is to notify the team that the meeting time has changed from Thursday to Wednesday."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "In the email, what does the word 'conflicts' most likely mean?",
+      "options": {
+        "A": "Physical fights",
+        "B": "Scheduling overlaps or problems",
+        "C": "Disagreements about sales",
+        "D": "Technical issues"
+      },
+      "correctAnswer": "B",
+      "explanation": "In a professional scheduling context, 'conflicts' refers to overlapping appointments or scheduling problems."
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "The meeting is now on Thursday at 2:00 PM.",
+      "tokens": [
+        "The",
+        "meeting",
+        "is",
+        "now",
+        "on",
+        "Thursday",
+        "at",
+        "2:00",
+        "PM."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "Wednesday"
+      ],
+      "explanation": "The email states the meeting has been moved to 'Wednesday', not Thursday."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Invented by Johannes Gutenberg around 1440, the printing press revolutionized the spread of information. Before its invention, books were copied by hand, making them rare and expensive. The printing press allowed for the mass production of texts, which significantly increased literacy rates across Europe.",
+      "question": "What was the primary impact of the printing press?",
+      "options": {
+        "A": "It made books more expensive.",
+        "B": "It allowed for the mass production of texts and increased literacy.",
+        "C": "It replaced hand-copying with digital screens.",
+        "D": "It decreased the number of books available."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states it 'allowed for the mass production of texts, which significantly increased literacy rates'."
+    },
+    {
+      "id": 11,
+      "type": "image_mcq",
+      "question": "Which invention is the main subject of this passage?",
+      "image": "https://via.placeholder.com/400x200/808080/ffffff?text=Historical+Invention",
+      "options": {
+        "A": "https://via.placeholder.com/150/808080/ffffff?text=Telephone",
+        "B": "https://via.placeholder.com/150/808080/ffffff?text=Printing+Press",
+        "C": "https://via.placeholder.com/150/808080/ffffff?text=Compass",
+        "D": "https://via.placeholder.com/150/808080/ffffff?text=Lightbulb"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage is explicitly about Johannes Gutenberg's invention of the printing press."
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "Books were copied by hand, making them rare and common.",
+      "tokens": [
+        "Books",
+        "were",
+        "copied",
+        "by",
+        "hand,",
+        "making",
+        "them",
+        "rare",
+        "and",
+        "common."
+      ],
+      "incorrectIndex": 9,
+      "correctAnswers": [
+        "expensive."
+      ],
+      "explanation": "The passage states that hand-copied books were 'rare and expensive', not common."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "passage": "The Amazon Rainforest, often called the 'lungs of the Earth,' produces about 20% of the world's oxygen. It is home to millions of species of insects, plants, birds, and mammals. However, deforestation poses a severe threat to this delicate ecosystem, primarily due to logging and agricultural expansion.",
+      "question": "Why is the Amazon Rainforest called the 'lungs of the Earth'?",
+      "options": {
+        "A": "It is shaped like a pair of lungs.",
+        "B": "It produces about 20% of the world's oxygen.",
+        "C": "It is home to many breathing mammals.",
+        "D": "It absorbs all the world's carbon dioxide."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage directly links the nickname to the fact that it 'produces about 20% of the world's oxygen'."
+    },
+    {
+      "id": 14,
+      "type": "passage_mcq",
+      "passage": "The Amazon Rainforest, often called the 'lungs of the Earth,' produces about 20% of the world's oxygen. It is home to millions of species of insects, plants, birds, and mammals. However, deforestation poses a severe threat to this delicate ecosystem, primarily due to logging and agricultural expansion.",
+      "question": "What is the main threat to the Amazon mentioned in the passage?",
+      "options": {
+        "A": "Climate change",
+        "B": "Deforestation from logging and agriculture",
+        "C": "Invasive insect species",
+        "D": "Lack of rainfall"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage states that 'deforestation poses a severe threat... primarily due to logging and agricultural expansion'."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on general knowledge aligned with the passage topic.",
+      "sentence": "The Amazon is located primarily in Europe.",
+      "tokens": [
+        "The",
+        "Amazon",
+        "is",
+        "located",
+        "primarily",
+        "in",
+        "Europe."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "South America."
+      ],
+      "explanation": "The Amazon Rainforest is located in South America, not Europe."
+    },
+    {
+      "id": 16,
+      "type": "passage_mcq",
+      "passage": "Maya wakes up at 6:00 AM every weekday. After a quick breakfast of oatmeal and fruit, she commutes to the city center by bus, which takes about forty minutes. She works as a graphic designer until 5:00 PM. In the evenings, she enjoys cooking new recipes or reading a good book.",
+      "question": "How does Maya get to work?",
+      "options": {
+        "A": "By car",
+        "B": "By train",
+        "C": "By bus",
+        "D": "By bicycle"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states she 'commutes to the city center by bus'."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Based on the passage, what is Maya's profession?",
+      "options": {
+        "A": "Chef",
+        "B": "Teacher",
+        "C": "Graphic designer",
+        "D": "Bus driver"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states, 'She works as a graphic designer until 5:00 PM.'"
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "She commutes to the city center by train.",
+      "tokens": [
+        "She",
+        "commutes",
+        "to",
+        "the",
+        "city",
+        "center",
+        "by",
+        "train."
+      ],
+      "incorrectIndex": 7,
+      "correctAnswers": [
+        "bus."
+      ],
+      "explanation": "The passage specifies that Maya commutes by 'bus', not by train."
+    },
+    {
+      "id": 19,
+      "type": "passage_mcq",
+      "passage": "In a modern retelling of the classic fable, the hare didn't stop to sleep. Instead, he got distracted by his smartphone, watching videos and texting friends. Meanwhile, the tortoise maintained a steady, uninterrupted pace. As a result, the tortoise crossed the finish line while the hare was still scrolling.",
+      "question": "Why did the hare lose the race in this version?",
+      "options": {
+        "A": "He stopped to sleep.",
+        "B": "He was injured.",
+        "C": "He was distracted by his smartphone.",
+        "D": "He took a wrong turn."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states the hare 'got distracted by his smartphone, watching videos and texting friends'."
+    },
+    {
+      "id": 20,
+      "type": "passage_mcq",
+      "passage": "In a modern retelling of the classic fable, the hare didn't stop to sleep. Instead, he got distracted by his smartphone, watching videos and texting friends. Meanwhile, the tortoise maintained a steady, uninterrupted pace. As a result, the tortoise crossed the finish line while the hare was still scrolling.",
+      "question": "What is the moral of this modern fable?",
+      "options": {
+        "A": "Smartphones are useless.",
+        "B": "Steady focus is better than distracted speed.",
+        "C": "Tortoises are naturally faster than hares.",
+        "D": "Texting friends is the most important activity."
+      },
+      "correctAnswer": "B",
+      "explanation": "The story contrasts the tortoise's 'steady, uninterrupted pace' with the hare's distraction, showing that focus leads to success."
+    },
+    {
+      "id": 21,
+      "type": "image_mcq",
+      "question": "Which image best represents the hare's action in the story?",
+      "image": "https://via.placeholder.com/400x200/FFA500/000000?text=Modern+Fable",
+      "options": {
+        "A": "https://via.placeholder.com/150/FFA500/000000?text=Hare+sleeping",
+        "B": "https://via.placeholder.com/150/FFA500/000000?text=Hare+running+fast",
+        "C": "https://via.placeholder.com/150/FFA500/000000?text=Hare+using+smartphone",
+        "D": "https://via.placeholder.com/150/FFA500/000000?text=Hare+eating+carrots"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly mentions the hare was distracted by his smartphone, watching videos and texting."
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "passage": "Photosynthesis is the process by which green plants make their own food. Using sunlight, water, and carbon dioxide, plants produce glucose and release oxygen as a byproduct. This process primarily occurs in the leaves, within specialized structures called chloroplasts.",
+      "question": "What are the three main ingredients plants need for photosynthesis?",
+      "options": {
+        "A": "Glucose, oxygen, and soil",
+        "B": "Sunlight, water, and carbon dioxide",
+        "C": "Chloroplasts, glucose, and water",
+        "D": "Sunlight, oxygen, and glucose"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage lists the ingredients as 'sunlight, water, and carbon dioxide'."
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "passage": "Photosynthesis is the process by which green plants make their own food. Using sunlight, water, and carbon dioxide, plants produce glucose and release oxygen as a byproduct. This process primarily occurs in the leaves, within specialized structures called chloroplasts.",
+      "question": "What is released as a byproduct of photosynthesis?",
+      "options": {
+        "A": "Carbon dioxide",
+        "B": "Glucose",
+        "C": "Water",
+        "D": "Oxygen"
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage states that plants 'release oxygen as a byproduct'."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "Plants release carbon dioxide as a byproduct of photosynthesis.",
+      "tokens": [
+        "Plants",
+        "release",
+        "carbon dioxide",
+        "as",
+        "a",
+        "byproduct",
+        "of",
+        "photosynthesis."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "oxygen"
+      ],
+      "explanation": "The passage clearly states that plants release 'oxygen' as a byproduct, not carbon dioxide."
+    },
+    {
+      "id": 25,
+      "type": "passage_mcq",
+      "passage": "Last Saturday, our class visited the Natural History Museum. The most fascinating exhibit was the dinosaur skeleton in the main hall. Our guide explained that it belonged to a T-Rex that lived over 65 million years ago. We also saw a collection of ancient Egyptian artifacts before having lunch in the museum café.",
+      "question": "What was the most fascinating exhibit for the class?",
+      "options": {
+        "A": "The ancient Egyptian artifacts",
+        "B": "The museum café",
+        "C": "The dinosaur skeleton",
+        "D": "The modern art gallery"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'The most fascinating exhibit was the dinosaur skeleton in the main hall.'"
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "In the passage, the word 'fascinating' most nearly means:",
+      "options": {
+        "A": "Extremely interesting",
+        "B": "Very boring",
+        "C": "Slightly confusing",
+        "D": "Highly dangerous"
+      },
+      "correctAnswer": "A",
+      "explanation": "In this context, 'fascinating' describes something that captures intense interest, meaning 'extremely interesting'."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on the passage.",
+      "sentence": "Our class visited the museum on Monday.",
+      "tokens": [
+        "Our",
+        "class",
+        "visited",
+        "the",
+        "museum",
+        "on",
+        "Monday."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "Saturday."
+      ],
+      "explanation": "The passage begins with 'Last Saturday, our class visited the Natural History Museum.'"
+    },
+    {
+      "id": 28,
+      "type": "passage_mcq",
+      "passage": "Regular reading offers numerous cognitive benefits. It expands vocabulary, improves concentration, and enhances critical thinking skills. Furthermore, diving into a good book can reduce stress by lowering heart rate and easing muscle tension, making it a healthy habit for both mind and body.",
+      "question": "According to the passage, how does reading affect the body physically?",
+      "options": {
+        "A": "It increases heart rate.",
+        "B": "It lowers heart rate and eases muscle tension.",
+        "C": "It builds muscle strength.",
+        "D": "It improves eyesight permanently."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage states that reading can 'reduce stress by lowering heart rate and easing muscle tension'."
+    },
+    {
+      "id": 29,
+      "type": "image_mcq",
+      "question": "Which activity is promoted as a healthy habit for both mind and body in the passage?",
+      "image": "https://via.placeholder.com/400x200/0000FF/ffffff?text=Healthy+Habits",
+      "options": {
+        "A": "https://via.placeholder.com/150/0000FF/ffffff?text=Watching+TV",
+        "B": "https://via.placeholder.com/150/0000FF/ffffff?text=Playing+Video+Games",
+        "C": "https://via.placeholder.com/150/0000FF/ffffff?text=Reading+a+Book",
+        "D": "https://via.placeholder.com/150/0000FF/ffffff?text=Sleeping+all+day"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage is entirely about the benefits of 'Regular reading' and 'diving into a good book'."
+    },
+    {
+      "id": 30,
+      "type": "passage_mcq",
+      "passage": "Regular reading offers numerous cognitive benefits. It expands vocabulary, improves concentration, and enhances critical thinking skills. Furthermore, diving into a good book can reduce stress by lowering heart rate and easing muscle tension, making it a healthy habit for both mind and body.",
+      "question": "What is the author's main purpose in this passage?",
+      "options": {
+        "A": "To criticize people who do not read",
+        "B": "To explain the history of books",
+        "C": "To highlight the cognitive and physical benefits of reading",
+        "D": "To sell a specific brand of books"
+      },
+      "correctAnswer": "C",
+      "explanation": "The entire passage is dedicated to listing the mental ('cognitive benefits') and physical ('lowering heart rate') advantages of reading."
+    }
+  ]
+}
