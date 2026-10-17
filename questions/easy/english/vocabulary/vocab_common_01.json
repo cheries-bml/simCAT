@@ -145,19 +145,6 @@
       "type": "mcq",
       "question": "What is the meaning of the noun 'jurisdiction'?",
       "options": {
-        "A": "A formal written command",
-        "B": "The official power to make legal decisions and judgments",
-        "C": "A secret military operation",
-        "D": "The act of recruiting new soldiers"
-      },
-      "correctAnswer": "D",
-      "explanation": "Wait, let's fix the correct answer. 'Jurisdiction' means the official power to make legal decisions and judgments. Let's make B the correct answer and adjust the key."
-    },
-    {
-      "id": 10,
-      "type": "mcq",
-      "question": "What is the meaning of the noun 'jurisdiction'?",
-      "options": {
         "A": "A secret military operation",
         "B": "The official power to make legal decisions and judgments",
         "C": "A formal written command",
