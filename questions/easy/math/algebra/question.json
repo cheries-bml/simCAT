@@ -1,51 +1,827 @@
-[
-  {
-    "id": "math-alg-001",
-    "type": "multiple_choice",
-    "question": "Solve for x: 2x + 5 = 15",
-    "options": {
-      "A": "x = 3",
-      "B": "x = 5",
-      "C": "x = 10",
-      "D": "x = 7.5"
-    },
-    "correct": "B",
-    "explanation": "2x + 5 = 15 \u2192 2x = 10 \u2192 x = 5",
-    "level": "easy",
-    "group": "math",
-    "topic": "algebra"
+{
+  "meta": {
+    "title": "Math Algebra Test",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    }
   },
-  {
-    "id": "math-alg-002",
-    "type": "multiple_choice",
-    "question": "What is the value of 3\u00b2 + 4\u00b2?",
-    "image": "https://picsum.photos/seed/math1/400/200",
-    "options": {
-      "A": "12",
-      "B": "25",
-      "C": "14",
-      "D": "49"
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Solve for x: 3x + 5 = 20",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "15"
+      },
+      "correctAnswer": "B",
+      "explanation": "Subtract 5 from both sides to get 3x = 15, then divide by 3 to get x = 5."
     },
-    "correct": "B",
-    "explanation": "3\u00b2 = 9, 4\u00b2 = 16, 9+16 = 25. This is the Pythagorean theorem example.",
-    "level": "easy",
-    "group": "math",
-    "topic": "algebra"
-  },
-  {
-    "id": "math-alg-003",
-    "type": "multiple_choice",
-    "question": "If y = 2x + 3, what is y when x = 4?",
-    "options": {
-      "A": "7",
-      "B": "11",
-      "C": "8",
-      "D": "5"
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect part of the equation and correct it.",
+      "sentence": "2(x + 3) = 2x + 3",
+      "tokens": [
+        "2",
+        "(",
+        "x",
+        "+",
+        "3",
+        ")",
+        "=",
+        "2x",
+        "+",
+        "3"
+      ],
+      "incorrectIndex": 9,
+      "correctAnswers": [
+        "6"
+      ],
+      "explanation": "By the distributive property, 2 must be multiplied by both x and 3, resulting in 2x + 6."
     },
-    "correct": "B",
-    "explanation": "y = 2*4 + 3 = 8+3 = 11",
-    "level": "easy",
-    "group": "math",
-    "topic": "algebra"
-  }
-]
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "A local taxi company charges a flat fee of $3.00 plus $2.00 per mile traveled. The total cost C for traveling m miles is represented by the linear equation C = 2m + 3.",
+      "question": "What is the total cost for a 5-mile ride?",
+      "options": {
+        "A": "$10",
+        "B": "$13",
+        "C": "$15",
+        "D": "$16"
+      },
+      "correctAnswer": "B",
+      "explanation": "Substitute m = 5 into the equation: C = 2(5) + 3 = 10 + 3 = 13."
+    },
+    {
+      "id": 4,
+      "type": "image_mcq",
+      "question": "Based on the graph of the line, what is the y-intercept?",
+      "image": "https://via.placeholder.com/400x200/0000FF/ffffff?text=Graph+of+y+=+2x+-+4",
+      "options": {
+        "A": "2",
+        "B": "-2",
+        "C": "4",
+        "D": "-4"
+      },
+      "correctAnswer": "D",
+      "explanation": "The equation is y = 2x - 4, so the y-intercept (where x = 0) is -4."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Factor the expression: x² - 9",
+      "options": {
+        "A": "(x - 3)²",
+        "B": "(x + 3)²",
+        "C": "(x - 3)(x + 3)",
+        "D": "(x - 9)(x + 1)"
+      },
+      "correctAnswer": "C",
+      "explanation": "This is a difference of squares: a² - b² = (a - b)(a + b)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Simplify the expression: (2x³)²",
+      "options": {
+        "A": "2x⁶",
+        "B": "4x⁵",
+        "C": "4x⁶",
+        "D": "2x⁵"
+      },
+      "correctAnswer": "C",
+      "explanation": "Apply the power of a product rule: (2)² * (x³)² = 4x⁶."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect step and correct it.",
+      "sentence": "x² - 4x + 4 = (x - 4)²",
+      "tokens": [
+        "x²",
+        "-",
+        "4x",
+        "+",
+        "4",
+        "=",
+        "(",
+        "x",
+        "-",
+        "4",
+        ")²"
+      ],
+      "incorrectIndex": 9,
+      "correctAnswers": [
+        "2"
+      ],
+      "explanation": "The expression is a perfect square trinomial: x² - 4x + 4 = (x - 2)²."
+    },
+    {
+      "id": 8,
+      "type": "passage_mcq",
+      "passage": "The formula for the area of a rectangle is A = l × w. If the length of a rectangle is 3 units more than twice its width (l = 2w + 3), and the area is 35 square units, we can set up the equation: w(2w + 3) = 35.",
+      "question": "What is the width of the rectangle?",
+      "options": {
+        "A": "3.5",
+        "B": "5",
+        "C": "7",
+        "D": "10"
+      },
+      "correctAnswer": "A",
+      "explanation": "Solving 2w² + 3w - 35 = 0 gives w = 3.5 or w = -5. Since width must be positive, w = 3.5."
+    },
+    {
+      "id": 9,
+      "type": "image_mcq",
+      "question": "Which inequality is represented by the number line in the image?",
+      "image": "https://via.placeholder.com/400x200/FF0000/ffffff?text=Number+line+with+open+circle+at+3+shading+right",
+      "options": {
+        "A": "x ≤ 3",
+        "B": "x < 3",
+        "C": "x ≥ 3",
+        "D": "x > 3"
+      },
+      "correctAnswer": "D",
+      "explanation": "An open circle at 3 with shading to the right represents all numbers strictly greater than 3."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Solve the absolute value equation: |x - 3| = 5",
+      "options": {
+        "A": "x = 8 only",
+        "B": "x = -2 only",
+        "C": "x = 8 or x = -2",
+        "D": "x = 2 or x = -8"
+      },
+      "correctAnswer": "C",
+      "explanation": "Set up two equations: x - 3 = 5 (x = 8) and x - 3 = -5 (x = -2)."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "What is the slope of the line passing through the points (2, 3) and (4, 7)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Slope m = (y₂ - y₁) / (x₂ - x₁) = (7 - 3) / (4 - 2) = 4 / 2 = 2."
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect term and correct it.",
+      "sentence": "The solution to 5x - 2 > 13 is x > 2.",
+      "tokens": [
+        "The",
+        "solution",
+        "to",
+        "5x",
+        "-",
+        "2",
+        ">",
+        "13",
+        "is",
+        "x",
+        ">",
+        "2."
+      ],
+      "incorrectIndex": 11,
+      "correctAnswers": [
+        "3."
+      ],
+      "explanation": "Adding 2 to both sides gives 5x > 15. Dividing by 5 gives x > 3."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "passage": "A scientist is tracking the decay of a radioactive substance. The amount remaining after t years is given by the exponential function A(t) = 100(0.5)ᵗ, where 100 is the initial amount in grams.",
+      "question": "How much of the substance remains after 3 years?",
+      "options": {
+        "A": "12.5 grams",
+        "B": "25 grams",
+        "C": "50 grams",
+        "D": "75 grams"
+      },
+      "correctAnswer": "A",
+      "explanation": "Substitute t = 3: A(3) = 100(0.5)³ = 100(0.125) = 12.5 grams."
+    },
+    {
+      "id": 14,
+      "type": "image_mcq",
+      "question": "What is the vertex of the parabola shown in the graph?",
+      "image": "https://via.placeholder.com/400x200/008000/ffffff?text=Parabola+with+vertex+at+(-1,+2)",
+      "options": {
+        "A": "(1, -2)",
+        "B": "(-1, 2)",
+        "C": "(2, -1)",
+        "D": "(-2, 1)"
+      },
+      "correctAnswer": "B",
+      "explanation": "The lowest point (vertex) of the parabola is clearly located at the coordinates (-1, 2)."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Expand the expression: (x + 4)(x - 5)",
+      "options": {
+        "A": "x² - x - 20",
+        "B": "x² + x - 20",
+        "C": "x² - 9x - 20",
+        "D": "x² - x + 20"
+      },
+      "correctAnswer": "A",
+      "explanation": "Using FOIL: x*x + x*(-5) + 4*x + 4*(-5) = x² - 5x + 4x - 20 = x² - x - 20."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Solve the system of equations: y = 2x and y = x + 3",
+      "options": {
+        "A": "(1, 2)",
+        "B": "(2, 4)",
+        "C": "(3, 6)",
+        "D": "(4, 8)"
+      },
+      "correctAnswer": "C",
+      "explanation": "Set 2x = x + 3, which gives x = 3. Substitute x = 3 into y = 2x to get y = 6."
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect part and correct it.",
+      "sentence": "x⁰ = 0 for all non-zero x.",
+      "tokens": [
+        "x⁰",
+        "=",
+        "0",
+        "for",
+        "all",
+        "non-zero",
+        "x."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "1"
+      ],
+      "explanation": "Any non-zero number raised to the power of 0 is equal to 1, not 0."
+    },
+    {
+      "id": 18,
+      "type": "passage_mcq",
+      "passage": "The quadratic formula is x = (-b ± √(b² - 4ac)) / 2a. It is used to find the roots of any quadratic equation in the form ax² + bx + c = 0.",
+      "question": "What is the value of the discriminant (b² - 4ac) for the equation x² + 4x + 4 = 0?",
+      "options": {
+        "A": "-4",
+        "B": "0",
+        "C": "4",
+        "D": "16"
+      },
+      "correctAnswer": "B",
+      "explanation": "Here a=1, b=4, c=4. Discriminant = (4)² - 4(1)(4) = 16 - 16 = 0."
+    },
+    {
+      "id": 19,
+      "type": "image_mcq",
+      "question": "Which equation matches the graph of the horizontal line?",
+      "image": "https://via.placeholder.com/400x200/800080/ffffff?text=Horizontal+line+at+y+=+3",
+      "options": {
+        "A": "x = 3",
+        "B": "y = 3",
+        "C": "y = 3x",
+        "D": "x + y = 3"
+      },
+      "correctAnswer": "B",
+      "explanation": "A horizontal line has a constant y-value for all x, so the equation is y = 3."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Simplify the radical expression: √(50)",
+      "options": {
+        "A": "5√2",
+        "B": "2√5",
+        "C": "10√5",
+        "D": "25√2"
+      },
+      "correctAnswer": "A",
+      "explanation": "√(50) = √(25 * 2) = √25 * √2 = 5√2."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "If f(x) = 3x - 2, what is f(4)?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      },
+      "correctAnswer": "A",
+      "explanation": "Substitute x = 4 into the function: f(4) = 3(4) - 2 = 12 - 2 = 10."
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect step and correct it.",
+      "sentence": "To solve x/3 = 6, subtract 3 from both sides to get x = 3.",
+      "tokens": [
+        "To",
+        "solve",
+        "x/3",
+        "=",
+        "6,",
+        "subtract",
+        "3",
+        "from",
+        "both",
+        "sides",
+        "to",
+        "get",
+        "x",
+        "=",
+        "3."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "multiply"
+      ],
+      "explanation": "To isolate x, you must multiply both sides by 3, not subtract 3. This gives x = 18."
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "passage": "A rectangle's perimeter is given by P = 2l + 2w. If the perimeter is 30 and the length is twice the width (l = 2w), we can substitute to find the dimensions.",
+      "question": "What is the width of the rectangle?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7.5",
+        "D": "10"
+      },
+      "correctAnswer": "B",
+      "explanation": "Substitute l = 2w into P = 2l + 2w: 30 = 2(2w) + 2w = 4w + 2w = 6w. Thus, w = 5."
+    },
+    {
+      "id": 24,
+      "type": "image_mcq",
+      "question": "What is the solution to the system of equations shown in the graph?",
+      "image": "https://via.placeholder.com/400x200/000000/ffffff?text=Two+lines+intersecting+at+(2,+1)",
+      "options": {
+        "A": "(1, 2)",
+        "B": "(2, 1)",
+        "C": "(-2, -1)",
+        "D": "(0, 0)"
+      },
+      "correctAnswer": "B",
+      "explanation": "The solution to a system of linear equations graphed is the point where the lines intersect, which is (2, 1)."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which of the following is equivalent to x⁻³?",
+      "options": {
+        "A": "-3x",
+        "B": "-x³",
+        "C": "1 / x³",
+        "D": "x / 3"
+      },
+      "correctAnswer": "C",
+      "explanation": "A negative exponent indicates the reciprocal of the base raised to the positive exponent: x⁻³ = 1 / x³."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Solve for y: 3y + 7 = 2y - 5",
+      "options": {
+        "A": "-12",
+        "B": "-2",
+        "C": "2",
+        "D": "12"
+      },
+      "correctAnswer": "A",
+      "explanation": "Subtract 2y from both sides: y + 7 = -5. Subtract 7 from both sides: y = -12."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect term and correct it.",
+      "sentence": "The product of (x + 2)(x - 2) is x² + 4.",
+      "tokens": [
+        "The",
+        "product",
+        "of",
+        "(",
+        "x",
+        "+",
+        "2",
+        ")",
+        "(",
+        "x",
+        "-",
+        "2",
+        ")",
+        "is",
+        "x²",
+        "+",
+        "4."
+      ],
+      "incorrectIndex": 15,
+      "correctAnswers": [
+        "x²",
+        "-",
+        "4."
+      ],
+      "explanation": "This is a difference of squares: (x + 2)(x - 2) = x² - 4, not x² + 4."
+    },
+    {
+      "id": 28,
+      "type": "passage_mcq",
+      "passage": "The sum of three consecutive integers is 42. Let the first integer be x. The next two integers are x + 1 and x + 2. The equation is x + (x + 1) + (x + 2) = 42.",
+      "question": "What is the largest of the three integers?",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "15",
+        "D": "16"
+      },
+      "correctAnswer": "C",
+      "explanation": "3x + 3 = 42 => 3x = 39 => x = 13. The integers are 13, 14, and 15. The largest is 15."
+    },
+    {
+      "id": 29,
+      "type": "image_mcq",
+      "question": "What is the slope of the line in the image?",
+      "image": "https://via.placeholder.com/400x200/FFA500/000000?text=Line+going+down+from+left+to+right",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Undefined"
+      },
+      "correctAnswer": "B",
+      "explanation": "A line that goes down from left to right has a negative slope."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Factor completely: 2x² + 8x",
+      "options": {
+        "A": "2(x² + 4x)",
+        "B": "x(2x + 8)",
+        "C": "2x(x + 4)",
+        "D": "2x(x + 8)"
+      },
+      "correctAnswer": "C",
+      "explanation": "The greatest common factor of 2x² and 8x is 2x. Factoring it out gives 2x(x + 4)."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the domain of the function f(x) = √(x - 4)?",
+      "options": {
+        "A": "x > 4",
+        "B": "x ≥ 4",
+        "C": "x < 4",
+        "D": "All real numbers"
+      },
+      "correctAnswer": "B",
+      "explanation": "The expression inside a square root must be non-negative: x - 4 ≥ 0, so x ≥ 4."
+    },
+    {
+      "id": 32,
+      "type": "click_correct",
+      "question": "Click the incorrect part and correct it.",
+      "sentence": "The equation of a line with slope 3 and y-intercept -2 is y = -2x + 3.",
+      "tokens": [
+        "The",
+        "equation",
+        "of",
+        "a",
+        "line",
+        "with",
+        "slope",
+        "3",
+        "and",
+        "y-intercept",
+        "-2",
+        "is",
+        "y",
+        "=",
+        "-2x",
+        "+",
+        "3."
+      ],
+      "incorrectIndex": 14,
+      "correctAnswers": [
+        "3x"
+      ],
+      "explanation": "The slope-intercept form is y = mx + b. With m=3 and b=-2, the equation is y = 3x - 2."
+    },
+    {
+      "id": 33,
+      "type": "passage_mcq",
+      "passage": "A car rental company charges $40 per day plus $0.25 per mile driven. If a customer rents a car for 3 days and drives 120 miles, the total cost can be calculated using the expression: 40d + 0.25m.",
+      "question": "What is the total cost for this rental?",
+      "options": {
+        "A": "$120",
+        "B": "$150",
+        "C": "$160",
+        "D": "$180"
+      },
+      "correctAnswer": "B",
+      "explanation": "Substitute d = 3 and m = 120: 40(3) + 0.25(120) = 120 + 30 = 150."
+    },
+    {
+      "id": 34,
+      "type": "image_mcq",
+      "question": "Which algebraic expression represents the area of the rectangle shown?",
+      "image": "https://via.placeholder.com/400x200/00FFFF/000000?text=Rectangle+with+sides+x+and+x+5",
+      "options": {
+        "A": "2x + 5",
+        "B": "x + 5",
+        "C": "x² + 5",
+        "D": "x² + 5x"
+      },
+      "correctAnswer": "D",
+      "explanation": "Area = length × width = x(x + 5) = x² + 5x."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Solve the inequality: -2x > 10",
+      "options": {
+        "A": "x > -5",
+        "B": "x < -5",
+        "C": "x > 5",
+        "D": "x < 5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Divide both sides by -2. Remember to flip the inequality sign when dividing by a negative number: x < -5."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which expression is equivalent to (3x²y)(4xy³)?",
+      "options": {
+        "A": "7x³y⁴",
+        "B": "12x²y³",
+        "C": "12x³y⁴",
+        "D": "7x²y³"
+      },
+      "correctAnswer": "C",
+      "explanation": "Multiply coefficients: 3 * 4 = 12. Add exponents for like bases: x²⁺¹ = x³, y¹⁺³ = y⁴. Result: 12x³y⁴."
+    },
+    {
+      "id": 37,
+      "type": "click_correct",
+      "question": "Click the incorrect term and correct it.",
+      "sentence": "The roots of x² - 5x + 6 = 0 are x = 2 and x = -3.",
+      "tokens": [
+        "The",
+        "roots",
+        "of",
+        "x²",
+        "-",
+        "5x",
+        "+",
+        "6",
+        "=",
+        "0",
+        "are",
+        "x",
+        "=",
+        "2",
+        "and",
+        "x",
+        "=",
+        "-3."
+      ],
+      "incorrectIndex": 17,
+      "correctAnswers": [
+        "3."
+      ],
+      "explanation": "Factoring gives (x - 2)(x - 3) = 0, so the roots are x = 2 and x = 3, not -3."
+    },
+    {
+      "id": 38,
+      "type": "passage_mcq",
+      "passage": "In a right triangle, the Pythagorean theorem states that a² + b² = c², where c is the hypotenuse. If one leg is 3 and the hypotenuse is 5, we can find the other leg, b.",
+      "question": "What is the length of the other leg, b?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctAnswer": "B",
+      "explanation": "3² + b² = 5² => 9 + b² = 25 => b² = 16 => b = 4."
+    },
+    {
+      "id": 39,
+      "type": "image_mcq",
+      "question": "What is the equation of the circle shown in the image with center at the origin?",
+      "image": "https://via.placeholder.com/400x200/FF00FF/ffffff?text=Circle+centered+at+0,0+with+radius+3",
+      "options": {
+        "A": "x² + y² = 3",
+        "B": "x² + y² = 6",
+        "C": "x² + y² = 9",
+        "D": "(x - 3)² + (y - 3)² = 9"
+      },
+      "correctAnswer": "C",
+      "explanation": "The equation of a circle centered at the origin is x² + y² = r². With radius r = 3, r² = 9."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "Simplify the rational expression: (x² - 1) / (x - 1)",
+      "options": {
+        "A": "x - 1",
+        "B": "x + 1",
+        "C": "x² + 1",
+        "D": "1"
+      },
+      "correctAnswer": "B",
+      "explanation": "Factor the numerator: (x - 1)(x + 1) / (x - 1). Cancel the common factor (x - 1) to get x + 1."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "If 2(x - 3) = 14, what is the value of x?",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "10",
+        "D": "11"
+      },
+      "correctAnswer": "C",
+      "explanation": "Divide by 2: x - 3 = 7. Add 3: x = 10."
+    },
+    {
+      "id": 42,
+      "type": "click_correct",
+      "question": "Click the incorrect part and correct it.",
+      "sentence": "The expression 3x + 2y cannot be simplified further, so 3x + 2y = 5xy.",
+      "tokens": [
+        "The",
+        "expression",
+        "3x",
+        "+",
+        "2y",
+        "cannot",
+        "be",
+        "simplified",
+        "further,",
+        "so",
+        "3x",
+        "+",
+        "2y",
+        "=",
+        "5xy."
+      ],
+      "incorrectIndex": 14,
+      "correctAnswers": [
+        "remains",
+        "3x",
+        "+",
+        "2y."
+      ],
+      "explanation": "Unlike terms (3x and 2y) cannot be combined into a single term like 5xy. The expression remains 3x + 2y."
+    },
+    {
+      "id": 43,
+      "type": "passage_mcq",
+      "passage": "A store offers a 20% discount on all items. If the original price of a jacket is represented by p, the sale price can be calculated using the expression p - 0.20p, which simplifies to 0.80p.",
+      "question": "What is the sale price of a jacket originally priced at $75?",
+      "options": {
+        "A": "$15",
+        "B": "$55",
+        "C": "$60",
+        "D": "$65"
+      },
+      "correctAnswer": "C",
+      "explanation": "Substitute p = 75 into 0.80p: 0.80 * 75 = 60."
+    },
+    {
+      "id": 44,
+      "type": "image_mcq",
+      "question": "Which function represents the V-shaped graph shown?",
+      "image": "https://via.placeholder.com/400x200/FFFF00/000000?text=V-shaped+graph+vertex+at+origin",
+      "options": {
+        "A": "f(x) = x²",
+        "B": "f(x) = |x|",
+        "C": "f(x) = 2x",
+        "D": "f(x) = 1/x"
+      },
+      "correctAnswer": "B",
+      "explanation": "A V-shaped graph with its vertex at the origin is the characteristic shape of the absolute value function, f(x) = |x|."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "What is the value of x in the proportion: x / 4 = 15 / 20?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cross-multiply: 20x = 60. Divide by 20: x = 3."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Which of the following is a linear equation?",
+      "options": {
+        "A": "y = x² + 1",
+        "B": "y = 3/x",
+        "C": "y = 2x - 5",
+        "D": "y = |x|"
+      },
+      "correctAnswer": "C",
+      "explanation": "A linear equation has a degree of 1 and graphs as a straight line. y = 2x - 5 fits this definition."
+    },
+    {
+      "id": 47,
+      "type": "click_correct",
+      "question": "Click the incorrect term and correct it.",
+      "sentence": "To find the x-intercept of y = 2x + 6, set y = 2 and solve for x.",
+      "tokens": [
+        "To",
+        "find",
+        "the",
+        "x-intercept",
+        "of",
+        "y",
+        "=",
+        "2x",
+        "+",
+        "6,",
+        "set",
+        "y",
+        "=",
+        "2",
+        "and",
+        "solve",
+        "for",
+        "x."
+      ],
+      "incorrectIndex": 13,
+      "correctAnswers": [
+        "0"
+      ],
+      "explanation": "To find the x-intercept, you must set y = 0, not y = 2. This gives 0 = 2x + 6, so x = -3."
+    },
+    {
+      "id": 48,
+      "type": "passage_mcq",
+      "passage": "The formula for simple interest is I = prt, where I is interest, p is principal, r is the annual interest rate (as a decimal), and t is time in years.",
+      "question": "How much interest is earned on $1000 at a 5% annual rate for 3 years?",
+      "options": {
+        "A": "$50",
+        "B": "$100",
+        "C": "$150",
+        "D": "$200"
+      },
+      "correctAnswer": "C",
+      "explanation": "I = 1000 * 0.05 * 3 = 50 * 3 = 150."
+    },
+    {
+      "id": 49,
+      "type": "image_mcq",
+      "question": "What does the shaded region in the graph represent?",
+      "image": "https://via.placeholder.com/400x200/00FF00/000000?text=Graph+with+line+y+=+x+and+shading+above",
+      "options": {
+        "A": "y < x",
+        "B": "y ≤ x",
+        "C": "y > x",
+        "D": "y ≥ x"
+      },
+      "correctAnswer": "C",
+      "explanation": "The line is dashed (indicating strict inequality) and the shading is above the line y = x, representing y > x."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Solve for x: 4(x + 1) - 2 = 10",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Add 2 to both sides: 4(x + 1) = 12. Divide by 4: x + 1 = 3. Subtract 1: x = 2."
+    }
+  ]
+}
