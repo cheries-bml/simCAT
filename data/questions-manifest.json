@@ -6,5 +6,6 @@
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/parts_of_speech.json","title":"Parts Of Speech"},
   {"level":"intermediate","group":"english","topic":"reading","path":"questions/intermediate/english/reading/short_passage.json","title":"Reading - Short Passage"},
   {"level":"easy","group":"math","topic":"algebra","path":"questions/easy/math/algebra/question.json","title":"Algebra Basics"},
-  {"level":"advanced","group":"psychotest","topic":"logic","path":"questions/advanced/psychotest/logic/question.json","title":"Advanced Logic Test"}
+  {"level":"advanced","group":"psychotest","topic":"logic","path":"questions/advanced/psychotest/logic/question.json","title":"Advanced Logic Test"},
+  {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/question.json","title":"Rumah Binlat Quizz 01"}
 ]
