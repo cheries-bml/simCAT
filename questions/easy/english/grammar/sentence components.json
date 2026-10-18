@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "title": "English Sentence Component Analysis Test",
+    "timeLimits": {
+      "fast": 40,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Identify the simple subject in the following sentence: 'The old, dusty book on the top shelf belongs to my grandfather.'",
+      "options": {
+        "A": "The old, dusty book",
+        "B": "book",
+        "C": "shelf",
+        "D": "grandfather"
+      },
+      "correctAnswer": "B",
+      "explanation": "The simple subject is the main noun or pronoun that the sentence is about, which is 'book'."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "What is the complete predicate in the sentence: 'My younger sister quickly finished her homework.'?",
+      "options": {
+        "A": "My younger sister",
+        "B": "finished",
+        "C": "quickly finished her homework",
+        "D": "her homework"
+      },
+      "correctAnswer": "C",
+      "explanation": "The complete predicate includes the verb and all the words that modify it or complete its meaning."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on subject component rules.",
+      "sentence": "Her and I are going to the library.",
+      "tokens": [
+        "Her",
+        "and",
+        "I",
+        "are",
+        "going",
+        "to",
+        "the",
+        "library."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "She"
+      ],
+      "explanation": "The subject component requires a subject pronoun. 'Her' is an object pronoun; it should be 'She'."
+    },
+    {
+      "id": 4,
+      "type": "passage_mcq",
+      "passage": "The storm arrived suddenly. Dark clouds gathered over the horizon, and the wind howled through the trees. Residents quickly secured their homes.",
+      "question": "In the second sentence, what is the compound subject?",
+      "options": {
+        "A": "Dark clouds",
+        "B": "Dark clouds and the wind",
+        "C": "gathered and howled",
+        "D": "horizon and trees"
+      },
+      "correctAnswer": "B",
+      "explanation": "The second sentence has two subjects performing actions: 'Dark clouds' (gathered) and 'the wind' (howled)."
+    },
+    {
+      "id": 5,
+      "type": "image_mcq",
+      "question": "In a standard sentence diagram, what component is placed on the horizontal line to the left of the vertical dividing line?",
+      "image": "https://via.placeholder.com/400x200/FFFFFF/000000?text=Sentence+Diagram+Structure",
+      "options": {
+        "A": "The direct object",
+        "B": "The subject",
+        "C": "The predicate adjective",
+        "D": "The prepositional phrase"
+      },
+      "correctAnswer": "B",
+      "explanation": "In sentence diagramming, the simple subject is placed on the left side of the main horizontal line."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Identify the direct object in the sentence: 'The committee approved the new policy yesterday.'",
+      "options": {
+        "A": "committee",
+        "B": "approved",
+        "C": "policy",
+        "D": "yesterday"
+      },
+      "correctAnswer": "C",
+      "explanation": "The direct object receives the action of the verb. The committee approved *what*? The 'policy'."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which sentence contains an indirect object?",
+      "options": {
+        "A": "She baked a cake.",
+        "B": "She baked her friend a cake.",
+        "C": "The cake was baked by her.",
+        "D": "She is baking."
+      },
+      "correctAnswer": "B",
+      "explanation": "'Her friend' is the indirect object, receiving the direct object ('a cake')."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on object component rules.",
+      "sentence": "The teacher gave he a high grade.",
+      "tokens": [
+        "The",
+        "teacher",
+        "gave",
+        "he",
+        "a",
+        "high",
+        "grade."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "him"
+      ],
+      "explanation": "The indirect object requires an object pronoun. 'He' is a subject pronoun; it should be 'him'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Identify the subject complement in the sentence: 'The soup tastes delicious.'",
+      "options": {
+        "A": "soup",
+        "B": "tastes",
+        "C": "delicious",
+        "D": "The soup"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Delicious' is a predicate adjective that renames or describes the subject 'soup' after a linking verb."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Dr. Aris Thorne is a renowned astrophysicist. He studies black holes. His latest discovery was groundbreaking.",
+      "question": "In the first sentence, what is the predicate nominative?",
+      "options": {
+        "A": "Dr. Aris Thorne",
+        "B": "is",
+        "C": "renowned",
+        "D": "astrophysicist"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Astrophysicist' is a noun that renames the subject 'Dr. Aris Thorne' after the linking verb 'is'."
+    },
+    {
+      "id": 11,
+      "type": "image_mcq",
+      "question": "Which component is represented by the word 'captain' in the diagrammed sentence: 'The team elected John captain.'?",
+      "image": "https://via.placeholder.com/400x200/0000FF/ffffff?text=Diagram:+John+\\+captain",
+      "options": {
+        "A": "Direct Object",
+        "B": "Object Complement",
+        "C": "Predicate Nominative",
+        "D": "Appositive"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Captain' renames the direct object 'John', making it an object complement."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "What is the object complement in the sentence: 'The news made her happy.'?",
+      "options": {
+        "A": "news",
+        "B": "made",
+        "C": "her",
+        "D": "happy"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Happy' is an adjective describing the direct object 'her', making it an object complement."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on complement rules.",
+      "sentence": "The sky became darkly before the storm.",
+      "tokens": [
+        "The",
+        "sky",
+        "became",
+        "darkly",
+        "before",
+        "the",
+        "storm."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "dark"
+      ],
+      "explanation": "A linking verb ('became') requires a predicate adjective ('dark'), not an adverb ('darkly')."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Identify the adverbial phrase in the sentence: 'The children played in the park after school.'",
+      "options": {
+        "A": "The children",
+        "B": "played",
+        "C": "in the park",
+        "D": "after school"
+      },
+      "correctAnswer": "D",
+      "explanation": "'After school' is a prepositional phrase acting as an adverb, modifying the verb 'played' by telling when."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Which word functions as an adjective modifying the subject in: 'The exhausted runner collapsed at the finish line.'?",
+      "options": {
+        "A": "exhausted",
+        "B": "runner",
+        "C": "collapsed",
+        "D": "finish"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Exhausted' is a participial adjective modifying the simple subject 'runner'."
+    },
+    {
+      "id": 16,
+      "type": "passage_mcq",
+      "passage": "Mount Everest, the highest peak in the world, attracts many climbers. Despite the danger, they persevere.",
+      "question": "What is the appositive in the first sentence?",
+      "options": {
+        "A": "Mount Everest",
+        "B": "the highest peak in the world",
+        "C": "attracts",
+        "D": "many climbers"
+      },
+      "correctAnswer": "B",
+      "explanation": "'The highest peak in the world' is an appositive phrase that renames or explains the noun 'Mount Everest'."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Identify the gerund phrase acting as the subject in: 'Swimming in the ocean is my favorite activity.'",
+      "options": {
+        "A": "Swimming",
+        "B": "Swimming in the ocean",
+        "C": "is",
+        "D": "my favorite activity"
+      },
+      "correctAnswer": "B",
+      "explanation": "The entire gerund phrase 'Swimming in the ocean' functions as the simple subject of the sentence."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on component function.",
+      "sentence": "To win the race are his only goal.",
+      "tokens": [
+        "To",
+        "win",
+        "the",
+        "race",
+        "are",
+        "his",
+        "only",
+        "goal."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The infinitive phrase 'To win the race' acts as a singular subject, requiring the singular verb 'is'."
+    },
+    {
+      "id": 19,
+      "type": "image_mcq",
+      "question": "In the sentence diagram, what component is shown on the slanted line beneath the subject?",
+      "image": "https://via.placeholder.com/400x200/FF0000/ffffff?text=Diagram+with+slanted+line+under+subject",
+      "options": {
+        "A": "Direct Object",
+        "B": "Predicate Adjective",
+        "C": "Adjectival Prepositional Phrase",
+        "D": "Appositive"
+      },
+      "correctAnswer": "C",
+      "explanation": "In diagramming, a prepositional phrase acting as an adjective is placed on a slanted line beneath the noun it modifies."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is the function of the infinitive phrase in: 'She went to the store to buy milk.'?",
+      "options": {
+        "A": "Subject",
+        "B": "Direct Object",
+        "C": "Adverb modifying 'went'",
+        "D": "Adjective modifying 'store'"
+      },
+      "correctAnswer": "C",
+      "explanation": "'To buy milk' modifies the verb 'went' by explaining the purpose of the action, functioning as an adverb."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Identify the independent clause in the sentence: 'Although it was raining, we decided to go hiking.'",
+      "options": {
+        "A": "Although it was raining",
+        "B": "it was raining",
+        "C": "we decided to go hiking",
+        "D": "to go hiking"
+      },
+      "correctAnswer": "C",
+      "explanation": "'We decided to go hiking' can stand alone as a complete sentence, making it the independent clause."
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "passage": "The car, which was parked illegally, was towed. The owner, furious, demanded an explanation.",
+      "question": "What type of clause is 'which was parked illegally'?",
+      "options": {
+        "A": "Independent clause",
+        "B": "Adjective (relative) clause",
+        "C": "Noun clause",
+        "D": "Adverbial clause"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Which was parked illegally' modifies the noun 'car', making it an adjective (or relative) clause."
+    },
+    {
+      "id": 23,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on clause structure.",
+      "sentence": "Because he was late, so he missed the bus.",
+      "tokens": [
+        "Because",
+        "he",
+        "was",
+        "late,",
+        "so",
+        "he",
+        "missed",
+        "the",
+        "bus."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "he"
+      ],
+      "explanation": "Using both 'Because' and 'so' creates a redundant clause structure. Remove 'so' to make 'he' the subject of the independent clause."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Identify the noun clause in the sentence: 'I do not know where he hid the keys.'",
+      "options": {
+        "A": "I do not know",
+        "B": "where he hid the keys",
+        "C": "he hid",
+        "D": "the keys"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Where he hid the keys' functions as the direct object of the verb 'know', making it a noun clause."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "What is the adverbial clause in the sentence: 'We will leave when the rain stops.'?",
+      "options": {
+        "A": "We will leave",
+        "B": "when the rain stops",
+        "C": "the rain stops",
+        "D": "will leave"
+      },
+      "correctAnswer": "B",
+      "explanation": "'When the rain stops' modifies the verb 'will leave' by telling when the action will occur."
+    },
+    {
+      "id": 26,
+      "type": "image_mcq",
+      "question": "Which component does the bracketed section represent: 'The man [in the blue coat] is my uncle.'?",
+      "image": "https://via.placeholder.com/400x200/008000/ffffff?text=Sentence+with+brackets",
+      "options": {
+        "A": "Direct Object",
+        "B": "Adjectival Prepositional Phrase",
+        "C": "Adverbial Prepositional Phrase",
+        "D": "Predicate Nominative"
+      },
+      "correctAnswer": "B",
+      "explanation": "'In the blue coat' modifies the noun 'man', functioning as an adjectival prepositional phrase."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "In the sentence 'Running marathons requires dedication', what is 'Running marathons'?",
+      "options": {
+        "A": "Participial phrase",
+        "B": "Gerund phrase",
+        "C": "Infinitive phrase",
+        "D": "Absolute phrase"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Running' is a gerund (verb + ing acting as a noun), and 'Running marathons' is the gerund phrase acting as the subject."
+    },
+    {
+      "id": 28,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on modifier placement.",
+      "sentence": "She served sandwiches to the children on paper plates.",
+      "tokens": [
+        "She",
+        "served",
+        "sandwiches",
+        "to",
+        "the",
+        "children",
+        "on",
+        "paper",
+        "plates."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "on paper plates"
+      ],
+      "explanation": "The phrase 'on paper plates' is a misplaced modifier. It should be placed next to 'sandwiches' to clarify that the sandwiches, not the children, are on paper plates."
+    },
+    {
+      "id": 29,
+      "type": "passage_mcq",
+      "passage": "Having finished the exam, the student felt relieved. The test, which was unusually difficult, covered three chapters.",
+      "question": "What is the function of 'Having finished the exam'?",
+      "options": {
+        "A": "Noun clause acting as subject",
+        "B": "Participial phrase modifying 'student'",
+        "C": "Gerund phrase acting as direct object",
+        "D": "Adverbial clause"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Having finished the exam' is a participial phrase that modifies the noun 'student', describing their state."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Identify the absolute phrase in the sentence: 'The weather being perfect, we decided to have a picnic.'",
+      "options": {
+        "A": "The weather being perfect",
+        "B": "we decided",
+        "C": "to have a picnic",
+        "D": "being perfect"
+      },
+      "correctAnswer": "A",
+      "explanation": "'The weather being perfect' is an absolute phrase, containing a noun and a participle, modifying the entire sentence."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the simple predicate in: 'The majestic eagle soared gracefully above the mountains.'?",
+      "options": {
+        "A": "eagle",
+        "B": "soared",
+        "C": "soared gracefully",
+        "D": "above the mountains"
+      },
+      "correctAnswer": "B",
+      "explanation": "The simple predicate is the main verb of the sentence, which is 'soared'."
+    },
+    {
+      "id": 32,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on pronoun component case.",
+      "sentence": "The winner of the contest was she.",
+      "tokens": [
+        "The",
+        "winner",
+        "of",
+        "the",
+        "contest",
+        "was",
+        "she."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "her."
+      ],
+      "explanation": "Wait, after a linking verb, a predicate nominative should be in the subjective case. So 'she' is actually formally correct, though 'her' is common. Let's change the sentence to avoid prescriptive ambiguity.",
+      "sentence": "The teacher gave the award to him and I.",
+      "tokens": [
+        "The",
+        "teacher",
+        "gave",
+        "the",
+        "award",
+        "to",
+        "him",
+        "and",
+        "I."
+      ],
+      "incorrectIndex": 8,
+      "correctAnswers": [
+        "me."
+      ],
+      "explanation": "The object of the preposition 'to' requires an object pronoun. 'I' is a subject pronoun; it should be 'me'."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Which sentence contains a compound predicate?",
+      "options": {
+        "A": "John and Mary went to the store.",
+        "B": "The dog barked and ran after the cat.",
+        "C": "The tall, dark stranger entered the room.",
+        "D": "She is smart and funny."
+      },
+      "correctAnswer": "B",
+      "explanation": "'Barked and ran' are two verbs sharing the same subject ('The dog'), forming a compound predicate."
+    },
+    {
+      "id": 34,
+      "type": "passage_mcq",
+      "passage": "To succeed in college, students must manage their time effectively. Procrastination, the enemy of productivity, leads to stress.",
+      "question": "What is the function of 'To succeed in college'?",
+      "options": {
+        "A": "Subject of the sentence",
+        "B": "Direct object",
+        "C": "Adverbial infinitive phrase",
+        "D": "Predicate nominative"
+      },
+      "correctAnswer": "C",
+      "explanation": "'To succeed in college' modifies the verb 'must manage' by stating the purpose, acting as an adverbial phrase."
+    },
+    {
+      "id": 35,
+      "type": "image_mcq",
+      "question": "In the sentence 'The cake, a chocolate delight, was delicious', what component is 'a chocolate delight'?",
+      "image": "https://via.placeholder.com/400x200/800080/ffffff?text=Sentence+Analysis+Diagram",
+      "options": {
+        "A": "Direct Object",
+        "B": "Appositive",
+        "C": "Object Complement",
+        "D": "Adverbial Phrase"
+      },
+      "correctAnswer": "B",
+      "explanation": "'A chocolate delight' renames the subject 'The cake' and is set off by commas, making it an appositive."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Identify the predicate adjective in: 'The children seem happy today.'",
+      "options": {
+        "A": "children",
+        "B": "seem",
+        "C": "happy",
+        "D": "today"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Happy' follows the linking verb 'seem' and describes the subject 'children', making it a predicate adjective."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "What component is 'very' in the sentence: 'She is very intelligent.'?",
+      "options": {
+        "A": "Adjective modifying 'She'",
+        "B": "Adverb modifying 'intelligent'",
+        "C": "Predicate adjective",
+        "D": "Conjunction"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Very' is an adverb of degree that modifies the adjective 'intelligent'."
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on sentence component agreement.",
+      "sentence": "The list of items are on the desk.",
+      "tokens": [
+        "The",
+        "list",
+        "of",
+        "items",
+        "are",
+        "on",
+        "the",
+        "desk."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The simple subject is 'list' (singular), not 'items'. Therefore, the verb must be the singular 'is'."
+    },
+    {
+      "id": 39,
+      "type": "passage_mcq",
+      "passage": "When the bell rings, the students will pack their bags. They will exit the building quickly.",
+      "question": "What is the adverbial clause in the first sentence?",
+      "options": {
+        "A": "the students will pack their bags",
+        "B": "When the bell rings",
+        "C": "their bags",
+        "D": "will pack"
+      },
+      "correctAnswer": "B",
+      "explanation": "'When the bell rings' is a dependent clause that modifies the main verb by telling when the action will happen."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "In the sentence 'I consider him a genius', what is 'a genius'?",
+      "options": {
+        "A": "Direct Object",
+        "B": "Predicate Nominative",
+        "C": "Object Complement",
+        "D": "Appositive"
+      },
+      "correctAnswer": "C",
+      "explanation": "'A genius' renames the direct object 'him', making it an object complement."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of the following is a prepositional phrase acting as an adjective?",
+      "options": {
+        "A": "He ran across the street.",
+        "B": "The book on the table is mine.",
+        "C": "We will meet after lunch.",
+        "D": "She walked with confidence."
+      },
+      "correctAnswer": "B",
+      "explanation": "'On the table' modifies the noun 'book', functioning as an adjective."
+    },
+    {
+      "id": 42,
+      "type": "image_mcq",
+      "question": "What sentence component is highlighted in the image?",
+      "image": "https://via.placeholder.com/400x200/FFA500/000000?text=Highlight+on+'quickly'+in+'He+ran+quickly.'",
+      "options": {
+        "A": "Subject",
+        "B": "Direct Object",
+        "C": "Adverbial Modifier",
+        "D": "Predicate Nominative"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Quickly' modifies the verb 'ran', describing how the action was performed, making it an adverbial modifier."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Identify the subject of the passive sentence: 'The window was broken by the storm.'",
+      "options": {
+        "A": "window",
+        "B": "was broken",
+        "C": "storm",
+        "D": "by"
+      },
+      "correctAnswer": "A",
+      "explanation": "In a passive sentence, the grammatical subject is the receiver of the action. 'The window' is the subject."
+    },
+    {
+      "id": 44,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on component function.",
+      "sentence": "The reason he left is because he was tired.",
+      "tokens": [
+        "The",
+        "reason",
+        "he",
+        "left",
+        "is",
+        "because",
+        "he",
+        "was",
+        "tired."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "that"
+      ],
+      "explanation": "'The reason is' should be followed by a noun clause starting with 'that', not an adverbial clause starting with 'because', to avoid redundancy."
+    },
+    {
+      "id": 45,
+      "type": "passage_mcq",
+      "passage": "The ancient artifact, discovered in a remote cave, amazed the archaeologists. It was a symbol of a forgotten era.",
+      "question": "What is the function of 'discovered in a remote cave'?",
+      "options": {
+        "A": "Predicate adjective",
+        "B": "Participial phrase modifying 'artifact'",
+        "C": "Adverbial clause",
+        "D": "Direct object"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Discovered in a remote cave' is a participial phrase that acts as an adjective modifying 'artifact'."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the complete subject in: 'All the students in the classroom listened carefully.'?",
+      "options": {
+        "A": "students",
+        "B": "All the students in the classroom",
+        "C": "listened carefully",
+        "D": "the classroom"
+      },
+      "correctAnswer": "B",
+      "explanation": "The complete subject includes the simple subject ('students') and all its modifiers ('All the', 'in the classroom')."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Identify the conjunction component in: 'Neither the manager nor the employees were aware of the change.'",
+      "options": {
+        "A": "Neither / nor",
+        "B": "the / the",
+        "C": "manager / employees",
+        "D": "were / aware"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Neither / nor' is a correlative conjunction pair connecting the two subjects."
+    },
+    {
+      "id": 48,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on modifier rules.",
+      "sentence": "Walking down the street, the trees were beautiful.",
+      "tokens": [
+        "Walking",
+        "down",
+        "the",
+        "street,",
+        "the",
+        "trees",
+        "were",
+        "beautiful."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "I saw beautiful trees."
+      ],
+      "explanation": "This is a dangling modifier. The trees were not walking down the street. The subject must be changed to the person walking."
+    },
+    {
+      "id": 49,
+      "type": "passage_mcq",
+      "passage": "If you study hard, you will pass the exam. Therefore, you should start reviewing your notes today.",
+      "question": "What type of sentence component is 'Therefore'?",
+      "options": {
+        "A": "Coordinating conjunction",
+        "B": "Subordinating conjunction",
+        "C": "Conjunctive adverb",
+        "D": "Prepositional phrase"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Therefore' is a conjunctive adverb used to connect two independent ideas and show a cause-and-effect relationship."
+    },
+    {
+      "id": 50,
+      "type": "image_mcq",
+      "question": "In the diagrammed sentence, what component is placed on the horizontal line to the right of the vertical dividing line?",
+      "image": "https://via.placeholder.com/400x200/000000/ffffff?text=Sentence+Diagram+Right+Side",
+      "options": {
+        "A": "The subject",
+        "B": "The simple predicate (verb)",
+        "C": "The prepositional phrase",
+        "D": "The interjection"
+      },
+      "correctAnswer": "B",
+      "explanation": "In standard sentence diagramming, the simple predicate (verb) is placed on the right side of the main horizontal line."
+    }
+  ]
+}
