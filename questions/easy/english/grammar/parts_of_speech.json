@@ -370,9 +370,9 @@
       "image": "https://i.ibb.co.com/M5cf809m/pos-25.jpg",
       "options": {
         "A": "under",
-        "B": "cat",
-        "C": "table",
-        "D": "blue"
+        "B": "at",
+        "C": "above",
+        "D": "behind"
       },
       "correctAnswer": "A",
       "explanation": "'Under' is the preposition indicating the spatial relationship of the cat to the table."
