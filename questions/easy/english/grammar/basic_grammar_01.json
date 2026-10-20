@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "English Grammar: Sentence Structure, Subject-Verb Agreement, and Noun Classification",
+    "title": "English Grammar Test: Indonesia, Police, Civil Servant & Military",
     "timeLimits": {
       "fast": 45,
       "normal": 65,
@@ -11,129 +11,117 @@
     {
       "id": 1,
       "type": "mcq",
-      "question": "Identify the complete subject in the following sentence: 'The old, dusty book on the top shelf belongs to my grandfather.'",
+      "question": "Identify the complete subject in this sentence: 'The diligent Indonesian police officer patrols the streets of Jakarta every night.'",
       "options": {
-        "A": "The old, dusty book on the top shelf",
-        "B": "book",
-        "C": "top shelf",
-        "D": "my grandfather"
+        "A": "patrols",
+        "B": "The diligent Indonesian police officer",
+        "C": "the streets of Jakarta",
+        "D": "every night"
       },
-      "correctAnswer": "A",
-      "explanation": "The complete subject includes the simple subject ('book') and all its modifiers ('The old, dusty', 'on the top shelf')."
+      "correctAnswer": "B",
+      "explanation": "The complete subject includes the noun and all its modifiers. (Subjek lengkap mencakup kata benda dan semua modifikasinya.)"
     },
     {
       "id": 2,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it based on subject-verb agreement.",
-      "sentence": "The list of items are on the desk.",
+      "question": "Click the incorrect word and correct it based on 'to be' and noun agreement.",
+      "sentence": "The military equipment are stored in the secure warehouse.",
       "tokens": [
         "The",
-        "list",
-        "of",
-        "items",
+        "military",
+        "equipment",
         "are",
-        "on",
+        "stored",
+        "in",
         "the",
-        "desk."
+        "secure",
+        "warehouse."
       ],
-      "incorrectIndex": 4,
+      "incorrectIndex": 3,
       "correctAnswers": [
         "is"
       ],
-      "explanation": "The simple subject is 'list' (singular), not 'items'. Therefore, the verb must be the singular 'is'."
+      "explanation": "'Equipment' is an uncountable noun and requires a singular 'to be' verb. ('Equipment' adalah kata benda yang tidak dapat dihitung dan memerlukan kata kerja 'to be' bentuk tunggal.)"
     },
     {
       "id": 3,
-      "type": "mcq",
-      "question": "Which sentence contains a direct object?",
+      "type": "passage_mcq",
+      "passage": "In the Indonesian National Armed Forces (TNI), ranks and performance are evaluated carefully. Here is a guide to common irregular comparisons:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |\nA brave soldier is good, but a decorated hero is better. The worst mistake is negligence.",
+      "question": "Based on the table, what is the comparative form of 'bad'?",
       "options": {
-        "A": "The baby cried loudly.",
-        "B": "She baked a delicious cake.",
-        "C": "He is a talented musician.",
-        "D": "The sun rises in the east."
+        "A": "baddest",
+        "B": "worse",
+        "C": "worst",
+        "D": "more bad"
       },
       "correctAnswer": "B",
-      "explanation": "In 'She baked a delicious cake', 'a delicious cake' receives the action of the verb 'baked', making it the direct object."
+      "explanation": "According to the table, the comparative form of the irregular adjective 'bad' is 'worse'. (Menurut tabel, bentuk komparatif dari kata sifat tidak beraturan 'bad' adalah 'worse'.)"
     },
     {
       "id": 4,
-      "type": "passage_mcq",
-      "passage": "Dr. Aris Thorne is a renowned astrophysicist. He studies black holes. His latest discovery was groundbreaking.",
-      "question": "In the first sentence, what is the predicate nominative?",
+      "type": "image_mcq",
+      "question": "Which 'to be' verb correctly completes the description of the image?",
+      "image": "https://via.placeholder.com/400x200/FF0000/FFFFFF?text=Indonesian+Police+Officers+Patrolling",
       "options": {
-        "A": "Dr. Aris Thorne",
-        "B": "is",
-        "C": "renowned",
-        "D": "astrophysicist"
+        "A": "The police officer is patrolling.",
+        "B": "The police officers is patrolling.",
+        "C": "The police officers are patrolling.",
+        "D": "The police officers am patrolling."
       },
-      "correctAnswer": "D",
-      "explanation": "'Astrophysicist' is a noun that renames the subject 'Dr. Aris Thorne' after the linking verb 'is'."
+      "correctAnswer": "C",
+      "explanation": "The subject 'The police officers' is plural, requiring the plural 'to be' verb 'are'. (Subjek 'The police officers' adalah jamak, sehingga memerlukan kata kerja 'to be' jamak 'are'.)"
     },
     {
       "id": 5,
-      "type": "image_mcq",
-      "question": "In a standard sentence diagram, what component is placed on the horizontal line to the right of the vertical dividing line?",
-      "image": "https://via.placeholder.com/400x200/000000/ffffff?text=Sentence+Diagram+Structure",
+      "type": "mcq",
+      "question": "Choose the correct interrogative form of: 'The minister visits the disaster area.'",
       "options": {
-        "A": "The subject",
-        "B": "The simple predicate (verb)",
-        "C": "The prepositional phrase",
-        "D": "The interjection"
+        "A": "Does the minister visit the disaster area?",
+        "B": "Do the minister visits the disaster area?",
+        "C": "Is the minister visit the disaster area?",
+        "D": "The minister does visit the disaster area?"
       },
-      "correctAnswer": "B",
-      "explanation": "In standard sentence diagramming, the simple predicate (verb) is placed on the right side of the main horizontal line."
+      "correctAnswer": "A",
+      "explanation": "For a singular third-person subject in simple present, we use 'Does' + base verb. (Untuk subjek orang ketiga tunggal dalam simple present, kita menggunakan 'Does' + kata kerja dasar.)"
     },
     {
       "id": 6,
-      "type": "mcq",
-      "question": "Choose the correct 'to be' verb: 'My parents ___ very proud of my achievements.'",
-      "options": {
-        "A": "am",
-        "B": "is",
-        "C": "are",
-        "D": "be"
-      },
-      "correctAnswer": "C",
-      "explanation": "The subject 'My parents' is plural, so it requires the plural 'to be' verb 'are'."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on sentence components.",
+      "sentence": "The commander give strict orders to the soldiers.",
+      "tokens": [
+        "The",
+        "commander",
+        "give",
+        "strict",
+        "orders",
+        "to",
+        "the",
+        "soldiers."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "gives"
+      ],
+      "explanation": "The singular subject 'The commander' requires the third-person singular verb 'gives'. (Subjek tunggal 'The commander' memerlukan kata kerja orang ketiga tunggal 'gives'.)"
     },
     {
       "id": 7,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I is going to the library after school.",
-      "tokens": [
-        "I",
-        "is",
-        "going",
-        "to",
-        "the",
-        "library",
-        "after",
-        "school."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "am"
-      ],
-      "explanation": "The first-person singular pronoun 'I' always pairs with the 'to be' verb 'am'."
+      "type": "mcq",
+      "question": "Identify the uncountable noun in this civil service context:",
+      "options": {
+        "A": "document",
+        "B": "information",
+        "C": "report",
+        "D": "meeting"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Information' is an uncountable noun and cannot be pluralized with an 's'. ('Information' adalah kata benda yang tidak dapat dihitung dan tidak dapat dibentuk jamak dengan tambahan 's'.)"
     },
     {
       "id": 8,
-      "type": "mcq",
-      "question": "Which sentence is in the past tense using 'to be'?",
-      "options": {
-        "A": "They are happy today.",
-        "B": "She was a teacher for ten years.",
-        "C": "We will be there soon.",
-        "D": "I am feeling great."
-      },
-      "correctAnswer": "B",
-      "explanation": "'Was' is the past tense singular form of the 'to be' verb."
-    },
-    {
-      "id": 9,
       "type": "passage_mcq",
-      "passage": "Yesterday, the weather was terrible. The skies were gray, and the wind was howling. We were stuck inside all day, but we were happy to be safe.",
+      "passage": "Yesterday, the Kapolres and his team were very busy. The streets were crowded, and the traffic was terrible. They were determined to keep the citizens safe.",
       "question": "How many times is a form of the 'to be' verb used in this passage?",
       "options": {
         "A": "2",
@@ -141,158 +129,62 @@
         "C": "4",
         "D": "5"
       },
-      "correctAnswer": "C",
-      "explanation": "The 'to be' verbs used are: 'was' (1), 'were' (2), 'was' (3), 'were' (4), 'were' (5). Wait, let's recount: 'was' (1), 'were' (2), 'was' (3), 'were' (4), 'were' (5). Actually, there are 5. Let me adjust the options or passage. Passage: 'Yesterday, the weather was terrible. The skies were gray. We were stuck inside.' 'was' (1), 'were' (2), 'were' (3). Total 3. Let's fix the options.",
+      "correctAnswer": "B",
+      "explanation": "The 'to be' verbs used are: 'were' (1), 'were' (2), and 'was' (3). Total = 3. (Kata kerja 'to be' yang digunakan adalah: 'were' (1), 'were' (2), dan 'was' (3). Total = 3.)"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Which sentence is a correct negative statement?",
       "options": {
-        "A": "2",
-        "B": "3",
-        "C": "4",
-        "D": "5"
+        "A": "The civil servant do not accepts bribes.",
+        "B": "The civil servant does not accept bribes.",
+        "C": "The civil servant not does accept bribes.",
+        "D": "The civil servant does not accepts bribes."
       },
       "correctAnswer": "B",
-      "explanation": "The 'to be' verbs used are: 'was' (weather was), 'were' (skies were), and 'were' (We were). Total = 3."
+      "explanation": "The correct structure is 'does not' + base verb ('accept'). (Struktur yang benar adalah 'does not' + kata kerja dasar ('accept').)"
     },
     {
       "id": 10,
-      "type": "mcq",
-      "question": "Form the correct negative sentence: 'She is a doctor.'",
-      "options": {
-        "A": "She not is a doctor.",
-        "B": "She does not be a doctor.",
-        "C": "She is not a doctor.",
-        "D": "She no is a doctor."
-      },
-      "correctAnswer": "C",
-      "explanation": "To make a 'to be' sentence negative, add 'not' directly after the 'to be' verb: 'is not'."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on degrees of comparison.",
+      "sentence": "This is the most hardest mission for the TNI.",
+      "tokens": [
+        "This",
+        "is",
+        "the",
+        "most",
+        "hardest",
+        "mission",
+        "for",
+        "the",
+        "TNI."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "very"
+      ],
+      "explanation": "'Hardest' is already a superlative. Using 'most' creates a double superlative error. Replace 'most' with 'very' or remove it. ('Hardest' sudah merupakan bentuk superlatif. Menggunakan 'most' menciptakan kesalahan double superlative. Ganti 'most' dengan 'very' atau hapus.)"
     },
     {
       "id": 11,
-      "type": "image_mcq",
-      "question": "Which 'to be' verb correctly completes the description of the image?",
-      "image": "https://via.placeholder.com/400x200/FFD700/000000?text=Two+Cats+Sleeping",
+      "type": "mcq",
+      "question": "Identify the direct object in: 'The police arrested the suspect yesterday.'",
       "options": {
-        "A": "The cat is sleeping.",
-        "B": "The cats is sleeping.",
-        "C": "The cats are sleeping.",
-        "D": "The cats am sleeping."
+        "A": "police",
+        "B": "arrested",
+        "C": "the suspect",
+        "D": "yesterday"
       },
       "correctAnswer": "C",
-      "explanation": "The subject 'The cats' is plural, requiring the plural 'to be' verb 'are'."
+      "explanation": "The direct object receives the action of the verb. The police arrested *whom*? 'The suspect'. (Objek langsung menerima aksi dari kata kerja. Polisi menangkap *siapa*? 'The suspect'.)"
     },
     {
       "id": 12,
-      "type": "mcq",
-      "question": "Choose the correct interrogative form: '___ they at the party last night?'",
-      "options": {
-        "A": "Was",
-        "B": "Were",
-        "C": "Are",
-        "D": "Is"
-      },
-      "correctAnswer": "B",
-      "explanation": "The subject 'they' is plural, and 'last night' indicates past tense, so 'Were' is correct."
-    },
-    {
-      "id": 13,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "Where is the keys to the car?",
-      "tokens": [
-        "Where",
-        "is",
-        "the",
-        "keys",
-        "to",
-        "the",
-        "car?"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "are"
-      ],
-      "explanation": "The subject 'keys' is plural, so it requires the plural verb 'are', not 'is'."
-    },
-    {
-      "id": 14,
-      "type": "mcq",
-      "question": "Which of the following is a positive (affirmative) sentence?",
-      "options": {
-        "A": "Are you coming with us?",
-        "B": "I do not like spinach.",
-        "C": "The sun shines brightly.",
-        "D": "Was she at the store?"
-      },
-      "correctAnswer": "C",
-      "explanation": "A positive sentence makes a statement without negation or questioning. 'The sun shines brightly' is a positive statement."
-    },
-    {
-      "id": 15,
-      "type": "mcq",
-      "question": "Identify the uncountable noun in the following list:",
-      "options": {
-        "A": "Apple",
-        "B": "Chair",
-        "C": "Water",
-        "D": "Dog"
-      },
-      "correctAnswer": "C",
-      "explanation": "'Water' is an uncountable (mass) noun because it cannot be counted as individual discrete units without a measure word (e.g., a glass of water)."
-    },
-    {
-      "id": 16,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it based on noun rules.",
-      "sentence": "I need to buy some new furnitures for my apartment.",
-      "tokens": [
-        "I",
-        "need",
-        "to",
-        "buy",
-        "some",
-        "new",
-        "furnitures",
-        "for",
-        "my",
-        "apartment."
-      ],
-      "incorrectIndex": 6,
-      "correctAnswers": [
-        "furniture"
-      ],
-      "explanation": "'Furniture' is an uncountable noun and does not take a plural 's'."
-    },
-    {
-      "id": 17,
-      "type": "passage_mcq",
-      "passage": "The children played in the garden. They found three mice hiding under the old boxes. One of the boys wanted to catch a mouse, but his mother told him to leave the animals alone.",
-      "question": "Which word in the passage is an irregular plural noun?",
-      "options": {
-        "A": "children",
-        "B": "garden",
-        "C": "boxes",
-        "D": "animals"
-      },
-      "correctAnswer": "A",
-      "explanation": "'Children' is the irregular plural form of 'child'. ('Mice' is also irregular, but 'children' is the option provided)."
-    },
-    {
-      "id": 18,
-      "type": "mcq",
-      "question": "What is the correct plural form of 'city'?",
-      "options": {
-        "A": "citys",
-        "B": "cities",
-        "C": "cityes",
-        "D": "citie's"
-      },
-      "correctAnswer": "B",
-      "explanation": "For nouns ending in a consonant + 'y', change the 'y' to 'i' and add 'es' (city -> cities)."
-    },
-    {
-      "id": 19,
       "type": "image_mcq",
       "question": "Which quantifier is correct for the noun shown in the image?",
-      "image": "https://via.placeholder.com/400x200/87CEEB/000000?text=A+pile+of+Rice",
+      "image": "https://via.placeholder.com/400x200/87CEEB/000000?text=A+pile+of+Rice+(Beras)",
       "options": {
         "A": "many rices",
         "B": "a few rices",
@@ -300,86 +192,117 @@
         "D": "several rices"
       },
       "correctAnswer": "C",
-      "explanation": "'Rice' is an uncountable noun, so it requires quantifiers like 'much' or 'a lot of', not 'many' or 'a few'."
+      "explanation": "'Rice' is an uncountable noun, so it requires quantifiers like 'much' or 'a lot of'. ('Rice' adalah kata benda yang tidak dapat dihitung, sehingga memerlukan kata kuantitas seperti 'much' atau 'a lot of'.)"
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Choose the correct 'to be' verb: 'I ___ a proud member of the Indonesian National Police (Polri).'",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first-person singular pronoun 'I' always pairs with the 'to be' verb 'am'. (Kata ganti orang pertama tunggal 'I' selalu berpasangan dengan kata kerja 'to be' 'am'.)"
+    },
+    {
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on plural noun rules.",
+      "sentence": "The police found many informations at the crime scene.",
+      "tokens": [
+        "The",
+        "police",
+        "found",
+        "many",
+        "informations",
+        "at",
+        "the",
+        "crime",
+        "scene."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "information"
+      ],
+      "explanation": "'Information' is an uncountable noun and does not take a plural 's'. ('Information' adalah kata benda yang tidak dapat dihitung dan tidak menggunakan bentuk jamak 's'.)"
+    },
+    {
+      "id": 15,
+      "type": "passage_mcq",
+      "passage": "In the Indonesian National Armed Forces (TNI), ranks and performance are evaluated carefully. Here is a guide to common irregular comparisons:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |",
+      "question": "Based on the table, what is the superlative form of 'good'?",
+      "options": {
+        "A": "goodest",
+        "B": "more good",
+        "C": "better",
+        "D": "best"
+      },
+      "correctAnswer": "D",
+      "explanation": "According to the table, the superlative form of the irregular adjective 'good' is 'best'. (Menurut tabel, bentuk superlatif dari kata sifat tidak beraturan 'good' adalah 'best'.)"
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the predicate in the sentence: 'The majestic Garuda mascot stands proudly in the museum.'?",
+      "options": {
+        "A": "The majestic Garuda mascot",
+        "B": "stands proudly in the museum",
+        "C": "museum",
+        "D": "proudly"
+      },
+      "correctAnswer": "B",
+      "explanation": "The complete predicate includes the verb and all its modifiers. (Predikat lengkap mencakup kata kerja dan semua modifikasinya.)"
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Which sentence contains an object complement?",
+      "options": {
+        "A": "The soup tastes delicious.",
+        "B": "They elected him the new commander.",
+        "C": "She gave him a gift.",
+        "D": "The dog barked loudly."
+      },
+      "correctAnswer": "B",
+      "explanation": "'The new commander' renames the direct object 'him', making it an object complement. ('The new commander' menjelaskan kembali objek langsung 'him', menjadikannya pelengkap objek.)"
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on interrogative structure.",
+      "sentence": "Do the commander issue the orders?",
+      "tokens": [
+        "Do",
+        "the",
+        "commander",
+        "issue",
+        "the",
+        "orders?"
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Does"
+      ],
+      "explanation": "The singular subject 'commander' requires the auxiliary verb 'Does', not 'Do'. (Subjek tunggal 'commander' memerlukan kata kerja bantu 'Does', bukan 'Do'.)"
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "What is the plural form of the compound noun 'mother-in-law' in an Indonesian family context?",
+      "options": {
+        "A": "mother-in-laws",
+        "B": "mothers-in-law",
+        "C": "mother-in-laws'",
+        "D": "mothers-in-laws"
+      },
+      "correctAnswer": "B",
+      "explanation": "In compound nouns, the plural 's' is typically added to the main noun, which is 'mother'. (Dalam kata benda majemuk, bentuk jamak 's' biasanya ditambahkan pada kata benda utama, yaitu 'mother'.)"
     },
     {
       "id": 20,
-      "type": "mcq",
-      "question": "Which sentence correctly uses a countable noun with a quantifier?",
-      "options": {
-        "A": "I have much books.",
-        "B": "She has a few ideas.",
-        "C": "There is less students today.",
-        "D": "He drank many water."
-      },
-      "correctAnswer": "B",
-      "explanation": "'Ideas' is a countable plural noun, so it correctly pairs with the quantifier 'a few'."
-    },
-    {
-      "id": 21,
-      "type": "mcq",
-      "question": "What is the comparative form of the adjective 'happy'?",
-      "options": {
-        "A": "more happy",
-        "B": "happier",
-        "C": "happiest",
-        "D": "most happy"
-      },
-      "correctAnswer": "B",
-      "explanation": "For two-syllable adjectives ending in 'y', change the 'y' to 'i' and add 'er' to form the comparative."
-    },
-    {
-      "id": 22,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it based on degrees of comparison.",
-      "sentence": "This is the most easiest test I have ever taken.",
-      "tokens": [
-        "This",
-        "is",
-        "the",
-        "most",
-        "easiest",
-        "test",
-        "I",
-        "have",
-        "ever",
-        "taken."
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "easiest"
-      ],
-      "explanation": "This is a double superlative error. 'Easiest' is already superlative; 'most' should be removed."
-    },
-    {
-      "id": 23,
-      "type": "passage_mcq",
-      "passage": "Consider the following comparison table:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |",
-      "question": "Based on the table, what is the superlative form of 'bad'?",
-      "options": {
-        "A": "badder",
-        "B": "baddest",
-        "C": "worse",
-        "D": "worst"
-      },
-      "correctAnswer": "D",
-      "explanation": "According to the provided table, the superlative form of the irregular adjective 'bad' is 'worst'."
-    },
-    {
-      "id": 24,
-      "type": "mcq",
-      "question": "Choose the correct sentence using the 'as...as' structure.",
-      "options": {
-        "A": "She is as tall as her brother.",
-        "B": "She is as taller as her brother.",
-        "C": "She is so tall as her brother.",
-        "D": "She is as tall than her brother."
-      },
-      "correctAnswer": "A",
-      "explanation": "The correct structure for equality is 'as + base adjective + as'."
-    },
-    {
-      "id": 25,
       "type": "image_mcq",
       "question": "Which sentence correctly uses the comparative degree to describe the image?",
       "image": "https://via.placeholder.com/400x200/FF5733/ffffff?text=Elephant+and+Mouse",
@@ -390,129 +313,105 @@
         "D": "The elephant is more big than the mouse."
       },
       "correctAnswer": "B",
-      "explanation": "The comparative form of 'big' is 'bigger', and it is followed by 'than' when comparing two things."
+      "explanation": "The comparative form of 'big' is 'bigger', followed by 'than' when comparing two things. (Bentuk komparatif dari 'big' adalah 'bigger', diikuti oleh 'than' saat membandingkan dua hal.)"
     },
     {
-      "id": 26,
+      "id": 21,
       "type": "mcq",
-      "question": "Which sentence contains an object complement?",
+      "question": "Identify the subject complement in: 'The new regulation is effective.'",
       "options": {
-        "A": "The soup tastes delicious.",
-        "B": "They elected him president.",
-        "C": "She gave him a gift.",
-        "D": "The dog barked loudly."
-      },
-      "correctAnswer": "B",
-      "explanation": "In 'They elected him president', 'president' renames the direct object 'him', making it an object complement."
-    },
-    {
-      "id": 27,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He don't know the answer to the question.",
-      "tokens": [
-        "He",
-        "don't",
-        "know",
-        "the",
-        "answer",
-        "to",
-        "the",
-        "question."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "doesn't",
-        "does not"
-      ],
-      "explanation": "The third-person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
-    },
-    {
-      "id": 28,
-      "type": "mcq",
-      "question": "Identify the interrogative sentence:",
-      "options": {
-        "A": "What a beautiful day it is!",
-        "B": "Please close the door.",
-        "C": "Where did you put my keys?",
-        "D": "I wonder where my keys are."
+        "A": "regulation",
+        "B": "is",
+        "C": "effective",
+        "D": "The new regulation"
       },
       "correctAnswer": "C",
-      "explanation": "An interrogative sentence asks a direct question and ends with a question mark."
+      "explanation": "'Effective' is a predicate adjective that describes the subject 'regulation' after the linking verb 'is'. ('Effective' adalah kata sifat predikat yang menjelaskan subjek 'regulation' setelah kata kerja penghubung 'is'.)"
     },
     {
-      "id": 29,
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on countable/uncountable rules.",
+      "sentence": "The TNI has less personnel than before.",
+      "tokens": [
+        "The",
+        "TNI",
+        "has",
+        "less",
+        "personnel",
+        "than",
+        "before."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "fewer"
+      ],
+      "explanation": "'Personnel' is a countable plural noun, so it requires 'fewer', not 'less'. ('Personnel' adalah kata benda jamak yang dapat dihitung, sehingga memerlukan 'fewer', bukan 'less'.)"
+    },
+    {
+      "id": 23,
       "type": "passage_mcq",
-      "passage": "Mary has less patience than her sister. However, she is the most dedicated worker in the office. Her brother is taller than both of them, but Mary is the smartest.",
-      "question": "Which word in the passage is a superlative adjective?",
+      "passage": "Civil servants in Indonesia must adhere to strict protocols. They are not allowed to accept gifts. Are they following the rules? Yes, they are.",
+      "question": "Which sentence in the passage is an interrogative sentence?",
       "options": {
-        "A": "less",
-        "B": "dedicated",
-        "C": "taller",
-        "D": "smartest"
+        "A": "Civil servants in Indonesia must adhere to strict protocols.",
+        "B": "They are not allowed to accept gifts.",
+        "C": "Are they following the rules?",
+        "D": "Yes, they are."
       },
-      "correctAnswer": "D",
-      "explanation": "'Smartest' is the superlative form of 'smart', indicating the highest degree among three or more."
+      "correctAnswer": "C",
+      "explanation": "An interrogative sentence asks a direct question and ends with a question mark. (Kalimat interogatif menanyakan pertanyaan langsung dan diakhiri dengan tanda tanya.)"
     },
     {
-      "id": 30,
+      "id": 24,
       "type": "mcq",
-      "question": "What is the plural form of 'phenomenon'?",
-      "options": {
-        "A": "phenomenons",
-        "B": "phenomena",
-        "C": "phenomenies",
-        "D": "phenomenas"
-      },
-      "correctAnswer": "B",
-      "explanation": "'Phenomenon' is a Greek-derived noun, and its irregular plural form is 'phenomena'."
-    },
-    {
-      "id": 31,
-      "type": "mcq",
-      "question": "Which 'to be' verb correctly completes the sentence: 'Neither of the options ___ acceptable.'",
+      "question": "Choose the correct past tense 'to be' verb: 'Last year, I ___ a cadet at the military academy.'",
       "options": {
         "A": "am",
         "B": "is",
-        "C": "are",
+        "C": "was",
         "D": "were"
       },
-      "correctAnswer": "B",
-      "explanation": "'Neither' is singular, so it takes the singular verb 'is'."
+      "correctAnswer": "C",
+      "explanation": "The first-person singular subject 'I' in the past tense requires 'was'. (Subjek orang pertama tunggal 'I' dalam bentuk lampau memerlukan 'was'.)"
     },
     {
-      "id": 32,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "Are you liking pizza?",
-      "tokens": [
-        "Are",
-        "you",
-        "liking",
-        "pizza?"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "like",
-        "Do you like"
-      ],
-      "explanation": "'Like' is a stative verb and is generally not used in the continuous form. The correct interrogative is 'Do you like pizza?'"
-    },
-    {
-      "id": 33,
+      "id": 25,
       "type": "mcq",
-      "question": "Choose the correct negative interrogative sentence:",
+      "question": "What is the comparative form of the adjective 'brave'?",
       "options": {
-        "A": "Do not you like coffee?",
-        "B": "Don't you like coffee?",
-        "C": "You don't like coffee?",
-        "D": "Not you do like coffee?"
+        "A": "more brave",
+        "B": "braver",
+        "C": "bravest",
+        "D": "most brave"
       },
       "correctAnswer": "B",
-      "explanation": "The standard form for a negative interrogative sentence contracts the auxiliary and 'not' at the beginning: 'Don't you...'"
+      "explanation": "For one-syllable adjectives, add '-er' to form the comparative. (Untuk kata sifat satu suku kata, tambahkan '-er' untuk membentuk bentuk komparatif.)"
     },
     {
-      "id": 34,
+      "id": 26,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on subject-verb agreement.",
+      "sentence": "The list of official documents are on the desk.",
+      "tokens": [
+        "The",
+        "list",
+        "of",
+        "official",
+        "documents",
+        "are",
+        "on",
+        "the",
+        "desk."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The simple subject is 'list' (singular), not 'documents'. Therefore, the verb must be 'is'. (Subjek sederhana adalah 'list' (tunggal), bukan 'documents'. Oleh karena itu, kata kerjanya harus 'is'.)"
+    },
+    {
+      "id": 27,
       "type": "image_mcq",
       "question": "Identify the countable noun in the image description.",
       "image": "https://via.placeholder.com/400x200/33FF57/000000?text=A+glass+of+milk+and+three+apples",
@@ -523,12 +422,186 @@
         "D": "furniture"
       },
       "correctAnswer": "B",
-      "explanation": "'Glass' is a countable noun (one glass, two glasses), whereas 'milk' is uncountable."
+      "explanation": "'Glass' is a countable noun (one glass, two glasses), whereas 'milk' is uncountable. ('Glass' adalah kata benda yang dapat dihitung, sedangkan 'milk' tidak dapat dihitung.)"
+    },
+    {
+      "id": 28,
+      "type": "passage_mcq",
+      "passage": "In the Indonesian National Armed Forces (TNI), ranks and performance are evaluated carefully. Here is a guide to common irregular comparisons:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |",
+      "question": "If a soldier has 'little' experience, and another has even 'less', what is the superlative form for the one with the minimum experience?",
+      "options": {
+        "A": "littlest",
+        "B": "least",
+        "C": "most little",
+        "D": "lesser"
+      },
+      "correctAnswer": "B",
+      "explanation": "According to the table, the superlative form of 'little' is 'least'. (Menurut tabel, bentuk superlatif dari 'little' adalah 'least'.)"
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "Which sentence correctly uses the 'as...as' structure?",
+      "options": {
+        "A": "The new policy is as effective as the old one.",
+        "B": "The new policy is as more effective as the old one.",
+        "C": "The new policy is so effective as the old one.",
+        "D": "The new policy is as effective than the old one."
+      },
+      "correctAnswer": "A",
+      "explanation": "The correct structure for equality is 'as + base adjective + as'. (Struktur yang benar untuk kesetaraan adalah 'as + kata sifat dasar + as'.)"
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on 'to be' usage.",
+      "sentence": "Where is the keys to the police station?",
+      "tokens": [
+        "Where",
+        "is",
+        "the",
+        "keys",
+        "to",
+        "the",
+        "police",
+        "station?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The subject 'keys' is plural, so it requires the plural verb 'are', not 'is'. (Subjek 'keys' adalah jamak, sehingga memerlukan kata kerja jamak 'are', bukan 'is'.)"
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Identify the interrogative sentence:",
+      "options": {
+        "A": "What a beautiful Indonesian landscape!",
+        "B": "Please submit the civil servant report.",
+        "C": "Where did the military convoy go?",
+        "D": "I wonder where the police station is."
+      },
+      "correctAnswer": "C",
+      "explanation": "An interrogative sentence asks a direct question and ends with a question mark. (Kalimat interogatif menanyakan pertanyaan langsung dan diakhiri dengan tanda tanya.)"
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the plural form of 'phenomenon' in a scientific police report?",
+      "options": {
+        "A": "phenomenons",
+        "B": "phenomena",
+        "C": "phenomenies",
+        "D": "phenomenas"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Phenomenon' is a Greek-derived noun, and its irregular plural form is 'phenomena'. ('Phenomenon' adalah kata benda yang berasal dari bahasa Yunani, dan bentuk jamak tidak beraturannya adalah 'phenomena'.)"
+    },
+    {
+      "id": 33,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on stative verbs.",
+      "sentence": "Are you liking your new role as a civil servant?",
+      "tokens": [
+        "Are",
+        "you",
+        "liking",
+        "your",
+        "new",
+        "role",
+        "as",
+        "a",
+        "civil",
+        "servant?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "like",
+        "Do you like"
+      ],
+      "explanation": "'Like' is a stative verb and is generally not used in the continuous form. Use 'Do you like'. ('Like' adalah kata kerja stative dan umumnya tidak digunakan dalam bentuk continuous. Gunakan 'Do you like'.)"
+    },
+    {
+      "id": 34,
+      "type": "passage_mcq",
+      "passage": "Mary has less patience than her sister. However, she is the most dedicated worker in the office. Her brother is taller than both of them, but Mary is the smartest.",
+      "question": "Which word in the passage is a superlative adjective?",
+      "options": {
+        "A": "less",
+        "B": "dedicated",
+        "C": "taller",
+        "D": "smartest"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Smartest' is the superlative form of 'smart', indicating the highest degree among three or more. ('Smartest' adalah bentuk superlatif dari 'smart', menunjukkan tingkat tertinggi di antara tiga atau lebih.)"
     },
     {
       "id": 35,
       "type": "mcq",
-      "question": "What is the comparative form of 'far' when referring to physical distance?",
+      "question": "Which 'to be' verb correctly completes the sentence: 'Neither of the options ___ acceptable to the committee.'",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Neither' is grammatically singular, so it takes the singular verb 'is'. ('Neither' secara tata bahasa adalah tunggal, sehingga menggunakan kata kerja tunggal 'is'.)"
+    },
+    {
+      "id": 36,
+      "type": "image_mcq",
+      "question": "Which component does the bracketed section represent: 'The man [in the blue police uniform] is my uncle.'?",
+      "image": "https://via.placeholder.com/400x200/000080/ffffff?text=Sentence+with+brackets",
+      "options": {
+        "A": "Direct Object",
+        "B": "Adjectival Prepositional Phrase",
+        "C": "Adverbial Prepositional Phrase",
+        "D": "Predicate Nominative"
+      },
+      "correctAnswer": "B",
+      "explanation": "'In the blue police uniform' modifies the noun 'man', functioning as an adjectival prepositional phrase. ('In the blue police uniform' menjelaskan kata benda 'man', berfungsi sebagai frasa preposisional adjektiva.)"
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Choose the correct negative interrogative sentence:",
+      "options": {
+        "A": "Do not you respect the military flag?",
+        "B": "Don't you respect the military flag?",
+        "C": "You don't respect the military flag?",
+        "D": "Not you do respect the military flag?"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard form for a negative interrogative sentence contracts the auxiliary and 'not' at the beginning. (Bentuk standar untuk kalimat interogatif negatif menyingkat kata kerja bantu dan 'not' di awal.)"
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on existential 'there'.",
+      "sentence": "There is many reasons to join the police force.",
+      "tokens": [
+        "There",
+        "is",
+        "many",
+        "reasons",
+        "to",
+        "join",
+        "the",
+        "police",
+        "force."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The subject 'reasons' is plural, so the existential 'there' construction requires the plural verb 'are'. (Subjek 'reasons' adalah jamak, sehingga konstruksi eksistensial 'there' memerlukan kata kerja jamak 'are'.)"
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "What is the comparative form of 'far' when referring to physical distance in a military patrol?",
       "options": {
         "A": "farer",
         "B": "more far",
@@ -536,12 +609,12 @@
         "D": "furtherest"
       },
       "correctAnswer": "C",
-      "explanation": "'Farther' is the comparative form of 'far' used specifically for physical distance."
+      "explanation": "'Farther' is the comparative form of 'far' used specifically for physical distance. ('Farther' adalah bentuk komparatif dari 'far' yang digunakan khusus untuk jarak fisik.)"
     },
     {
-      "id": 36,
+      "id": 40,
       "type": "passage_mcq",
-      "passage": "To form the comparative of most one-syllable adjectives, add '-er' (e.g., tall -> taller). For two-syllable adjectives ending in '-y', change '-y' to '-i' and add '-er' (e.g., happy -> happier). For longer adjectives, use 'more' (e.g., beautiful -> more beautiful).",
+      "passage": "To form the comparative of most one-syllable adjectives, add '-er' (e.g., tall -> taller). For two-syllable adjectives ending in '-y', change '-y' to '-i' and add '-er' (e.g., busy -> busier). For longer adjectives, use 'more' (e.g., diligent -> more diligent).",
       "question": "According to the passage, how do you form the comparative of 'busy'?",
       "options": {
         "A": "more busy",
@@ -550,201 +623,71 @@
         "D": "most busy"
       },
       "correctAnswer": "B",
-      "explanation": "'Busy' is a two-syllable adjective ending in '-y', so you change '-y' to '-i' and add '-er' to get 'busier'."
+      "explanation": "'Busy' is a two-syllable adjective ending in '-y', so you change '-y' to '-i' and add '-er'. ('Busy' adalah kata sifat dua suku kata yang berakhiran '-y', jadi ubah '-y' menjadi '-i' dan tambahkan '-er'.)"
     },
     {
-      "id": 37,
+      "id": 41,
       "type": "mcq",
-      "question": "Identify the predicate in the sentence: 'The majestic eagle soared gracefully above the mountains.'",
+      "question": "Identify the predicate in the sentence: 'The majestic Garuda eagle soared gracefully above the mountains.'",
       "options": {
-        "A": "The majestic eagle",
+        "A": "The majestic Garuda eagle",
         "B": "soared",
         "C": "soared gracefully above the mountains",
         "D": "above the mountains"
       },
       "correctAnswer": "C",
-      "explanation": "The complete predicate includes the verb ('soared') and all its modifiers ('gracefully above the mountains')."
-    },
-    {
-      "id": 38,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "There is many reasons to celebrate.",
-      "tokens": [
-        "There",
-        "is",
-        "many",
-        "reasons",
-        "to",
-        "celebrate."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "are"
-      ],
-      "explanation": "The subject 'reasons' is plural, so the existential 'there' construction requires the plural verb 'are'."
-    },
-    {
-      "id": 39,
-      "type": "mcq",
-      "question": "Which sentence is a positive statement using 'to be'?",
-      "options": {
-        "A": "Is she your sister?",
-        "B": "They are not ready yet.",
-        "C": "We were at the beach yesterday.",
-        "D": "Was he late?"
-      },
-      "correctAnswer": "C",
-      "explanation": "'We were at the beach yesterday' is a positive (affirmative) statement using the past tense 'to be' verb 'were'."
-    },
-    {
-      "id": 40,
-      "type": "mcq",
-      "question": "What is the superlative form of 'good'?",
-      "options": {
-        "A": "goodest",
-        "B": "more good",
-        "C": "better",
-        "D": "best"
-      },
-      "correctAnswer": "D",
-      "explanation": "'Good' is an irregular adjective. Its comparative is 'better' and its superlative is 'best'."
-    },
-    {
-      "id": 41,
-      "type": "image_mcq",
-      "question": "Which component does the bracketed section represent: 'The man [in the blue coat] is my uncle.'?",
-      "image": "https://via.placeholder.com/400x200/008000/ffffff?text=Sentence+with+brackets",
-      "options": {
-        "A": "Direct Object",
-        "B": "Adjectival Prepositional Phrase",
-        "C": "Adverbial Prepositional Phrase",
-        "D": "Predicate Nominative"
-      },
-      "correctAnswer": "B",
-      "explanation": "'In the blue coat' modifies the noun 'man', functioning as an adjectival prepositional phrase."
+      "explanation": "The complete predicate includes the verb ('soared') and all its modifiers. (Predikat lengkap mencakup kata kerja ('soared') dan semua modifikasinya.)"
     },
     {
       "id": 42,
-      "type": "mcq",
-      "question": "Choose the correct plural form for the compound noun 'mother-in-law'.",
+      "type": "passage_mcq",
+      "passage": "In the Indonesian National Armed Forces (TNI), ranks and performance are evaluated carefully. Here is a guide to common irregular comparisons:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |",
+      "question": "Based on the table, which word correctly completes this sentence: 'This is the ___ decision the commander has made.'",
       "options": {
-        "A": "mother-in-laws",
-        "B": "mothers-in-law",
-        "C": "mother-in-laws'",
-        "D": "mothers-in-laws"
+        "A": "bad",
+        "B": "worse",
+        "C": "worst",
+        "D": "baddest"
       },
-      "correctAnswer": "B",
-      "explanation": "In compound nouns, the plural 's' is typically added to the main noun, which is 'mother' in this case."
+      "correctAnswer": "C",
+      "explanation": "The sentence requires a superlative adjective to describe 'decision'. The superlative of 'bad' is 'worst'. (Kalimat ini memerlukan kata sifat superlatif untuk menjelaskan 'decision'. Bentuk superlatif dari 'bad' adalah 'worst'.)"
     },
     {
       "id": 43,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "This is the more better option available.",
-      "tokens": [
-        "This",
-        "is",
-        "the",
-        "more",
-        "better",
-        "option",
-        "available."
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "best"
-      ],
-      "explanation": "'Better' is already comparative. To express the superlative degree, use 'best'. 'More better' is a double comparative error."
+      "type": "mcq",
+      "question": "Which sentence is a positive (affirmative) statement using 'to be'?",
+      "options": {
+        "A": "Is she a police officer?",
+        "B": "They are not ready for the mission yet.",
+        "C": "We were at the military base yesterday.",
+        "D": "Was he late for the civil service exam?"
+      },
+      "correctAnswer": "C",
+      "explanation": "'We were at the military base yesterday' is a positive statement using the past tense 'to be' verb 'were'. ('We were at the military base yesterday' adalah pernyataan positif menggunakan kata kerja 'to be' bentuk lampau 'were'.)"
     },
     {
       "id": 44,
-      "type": "passage_mcq",
-      "passage": "When forming questions with the verb 'to be', invert the subject and the verb. For example, 'She is happy' becomes 'Is she happy?'. For negative questions, 'Is she not happy?' or 'Isn't she happy?'",
-      "question": "Based on the passage, how do you form a question with the 'to be' verb?",
-      "options": {
-        "A": "Add 'do' at the beginning",
-        "B": "Invert the subject and the verb",
-        "C": "Add 'does' at the end",
-        "D": "Keep the same word order"
-      },
-      "correctAnswer": "B",
-      "explanation": "The passage explicitly states: 'invert the subject and the verb'."
-    },
-    {
-      "id": 45,
-      "type": "mcq",
-      "question": "Which of the following is an uncountable noun?",
-      "options": {
-        "A": "Information",
-        "B": "Bottle",
-        "C": "Idea",
-        "D": "Car"
-      },
-      "correctAnswer": "A",
-      "explanation": "'Information' is an uncountable noun. You cannot say 'one information' or 'two informations'."
-    },
-    {
-      "id": 46,
-      "type": "mcq",
-      "question": "Identify the subject complement in the sentence: 'The soup tastes delicious.'",
-      "options": {
-        "A": "soup",
-        "B": "tastes",
-        "C": "delicious",
-        "D": "The soup"
-      },
-      "correctAnswer": "C",
-      "explanation": "'Delicious' is a predicate adjective that describes the subject 'soup' after the linking verb 'tastes'."
-    },
-    {
-      "id": 47,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "How much apples did you buy?",
+      "question": "Click the incorrect word and correct it based on modifier rules.",
+      "sentence": "How much apples did the civil servant buy?",
       "tokens": [
         "How",
         "much",
         "apples",
         "did",
-        "you",
+        "the",
+        "civil",
+        "servant",
         "buy?"
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
         "many"
       ],
-      "explanation": "'Apples' is a countable plural noun, so it requires the quantifier 'many', not 'much'."
+      "explanation": "'Apples' is a countable plural noun, so it requires the quantifier 'many', not 'much'. ('Apples' adalah kata benda jamak yang dapat dihitung, sehingga memerlukan kata kuantitas 'many', bukan 'much'.)"
     },
     {
-      "id": 48,
-      "type": "mcq",
-      "question": "What is the correct interrogative form of 'They were playing soccer'?",
-      "options": {
-        "A": "Were they playing soccer?",
-        "B": "Did they were playing soccer?",
-        "C": "They were playing soccer?",
-        "D": "Was they playing soccer?"
-      },
-      "correctAnswer": "A",
-      "explanation": "To form a question with the 'to be' verb, invert the subject ('they') and the verb ('were')."
-    },
-    {
-      "id": 49,
-      "type": "passage_mcq",
-      "passage": "Nouns can be classified into several categories. Common nouns name general items (e.g., city, dog). Proper nouns name specific items and are capitalized (e.g., London, Fido). Countable nouns can be counted (e.g., apple, chair), while uncountable nouns cannot (e.g., water, advice).",
-      "question": "According to the passage, which of the following is a proper noun?",
-      "options": {
-        "A": "city",
-        "B": "dog",
-        "C": "London",
-        "D": "water"
-      },
-      "correctAnswer": "C",
-      "explanation": "The passage states that proper nouns name specific items and are capitalized, giving 'London' as an example."
-    },
-    {
-      "id": 50,
+      "id": 45,
       "type": "image_mcq",
       "question": "Which sentence correctly uses the superlative degree to describe the image?",
       "image": "https://via.placeholder.com/400x200/800080/ffffff?text=Three+Runners:+1st,+2nd,+3rd",
@@ -755,7 +698,87 @@
         "D": "He is fast than the others."
       },
       "correctAnswer": "B",
-      "explanation": "When comparing three or more items (the three runners), the superlative form 'fastest' is required."
+      "explanation": "When comparing three or more items, the superlative form 'fastest' is required. (Saat membandingkan tiga item atau lebih, bentuk superlatif 'fastest' diperlukan.)"
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "What is the correct interrogative form of 'They were playing soccer'?",
+      "options": {
+        "A": "Were they playing soccer?",
+        "B": "Did they were playing soccer?",
+        "C": "They were playing soccer?",
+        "D": "Was they playing soccer?"
+      },
+      "correctAnswer": "A",
+      "explanation": "To form a question with the 'to be' verb, invert the subject ('they') and the verb ('were'). (Untuk membentuk pertanyaan dengan kata kerja 'to be', balikkan subjek ('they') dan kata kerja ('were').)"
+    },
+    {
+      "id": 47,
+      "type": "passage_mcq",
+      "passage": "Nouns can be classified into several categories. Common nouns name general items (e.g., city, dog). Proper nouns name specific items and are capitalized (e.g., Jakarta, Garuda). Countable nouns can be counted (e.g., apple, chair), while uncountable nouns cannot (e.g., water, advice).",
+      "question": "According to the passage, which of the following is a proper noun?",
+      "options": {
+        "A": "city",
+        "B": "dog",
+        "C": "Jakarta",
+        "D": "water"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states that proper nouns name specific items and are capitalized, giving 'Jakarta' as an example. (Teks menyatakan bahwa kata benda proper menamai item spesifik dan diawali huruf kapital, memberikan 'Jakarta' sebagai contoh.)"
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Identify the subject complement in the sentence: 'The new police regulation seems strict.'",
+      "options": {
+        "A": "regulation",
+        "B": "seems",
+        "C": "strict",
+        "D": "The new police regulation"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Strict' is a predicate adjective that describes the subject 'regulation' after the linking verb 'seems'. ('Strict' adalah kata sifat predikat yang menjelaskan subjek 'regulation' setelah kata kerja penghubung 'seems'.)"
+    },
+    {
+      "id": 49,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on sentence component agreement.",
+      "sentence": "The reason he joined the military are because he wanted to serve the country.",
+      "tokens": [
+        "The",
+        "reason",
+        "he",
+        "joined",
+        "the",
+        "military",
+        "are",
+        "because",
+        "he",
+        "wanted",
+        "to",
+        "serve",
+        "the",
+        "country."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The subject 'The reason' is singular, so it requires the singular verb 'is'. (Subjek 'The reason' adalah tunggal, sehingga memerlukan kata kerja tunggal 'is'.)"
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun often used in civil service contexts?",
+      "options": {
+        "A": "furniture",
+        "B": "document",
+        "C": "employee",
+        "D": "meeting"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Furniture' is an uncountable noun. You cannot say 'one furniture' or 'two furnitures'. ('Furniture' adalah kata benda yang tidak dapat dihitung. Anda tidak bisa mengatakan 'one furniture' atau 'two furnitures'.)"
     }
   ]
 }
