@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "title": "Comprehensive Basic English Grammar Test",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 50,
+      "easy": 75
+    }
+  },
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Choose the correct form: 'They ___ at the park yesterday.'",
+      "options": {
+        "A": "are",
+        "B": "was",
+        "C": "were",
+        "D": "is"
+      },
+      "correctAnswer": "C",
+      "id": 1,
+      "explanation": "'Were' is the past tense of 'to be' for plural subjects."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the singular form of 'phenomena'?",
+      "options": {
+        "A": "Phenomenas",
+        "B": "Phenomenum",
+        "C": "Phenomenon",
+        "D": "Phenomenons"
+      },
+      "correctAnswer": "C",
+      "id": 2,
+      "explanation": "'Phenomenon' is the singular Greek-derived form."
+    },
+    {
+      "type": "mcq",
+      "question": "Which noun is always plural?",
+      "options": {
+        "A": "Scissors",
+        "B": "Car",
+        "C": "Book",
+        "D": "Tree"
+      },
+      "correctAnswer": "A",
+      "id": 3,
+      "explanation": "'Scissors' is a pluralia tantum, always taking a plural verb."
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the predicate in the sentence: 'My sister baked a delicious cake yesterday.'",
+      "options": {
+        "A": "a delicious cake",
+        "B": "My sister",
+        "C": "yesterday",
+        "D": "baked a delicious cake yesterday"
+      },
+      "correctAnswer": "D",
+      "id": 4,
+      "explanation": "The predicate contains the verb and tells something about the subject."
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the positive sentence:",
+      "options": {
+        "A": "We will not travel to Japan.",
+        "B": "We won't travel to Japan.",
+        "C": "We will travel to Japan next year.",
+        "D": "Will we travel to Japan?"
+      },
+      "correctAnswer": "C",
+      "id": 5,
+      "explanation": "It states a future action affirmatively."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She is the most smartest girl in the school",
+      "tokens": [
+        "She",
+        "is",
+        "the",
+        "most",
+        "smartest",
+        "girl",
+        "in",
+        "the",
+        "school"
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "smartest",
+        "most smart"
+      ],
+      "explanation": "Double superlative is incorrect. Use either 'most smart' or 'smartest', but 'smartest' is the standard form."
+    },
+    {
+      "type": "mcq",
+      "question": "In the sentence 'The quick brown fox jumps over the lazy dog', what is the subject?",
+      "options": {
+        "A": "jumps",
+        "B": "over the lazy dog",
+        "C": "The quick brown fox",
+        "D": "the lazy dog"
+      },
+      "correctAnswer": "C",
+      "id": 7,
+      "explanation": "The subject is the person or thing performing the action."
+    },
+    {
+      "type": "mcq",
+      "question": "In the sentence 'They elected him president', what is the role of 'president'?",
+      "options": {
+        "A": "Subject",
+        "B": "Direct object",
+        "C": "Object complement",
+        "D": "Predicate"
+      },
+      "correctAnswer": "C",
+      "id": 8,
+      "explanation": "'President' complements the direct object 'him'."
+    },
+    {
+      "type": "mcq",
+      "question": "In 'The children played happily in the park', what is the predicate?",
+      "options": {
+        "A": "happily",
+        "B": "played happily in the park",
+        "C": "The children",
+        "D": "in the park"
+      },
+      "correctAnswer": "B",
+      "id": 9,
+      "explanation": "The predicate includes the verb and all its modifiers and objects."
+    },
+    {
+      "type": "mcq",
+      "question": "Convert to negative: 'She has a car.'",
+      "options": {
+        "A": "She has not a car.",
+        "B": "She does not has a car.",
+        "C": "She no has a car.",
+        "D": "She does not have a car."
+      },
+      "correctAnswer": "D",
+      "id": 10,
+      "explanation": "Use 'does not' + base verb 'have' for third person singular present negative."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct interrogative form: 'You like pizza.'",
+      "options": {
+        "A": "Does you like pizza?",
+        "B": "Like you pizza?",
+        "C": "You do like pizza?",
+        "D": "Do you like pizza?"
+      },
+      "correctAnswer": "D",
+      "id": 11,
+      "explanation": "Use the auxiliary 'do' for second person present tense questions."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence uses the superlative degree correctly?",
+      "options": {
+        "A": "She is the smartest student in the class.",
+        "B": "She is smartest than everyone.",
+        "C": "She is more smartest in the class.",
+        "D": "She is the smarter student in the class."
+      },
+      "correctAnswer": "A",
+      "id": 12,
+      "explanation": "Superlative degree compares three or more things and uses 'the' + -est or 'most'."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence contains a subject complement?",
+      "options": {
+        "A": "She hit the ball.",
+        "B": "Birds fly.",
+        "C": "They live in London.",
+        "D": "The sky is blue."
+      },
+      "correctAnswer": "D",
+      "id": 13,
+      "explanation": "'Blue' is a subject complement describing 'The sky' via the linking verb 'is'."
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the indirect object in 'He sent his mother a letter'.",
+      "options": {
+        "A": "He",
+        "B": "a letter",
+        "C": "sent",
+        "D": "his mother"
+      },
+      "correctAnswer": "D",
+      "id": 14,
+      "explanation": "'His mother' is the recipient of the direct object 'a letter'."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the plural of 'child'?",
+      "options": {
+        "A": "Children",
+        "B": "Childern",
+        "C": "Childes",
+        "D": "Childs"
+      },
+      "correctAnswer": "A",
+      "id": 15,
+      "explanation": "'Children' is the irregular plural form of 'child'."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the plural of 'mouse' (the animal)?",
+      "options": {
+        "A": "Mouses",
+        "B": "Mice",
+        "C": "Mouse",
+        "D": "Meese"
+      },
+      "correctAnswer": "B",
+      "id": 16,
+      "explanation": "'Mice' is the irregular plural of 'mouse'."
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the sentence with the comparative degree:",
+      "options": {
+        "A": "My car is the newest.",
+        "B": "My car is new.",
+        "C": "My car is very new.",
+        "D": "My car is newer than yours."
+      },
+      "correctAnswer": "D",
+      "id": 17,
+      "explanation": "'Newer than' indicates a comparison between two things."
+    },
+    {
+      "type": "mcq",
+      "question": "Which is a positive (affirmative) sentence?",
+      "options": {
+        "A": "The sun never rises at night.",
+        "B": "Does the sun rise in the east?",
+        "C": "The sun does not rise in the west.",
+        "D": "The sun rises in the east."
+      },
+      "correctAnswer": "D",
+      "id": 18,
+      "explanation": "A positive sentence states a fact without negation or questioning."
+    },
+    {
+      "type": "mcq",
+      "question": "Which is the superlative form of 'far'?",
+      "options": {
+        "A": "farther",
+        "B": "farthest",
+        "C": "more far",
+        "D": "farrer"
+      },
+      "correctAnswer": "B",
+      "id": 19,
+      "explanation": "'Farthest' (or 'furthest') is the superlative form of 'far'."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct negative form of 'He can swim.'",
+      "options": {
+        "A": "He cannot swim.",
+        "B": "He no can swim.",
+        "C": "He can not swim.",
+        "D": "He does not can swim."
+      },
+      "correctAnswer": "A",
+      "id": 20,
+      "explanation": "'Cannot' (or 'can't') is the correct negative form of 'can'."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "We are late for the meeting yesterday.",
+        "B": "We were late for the meeting.",
+        "C": "We was late for the meeting.",
+        "D": "We be late for the meeting."
+      },
+      "correctAnswer": "B",
+      "id": 21,
+      "explanation": "'Were' is the correct past tense form for 'we'."
+    },
+    {
+      "type": "mcq",
+      "question": "In 'We consider her a genius', what is 'a genius'?",
+      "options": {
+        "A": "Subject",
+        "B": "Direct object",
+        "C": "Indirect object",
+        "D": "Object complement"
+      },
+      "correctAnswer": "D",
+      "id": 22,
+      "explanation": "'A genius' renames or describes the direct object 'her'."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct form: 'The news ___ shocking.'",
+      "options": {
+        "A": "am",
+        "B": "are",
+        "C": "is",
+        "D": "were"
+      },
+      "correctAnswer": "C",
+      "id": 23,
+      "explanation": "'News' is an uncountable noun and takes a singular verb."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence is interrogative?",
+      "options": {
+        "A": "Have you finished your homework?",
+        "B": "I have finished my homework.",
+        "C": "Finished homework I have.",
+        "D": "I have not finished my homework."
+      },
+      "correctAnswer": "A",
+      "id": 24,
+      "explanation": "An interrogative sentence asks a question and ends with a question mark."
+    },
+    {
+      "type": "mcq",
+      "question": "Identify the countable noun:",
+      "options": {
+        "A": "Information",
+        "B": "Bottle",
+        "C": "Sand",
+        "D": "Rice"
+      },
+      "correctAnswer": "B",
+      "id": 25,
+      "explanation": "'Bottle' can be counted (one bottle, two bottles)."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the subject complement in 'The soup tastes salty'?",
+      "options": {
+        "A": "None of the above",
+        "B": "The soup",
+        "C": "tastes",
+        "D": "salty"
+      },
+      "correctAnswer": "D",
+      "id": 26,
+      "explanation": "'Salty' describes the subject 'The soup' after a linking verb."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct comparative form: 'This book is ___ than that one.'",
+      "options": {
+        "A": "interestingly",
+        "B": "most interesting",
+        "C": "interestinger",
+        "D": "more interesting"
+      },
+      "correctAnswer": "D",
+      "id": 27,
+      "explanation": "Long adjectives use 'more' for the comparative degree."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "options": {
+        "A": "I need some information.",
+        "B": "I need a few information.",
+        "C": "I need an information.",
+        "D": "I need many informations."
+      },
+      "correctAnswer": "A",
+      "id": 28,
+      "explanation": "'Information' is uncountable and uses 'some'."
+    },
+    {
+      "type": "mcq",
+      "question": "Convert to interrogative: 'They are playing football.'",
+      "options": {
+        "A": "Playing football they are.",
+        "B": "Are they playing football?",
+        "C": "They are playing football?",
+        "D": "They are not playing football."
+      },
+      "correctAnswer": "B",
+      "id": 29,
+      "explanation": "Invert the subject and the 'to be' verb to form a question."
+    },
+    {
+      "id": 30,
+      "type": "passage_mcq",
+      "passage": "Degrees of Comparison Table:\n| Adjective | Comparative | Superlative |\n|-----------|-------------|-------------|\n| tall      | taller      | tallest     |\n| happy     | happier     | happiest    |\n| good      | better      | best        |\n| bad       | worse       | worst       |\n| far       | farther/further | farthest/furthest |\n",
+      "question": "Based on the table, what is the superlative form of 'bad'?",
+      "options": {
+        "A": "baddest",
+        "B": "worse",
+        "C": "worst",
+        "D": "more bad"
+      },
+      "correctAnswer": "C",
+      "explanation": "The table shows 'worst' is the superlative form of 'bad'."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the comparative form of 'good'?",
+      "options": {
+        "A": "better",
+        "B": "gooder",
+        "C": "more good",
+        "D": "best"
+      },
+      "correctAnswer": "A",
+      "id": 31,
+      "explanation": "'Better' is the irregular comparative form of 'good'."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct quantifier for an uncountable noun:",
+      "options": {
+        "A": "Several",
+        "B": "Few",
+        "C": "Much",
+        "D": "Many"
+      },
+      "correctAnswer": "C",
+      "id": 32,
+      "explanation": "'Much' is used with uncountable nouns, while 'many' is for countable."
+    },
+    {
+      "type": "mcq",
+      "question": "Convert to interrogative: 'She went to the store.'",
+      "options": {
+        "A": "Went she to the store?",
+        "B": "Does she went to the store?",
+        "C": "She did go to the store?",
+        "D": "Did she go to the store?"
+      },
+      "correctAnswer": "D",
+      "id": 33,
+      "explanation": "Use 'Did' + subject + base verb for past tense questions."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct form: 'He runs ___ than his brother.'",
+      "options": {
+        "A": "fastest",
+        "B": "fastly",
+        "C": "more fast",
+        "D": "faster"
+      },
+      "correctAnswer": "D",
+      "id": 34,
+      "explanation": "'Faster' is the comparative form of the adverb/adjective 'fast'."
+    },
+    {
+      "type": "mcq",
+      "question": "Fill in the blank: 'There ___ many apples in the basket.'",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "am",
+        "D": "was"
+      },
+      "correctAnswer": "A",
+      "id": 35,
+      "explanation": "'Are' is used with plural nouns like 'many apples'."
+    },
+    {
+      "type": "mcq",
+      "question": "Which is correct?",
+      "options": {
+        "A": "He are been a teacher for five years.",
+        "B": "He has been a teacher for five years.",
+        "C": "He is been a teacher for five years.",
+        "D": "He have been a teacher for five years."
+      },
+      "correctAnswer": "B",
+      "id": 36,
+      "explanation": "'Has been' is the correct present perfect form for third person singular."
+    },
+    {
+      "type": "mcq",
+      "question": "Fill in the blank: 'She ___ not happy with the results.'",
+      "options": {
+        "A": "am",
+        "B": "are",
+        "C": "is",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "id": 37,
+      "explanation": "'Is' is the present tense form for third person singular."
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence is grammatically correct as a negative?",
+      "options": {
+        "A": "They no went to the party.",
+        "B": "They didn't go to the party.",
+        "C": "They didn't went to the party.",
+        "D": "They not go to the party."
+      },
+      "correctAnswer": "B",
+      "id": 38,
+      "explanation": "'Didn't' is followed by the base form of the verb 'go'."
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is a negative sentence?",
+      "options": {
+        "A": "Does she like coffee?",
+        "B": "She does not like coffee.",
+        "C": "She might like coffee.",
+        "D": "She likes coffee."
+      },
+      "correctAnswer": "B",
+      "id": 39,
+      "explanation": "A negative sentence contains a negation like 'not'."
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun?",
+      "options": {
+        "A": "Dog",
+        "B": "Chair",
+        "C": "Water",
+        "D": "Apple"
+      },
+      "correctAnswer": "C",
+      "id": 40,
+      "explanation": "'Water' cannot be counted individually and has no plural form."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct past tense form: 'The dog ___ sleeping on the couch.'",
+      "options": {
+        "A": "were",
+        "B": "was",
+        "C": "is",
+        "D": "are"
+      },
+      "correctAnswer": "B",
+      "id": 41,
+      "explanation": "'Was' is the past tense singular form of 'to be'."
+    },
+    {
+      "type": "mcq",
+      "question": "Fill in the blank: 'I wish I ___ taller.'",
+      "options": {
+        "A": "were",
+        "B": "was",
+        "C": "am",
+        "D": "is"
+      },
+      "correctAnswer": "A",
+      "id": 42,
+      "explanation": "'Were' is used in the subjunctive mood for hypothetical situations."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct form: 'There are two ___ on the table.'",
+      "options": {
+        "A": "knives",
+        "B": "knive",
+        "C": "knifes",
+        "D": "knife"
+      },
+      "correctAnswer": "A",
+      "id": 43,
+      "explanation": "Nouns ending in -fe change to -ves in the plural."
+    },
+    {
+      "type": "mcq",
+      "question": "Fill in the blank: 'Mount Everest is the ___ mountain in the world.'",
+      "options": {
+        "A": "highest",
+        "B": "more high",
+        "C": "high",
+        "D": "higher"
+      },
+      "correctAnswer": "A",
+      "id": 44,
+      "explanation": "Superlative degree is used when comparing one thing to all others in a group."
+    },
+    {
+      "type": "mcq",
+      "question": "Fill in the blank: '___ you ready to go?'",
+      "options": {
+        "A": "Be",
+        "B": "Are",
+        "C": "Am",
+        "D": "Is"
+      },
+      "correctAnswer": "B",
+      "id": 45,
+      "explanation": "'Are' is used with the second person subject 'you'."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the comparative form of 'bad'?",
+      "options": {
+        "A": "worst",
+        "B": "more bad",
+        "C": "badder",
+        "D": "worse"
+      },
+      "correctAnswer": "D",
+      "id": 46,
+      "explanation": "'Worse' is the irregular comparative form of 'bad'."
+    },
+    {
+      "type": "mcq",
+      "question": "What is the simple subject in 'The tall man with the hat is waiting'?",
+      "options": {
+        "A": "is waiting",
+        "B": "The tall man",
+        "C": "with the hat",
+        "D": "man"
+      },
+      "correctAnswer": "D",
+      "id": 47,
+      "explanation": "The simple subject is the main noun without its modifiers."
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is the direct object in 'She gave her friend a gift'?",
+      "options": {
+        "A": "a gift",
+        "B": "gave",
+        "C": "She",
+        "D": "her friend"
+      },
+      "correctAnswer": "A",
+      "id": 48,
+      "explanation": "'A gift' is the thing being given, making it the direct object."
+    },
+    {
+      "type": "mcq",
+      "question": "Which of these is an uncountable noun?",
+      "options": {
+        "A": "Desk",
+        "B": "Furniture",
+        "C": "Chair",
+        "D": "Table"
+      },
+      "correctAnswer": "B",
+      "id": 49,
+      "explanation": "'Furniture' is a collective uncountable noun."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct form of 'to be': 'I ___ a student.'",
+      "options": {
+        "A": "are",
+        "B": "be",
+        "C": "am",
+        "D": "is"
+      },
+      "correctAnswer": "C",
+      "id": 50,
+      "explanation": "'Am' is used with the first person singular subject 'I'."
+    }
+  ]
+}

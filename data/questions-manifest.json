@@ -5,7 +5,7 @@
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/mix_simple_continuous.json","title":"Simple Present With Present Continuous"},
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/parts_of_speech.json","title":"Parts Of Speech"},
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/basic_grammar_01.json","title":"Basic Grammar 01"},
-  {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/sentence components.json","title":"Basic Grammar 02"},
+  {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/basic_grammar_02.json","title":"Basic Grammar 02"},
   {"level":"intermediate","group":"english","topic":"reading","path":"questions/intermediate/english/reading/short_passage.json","title":"Reading - Short Passage"},
   {"level":"easy","group":"math","topic":"algebra","path":"questions/easy/math/algebra/question.json","title":"Algebra Basics"},
   {"level":"advanced","group":"psychotest","topic":"logic","path":"questions/advanced/psychotest/logic/question.json","title":"Advanced Logic Test"},
