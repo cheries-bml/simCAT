@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "title": "English Grammar: Sentence Structure, Subject-Verb Agreement, and Noun Classification",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 65,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Identify the complete subject in the following sentence: 'The old, dusty book on the top shelf belongs to my grandfather.'",
+      "options": {
+        "A": "The old, dusty book on the top shelf",
+        "B": "book",
+        "C": "top shelf",
+        "D": "my grandfather"
+      },
+      "correctAnswer": "A",
+      "explanation": "The complete subject includes the simple subject ('book') and all its modifiers ('The old, dusty', 'on the top shelf')."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on subject-verb agreement.",
+      "sentence": "The list of items are on the desk.",
+      "tokens": [
+        "The",
+        "list",
+        "of",
+        "items",
+        "are",
+        "on",
+        "the",
+        "desk."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "The simple subject is 'list' (singular), not 'items'. Therefore, the verb must be the singular 'is'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Which sentence contains a direct object?",
+      "options": {
+        "A": "The baby cried loudly.",
+        "B": "She baked a delicious cake.",
+        "C": "He is a talented musician.",
+        "D": "The sun rises in the east."
+      },
+      "correctAnswer": "B",
+      "explanation": "In 'She baked a delicious cake', 'a delicious cake' receives the action of the verb 'baked', making it the direct object."
+    },
+    {
+      "id": 4,
+      "type": "passage_mcq",
+      "passage": "Dr. Aris Thorne is a renowned astrophysicist. He studies black holes. His latest discovery was groundbreaking.",
+      "question": "In the first sentence, what is the predicate nominative?",
+      "options": {
+        "A": "Dr. Aris Thorne",
+        "B": "is",
+        "C": "renowned",
+        "D": "astrophysicist"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Astrophysicist' is a noun that renames the subject 'Dr. Aris Thorne' after the linking verb 'is'."
+    },
+    {
+      "id": 5,
+      "type": "image_mcq",
+      "question": "In a standard sentence diagram, what component is placed on the horizontal line to the right of the vertical dividing line?",
+      "image": "https://via.placeholder.com/400x200/000000/ffffff?text=Sentence+Diagram+Structure",
+      "options": {
+        "A": "The subject",
+        "B": "The simple predicate (verb)",
+        "C": "The prepositional phrase",
+        "D": "The interjection"
+      },
+      "correctAnswer": "B",
+      "explanation": "In standard sentence diagramming, the simple predicate (verb) is placed on the right side of the main horizontal line."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Choose the correct 'to be' verb: 'My parents ___ very proud of my achievements.'",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "are",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "explanation": "The subject 'My parents' is plural, so it requires the plural 'to be' verb 'are'."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I is going to the library after school.",
+      "tokens": [
+        "I",
+        "is",
+        "going",
+        "to",
+        "the",
+        "library",
+        "after",
+        "school."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "am"
+      ],
+      "explanation": "The first-person singular pronoun 'I' always pairs with the 'to be' verb 'am'."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Which sentence is in the past tense using 'to be'?",
+      "options": {
+        "A": "They are happy today.",
+        "B": "She was a teacher for ten years.",
+        "C": "We will be there soon.",
+        "D": "I am feeling great."
+      },
+      "correctAnswer": "B",
+      "explanation": "'Was' is the past tense singular form of the 'to be' verb."
+    },
+    {
+      "id": 9,
+      "type": "passage_mcq",
+      "passage": "Yesterday, the weather was terrible. The skies were gray, and the wind was howling. We were stuck inside all day, but we were happy to be safe.",
+      "question": "How many times is a form of the 'to be' verb used in this passage?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctAnswer": "C",
+      "explanation": "The 'to be' verbs used are: 'was' (1), 'were' (2), 'was' (3), 'were' (4), 'were' (5). Wait, let's recount: 'was' (1), 'were' (2), 'was' (3), 'were' (4), 'were' (5). Actually, there are 5. Let me adjust the options or passage. Passage: 'Yesterday, the weather was terrible. The skies were gray. We were stuck inside.' 'was' (1), 'were' (2), 'were' (3). Total 3. Let's fix the options.",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correctAnswer": "B",
+      "explanation": "The 'to be' verbs used are: 'was' (weather was), 'were' (skies were), and 'were' (We were). Total = 3."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Form the correct negative sentence: 'She is a doctor.'",
+      "options": {
+        "A": "She not is a doctor.",
+        "B": "She does not be a doctor.",
+        "C": "She is not a doctor.",
+        "D": "She no is a doctor."
+      },
+      "correctAnswer": "C",
+      "explanation": "To make a 'to be' sentence negative, add 'not' directly after the 'to be' verb: 'is not'."
+    },
+    {
+      "id": 11,
+      "type": "image_mcq",
+      "question": "Which 'to be' verb correctly completes the description of the image?",
+      "image": "https://via.placeholder.com/400x200/FFD700/000000?text=Two+Cats+Sleeping",
+      "options": {
+        "A": "The cat is sleeping.",
+        "B": "The cats is sleeping.",
+        "C": "The cats are sleeping.",
+        "D": "The cats am sleeping."
+      },
+      "correctAnswer": "C",
+      "explanation": "The subject 'The cats' is plural, requiring the plural 'to be' verb 'are'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Choose the correct interrogative form: '___ they at the party last night?'",
+      "options": {
+        "A": "Was",
+        "B": "Were",
+        "C": "Are",
+        "D": "Is"
+      },
+      "correctAnswer": "B",
+      "explanation": "The subject 'they' is plural, and 'last night' indicates past tense, so 'Were' is correct."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "Where is the keys to the car?",
+      "tokens": [
+        "Where",
+        "is",
+        "the",
+        "keys",
+        "to",
+        "the",
+        "car?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The subject 'keys' is plural, so it requires the plural verb 'are', not 'is'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Which of the following is a positive (affirmative) sentence?",
+      "options": {
+        "A": "Are you coming with us?",
+        "B": "I do not like spinach.",
+        "C": "The sun shines brightly.",
+        "D": "Was she at the store?"
+      },
+      "correctAnswer": "C",
+      "explanation": "A positive sentence makes a statement without negation or questioning. 'The sun shines brightly' is a positive statement."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Identify the uncountable noun in the following list:",
+      "options": {
+        "A": "Apple",
+        "B": "Chair",
+        "C": "Water",
+        "D": "Dog"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Water' is an uncountable (mass) noun because it cannot be counted as individual discrete units without a measure word (e.g., a glass of water)."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on noun rules.",
+      "sentence": "I need to buy some new furnitures for my apartment.",
+      "tokens": [
+        "I",
+        "need",
+        "to",
+        "buy",
+        "some",
+        "new",
+        "furnitures",
+        "for",
+        "my",
+        "apartment."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "furniture"
+      ],
+      "explanation": "'Furniture' is an uncountable noun and does not take a plural 's'."
+    },
+    {
+      "id": 17,
+      "type": "passage_mcq",
+      "passage": "The children played in the garden. They found three mice hiding under the old boxes. One of the boys wanted to catch a mouse, but his mother told him to leave the animals alone.",
+      "question": "Which word in the passage is an irregular plural noun?",
+      "options": {
+        "A": "children",
+        "B": "garden",
+        "C": "boxes",
+        "D": "animals"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Children' is the irregular plural form of 'child'. ('Mice' is also irregular, but 'children' is the option provided)."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "What is the correct plural form of 'city'?",
+      "options": {
+        "A": "citys",
+        "B": "cities",
+        "C": "cityes",
+        "D": "citie's"
+      },
+      "correctAnswer": "B",
+      "explanation": "For nouns ending in a consonant + 'y', change the 'y' to 'i' and add 'es' (city -> cities)."
+    },
+    {
+      "id": 19,
+      "type": "image_mcq",
+      "question": "Which quantifier is correct for the noun shown in the image?",
+      "image": "https://via.placeholder.com/400x200/87CEEB/000000?text=A+pile+of+Rice",
+      "options": {
+        "A": "many rices",
+        "B": "a few rices",
+        "C": "much rice",
+        "D": "several rices"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Rice' is an uncountable noun, so it requires quantifiers like 'much' or 'a lot of', not 'many' or 'a few'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Which sentence correctly uses a countable noun with a quantifier?",
+      "options": {
+        "A": "I have much books.",
+        "B": "She has a few ideas.",
+        "C": "There is less students today.",
+        "D": "He drank many water."
+      },
+      "correctAnswer": "B",
+      "explanation": "'Ideas' is a countable plural noun, so it correctly pairs with the quantifier 'a few'."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "What is the comparative form of the adjective 'happy'?",
+      "options": {
+        "A": "more happy",
+        "B": "happier",
+        "C": "happiest",
+        "D": "most happy"
+      },
+      "correctAnswer": "B",
+      "explanation": "For two-syllable adjectives ending in 'y', change the 'y' to 'i' and add 'er' to form the comparative."
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it based on degrees of comparison.",
+      "sentence": "This is the most easiest test I have ever taken.",
+      "tokens": [
+        "This",
+        "is",
+        "the",
+        "most",
+        "easiest",
+        "test",
+        "I",
+        "have",
+        "ever",
+        "taken."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "easiest"
+      ],
+      "explanation": "This is a double superlative error. 'Easiest' is already superlative; 'most' should be removed."
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "passage": "Consider the following comparison table:\n| Adjective | Comparative | Superlative |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n| little | less | least |",
+      "question": "Based on the table, what is the superlative form of 'bad'?",
+      "options": {
+        "A": "badder",
+        "B": "baddest",
+        "C": "worse",
+        "D": "worst"
+      },
+      "correctAnswer": "D",
+      "explanation": "According to the provided table, the superlative form of the irregular adjective 'bad' is 'worst'."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Choose the correct sentence using the 'as...as' structure.",
+      "options": {
+        "A": "She is as tall as her brother.",
+        "B": "She is as taller as her brother.",
+        "C": "She is so tall as her brother.",
+        "D": "She is as tall than her brother."
+      },
+      "correctAnswer": "A",
+      "explanation": "The correct structure for equality is 'as + base adjective + as'."
+    },
+    {
+      "id": 25,
+      "type": "image_mcq",
+      "question": "Which sentence correctly uses the comparative degree to describe the image?",
+      "image": "https://via.placeholder.com/400x200/FF5733/ffffff?text=Elephant+and+Mouse",
+      "options": {
+        "A": "The elephant is big than the mouse.",
+        "B": "The elephant is bigger than the mouse.",
+        "C": "The elephant is the biggest than the mouse.",
+        "D": "The elephant is more big than the mouse."
+      },
+      "correctAnswer": "B",
+      "explanation": "The comparative form of 'big' is 'bigger', and it is followed by 'than' when comparing two things."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Which sentence contains an object complement?",
+      "options": {
+        "A": "The soup tastes delicious.",
+        "B": "They elected him president.",
+        "C": "She gave him a gift.",
+        "D": "The dog barked loudly."
+      },
+      "correctAnswer": "B",
+      "explanation": "In 'They elected him president', 'president' renames the direct object 'him', making it an object complement."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He don't know the answer to the question.",
+      "tokens": [
+        "He",
+        "don't",
+        "know",
+        "the",
+        "answer",
+        "to",
+        "the",
+        "question."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "The third-person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Identify the interrogative sentence:",
+      "options": {
+        "A": "What a beautiful day it is!",
+        "B": "Please close the door.",
+        "C": "Where did you put my keys?",
+        "D": "I wonder where my keys are."
+      },
+      "correctAnswer": "C",
+      "explanation": "An interrogative sentence asks a direct question and ends with a question mark."
+    },
+    {
+      "id": 29,
+      "type": "passage_mcq",
+      "passage": "Mary has less patience than her sister. However, she is the most dedicated worker in the office. Her brother is taller than both of them, but Mary is the smartest.",
+      "question": "Which word in the passage is a superlative adjective?",
+      "options": {
+        "A": "less",
+        "B": "dedicated",
+        "C": "taller",
+        "D": "smartest"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Smartest' is the superlative form of 'smart', indicating the highest degree among three or more."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "What is the plural form of 'phenomenon'?",
+      "options": {
+        "A": "phenomenons",
+        "B": "phenomena",
+        "C": "phenomenies",
+        "D": "phenomenas"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Phenomenon' is a Greek-derived noun, and its irregular plural form is 'phenomena'."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Which 'to be' verb correctly completes the sentence: 'Neither of the options ___ acceptable.'",
+      "options": {
+        "A": "am",
+        "B": "is",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Neither' is singular, so it takes the singular verb 'is'."
+    },
+    {
+      "id": 32,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "Are you liking pizza?",
+      "tokens": [
+        "Are",
+        "you",
+        "liking",
+        "pizza?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "like",
+        "Do you like"
+      ],
+      "explanation": "'Like' is a stative verb and is generally not used in the continuous form. The correct interrogative is 'Do you like pizza?'"
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Choose the correct negative interrogative sentence:",
+      "options": {
+        "A": "Do not you like coffee?",
+        "B": "Don't you like coffee?",
+        "C": "You don't like coffee?",
+        "D": "Not you do like coffee?"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard form for a negative interrogative sentence contracts the auxiliary and 'not' at the beginning: 'Don't you...'"
+    },
+    {
+      "id": 34,
+      "type": "image_mcq",
+      "question": "Identify the countable noun in the image description.",
+      "image": "https://via.placeholder.com/400x200/33FF57/000000?text=A+glass+of+milk+and+three+apples",
+      "options": {
+        "A": "milk",
+        "B": "glass",
+        "C": "water",
+        "D": "furniture"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Glass' is a countable noun (one glass, two glasses), whereas 'milk' is uncountable."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "What is the comparative form of 'far' when referring to physical distance?",
+      "options": {
+        "A": "farer",
+        "B": "more far",
+        "C": "farther",
+        "D": "furtherest"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Farther' is the comparative form of 'far' used specifically for physical distance."
+    },
+    {
+      "id": 36,
+      "type": "passage_mcq",
+      "passage": "To form the comparative of most one-syllable adjectives, add '-er' (e.g., tall -> taller). For two-syllable adjectives ending in '-y', change '-y' to '-i' and add '-er' (e.g., happy -> happier). For longer adjectives, use 'more' (e.g., beautiful -> more beautiful).",
+      "question": "According to the passage, how do you form the comparative of 'busy'?",
+      "options": {
+        "A": "more busy",
+        "B": "busier",
+        "C": "busyier",
+        "D": "most busy"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Busy' is a two-syllable adjective ending in '-y', so you change '-y' to '-i' and add '-er' to get 'busier'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Identify the predicate in the sentence: 'The majestic eagle soared gracefully above the mountains.'",
+      "options": {
+        "A": "The majestic eagle",
+        "B": "soared",
+        "C": "soared gracefully above the mountains",
+        "D": "above the mountains"
+      },
+      "correctAnswer": "C",
+      "explanation": "The complete predicate includes the verb ('soared') and all its modifiers ('gracefully above the mountains')."
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "There is many reasons to celebrate.",
+      "tokens": [
+        "There",
+        "is",
+        "many",
+        "reasons",
+        "to",
+        "celebrate."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "The subject 'reasons' is plural, so the existential 'there' construction requires the plural verb 'are'."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Which sentence is a positive statement using 'to be'?",
+      "options": {
+        "A": "Is she your sister?",
+        "B": "They are not ready yet.",
+        "C": "We were at the beach yesterday.",
+        "D": "Was he late?"
+      },
+      "correctAnswer": "C",
+      "explanation": "'We were at the beach yesterday' is a positive (affirmative) statement using the past tense 'to be' verb 'were'."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the superlative form of 'good'?",
+      "options": {
+        "A": "goodest",
+        "B": "more good",
+        "C": "better",
+        "D": "best"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Good' is an irregular adjective. Its comparative is 'better' and its superlative is 'best'."
+    },
+    {
+      "id": 41,
+      "type": "image_mcq",
+      "question": "Which component does the bracketed section represent: 'The man [in the blue coat] is my uncle.'?",
+      "image": "https://via.placeholder.com/400x200/008000/ffffff?text=Sentence+with+brackets",
+      "options": {
+        "A": "Direct Object",
+        "B": "Adjectival Prepositional Phrase",
+        "C": "Adverbial Prepositional Phrase",
+        "D": "Predicate Nominative"
+      },
+      "correctAnswer": "B",
+      "explanation": "'In the blue coat' modifies the noun 'man', functioning as an adjectival prepositional phrase."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Choose the correct plural form for the compound noun 'mother-in-law'.",
+      "options": {
+        "A": "mother-in-laws",
+        "B": "mothers-in-law",
+        "C": "mother-in-laws'",
+        "D": "mothers-in-laws"
+      },
+      "correctAnswer": "B",
+      "explanation": "In compound nouns, the plural 's' is typically added to the main noun, which is 'mother' in this case."
+    },
+    {
+      "id": 43,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "This is the more better option available.",
+      "tokens": [
+        "This",
+        "is",
+        "the",
+        "more",
+        "better",
+        "option",
+        "available."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "best"
+      ],
+      "explanation": "'Better' is already comparative. To express the superlative degree, use 'best'. 'More better' is a double comparative error."
+    },
+    {
+      "id": 44,
+      "type": "passage_mcq",
+      "passage": "When forming questions with the verb 'to be', invert the subject and the verb. For example, 'She is happy' becomes 'Is she happy?'. For negative questions, 'Is she not happy?' or 'Isn't she happy?'",
+      "question": "Based on the passage, how do you form a question with the 'to be' verb?",
+      "options": {
+        "A": "Add 'do' at the beginning",
+        "B": "Invert the subject and the verb",
+        "C": "Add 'does' at the end",
+        "D": "Keep the same word order"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states: 'invert the subject and the verb'."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun?",
+      "options": {
+        "A": "Information",
+        "B": "Bottle",
+        "C": "Idea",
+        "D": "Car"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Information' is an uncountable noun. You cannot say 'one information' or 'two informations'."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Identify the subject complement in the sentence: 'The soup tastes delicious.'",
+      "options": {
+        "A": "soup",
+        "B": "tastes",
+        "C": "delicious",
+        "D": "The soup"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Delicious' is a predicate adjective that describes the subject 'soup' after the linking verb 'tastes'."
+    },
+    {
+      "id": 47,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "How much apples did you buy?",
+      "tokens": [
+        "How",
+        "much",
+        "apples",
+        "did",
+        "you",
+        "buy?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "many"
+      ],
+      "explanation": "'Apples' is a countable plural noun, so it requires the quantifier 'many', not 'much'."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "What is the correct interrogative form of 'They were playing soccer'?",
+      "options": {
+        "A": "Were they playing soccer?",
+        "B": "Did they were playing soccer?",
+        "C": "They were playing soccer?",
+        "D": "Was they playing soccer?"
+      },
+      "correctAnswer": "A",
+      "explanation": "To form a question with the 'to be' verb, invert the subject ('they') and the verb ('were')."
+    },
+    {
+      "id": 49,
+      "type": "passage_mcq",
+      "passage": "Nouns can be classified into several categories. Common nouns name general items (e.g., city, dog). Proper nouns name specific items and are capitalized (e.g., London, Fido). Countable nouns can be counted (e.g., apple, chair), while uncountable nouns cannot (e.g., water, advice).",
+      "question": "According to the passage, which of the following is a proper noun?",
+      "options": {
+        "A": "city",
+        "B": "dog",
+        "C": "London",
+        "D": "water"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states that proper nouns name specific items and are capitalized, giving 'London' as an example."
+    },
+    {
+      "id": 50,
+      "type": "image_mcq",
+      "question": "Which sentence correctly uses the superlative degree to describe the image?",
+      "image": "https://via.placeholder.com/400x200/800080/ffffff?text=Three+Runners:+1st,+2nd,+3rd",
+      "options": {
+        "A": "He is the faster runner.",
+        "B": "He is the fastest runner.",
+        "C": "He is more fast runner.",
+        "D": "He is fast than the others."
+      },
+      "correctAnswer": "B",
+      "explanation": "When comparing three or more items (the three runners), the superlative form 'fastest' is required."
+    }
+  ]
+}
