@@ -77,13 +77,12 @@
       "id": 6,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "She is the most smartest girl in the school",
+      "sentence": "She is the smart girl in the school",
       "tokens": [
         "She",
         "is",
         "the",
-        "most",
-        "smartest",
+        "smart",
         "girl",
         "in",
         "the",
@@ -91,10 +90,9 @@
       ],
       "incorrectIndex": 4,
       "correctAnswers": [
-        "smartest",
-        "most smart"
+        "smartest"
       ],
-      "explanation": "Double superlative is incorrect. Use either 'most smart' or 'smartest', but 'smartest' is the standard form."
+      "explanation": "'smartest' is the correct superlative form of 'smart'."
     },
     {
       "type": "mcq",
