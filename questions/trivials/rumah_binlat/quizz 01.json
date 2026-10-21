@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "title": "Kuis Trivial Super Lucu",
+    "timeLimits": {
+      "fast": 15,
+      "normal": 30,
+      "easy": 60
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "passage_mcq",
+      "question": "Kopi apa yang paling cocok diberikan?",
+      "options": {
+        "A": "Kopi tubruk plus tagihan utang",
+        "B": "Kopi susu gula aren",
+        "C": "Kopi luwak",
+        "D": "Kopi hitam tanpa gula"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tidak ada yang lebih bikin melek dan sadar diri daripada diingatkan sama tagihan utang.",
+      "passage": "Di sebuah kafe, seorang barista bertanya, 'Mau kopi apa?'. Pelanggan menjawab, 'Yang bikin melek dan sadar diri'."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Kenapa motor sering mati di tanjakan?",
+      "options": {
+        "A": "Karena capek",
+        "B": "Karena tidak dikasih makan",
+        "C": "Karena emang lagi nggak mood",
+        "D": "Karena lupa pakai bensin"
+      },
+      "correctAnswer": "A",
+      "explanation": "Motor juga makhluk hidup yang punya perasaan, apalagi kalau tanjakannya curam."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Apa bedanya soto sama coto?",
+      "options": {
+        "A": "Semua benar",
+        "B": "Soto kuahnya bening/kuning, Coto kuahnya kacang",
+        "C": "Soto dari Jawa, Coto dari Makassar",
+        "D": "Soto pakai seledri, Coto pakai daun bawang"
+      },
+      "correctAnswer": "A",
+      "explanation": "Semua pernyataan di atas adalah fakta kuliner yang valid, tapi yang paling penting: sama-sama enak."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Apa yang lebih cepat dari kecepatan cahaya?",
+      "options": {
+        "A": "Usia yang bertambah",
+        "B": "Kabar burung / gosip tetangga",
+        "C": "Internet fiber optik",
+        "D": "Pesawat luar angkasa"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cahaya butuh waktu 8 menit dari Matahari ke Bumi, gosip tetangga cuma butuh 8 detik dari rumah A ke rumah Z."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Apa persamaan uang dan cinta?",
+      "options": {
+        "A": "Sama-sama butuh dompet",
+        "B": "Sama-sama hilang saat hari gajian",
+        "C": "Sama-sama bikin pusing kalau kurang",
+        "D": "Sama-sama bisa dipalsukan"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kurang uang pusing, kurang cinta juga pusing. Bedanya, kurang uang bisa pinjam, kurang cinta nggak ada yang mau pinjemin."
+    },
+    {
+      "id": 6,
+      "type": "passage_mcq",
+      "question": "Apa jawaban guru tersebut?",
+      "options": {
+        "A": "Karena bening itu suci",
+        "B": "Karena kalau hijau, namanya air matcha",
+        "C": "Karena mata kita bening",
+        "D": "Karena kalau merah, namanya saus tomat"
+      },
+      "correctAnswer": "B",
+      "explanation": "Bayangkan kalau nangis keluar air warna hijau, orang bukannya kasihan, malah tanya beli di mana.",
+      "passage": "Seorang siswa bertanya pada guru, 'Bu, kenapa air mata warnanya bening?'. Guru tersebut tersenyum dan memberikan jawaban yang tak terduga."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Kenapa pintu kalau dibuka harus didorong atau ditarik?",
+      "options": {
+        "A": "Karena biar kita olahraga",
+        "B": "Karena kalau dipeluk namanya pintu pelukan",
+        "C": "Karena pintunya nggak bisa jalan sendiri",
+        "D": "Karena itu mekanisme engsel"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pintu pelukan hanya ada di hati orang yang sudah move on (atau belum)."
+    },
+    {
+      "id": 8,
+      "type": "passage_mcq",
+      "question": "Kenapa siput tidak ikut berlari?",
+      "options": {
+        "A": "Karena siput lupa pakai sepatu",
+        "B": "Karena itu lomba lari, bukan lomba angkat rumah",
+        "C": "Karena siput sudah duluan di garis finish (nyelip)",
+        "D": "Karena siput lagi nunggu Gojek"
+      },
+      "correctAnswer": "B",
+      "explanation": "Siput sadar diri, dia bawa rumah sendiri, kalau lari nanti rumahnya ketinggalan.",
+      "passage": "Di sebuah desa, ada lomba lari antara kura-kura dan siput. Kura-kura berlari sekuat tenaga. Siput hanya diam di tempat."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Kenapa bantal bentuknya persegi panjang?",
+      "options": {
+        "A": "Karena biar muat dua orang",
+        "B": "Karena kalau bulat namanya bakpao",
+        "C": "Karena pabriknya cuma punya cetakan itu",
+        "D": "Karena kalau segitiga bikin leher keseleo"
+      },
+      "correctAnswer": "B",
+      "explanation": "Coba tidur pakai bakpao, selain panas, juga bakal dimasukin ke mulut pas lagi mimpi."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Apa bedanya cowok sama nyamuk?",
+      "options": {
+        "A": "Nyamuk bikin gatal, cowok bikin baper",
+        "B": "Nyamuk bisa dibasmi, cowok nggak bisa",
+        "C": "Semua benar",
+        "D": "Nyamuk pergi ninggalin bekas, cowok pergi ninggalin janji"
+      },
+      "correctAnswer": "C",
+      "explanation": "Semua opsi adalah fakta lapangan yang telah diverifikasi oleh banyak korban."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Kenapa pohon kelapa di depan rumah harus ditebang?",
+      "options": {
+        "A": "Karena mau diganti pohon mangga",
+        "B": "Karena berbahaya kalau ada angin kencang",
+        "C": "Karena buahnya bikin eneg",
+        "D": "Karena kalau di belakang rumah namanya pohon kelapa belakang rumah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ini adalah hukum alam semesta: penempatan menentukan nama."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Kenapa zombie kalau nyerang selalu bareng-bareng?",
+      "options": {
+        "A": "Karena kalau sendiri namanya zomblo",
+        "B": "Karena kalau sendiri dikira pengangguran",
+        "C": "Karena takut gelap",
+        "D": "Karena suka arisan"
+      },
+      "correctAnswer": "A",
+      "explanation": "Zomblo adalah zombie yang gagal menemukan pasangannya, makanya dia sendirian."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "question": "Kenapa ayam nggak ikut berenang?",
+      "options": {
+        "A": "Karena ayam lagi puasa",
+        "B": "Karena ayam tidak punya KTP",
+        "C": "Karena ayam takut basah",
+        "D": "Karena itu taruhan ayam, bukan taruhan bebek"
+      },
+      "correctAnswer": "D",
+      "explanation": "Logika taruhan: kalau yang taruhan ayam, ya ayam yang harus berenang, tapi di sini yang berenang bebek, jadi ayam nggak perlu repot.",
+      "passage": "Ayam dan bebek bertaruh siapa yang bisa berenang lebih cepat. Bebek langsung melompat ke air dan berenang dengan anggun. Ayam hanya berdiri di pinggir dan menatap nanar."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Apa yang punya gigi tapi nggak bisa makan?",
+      "options": {
+        "A": "Semua benar",
+        "B": "Resleting",
+        "C": "Gergaji",
+        "D": "Sisir"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sisir punya gigi, resleting punya gigi, gergaji punya gigi. Tapi nggak satupun yang bisa makan nasi padang."
+    },
+    {
+      "id": 15,
+      "type": "passage_mcq",
+      "question": "Apa jawaban paling logis dan lucu dari sang ayah?",
+      "options": {
+        "A": "Karena kalau hijau semua, namanya lampu hijau",
+        "B": "Karena biar pelangi iri",
+        "C": "Karena pabriknya lagi diskon warna itu",
+        "D": "Karena kalau warnanya ungu, nanti dikira terong"
+      },
+      "correctAnswer": "A",
+      "explanation": "Kalau semua warnanya hijau, ya namanya bukan lampu lalu lintas lagi, tapi lampu hijau.",
+      "passage": "Seorang anak bertanya pada ayahnya, 'Yah, kenapa sih lampu lalu lintas warnanya merah, kuning, hijau?'. Sang ayah menjawab dengan bijak."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Kenapa buku matematika sering terlihat sedih?",
+      "options": {
+        "A": "Karena sampurnya jelek",
+        "B": "Karena jarang dibaca",
+        "C": "Karena penuh dengan masalah",
+        "D": "Karena harganya mahal tapi isinya bikin nangis"
+      },
+      "correctAnswer": "C",
+      "explanation": "Setiap halaman adalah masalah baru yang belum terpecahkan, wajar kalau buku matematika depresi."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "Kenapa ikan hidup di air?",
+      "options": {
+        "A": "Karena ikan alergi udara",
+        "B": "Karena ikan nggak punya kaki",
+        "C": "Karena air lebih murah dari sewa apartemen",
+        "D": "Karena kalau di darat namanya ikan asin"
+      },
+      "correctAnswer": "D",
+      "explanation": "Kalau ikan hidup di darat dan dijemur, besoknya langsung jadi komoditas ekspor."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Kenapa tukang cukur rambut nggak pernah botak?",
+      "options": {
+        "A": "Karena dia pakai wig rahasia",
+        "B": "Karena botak itu nggak gaya",
+        "C": "Karena dia yang megang gunting, bukan kepalanya",
+        "D": "Karena dia takut nggak laku"
+      },
+      "correctAnswer": "C",
+      "explanation": "Logika sederhana: yang cukur orang, bukan yang dicukur."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Apa bedanya kucing sama WiFi?",
+      "options": {
+        "A": "Kucing lebih lucu",
+        "B": "WiFi nggak butuh makan, kucing butuh",
+        "C": "Kucing bisa kawin, WiFi nggak bisa",
+        "D": "Kucing kalau dipanggil bisa datang, WiFi kalau dipanggil nggak pernah nyambung"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pernah nggak sih teriak 'WiFi connect!'? Nggak kan. Tapi kucing dipanggil 'meow' langsung nengok."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Apa yang bisa pecah cuma dengan disebut namanya?",
+      "options": {
+        "A": "Rekor dunia",
+        "B": "Semua benar",
+        "C": "Hening",
+        "D": "Janji"
+      },
+      "correctAnswer": "B",
+      "explanation": "Kalau kamu bilang 'Janji!', janji itu sudah diucapkan. Kalau bilang 'Hening!', heningnya langsung buyar."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Kenapa tukang bakso kalau jualan teriaknya 'Bakso!'?",
+      "options": {
+        "A": "Karena biar suaranya lantang",
+        "B": "Karena kalau diam dikira lewat doang",
+        "C": "Karena itu sudah tradisi turun temurun",
+        "D": "Karena kalau teriak 'Mie ayam!' ya jualan mie ayam"
+      },
+      "correctAnswer": "D",
+      "explanation": "Logika tingkat dewa: jualan apa, teriak apa. Kalau jualan bakso teriak 'Nasi goreng!', yang ada dikira gila."
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "question": "Apa jawaban sang filsuf?",
+      "options": {
+        "A": "Tas sekolah anak SD",
+        "B": "Hati yang dikhianati",
+        "C": "Bumi",
+        "D": "Pura-pura tidak tahu"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pura-pura tidak tahu itu berat, karena harus menahan diri untuk tidak membongkar kebenaran.",
+      "passage": "Seorang filsuf ditanya, 'Apa yang paling berat di dunia ini?'. Dia berpikir keras selama 5 menit."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Apa yang naik turun tapi nggak pernah bergerak dari tempatnya?",
+      "options": {
+        "A": "Semua benar",
+        "B": "Tangga",
+        "C": "Harga sembako",
+        "D": "Eskalator rusak"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tangga naik turun, eskalator rusak ya diam tapi konsepnya naik turun, harga sembako? Naik terus, turunnya nggak pernah."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Hewan apa yang paling hening dan nggak pernah ribut?",
+      "options": {
+        "A": "Semut, karena nggak punya pita suara",
+        "B": "Sloth, karena terlalu malas buat bersuara",
+        "C": "Kucing yang lagi diomelin emak",
+        "D": "Ikan, karena kalau bersuara malah jadi ikan teri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kucing yang lagi diomelin emak pasti diam seribu bahasa, takut ditambahin omelan."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Apa bedanya tidur sama mati?",
+      "options": {
+        "A": "Kalau tidur masih bisa bangun, kalau mati... masih bisa bangun kalau lagi kaget",
+        "B": "Kalau tidur ada dengkuran, kalau mati nggak",
+        "C": "Kalau tidur ada mimpi, kalau mati nggak",
+        "D": "Sama aja, bedanya di detak jantung"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pernah nggak lagi tidur nyenyak tiba-tiba kaget bangun karena mimpi jatuh? Itu proof kalau mati pun bisa 'bangun' kalau kaget (secara teoritis lucu)."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "Apa makanan yang paling sabar sedunia?",
+      "options": {
+        "A": "Nasi goreng, karena sudah biasa diaduk-aduk",
+        "B": "Es krim, karena sabar meleleh",
+        "C": "Sate, karena ditusuk-tusuk nggak marah",
+        "D": "Kerupuk, karena sabar digoreng"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sate sudah biasa ditusuk dari lahir sampai mati, tingkat kesabarannya di atas rata-rata."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "Kenapa orang kalau ketawa di chat bunyinya 'wkwkwk'?",
+      "options": {
+        "A": "Karena 'wkwk' lebih hemat kuota",
+        "B": "Karena keyboardnya rusak",
+        "C": "Karena warisan nenek moyang",
+        "D": "Karena kalau 'hahaha' terlalu kebarat-baratan"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Wkwkwk' adalah identitas nasional digital Indonesia, lebih kuat dari batik."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "Kenapa tukang parkir jago nyanyi?",
+      "options": {
+        "A": "Karena biar dapat tip lebih",
+        "B": "Karena mereka penyanyi gagal",
+        "C": "Karena biasa ngatur nada (pluit)",
+        "D": "Karena parkir sambil karaoke"
+      },
+      "correctAnswer": "C",
+      "explanation": "Tiup pluit: 'Titit!' Itu sudah termasuk latihan vokal tingkat dasar."
+    },
+    {
+      "id": 29,
+      "type": "passage_mcq",
+      "question": "Apa jawaban A yang paling masuk akal dan lucu?",
+      "options": {
+        "A": "Kenapa kuota cepet habis",
+        "B": "Rahasia kelezatan sambal terasi",
+        "C": "Password WiFi tetangga",
+        "D": "Kenapa cewek bilang 'terserah'"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Terserah' adalah teka-teki terbesar dalam sejarah hubungan manusia, lebih rumit dari fisika kuantum.",
+      "passage": "Dua orang teman sedang ngobrol. A: 'Gue punya rahasia yang nggak bisa dipecahkan.' B: 'Apa itu?'"
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Hewan apa yang paling kaya?",
+      "options": {
+        "A": "Ular, karena punya banyak kulit",
+        "B": "Beruang, karena punya banyak madu",
+        "C": "Kura-kura, karena punya properti (rumah) sendiri",
+        "D": "Semut, karena punya banyak anak buah"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kura-kura sudah punya rumah sejak lahir, nggak perlu KPR atau DP 0%."
+    }
+  ]
+}
