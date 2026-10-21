@@ -2,9 +2,9 @@
   "meta": {
     "title": "English Grammar Correction Test 01",
     "timeLimits": {
-      "fast": 5,
-      "normal": 10,
-      "easy": 20
+      "fast": 15,
+      "normal": 25,
+      "easy": 45
     }
   },
   "questions": [
