@@ -1,468 +1,460 @@
 {
   "meta": {
-    "title": "English Grammar Correction Test",
+    "title": "Intermediate English Grammar Test 01",
     "timeLimits": {
       "fast": 25,
-      "normal": 40,
-      "easy": 60
-    },
-    "timeUnit": "minutes"
+      "normal": 50,
+      "easy": 75
+    }
   },
   "questions": [
     {
       "id": 1,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "The list of items are on the desk",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She don't like apples.",
       "tokens": [
-        "The",
-        "list",
-        "of",
-        "items",
-        "are",
-        "on",
-        "the",
-        "desk"
+        "She",
+        "don't",
+        "like",
+        "apples"
       ],
-      "incorrectIndex": 4,
+      "incorrectIndex": 1,
       "options": [
-        "have",
-        "were",
-        "be",
-        "is"
+        "do",
+        "doesn't",
+        "whom",
+        "any"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "is"
+        "doesn't"
       ],
-      "explanation": "The subject is 'list' (singular), so the verb should be 'is'."
+      "explanation": "'She' is a third-person singular subject and requires 'doesn't'."
     },
     {
       "id": 2,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "She is interested on learning new languages",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "They goes to school every day.",
       "tokens": [
-        "She",
-        "is",
-        "interested",
-        "on",
-        "learning",
-        "new",
-        "languages"
+        "They",
+        "goes",
+        "to",
+        "school",
+        "every",
+        "day"
       ],
-      "incorrectIndex": 3,
+      "incorrectIndex": 1,
       "options": [
-        "about",
-        "for",
         "in",
-        "at"
+        "playing",
+        "go",
+        "many"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "in"
+        "go"
       ],
-      "explanation": "The correct preposition after 'interested' is 'in'."
+      "explanation": "'They' is a plural subject and requires the base form 'go'."
     },
     {
       "id": 3,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "He runs very quick to catch the bus",
-      "tokens": [
-        "He",
-        "runs",
-        "very",
-        "quick",
-        "to",
-        "catch",
-        "the",
-        "bus"
-      ],
-      "incorrectIndex": 3,
-      "options": [
-        "quickest",
-        "quick",
-        "quicker",
-        "quickly"
-      ],
-      "correctAnswers": [
-        "quickly"
-      ],
-      "explanation": "An adverb ('quickly') is needed to modify the verb 'runs'."
-    },
-    {
-      "id": 4,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "I have seen him yesterday at the park",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I have went to the store.",
       "tokens": [
         "I",
         "have",
-        "seen",
-        "him",
-        "yesterday",
-        "at",
-        "the",
-        "park"
-      ],
-      "incorrectIndex": 1,
-      "options": [
-        "see",
-        "seeing",
-        "seen",
-        "saw"
-      ],
-      "correctAnswers": [
-        "saw"
-      ],
-      "explanation": "'Yesterday' indicates a specific time in the past, requiring the simple past tense 'saw'."
-    },
-    {
-      "id": 5,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "Him and I went to the store",
-      "tokens": [
-        "Him",
-        "and",
-        "I",
         "went",
         "to",
         "the",
         "store"
       ],
-      "incorrectIndex": 0,
+      "incorrectIndex": 2,
       "options": [
-        "His",
-        "He's",
-        "Himself",
-        "He"
+        "fewer",
+        "well",
+        "playing",
+        "gone"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "He"
+        "gone"
       ],
-      "explanation": "The subject pronoun 'He' should be used instead of the object pronoun 'Him'."
+      "explanation": "The past participle of 'go' is 'gone', which is used with 'have'."
     },
     {
-      "id": 6,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "There is many reasons to study English",
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "He is more taller than his brother.",
       "tokens": [
-        "There",
+        "He",
         "is",
-        "many",
-        "reasons",
-        "to",
-        "study",
-        "English"
+        "more",
+        "taller",
+        "than",
+        "his",
+        "brother"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "(delete)",
+        "does",
+        "went",
+        "waking"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "(delete)",
+        "remove",
+        ""
+      ],
+      "explanation": "Comparative adjectives like 'taller' do not take 'more'."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "We was waiting for the bus.",
+      "tokens": [
+        "We",
+        "was",
+        "waiting",
+        "for",
+        "the",
+        "bus"
       ],
       "incorrectIndex": 1,
       "options": [
-        "was",
-        "is",
-        "are",
-        "has"
+        "were",
+        "good",
+        "which",
+        "less"
       ],
+      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "are"
+        "were"
       ],
-      "explanation": "'Reasons' is plural, so the verb should be 'are'."
+      "explanation": "'We' is a plural subject and requires the plural verb 'were'."
     },
     {
-      "id": 7,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "This is the most unique painting I have ever seen",
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "The cat chases it's tail.",
       "tokens": [
-        "This",
-        "is",
-        "the",
-        "most unique",
-        "painting",
-        "I",
-        "have",
-        "ever",
-        "seen"
+        "The",
+        "cat",
+        "chases",
+        "it's",
+        "tail"
       ],
       "incorrectIndex": 3,
       "options": [
-        "more unique",
-        "most unique",
-        "unique",
-        "uniquer"
+        "whom",
+        "went",
+        "its",
+        "didn't"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "unique"
+        "its"
       ],
-      "explanation": "'Unique' is an absolute adjective and should not be modified by 'most'."
+      "explanation": "'Its' is the possessive form, while 'it's' means 'it is'."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She has less books than me.",
+      "tokens": [
+        "She",
+        "has",
+        "less",
+        "books",
+        "than",
+        "me"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "homework",
+        "that",
+        "gone",
+        "fewer"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "fewer"
+      ],
+      "explanation": "'Fewer' is used for countable nouns like 'books'."
     },
     {
       "id": 8,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "She gave me an advice about my career",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He run very fast yesterday.",
       "tokens": [
-        "She",
-        "gave",
-        "me",
-        "an",
-        "advice",
-        "about",
-        "my",
-        "career"
+        "He",
+        "run",
+        "very",
+        "fast",
+        "yesterday"
       ],
-      "incorrectIndex": 3,
+      "incorrectIndex": 1,
       "options": [
-        "these",
-        "some",
-        "a",
-        "many"
+        "at",
+        "whom",
+        "wasn't",
+        "ran"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "some"
+        "ran"
       ],
-      "explanation": "'Advice' is an uncountable noun, so it cannot take the article 'an'. Use 'some' or 'a piece of'."
+      "explanation": "The past tense of 'run' is 'ran'."
     },
     {
       "id": 9,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "If I was you I would accept the offer",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "This is the most unique painting.",
       "tokens": [
-        "If",
-        "I",
-        "was",
-        "you",
-        "I",
-        "would",
-        "accept",
+        "This",
+        "is",
         "the",
-        "offer"
+        "most",
+        "unique",
+        "painting"
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 3,
       "options": [
-        "am",
-        "was",
         "were",
-        "be"
+        "(delete)",
+        "have",
+        "went"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "were"
+        "(delete)",
+        "remove",
+        ""
       ],
-      "explanation": "In the second conditional, 'were' is used for all subjects (subjunctive mood)."
+      "explanation": "'Unique' is an absolute adjective and does not take 'most'."
     },
     {
       "id": 10,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "He has been working here since five years",
-      "tokens": [
-        "He",
-        "has",
-        "been",
-        "working",
-        "here",
-        "since",
-        "five",
-        "years"
-      ],
-      "incorrectIndex": 5,
-      "options": [
-        "since",
-        "during",
-        "from",
-        "for"
-      ],
-      "correctAnswers": [
-        "for"
-      ],
-      "explanation": "'For' is used with a period of time, while 'since' is used with a specific point in time."
-    },
-    {
-      "id": 11,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "I look forward to hear from you soon",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I look forward to meet you.",
       "tokens": [
         "I",
         "look",
         "forward",
         "to",
-        "hear",
-        "from",
-        "you",
-        "soon"
+        "meet",
+        "you"
       ],
       "incorrectIndex": 4,
       "options": [
-        "hears",
-        "hear",
-        "hearing",
-        "heard"
+        "goes",
+        "meeting",
+        "since",
+        "at"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "hearing"
+        "meeting"
       ],
-      "explanation": "The phrase 'look forward to' is followed by a gerund (verb + -ing)."
+      "explanation": "The phrase 'look forward to' is followed by a gerund (-ing form)."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "The information are very useful.",
+      "tokens": [
+        "The",
+        "information",
+        "are",
+        "very",
+        "useful"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "isn't",
+        "is",
+        "has",
+        "had"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "'Information' is an uncountable noun and takes a singular verb."
     },
     {
       "id": 12,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "The police is investigating the crime",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He gave me many advices.",
       "tokens": [
-        "The",
-        "police",
-        "is",
-        "investigating",
-        "the",
-        "crime"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "was",
-        "has",
-        "is",
-        "are"
-      ],
-      "correctAnswers": [
-        "are"
-      ],
-      "explanation": "'Police' is a plural noun and requires a plural verb ('are')."
-    },
-    {
-      "id": 13,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "She is good in playing the piano",
-      "tokens": [
-        "She",
-        "is",
-        "good",
-        "in",
-        "playing",
-        "the",
-        "piano"
+        "He",
+        "gave",
+        "me",
+        "many",
+        "advices"
       ],
       "incorrectIndex": 3,
       "options": [
-        "at",
-        "in",
-        "with",
-        "on"
+        "went",
+        "has",
+        "some",
+        "did"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "at"
+        "some"
       ],
-      "explanation": "The correct preposition after 'good' (when referring to skill) is 'at'."
+      "explanation": "'Advice' is an uncountable noun and cannot be used with 'many'."
     },
     {
-      "id": 14,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I have less books than you",
+      "id": 13,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "They are married since 2010.",
       "tokens": [
-        "I",
-        "have",
-        "less",
-        "books",
-        "than",
-        "you"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "least",
-        "fewer",
-        "little",
-        "less"
-      ],
-      "correctAnswers": [
-        "fewer"
-      ],
-      "explanation": "'Fewer' is used for countable nouns (books), while 'less' is for uncountable nouns."
-    },
-    {
-      "id": 15,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "He didn't knew the answer to the question",
-      "tokens": [
-        "He",
-        "didn't",
-        "knew",
-        "the",
-        "answer",
-        "to",
-        "the",
-        "question"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "known",
-        "know",
-        "knowing",
-        "knew"
-      ],
-      "correctAnswers": [
-        "know"
-      ],
-      "explanation": "After the auxiliary verb 'didn't', the base form of the verb ('know') must be used."
-    },
-    {
-      "id": 16,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "We have visited Paris in 2010",
-      "tokens": [
-        "We",
-        "have",
-        "visited",
-        "Paris",
-        "in",
+        "They",
+        "are",
+        "married",
+        "since",
         "2010"
       ],
       "incorrectIndex": 1,
       "options": [
-        "visiting",
-        "had visited",
-        "have visited",
-        "visited"
+        "went",
+        "good",
+        "have been",
+        "goes"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "visited"
+        "have been"
       ],
-      "explanation": "A specific past time ('in 2010') requires the simple past tense, not present perfect."
+      "explanation": "An action starting in the past and continuing to the present requires the present perfect tense."
     },
     {
-      "id": 17,
+      "id": 14,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "The news are very shocking today",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I have visit Paris in 2015.",
       "tokens": [
-        "The",
-        "news",
-        "are",
-        "very",
-        "shocking",
-        "today"
+        "I",
+        "have",
+        "visit",
+        "Paris",
+        "in",
+        "2015"
       ],
       "incorrectIndex": 2,
       "options": [
-        "have",
-        "are",
-        "is",
-        "were"
+        "who",
+        "meeting",
+        "visited",
+        "since"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "is"
+        "visited"
       ],
-      "explanation": "'News' is an uncountable noun and takes a singular verb ('is')."
+      "explanation": "A specific past time marker ('in 2015') requires the simple past tense."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "She is the girl which won the prize.",
+      "tokens": [
+        "She",
+        "is",
+        "the",
+        "girl",
+        "which",
+        "won",
+        "the",
+        "prize"
+      ],
+      "incorrectIndex": 4,
+      "options": [
+        "isn't",
+        "playing",
+        "less",
+        "who"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "who"
+      ],
+      "explanation": "'Who' is the correct relative pronoun for people."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He is afraid from spiders.",
+      "tokens": [
+        "He",
+        "is",
+        "afraid",
+        "from",
+        "spiders"
+      ],
+      "incorrectIndex": 3,
+      "options": [
+        "gone",
+        "of",
+        "does",
+        "to"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswers": [
+        "of"
+      ],
+      "explanation": "The correct preposition after 'afraid' is 'of'."
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "We discussed about the problem.",
+      "tokens": [
+        "We",
+        "discussed",
+        "about",
+        "the",
+        "problem"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "(delete)",
+        "waking",
+        "do",
+        "wasn't"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "(delete)",
+        "remove",
+        ""
+      ],
+      "explanation": "The verb 'discuss' is transitive and does not take the preposition 'about'."
     },
     {
       "id": 18,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I am used to wake up early",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "I am used to wake up early.",
       "tokens": [
         "I",
         "am",
@@ -474,131 +466,152 @@
       ],
       "incorrectIndex": 4,
       "options": [
+        "went",
         "waking",
-        "awake",
-        "woken",
-        "woke"
+        "were",
+        "good"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
         "waking"
       ],
-      "explanation": "'Be used to' is followed by a gerund (verb + -ing) or a noun."
+      "explanation": "The phrase 'used to' (meaning accustomed to) is followed by a gerund."
     },
     {
       "id": 19,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "She has a lot of informations about the topic",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "The police is investigating the crime.",
       "tokens": [
-        "She",
-        "has",
-        "a",
-        "lot",
-        "of",
-        "informations",
-        "about",
+        "The",
+        "police",
+        "is",
+        "investigating",
         "the",
-        "topic"
+        "crime"
       ],
-      "incorrectIndex": 5,
+      "incorrectIndex": 2,
       "options": [
-        "informative",
-        "information",
-        "inform",
-        "informations"
+        "much",
+        "go",
+        "has",
+        "are"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "information"
+        "are"
       ],
-      "explanation": "'Information' is an uncountable noun and does not have a plural form."
+      "explanation": "'Police' is a plural noun and requires a plural verb."
     },
     {
       "id": 20,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "He is the man which won the lottery",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "Each of the students have a book.",
       "tokens": [
-        "He",
-        "is",
+        "Each",
+        "of",
         "the",
-        "man",
-        "which",
-        "won",
-        "the",
-        "lottery"
+        "students",
+        "have",
+        "a",
+        "book"
       ],
       "incorrectIndex": 4,
       "options": [
+        "goes",
+        "has",
         "who",
-        "whom",
-        "which",
-        "whose"
+        "isn't"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "who"
+        "has"
       ],
-      "explanation": "'Who' or 'that' is used for people, while 'which' is used for things."
+      "explanation": "'Each' is singular and requires the singular verb 'has'."
     },
     {
       "id": 21,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I would rather to stay at home tonight",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "Neither of the answers are correct.",
       "tokens": [
-        "I",
-        "would",
-        "rather",
-        "to",
-        "stay",
-        "at",
-        "home",
-        "tonight"
+        "Neither",
+        "of",
+        "the",
+        "answers",
+        "are",
+        "correct"
       ],
-      "incorrectIndex": 3,
+      "incorrectIndex": 4,
       "options": [
-        "stay",
-        "stayed",
-        "staying",
-        "to stay"
+        "is",
+        "didn't",
+        "homework",
+        "on"
       ],
+      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "stay"
+        "is"
       ],
-      "explanation": "'Would rather' is followed by the base form of the verb without 'to'."
+      "explanation": "'Neither' is singular and requires the singular verb 'is'."
     },
     {
       "id": 22,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "In spite the rain we went for a walk",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I prefer coffee than tea.",
       "tokens": [
-        "In",
-        "spite",
-        "the",
-        "rain",
-        "we",
-        "went",
-        "for",
-        "a",
-        "walk"
+        "I",
+        "prefer",
+        "coffee",
+        "than",
+        "tea"
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 3,
       "options": [
-        "for the",
-        "on the",
-        "of the",
-        "the"
+        "gone",
+        "to",
+        "fewer",
+        "did"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "of the"
+        "to"
       ],
-      "explanation": "The correct phrase is 'In spite of'."
+      "explanation": "The correct preposition after 'prefer' is 'to'."
     },
     {
       "id": 23,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "She is married with a doctor",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "He is good in playing chess.",
+      "tokens": [
+        "He",
+        "is",
+        "good",
+        "in",
+        "playing",
+        "chess"
+      ],
+      "incorrectIndex": 3,
+      "options": [
+        "its",
+        "didn't",
+        "at",
+        "much"
+      ],
+      "correctAnswerIndex": 2,
+      "correctAnswers": [
+        "at"
+      ],
+      "explanation": "The correct preposition after 'good' (meaning skilled) is 'at'."
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She is married with a doctor.",
       "tokens": [
         "She",
         "is",
@@ -609,127 +622,151 @@
       ],
       "incorrectIndex": 3,
       "options": [
-        "with",
-        "from",
+        "it's",
         "to",
-        "by"
+        "much",
+        "on"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
         "to"
       ],
-      "explanation": "The correct preposition is 'married to', not 'married with'."
-    },
-    {
-      "id": 24,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "I have been knowing him for ten years",
-      "tokens": [
-        "I",
-        "have",
-        "been knowing",
-        "him",
-        "for",
-        "ten",
-        "years"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "know",
-        "knowing",
-        "known",
-        "knew"
-      ],
-      "correctAnswers": [
-        "known"
-      ],
-      "explanation": "'Know' is a stative verb and is not typically used in the continuous form. Use present perfect 'have known'."
+      "explanation": "The correct preposition after 'married' is 'to'."
     },
     {
       "id": 25,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "The childrens are playing in the garden",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "The news are shocking.",
       "tokens": [
         "The",
-        "childrens",
+        "news",
         "are",
-        "playing",
-        "in",
-        "the",
-        "garden"
+        "shocking"
       ],
-      "incorrectIndex": 1,
+      "incorrectIndex": 2,
       "options": [
-        "childrens",
-        "childs",
-        "children",
-        "child"
+        "who",
+        "to",
+        "was",
+        "is"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "children"
+        "is"
       ],
-      "explanation": "'Children' is already the plural form of 'child'. It does not take an 's'."
+      "explanation": "'News' is an uncountable noun and takes a singular verb."
     },
     {
       "id": 26,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "He is the most tall boy in the class",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "I have known him since five years.",
       "tokens": [
-        "He",
-        "is",
-        "the",
-        "most tall",
-        "boy",
-        "in",
-        "the",
-        "class"
+        "I",
+        "have",
+        "known",
+        "him",
+        "since",
+        "five",
+        "years"
       ],
-      "incorrectIndex": 3,
+      "incorrectIndex": 4,
       "options": [
-        "tallest",
-        "taller",
-        "more tall",
-        "most tall"
+        "doesn't",
+        "for",
+        "went",
+        "did"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "tallest"
+        "for"
       ],
-      "explanation": "The superlative form of 'tall' is 'tallest'."
+      "explanation": "'For' is used to indicate a duration of time."
     },
     {
       "id": 27,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "I need a scissors to cut this paper",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He is the man which I met yesterday.",
       "tokens": [
+        "He",
+        "is",
+        "the",
+        "man",
+        "which",
         "I",
-        "need",
-        "a",
-        "scissors",
-        "to",
-        "cut",
-        "this",
-        "paper"
+        "met",
+        "yesterday"
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 4,
       "options": [
-        "some",
-        "a",
-        "an",
-        "many"
+        "whom",
+        "does",
+        "well",
+        "were"
       ],
+      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "some"
+        "whom"
       ],
-      "explanation": "'Scissors' is a plural noun. Use 'some' or 'a pair of'."
+      "explanation": "'Whom' is the correct relative pronoun for people as the object of the verb."
     },
     {
       "id": 28,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "They didn't went to the party.",
+      "tokens": [
+        "They",
+        "didn't",
+        "went",
+        "to",
+        "the",
+        "party"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "go",
+        "in",
+        "meeting",
+        "since"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "go"
+      ],
+      "explanation": "After 'did not', the base form of the verb is used."
+    },
+    {
+      "id": 29,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "She speaks English very good",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I having a car.",
+      "tokens": [
+        "I",
+        "having",
+        "a",
+        "car"
+      ],
+      "incorrectIndex": 1,
+      "options": [
+        "waking",
+        "since",
+        "much",
+        "have"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "have"
+      ],
+      "explanation": "'Have' (meaning possession) is a stative verb and is not used in the continuous form."
+    },
+    {
+      "id": 30,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She speaks English very good.",
       "tokens": [
         "She",
         "speaks",
@@ -739,21 +776,433 @@
       ],
       "incorrectIndex": 4,
       "options": [
-        "better",
-        "best",
-        "well",
-        "good"
+        "meeting",
+        "many",
+        "hearing",
+        "well"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
         "well"
       ],
-      "explanation": "An adverb ('well') is needed to modify the verb 'speaks', not the adjective 'good'."
+      "explanation": "'Well' is the adverb form used to modify the verb 'speaks'."
     },
     {
-      "id": 29,
+      "id": 31,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "We must to finish the project by Friday",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He has been working here since 10 years.",
+      "tokens": [
+        "He",
+        "has",
+        "been",
+        "working",
+        "here",
+        "since",
+        "10",
+        "years"
+      ],
+      "incorrectIndex": 5,
+      "options": [
+        "for",
+        "had",
+        "many",
+        "meeting"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "for"
+      ],
+      "explanation": "'For' is used to indicate a duration of time."
+    },
+    {
+      "id": 32,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "The scissors is on the table.",
+      "tokens": [
+        "The",
+        "scissors",
+        "is",
+        "on",
+        "the",
+        "table"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "well",
+        "playing",
+        "went",
+        "are"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "'Scissors' is a plural noun and requires a plural verb."
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "I look forward to hear from you.",
+      "tokens": [
+        "I",
+        "look",
+        "forward",
+        "to",
+        "hear",
+        "from",
+        "you"
+      ],
+      "incorrectIndex": 4,
+      "options": [
+        "hearing",
+        "whom",
+        "its",
+        "to"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "hearing"
+      ],
+      "explanation": "The phrase 'look forward to' is followed by a gerund (-ing form)."
+    },
+    {
+      "id": 34,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "He is more taller than me.",
+      "tokens": [
+        "He",
+        "is",
+        "more",
+        "taller",
+        "than",
+        "me"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "goes",
+        "(delete)",
+        "isn't",
+        "many"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswers": [
+        "(delete)",
+        "remove",
+        ""
+      ],
+      "explanation": "Comparative adjectives like 'taller' do not take 'more'."
+    },
+    {
+      "id": 35,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "We have lesser water than them.",
+      "tokens": [
+        "We",
+        "have",
+        "lesser",
+        "water",
+        "than",
+        "them"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "to",
+        "are",
+        "have",
+        "less"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "less"
+      ],
+      "explanation": "'Less' is the correct comparative form for uncountable nouns like 'water'."
+    },
+    {
+      "id": 36,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She is the most smartest girl in the class.",
+      "tokens": [
+        "She",
+        "is",
+        "the",
+        "most",
+        "smartest",
+        "girl",
+        "in",
+        "the",
+        "class"
+      ],
+      "incorrectIndex": 3,
+      "options": [
+        "(delete)",
+        "fewer",
+        "who",
+        "was"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "(delete)",
+        "remove",
+        ""
+      ],
+      "explanation": "Superlative adjectives like 'smartest' do not take 'most'."
+    },
+    {
+      "id": 37,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I did went to London last year.",
+      "tokens": [
+        "I",
+        "did",
+        "went",
+        "to",
+        "London",
+        "last",
+        "year"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "go",
+        "at",
+        "any",
+        "had"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "go"
+      ],
+      "explanation": "After 'did', the base form of the verb is used."
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He is interested on learning Spanish.",
+      "tokens": [
+        "He",
+        "is",
+        "interested",
+        "on",
+        "learning",
+        "Spanish"
+      ],
+      "incorrectIndex": 3,
+      "options": [
+        "advice",
+        "isn't",
+        "playing",
+        "in"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "in"
+      ],
+      "explanation": "The correct preposition after 'interested' is 'in'."
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "The children is playing in the park.",
+      "tokens": [
+        "The",
+        "children",
+        "is",
+        "playing",
+        "in",
+        "the",
+        "park"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "were",
+        "hearing",
+        "does",
+        "are"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "'Children' is a plural noun and requires a plural verb."
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "I have a lot of homeworks to do.",
+      "tokens": [
+        "I",
+        "have",
+        "a",
+        "lot",
+        "of",
+        "homeworks",
+        "to",
+        "do"
+      ],
+      "incorrectIndex": 5,
+      "options": [
+        "less",
+        "hearing",
+        "is",
+        "homework"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "homework"
+      ],
+      "explanation": "'Homework' is an uncountable noun and does not take an 's'."
+    },
+    {
+      "id": 41,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "She is more prettier than her sister.",
+      "tokens": [
+        "She",
+        "is",
+        "more",
+        "prettier",
+        "than",
+        "her",
+        "sister"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "(delete)",
+        "good",
+        "some",
+        "whom"
+      ],
+      "correctAnswerIndex": 0,
+      "correctAnswers": [
+        "(delete)",
+        "remove",
+        ""
+      ],
+      "explanation": "Comparative adjectives like 'prettier' do not take 'more'."
+    },
+    {
+      "id": 42,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "He has a news for you.",
+      "tokens": [
+        "He",
+        "has",
+        "a",
+        "news",
+        "for",
+        "you"
+      ],
+      "incorrectIndex": 2,
+      "options": [
+        "isn't",
+        "doesn't",
+        "meeting",
+        "some"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "some"
+      ],
+      "explanation": "'News' is uncountable and cannot take the article 'a'."
+    },
+    {
+      "id": 43,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "They was happy with the results.",
+      "tokens": [
+        "They",
+        "was",
+        "happy",
+        "with",
+        "the",
+        "results"
+      ],
+      "incorrectIndex": 1,
+      "options": [
+        "wasn't",
+        "since",
+        "were",
+        "did"
+      ],
+      "correctAnswerIndex": 2,
+      "correctAnswers": [
+        "were"
+      ],
+      "explanation": "'They' is a plural subject and requires the plural verb 'were'."
+    },
+    {
+      "id": 44,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "I have been waiting for you since two hours.",
+      "tokens": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you",
+        "since",
+        "two",
+        "hours"
+      ],
+      "incorrectIndex": 6,
+      "options": [
+        "fewer",
+        "for",
+        "that",
+        "at"
+      ],
+      "correctAnswerIndex": 1,
+      "correctAnswers": [
+        "for"
+      ],
+      "explanation": "'For' is used to indicate a duration of time."
+    },
+    {
+      "id": 45,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "He is the one which helped me.",
+      "tokens": [
+        "He",
+        "is",
+        "the",
+        "one",
+        "which",
+        "helped",
+        "me"
+      ],
+      "incorrectIndex": 4,
+      "options": [
+        "do",
+        "much",
+        "fewer",
+        "who"
+      ],
+      "correctAnswerIndex": 3,
+      "correctAnswers": [
+        "who"
+      ],
+      "explanation": "'Who' is the correct relative pronoun for people."
+    },
+    {
+      "id": 46,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "We must to finish the project today.",
       "tokens": [
         "We",
         "must",
@@ -761,583 +1210,131 @@
         "finish",
         "the",
         "project",
-        "by",
-        "Friday"
+        "today"
       ],
       "incorrectIndex": 2,
       "options": [
-        "to finish",
-        "finishing",
-        "finished",
-        "finish"
+        "(delete)",
+        "it's",
+        "were",
+        "at"
       ],
+      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "finish"
+        "(delete)",
+        "remove",
+        ""
       ],
       "explanation": "Modal verbs like 'must' are followed by the base form of the verb without 'to'."
     },
     {
-      "id": 30,
+      "id": 47,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "The car was stole from the parking lot",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "She is a doctor, isn't it.",
       "tokens": [
-        "The",
-        "car",
-        "was",
-        "stole",
-        "from",
-        "the",
-        "parking",
-        "lot"
-      ],
-      "incorrectIndex": 3,
-      "options": [
-        "stole",
-        "stolen",
-        "steal",
-        "stealing"
-      ],
-      "correctAnswers": [
-        "stolen"
-      ],
-      "explanation": "The passive voice requires the past participle ('stolen'), not the simple past ('stole')."
-    },
-    {
-      "id": 31,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "I am looking forward for your reply",
-      "tokens": [
-        "I",
-        "am",
-        "looking",
-        "forward",
-        "for",
-        "your",
-        "reply"
-      ],
-      "incorrectIndex": 4,
-      "options": [
-        "to",
-        "for",
-        "at",
-        "in"
-      ],
-      "correctAnswers": [
-        "to"
-      ],
-      "explanation": "The correct phrasal verb is 'look forward to'."
-    },
-    {
-      "id": 32,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "He is one of the best student in the class",
-      "tokens": [
-        "He",
+        "She",
         "is",
-        "one",
-        "of",
-        "the",
-        "best",
-        "student",
-        "in",
-        "the",
-        "class"
+        "a",
+        "doctor,",
+        "isn't",
+        "it"
       ],
-      "incorrectIndex": 6,
+      "incorrectIndex": 5,
       "options": [
-        "student",
-        "students",
-        "study",
-        "studying"
+        "is",
+        "which",
+        "she",
+        "at"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "students"
+        "she"
       ],
-      "explanation": "The phrase 'one of the' is always followed by a plural noun."
+      "explanation": "The question tag must match the subject 'She'."
     },
     {
-      "id": 33,
+      "id": 48,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I have never went to Australia",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "I have never saw such a beautiful sunset.",
       "tokens": [
         "I",
         "have",
         "never",
-        "went",
-        "to",
-        "Australia"
+        "saw",
+        "such",
+        "a",
+        "beautiful",
+        "sunset"
       ],
       "incorrectIndex": 3,
       "options": [
-        "been",
-        "went",
-        "go",
-        "gone"
+        "good",
+        "on",
+        "doesn't",
+        "seen"
       ],
+      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "been"
+        "seen"
       ],
-      "explanation": "The present perfect tense requires the past participle 'been' (or 'gone'), not 'went'."
+      "explanation": "The past participle of 'see' is 'seen', used with 'have'."
     },
     {
-      "id": 34,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "She is afraid from spiders",
+      "id": 49,
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and select its correct form.",
+      "sentence": "He is the author which wrote this book.",
       "tokens": [
-        "She",
+        "He",
         "is",
-        "afraid",
-        "from",
-        "spiders"
+        "the",
+        "author",
+        "which",
+        "wrote",
+        "this",
+        "book"
       ],
-      "incorrectIndex": 3,
+      "incorrectIndex": 4,
       "options": [
-        "about",
-        "of",
-        "from",
-        "with"
+        "for",
+        "that",
+        "who",
+        "any"
       ],
+      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "of"
+        "who"
       ],
-      "explanation": "The correct preposition after 'afraid' is 'of'."
+      "explanation": "'Who' is the correct relative pronoun for people."
     },
     {
-      "id": 35,
+      "id": 50,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "The meeting was postponed because the bad weather",
+      "question": "Click the incorrect word and correct it.",
+      "sentence": "The meeting was postponed due the rain.",
       "tokens": [
         "The",
         "meeting",
         "was",
         "postponed",
-        "because",
+        "due",
         "the",
-        "bad",
-        "weather"
+        "rain"
       ],
       "incorrectIndex": 4,
       "options": [
-        "for",
-        "since",
-        "as",
-        "because of"
+        "less",
+        "due to",
+        "any",
+        "at"
       ],
+      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "because of"
+        "due to"
       ],
-      "explanation": "'Because' is a conjunction and must be followed by a clause. Use 'because of' before a noun phrase."
-    },
-    {
-      "id": 36,
-      "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "I will call you when I will arrive",
-      "tokens": [
-        "I",
-        "will",
-        "call",
-        "you",
-        "when",
-        "I",
-        "will",
-        "arrive"
-      ],
-      "incorrectIndex": 6,
-      "options": [
-        "arriving",
-        "arrive",
-        "arrived",
-        "will arrive"
-      ],
-      "correctAnswers": [
-        "arrive"
-      ],
-      "explanation": "In time clauses referring to the future, we use the present simple tense, not the future tense."
-    },
-    {
-      "id": 37,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "He asked me where the station were located",
-      "tokens": [
-        "He",
-        "asked",
-        "me",
-        "where",
-        "the",
-        "station",
-        "were",
-        "located"
-      ],
-      "incorrectIndex": 6,
-      "options": [
-        "is",
-        "are",
-        "was",
-        "were"
-      ],
-      "correctAnswers": [
-        "was"
-      ],
-      "explanation": "'Station' is singular, so it requires the singular verb 'was'."
-    },
-    {
-      "id": 38,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "I have a headache since this morning",
-      "tokens": [
-        "I",
-        "have",
-        "a",
-        "headache",
-        "since",
-        "this",
-        "morning"
-      ],
-      "incorrectIndex": 1,
-      "options": [
-        "am having",
-        "have",
-        "had",
-        "have had"
-      ],
-      "correctAnswers": [
-        "have had"
-      ],
-      "explanation": "An action starting in the past and continuing to the present requires the present perfect tense ('have had')."
-    },
-    {
-      "id": 39,
-      "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "This is the most easy question",
-      "tokens": [
-        "This",
-        "is",
-        "the",
-        "most easy",
-        "question"
-      ],
-      "incorrectIndex": 3,
-      "options": [
-        "more easy",
-        "most easiest",
-        "easier",
-        "easiest"
-      ],
-      "correctAnswers": [
-        "easiest"
-      ],
-      "explanation": "'Easy' forms its superlative as 'easiest'. 'Most easy' is incorrect."
-    },
-    {
-      "id": 40,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "They denied to pay the bill",
-      "tokens": [
-        "They",
-        "denied",
-        "to",
-        "pay",
-        "the",
-        "bill"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "paid",
-        "pay",
-        "paying",
-        "to pay"
-      ],
-      "correctAnswers": [
-        "paying"
-      ],
-      "explanation": "The verb 'deny' is followed by a gerund (verb + -ing), not an infinitive."
-    },
-    {
-      "id": 41,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I am not agree with your opinion",
-      "tokens": [
-        "I",
-        "am",
-        "not",
-        "agree",
-        "with",
-        "your",
-        "opinion"
-      ],
-      "incorrectIndex": 1,
-      "options": [
-        "have",
-        "did",
-        "is",
-        "do"
-      ],
-      "correctAnswers": [
-        "do"
-      ],
-      "explanation": "'Agree' is a verb, so it requires the auxiliary verb 'do' for negation, not 'am'."
-    },
-    {
-      "id": 42,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "He has a big house with a lot of furnitures",
-      "tokens": [
-        "He",
-        "has",
-        "a",
-        "big",
-        "house",
-        "with",
-        "a",
-        "lot",
-        "of",
-        "furnitures"
-      ],
-      "incorrectIndex": 9,
-      "options": [
-        "furnishings",
-        "furnish",
-        "furniture",
-        "furnitures"
-      ],
-      "correctAnswers": [
-        "furniture"
-      ],
-      "explanation": "'Furniture' is an uncountable noun and does not have a plural form."
-    },
-    {
-      "id": 43,
-      "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement",
-      "sentence": "If we would have left earlier we would have caught the train",
-      "tokens": [
-        "If",
-        "we",
-        "would have left",
-        "earlier",
-        "we",
-        "would",
-        "have",
-        "caught",
-        "the",
-        "train"
-      ],
-      "incorrectIndex": 2,
-      "options": [
-        "had left",
-        "left",
-        "would leave",
-        "have left"
-      ],
-      "correctAnswers": [
-        "had left"
-      ],
-      "explanation": "In the third conditional, the 'if' clause uses the past perfect ('had left'), not 'would have'."
-    },
-    {
-      "id": 44,
-      "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word",
-      "sentence": "She is studying to become a engineer",
-      "tokens": [
-        "She",
-        "is",
-        "studying",
-        "to",
-        "become",
-        "a",
-        "engineer"
-      ],
-      "incorrectIndex": 5,
-      "options": [
-        "an",
-        "some",
-        "the",
-        "a"
-      ],
-      "correctAnswers": [
-        "an"
-      ],
-      "explanation": "Use 'an' before words that begin with a vowel sound, like 'engineer'."
-    },
-    {
-      "id": 45,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I have two brothers and one sister but them are all older than me",
-      "tokens": [
-        "I",
-        "have",
-        "two",
-        "brothers",
-        "and",
-        "one",
-        "sister",
-        "but",
-        "them",
-        "are",
-        "all",
-        "older",
-        "than",
-        "me"
-      ],
-      "incorrectIndex": 8,
-      "options": [
-        "they",
-        "theirs",
-        "those",
-        "their"
-      ],
-      "correctAnswers": [
-        "they"
-      ],
-      "explanation": "The subject pronoun 'they' should be used instead of the object pronoun 'them'."
-    },
-    {
-      "id": 46,
-      "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "He is responsible for manage the team",
-      "tokens": [
-        "He",
-        "is",
-        "responsible",
-        "for",
-        "manage",
-        "the",
-        "team"
-      ],
-      "incorrectIndex": 4,
-      "options": [
-        "managed",
-        "to manage",
-        "managing",
-        "manage"
-      ],
-      "correctAnswers": [
-        "managing"
-      ],
-      "explanation": "Prepositions (like 'for') are followed by a gerund (verb + -ing)."
-    },
-    {
-      "id": 47,
-      "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form",
-      "sentence": "The weather is very hot today is it",
-      "tokens": [
-        "The",
-        "weather",
-        "is",
-        "very",
-        "hot",
-        "today",
-        "is",
-        "it"
-      ],
-      "incorrectIndex": 6,
-      "options": [
-        "does",
-        "was",
-        "doesn't",
-        "isn't"
-      ],
-      "correctAnswers": [
-        "isn't"
-      ],
-      "explanation": "A positive statement requires a negative question tag ('isn't it')."
-    },
-    {
-      "id": 48,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "I wish I have more money",
-      "tokens": [
-        "I",
-        "wish",
-        "I",
-        "have",
-        "more",
-        "money"
-      ],
-      "incorrectIndex": 3,
-      "options": [
-        "having",
-        "has",
-        "had",
-        "have"
-      ],
-      "correctAnswers": [
-        "had"
-      ],
-      "explanation": "After 'wish', we use the past tense to express a present unreal situation."
-    },
-    {
-      "id": 49,
-      "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "She gave the book to he",
-      "tokens": [
-        "She",
-        "gave",
-        "the",
-        "book",
-        "to",
-        "he"
-      ],
-      "incorrectIndex": 5,
-      "options": [
-        "himself",
-        "his",
-        "him",
-        "he"
-      ],
-      "correctAnswers": [
-        "him"
-      ],
-      "explanation": "The object pronoun 'him' should be used after the preposition 'to'."
-    },
-    {
-      "id": 50,
-      "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option",
-      "sentence": "I will be happy if you will come to my party",
-      "tokens": [
-        "I",
-        "will",
-        "be",
-        "happy",
-        "if",
-        "you",
-        "will",
-        "come",
-        "to",
-        "my",
-        "party"
-      ],
-      "incorrectIndex": 6,
-      "options": [
-        "will come",
-        "coming",
-        "came",
-        "come"
-      ],
-      "correctAnswers": [
-        "come"
-      ],
-      "explanation": "In the first conditional, the 'if' clause uses the present simple tense, not the future tense."
+      "explanation": "The correct phrase is 'due to' when meaning 'because of'."
     }
   ]
 }
