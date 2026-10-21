@@ -1,0 +1,799 @@
+{
+  "meta": {
+    "title": "Basic English Common Vocabulary Test",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun?",
+      "options": {
+        "A": "Car",
+        "B": "Apple",
+        "C": "Idea",
+        "D": "Information"
+      },
+      "correctAnswer": "D",
+      "explanation": "Information is an uncountable noun and cannot be pluralized."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Choose the correct quantifier: 'How ___ water do you drink?'",
+      "options": {
+        "A": "several",
+        "B": "few",
+        "C": "much",
+        "D": "many"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Much' is used with uncountable nouns like 'water'."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Identify the countable noun:",
+      "options": {
+        "A": "Rice",
+        "B": "Furniture",
+        "C": "Bottle",
+        "D": "Luggage"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Bottle' can be counted (one bottle, two bottles)."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What is the V3 (past participle) of 'write'?",
+      "options": {
+        "A": "Writes",
+        "B": "Writing",
+        "C": "Written",
+        "D": "Wrote"
+      },
+      "correctAnswer": "C",
+      "explanation": "The verb forms are write (V1), wrote (V2), written (V3)."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Choose the correct V-ing form: 'She enjoys ___ books.'",
+      "options": {
+        "A": "to read",
+        "B": "read",
+        "C": "reading",
+        "D": "reads"
+      },
+      "correctAnswer": "C",
+      "explanation": "The verb 'enjoy' is followed by a gerund (V-ing)."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "What is the V2 (past simple) of 'buy'?",
+      "options": {
+        "A": "Buying",
+        "B": "Buyed",
+        "C": "Buys",
+        "D": "Bought"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Buy' is an irregular verb: buy, bought, bought."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Which is the comparative form of 'good'?",
+      "options": {
+        "A": "Gooder",
+        "B": "More good",
+        "C": "Better",
+        "D": "Best"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Good' is irregular: good, better, best."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Choose the correct adjective: 'The movie was very ___. '",
+      "options": {
+        "A": "interestedly",
+        "B": "interest",
+        "C": "interests",
+        "D": "interesting"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Interesting' is the adjective form describing the movie."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "Choose the correct form: 'He decided ___ a new car.'",
+      "options": {
+        "A": "to buy",
+        "B": "bought",
+        "C": "buy",
+        "D": "buying"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Decide' is followed by the to-infinitive."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Reading regularly expands vocabulary and improves comprehension. It exposes learners to new words in context.",
+      "question": "'She is too tired ___.'",
+      "options": {
+        "A": "walk",
+        "B": "to walk",
+        "C": "walking",
+        "D": "walked"
+      },
+      "correctAnswer": "B",
+      "explanation": "The structure 'too + adjective' is followed by a to-infinitive."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "Which prefix means 'not' or 'opposite of'?",
+      "options": {
+        "A": "Un-",
+        "B": "Re-",
+        "C": "Post-",
+        "D": "Pre-"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Un-' is a common prefix meaning 'not' (e.g., unhappy)."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Add a prefix to 'happy' to mean the opposite:",
+      "options": {
+        "A": "Inhappy",
+        "B": "Dishappy",
+        "C": "Nonhappy",
+        "D": "Unhappy"
+      },
+      "correctAnswer": "D",
+      "explanation": "The correct prefix for 'happy' to form its opposite is 'un-'."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "passage": "Countable nouns can be counted and have plural forms, such as 'apples' or 'cars'. Uncountable nouns, like 'water' or 'information', cannot be counted directly.",
+      "question": "Which suffix turns a verb into a noun indicating a person?",
+      "options": {
+        "A": "-ment",
+        "B": "-ful",
+        "C": "-ly",
+        "D": "-er"
+      },
+      "correctAnswer": "D",
+      "explanation": "Adding '-er' to a verb (e.g., teach) creates a noun for a person (teacher)."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Add a suffix to 'care' to make it an adjective meaning 'without care':",
+      "options": {
+        "A": "Careless",
+        "B": "Careful",
+        "C": "Caring",
+        "D": "Caretion"
+      },
+      "correctAnswer": "A",
+      "explanation": "The suffix '-less' means 'without'."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "What is the noun form of 'decide'?",
+      "options": {
+        "A": "Decisively",
+        "B": "Decision",
+        "C": "Deciding",
+        "D": "Decidable"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Decision' is the noun form of the verb 'decide'."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "What is the verb form of 'strong'?",
+      "options": {
+        "A": "Strongly",
+        "B": "Stronger",
+        "C": "Strength",
+        "D": "Strengthen"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Strengthen' is the verb meaning to make or become stronger."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "What is the adverb form of 'quick'?",
+      "options": {
+        "A": "Quickly",
+        "B": "Quicken",
+        "C": "Quick",
+        "D": "Quickness"
+      },
+      "correctAnswer": "A",
+      "explanation": "Adding '-ly' to an adjective typically forms an adverb."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun?",
+      "options": {
+        "A": "Luggage",
+        "B": "Pen",
+        "C": "Book",
+        "D": "Chair"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Luggage' is uncountable; we say 'a piece of luggage', not 'luggages'."
+    },
+    {
+      "id": 19,
+      "type": "passage_mcq",
+      "passage": "Countable nouns can be counted and have plural forms, such as 'apples' or 'cars'. Uncountable nouns, like 'water' or 'information', cannot be counted directly.",
+      "question": "What is the V3 (past participle) of 'speak'?",
+      "options": {
+        "A": "Speaking",
+        "B": "Speaks",
+        "C": "Spoken",
+        "D": "Spoke"
+      },
+      "correctAnswer": "C",
+      "explanation": "The verb forms are speak (V1), spoke (V2), spoken (V3)."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "What is the V2 (past simple) of 'catch'?",
+      "options": {
+        "A": "Catching",
+        "B": "Catchted",
+        "C": "Catches",
+        "D": "Caught"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Catch' is irregular: catch, caught, caught."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Choose the correct V-ing spelling: 'He is ___.'",
+      "options": {
+        "A": "running",
+        "B": "runnung",
+        "C": "runing",
+        "D": "runs"
+      },
+      "correctAnswer": "A",
+      "explanation": "For a one-syllable verb ending in consonant-vowel-consonant, double the final consonant before adding '-ing'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What is the comparative form of 'interesting'?",
+      "options": {
+        "A": "Interestinger",
+        "B": "More interest",
+        "C": "More interesting",
+        "D": "Most interesting"
+      },
+      "correctAnswer": "C",
+      "explanation": "Adjectives with three or more syllables use 'more' for the comparative form."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Choose the correct form: 'I promise ___ you.'",
+      "options": {
+        "A": "to help",
+        "B": "help",
+        "C": "helping",
+        "D": "helped"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Promise' is followed by the to-infinitive."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Which prefix means 'before'?",
+      "options": {
+        "A": "Re-",
+        "B": "Un-",
+        "C": "Pre-",
+        "D": "Post-"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Pre-' means before, as in 'preview' or 'preheat'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Which suffix means 'full of'?",
+      "options": {
+        "A": "-less",
+        "B": "-ment",
+        "C": "-tion",
+        "D": "-ful"
+      },
+      "correctAnswer": "D",
+      "explanation": "'-ful' means full of, e.g., 'colorful' or 'helpful'."
+    },
+    {
+      "id": 26,
+      "type": "passage_mcq",
+      "passage": "Regular verbs form their V2 and V3 by adding '-ed'. Irregular verbs, however, change their spelling, such as 'go' becoming 'went' and 'gone'.",
+      "question": "Which suffix means 'the study of'?",
+      "options": {
+        "A": "-graphy",
+        "B": "-logy",
+        "C": "-metry",
+        "D": "-phony"
+      },
+      "correctAnswer": "B",
+      "explanation": "'-logy' means the study of, e.g., 'biology'."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "What is the noun form of 'argue'?",
+      "options": {
+        "A": "Argument",
+        "B": "Arguing",
+        "C": "Arguable",
+        "D": "Argued"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Argument' is the noun form of 'argue'."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "What is the verb form of 'vision'?",
+      "options": {
+        "A": "Visions",
+        "B": "Visually",
+        "C": "Visionary",
+        "D": "Visualize"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Visualize' is the verb meaning to form a mental image."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "What is the adjective form of 'danger'?",
+      "options": {
+        "A": "Danger",
+        "B": "Endanger",
+        "C": "Dangerously",
+        "D": "Dangerous"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Dangerous' is the adjective form of the noun 'danger'."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "Choose the correct pair: '___ is uncountable, but a ___ is countable.'",
+      "options": {
+        "A": "Water, drop",
+        "B": "Loaf, bread",
+        "C": "Bread, loaf",
+        "D": "Sand, grain"
+      },
+      "correctAnswer": "C",
+      "explanation": "While 'bread' is uncountable, a 'loaf' of bread is a countable unit."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "What is the V3 (past participle) of 'begin'?",
+      "options": {
+        "A": "Begins",
+        "B": "Began",
+        "C": "Beginning",
+        "D": "Begun"
+      },
+      "correctAnswer": "D",
+      "explanation": "The verb forms are begin (V1), began (V2), begun (V3)."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "What is the V2 (past simple) of 'think'?",
+      "options": {
+        "A": "Thinking",
+        "B": "Thought",
+        "C": "Thinks",
+        "D": "Thinked"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Think' is irregular: think, thought, thought."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Choose the correct V-ing form: 'Would you mind ___ the door?'",
+      "options": {
+        "A": "opens",
+        "B": "opening",
+        "C": "open",
+        "D": "to open"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Mind' is followed by a gerund (V-ing)."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "What is the comparative form of 'little' (amount)?",
+      "options": {
+        "A": "More little",
+        "B": "Less",
+        "C": "Littler",
+        "D": "Least"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Little' is irregular: little, less, least."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Choose the correct form: 'We can't afford ___ a house.'",
+      "options": {
+        "A": "bought",
+        "B": "to buy",
+        "C": "buying",
+        "D": "buy"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Afford' is followed by the to-infinitive."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Which prefix means 'wrongly' or 'badly'?",
+      "options": {
+        "A": "Un-",
+        "B": "Dis-",
+        "C": "Mis-",
+        "D": "Non-"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Mis-' means wrongly, as in 'misunderstand' or 'misbehave'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "Which suffix means 'able to be'?",
+      "options": {
+        "A": "-ful",
+        "B": "-able",
+        "C": "-ous",
+        "D": "-ive"
+      },
+      "correctAnswer": "B",
+      "explanation": "'-able' means capable of being, e.g., 'readable' or 'washable'."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "What is the noun form of 'perform'?",
+      "options": {
+        "A": "Performing",
+        "B": "Performer",
+        "C": "Performance",
+        "D": "Performed"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Performance' is the abstract noun form of 'perform'."
+    },
+    {
+      "id": 39,
+      "type": "passage_mcq",
+      "passage": "Comparative adjectives are used to compare two things. Short adjectives add '-er', while longer adjectives use 'more' before the word.",
+      "question": "What is the verb form of 'analysis'?",
+      "options": {
+        "A": "Analyze",
+        "B": "Analytical",
+        "C": "Analyst",
+        "D": "Analyzing"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Analyze' is the verb form of the noun 'analysis'."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "What is the adjective form of 'success'?",
+      "options": {
+        "A": "Successfully",
+        "B": "Succeed",
+        "C": "Successful",
+        "D": "Succession"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Successful' is the adjective form of 'success'."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Which of the following is an uncountable noun?",
+      "options": {
+        "A": "Tip",
+        "B": "Idea",
+        "C": "Suggestion",
+        "D": "Advice"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Advice' is uncountable. We say 'a piece of advice', not 'advices'."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "Which of the following is a countable noun?",
+      "options": {
+        "A": "Homework",
+        "B": "Furniture",
+        "C": "Suggestion",
+        "D": "Information"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Suggestion' can be counted (one suggestion, two suggestions)."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "What is the V3 (past participle) of 'drive'?",
+      "options": {
+        "A": "Drives",
+        "B": "Driving",
+        "C": "Driven",
+        "D": "Drove"
+      },
+      "correctAnswer": "C",
+      "explanation": "The verb forms are drive (V1), drove (V2), driven (V3)."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What is the V2 (past simple) of 'fall'?",
+      "options": {
+        "A": "Fallen",
+        "B": "Falls",
+        "C": "Falling",
+        "D": "Fell"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Fall' is irregular: fall, fell, fallen."
+    },
+    {
+      "id": 45,
+      "type": "passage_mcq",
+      "passage": "Prefixes and suffixes are affixes added to base words. A prefix is added at the beginning, while a suffix is added at the end.",
+      "question": "What is the comparative form of 'far' (distance)?",
+      "options": {
+        "A": "Farrer",
+        "B": "Farthest",
+        "C": "Farther",
+        "D": "More far"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Far' can be 'farther' or 'further' in the comparative form."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "Choose the correct form: 'She wants to learn ___ English.'",
+      "options": {
+        "A": "speaking",
+        "B": "to speak",
+        "C": "speak",
+        "D": "speaks"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Learn' is followed by the to-infinitive."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Which prefix means 'three'?",
+      "options": {
+        "A": "Multi-",
+        "B": "Bi-",
+        "C": "Uni-",
+        "D": "Tri-"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Tri-' means three, as in 'triangle' or 'tricycle'."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "Which suffix means 'action or process'?",
+      "options": {
+        "A": "-ment",
+        "B": "-less",
+        "C": "-ful",
+        "D": "-y"
+      },
+      "correctAnswer": "A",
+      "explanation": "'-ment' indicates an action or process, e.g., 'development'."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "What is the noun form of 'describe'?",
+      "options": {
+        "A": "Descriptive",
+        "B": "Describing",
+        "C": "Describer",
+        "D": "Description"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Description' is the noun form of 'describe'."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "What is the verb form of 'breath'?",
+      "options": {
+        "A": "Breathing",
+        "B": "Breathless",
+        "C": "Breathy",
+        "D": "Breathe"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Breathe' (with an 'e') is the verb, while 'breath' is the noun."
+    },
+    {
+      "id": 51,
+      "type": "mcq",
+      "question": "What is the adjective form of 'friend'?",
+      "options": {
+        "A": "Friend",
+        "B": "Friendship",
+        "C": "Friendly",
+        "D": "Befriend"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Friendly' is the adjective form, meaning kind and pleasant."
+    },
+    {
+      "id": 52,
+      "type": "mcq",
+      "question": "Choose the correct quantifier: 'There are ___ apples on the table.'",
+      "options": {
+        "A": "a little",
+        "B": "many",
+        "C": "much",
+        "D": "little"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Many' is used with plural countable nouns like 'apples'."
+    },
+    {
+      "id": 53,
+      "type": "mcq",
+      "question": "What is the V3 (past participle) of 'eat'?",
+      "options": {
+        "A": "Ate",
+        "B": "Eaten",
+        "C": "Eating",
+        "D": "Eats"
+      },
+      "correctAnswer": "B",
+      "explanation": "The verb forms are eat (V1), ate (V2), eaten (V3)."
+    },
+    {
+      "id": 54,
+      "type": "mcq",
+      "question": "Choose the correct V-ing form: 'He avoids ___ junk food.'",
+      "options": {
+        "A": "eat",
+        "B": "to eat",
+        "C": "eats",
+        "D": "eating"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Avoid' is followed by a gerund (V-ing)."
+    },
+    {
+      "id": 55,
+      "type": "mcq",
+      "question": "What is the comparative form of 'bad'?",
+      "options": {
+        "A": "Worse",
+        "B": "Worst",
+        "C": "Badder",
+        "D": "More bad"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Bad' is irregular: bad, worse, worst."
+    },
+    {
+      "id": 56,
+      "type": "passage_mcq",
+      "passage": "Reading regularly expands vocabulary and improves comprehension. It exposes learners to new words in context.",
+      "question": "Choose the correct form: 'It is important ___ water.'",
+      "options": {
+        "A": "drink",
+        "B": "drinking",
+        "C": "to drink",
+        "D": "drank"
+      },
+      "correctAnswer": "C",
+      "explanation": "After 'It is + adjective', we use the to-infinitive."
+    },
+    {
+      "id": 57,
+      "type": "mcq",
+      "question": "Which prefix means 'again'?",
+      "options": {
+        "A": "Re-",
+        "B": "Un-",
+        "C": "Pre-",
+        "D": "Dis-"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Re-' means again, as in 'rewrite' or 'redo'."
+    },
+    {
+      "id": 58,
+      "type": "mcq",
+      "question": "Which suffix turns an adjective into an adverb?",
+      "options": {
+        "A": "-ly",
+        "B": "-ness",
+        "C": "-ment",
+        "D": "-tion"
+      },
+      "correctAnswer": "A",
+      "explanation": "Adding '-ly' to an adjective (e.g., quick) forms an adverb (quickly)."
+    },
+    {
+      "id": 59,
+      "type": "mcq",
+      "question": "What is the noun form of 'arrive'?",
+      "options": {
+        "A": "Arrived",
+        "B": "Arrival",
+        "C": "Arriver",
+        "D": "Arriving"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Arrival' is the noun form of the verb 'arrive'."
+    },
+    {
+      "id": 60,
+      "type": "mcq",
+      "question": "What is the verb form of 'choice'?",
+      "options": {
+        "A": "Chooses",
+        "B": "Chosen",
+        "C": "Choosing",
+        "D": "Choose"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Choose' is the verb form of the noun 'choice'."
+    }
+  ]
+}
