@@ -1,336 +1,37 @@
 {
   "meta": {
-    "title": "English Grammar Correction Test",
+    "title": "Intermediate English Grammar Test 01",
     "timeLimits": {
-      "fast": 25,
-      "normal": 50,
-      "easy": 75
+      "fast": 30,
+      "normal": 45,
+      "easy": 60
     }
   },
   "questions": [
     {
       "id": 1,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) She -> They\nb) like -> likes\nc) apples -> apple\nd) don't -> doesn't",
-      "sentence": "She don't like apples.",
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She told me that she is tired.",
       "tokens": [
         "She",
-        "don't",
-        "like",
-        "apples"
+        "told",
+        "me",
+        "that",
+        "she",
+        "is",
+        "tired."
       ],
-      "incorrectIndex": 1,
+      "incorrectIndex": 5,
       "correctAnswers": [
-        "d"
+        "was"
       ],
-      "explanation": "'She' is a third-person singular subject and requires 'doesn't'."
+      "explanation": "In reported speech, if the reporting verb is in the past tense, the verb in the noun clause shifts back one tense (is -> was). (Bahasa Indonesia: Dalam reported speech, jika kata kerja pelapor dalam bentuk lampau, kata kerja di dalam anak kalimat bergeser satu bentuk ke belakang (is -> was).)"
     },
     {
       "id": 2,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "They goes to school every day.",
-      "tokens": [
-        "They",
-        "goes",
-        "to",
-        "school",
-        "every",
-        "day"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "go"
-      ],
-      "explanation": "'They' is a plural subject and requires the base form 'go'."
-    },
-    {
-      "id": 3,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) have -> has\nb) store -> stores\nc) I -> He\nd) went -> gone",
-      "sentence": "I have went to the store.",
-      "tokens": [
-        "I",
-        "have",
-        "went",
-        "to",
-        "the",
-        "store"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "The past participle of 'go' is 'gone', which is used with 'have'."
-    },
-    {
-      "id": 4,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) He -> Him\nb) more -> (delete)\nc) brother -> brothers\nd) is -> are",
-      "sentence": "He is more taller than his brother.",
-      "tokens": [
-        "He",
-        "is",
-        "more",
-        "taller",
-        "than",
-        "his",
-        "brother"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "b"
-      ],
-      "explanation": "Comparative adjectives like 'taller' do not take 'more'."
-    },
-    {
-      "id": 5,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) bus -> buses\nb) waiting -> wait\nc) was -> were\nd) We -> I",
-      "sentence": "We was waiting for the bus.",
-      "tokens": [
-        "We",
-        "was",
-        "waiting",
-        "for",
-        "the",
-        "bus"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "c"
-      ],
-      "explanation": "'We' is a plural subject and requires the plural verb 'were'."
-    },
-    {
-      "id": 6,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) tail -> tails\nb) chases -> chase\nc) The -> A\nd) it's -> its",
-      "sentence": "The cat chases it's tail.",
-      "tokens": [
-        "The",
-        "cat",
-        "chases",
-        "it's",
-        "tail"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "'Its' is the possessive form, while 'it's' means 'it is'."
-    },
-    {
-      "id": 7,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She has less books than me.",
-      "tokens": [
-        "She",
-        "has",
-        "less",
-        "books",
-        "than",
-        "me"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "fewer"
-      ],
-      "explanation": "'Fewer' is used for countable nouns like 'books'."
-    },
-    {
-      "id": 8,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He run very fast yesterday.",
-      "tokens": [
-        "He",
-        "run",
-        "very",
-        "fast",
-        "yesterday"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "ran"
-      ],
-      "explanation": "The past tense of 'run' is 'ran'."
-    },
-    {
-      "id": 9,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "This is the most unique painting.",
-      "tokens": [
-        "This",
-        "is",
-        "the",
-        "most",
-        "unique",
-        "painting"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
-      ],
-      "explanation": "'Unique' is an absolute adjective and does not take 'most'."
-    },
-    {
-      "id": 10,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I look forward to meet you.",
-      "tokens": [
-        "I",
-        "look",
-        "forward",
-        "to",
-        "meet",
-        "you"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "meeting"
-      ],
-      "explanation": "The phrase 'look forward to' is followed by a gerund (-ing form)."
-    },
-    {
-      "id": 11,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) very -> too\nb) useful -> helpful\nc) are -> is\nd) The -> A",
-      "sentence": "The information are very useful.",
-      "tokens": [
-        "The",
-        "information",
-        "are",
-        "very",
-        "useful"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "c"
-      ],
-      "explanation": "'Information' is an uncountable noun and takes a singular verb."
-    },
-    {
-      "id": 12,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He gave me many advices.",
-      "tokens": [
-        "He",
-        "gave",
-        "me",
-        "many",
-        "advices"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "some"
-      ],
-      "explanation": "'Advice' is an uncountable noun and cannot be used with 'many'."
-    },
-    {
-      "id": 13,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "They are married since 2010.",
-      "tokens": [
-        "They",
-        "are",
-        "married",
-        "since",
-        "2010"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "have been"
-      ],
-      "explanation": "An action starting in the past and continuing to the present requires the present perfect tense."
-    },
-    {
-      "id": 14,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I have visit Paris in 2015.",
-      "tokens": [
-        "I",
-        "have",
-        "visit",
-        "Paris",
-        "in",
-        "2015"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "visited"
-      ],
-      "explanation": "A specific past time marker ('in 2015') requires the simple past tense."
-    },
-    {
-      "id": 15,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She is the girl which won the prize.",
-      "tokens": [
-        "She",
-        "is",
-        "the",
-        "girl",
-        "which",
-        "won",
-        "the",
-        "prize"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "who"
-      ],
-      "explanation": "'Who' is the correct relative pronoun for people."
-    },
-    {
-      "id": 16,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He is afraid from spiders.",
-      "tokens": [
-        "He",
-        "is",
-        "afraid",
-        "from",
-        "spiders"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "of"
-      ],
-      "explanation": "The correct preposition after 'afraid' is 'of'."
-    },
-    {
-      "id": 17,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) discussed -> discuss\nb) problem -> problems\nc) We -> They\nd) about -> (delete)",
-      "sentence": "We discussed about the problem.",
-      "tokens": [
-        "We",
-        "discussed",
-        "about",
-        "the",
-        "problem"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "The verb 'discuss' is transitive and does not take the preposition 'about'."
-    },
-    {
-      "id": 18,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
       "sentence": "I am used to wake up early.",
       "tokens": [
         "I",
@@ -339,94 +40,467 @@
         "to",
         "wake",
         "up",
-        "early"
+        "early."
       ],
       "incorrectIndex": 4,
       "correctAnswers": [
         "waking"
       ],
-      "explanation": "The phrase 'used to' (meaning accustomed to) is followed by a gerund."
+      "explanation": "The expression 'be used to' is followed by a gerund (V-ing) because 'to' functions as a preposition here. (Bahasa Indonesia: Ungkapan 'be used to' diikuti oleh gerund (V-ing) karena 'to' berfungsi sebagai preposisi di sini.)"
     },
     {
-      "id": 19,
+      "id": 3,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "The police is investigating the crime.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He gave me an advice.",
       "tokens": [
-        "The",
-        "police",
-        "is",
-        "investigating",
-        "the",
-        "crime"
+        "He",
+        "gave",
+        "me",
+        "an advice."
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 3,
       "correctAnswers": [
-        "are"
+        "some advice.",
+        "a piece of advice."
       ],
-      "explanation": "'Police' is a plural noun and requires a plural verb."
+      "explanation": "'Advice' is an uncountable noun and cannot be used with 'an'. Use 'some advice' or 'a piece of advice'. (Bahasa Indonesia: 'Advice' adalah kata benda yang tidak dapat dihitung dan tidak dapat digunakan dengan 'an'. Gunakan 'some advice' atau 'a piece of advice'.)"
     },
     {
-      "id": 20,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) have -> has\nb) students -> student\nc) book -> books\nd) Each -> All",
-      "sentence": "Each of the students have a book.",
+      "id": 4,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She is the woman which won the prize.",
       "tokens": [
-        "Each",
-        "of",
+        "She",
+        "is",
         "the",
-        "students",
-        "have",
-        "a",
-        "book"
+        "woman",
+        "which",
+        "won",
+        "the",
+        "prize."
       ],
       "incorrectIndex": 4,
       "correctAnswers": [
-        "a"
+        "who"
       ],
-      "explanation": "'Each' is singular and requires the singular verb 'has'."
+      "explanation": "Use 'who' to refer to people in relative clauses, not 'which'. (Bahasa Indonesia: Gunakan 'who' untuk merujuk pada orang dalam relative clauses, bukan 'which'.)"
     },
     {
-      "id": 21,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) answers -> answer\nb) are -> is\nc) correct -> right\nd) Neither -> None",
-      "sentence": "Neither of the answers are correct.",
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She enjoys to read novels.",
+      "tokens": [
+        "She",
+        "enjoys",
+        "to read",
+        "novels."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "reading"
+      ],
+      "explanation": "The verb 'enjoy' is always followed by a gerund (V-ing), not an infinitive. (Bahasa Indonesia: Kata kerja 'enjoy' selalu diikuti oleh gerund (V-ing), bukan infinitive.)"
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The window was broke by the ball.",
+      "tokens": [
+        "The",
+        "window",
+        "was",
+        "broke",
+        "by",
+        "the",
+        "ball."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "broken"
+      ],
+      "explanation": "The passive voice requires the past participle (V3). The past participle of 'break' is 'broken'. (Bahasa Indonesia: Kalimat pasif memerlukan past participle (V3). Past participle dari 'break' adalah 'broken'.)"
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "By the time we arrived, the movie already started.",
+      "tokens": [
+        "By",
+        "the",
+        "time",
+        "we",
+        "arrived,",
+        "the",
+        "movie",
+        "already started."
+      ],
+      "incorrectIndex": 7,
+      "correctAnswers": [
+        "had already started."
+      ],
+      "explanation": "Use the past perfect tense ('had' + V3) for an action completed before another action in the past. (Bahasa Indonesia: Gunakan past perfect tense ('had' + V3) untuk tindakan yang selesai sebelum tindakan lain di masa lampau.)"
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She is more taller than her sister.",
+      "tokens": [
+        "She",
+        "is",
+        "more taller",
+        "than",
+        "her",
+        "sister."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "taller"
+      ],
+      "explanation": "For one-syllable adjectives, add '-er' to form the comparative. Do not use 'more' with '-er'. (Bahasa Indonesia: Untuk kata sifat satu suku kata, tambahkan '-er' untuk membentuk komparatif. Jangan gunakan 'more' dengan '-er'.)"
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She has less friends than me.",
+      "tokens": [
+        "She",
+        "has",
+        "less",
+        "friends",
+        "than",
+        "me."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "fewer"
+      ],
+      "explanation": "Use 'fewer' for countable nouns (friends) and 'less' for uncountable nouns. (Bahasa Indonesia: Gunakan 'fewer' untuk kata benda yang dapat dihitung (friends) dan 'less' untuk kata benda yang tidak dapat dihitung.)"
+    },
+    {
+      "id": 10,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "Neither John nor his friends is coming.",
+      "tokens": [
+        "Neither",
+        "John",
+        "nor",
+        "his",
+        "friends",
+        "is",
+        "coming."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "With 'neither... nor...', the verb agrees with the subject closest to it. 'Friends' is plural, so use 'are'. (Bahasa Indonesia: Dengan 'neither... nor...', kata kerja setuju dengan subjek yang paling dekat dengannya. 'Friends' adalah jamak, jadi gunakan 'are'.)"
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "There is many apples in the basket.",
+      "tokens": [
+        "There",
+        "is",
+        "many",
+        "apples",
+        "in",
+        "the",
+        "basket."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "'Apples' is a plural countable noun, so it requires the plural verb 'are'. (Bahasa Indonesia: 'Apples' adalah kata benda jamak yang dapat dihitung, sehingga memerlukan kata kerja jamak 'are'.)"
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "If it will rain, we will cancel the trip.",
+      "tokens": [
+        "If",
+        "it",
+        "will rain,",
+        "we",
+        "will",
+        "cancel",
+        "the",
+        "trip."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "rains,"
+      ],
+      "explanation": "In Conditional Type 1, the if-clause uses the simple present tense, not the future tense. (Bahasa Indonesia: Dalam Conditional Type 1, anak kalimat if menggunakan simple present tense, bukan future tense.)"
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "Neither of the boys are coming to the party.",
       "tokens": [
         "Neither",
         "of",
         "the",
-        "answers",
+        "boys",
         "are",
-        "correct"
+        "coming",
+        "to",
+        "the",
+        "party."
       ],
       "incorrectIndex": 4,
       "correctAnswers": [
-        "b"
+        "is"
       ],
-      "explanation": "'Neither' is singular and requires the singular verb 'is'."
+      "explanation": "'Neither' is singular and requires a singular verb ('is'), even when followed by 'of the + plural noun'. (Bahasa Indonesia: 'Neither' adalah tunggal dan memerlukan kata kerja tunggal ('is'), bahkan ketika diikuti oleh 'of the + kata benda jamak'.)"
     },
     {
-      "id": 22,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) than -> to\nb) I -> He\nc) prefer -> prefers\nd) coffee -> tea",
-      "sentence": "I prefer coffee than tea.",
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The homework was did by the students.",
       "tokens": [
-        "I",
-        "prefer",
-        "coffee",
-        "than",
-        "tea"
+        "The",
+        "homework",
+        "was",
+        "did",
+        "by",
+        "the",
+        "students."
       ],
       "incorrectIndex": 3,
       "correctAnswers": [
-        "a"
+        "done"
       ],
-      "explanation": "The correct preposition after 'prefer' is 'to'."
+      "explanation": "The passive voice requires the past participle (V3). The past participle of 'do' is 'done'. (Bahasa Indonesia: Kalimat pasif memerlukan past participle (V3). Past participle dari 'do' adalah 'done'.)"
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He is the most smartest student in class.",
+      "tokens": [
+        "He",
+        "is",
+        "the",
+        "most smartest",
+        "student",
+        "in",
+        "class."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "smartest"
+      ],
+      "explanation": "Do not use 'most' with adjectives that already have the '-est' suffix. Use 'the smartest'. (Bahasa Indonesia: Jangan gunakan 'most' dengan kata sifat yang sudah memiliki akhiran '-est'. Gunakan 'the smartest'.)"
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The news are very shocking today.",
+      "tokens": [
+        "The",
+        "news",
+        "are",
+        "very",
+        "shocking",
+        "today."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "'News' is an uncountable noun and always takes a singular verb, despite ending in 's'. (Bahasa Indonesia: 'News' adalah kata benda yang tidak dapat dihitung dan selalu menggunakan kata kerja tunggal, meskipun berakhiran 's'.)"
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "This is the most unique phenomenon.",
+      "tokens": [
+        "This",
+        "is",
+        "the",
+        "most unique",
+        "phenomenon."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "unique"
+      ],
+      "explanation": "'Unique' is an absolute adjective and does not take comparative or superlative forms like 'most'. (Bahasa Indonesia: 'Unique' adalah kata sifat absolut dan tidak mengambil bentuk komparatif atau superlatif seperti 'most'.)"
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The book are on the table.",
+      "tokens": [
+        "The",
+        "book",
+        "are",
+        "on",
+        "the",
+        "table."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "Singular subjects like 'the book' require the singular verb 'is'. (Bahasa Indonesia: Subjek tunggal seperti 'the book' memerlukan kata kerja tunggal 'is'.)"
+    },
+    {
+      "id": 19,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She is interested on learning Spanish.",
+      "tokens": [
+        "She",
+        "is",
+        "interested",
+        "on",
+        "learning",
+        "Spanish."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "in"
+      ],
+      "explanation": "The correct adjective-preposition collocation is 'interested in', not 'interested on'. (Bahasa Indonesia: Kolokasi kata sifat-preposisi yang benar adalah 'interested in', bukan 'interested on'.)"
+    },
+    {
+      "id": 20,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The cake was eat by the dog.",
+      "tokens": [
+        "The",
+        "cake",
+        "was",
+        "eat",
+        "by",
+        "the",
+        "dog."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "eaten"
+      ],
+      "explanation": "The passive voice requires the past participle (V3). The past participle of 'eat' is 'eaten'. (Bahasa Indonesia: Kalimat pasif memerlukan past participle (V3). Past participle dari 'eat' adalah 'eaten'.)"
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The car was stole yesterday.",
+      "tokens": [
+        "The",
+        "car",
+        "was",
+        "stole",
+        "yesterday."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "stolen"
+      ],
+      "explanation": "The passive voice structure is 'be' + past participle (V3). The past participle of 'steal' is 'stolen'. (Bahasa Indonesia: Struktur kalimat pasif adalah 'be' + past participle (V3). Past participle dari 'steal' adalah 'stolen'.)"
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He should has studied harder for the exam.",
+      "tokens": [
+        "He",
+        "should",
+        "has",
+        "studied",
+        "harder",
+        "for",
+        "the",
+        "exam."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "have"
+      ],
+      "explanation": "Modal verbs are always followed by the base form 'have', never 'has' or 'had'. (Bahasa Indonesia: Kata kerja modal selalu diikuti oleh bentuk dasar 'have', tidak pernah 'has' atau 'had'.)"
     },
     {
       "id": 23,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I look forward to see you.",
+      "tokens": [
+        "I",
+        "look",
+        "forward",
+        "to",
+        "see",
+        "you."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "seeing"
+      ],
+      "explanation": "The phrase 'look forward to' is always followed by a gerund (V-ing), not an infinitive. (Bahasa Indonesia: Frasa 'look forward to' selalu diikuti oleh gerund (V-ing), bukan infinitive.)"
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I will call you when I will arrive.",
+      "tokens": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "when",
+        "I",
+        "will arrive."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "arrive."
+      ],
+      "explanation": "In time clauses referring to the future, use the simple present tense, not the future tense. (Bahasa Indonesia: Dalam time clauses yang merujuk pada masa depan, gunakan simple present tense, bukan future tense.)"
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I wish I can fly.",
+      "tokens": [
+        "I",
+        "wish",
+        "I",
+        "can",
+        "fly."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "could"
+      ],
+      "explanation": "To express a wish about ability in the present, use 'could' after 'wish'. (Bahasa Indonesia: Untuk mengekspresikan harapan tentang kemampuan di masa kini, gunakan 'could' setelah 'wish'.)"
+    },
+    {
+      "id": 26,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
       "sentence": "He is good in playing chess.",
       "tokens": [
         "He",
@@ -434,493 +508,100 @@
         "good",
         "in",
         "playing",
-        "chess"
+        "chess."
       ],
       "incorrectIndex": 3,
       "correctAnswers": [
         "at"
       ],
-      "explanation": "The correct preposition after 'good' (meaning skilled) is 'at'."
-    },
-    {
-      "id": 24,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She is married with a doctor.",
-      "tokens": [
-        "She",
-        "is",
-        "married",
-        "with",
-        "a",
-        "doctor"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "to"
-      ],
-      "explanation": "The correct preposition after 'married' is 'to'."
-    },
-    {
-      "id": 25,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "The news are shocking.",
-      "tokens": [
-        "The",
-        "news",
-        "are",
-        "shocking"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "is"
-      ],
-      "explanation": "'News' is an uncountable noun and takes a singular verb."
-    },
-    {
-      "id": 26,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) since -> for\nb) five -> six\nc) known -> know\nd) I -> He",
-      "sentence": "I have known him since five years.",
-      "tokens": [
-        "I",
-        "have",
-        "known",
-        "him",
-        "since",
-        "five",
-        "years"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "a"
-      ],
-      "explanation": "'For' is used to indicate a duration of time."
+      "explanation": "The correct collocation is 'good at' something, not 'good in'. (Bahasa Indonesia: Kolokasi yang benar adalah 'good at' sesuatu, bukan 'good in'.)"
     },
     {
       "id": 27,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) man -> woman\nb) He -> Him\nc) yesterday -> today\nd) which -> whom",
-      "sentence": "He is the man which I met yesterday.",
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She said that she will come tomorrow.",
       "tokens": [
-        "He",
-        "is",
-        "the",
-        "man",
-        "which",
-        "I",
-        "met",
-        "yesterday"
+        "She",
+        "said",
+        "that",
+        "she",
+        "will",
+        "come",
+        "tomorrow."
       ],
       "incorrectIndex": 4,
       "correctAnswers": [
-        "d"
+        "would"
       ],
-      "explanation": "'Whom' is the correct relative pronoun for people as the object of the verb."
+      "explanation": "In reported speech, 'will' changes to 'would' when the reporting verb is in the past tense. (Bahasa Indonesia: Dalam reported speech, 'will' berubah menjadi 'would' ketika kata kerja pelapor dalam bentuk lampau.)"
     },
     {
       "id": 28,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) went -> go\nb) didn't -> don't\nc) They -> He\nd) party -> parties",
-      "sentence": "They didn't went to the party.",
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "We have lived here since five years.",
       "tokens": [
-        "They",
-        "didn't",
-        "went",
-        "to",
-        "the",
-        "party"
+        "We",
+        "have",
+        "lived",
+        "here",
+        "since",
+        "five",
+        "years."
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 4,
       "correctAnswers": [
-        "a"
+        "for"
       ],
-      "explanation": "After 'did not', the base form of the verb is used."
+      "explanation": "Use 'for' to indicate a duration of time, and 'since' for a specific starting point. (Bahasa Indonesia: Gunakan 'for' untuk menunjukkan durasi waktu, dan 'since' untuk titik awal waktu yang spesifik.)"
     },
     {
       "id": 29,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) having -> have\nb) I -> He\nc) having -> have\nd) car -> cars",
-      "sentence": "I having a car.",
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "They is going to the market right now.",
       "tokens": [
-        "I",
-        "having",
-        "a",
-        "car"
+        "They",
+        "is",
+        "going",
+        "to",
+        "the",
+        "market",
+        "right",
+        "now."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "a"
+        "are"
       ],
-      "explanation": "'Have' (meaning possession) is a stative verb and is not used in the continuous form."
+      "explanation": "Plural subjects like 'they' require the plural verb 'are' in the present continuous tense. (Bahasa Indonesia: Subjek jamak seperti 'they' memerlukan kata kerja jamak 'are' dalam present continuous tense.)"
     },
     {
       "id": 30,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She speaks English very good.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I have went to Paris last year.",
       "tokens": [
-        "She",
-        "speaks",
-        "English",
-        "very",
-        "good"
+        "I",
+        "have",
+        "went",
+        "to",
+        "Paris",
+        "last",
+        "year."
       ],
-      "incorrectIndex": 4,
+      "incorrectIndex": 2,
       "correctAnswers": [
-        "well"
+        "gone"
       ],
-      "explanation": "'Well' is the adverb form used to modify the verb 'speaks'."
+      "explanation": "The present perfect tense requires 'have/has' + past participle (V3). The past participle of 'go' is 'gone'. (Bahasa Indonesia: Present perfect tense memerlukan 'have/has' + past participle (V3). Past participle dari 'go' adalah 'gone'.)"
     },
     {
       "id": 31,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) since -> for\nb) working -> work\nc) He -> Him\nd) here -> there",
-      "sentence": "He has been working here since 10 years.",
-      "tokens": [
-        "He",
-        "has",
-        "been",
-        "working",
-        "here",
-        "since",
-        "10",
-        "years"
-      ],
-      "incorrectIndex": 5,
-      "correctAnswers": [
-        "a"
-      ],
-      "explanation": "'For' is used to indicate a duration of time."
-    },
-    {
-      "id": 32,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "The scissors is on the table.",
-      "tokens": [
-        "The",
-        "scissors",
-        "is",
-        "on",
-        "the",
-        "table"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "are"
-      ],
-      "explanation": "'Scissors' is a plural noun and requires a plural verb."
-    },
-    {
-      "id": 33,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) I -> He\nb) hear -> heard\nc) you -> him\nd) hear -> hearing",
-      "sentence": "I look forward to hear from you.",
-      "tokens": [
-        "I",
-        "look",
-        "forward",
-        "to",
-        "hear",
-        "from",
-        "you"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "The phrase 'look forward to' is followed by a gerund (-ing form)."
-    },
-    {
-      "id": 34,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He is more taller than me.",
-      "tokens": [
-        "He",
-        "is",
-        "more",
-        "taller",
-        "than",
-        "me"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
-      ],
-      "explanation": "Comparative adjectives like 'taller' do not take 'more'."
-    },
-    {
-      "id": 35,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "We have lesser water than them.",
-      "tokens": [
-        "We",
-        "have",
-        "lesser",
-        "water",
-        "than",
-        "them"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "less"
-      ],
-      "explanation": "'Less' is the correct comparative form for uncountable nouns like 'water'."
-    },
-    {
-      "id": 36,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) She -> He\nb) class -> school\nc) smartest -> smarter\nd) most -> (delete)",
-      "sentence": "She is the most smartest girl in the class.",
-      "tokens": [
-        "She",
-        "is",
-        "the",
-        "most",
-        "smartest",
-        "girl",
-        "in",
-        "the",
-        "class"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "Superlative adjectives like 'smartest' do not take 'most'."
-    },
-    {
-      "id": 37,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I did went to London last year.",
-      "tokens": [
-        "I",
-        "did",
-        "went",
-        "to",
-        "London",
-        "last",
-        "year"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "go"
-      ],
-      "explanation": "After 'did', the base form of the verb is used."
-    },
-    {
-      "id": 38,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He is interested on learning Spanish.",
-      "tokens": [
-        "He",
-        "is",
-        "interested",
-        "on",
-        "learning",
-        "Spanish"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "in"
-      ],
-      "explanation": "The correct preposition after 'interested' is 'in'."
-    },
-    {
-      "id": 39,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) is -> are\nb) The -> A\nc) children -> child\nd) park -> garden",
-      "sentence": "The children is playing in the park.",
-      "tokens": [
-        "The",
-        "children",
-        "is",
-        "playing",
-        "in",
-        "the",
-        "park"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "a"
-      ],
-      "explanation": "'Children' is a plural noun and requires a plural verb."
-    },
-    {
-      "id": 40,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) do -> does\nb) lot -> lots\nc) I -> He\nd) homeworks -> homework",
-      "sentence": "I have a lot of homeworks to do.",
-      "tokens": [
-        "I",
-        "have",
-        "a",
-        "lot",
-        "of",
-        "homeworks",
-        "to",
-        "do"
-      ],
-      "incorrectIndex": 5,
-      "correctAnswers": [
-        "d"
-      ],
-      "explanation": "'Homework' is an uncountable noun and does not take an 's'."
-    },
-    {
-      "id": 41,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) sister -> brother\nb) more -> (delete)\nc) prettier -> pretty\nd) She -> He",
-      "sentence": "She is more prettier than her sister.",
-      "tokens": [
-        "She",
-        "is",
-        "more",
-        "prettier",
-        "than",
-        "her",
-        "sister"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "b"
-      ],
-      "explanation": "Comparative adjectives like 'prettier' do not take 'more'."
-    },
-    {
-      "id": 42,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He has a news for you.",
-      "tokens": [
-        "He",
-        "has",
-        "a",
-        "news",
-        "for",
-        "you"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "some"
-      ],
-      "explanation": "'News' is uncountable and cannot take the article 'a'."
-    },
-    {
-      "id": 43,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "They was happy with the results.",
-      "tokens": [
-        "They",
-        "was",
-        "happy",
-        "with",
-        "the",
-        "results"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "were"
-      ],
-      "explanation": "'They' is a plural subject and requires the plural verb 'were'."
-    },
-    {
-      "id": 44,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) waiting -> wait\nb) I -> He\nc) since -> for\nd) hours -> hour",
-      "sentence": "I have been waiting for you since two hours.",
-      "tokens": [
-        "I",
-        "have",
-        "been",
-        "waiting",
-        "for",
-        "you",
-        "since",
-        "two",
-        "hours"
-      ],
-      "incorrectIndex": 6,
-      "correctAnswers": [
-        "c"
-      ],
-      "explanation": "'For' is used to indicate a duration of time."
-    },
-    {
-      "id": 45,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) which -> who\nb) helped -> help\nc) He -> Him\nd) one -> person",
-      "sentence": "He is the one which helped me.",
-      "tokens": [
-        "He",
-        "is",
-        "the",
-        "one",
-        "which",
-        "helped",
-        "me"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "a"
-      ],
-      "explanation": "'Who' is the correct relative pronoun for people."
-    },
-    {
-      "id": 46,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "We must to finish the project today.",
-      "tokens": [
-        "We",
-        "must",
-        "to",
-        "finish",
-        "the",
-        "project",
-        "today"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
-      ],
-      "explanation": "Modal verbs like 'must' are followed by the base form of the verb without 'to'."
-    },
-    {
-      "id": 47,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) isn't -> aren't\nb) doctor -> nurse\nc) it -> she\nd) She -> He",
-      "sentence": "She is a doctor, isn't it.",
-      "tokens": [
-        "She",
-        "is",
-        "a",
-        "doctor,",
-        "isn't",
-        "it"
-      ],
-      "incorrectIndex": 5,
-      "correctAnswers": [
-        "c"
-      ],
-      "explanation": "The question tag must match the subject 'She'."
-    },
-    {
-      "id": 48,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) sunset -> sunrise\nb) saw -> seen\nc) I -> He\nd) never -> ever",
-      "sentence": "I have never saw such a beautiful sunset.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I have never saw such a beautiful painting.",
       "tokens": [
         "I",
         "have",
@@ -929,54 +610,394 @@
         "such",
         "a",
         "beautiful",
-        "sunset"
+        "painting."
       ],
       "incorrectIndex": 3,
       "correctAnswers": [
-        "b"
+        "seen"
       ],
-      "explanation": "The past participle of 'see' is 'seen', used with 'have'."
+      "explanation": "The present perfect tense uses 'have/has' + past participle (V3). The past participle of 'see' is 'seen'. (Bahasa Indonesia: Present perfect tense menggunakan 'have/has' + past participle (V3). Past participle dari 'see' adalah 'seen'.)"
+    },
+    {
+      "id": 32,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "If I had knew, I would have told you.",
+      "tokens": [
+        "If",
+        "I",
+        "had",
+        "knew,",
+        "I",
+        "would",
+        "have",
+        "told",
+        "you."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "known,"
+      ],
+      "explanation": "Conditional Type 3 uses 'had' + past participle (V3) in the if-clause. The past participle of 'know' is 'known'. (Bahasa Indonesia: Conditional Type 3 menggunakan 'had' + past participle (V3) di dalam anak kalimat if. Past participle dari 'know' adalah 'known'.)"
+    },
+    {
+      "id": 33,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She don't like coffee in the morning.",
+      "tokens": [
+        "She",
+        "don't",
+        "like",
+        "coffee",
+        "in",
+        "the",
+        "morning."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "In Simple Present Tense, third person singular subjects (he, she, it) require 'does not' or 'doesn't' + base verb. (Bahasa Indonesia: Dalam Simple Present Tense, subjek orang ketiga tunggal (he, she, it) memerlukan 'does not' atau 'doesn't' + kata kerja dasar.)"
+    },
+    {
+      "id": 34,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "They have been married since ten years.",
+      "tokens": [
+        "They",
+        "have",
+        "been",
+        "married",
+        "since",
+        "ten",
+        "years."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "for"
+      ],
+      "explanation": "Use 'for' to indicate a duration of time (ten years), and 'since' for a specific starting point. (Bahasa Indonesia: Gunakan 'for' untuk menunjukkan durasi waktu (ten years), dan 'since' untuk titik awal waktu yang spesifik.)"
+    },
+    {
+      "id": 35,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He is afraid from spiders.",
+      "tokens": [
+        "He",
+        "is",
+        "afraid",
+        "from",
+        "spiders."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "of"
+      ],
+      "explanation": "The correct adjective-preposition collocation is 'afraid of', not 'afraid from'. (Bahasa Indonesia: Kolokasi kata sifat-preposisi yang benar adalah 'afraid of', bukan 'afraid from'.)"
+    },
+    {
+      "id": 36,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The teacher, along with her students, are going to the museum.",
+      "tokens": [
+        "The",
+        "teacher,",
+        "along",
+        "with",
+        "her",
+        "students,",
+        "are",
+        "going",
+        "to",
+        "the",
+        "museum."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "Phrases like 'along with' do not change the number of the subject. The main subject 'teacher' is singular. (Bahasa Indonesia: Frasa seperti 'along with' tidak mengubah jumlah subjek. Subjek utama 'teacher' adalah tunggal.)"
+    },
+    {
+      "id": 37,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "If I was you, I would study harder.",
+      "tokens": [
+        "If",
+        "I",
+        "was",
+        "you,",
+        "I",
+        "would",
+        "study",
+        "harder."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "were"
+      ],
+      "explanation": "In Conditional Type 2, 'were' is used for all subjects (including I, he, she, it) in the if-clause. (Bahasa Indonesia: Dalam Conditional Type 2, 'were' digunakan untuk semua subjek (termasuk I, he, she, it) di dalam anak kalimat if.)"
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She is more smarter than her classmates.",
+      "tokens": [
+        "She",
+        "is",
+        "more smarter",
+        "than",
+        "her",
+        "classmates."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "smarter"
+      ],
+      "explanation": "Do not use 'more' with adjectives that already have the '-er' comparative suffix. (Bahasa Indonesia: Jangan gunakan 'more' dengan kata sifat yang sudah memiliki akhiran komparatif '-er'.)"
+    },
+    {
+      "id": 39,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I would rather stay at home than to go out.",
+      "tokens": [
+        "I",
+        "would",
+        "rather",
+        "stay",
+        "at",
+        "home",
+        "than",
+        "to go",
+        "out."
+      ],
+      "incorrectIndex": 7,
+      "correctAnswers": [
+        "go"
+      ],
+      "explanation": "The structure 'would rather... than...' is followed by the base form of the verb without 'to'. (Bahasa Indonesia: Struktur 'would rather... than...' diikuti oleh bentuk dasar kata kerja tanpa 'to'.)"
+    },
+    {
+      "id": 40,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I am looking forward to meet you.",
+      "tokens": [
+        "I",
+        "am",
+        "looking",
+        "forward",
+        "to",
+        "meet",
+        "you."
+      ],
+      "incorrectIndex": 5,
+      "correctAnswers": [
+        "meeting"
+      ],
+      "explanation": "'Look forward to' is a phrasal verb where 'to' is a preposition, so it must be followed by a gerund (V-ing). (Bahasa Indonesia: 'Look forward to' adalah phrasal verb di mana 'to' adalah preposisi, sehingga harus diikuti oleh gerund (V-ing).)"
+    },
+    {
+      "id": 41,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "We have much books in the library.",
+      "tokens": [
+        "We",
+        "have",
+        "much",
+        "books",
+        "in",
+        "the",
+        "library."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "many"
+      ],
+      "explanation": "Use 'many' for countable plural nouns (books) and 'much' for uncountable nouns. (Bahasa Indonesia: Gunakan 'many' untuk kata benda jamak yang dapat dihitung (books) dan 'much' untuk kata benda yang tidak dapat dihitung.)"
+    },
+    {
+      "id": 42,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "We must finishing the project today.",
+      "tokens": [
+        "We",
+        "must",
+        "finishing",
+        "the",
+        "project",
+        "today."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "finish"
+      ],
+      "explanation": "Modal verbs are always followed by the base form of the verb (V1). (Bahasa Indonesia: Kata kerja modal selalu diikuti oleh bentuk dasar kata kerja (V1).)"
+    },
+    {
+      "id": 43,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "She asked me where do I live.",
+      "tokens": [
+        "She",
+        "asked",
+        "me",
+        "where",
+        "do I",
+        "live."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "I lived"
+      ],
+      "explanation": "In reported questions, the word order is subject + verb, and the tense shifts to the past. (Bahasa Indonesia: Dalam pertanyaan reported speech, urutan katanya adalah subjek + kata kerja, dan tense bergeser ke bentuk lampau.)"
+    },
+    {
+      "id": 44,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He didn't went to school yesterday.",
+      "tokens": [
+        "He",
+        "didn't",
+        "went",
+        "to",
+        "school",
+        "yesterday."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "go"
+      ],
+      "explanation": "After 'didn't', the main verb must be in its base form (V1). (Bahasa Indonesia: Setelah 'didn't', kata kerja utama harus dalam bentuk dasar (V1).)"
+    },
+    {
+      "id": 45,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The man which lives next door is a doctor.",
+      "tokens": [
+        "The",
+        "man",
+        "which",
+        "lives",
+        "next",
+        "door",
+        "is",
+        "a",
+        "doctor."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "who"
+      ],
+      "explanation": "Use 'who' for people, not 'which'. 'Which' is used for things or animals. (Bahasa Indonesia: Gunakan 'who' untuk orang, bukan 'which'. 'Which' digunakan untuk benda atau hewan.)"
+    },
+    {
+      "id": 46,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He can speaks English fluently.",
+      "tokens": [
+        "He",
+        "can",
+        "speaks",
+        "English",
+        "fluently."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "speak"
+      ],
+      "explanation": "Modal verbs (can, could, should, must) are always followed by the base form of the verb without 'to' or 's'. (Bahasa Indonesia: Kata kerja modal (can, could, should, must) selalu diikuti oleh bentuk dasar kata kerja tanpa 'to' atau 's'.)"
+    },
+    {
+      "id": 47,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He runs more faster than his brother.",
+      "tokens": [
+        "He",
+        "runs",
+        "more faster",
+        "than",
+        "his",
+        "brother."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "faster"
+      ],
+      "explanation": "Do not use 'more' with comparative adjectives that already end in '-er'. (Bahasa Indonesia: Jangan gunakan 'more' dengan kata sifat komparatif yang sudah berakhiran '-er'.)"
+    },
+    {
+      "id": 48,
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "The children is playing in the park.",
+      "tokens": [
+        "The",
+        "children",
+        "is",
+        "playing",
+        "in",
+        "the",
+        "park."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "'Children' is the plural form of 'child', so it requires the plural verb 'are'. (Bahasa Indonesia: 'Children' adalah bentuk jamak dari 'child', sehingga memerlukan kata kerja jamak 'are'.)"
     },
     {
       "id": 49,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He is the author which wrote this book.",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "I wish I have a million dollars.",
       "tokens": [
-        "He",
-        "is",
-        "the",
-        "author",
-        "which",
-        "wrote",
-        "this",
-        "book"
+        "I",
+        "wish",
+        "I",
+        "have",
+        "a",
+        "million",
+        "dollars."
       ],
-      "incorrectIndex": 4,
+      "incorrectIndex": 3,
       "correctAnswers": [
-        "who"
+        "had"
       ],
-      "explanation": "'Who' is the correct relative pronoun for people."
+      "explanation": "To express a wish about the present, use the past tense form after 'wish'. (Bahasa Indonesia: Untuk mengekspresikan harapan tentang masa kini, gunakan bentuk past tense setelah 'wish'.)"
     },
     {
       "id": 50,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and its correct form:\na) The -> A\nb) due -> due to\nc) rain -> weather\nd) meeting -> meetings",
-      "sentence": "The meeting was postponed due the rain.",
+      "type": "click_correct",
+      "question": "Click the incorrect word or phrase and type the correct one.",
+      "sentence": "He didn't knew the answer.",
       "tokens": [
-        "The",
-        "meeting",
-        "was",
-        "postponed",
-        "due",
+        "He",
+        "didn't",
+        "knew",
         "the",
-        "rain"
+        "answer."
       ],
-      "incorrectIndex": 4,
+      "incorrectIndex": 2,
       "correctAnswers": [
-        "b"
+        "know"
       ],
-      "explanation": "The correct phrase is 'due to' when meaning 'because of'."
+      "explanation": "After the auxiliary 'did' or 'didn't', the main verb must be in its base form (V1). (Bahasa Indonesia: Setelah kata bantu 'did' atau 'didn't', kata kerja utama harus dalam bentuk dasar (V1).)"
     }
   ]
 }
