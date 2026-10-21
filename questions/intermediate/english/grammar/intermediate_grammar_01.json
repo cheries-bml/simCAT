@@ -1,18 +1,19 @@
 {
   "meta": {
-    "title": "English Grammar Correction Test 01",
+    "title": "English Grammar Correction Test",
     "timeLimits": {
-      "fast": 15,
-      "normal": 25,
-      "easy": 45
-    }
+      "fast": 25,
+      "normal": 40,
+      "easy": 60
+    },
+    "timeUnit": "minutes"
   },
   "questions": [
     {
       "id": 1,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "The list of items are on the desk.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "The list of items are on the desk",
       "tokens": [
         "The",
         "list",
@@ -26,8 +27,8 @@
       "incorrectIndex": 4,
       "options": [
         "have",
-        "are",
         "were",
+        "be",
         "is"
       ],
       "correctAnswers": [
@@ -38,8 +39,8 @@
     {
       "id": 2,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "She is interested on learning new languages.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "She is interested on learning new languages",
       "tokens": [
         "She",
         "is",
@@ -51,10 +52,10 @@
       ],
       "incorrectIndex": 3,
       "options": [
+        "about",
         "for",
-        "at",
         "in",
-        "on"
+        "at"
       ],
       "correctAnswers": [
         "in"
@@ -64,8 +65,8 @@
     {
       "id": 3,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "He runs very quick to catch the bus.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He runs very quick to catch the bus",
       "tokens": [
         "He",
         "runs",
@@ -91,8 +92,8 @@
     {
       "id": 4,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I have seen him yesterday at the park.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "I have seen him yesterday at the park",
       "tokens": [
         "I",
         "have",
@@ -105,9 +106,9 @@
       ],
       "incorrectIndex": 1,
       "options": [
-        "seen",
         "see",
         "seeing",
+        "seen",
         "saw"
       ],
       "correctAnswers": [
@@ -118,8 +119,8 @@
     {
       "id": 5,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "Him and I went to the store.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "Him and I went to the store",
       "tokens": [
         "Him",
         "and",
@@ -131,9 +132,9 @@
       ],
       "incorrectIndex": 0,
       "options": [
-        "Him",
-        "Himself",
         "His",
+        "He's",
+        "Himself",
         "He"
       ],
       "correctAnswers": [
@@ -144,8 +145,8 @@
     {
       "id": 6,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "There is many reasons to study English.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "There is many reasons to study English",
       "tokens": [
         "There",
         "is",
@@ -170,8 +171,8 @@
     {
       "id": 7,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "This is the most unique painting I have ever seen.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "This is the most unique painting I have ever seen",
       "tokens": [
         "This",
         "is",
@@ -185,22 +186,21 @@
       ],
       "incorrectIndex": 3,
       "options": [
+        "more unique",
         "most unique",
-        "uniquer",
         "unique",
-        "more unique"
+        "uniquer"
       ],
       "correctAnswers": [
-        "unique",
-        "very unique"
+        "unique"
       ],
       "explanation": "'Unique' is an absolute adjective and should not be modified by 'most'."
     },
     {
       "id": 8,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "She gave me an advice about my career.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "She gave me an advice about my career",
       "tokens": [
         "She",
         "gave",
@@ -215,20 +215,19 @@
       "options": [
         "these",
         "some",
-        "an",
+        "a",
         "many"
       ],
       "correctAnswers": [
-        "some",
-        "a piece of"
+        "some"
       ],
       "explanation": "'Advice' is an uncountable noun, so it cannot take the article 'an'. Use 'some' or 'a piece of'."
     },
     {
       "id": 9,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "If I was you, I would accept the offer.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "If I was you I would accept the offer",
       "tokens": [
         "If",
         "I",
@@ -242,10 +241,10 @@
       ],
       "incorrectIndex": 2,
       "options": [
+        "am",
         "was",
-        "be",
         "were",
-        "am"
+        "be"
       ],
       "correctAnswers": [
         "were"
@@ -255,8 +254,8 @@
     {
       "id": 10,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "He has been working here since five years.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "He has been working here since five years",
       "tokens": [
         "He",
         "has",
@@ -269,9 +268,9 @@
       ],
       "incorrectIndex": 5,
       "options": [
+        "since",
         "during",
         "from",
-        "since",
         "for"
       ],
       "correctAnswers": [
@@ -282,8 +281,8 @@
     {
       "id": 11,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I look forward to hear from you soon.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "I look forward to hear from you soon",
       "tokens": [
         "I",
         "look",
@@ -309,8 +308,8 @@
     {
       "id": 12,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "The police is investigating the crime.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "The police is investigating the crime",
       "tokens": [
         "The",
         "police",
@@ -334,8 +333,8 @@
     {
       "id": 13,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "She is good in playing the piano.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "She is good in playing the piano",
       "tokens": [
         "She",
         "is",
@@ -360,8 +359,8 @@
     {
       "id": 14,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I have less books than you.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I have less books than you",
       "tokens": [
         "I",
         "have",
@@ -385,8 +384,8 @@
     {
       "id": 15,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He didn't knew the answer to the question.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "He didn't knew the answer to the question",
       "tokens": [
         "He",
         "didn't",
@@ -412,8 +411,8 @@
     {
       "id": 16,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "We have visited Paris in 2010.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "We have visited Paris in 2010",
       "tokens": [
         "We",
         "have",
@@ -437,8 +436,8 @@
     {
       "id": 17,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "The news are very shocking today.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "The news are very shocking today",
       "tokens": [
         "The",
         "news",
@@ -462,8 +461,8 @@
     {
       "id": 18,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "I am used to wake up early.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am used to wake up early",
       "tokens": [
         "I",
         "am",
@@ -476,9 +475,9 @@
       "incorrectIndex": 4,
       "options": [
         "waking",
+        "awake",
         "woken",
-        "woke",
-        "wake"
+        "woke"
       ],
       "correctAnswers": [
         "waking"
@@ -488,8 +487,8 @@
     {
       "id": 19,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She has a lot of informations about the topic.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "She has a lot of informations about the topic",
       "tokens": [
         "She",
         "has",
@@ -516,8 +515,8 @@
     {
       "id": 20,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "He is the man which won the lottery.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "He is the man which won the lottery",
       "tokens": [
         "He",
         "is",
@@ -536,16 +535,15 @@
         "whose"
       ],
       "correctAnswers": [
-        "who",
-        "that"
+        "who"
       ],
       "explanation": "'Who' or 'that' is used for people, while 'which' is used for things."
     },
     {
       "id": 21,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I would rather to stay at home tonight.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I would rather to stay at home tonight",
       "tokens": [
         "I",
         "would",
@@ -571,8 +569,8 @@
     {
       "id": 22,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "In spite the rain, we went for a walk.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "In spite the rain we went for a walk",
       "tokens": [
         "In",
         "spite",
@@ -599,8 +597,8 @@
     {
       "id": 23,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "She is married with a doctor.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "She is married with a doctor",
       "tokens": [
         "She",
         "is",
@@ -624,13 +622,12 @@
     {
       "id": 24,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I have been knowing him for ten years.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "I have been knowing him for ten years",
       "tokens": [
         "I",
         "have",
-        "been",
-        "knowing",
+        "been knowing",
         "him",
         "for",
         "ten",
@@ -651,8 +648,8 @@
     {
       "id": 25,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "The childrens are playing in the garden.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "The childrens are playing in the garden",
       "tokens": [
         "The",
         "childrens",
@@ -677,8 +674,8 @@
     {
       "id": 26,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "He is the most tall boy in the class.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "He is the most tall boy in the class",
       "tokens": [
         "He",
         "is",
@@ -704,12 +701,13 @@
     {
       "id": 27,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I need a scissors to cut this paper.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "I need a scissors to cut this paper",
       "tokens": [
         "I",
         "need",
-        "a scissors",
+        "a",
+        "scissors",
         "to",
         "cut",
         "this",
@@ -717,22 +715,21 @@
       ],
       "incorrectIndex": 2,
       "options": [
-        "some scissors",
-        "a scissors",
-        "an scissors",
-        "many scissors"
+        "some",
+        "a",
+        "an",
+        "many"
       ],
       "correctAnswers": [
-        "some scissors",
-        "a pair of scissors"
+        "some"
       ],
       "explanation": "'Scissors' is a plural noun. Use 'some' or 'a pair of'."
     },
     {
       "id": 28,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "She speaks English very good.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She speaks English very good",
       "tokens": [
         "She",
         "speaks",
@@ -755,8 +752,8 @@
     {
       "id": 29,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "We must to finish the project by Friday.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "We must to finish the project by Friday",
       "tokens": [
         "We",
         "must",
@@ -782,8 +779,8 @@
     {
       "id": 30,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "The car was stole from the parking lot.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "The car was stole from the parking lot",
       "tokens": [
         "The",
         "car",
@@ -809,8 +806,8 @@
     {
       "id": 31,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "I am looking forward for your reply.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "I am looking forward for your reply",
       "tokens": [
         "I",
         "am",
@@ -835,8 +832,8 @@
     {
       "id": 32,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "He is one of the best student in the class.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He is one of the best student in the class",
       "tokens": [
         "He",
         "is",
@@ -864,8 +861,8 @@
     {
       "id": 33,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "I have never went to Australia.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I have never went to Australia",
       "tokens": [
         "I",
         "have",
@@ -889,8 +886,8 @@
     {
       "id": 34,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She is afraid from spiders.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "She is afraid from spiders",
       "tokens": [
         "She",
         "is",
@@ -913,35 +910,35 @@
     {
       "id": 35,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "The meeting was postponed because the bad weather.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "The meeting was postponed because the bad weather",
       "tokens": [
         "The",
         "meeting",
         "was",
         "postponed",
-        "because the",
+        "because",
+        "the",
         "bad",
         "weather"
       ],
       "incorrectIndex": 4,
       "options": [
-        "as the",
-        "because the",
-        "since the",
-        "because of the"
+        "for",
+        "since",
+        "as",
+        "because of"
       ],
       "correctAnswers": [
-        "because of the",
-        "due to the"
+        "because of"
       ],
       "explanation": "'Because' is a conjunction and must be followed by a clause. Use 'because of' before a noun phrase."
     },
     {
       "id": 36,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I will call you when I will arrive.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "I will call you when I will arrive",
       "tokens": [
         "I",
         "will",
@@ -967,8 +964,8 @@
     {
       "id": 37,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "He asked me where the station were located.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "He asked me where the station were located",
       "tokens": [
         "He",
         "asked",
@@ -994,8 +991,8 @@
     {
       "id": 38,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "I have a headache since this morning.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "I have a headache since this morning",
       "tokens": [
         "I",
         "have",
@@ -1020,34 +1017,32 @@
     {
       "id": 39,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "She is the most smartest person I know.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "This is the most easy question",
       "tokens": [
-        "She",
+        "This",
         "is",
         "the",
-        "most smartest",
-        "person",
-        "I",
-        "know"
+        "most easy",
+        "question"
       ],
       "incorrectIndex": 3,
       "options": [
-        "more smart",
-        "most smartest",
-        "most smart",
-        "smartest"
+        "more easy",
+        "most easiest",
+        "easier",
+        "easiest"
       ],
       "correctAnswers": [
-        "smartest"
+        "easiest"
       ],
-      "explanation": "'Smartest' is already a superlative adjective. Do not use 'most' with it."
+      "explanation": "'Easy' forms its superlative as 'easiest'. 'Most easy' is incorrect."
     },
     {
       "id": 40,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "They denied to pay the bill.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "They denied to pay the bill",
       "tokens": [
         "They",
         "denied",
@@ -1071,8 +1066,8 @@
     {
       "id": 41,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I am not agree with your opinion.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am not agree with your opinion",
       "tokens": [
         "I",
         "am",
@@ -1084,9 +1079,9 @@
       ],
       "incorrectIndex": 1,
       "options": [
-        "did",
-        "am",
         "have",
+        "did",
+        "is",
         "do"
       ],
       "correctAnswers": [
@@ -1097,8 +1092,8 @@
     {
       "id": 42,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He has a big house with a lot of furnitures.",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "He has a big house with a lot of furnitures",
       "tokens": [
         "He",
         "has",
@@ -1126,8 +1121,8 @@
     {
       "id": 43,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "If we would have left earlier, we would have caught the train.",
+      "question": "Identify the incorrect word and choose the right replacement",
+      "sentence": "If we would have left earlier we would have caught the train",
       "tokens": [
         "If",
         "we",
@@ -1143,9 +1138,9 @@
       "incorrectIndex": 2,
       "options": [
         "had left",
-        "have left",
         "left",
-        "would have left"
+        "would leave",
+        "have left"
       ],
       "correctAnswers": [
         "had left"
@@ -1155,8 +1150,8 @@
     {
       "id": 44,
       "type": "click_correct",
-      "question": "Identify the incorrect word and choose the right replacement.",
-      "sentence": "She is studying to become a engineer.",
+      "question": "Spot the error in the sentence and provide the correct word",
+      "sentence": "She is studying to become a engineer",
       "tokens": [
         "She",
         "is",
@@ -1181,8 +1176,8 @@
     {
       "id": 45,
       "type": "click_correct",
-      "question": "Spot the error in the sentence and provide the correct word.",
-      "sentence": "I have two brothers and one sister. Them are all older than me.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I have two brothers and one sister but them are all older than me",
       "tokens": [
         "I",
         "have",
@@ -1191,30 +1186,31 @@
         "and",
         "one",
         "sister",
-        "Them",
+        "but",
+        "them",
         "are",
         "all",
         "older",
         "than",
         "me"
       ],
-      "incorrectIndex": 7,
+      "incorrectIndex": 8,
       "options": [
-        "They",
-        "Theirs",
-        "Them",
-        "Their"
+        "they",
+        "theirs",
+        "those",
+        "their"
       ],
       "correctAnswers": [
-        "They"
+        "they"
       ],
-      "explanation": "The subject pronoun 'They' should be used instead of the object pronoun 'Them'."
+      "explanation": "The subject pronoun 'they' should be used instead of the object pronoun 'them'."
     },
     {
       "id": 46,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "He is responsible for manage the team.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "He is responsible for manage the team",
       "tokens": [
         "He",
         "is",
@@ -1239,8 +1235,8 @@
     {
       "id": 47,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "The weather is very hot today, is it?",
+      "question": "Which word is incorrect? Click it and select the correct form",
+      "sentence": "The weather is very hot today is it",
       "tokens": [
         "The",
         "weather",
@@ -1253,9 +1249,9 @@
       ],
       "incorrectIndex": 6,
       "options": [
-        "is",
-        "doesn't",
         "does",
+        "was",
+        "doesn't",
         "isn't"
       ],
       "correctAnswers": [
@@ -1266,8 +1262,8 @@
     {
       "id": 48,
       "type": "click_correct",
-      "question": "Which word is incorrect? Click it and select the correct form.",
-      "sentence": "I wish I have more money.",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I wish I have more money",
       "tokens": [
         "I",
         "wish",
@@ -1291,8 +1287,8 @@
     {
       "id": 49,
       "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
-      "sentence": "She gave the book to he.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "She gave the book to he",
       "tokens": [
         "She",
         "gave",
@@ -1316,8 +1312,8 @@
     {
       "id": 50,
       "type": "click_correct",
-      "question": "Find the mistake in the sentence and select the correct option.",
-      "sentence": "I will be happy if you will come to my party.",
+      "question": "Find the mistake in the sentence and select the correct option",
+      "sentence": "I will be happy if you will come to my party",
       "tokens": [
         "I",
         "will",
