@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Intermediate English Grammar Test 01",
+    "title": "English Grammar Correction Test",
     "timeLimits": {
       "fast": 25,
       "normal": 50,
@@ -11,7 +11,7 @@
     {
       "id": 1,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) She -> They\nb) like -> likes\nc) apples -> apple\nd) don't -> doesn't",
       "sentence": "She don't like apples.",
       "tokens": [
         "She",
@@ -20,22 +20,15 @@
         "apples"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "do",
-        "doesn't",
-        "whom",
-        "any"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "doesn't"
+        "d"
       ],
       "explanation": "'She' is a third-person singular subject and requires 'doesn't'."
     },
     {
       "id": 2,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "They goes to school every day.",
       "tokens": [
         "They",
@@ -46,13 +39,6 @@
         "day"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "in",
-        "playing",
-        "go",
-        "many"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "go"
       ],
@@ -60,8 +46,8 @@
     },
     {
       "id": 3,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) have -> has\nb) store -> stores\nc) I -> He\nd) went -> gone",
       "sentence": "I have went to the store.",
       "tokens": [
         "I",
@@ -72,22 +58,15 @@
         "store"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "fewer",
-        "well",
-        "playing",
-        "gone"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "gone"
+        "d"
       ],
       "explanation": "The past participle of 'go' is 'gone', which is used with 'have'."
     },
     {
       "id": 4,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) He -> Him\nb) more -> (delete)\nc) brother -> brothers\nd) is -> are",
       "sentence": "He is more taller than his brother.",
       "tokens": [
         "He",
@@ -99,24 +78,15 @@
         "brother"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "(delete)",
-        "does",
-        "went",
-        "waking"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
+        "b"
       ],
       "explanation": "Comparative adjectives like 'taller' do not take 'more'."
     },
     {
       "id": 5,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) bus -> buses\nb) waiting -> wait\nc) was -> were\nd) We -> I",
       "sentence": "We was waiting for the bus.",
       "tokens": [
         "We",
@@ -127,22 +97,15 @@
         "bus"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "were",
-        "good",
-        "which",
-        "less"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "were"
+        "c"
       ],
       "explanation": "'We' is a plural subject and requires the plural verb 'were'."
     },
     {
       "id": 6,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) tail -> tails\nb) chases -> chase\nc) The -> A\nd) it's -> its",
       "sentence": "The cat chases it's tail.",
       "tokens": [
         "The",
@@ -152,22 +115,15 @@
         "tail"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "whom",
-        "went",
-        "its",
-        "didn't"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "its"
+        "d"
       ],
       "explanation": "'Its' is the possessive form, while 'it's' means 'it is'."
     },
     {
       "id": 7,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "She has less books than me.",
       "tokens": [
         "She",
@@ -178,13 +134,6 @@
         "me"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "homework",
-        "that",
-        "gone",
-        "fewer"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "fewer"
       ],
@@ -203,13 +152,6 @@
         "yesterday"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "at",
-        "whom",
-        "wasn't",
-        "ran"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "ran"
       ],
@@ -217,8 +159,8 @@
     },
     {
       "id": 9,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "This is the most unique painting.",
       "tokens": [
         "This",
@@ -229,13 +171,6 @@
         "painting"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "were",
-        "(delete)",
-        "have",
-        "went"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "(delete)",
         "remove",
@@ -257,13 +192,6 @@
         "you"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "goes",
-        "meeting",
-        "since",
-        "at"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "meeting"
       ],
@@ -271,8 +199,8 @@
     },
     {
       "id": 11,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) very -> too\nb) useful -> helpful\nc) are -> is\nd) The -> A",
       "sentence": "The information are very useful.",
       "tokens": [
         "The",
@@ -282,15 +210,8 @@
         "useful"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "isn't",
-        "is",
-        "has",
-        "had"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "is"
+        "c"
       ],
       "explanation": "'Information' is an uncountable noun and takes a singular verb."
     },
@@ -307,13 +228,6 @@
         "advices"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "went",
-        "has",
-        "some",
-        "did"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "some"
       ],
@@ -321,8 +235,8 @@
     },
     {
       "id": 13,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "They are married since 2010.",
       "tokens": [
         "They",
@@ -332,13 +246,6 @@
         "2010"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "went",
-        "good",
-        "have been",
-        "goes"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "have been"
       ],
@@ -358,13 +265,6 @@
         "2015"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "who",
-        "meeting",
-        "visited",
-        "since"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "visited"
       ],
@@ -386,13 +286,6 @@
         "prize"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "isn't",
-        "playing",
-        "less",
-        "who"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "who"
       ],
@@ -411,13 +304,6 @@
         "spiders"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "gone",
-        "of",
-        "does",
-        "to"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "of"
       ],
@@ -426,7 +312,7 @@
     {
       "id": 17,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) discussed -> discuss\nb) problem -> problems\nc) We -> They\nd) about -> (delete)",
       "sentence": "We discussed about the problem.",
       "tokens": [
         "We",
@@ -436,24 +322,15 @@
         "problem"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "(delete)",
-        "waking",
-        "do",
-        "wasn't"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
+        "d"
       ],
       "explanation": "The verb 'discuss' is transitive and does not take the preposition 'about'."
     },
     {
       "id": 18,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "I am used to wake up early.",
       "tokens": [
         "I",
@@ -465,13 +342,6 @@
         "early"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "went",
-        "waking",
-        "were",
-        "good"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "waking"
       ],
@@ -479,8 +349,8 @@
     },
     {
       "id": 19,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "The police is investigating the crime.",
       "tokens": [
         "The",
@@ -491,13 +361,6 @@
         "crime"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "much",
-        "go",
-        "has",
-        "are"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "are"
       ],
@@ -505,8 +368,8 @@
     },
     {
       "id": 20,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) have -> has\nb) students -> student\nc) book -> books\nd) Each -> All",
       "sentence": "Each of the students have a book.",
       "tokens": [
         "Each",
@@ -518,22 +381,15 @@
         "book"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "goes",
-        "has",
-        "who",
-        "isn't"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "has"
+        "a"
       ],
       "explanation": "'Each' is singular and requires the singular verb 'has'."
     },
     {
       "id": 21,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) answers -> answer\nb) are -> is\nc) correct -> right\nd) Neither -> None",
       "sentence": "Neither of the answers are correct.",
       "tokens": [
         "Neither",
@@ -544,22 +400,15 @@
         "correct"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "is",
-        "didn't",
-        "homework",
-        "on"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "is"
+        "b"
       ],
       "explanation": "'Neither' is singular and requires the singular verb 'is'."
     },
     {
       "id": 22,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) than -> to\nb) I -> He\nc) prefer -> prefers\nd) coffee -> tea",
       "sentence": "I prefer coffee than tea.",
       "tokens": [
         "I",
@@ -569,22 +418,15 @@
         "tea"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "gone",
-        "to",
-        "fewer",
-        "did"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "to"
+        "a"
       ],
       "explanation": "The correct preposition after 'prefer' is 'to'."
     },
     {
       "id": 23,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "He is good in playing chess.",
       "tokens": [
         "He",
@@ -595,13 +437,6 @@
         "chess"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "its",
-        "didn't",
-        "at",
-        "much"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "at"
       ],
@@ -609,8 +444,8 @@
     },
     {
       "id": 24,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "She is married with a doctor.",
       "tokens": [
         "She",
@@ -621,13 +456,6 @@
         "doctor"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "it's",
-        "to",
-        "much",
-        "on"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "to"
       ],
@@ -645,13 +473,6 @@
         "shocking"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "who",
-        "to",
-        "was",
-        "is"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "is"
       ],
@@ -660,7 +481,7 @@
     {
       "id": 26,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) since -> for\nb) five -> six\nc) known -> know\nd) I -> He",
       "sentence": "I have known him since five years.",
       "tokens": [
         "I",
@@ -672,22 +493,15 @@
         "years"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "doesn't",
-        "for",
-        "went",
-        "did"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "for"
+        "a"
       ],
       "explanation": "'For' is used to indicate a duration of time."
     },
     {
       "id": 27,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) man -> woman\nb) He -> Him\nc) yesterday -> today\nd) which -> whom",
       "sentence": "He is the man which I met yesterday.",
       "tokens": [
         "He",
@@ -700,22 +514,15 @@
         "yesterday"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "whom",
-        "does",
-        "well",
-        "were"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "whom"
+        "d"
       ],
       "explanation": "'Whom' is the correct relative pronoun for people as the object of the verb."
     },
     {
       "id": 28,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) went -> go\nb) didn't -> don't\nc) They -> He\nd) party -> parties",
       "sentence": "They didn't went to the party.",
       "tokens": [
         "They",
@@ -726,22 +533,15 @@
         "party"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "go",
-        "in",
-        "meeting",
-        "since"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "go"
+        "a"
       ],
       "explanation": "After 'did not', the base form of the verb is used."
     },
     {
       "id": 29,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) having -> have\nb) I -> He\nc) having -> have\nd) car -> cars",
       "sentence": "I having a car.",
       "tokens": [
         "I",
@@ -750,22 +550,15 @@
         "car"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "waking",
-        "since",
-        "much",
-        "have"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "have"
+        "a"
       ],
       "explanation": "'Have' (meaning possession) is a stative verb and is not used in the continuous form."
     },
     {
       "id": 30,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "She speaks English very good.",
       "tokens": [
         "She",
@@ -775,13 +568,6 @@
         "good"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "meeting",
-        "many",
-        "hearing",
-        "well"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "well"
       ],
@@ -789,8 +575,8 @@
     },
     {
       "id": 31,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) since -> for\nb) working -> work\nc) He -> Him\nd) here -> there",
       "sentence": "He has been working here since 10 years.",
       "tokens": [
         "He",
@@ -803,22 +589,15 @@
         "years"
       ],
       "incorrectIndex": 5,
-      "options": [
-        "for",
-        "had",
-        "many",
-        "meeting"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "for"
+        "a"
       ],
       "explanation": "'For' is used to indicate a duration of time."
     },
     {
       "id": 32,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "The scissors is on the table.",
       "tokens": [
         "The",
@@ -829,13 +608,6 @@
         "table"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "well",
-        "playing",
-        "went",
-        "are"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "are"
       ],
@@ -844,7 +616,7 @@
     {
       "id": 33,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) I -> He\nb) hear -> heard\nc) you -> him\nd) hear -> hearing",
       "sentence": "I look forward to hear from you.",
       "tokens": [
         "I",
@@ -856,22 +628,15 @@
         "you"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "hearing",
-        "whom",
-        "its",
-        "to"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "hearing"
+        "d"
       ],
       "explanation": "The phrase 'look forward to' is followed by a gerund (-ing form)."
     },
     {
       "id": 34,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "He is more taller than me.",
       "tokens": [
         "He",
@@ -882,13 +647,6 @@
         "me"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "goes",
-        "(delete)",
-        "isn't",
-        "many"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
         "(delete)",
         "remove",
@@ -910,13 +668,6 @@
         "them"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "to",
-        "are",
-        "have",
-        "less"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "less"
       ],
@@ -925,7 +676,7 @@
     {
       "id": 36,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) She -> He\nb) class -> school\nc) smartest -> smarter\nd) most -> (delete)",
       "sentence": "She is the most smartest girl in the class.",
       "tokens": [
         "She",
@@ -939,17 +690,8 @@
         "class"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "(delete)",
-        "fewer",
-        "who",
-        "was"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
+        "d"
       ],
       "explanation": "Superlative adjectives like 'smartest' do not take 'most'."
     },
@@ -968,13 +710,6 @@
         "year"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "go",
-        "at",
-        "any",
-        "had"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
         "go"
       ],
@@ -994,13 +729,6 @@
         "Spanish"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "advice",
-        "isn't",
-        "playing",
-        "in"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "in"
       ],
@@ -1009,7 +737,7 @@
     {
       "id": 39,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) is -> are\nb) The -> A\nc) children -> child\nd) park -> garden",
       "sentence": "The children is playing in the park.",
       "tokens": [
         "The",
@@ -1021,22 +749,15 @@
         "park"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "were",
-        "hearing",
-        "does",
-        "are"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "are"
+        "a"
       ],
       "explanation": "'Children' is a plural noun and requires a plural verb."
     },
     {
       "id": 40,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) do -> does\nb) lot -> lots\nc) I -> He\nd) homeworks -> homework",
       "sentence": "I have a lot of homeworks to do.",
       "tokens": [
         "I",
@@ -1049,22 +770,15 @@
         "do"
       ],
       "incorrectIndex": 5,
-      "options": [
-        "less",
-        "hearing",
-        "is",
-        "homework"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "homework"
+        "d"
       ],
       "explanation": "'Homework' is an uncountable noun and does not take an 's'."
     },
     {
       "id": 41,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) sister -> brother\nb) more -> (delete)\nc) prettier -> pretty\nd) She -> He",
       "sentence": "She is more prettier than her sister.",
       "tokens": [
         "She",
@@ -1076,17 +790,8 @@
         "sister"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "(delete)",
-        "good",
-        "some",
-        "whom"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
-        "(delete)",
-        "remove",
-        ""
+        "b"
       ],
       "explanation": "Comparative adjectives like 'prettier' do not take 'more'."
     },
@@ -1104,13 +809,6 @@
         "you"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "isn't",
-        "doesn't",
-        "meeting",
-        "some"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
         "some"
       ],
@@ -1130,13 +828,6 @@
         "results"
       ],
       "incorrectIndex": 1,
-      "options": [
-        "wasn't",
-        "since",
-        "were",
-        "did"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "were"
       ],
@@ -1145,7 +836,7 @@
     {
       "id": 44,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) waiting -> wait\nb) I -> He\nc) since -> for\nd) hours -> hour",
       "sentence": "I have been waiting for you since two hours.",
       "tokens": [
         "I",
@@ -1159,22 +850,15 @@
         "hours"
       ],
       "incorrectIndex": 6,
-      "options": [
-        "fewer",
-        "for",
-        "that",
-        "at"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "for"
+        "c"
       ],
       "explanation": "'For' is used to indicate a duration of time."
     },
     {
       "id": 45,
       "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "question": "Choose the incorrect word and its correct form:\na) which -> who\nb) helped -> help\nc) He -> Him\nd) one -> person",
       "sentence": "He is the one which helped me.",
       "tokens": [
         "He",
@@ -1186,15 +870,8 @@
         "me"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "do",
-        "much",
-        "fewer",
-        "who"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "who"
+        "a"
       ],
       "explanation": "'Who' is the correct relative pronoun for people."
     },
@@ -1213,13 +890,6 @@
         "today"
       ],
       "incorrectIndex": 2,
-      "options": [
-        "(delete)",
-        "it's",
-        "were",
-        "at"
-      ],
-      "correctAnswerIndex": 0,
       "correctAnswers": [
         "(delete)",
         "remove",
@@ -1229,8 +899,8 @@
     },
     {
       "id": 47,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) isn't -> aren't\nb) doctor -> nurse\nc) it -> she\nd) She -> He",
       "sentence": "She is a doctor, isn't it.",
       "tokens": [
         "She",
@@ -1241,22 +911,15 @@
         "it"
       ],
       "incorrectIndex": 5,
-      "options": [
-        "is",
-        "which",
-        "she",
-        "at"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
-        "she"
+        "c"
       ],
       "explanation": "The question tag must match the subject 'She'."
     },
     {
       "id": 48,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) sunset -> sunrise\nb) saw -> seen\nc) I -> He\nd) never -> ever",
       "sentence": "I have never saw such a beautiful sunset.",
       "tokens": [
         "I",
@@ -1269,22 +932,15 @@
         "sunset"
       ],
       "incorrectIndex": 3,
-      "options": [
-        "good",
-        "on",
-        "doesn't",
-        "seen"
-      ],
-      "correctAnswerIndex": 3,
       "correctAnswers": [
-        "seen"
+        "b"
       ],
       "explanation": "The past participle of 'see' is 'seen', used with 'have'."
     },
     {
       "id": 49,
-      "type": "multiple_choice",
-      "question": "Choose the incorrect word and select its correct form.",
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it.",
       "sentence": "He is the author which wrote this book.",
       "tokens": [
         "He",
@@ -1297,13 +953,6 @@
         "book"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "for",
-        "that",
-        "who",
-        "any"
-      ],
-      "correctAnswerIndex": 2,
       "correctAnswers": [
         "who"
       ],
@@ -1311,8 +960,8 @@
     },
     {
       "id": 50,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it.",
+      "type": "multiple_choice",
+      "question": "Choose the incorrect word and its correct form:\na) The -> A\nb) due -> due to\nc) rain -> weather\nd) meeting -> meetings",
       "sentence": "The meeting was postponed due the rain.",
       "tokens": [
         "The",
@@ -1324,15 +973,8 @@
         "rain"
       ],
       "incorrectIndex": 4,
-      "options": [
-        "less",
-        "due to",
-        "any",
-        "at"
-      ],
-      "correctAnswerIndex": 1,
       "correctAnswers": [
-        "due to"
+        "b"
       ],
       "explanation": "The correct phrase is 'due to' when meaning 'because of'."
     }
