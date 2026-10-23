@@ -292,8 +292,7 @@
         "asked",
         "me",
         "where",
-        "did",
-        "I",
+        "did I",
         "live."
       ],
       "incorrectIndex": 4,
@@ -341,16 +340,14 @@
       "question": "Click the incorrect word and correct it",
       "sentence": "Despite of the heavy rain, the match continued.",
       "tokens": [
-        "Despite",
-        "of",
-        "the",
-        "heavy",
+        "Despite of",
+        "the heavy",
         "rain,",
         "the",
         "match",
         "continued."
       ],
-      "incorrectIndex": 1,
+      "incorrectIndex": 0,
       "correctAnswers": [
         "Despite"
       ],
@@ -474,10 +471,8 @@
       "tokens": [
         "You",
         "must",
-        "to",
-        "finish",
-        "the",
-        "report",
+        "to finish",
+        "the report",
         "by",
         "Friday."
       ],
@@ -651,8 +646,7 @@
       "tokens": [
         "She",
         "avoided",
-        "to",
-        "answer",
+        "to answer",
         "the",
         "difficult",
         "question."
@@ -736,18 +730,16 @@
       "tokens": [
         "If",
         "I",
-        "would",
-        "have",
+        "would have",
         "time,",
         "I",
-        "will",
-        "help",
+        "will help",
         "you",
         "tomorrow."
       ],
       "incorrectIndex": 2,
       "correctAnswers": [
-        "had"
+        "have"
       ],
       "explanation": "Topic: Conditional Sentence Type 1. The 'if' clause must use the Simple Present tense, not 'would'. Structure: If + Simple Present, will + base verb. | Topik: Conditional Sentence Type 1. Klausa 'if' harus menggunakan Simple Present tense, bukan 'would'. Struktur: If + Simple Present, will + base verb."
     },
