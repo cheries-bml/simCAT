@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "title": "Advanced English Grammar and Usage Test",
+    "timeLimits": {
+      "fast": 30,
+      "normal": 45,
+      "easy": 60
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Not until the rain stopped _______ we leave the shelter.",
+      "options": {
+        "A": "had",
+        "B": "did",
+        "C": "we did",
+        "D": "we had"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Inversion with 'Not until'. When 'Not until' begins a sentence, the main clause requires subject-auxiliary inversion. | Topik: Inversion dengan 'Not until'. Ketika 'Not until' memulai kalimat, klausa utama memerlukan inversi subjek-kata kerja bantu."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The man which lives next door is a doctor.",
+      "tokens": [
+        "The",
+        "man",
+        "which",
+        "lives",
+        "next",
+        "door",
+        "is",
+        "a",
+        "doctor."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "who"
+      ],
+      "explanation": "Topic: Relative Pronouns. 'Who' is used for people, while 'which' is exclusively used for animals or things. | Topik: Relative Pronouns. 'Who' digunakan untuk orang, sedangkan 'which' secara eksklusif digunakan untuk hewan atau benda."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Rarely _______ such a brilliant performance.",
+      "options": {
+        "A": "I have seen",
+        "B": "did I saw",
+        "C": "I saw",
+        "D": "have I seen"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Negative Inversion. When a sentence begins with a negative or restrictive adverb (rarely, never, seldom), the subject and auxiliary verb are inverted. | Topik: Negative Inversion. Ketika kalimat dimulai dengan adverbia negatif atau restriktif (rarely, never, seldom), subjek dan kata kerja bantu dibalik posisinya."
+    },
+    {
+      "id": 4,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Hardly had the meeting started when the fire alarm rings.",
+      "tokens": [
+        "Hardly",
+        "had",
+        "the",
+        "meeting",
+        "started",
+        "when",
+        "the",
+        "fire",
+        "alarm",
+        "rings."
+      ],
+      "incorrectIndex": 9,
+      "correctAnswers": [
+        "rang"
+      ],
+      "explanation": "Topic: Inversion with 'Hardly'. Structure: Hardly + had + subject + past participle + when + simple past. The sequence of tenses must be maintained. | Topik: Inversion dengan 'Hardly'. Struktur: Hardly + had + subjek + past participle + when + simple past. Urutan tenses harus dipertahankan."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "This is the most unique painting in the gallery.",
+      "tokens": [
+        "This",
+        "is",
+        "the",
+        "most",
+        "unique",
+        "painting",
+        "in",
+        "the",
+        "gallery."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "unique"
+      ],
+      "explanation": "Topic: Absolute Adjectives. Words like 'unique', 'perfect', or 'dead' represent an absolute state and generally do not take comparative or superlative modifiers like 'most'. | Topik: Absolute Adjectives. Kata-kata seperti 'unique', 'perfect', atau 'dead' mewakili keadaan absolut dan umumnya tidak menerima modifier komparatif atau superlatif seperti 'most'."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Neither the manager nor the employees was happy with the decision.",
+      "tokens": [
+        "Neither",
+        "the",
+        "manager",
+        "nor",
+        "the",
+        "employees",
+        "was",
+        "happy",
+        "with",
+        "the",
+        "decision."
+      ],
+      "incorrectIndex": 6,
+      "correctAnswers": [
+        "were"
+      ],
+      "explanation": "Topic: Subject-Verb Agreement with Correlative Conjunctions. With 'neither/nor', the verb agrees with the subject closest to it ('employees', which is plural). | Topik: Subject-Verb Agreement dengan Correlative Conjunctions. Dengan 'neither/nor', kata kerja sesuai dengan subjek yang paling dekat dengannya ('employees', yang merupakan bentuk jamak)."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "The project, _______ was delayed due to funding, is now back on track.",
+      "options": {
+        "A": "which",
+        "B": "who",
+        "C": "that",
+        "D": "what"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Non-defining Relative Clause. 'Which' is used for things in non-defining clauses (set off by commas). 'That' cannot be used in non-defining clauses. | Topik: Non-defining Relative Clause. 'Which' digunakan untuk benda dalam klausa non-defining (dipisahkan oleh koma). 'That' tidak dapat digunakan dalam klausa non-defining."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She made me to clean the entire room.",
+      "tokens": [
+        "She",
+        "made",
+        "me",
+        "to",
+        "clean",
+        "the",
+        "entire",
+        "room."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "clean"
+      ],
+      "explanation": "Topic: Causative 'Make'. Structure: make + object + base verb (without 'to'). | Topik: Causative 'Make'. Struktur: make + objek + base verb (tanpa 'to')."
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I suggest that he goes to the hospital immediately.",
+      "tokens": [
+        "I",
+        "suggest",
+        "that",
+        "he",
+        "goes",
+        "to",
+        "the",
+        "hospital",
+        "immediately."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "go"
+      ],
+      "explanation": "Topic: Present Subjunctive. After verbs of suggestion like 'suggest', the base form of the verb is used, without 's' for the third person singular. | Topik: Present Subjunctive. Setelah kata kerja saran seperti 'suggest', bentuk dasar kata kerja digunakan, tanpa 's' untuk orang ketiga tunggal."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Advanced Grammar Passage: Inversion and Emphasis\nIn formal English, inversion is often used for emphasis or stylistic effect. When a sentence begins with a negative or restrictive adverbial phrase (e.g., 'Never', 'Rarely', 'Not only', 'Under no circumstances'), the subject and the auxiliary verb are inverted, similar to question formation. For example: 'Rarely have I seen such dedication.' This structure elevates the formality and impact of the statement.",
+      "question": "Based on the passage, what happens when a sentence begins with 'Not only'?",
+      "options": {
+        "A": "The sentence becomes a direct question.",
+        "B": "The subject and auxiliary verb are inverted.",
+        "C": "The verb is always in the past tense.",
+        "D": "The subject is omitted entirely."
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Reading Comprehension on Inversion. The passage explicitly states that negative or restrictive adverbial phrases at the beginning of a sentence trigger subject-auxiliary inversion. | Topik: Reading Comprehension on Inversion. Bacaan secara eksplisit menyatakan bahwa frasa adverbia negatif atau restriktif di awal kalimat memicu inversi subjek-kata kerja bantu."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "If she _______ more careful, she wouldn't have made that mistake.",
+      "options": {
+        "A": "has been",
+        "B": "had been",
+        "C": "was",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Conditional Sentence Type 3. The condition is in the past, and the result is also in the past, requiring Past Perfect in the if-clause. | Topik: Conditional Sentence Type 3. Kondisi berada di masa lalu dan hasilnya juga di masa lalu, memerlukan Past Perfect di klausa if."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "She said, 'I am reading a book.' -> She said that she _______ a book.",
+      "options": {
+        "A": "was reading",
+        "B": "read",
+        "C": "is reading",
+        "D": "has read"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Reported Speech (Indirect Speech). When the reporting verb is in the past ('said'), the present continuous tense in the direct speech shifts back to the past continuous tense. | Topik: Reported Speech (Kalimat Tidak Langsung). Ketika kata kerja pelapor berada di masa lalu ('said'), present continuous tense dalam kalimat langsung berubah menjadi past continuous tense."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "Not only _______ late, but he also forgot the documents.",
+      "options": {
+        "A": "arrived he",
+        "B": "he did arrive",
+        "C": "did he arrive",
+        "D": "he arrived"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Correlative Conjunction with Inversion. 'Not only' at the beginning of a clause triggers subject-auxiliary inversion. | Topik: Correlative Conjunction dengan Inversion. 'Not only' di awal klausa memicu inversi subjek-kata kerja bantu."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "The committee _______ divided in their opinions.",
+      "options": {
+        "A": "has",
+        "B": "was",
+        "C": "are",
+        "D": "is"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Subject-Verb Agreement with Collective Nouns. When a collective noun acts as individuals with different opinions, it takes a plural verb. | Topik: Subject-Verb Agreement dengan Collective Nouns. Ketika kata benda kolektif bertindak sebagai individu dengan pendapat berbeda, kata kerjanya berbentuk jamak."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "_______ the bad weather, we decided to go hiking.",
+      "options": {
+        "A": "However",
+        "B": "Despite",
+        "C": "Even though",
+        "D": "Although"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Prepositions of Concession. 'Despite' is a preposition followed by a noun phrase. 'Although' and 'Even though' are conjunctions followed by a full clause. | Topik: Prepositions of Concession. 'Despite' adalah preposisi yang diikuti oleh frasa kata benda. 'Although' dan 'Even though' adalah konjungsi yang diikuti oleh klausa lengkap."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He is the man whom I think is the best candidate.",
+      "tokens": [
+        "He",
+        "is",
+        "the",
+        "man",
+        "whom",
+        "I",
+        "think",
+        "is",
+        "the",
+        "best",
+        "candidate."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "who"
+      ],
+      "explanation": "Topic: Relative Pronouns in Complex Clauses. 'Who' is the subject of the verb 'is'. 'I think' is a parenthetical insertion and does not change the case of the pronoun. | Topik: Relative Pronouns dalam Complex Clauses. 'Who' adalah subjek dari kata kerja 'is'. 'I think' adalah sisipan parenthetical dan tidak mengubah kasus kata ganti."
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He asked me where did I live.",
+      "tokens": [
+        "He",
+        "asked",
+        "me",
+        "where",
+        "did",
+        "I",
+        "live."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "I"
+      ],
+      "explanation": "Topic: Reported Question. In indirect questions, the word order changes from question order (auxiliary + subject + verb) to statement order (subject + verb). The auxiliary 'did' is removed. | Topik: Reported Question (Pertanyaan Tidak Langsung). Dalam pertanyaan tidak langsung, urutan kata berubah dari urutan pertanyaan menjadi urutan pernyataan (subjek + kata kerja). Kata bantu 'did' dihilangkan."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "The novel _______ by a famous author is a bestseller.",
+      "options": {
+        "A": "written",
+        "B": "writing",
+        "C": "is written",
+        "D": "which written"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Reduced Relative Clause. 'Written' is the past participle used to reduce the passive relative clause 'which was written'. | Topik: Reduced Relative Clause. 'Written' adalah past participle yang digunakan untuk mengurangi klausa relatif pasif 'which was written'."
+    },
+    {
+      "id": 19,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I have known him since five years.",
+      "tokens": [
+        "I",
+        "have",
+        "known",
+        "him",
+        "since",
+        "five",
+        "years."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "for"
+      ],
+      "explanation": "Topic: Present Perfect Tense with Prepositions. 'For' is used to indicate a duration of time, while 'since' is used for a specific starting point in time. | Topik: Present Perfect Tense dengan Preposisi. 'For' digunakan untuk menunjukkan durasi waktu, sedangkan 'since' digunakan untuk titik awal waktu yang spesifik."
+    },
+    {
+      "id": 20,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Despite of the heavy rain, the match continued.",
+      "tokens": [
+        "Despite",
+        "of",
+        "the",
+        "heavy",
+        "rain,",
+        "the",
+        "match",
+        "continued."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "Despite"
+      ],
+      "explanation": "Topic: Conjunctions. 'Despite' is a preposition and is never followed by 'of'. 'In spite of' is the correct alternative that uses 'of'. | Topik: Conjunctions. 'Despite' adalah preposisi dan tidak pernah diikuti oleh 'of'. 'In spite of' adalah alternatif yang benar yang menggunakan 'of'."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "The scientist, _______ research won an award, is giving a lecture today.",
+      "options": {
+        "A": "whom",
+        "B": "which",
+        "C": "who",
+        "D": "whose"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Non-defining Relative Clause with Possessive. 'Whose' is used to show possession or relationship within a relative clause. | Topik: Non-defining Relative Clause dengan Possessive. 'Whose' digunakan untuk menunjukkan kepemilikan atau hubungan dalam klausa relatif."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "He _______ be at home; I just saw him at the office.",
+      "options": {
+        "A": "mustn't",
+        "B": "shouldn't",
+        "C": "might not",
+        "D": "can't"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Modal of Deduction (Negative). 'Can't' is used to express a strong belief that something is impossible or not true based on evidence. | Topik: Modal of Deduction (Negatif). 'Can't' digunakan untuk menyatakan keyakinan kuat bahwa sesuatu tidak mungkin atau tidak benar berdasarkan bukti."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "The only thing _______ matters is your dedication.",
+      "options": {
+        "A": "which",
+        "B": "who",
+        "C": "what",
+        "D": "that"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Relative Clauses after superlatives or 'the only'. 'That' is strongly preferred over 'which' after 'the only'. | Topik: Relative Clauses setelah superlatif atau 'the only'. 'That' sangat disukai daripada 'which' setelah 'the only'."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "The manager stated that the project _______ completed by the following week.",
+      "options": {
+        "A": "would be",
+        "B": "has been",
+        "C": "will be",
+        "D": "is"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Reported Speech with Future Tense. 'Will' shifts to 'would' when the reporting verb is in the past tense. | Topik: Reported Speech dengan Future Tense. 'Will' berubah menjadi 'would' ketika kata kerja pelapor berada dalam bentuk past tense."
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The police is investigating the robbery.",
+      "tokens": [
+        "The",
+        "police",
+        "is",
+        "investigating",
+        "the",
+        "robbery."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "are"
+      ],
+      "explanation": "Topic: Collective Nouns. 'Police' is a plural collective noun and always takes a plural verb. | Topik: Collective Nouns. 'Police' adalah kata benda kolektif jamak dan selalu menggunakan kata kerja jamak."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "It is essential that every student _______ the rules.",
+      "options": {
+        "A": "understood",
+        "B": "understand",
+        "C": "understands",
+        "D": "understanding"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Present Subjunctive. After 'It is essential that', the base form of the verb is used. | Topik: Present Subjunctive. Setelah 'It is essential that', bentuk dasar kata kerja digunakan."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "The book _______ I borrowed from the library is fascinating.",
+      "options": {
+        "A": "whom",
+        "B": "who",
+        "C": "whose",
+        "D": "that"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Defining Relative Clause. 'That' or 'which' is used for things. 'That' is preferred in defining clauses. | Topik: Defining Relative Clause. 'That' atau 'which' digunakan untuk benda. 'That' lebih disukai dalam klausa yang membatasi (defining)."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "By the time you arrive, we _______ dinner.",
+      "options": {
+        "A": "will have finished",
+        "B": "have finished",
+        "C": "are finishing",
+        "D": "will finish"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Future Perfect Tense. Used to describe an action that will be completed before a specific time or another action in the future. Structure: will have + past participle. | Topik: Future Perfect Tense. Digunakan untuk menjelaskan tindakan yang akan selesai sebelum waktu tertentu atau tindakan lain di masa depan. Struktur: will have + past participle."
+    },
+    {
+      "id": 29,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "You must to finish the report by Friday.",
+      "tokens": [
+        "You",
+        "must",
+        "to",
+        "finish",
+        "the",
+        "report",
+        "by",
+        "Friday."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "finish"
+      ],
+      "explanation": "Topic: Modal Verbs. Modal verbs (must, can, should, etc.) are always followed directly by the base form of the verb without 'to'. | Topik: Modal Verbs. Kata kerja modal (must, can, should, dll.) selalu diikuti langsung oleh bentuk dasar kata kerja tanpa 'to'."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "He is believed _______ the best surgeon in the country.",
+      "options": {
+        "A": "to be",
+        "B": "being",
+        "C": "is",
+        "D": "be"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Passive Voice with Reporting Verbs. Structure: Subject + passive reporting verb + to infinitive. | Topik: Passive Voice dengan Reporting Verbs. Struktur: Subjek + passive reporting verb + to infinitive."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "I look forward to _______ from you soon.",
+      "options": {
+        "A": "hear",
+        "B": "have heard",
+        "C": "hearing",
+        "D": "heard"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Gerund after Prepositional Phrase. 'Look forward to' is a phrasal verb where 'to' is a preposition, so it must be followed by a gerund (V-ing). | Topik: Gerund setelah Frasa Preposisi. 'Look forward to' adalah phrasal verb di mana 'to' adalah preposisi, sehingga harus diikuti oleh gerund (V-ing)."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "_______ I known about the delay, I would have taken a different flight.",
+      "options": {
+        "A": "Did",
+        "B": "If",
+        "C": "Had",
+        "D": "Have"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Inverted Conditional Type 3. 'Had I known' is the formal inversion of 'If I had known'. | Topik: Inverted Conditional Type 3. 'Had I known' adalah inversi formal dari 'If I had known'."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "I wish I _______ harder for the exam last month.",
+      "options": {
+        "A": "study",
+        "B": "studied",
+        "C": "have studied",
+        "D": "had studied"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Wish + Past Perfect. Used to express regret about a past situation. Structure: wish + subject + past perfect. | Topik: Wish + Past Perfect. Digunakan untuk menyatakan penyesalan tentang situasi masa lalu. Struktur: wish + subjek + past perfect."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "She denied _______ the confidential files.",
+      "options": {
+        "A": "steal",
+        "B": "to steal",
+        "C": "having stole",
+        "D": "stealing"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Gerund after specific verbs. The verb 'deny' is always followed by a gerund (V-ing). | Topik: Gerund setelah kata kerja tertentu. Kata kerja 'deny' selalu diikuti oleh gerund (V-ing)."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Under no circumstances _______ the door be left unlocked.",
+      "options": {
+        "A": "should it",
+        "B": "it should",
+        "C": "should",
+        "D": "it is"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Negative Inversion. 'Under no circumstances' at the beginning of a sentence triggers subject-auxiliary inversion. | Topik: Negative Inversion. 'Under no circumstances' di awal kalimat memicu inversi subjek-kata kerja bantu."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "Had I known about the traffic, I _______ a different route.",
+      "options": {
+        "A": "would take",
+        "B": "would have taken",
+        "C": "will take",
+        "D": "took"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Inverted Conditional Type 3. 'Had I known' is the inverted form of 'If I had known'. The main clause requires 'would have + past participle'. | Topik: Inverted Conditional Type 3. 'Had I known' adalah bentuk inversi dari 'If I had known'. Klausa utama memerlukan 'would have + past participle'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "She asked me _______ I could help her with the project.",
+      "options": {
+        "A": "which",
+        "B": "what",
+        "C": "if",
+        "D": "that"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Reported Yes/No Questions. 'If' or 'whether' is used to report a yes/no question in indirect speech. | Topik: Reported Yes/No Questions. 'If' atau 'whether' digunakan untuk melaporkan pertanyaan ya/tidak dalam kalimat tidak langsung."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "_______ he is wealthy, he is not happy.",
+      "options": {
+        "A": "Despite",
+        "B": "In spite of",
+        "C": "However",
+        "D": "Although"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Conjunctions of Concession. 'Although' introduces a subordinate clause (subject + verb). 'Despite' and 'In spite of' require a noun phrase. | Topik: Conjunctions of Concession. 'Although' memperkenalkan klausa bawahan (subjek + kata kerja). 'Despite' dan 'In spite of' memerlukan frasa kata benda."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "You had better _______ a doctor immediately.",
+      "options": {
+        "A": "to see",
+        "B": "seen",
+        "C": "seeing",
+        "D": "see"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Had better + Base Verb. 'Had better' functions as a modal idiom and is always followed by the base form of the verb without 'to'. | Topik: Had better + Base Verb. 'Had better' berfungsi sebagai idiom modal dan selalu diikuti oleh bentuk dasar kata kerja tanpa 'to'."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "The streets are wet. It _______ rained last night.",
+      "options": {
+        "A": "must have",
+        "B": "can have",
+        "C": "should have",
+        "D": "would have"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Modal of Deduction (Past). 'Must have + past participle' is used to make a logical conclusion about a past event. | Topik: Modal of Deduction (Masa Lampau). 'Must have + past participle' digunakan untuk membuat kesimpulan logis tentang peristiwa masa lalu."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "The doctor recommended that he _______ more water.",
+      "options": {
+        "A": "drinks",
+        "B": "drank",
+        "C": "drink",
+        "D": "drinking"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Present Subjunctive. After verbs of suggestion, demand, or recommendation (recommend, suggest, insist), the base form of the verb is used in the 'that' clause. | Topik: Present Subjunctive. Setelah kata kerja saran, tuntutan, atau rekomendasi (recommend, suggest, insist), bentuk dasar kata kerja digunakan dalam klausa 'that'."
+    },
+    {
+      "id": 42,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She avoided to answer the difficult question.",
+      "tokens": [
+        "She",
+        "avoided",
+        "to",
+        "answer",
+        "the",
+        "difficult",
+        "question."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "answering"
+      ],
+      "explanation": "Topic: Verbs followed by Gerunds. The verb 'avoid' is always followed by a gerund (V-ing), not an infinitive. | Topik: Kata Kerja yang diikuti Gerund. Kata kerja 'avoid' selalu diikuti oleh gerund (V-ing), bukan infinitive."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "If he _______ taller, he would join the basketball team.",
+      "options": {
+        "A": "were",
+        "B": "has been",
+        "C": "was",
+        "D": "is"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Conditional Sentence Type 2. In formal English, 'were' is used for all subjects (including I, he, she, it) in the if-clause of a Type 2 conditional. | Topik: Conditional Sentence Type 2. Dalam bahasa Inggris formal, 'were' digunakan untuk semua subjek (termasuk I, he, she, it) di klausa if dari conditional type 2."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "She _______ for the company for ten years before she got promoted.",
+      "options": {
+        "A": "had been working",
+        "B": "has been working",
+        "C": "was working",
+        "D": "is working"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Past Perfect Continuous Tense. Emphasizes the duration of an action that was ongoing up until another point in the past. | Topik: Past Perfect Continuous Tense. Menekankan durasi suatu tindakan yang sedang berlangsung hingga titik tertentu di masa lalu."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "If I had known about the meeting, I _______ attended it.",
+      "options": {
+        "A": "would have",
+        "B": "had",
+        "C": "would",
+        "D": "will have"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Conditional Sentence Type 3 (Past Unreal). It describes an impossible past condition and its probable past result. Structure: If + Past Perfect, would have + Past Participle. | Topik: Conditional Sentence Type 3 (Pengandaian Masa Lampau). Menjelaskan kondisi masa lalu yang tidak mungkin terjadi dan hasil probabelnya di masa lalu. Struktur: If + Past Perfect, would have + Past Participle."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "He speaks as if he _______ the manager, but he is just an intern.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "were",
+        "D": "has been"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Subjunctive with 'as if'. Used to describe an unreal or hypothetical situation in the present. 'Were' is preferred over 'was' for all subjects. | Topik: Subjunctive dengan 'as if'. Digunakan untuk menggambarkan situasi yang tidak nyata atau hipotetis di masa kini. 'Were' lebih disukai daripada 'was' untuk semua subjek."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "If only I _______ that I was being watched.",
+      "options": {
+        "A": "realize",
+        "B": "had realized",
+        "C": "realized",
+        "D": "have realized"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: If only + Past Perfect. Used to express strong regret about a past event. | Topik: If only + Past Perfect. Digunakan untuk menyatakan penyesalan yang kuat tentang peristiwa masa lalu."
+    },
+    {
+      "id": 48,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If I would have time, I will help you tomorrow.",
+      "tokens": [
+        "If",
+        "I",
+        "would",
+        "have",
+        "time,",
+        "I",
+        "will",
+        "help",
+        "you",
+        "tomorrow."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "had"
+      ],
+      "explanation": "Topic: Conditional Sentence Type 1. The 'if' clause must use the Simple Present tense, not 'would'. Structure: If + Simple Present, will + base verb. | Topik: Conditional Sentence Type 1. Klausa 'if' harus menggunakan Simple Present tense, bukan 'would'. Struktur: If + Simple Present, will + base verb."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "You _______ have seen him; he is currently on vacation in Bali.",
+      "options": {
+        "A": "can't",
+        "B": "mustn't",
+        "C": "needn't",
+        "D": "shouldn't"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Modal of Deduction (Past Negative). 'Can't have + past participle' expresses certainty that something did not happen in the past. | Topik: Modal of Deduction (Past Negative). 'Can't have + past participle' menyatakan kepastian bahwa sesuatu tidak terjadi di masa lalu."
+    },
+    {
+      "id": 50,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I would rather you don't smoke inside the house.",
+      "tokens": [
+        "I",
+        "would",
+        "rather",
+        "you",
+        "don't",
+        "smoke",
+        "inside",
+        "the",
+        "house."
+      ],
+      "incorrectIndex": 4,
+      "correctAnswers": [
+        "didn't"
+      ],
+      "explanation": "Topic: Would rather + Subject + Past Tense. When the subject of 'would rather' is different from the subject of the following clause, the past tense is used to express a present preference. | Topik: Would rather + Subjek + Past Tense. Ketika subjek 'would rather' berbeda dengan subjek klausa berikutnya, past tense digunakan untuk menyatakan preferensi masa kini."
+    }
+  ]
+}
