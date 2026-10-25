@@ -67,14 +67,13 @@
       "sentence": "If I will see him, I will tell him the news.",
       "tokens": [
         "If",
-        "I",
-        "will",
+        "I will",
         "see",
         "him,"
       ],
-      "incorrectIndex": 2,
+      "incorrectIndex": 1,
       "correctAnswers": [
-        "see"
+        "I"
       ],
       "explanation": "In first conditional if-clauses, we use the simple present tense, not 'will'."
     },
@@ -124,19 +123,17 @@
       "sentence": "By the time we arrived, the movie already started.",
       "tokens": [
         "By",
-        "the",
-        "time",
+        "the time",
         "we",
         "arrived,",
-        "the",
-        "movie",
+        "the movie",
         "already",
         "started."
       ],
-      "incorrectIndex": 8,
+      "incorrectIndex": 5,
       "correctAnswers": [
-        "had already started",
-        "had started"
+        "had already",
+        "had"
       ],
       "explanation": "Past perfect is required for an action completed before another past action ('arrived')."
     },
@@ -247,15 +244,15 @@
     {
       "id": 18,
       "type": "mcq",
-      "question": "The meeting ___ at 10:00 AM tomorrow.",
+      "question": "Our client has scheduled that the meeting ___ at 10:00 AM tomorrow.",
       "options": {
         "A": "is going to start",
         "B": "will be starting",
-        "C": "starts",
-        "D": "will start"
+        "C": "will start",
+        "D": "[All options are correct]"
       },
-      "correctAnswer": "C",
-      "explanation": "Scheduled events use simple present, even for the future."
+      "correctAnswer": "D",
+      "explanation": "All three options are grammatically correct and can be used to indicate a scheduled future event."
     },
     {
       "id": 19,
@@ -288,13 +285,13 @@
       "type": "mcq",
       "question": "As the teacher ___ into the room, the students stopped talking.",
       "options": {
-        "A": "has walked",
-        "B": "walks",
-        "C": "walked",
-        "D": "was walking"
+        "A": "walked",
+        "B": "was walking",
+        "C": "[A and B are correct]",
+        "D": "[All options are incorrect]"
       },
       "correctAnswer": "C",
-      "explanation": "Sequential past actions or a specific event in the past uses simple past."
+      "explanation": "In this context, both simple past and past continuous can be used to describe the action of the teacher entering the room."
     },
     {
       "id": 22,
@@ -302,12 +299,12 @@
       "question": "If you heat ice, it ___.",
       "options": {
         "A": "melted",
-        "B": "will melt",
+        "B": "will melts",
         "C": "melts",
         "D": "would melt"
       },
       "correctAnswer": "C",
-      "explanation": "Zero conditional uses simple present in both clauses for general truths."
+      "explanation": "Zero conditional uses simple present in both clauses for general truths. We can also use 'will melt' in the main clause, but 'melts' is more common."
     },
     {
       "id": 23,
@@ -315,12 +312,12 @@
       "question": "By the end of this year, I ___ my degree.",
       "options": {
         "A": "am finishing",
-        "B": "finish",
-        "C": "will finish",
+        "B": "finishing",
+        "C": "finish",
         "D": "will have finished"
       },
       "correctAnswer": "D",
-      "explanation": "Future perfect is used for an action that will be completed before a specific future time."
+      "explanation": "Future perfect is used for an action that will be completed before a specific future time. Another correct answer is 'will finish', but 'will have finished' emphasizes the completion of the action."
     },
     {
       "id": 24,
@@ -409,14 +406,15 @@
       "sentence": "They has been waiting for the bus since morning.",
       "tokens": [
         "They",
-        "has",
-        "been",
-        "waiting",
+        "has been",
+        "waiting for",
+        "the bus",
+        "since",
         "morning."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "have"
+        "have been"
       ],
       "explanation": "The plural subject 'They' requires the auxiliary verb 'have', not 'has'."
     },
@@ -427,7 +425,7 @@
       "options": {
         "A": "has left",
         "B": "leave",
-        "C": "is leaving",
+        "C": "leaving",
         "D": "leaves"
       },
       "correctAnswer": "D",
@@ -453,8 +451,8 @@
       "options": {
         "A": "wrote",
         "B": "had written",
-        "C": "writes",
-        "D": "has written"
+        "C": "did wrote",
+        "D": "did written"
       },
       "correctAnswer": "A",
       "explanation": "Shakespeare is dead, so his actions are completed in the past, requiring simple past."
@@ -653,11 +651,11 @@
       "id": 48,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "He don't knows the answer.",
+      "sentence": "He don't know the answer.",
       "tokens": [
         "He",
         "don't",
-        "knows",
+        "know",
         "the",
         "answer."
       ],
