@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "title": "Advanced Grammar (Pro)",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Rarely does the company achieves such remarkable growth.",
+      "tokens": [
+        "Rarely",
+        "does the company",
+        "achieves",
+        "such remarkable growth."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "achieve"
+      ],
+      "explanation": "Topic: Negative Inversion. EN: After negative adverbials like 'Rarely', we use subject-auxiliary inversion. The main verb must be in the base form, not the third-person singular. ID: Setelah kata keterangan negatif seperti 'Rarely', kita menggunakan inversi subjek-auksiliari. Kata kerja utama harus dalam bentuk dasar, bukan bentuk orang ketiga tunggal."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If she has studied harder, she would be passing the exam now.",
+      "tokens": [
+        "If she",
+        "has studied",
+        "harder,",
+        "she would be passing",
+        "the exam now."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had studied"
+      ],
+      "explanation": "Topic: Mixed Conditionals. EN: This is a mixed conditional. The 'if' clause refers to a past unreal situation requiring the past perfect tense, while the main clause refers to a present unreal result. ID: Ini adalah pengandaian campuran. Klausa 'if' merujuk pada situasi masa lalu yang tidak nyata yang membutuhkan tenses past perfect, sedangkan klausa utama merujuk pada hasil masa kini yang tidak nyata."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The committee recommended that the new policy is implemented immediately.",
+      "tokens": [
+        "The committee recommended",
+        "that the new policy",
+        "is",
+        "implemented immediately."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "be"
+      ],
+      "explanation": "Topic: Mandative Subjunctive. EN: Verbs of recommending, suggesting, or demanding trigger the mandative subjunctive mood in the 'that' clause, which requires the base form of the verb regardless of the subject. ID: Kata kerja yang menyatakan rekomendasi, saran, atau tuntutan memicu modus subjungtif mandatif dalam klausa 'that', yang mengharuskan penggunaan bentuk dasar kata kerja tanpa memandang subjeknya."
+    },
+    {
+      "id": 4,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "It were the CEO who made the final decision regarding the merger.",
+      "tokens": [
+        "It",
+        "were",
+        "the CEO",
+        "who made the final decision",
+        "regarding the merger."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "was"
+      ],
+      "explanation": "Topic: Cleft Sentences. EN: In 'It-cleft' sentences used for emphasis, the verb 'be' must agree with the emphasized noun. Since 'the CEO' is singular, 'was' is required. ID: Dalam kalimat 'It-cleft' yang digunakan untuk penekanan, kata kerja 'be' harus sesuai dengan kata benda yang ditekankan. Karena 'the CEO' adalah tunggal, 'was' diperlukan."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Startling by the sudden noise, the baby woke up crying.",
+      "tokens": [
+        "Startling",
+        "by the sudden noise,",
+        "the baby",
+        "woke up crying."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Startled"
+      ],
+      "explanation": "Topic: Past Participle Clauses. EN: A past participle is used here with a passive meaning (the baby was startled). 'Startling' would incorrectly imply the baby was causing the startle. ID: Past participle digunakan di sini dengan makna pasif (bayi itu dikagetkan). 'Startling' akan secara tidak tepat menyiratkan bahwa bayi tersebut yang mengejutkan."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The ground is completely wet. It should have rained heavily last night.",
+      "tokens": [
+        "The ground is completely wet.",
+        "It",
+        "should have",
+        "rained heavily",
+        "last night."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "must have"
+      ],
+      "explanation": "Topic: Modals of Past Deduction. EN: 'Must have' plus a past participle is used to express a strong logical deduction about a past event based on present evidence. 'Should have' implies an unfulfilled expectation. ID: 'Must have' ditambah past participle digunakan untuk menyatakan deduksi logis yang kuat tentang peristiwa masa lalu berdasarkan bukti saat ini. 'Should have' menyiratkan harapan yang tidak terpenuhi."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Inexperienced although he is, he handled the crisis remarkably well.",
+      "tokens": [
+        "Inexperienced",
+        "although",
+        "he is,",
+        "he handled the crisis",
+        "remarkably well."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "as"
+      ],
+      "explanation": "Topic: Advanced Concessive Clauses. EN: The formal concessive structure is 'Adjective + as + subject + be'. 'Although' is not used in this specific fronted adjective structure. ID: Struktur konsesif formal adalah 'Adjective + as + subject + be'. 'Although' tidak digunakan dalam struktur kata sifat yang diletakkan di depan secara spesifik ini."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Was I to ask for a favor, I would call you.",
+      "tokens": [
+        "Was I",
+        "to ask for a favor,",
+        "I would",
+        "call you."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Were I"
+      ],
+      "explanation": "Topic: Inverted Conditionals. EN: In formal inverted conditionals, 'Were' is used for all subjects, including 'I'. 'Was' is grammatically incorrect in this subjunctive structure. ID: Dalam pengandaian inversi formal, 'Were' digunakan untuk semua subjek, termasuk 'I'. 'Was' secara tata bahasa tidak tepat dalam struktur subjungtif ini."
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I need to get my car repairing before the road trip.",
+      "tokens": [
+        "I need to",
+        "get my car",
+        "repairing",
+        "before the road trip."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "repaired"
+      ],
+      "explanation": "Topic: Passive Causative. EN: The passive causative structure 'get + object + past participle' is used when you arrange for someone else to perform a service for you. ID: Struktur kausatif pasif 'get + objek + past participle' digunakan ketika Anda mengatur agar orang lain melakukan layanan untuk Anda."
+    },
+    {
+      "id": 10,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The artifacts discovering in the tomb date back to the Ming Dynasty.",
+      "tokens": [
+        "The artifacts",
+        "discovering",
+        "in the tomb",
+        "date back",
+        "to the Ming Dynasty."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "discovered"
+      ],
+      "explanation": "Topic: Reduced Relative Clauses. EN: The relative clause 'which were discovered' is reduced to the past participle 'discovered' because the artifacts received the action, indicating a passive meaning. ID: Klausa relatif 'which were discovered' direduksi menjadi past participle 'discovered' karena artefak tersebut menerima tindakan, yang menunjukkan makna pasif."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "By the end of this year, I will be working at this company for a decade.",
+      "tokens": [
+        "By the end of this year,",
+        "I",
+        "will be",
+        "working at this company",
+        "for a decade."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "will have been"
+      ],
+      "explanation": "Topic: Future Perfect Continuous. EN: The future perfect continuous tense is required to emphasize the duration of an action up to a specific point in the future. ID: Tenses future perfect continuous diperlukan untuk menekankan durasi suatu tindakan hingga titik tertentu di masa depan."
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "It is imperative that every employee reads the safety manual.",
+      "tokens": [
+        "It is imperative",
+        "that every employee",
+        "reads",
+        "the safety manual."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "read"
+      ],
+      "explanation": "Topic: Subjunctive in Noun Clauses. EN: Adjectives expressing urgency trigger the subjunctive mood in the following 'that' clause, requiring the base form of the verb for all subjects. ID: Kata sifat yang menyatakan urgensi memicu modus subjungtif dalam klausa 'that' berikutnya, yang mengharuskan penggunaan bentuk dasar kata kerja untuk semua subjek."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Not only he finished the project on time, but he also came in under budget.",
+      "tokens": [
+        "Not only",
+        "he finished",
+        "the project on time,",
+        "but he also came in",
+        "under budget."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "did he finish"
+      ],
+      "explanation": "Topic: Negative Inversion. EN: When a sentence begins with 'Not only', subject-auxiliary inversion is strictly required in the first clause. ID: Ketika sebuah kalimat diawali dengan 'Not only', inversi subjek-auksiliari diwajibkan secara ketat pada klausa pertama."
+    },
+    {
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I regret informing you that your application has been rejected.",
+      "tokens": [
+        "I regret",
+        "informing you",
+        "that your application",
+        "has been rejected."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "to inform you"
+      ],
+      "explanation": "Topic: Verb Patterns (Regret). EN: 'Regret' plus a to-infinitive is used to formally announce bad news. 'Regret' plus a gerund is used to express remorse for a past action you already did. ID: 'Regret' ditambah to-infinitive digunakan untuk mengumumkan kabar buruk secara formal. 'Regret' ditambah gerund digunakan untuk menyatakan penyesalan atas tindakan masa lalu yang sudah Anda lakukan."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The suspect believes to have fled the country last night.",
+      "tokens": [
+        "The suspect",
+        "believes",
+        "to have fled",
+        "the country",
+        "last night."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "is believed"
+      ],
+      "explanation": "Topic: Impersonal Passive. EN: The impersonal passive structure 'is believed to have' plus a past participle is used for reporting verbs when the subject of the belief is unknown or general. ID: Struktur pasif impersonal 'is believed to have' ditambah past participle digunakan untuk kata kerja pelaporan ketika subjek dari kepercayaan tersebut tidak diketahui atau bersifat umum."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If we have known about the traffic, we would have taken the train.",
+      "tokens": [
+        "If we",
+        "have known",
+        "about the traffic,",
+        "we would have taken",
+        "the train."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had known"
+      ],
+      "explanation": "Topic: Type 3 Conditionals. EN: Type 3 conditionals refer to unreal past situations, requiring the past perfect tense in the 'if' clause, not the present perfect. ID: Pengandaian Tipe 3 merujuk pada situasi masa lalu yang tidak nyata, yang membutuhkan tenses past perfect dalam klausa 'if', bukan present perfect."
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "People say he does not care about the environment, but he is care.",
+      "tokens": [
+        "People say he does not care",
+        "about the environment,",
+        "but he",
+        "is care."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "does care"
+      ],
+      "explanation": "Topic: Emphatic Do. EN: The auxiliary 'do', 'does', or 'did' is used before a main verb to add strong emphasis, contradicting a previous negative statement. 'Is' cannot be used with a base verb. ID: Kata kerja bantu 'do', 'does', atau 'did' digunakan sebelum kata kerja utama untuk memberikan penekanan kuat, membantah pernyataan negatif sebelumnya. 'Is' tidak dapat digunakan dengan kata kerja dasar."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We had the plumber fixed the leaking pipe yesterday.",
+      "tokens": [
+        "We had",
+        "the plumber",
+        "fixed",
+        "the leaking pipe",
+        "yesterday."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "fix"
+      ],
+      "explanation": "Topic: Active Causative. EN: The active causative structure 'have' plus a person plus a base verb is used when you arrange for someone specific to do something for you. ID: Struktur kausatif aktif 'have' ditambah orang ditambah kata kerja dasar digunakan ketika Anda mengatur agar orang tertentu melakukan sesuatu untuk Anda."
+    },
+    {
+      "id": 19,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Suffices it to say, the results were disastrous.",
+      "tokens": [
+        "Suffices it",
+        "to say,",
+        "the results",
+        "were disastrous."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Suffice it"
+      ],
+      "explanation": "Topic: Formulaic Subjunctive. EN: 'Suffice it to say' is a fixed idiomatic expression using the subjunctive mood, meaning it is enough to say. The verb remains in the base form. ID: 'Suffice it to say' adalah ekspresi idiomatis tetap yang menggunakan modus subjungtif, yang berarti cukuplah untuk dikatakan. Kata kerja tetap dalam bentuk dasar."
+    },
+    {
+      "id": 20,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Not only the students but also the principal were invited to the gala.",
+      "tokens": [
+        "Not only the students",
+        "but also the principal",
+        "were invited",
+        "to the gala."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "was invited"
+      ],
+      "explanation": "Topic: Correlative Subject-Verb Agreement. EN: With correlative conjunctions like 'not only... but also', the verb agrees with the subject closest to it. 'The principal' is singular, so 'was' is correct. ID: Dengan konjungsi korelatif seperti 'not only... but also', kata kerja harus sesuai dengan subjek yang paling dekat dengannya. 'The principal' adalah tunggal, jadi 'was' adalah yang benar."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Neither of the two candidates were considered suitable for the position.",
+      "tokens": [
+        "Neither of the two candidates",
+        "were considered",
+        "suitable",
+        "for the position."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "was considered"
+      ],
+      "explanation": "Topic: Indefinite Pronoun Agreement. EN: 'Neither of' takes a singular verb in formal English. Therefore, the plural 'were' should be the singular 'was'. ID: 'Neither of' menggunakan kata kerja tunggal dalam bahasa Inggris formal. Oleh karena itu, 'were' yang jamak seharusnya diganti dengan 'was' yang tunggal."
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The number of students enrolled in the advanced course have increased significantly this year.",
+      "tokens": [
+        "The number of students",
+        "enrolled in the advanced course",
+        "have increased",
+        "significantly this year."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "has increased"
+      ],
+      "explanation": "Topic: Quantifier Agreement. EN: 'The number of' is treated as a singular subject and requires a singular verb. In contrast, 'A number of' takes a plural verb. ID: 'The number of' dianggap sebagai subjek tunggal dan membutuhkan kata kerja tunggal. Sebaliknya, 'A number of' menggunakan kata kerja jamak."
+    },
+    {
+      "id": 23,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Scarcely had we arrived at the station when the train has already left.",
+      "tokens": [
+        "Scarcely had we arrived",
+        "at the station",
+        "when the train",
+        "has already left."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "had already left"
+      ],
+      "explanation": "Topic: Past Perfect with Scarcely. EN: In 'Scarcely had... when...' structures, both actions happened in the past. The earlier action requires the past perfect tense, not the present perfect. ID: Dalam struktur 'Scarcely had... when...', kedua tindakan terjadi di masa lalu. Tindakan yang terjadi lebih dulu membutuhkan tenses past perfect, bukan present perfect."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "In despite of the heavy rain, the outdoor concert went on as planned.",
+      "tokens": [
+        "In despite of",
+        "the heavy rain,",
+        "the outdoor concert",
+        "went on as planned."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "In spite of"
+      ],
+      "explanation": "Topic: Prepositions of Concession. EN: The correct phrase is 'In spite of' or simply 'Despite'. 'In despite of' is a grammatically incorrect hybrid of the two. ID: Frasa yang benar adalah 'In spite of' atau cukup 'Despite'. 'In despite of' adalah gabungan yang salah secara tata bahasa dari keduanya."
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Each of the employees are required to submit a report.",
+      "tokens": [
+        "Each of the employees",
+        "are required",
+        "to submit",
+        "a report."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "is required"
+      ],
+      "explanation": "Topic: Subject-Verb Agreement (Each). EN: 'Each' is a singular indefinite pronoun and requires a singular verb, regardless of the plural noun in the prepositional phrase. ID: 'Each' adalah kata ganti tak tentu tunggal dan membutuhkan kata kerja tunggal, tanpa memandang kata benda jamak dalam frasa preposisional."
+    },
+    {
+      "id": 26,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The professor, along with his teaching assistants, are going to attend the conference in Geneva.",
+      "tokens": [
+        "The professor,",
+        "along with his teaching assistants,",
+        "are going to attend",
+        "the conference in Geneva."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "is going to attend"
+      ],
+      "explanation": "Topic: Intervening Phrases Agreement. EN: Intervening phrases like 'along with', 'as well as', and 'together with' do not change the number of the subject. 'The professor' is singular, so the verb must be 'is'. ID: Frasa penyela seperti 'along with', 'as well as', dan 'together with' tidak mengubah jumlah subjek. 'The professor' adalah tunggal, jadi kata kerjanya harus 'is'."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Hardly had I sat down to eat than the phone rang.",
+      "tokens": [
+        "Hardly had I sat down",
+        "to eat",
+        "than the phone",
+        "rang."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "when the phone"
+      ],
+      "explanation": "Topic: Correlative Conjunctions. EN: The correct correlative pairing is 'Hardly... when' or 'No sooner... than'. 'Than' is incorrect when paired with 'Hardly'. ID: Pasangan korelatif yang benar adalah 'Hardly... when' atau 'No sooner... than'. 'Than' tidak tepat digunakan ketika dipasangkan dengan 'Hardly'."
+    },
+    {
+      "id": 28,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The data collected by the researchers shows that the climate are changing rapidly.",
+      "tokens": [
+        "The data collected by the researchers",
+        "shows that",
+        "the climate",
+        "are changing rapidly."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "is changing rapidly"
+      ],
+      "explanation": "Topic: Uncountable Noun Agreement. EN: 'The climate' is a singular uncountable noun and requires the singular verb 'is', not the plural 'are'. ID: 'The climate' adalah kata benda tak dapat dihitung yang tunggal dan membutuhkan kata kerja tunggal 'is', bukan 'are' yang jamak."
+    },
+    {
+      "id": 29,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Not only she won the competition, but she also broke the national record.",
+      "tokens": [
+        "Not only",
+        "she won",
+        "the competition,",
+        "but she also broke",
+        "the national record."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "did she win"
+      ],
+      "explanation": "Topic: Inversion with Not Only. EN: When a sentence starts with 'Not only', the first clause requires subject-auxiliary inversion. ID: Ketika kalimat diawali dengan 'Not only', klausa pertama memerlukan inversi subjek-auksiliari."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I would rather you will stay at home tonight.",
+      "tokens": [
+        "I would rather",
+        "you will stay",
+        "at home",
+        "tonight."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "you stayed"
+      ],
+      "explanation": "Topic: Subjunctive after Would Rather. EN: After 'would rather' with a different subject, we use the past subjunctive (past simple form) to express a present or future preference. ID: Setelah 'would rather' dengan subjek yang berbeda, kita menggunakan past subjunctive (bentuk past simple) untuk menyatakan preferensi masa kini atau masa depan."
+    }
+  ]
+}
