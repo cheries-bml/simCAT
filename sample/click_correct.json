@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He don't knows the answer.",
+      "tokens": [
+        "He",
+        "don't",
+        "knows",
+        "the",
+        "answer."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "The third person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "My sister study very hard for her exams.",
+      "tokens": [
+        "My",
+        "sister",
+        "study",
+        "very",
+        "hard",
+        "for",
+        "her",
+        "exams."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "studies"
+      ],
+      "explanation": "Third person singular subject 'My sister' requires the verb 'studies' (y changes to ies)."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "She ___ to the gym every morning.",
+      "options": {
+        "A": "going",
+        "B": "gone",
+        "C": "goes",
+        "D": "go"
+      },
+      "correctAnswer": "C",
+      "explanation": "Third person singular subject 'She' requires the verb form 'goes' in the simple present tense."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He don't knows the answer.",
+      "tokens": [
+        "He",
+        "don't",
+        "knows",
+        "the",
+        "answer."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "The third person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Maria is a teacher. She wakes up at 6:00 AM every day. She drinks a cup of coffee and reads the newspaper. Her classes start at 8:00 AM. She teaches English to young students. They always listen carefully and ask many questions.",
+      "question": "What time do Maria's classes start?",
+      "options": {
+        "A": "6:00 AM",
+        "B": "7:00 AM",
+        "C": "8:00 AM",
+        "D": "9:00 AM"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'Her classes start at 8:00 AM.'"
+    }
+  ]
+}

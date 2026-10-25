@@ -1,0 +1,699 @@
+{
+  "meta": {
+    "title": "English Tenses Mastery Test for University & Career Entrance",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 65,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "When the electricity went out, we ___ dinner.",
+      "options": {
+        "A": "had",
+        "B": "have",
+        "C": "were having",
+        "D": "had had"
+      },
+      "correctAnswer": "C",
+      "explanation": "Past continuous describes an action in progress at a specific moment in the past."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "___ you ever ___ to Bali?",
+      "options": {
+        "A": "Are / going",
+        "B": "Do / go",
+        "C": "Did / go",
+        "D": "Have / been"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Ever' is a keyword for present perfect when asking about life experiences."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Why ___ you ___ that uniform? Are you going to a costume party?",
+      "options": {
+        "A": "do / wear",
+        "B": "are / wearing",
+        "C": "did / wear",
+        "D": "have / worn"
+      },
+      "correctAnswer": "B",
+      "explanation": "The context implies an action happening around now, requiring present continuous."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "If I ___ you, I would study harder.",
+      "options": {
+        "A": "were",
+        "B": "am",
+        "C": "have been",
+        "D": "was"
+      },
+      "correctAnswer": "A",
+      "explanation": "Second conditional uses 'were' for all subjects in the if-clause."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If I will see him, I will tell him the news.",
+      "tokens": [
+        "If",
+        "I",
+        "will",
+        "see",
+        "him,"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "see"
+      ],
+      "explanation": "In first conditional if-clauses, we use the simple present tense, not 'will'."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "She ___ in Jakarta since 2010.",
+      "options": {
+        "A": "is living",
+        "B": "lives",
+        "C": "has lived",
+        "D": "lived"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Since 2010' indicates an action starting in the past and continuing to the present, requiring present perfect."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "She was upset because she ___ her wallet.",
+      "options": {
+        "A": "lost",
+        "B": "had lost",
+        "C": "has lost",
+        "D": "loses"
+      },
+      "correctAnswer": "B",
+      "explanation": "The losing happened before the feeling of being upset, requiring past perfect."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "The road was wet because it ___ all night.",
+      "options": {
+        "A": "had been raining",
+        "B": "rained",
+        "C": "was raining",
+        "D": "has rained"
+      },
+      "correctAnswer": "A",
+      "explanation": "Past perfect continuous explains a past state resulting from a prolonged prior action."
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "By the time we arrived, the movie already started.",
+      "tokens": [
+        "By",
+        "the",
+        "time",
+        "we",
+        "arrived,",
+        "the",
+        "movie",
+        "already",
+        "started."
+      ],
+      "incorrectIndex": 8,
+      "correctAnswers": [
+        "had already started",
+        "had started"
+      ],
+      "explanation": "Past perfect is required for an action completed before another past action ('arrived')."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Look at those dark clouds! It ___ rain.",
+      "options": {
+        "A": "is going to",
+        "B": "would",
+        "C": "will",
+        "D": "shall"
+      },
+      "correctAnswer": "A",
+      "explanation": "Predictions based on present evidence use 'be going to'."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "My father usually ___ coffee, but today he ___ tea.",
+      "options": {
+        "A": "drinks / is drinking",
+        "B": "drank / has drunk",
+        "C": "drink / drank",
+        "D": "is drinking / drinks"
+      },
+      "correctAnswer": "A",
+      "explanation": "Usually indicates simple present; 'today' indicates a temporary action, requiring present continuous."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "By the time we arrived at the cinema, the movie ___.",
+      "options": {
+        "A": "had started",
+        "B": "was starting",
+        "C": "has started",
+        "D": "started"
+      },
+      "correctAnswer": "A",
+      "explanation": "Past perfect is used for an action completed before another past action."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "We ___ for over two hours. Let's take a break.",
+      "options": {
+        "A": "waited",
+        "B": "have been waiting",
+        "C": "are waiting",
+        "D": "wait"
+      },
+      "correctAnswer": "B",
+      "explanation": "Present perfect continuous emphasizes the duration of an action up to the present."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Look! The children ___ in the rain.",
+      "options": {
+        "A": "played",
+        "B": "have played",
+        "C": "are playing",
+        "D": "play"
+      },
+      "correctAnswer": "C",
+      "explanation": "The word 'Look!' indicates an action happening right now, requiring present continuous."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "She would have passed the exam if she ___ harder.",
+      "options": {
+        "A": "had studied",
+        "B": "has studied",
+        "C": "studied",
+        "D": "studies"
+      },
+      "correctAnswer": "A",
+      "explanation": "Third conditional uses past perfect in the if-clause and 'would have + past participle' in the main clause."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "They ___ for an hour before the bus finally came.",
+      "options": {
+        "A": "waited",
+        "B": "had been waiting",
+        "C": "have waited",
+        "D": "were waiting"
+      },
+      "correctAnswer": "B",
+      "explanation": "Past perfect continuous emphasizes the duration of an action before another past event."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "If it rains tomorrow, we ___ the picnic.",
+      "options": {
+        "A": "cancelled",
+        "B": "cancel",
+        "C": "would cancel",
+        "D": "will cancel"
+      },
+      "correctAnswer": "D",
+      "explanation": "First conditional uses simple present in the if-clause and 'will' + base verb in the main clause."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "The meeting ___ at 10:00 AM tomorrow.",
+      "options": {
+        "A": "is going to start",
+        "B": "will be starting",
+        "C": "starts",
+        "D": "will start"
+      },
+      "correctAnswer": "C",
+      "explanation": "Scheduled events use simple present, even for the future."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Water ___ at 100 degrees Celsius.",
+      "options": {
+        "A": "boil",
+        "B": "is boiling",
+        "C": "boils",
+        "D": "boiled"
+      },
+      "correctAnswer": "C",
+      "explanation": "Scientific facts always use the simple present tense."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "At 8:00 PM yesterday, I ___ my homework.",
+      "options": {
+        "A": "was doing",
+        "B": "have done",
+        "C": "do",
+        "D": "did"
+      },
+      "correctAnswer": "A",
+      "explanation": "A specific time in the past with an ongoing action requires past continuous."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "As the teacher ___ into the room, the students stopped talking.",
+      "options": {
+        "A": "has walked",
+        "B": "walks",
+        "C": "walked",
+        "D": "was walking"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sequential past actions or a specific event in the past uses simple past."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "If you heat ice, it ___.",
+      "options": {
+        "A": "melted",
+        "B": "will melt",
+        "C": "melts",
+        "D": "would melt"
+      },
+      "correctAnswer": "C",
+      "explanation": "Zero conditional uses simple present in both clauses for general truths."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "By the end of this year, I ___ my degree.",
+      "options": {
+        "A": "am finishing",
+        "B": "finish",
+        "C": "will finish",
+        "D": "will have finished"
+      },
+      "correctAnswer": "D",
+      "explanation": "Future perfect is used for an action that will be completed before a specific future time."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "If he had left earlier, he ___ the traffic.",
+      "options": {
+        "A": "avoids",
+        "B": "would have avoided",
+        "C": "would avoid",
+        "D": "will avoid"
+      },
+      "correctAnswer": "B",
+      "explanation": "Third conditional main clause requires 'would have + past participle'."
+    },
+    {
+      "id": 25,
+      "type": "passage_mcq",
+      "passage": "Last summer, Budi traveled to Yogyakarta. He visited Borobudur Temple early in the morning to avoid the crowds. While he was exploring the temple, it started to rain heavily. He quickly found shelter under a large tree and waited until the rain stopped.",
+      "question": "What was Budi doing when it started to rain?",
+      "options": {
+        "A": "He was waiting under a tree.",
+        "B": "He was visiting Borobudur Temple.",
+        "C": "He was exploring the temple.",
+        "D": "He was traveling to Yogyakarta."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states, 'While he was exploring the temple, it started to rain heavily.'"
+    },
+    {
+      "id": 26,
+      "type": "passage_mcq",
+      "passage": "Maria is a teacher. She wakes up at 6:00 AM every day. She drinks a cup of coffee and reads the newspaper. Her classes start at 8:00 AM. She teaches English to young students. They always listen carefully and ask many questions.",
+      "question": "What time do Maria's classes start?",
+      "options": {
+        "A": "8:00 AM",
+        "B": "9:00 AM",
+        "C": "7:00 AM",
+        "D": "6:00 AM"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'Her classes start at 8:00 AM.'"
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "I think it ___ tomorrow.",
+      "options": {
+        "A": "rains",
+        "B": "rained",
+        "C": "will rain",
+        "D": "is raining"
+      },
+      "correctAnswer": "C",
+      "explanation": "Predictions based on opinion use 'will' + base verb."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "My English ___ a lot since I started taking lessons.",
+      "options": {
+        "A": "has improved",
+        "B": "improved",
+        "C": "improves",
+        "D": "is improving"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Since' indicates a period from the past to now, requiring present perfect."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "They ___ to the beach last weekend because it rained.",
+      "options": {
+        "A": "haven't gone",
+        "B": "don't go",
+        "C": "weren't going",
+        "D": "didn't go"
+      },
+      "correctAnswer": "D",
+      "explanation": "Negative simple past is required for a completed action in a finished time period."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They has been waiting for the bus since morning.",
+      "tokens": [
+        "They",
+        "has",
+        "been",
+        "waiting",
+        "morning."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "have"
+      ],
+      "explanation": "The plural subject 'They' requires the auxiliary verb 'have', not 'has'."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "The train ___ at 9:00 PM tonight.",
+      "options": {
+        "A": "has left",
+        "B": "leave",
+        "C": "is leaving",
+        "D": "leaves"
+      },
+      "correctAnswer": "D",
+      "explanation": "Scheduled future events (timetables) use the simple present tense."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "I ___ a great movie last night.",
+      "options": {
+        "A": "watched",
+        "B": "have watched",
+        "C": "watch",
+        "D": "was watching"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Last night' is a specific past time, requiring simple past."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "Shakespeare ___ many famous plays.",
+      "options": {
+        "A": "wrote",
+        "B": "had written",
+        "C": "writes",
+        "D": "has written"
+      },
+      "correctAnswer": "A",
+      "explanation": "Shakespeare is dead, so his actions are completed in the past, requiring simple past."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The company ___ three new branches this year.",
+      "options": {
+        "A": "opens",
+        "B": "opened",
+        "C": "had opened",
+        "D": "has opened"
+      },
+      "correctAnswer": "D",
+      "explanation": "'This year' is an unfinished time period, requiring present perfect."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Don't call me at 8:00 PM. I ___ dinner.",
+      "options": {
+        "A": "am having",
+        "B": "have",
+        "C": "will have",
+        "D": "will be having"
+      },
+      "correctAnswer": "D",
+      "explanation": "Future continuous indicates an action that will be in progress at a specific future time."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "He ___ his leg while he ___ football.",
+      "options": {
+        "A": "was breaking / played",
+        "B": "broke / was playing",
+        "C": "had broken / was playing",
+        "D": "broke / played"
+      },
+      "correctAnswer": "B",
+      "explanation": "Short action (broke) interrupts a longer ongoing action (was playing)."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "I ___ my keys. I can't find them anywhere.",
+      "options": {
+        "A": "lost",
+        "B": "have lost",
+        "C": "had lost",
+        "D": "lose"
+      },
+      "correctAnswer": "B",
+      "explanation": "Present perfect is used for past actions with a result in the present."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "I ___ this movie before. Can we watch something else?",
+      "options": {
+        "A": "am seeing",
+        "B": "see",
+        "C": "have seen",
+        "D": "saw"
+      },
+      "correctAnswer": "C",
+      "explanation": "Present perfect is used for past experiences without a specific time."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "After he ___ his homework, he went out to play.",
+      "options": {
+        "A": "had finished",
+        "B": "finishes",
+        "C": "has finished",
+        "D": "finished"
+      },
+      "correctAnswer": "A",
+      "explanation": "Past perfect shows the first of two completed past actions."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "He is tired because he ___ all day.",
+      "options": {
+        "A": "worked",
+        "B": "had worked",
+        "C": "works",
+        "D": "has been working"
+      },
+      "correctAnswer": "D",
+      "explanation": "Present perfect continuous explains a present state resulting from a recent ongoing action."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "I realized that I ___ the wrong train.",
+      "options": {
+        "A": "take",
+        "B": "had taken",
+        "C": "took",
+        "D": "have taken"
+      },
+      "correctAnswer": "B",
+      "explanation": "The realization happened in the past, and taking the wrong train happened before that."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "I would travel the world if I ___ enough money.",
+      "options": {
+        "A": "have",
+        "B": "have had",
+        "C": "will have",
+        "D": "had"
+      },
+      "correctAnswer": "D",
+      "explanation": "Second conditional expresses an unreal present situation."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "She ___ to the radio every morning while she ___ breakfast.",
+      "options": {
+        "A": "listens / is making",
+        "B": "listened / made",
+        "C": "is listening / makes",
+        "D": "listens / makes"
+      },
+      "correctAnswer": "D",
+      "explanation": "Parallel habitual actions use the simple present tense."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "This time next week, I ___ on a beach in Bali.",
+      "options": {
+        "A": "am lying",
+        "B": "lie",
+        "C": "will lie",
+        "D": "will be lying"
+      },
+      "correctAnswer": "D",
+      "explanation": "Future continuous is used for an action in progress at a specific future time."
+    },
+    {
+      "id": 45,
+      "type": "passage_mcq",
+      "passage": "Rina is preparing for her university entrance exam. She has been studying for three months. Yesterday, she took a practice test and scored 85. If she maintains this pace, she will achieve her goal of entering a top state university.",
+      "question": "How long has Rina been studying for her exam?",
+      "options": {
+        "A": "Three months",
+        "B": "One month",
+        "C": "Since yesterday",
+        "D": "Since she scored 85"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'She has been studying for three months.'"
+    },
+    {
+      "id": 46,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The letter was wrote by my grandfather.",
+      "tokens": [
+        "The",
+        "letter",
+        "was",
+        "wrote",
+        "by",
+        "my",
+        "grandfather."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "written"
+      ],
+      "explanation": "The passive voice requires the past participle 'written', not the simple past 'wrote'."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "The sun ___ in the east.",
+      "options": {
+        "A": "rose",
+        "B": "rises",
+        "C": "is rising",
+        "D": "rise"
+      },
+      "correctAnswer": "B",
+      "explanation": "General truths use the simple present tense."
+    },
+    {
+      "id": 48,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He don't knows the answer.",
+      "tokens": [
+        "He",
+        "don't",
+        "knows",
+        "the",
+        "answer."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't",
+        "does not"
+      ],
+      "explanation": "The third person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "While I ___ down the street, I met an old friend.",
+      "options": {
+        "A": "walk",
+        "B": "have walked",
+        "C": "walked",
+        "D": "was walking"
+      },
+      "correctAnswer": "D",
+      "explanation": "Past continuous is used for a longer action interrupted by a shorter action."
+    },
+    {
+      "id": 50,
+      "type": "passage_mcq",
+      "passage": "In the future, cities will look very different. By 2050, scientists will have developed new forms of clean energy. People will be using flying cars to commute, and robots will be doing most of the household chores. However, some traditional jobs will still exist.",
+      "question": "What will have happened by 2050 according to the passage?",
+      "options": {
+        "A": "Scientists will develop new forms of clean energy.",
+        "B": "Traditional jobs will disappear.",
+        "C": "Robots will do household chores.",
+        "D": "People will use flying cars."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'By 2050, scientists will have developed new forms of clean energy.'"
+    }
+  ]
+}

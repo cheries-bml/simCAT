@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "She ___ to the gym every morning.",
+      "options": {
+        "A": "going",
+        "B": "gone",
+        "C": "goes",
+        "D": "go"
+      },
+      "correctAnswer": "C",
+      "explanation": "Third person singular subject 'She' requires the verb form 'goes' in the simple present tense."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Water ___ at 100 degrees Celsius.",
+      "options": {
+        "A": "boils",
+        "B": "boil",
+        "C": "boiling",
+        "D": "boiled"
+      },
+      "correctAnswer": "A",
+      "explanation": "General scientific truths use the simple present tense. 'Water' is an uncountable singular noun, requiring 'boils'."
+    }
+  ]
+}

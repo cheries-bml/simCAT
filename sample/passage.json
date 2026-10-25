@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "passage_mcq",
+      "passage": "John and his brother live in a small town. They own a bakery. John bakes bread every morning, and his brother sells it to customers. The bakery opens at 7:00 AM and closes at 6:00 PM. People in the town love their fresh bread.",
+      "question": "What does John do every morning?",
+      "options": {
+        "A": "He sells bread",
+        "B": "He bakes bread",
+        "C": "He opens the bakery",
+        "D": "He lives in a big city"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'John bakes bread every morning.'"
+    },
+    {
+      "id": 2,
+      "type": "passage_mcq",
+      "passage": "[q2-q3] Maria is a teacher. She wakes up at 6:00 AM every day. She drinks a cup of coffee and reads the newspaper. Her classes start at 8:00 AM. She teaches English to young students. They always listen carefully and ask many questions.",
+      "question": "What time do Maria's classes start?",
+      "options": {
+        "A": "6:00 AM",
+        "B": "7:00 AM",
+        "C": "8:00 AM",
+        "D": "9:00 AM"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'Her classes start at 8:00 AM.'"
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "[q2-q3] Maria is a teacher. She wakes up at 6:00 AM every day. She drinks a cup of coffee and reads the newspaper. Her classes start at 8:00 AM. She teaches English to young students. They always listen carefully and ask many questions.",
+      "question": "Why does Maria love her job?",
+      "options": {
+        "A": "She enjoys helping children learn",
+        "B": "She makes a lot of money",
+        "C": "She works short hours",
+        "D": "She likes drinking coffee"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage implies she loves her job because she enjoys the interaction, as stated by 'They always listen carefully and ask many questions' and her dedication."
+    }
+  ]
+}

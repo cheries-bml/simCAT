@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "image_mcq",
+      "question": "Which sentence correctly describes the image?",
+      "image": "https://via.placeholder.com/400x200/FFD700/000000?text=Sun+rising+over+horizon",
+      "options": {
+        "A": "The sun rise in the east.",
+        "B": "The sun rises in the east.",
+        "C": "The sun rising in the east.",
+        "D": "The sun rose in the east."
+      },
+      "correctAnswer": "B",
+      "explanation": "General facts use the simple present tense. 'The sun' is third person singular, requiring 'rises'."
+    },
+    {
+      "id": 2,
+      "type": "image_mcq",
+      "question": "What does the person in the image do?",
+      "image": "https://via.placeholder.com/400x200/87CEEB/000000?text=Teacher+pointing+at+blackboard",
+      "options": {
+        "A": "She teach English.",
+        "B": "She teaching English.",
+        "C": "She teaches English.",
+        "D": "She taught English."
+      },
+      "correctAnswer": "C",
+      "explanation": "Describing a person's profession or regular action uses the simple present tense. Third person singular requires 'teaches'."
+    }
+  ]
+}
