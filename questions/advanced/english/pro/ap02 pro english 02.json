@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "title": "Ujian Tata Bahasa Inggris Tingkat Lanjut (Advanced English Grammar Test)",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Only after the meeting ended did the manager reveals the new policy.",
+      "tokens": [
+        "Only after the meeting ended",
+        "did the manager",
+        "reveals",
+        "the new policy."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "reveal"
+      ],
+      "explanation": "Topic: Inversion with 'Only after'. EN: When a sentence begins with 'Only after', the main clause requires subject-auxiliary inversion, and the main verb must be in its base form. ID: Topik: Inversi dengan 'Only after'. Ketika kalimat diawali dengan 'Only after', klausa utama memerlukan inversi subjek-auksiliari, dan kata kerja utama harus dalam bentuk dasar."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He spoke quietly lest he wakes the sleeping baby.",
+      "tokens": [
+        "He spoke quietly",
+        "lest he",
+        "wakes",
+        "the sleeping baby."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "wake"
+      ],
+      "explanation": "Topic: Subjunctive with 'Lest'. EN: The conjunction 'lest' is followed by the base form of the verb (subjunctive mood) to express fear or prevention, regardless of the subject. ID: Topik: Subjungtif dengan 'Lest'. Konjungsi 'lest' diikuti oleh bentuk dasar kata kerja (modus subjungtif) untuk menyatakan ketakutan atau pencegahan, apa pun subjeknya."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Having been warned about the storm, the hikers decided to postponing their trip.",
+      "tokens": [
+        "Having been warned",
+        "about the storm,",
+        "the hikers decided",
+        "to postponing",
+        "their trip."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "to postpone"
+      ],
+      "explanation": "Topic: Verb Patterns (Decide). EN: The verb 'decide' is always followed by a to-infinitive, not a gerund. The participle clause at the beginning is correct, but the main verb pattern was violated. ID: Topik: Pola Kata Kerja (Decide). Kata kerja 'decide' selalu diikuti oleh to-infinitive, bukan gerund. Klausa participle di awal sudah benar, tetapi pola kata kerja utama dilanggar."
+    },
+    {
+      "id": 4,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Were it not for your generous support, the project will have failed.",
+      "tokens": [
+        "Were it not for",
+        "your generous support,",
+        "the project",
+        "will have failed."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "would have failed"
+      ],
+      "explanation": "Topic: Inverted Mixed Conditional. EN: 'Were it not for' sets up an unreal condition, requiring 'would have + past participle' in the main clause to show an unreal past result. ID: Topik: Pengandaian Campuran Inversi. 'Were it not for' menetapkan kondisi yang tidak nyata, yang membutuhkan 'would have + past participle' di klausa utama untuk menunjukkan hasil masa lalu yang tidak nyata."
+    },
+    {
+      "id": 5,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "What I need most right now are a good night sleep.",
+      "tokens": [
+        "What I need most",
+        "right now",
+        "are",
+        "a good night sleep."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "is"
+      ],
+      "explanation": "Topic: Pseudo-cleft Sentences. EN: In a pseudo-cleft sentence starting with 'What', the verb agrees with the complement. Since 'a good night sleep' is singular, the verb must be 'is'. ID: Topik: Kalimat Pseudo-cleft. Dalam kalimat pseudo-cleft yang diawali dengan 'What', kata kerja sesuai dengan komplemennya. Karena 'a good night sleep' adalah tunggal, kata kerjanya harus 'is'."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The lights are off. They must go to bed early last night.",
+      "tokens": [
+        "The lights are off.",
+        "They",
+        "must go",
+        "to bed early last night."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "must have gone"
+      ],
+      "explanation": "Topic: Modals of Past Deduction. EN: To express a logical deduction about a past event, we use 'must have + past participle', not the base form of the verb. ID: Topik: Modal Deduksi Masa Lalu. Untuk menyatakan deduksi logis tentang peristiwa masa lalu, kita menggunakan 'must have + past participle', bukan bentuk dasar kata kerja."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The professor to who I spoke was very knowledgeable about quantum physics.",
+      "tokens": [
+        "The professor",
+        "to who",
+        "I spoke",
+        "was very knowledgeable",
+        "about quantum physics."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "to whom"
+      ],
+      "explanation": "Topic: Relative Pronouns after Prepositions. EN: When a relative pronoun follows a preposition and refers to a person, 'whom' must be used instead of 'who'. ID: Topik: Kata Ganti Relatif setelah Preposisi. Ketika kata ganti relatif mengikuti preposisi dan merujuk pada orang, 'whom' harus digunakan, bukan 'who'."
+    },
+    {
+      "id": 8,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The more you practice, the more easier it becomes.",
+      "tokens": [
+        "The more you practice,",
+        "the more easier",
+        "it becomes."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "the easier"
+      ],
+      "explanation": "Topic: Double Comparatives. EN: In the structure 'The + comparative, the + comparative', we do not use 'more' with an adjective that already has the '-er' suffix. ID: Topik: Komparatif Ganda. Dalam struktur 'The + komparatif, the + komparatif', kita tidak menggunakan 'more' dengan kata sifat yang sudah memiliki akhiran '-er'."
+    },
+    {
+      "id": 9,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Weather permitting, the outdoor event will be went ahead as scheduled.",
+      "tokens": [
+        "Weather permitting,",
+        "the outdoor event",
+        "will be went ahead",
+        "as scheduled."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "will go ahead"
+      ],
+      "explanation": "Topic: Future Tense with Phrasal Verbs. EN: The future tense requires 'will + base verb'. 'Went' is the past tense form and cannot follow 'will be'. ID: Topik: Tenses Masa Depan dengan Phrasal Verbs. Tenses masa depan membutuhkan 'will + kata kerja dasar'. 'Went' adalah bentuk masa lalu dan tidak dapat mengikuti 'will be'."
+    },
+    {
+      "id": 10,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The heavy rain prevented us to reach the summit on time.",
+      "tokens": [
+        "The heavy rain",
+        "prevented us",
+        "to reach",
+        "the summit on time."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "from reaching"
+      ],
+      "explanation": "Topic: Verb Patterns (Prevent). EN: The verb 'prevent' follows the pattern 'prevent someone from doing something'. It cannot be followed directly by a to-infinitive. ID: Topik: Pola Kata Kerja (Prevent). Kata kerja 'prevent' mengikuti pola 'prevent someone from doing something'. Kata ini tidak dapat diikuti langsung oleh to-infinitive."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He did not finish the report, nor his assistant did.",
+      "tokens": [
+        "He did not finish",
+        "the report,",
+        "nor his assistant did."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "nor did his assistant"
+      ],
+      "explanation": "Topic: Inversion with 'Nor'. EN: When 'nor' begins a clause to add a negative idea, it requires subject-auxiliary inversion. ID: Topik: Inversi dengan 'Nor'. Ketika 'nor' mengawali klausa untuk menambahkan ide negatif, kata ini memerlukan inversi subjek-auksiliari."
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I wish I have more free time to travel the world.",
+      "tokens": [
+        "I wish",
+        "I have",
+        "more free time",
+        "to travel the world."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "I had"
+      ],
+      "explanation": "Topic: Wish for Present. EN: To express a wish about a present situation that is not true, we use the past simple tense after 'wish'. ID: Topik: Harapan untuk Masa Kini. Untuk menyatakan harapan tentang situasi masa kini yang tidak nyata, kita menggunakan tenses past simple setelah 'wish'."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He spends money as though he is a millionaire.",
+      "tokens": [
+        "He spends money",
+        "as though he",
+        "is",
+        "a millionaire."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "were"
+      ],
+      "explanation": "Topic: Subjunctive with 'As though'. EN: When 'as though' or 'as if' describes an unreal or hypothetical situation, the subjunctive 'were' is used instead of 'is' for all subjects. ID: Topik: Subjungtif dengan 'As though'. Ketika 'as though' atau 'as if' menggambarkan situasi yang tidak nyata atau hipotetis, subjungtif 'were' digunakan, bukan 'is', untuk semua subjek."
+    },
+    {
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Having finished the assignment, the TV was turned on by the student.",
+      "tokens": [
+        "Having finished the assignment,",
+        "the TV",
+        "was turned on",
+        "by the student."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "the student turned on the TV"
+      ],
+      "explanation": "Topic: Dangling Modifiers. EN: The subject of the main clause must be the one performing the action in the introductory participle phrase. The TV did not finish the assignment; the student did. ID: Topik: Modifier Menggantung. Subjek klausa utama haruslah pihak yang melakukan tindakan dalam frasa participle pengantar. TV tidak menyelesaikan tugas tersebut; siswa yang melakukannya."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The ancient manuscript is believed having been written in the 12th century.",
+      "tokens": [
+        "The ancient manuscript",
+        "is believed",
+        "having been written",
+        "in the 12th century."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "to have been written"
+      ],
+      "explanation": "Topic: Passive with Reporting Verbs. EN: The correct structure for reporting verbs in the passive is 'subject + be + past participle + to-infinitive'. ID: Topik: Pasif dengan Kata Kerja Pelaporan. Struktur yang benar untuk kata kerja pelaporan dalam bentuk pasif adalah 'subject + be + past participle + to-infinitive'."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Under no circumstances you are allowed to leave the exam room early.",
+      "tokens": [
+        "Under no circumstances",
+        "you are allowed",
+        "to leave",
+        "the exam room early."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are you allowed"
+      ],
+      "explanation": "Topic: Negative Inversion. EN: Sentences starting with negative phrases like 'Under no circumstances' require subject-auxiliary inversion in the main clause. ID: Topik: Inversi Negatif. Kalimat yang diawali dengan frasa negatif seperti 'Under no circumstances' memerlukan inversi subjek-auksiliari di klausa utama."
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If I would have known about the delay, I would have taken a different route.",
+      "tokens": [
+        "If I",
+        "would have known",
+        "about the delay,",
+        "I would have taken",
+        "a different route."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had known"
+      ],
+      "explanation": "Topic: Conditional Type 3. EN: In standard English, the 'if' clause of a Type 3 conditional uses the past perfect, not 'would have'. 'Would have' is reserved for the main clause. ID: Topik: Pengandaian Tipe 3. Dalam bahasa Inggris standar, klausa 'if' dari pengandaian Tipe 3 menggunakan past perfect, bukan 'would have'. 'Would have' dicadangkan untuk klausa utama."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He is not accustomed to work in such a high-pressure environment.",
+      "tokens": [
+        "He is not accustomed",
+        "to work",
+        "in such a",
+        "high-pressure environment."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "to working"
+      ],
+      "explanation": "Topic: Adjective + Preposition + Gerund. EN: The phrase 'accustomed to' requires a gerund or a noun after the preposition 'to', not a base verb. ID: Topik: Kata Sifat + Preposisi + Gerund. Frasa 'accustomed to' membutuhkan gerund atau kata benda setelah preposisi 'to', bukan kata kerja dasar."
+    },
+    {
+      "id": 19,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The researcher provided a great number of new information during the seminar.",
+      "tokens": [
+        "The researcher provided",
+        "a great number of",
+        "new information",
+        "during the seminar."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "a great deal of"
+      ],
+      "explanation": "Topic: Quantifiers with Uncountable Nouns. EN: 'Information' is an uncountable noun, so it must be modified by 'a great deal of', not 'a great number of', which is used for countable nouns. ID: Topik: Quantifier dengan Kata Benda Tak Dapat Dihitung. 'Information' adalah kata benda tak dapat dihitung, sehingga harus dimodifikasi oleh 'a great deal of', bukan 'a great number of' yang digunakan untuk kata benda dapat dihitung."
+    },
+    {
+      "id": 20,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We are planning to visit United States and Canada next summer.",
+      "tokens": [
+        "We are planning",
+        "to visit",
+        "United States",
+        "and Canada next summer."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "the United States"
+      ],
+      "explanation": "Topic: Definite Articles with Country Names. EN: Country names that include words like 'States', 'Kingdom', or 'Republic' require the definite article 'the'. ID: Topik: Artikel Definitif dengan Nama Negara. Nama negara yang mencakup kata-kata seperti 'States', 'Kingdom', atau 'Republic' memerlukan artikel definitif 'the'."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Whether or not he agrees with the decision are irrelevant to our current discussion.",
+      "tokens": [
+        "Whether or not he agrees",
+        "with the decision",
+        "are irrelevant",
+        "to our current discussion."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "is irrelevant"
+      ],
+      "explanation": "Topic: Subject-Verb Agreement with Noun Clauses. EN: A noun clause acting as the subject of a sentence is always treated as singular, requiring a singular verb. ID: Topik: Kesesuaian Subjek-Kata Kerja dengan Klausa Kata Benda. Klausa kata benda yang bertindak sebagai subjek dalam kalimat selalu dianggap tunggal, sehingga membutuhkan kata kerja tunggal."
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She bought a wooden beautiful large antique dining table.",
+      "tokens": [
+        "She bought",
+        "a wooden beautiful large antique",
+        "dining table."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "a beautiful large antique wooden"
+      ],
+      "explanation": "Topic: Order of Adjectives. EN: The correct order of adjectives is Opinion, Size, Age, Material. Therefore, 'beautiful large antique wooden' is the correct sequence. ID: Topik: Urutan Kata Sifat. Urutan kata sifat yang benar adalah Pendapat, Ukuran, Usia, Bahan. Oleh karena itu, 'beautiful large antique wooden' adalah urutan yang benar."
+    },
+    {
+      "id": 23,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "It is high time we take this environmental issue seriously.",
+      "tokens": [
+        "It is high time",
+        "we take",
+        "this environmental issue",
+        "seriously."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "we took"
+      ],
+      "explanation": "Topic: Subjunctive with 'It is time'. EN: The expression 'It is high time' is followed by a subject and a verb in the past simple tense to indicate that something should have been done already. ID: Topik: Subjungtif dengan 'It is time'. Ekspresi 'It is high time' diikuti oleh subjek dan kata kerja dalam tenses past simple untuk menunjukkan bahwa sesuatu seharusnya sudah dilakukan."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I had my assistant to draft the contract before the meeting started.",
+      "tokens": [
+        "I had my assistant",
+        "to draft",
+        "the contract",
+        "before the meeting started."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "draft"
+      ],
+      "explanation": "Topic: Active Causative. EN: The structure 'have + person + base verb' is used when someone is instructed to do something. The 'to' infinitive is incorrect here. ID: Topik: Kausatif Aktif. Struktur 'have + orang + kata kerja dasar' digunakan ketika seseorang diperintahkan untuk melakukan sesuatu. Infinitive 'to' tidak tepat di sini."
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "No sooner the plane had taken off than the turbulence began.",
+      "tokens": [
+        "No sooner",
+        "the plane had taken off",
+        "than the turbulence",
+        "began."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had the plane taken off"
+      ],
+      "explanation": "Topic: Inversion with 'No sooner'. EN: When a sentence begins with 'No sooner', the auxiliary verb must precede the subject. ID: Topik: Inversi dengan 'No sooner'. Ketika kalimat diawali dengan 'No sooner', kata kerja bantu harus mendahului subjek."
+    },
+    {
+      "id": 26,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The documents submitting yesterday contained several critical errors.",
+      "tokens": [
+        "The documents",
+        "submitting yesterday",
+        "contained several",
+        "critical errors."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "submitted yesterday"
+      ],
+      "explanation": "Topic: Reduced Relative Clauses. EN: The documents received the action of being submitted, so the past participle 'submitted' must be used, not the active present participle 'submitting'. ID: Topik: Klausa Relatif Tereduksi. Dokumen tersebut menerima tindakan penyerahan, sehingga past participle 'submitted' harus digunakan, bukan present participle aktif 'submitting'."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "By the time you arrive, we will finish preparing the dinner.",
+      "tokens": [
+        "By the time you arrive,",
+        "we will finish",
+        "preparing the dinner."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "we will have finished"
+      ],
+      "explanation": "Topic: Future Perfect Tense. EN: The phrase 'By the time' referring to a future event requires the future perfect tense to show an action completed before another future action. ID: Topik: Tenses Future Perfect. Frasa 'By the time' yang merujuk pada peristiwa masa depan membutuhkan tenses future perfect untuk menunjukkan tindakan yang selesai sebelum tindakan masa depan lainnya."
+    },
+    {
+      "id": 28,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I deeply regret to tell you that I broke your favorite vase.",
+      "tokens": [
+        "I deeply regret",
+        "to tell you",
+        "that I broke",
+        "your favorite vase."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "telling you"
+      ],
+      "explanation": "Topic: Verb Patterns (Regret). EN: 'Regret' followed by a gerund expresses remorse for a past action. 'Regret' followed by a to-infinitive is only used for formally announcing bad news. ID: Topik: Pola Kata Kerja (Regret). 'Regret' yang diikuti oleh gerund menyatakan penyesalan atas tindakan masa lalu. 'Regret' yang diikuti oleh to-infinitive hanya digunakan untuk mengumumkan kabar buruk secara formal."
+    },
+    {
+      "id": 29,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Neither the manager nor the employees was aware of the new safety regulations.",
+      "tokens": [
+        "Neither the manager",
+        "nor the employees",
+        "was aware",
+        "of the new safety regulations."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "were aware"
+      ],
+      "explanation": "Topic: Correlative Subject-Verb Agreement. EN: With 'neither... nor', the verb agrees with the subject closest to it. Since 'employees' is plural, the verb must be 'were'. ID: Topik: Kesesuaian Subjek-Kata Kerja Korelatif. Dengan 'neither... nor', kata kerja sesuai dengan subjek yang paling dekat dengannya. Karena 'employees' adalah jamak, kata kerjanya harus 'were'."
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Being a rainy day, we decided to cancel the picnic.",
+      "tokens": [
+        "Being a rainy day,",
+        "we decided",
+        "to cancel",
+        "the picnic."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "It being a rainy day,"
+      ],
+      "explanation": "Topic: Absolute Phrases. EN: When the participle clause has a different subject from the main clause, it must include its own subject. ID: Topik: Frasa Absolut. Ketika klausa participle memiliki subjek yang berbeda dari klausa utama, klausa tersebut harus menyertakan subjeknya sendiri."
+    }
+  ]
+}
