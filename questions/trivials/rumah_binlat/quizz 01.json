@@ -26,13 +26,13 @@
       "type": "mcq",
       "question": "Kenapa motor sering mati di tanjakan?",
       "options": {
-        "A": "Karena capek",
+        "A": "Kopi hitam tanpa gula",
         "B": "Karena tidak dikasih makan",
         "C": "Karena emang lagi nggak mood",
         "D": "Karena lupa pakai bensin",
-        "E": "Kopi hitam tanpa gula"
+        "E": "Karena capek"
       },
-      "correctAnswer": "A",
+      "correctAnswer": "E",
       "explanation": "Motor juga makhluk hidup yang punya perasaan, apalagi kalau tanjakannya curam."
     },
     {
