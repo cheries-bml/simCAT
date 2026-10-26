@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "title": "English Past Continuous Tense Proficiency Test",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 38,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "I ___ my homework at 8 PM last night.",
+      "options": {
+        "A": "did",
+        "B": "am doing",
+        "C": "do",
+        "D": "was doing"
+      },
+      "correctAnswer": "D",
+      "explanation": "The specific time marker 'at 8 PM last night' indicates an action in progress in the past, requiring the past continuous tense 'was doing'."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They was playing football in the rain yesterday afternoon.",
+      "tokens": [
+        "They",
+        "was",
+        "playing football",
+        "in the rain",
+        "yesterday afternoon."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "were"
+      ],
+      "explanation": "The plural subject 'They' requires the past continuous auxiliary 'were', not 'was'."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Last Saturday, while the cadets were marching in the parade, it suddenly started to rain heavily. The commander was observing the formation from the main stage. Despite the weather, the students continued their drill without stopping.",
+      "question": "What was the commander doing when it started to rain?",
+      "options": {
+        "A": "He was marching with the cadets.",
+        "B": "He was running to the shelter.",
+        "C": "He was observing the formation from the main stage.",
+        "D": "He was stopping the drill."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'The commander was observing the formation from the main stage.'"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "While the teacher ___ the lesson, the students were taking notes diligently.",
+      "options": {
+        "A": "explains",
+        "B": "was explaining",
+        "C": "explained",
+        "D": "is explaining"
+      },
+      "correctAnswer": "B",
+      "explanation": "'While' indicates two parallel actions in the past. The past continuous 'was explaining' correctly matches 'were taking'."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "Not only ___ he studying for his university entrance exam all evening, but he was also reviewing his military history notes.",
+      "options": {
+        "A": "was",
+        "B": "did",
+        "C": "is",
+        "D": "has"
+      },
+      "correctAnswer": "A",
+      "explanation": "In restrictive inversion with the past continuous tense, the auxiliary 'was' precedes the singular subject 'he'."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "What were you do when the power went out last night?",
+      "tokens": [
+        "What",
+        "were you",
+        "do",
+        "when the power went out",
+        "last night?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "doing"
+      ],
+      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'do' must be corrected to 'doing'."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "___ you waiting for the bus at 7 AM this morning?",
+      "options": {
+        "A": "Did",
+        "B": "Are",
+        "C": "Was",
+        "D": "Were"
+      },
+      "correctAnswer": "D",
+      "explanation": "The subject 'you' requires the auxiliary 'were' to form the past continuous interrogative."
+    },
+    {
+      "id": 8,
+      "type": "passage_mcq",
+      "passage": "During the final examination period, Rina was struggling with her math problems. While she was trying to solve the last equation, the invigilator announced that there were only five minutes left. She was feeling anxious but managed to finish just in time.",
+      "question": "What was Rina doing when the invigilator made the announcement?",
+      "options": {
+        "A": "She was trying to solve the last equation.",
+        "B": "She was feeling anxious.",
+        "C": "She was struggling with math problems.",
+        "D": "She was submitting her paper."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'While she was trying to solve the last equation, the invigilator announced...'"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "The police officers ___ the suspect's house when the neighbor called them.",
+      "options": {
+        "A": "surrounded",
+        "B": "was surrounding",
+        "C": "were surrounding",
+        "D": "are surrounding"
+      },
+      "correctAnswer": "C",
+      "explanation": "The plural subject 'officers' requires 'were', and the interrupted action context ('when the neighbor called') calls for the past continuous 'were surrounding'."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "While I ___ home from school yesterday, I met my old friend.",
+      "options": {
+        "A": "walked",
+        "B": "was walking",
+        "C": "am walking",
+        "D": "have walked"
+      },
+      "correctAnswer": "B",
+      "explanation": "'While' introduces a longer background action in the past, requiring the past continuous tense 'was walking'."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The applicants was waiting patiently for their turn to be interviewed by the panel.",
+      "tokens": [
+        "The applicants",
+        "was waiting",
+        "patiently for their turn",
+        "to be interviewed",
+        "by the panel."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "were waiting"
+      ],
+      "explanation": "The plural subject 'The applicants' requires the plural past continuous auxiliary 'were', not 'was'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "She ___ a cup of coffee when the phone rang.",
+      "options": {
+        "A": "was drinking",
+        "B": "drinks",
+        "C": "drank",
+        "D": "is drinking"
+      },
+      "correctAnswer": "A",
+      "explanation": "An action in progress ('was drinking') is interrupted by a sudden past action ('rang'), requiring the past continuous tense."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "passage": "At exactly 9:00 PM last night, the entire neighborhood was experiencing a power outage. While most residents were lighting candles, the local security guard was patrolling the area with a flashlight to ensure everyone's safety.",
+      "question": "What was the local security guard doing during the power outage?",
+      "options": {
+        "A": "He was lighting candles.",
+        "B": "He was experiencing a power outage.",
+        "C": "He was sleeping in his post.",
+        "D": "He was patrolling the area with a flashlight."
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage explicitly states, 'the local security guard was patrolling the area with a flashlight'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "We ___ about our future career plans when the headmaster entered the room.",
+      "options": {
+        "A": "talked",
+        "B": "are talking",
+        "C": "talk",
+        "D": "were talking"
+      },
+      "correctAnswer": "D",
+      "explanation": "The action 'talking' was in progress when another action ('entered') occurred, requiring the past continuous 'were talking'."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "Why ___ you laughing so loudly during the solemn ceremony yesterday?",
+      "options": {
+        "A": "were",
+        "B": "did",
+        "C": "was",
+        "D": "are"
+      },
+      "correctAnswer": "A",
+      "explanation": "The interrogative form of the past continuous for the subject 'you' uses the auxiliary 'were'."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He were reading a book about Indonesian history all evening yesterday.",
+      "tokens": [
+        "He",
+        "were reading",
+        "a book about Indonesian history",
+        "all evening",
+        "yesterday."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "was reading"
+      ],
+      "explanation": "The singular subject 'He' requires the singular past continuous auxiliary 'was', not 'were'."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "They ___ TV when the earthquake struck last month.",
+      "options": {
+        "A": "watch",
+        "B": "watched",
+        "C": "are watching",
+        "D": "were watching"
+      },
+      "correctAnswer": "D",
+      "explanation": "The action 'watching' was in progress when the earthquake 'struck', requiring the past continuous 'were watching'."
+    },
+    {
+      "id": 18,
+      "type": "passage_mcq",
+      "passage": "Yesterday morning, while the students were preparing for their physical fitness test, the coach was checking their equipment. Suddenly, one of the students twisted his ankle. The coach was immediately providing first aid while the other students were waiting quietly.",
+      "question": "What was the coach doing when the student twisted his ankle?",
+      "options": {
+        "A": "He was preparing for the test.",
+        "B": "He was waiting quietly.",
+        "C": "He was checking their equipment.",
+        "D": "He was running to the hospital."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states, 'while the students were preparing... the coach was checking their equipment. Suddenly, one of the students twisted his ankle.'"
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "At this time yesterday, I ___ for my UTBK English exam.",
+      "options": {
+        "A": "was studying",
+        "B": "study",
+        "C": "studied",
+        "D": "am studying"
+      },
+      "correctAnswer": "A",
+      "explanation": "'At this time yesterday' is a specific time marker in the past, requiring the past continuous tense 'was studying'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "The candidates ___ their best to follow the instructions while the examiner was speaking.",
+      "options": {
+        "A": "try",
+        "B": "tried",
+        "C": "were trying",
+        "D": "are trying"
+      },
+      "correctAnswer": "C",
+      "explanation": "Parallel actions in the past ('were trying' and 'was speaking') are connected by 'while', requiring the past continuous for both."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "While I was walked to the military academy, I saw a group of cadets running.",
+      "tokens": [
+        "While I",
+        "was walked",
+        "to the military academy,",
+        "I saw a group of cadets",
+        "running."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "was walking"
+      ],
+      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'walked' should be 'walking'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "What ___ you doing when the alarm went off?",
+      "options": {
+        "A": "did",
+        "B": "are",
+        "C": "was",
+        "D": "were"
+      },
+      "correctAnswer": "D",
+      "explanation": "The subject 'you' requires the auxiliary 'were' to form the past continuous interrogative question."
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "passage": "During the national holiday parade, the band was playing traditional music while the dancers were performing a cultural routine. The crowd was cheering enthusiastically, and the atmosphere was very festive.",
+      "question": "What was the band doing while the dancers were performing?",
+      "options": {
+        "A": "They were playing traditional music.",
+        "B": "They were cheering enthusiastically.",
+        "C": "They were watching the parade.",
+        "D": "They were resting."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'the band was playing traditional music while the dancers were performing'."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "My parents ___ dinner when I arrived home from school.",
+      "options": {
+        "A": "cook",
+        "B": "cooked",
+        "C": "were cooking",
+        "D": "are cooking"
+      },
+      "correctAnswer": "C",
+      "explanation": "The action 'cooking' was in progress when another action ('arrived') happened, requiring the past continuous 'were cooking'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "The students ___ attention to the teacher when the principal suddenly interrupted the lesson.",
+      "options": {
+        "A": "pay",
+        "B": "were paying",
+        "C": "paid",
+        "D": "was paying"
+      },
+      "correctAnswer": "B",
+      "explanation": "The plural subject 'students' requires 'were', and the interrupted action context requires the past continuous 'were paying'."
+    }
+  ]
+}
