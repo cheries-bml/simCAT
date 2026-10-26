@@ -395,17 +395,16 @@
     },
     {
       "id": 30,
-      "type": "passage_mcq",
-      "passage": "Degrees of Comparison Table:\n| Adjective | Comparative | Superlative |\n|-----------|-------------|-------------|\n| tall      | taller      | tallest     |\n| happy     | happier     | happiest    |\n| good      | better      | best        |\n| bad       | worse       | worst       |\n| far       | farther/further | farthest/furthest |\n",
-      "question": "Based on the table, what is the superlative form of 'bad'?",
+      "type": "mcq",
+      "question": "What is the superlative form of 'diligent'?",
       "options": {
-        "A": "baddest",
-        "B": "worse",
-        "C": "worst",
-        "D": "more bad"
+        "A": "diligenter",
+        "B": "giligentest",
+        "C": "more diligent",
+        "D": "most diligent"
       },
-      "correctAnswer": "C",
-      "explanation": "The table shows 'worst' is the superlative form of 'bad'."
+      "correctAnswer": "D",
+      "explanation": "'most diligent' is the superlative form of 'diligent'."
     },
     {
       "type": "mcq",
