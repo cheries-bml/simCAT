@@ -11,706 +11,700 @@
     {
       "id": 1,
       "type": "mcq",
-      "question": "I ___ my grandparents in Yogyakarta last weekend.",
+      "question": "I ___ a practice essay for the UTBK last night to improve my writing skills.",
       "options": {
-        "A": "visit",
-        "B": "visited",
-        "C": "was visiting",
-        "D": "visiting"
+        "A": "write",
+        "B": "wrote",
+        "C": "was writing",
+        "D": "written"
       },
       "correctAnswer": "B",
-      "explanation": "The time marker 'last weekend' indicates a completed action in the past, requiring the simple past tense 'visited'."
+      "explanation": "The time marker 'last night' indicates a completed action in the past, requiring the simple past tense 'wrote'."
     },
     {
       "id": 2,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "She were studying for her UTBK exam when the lights went out.",
+      "sentence": "We was waiting for the TransJakarta bus when it suddenly started to rain.",
       "tokens": [
-        "She",
-        "were studying",
-        "for her UTBK exam",
-        "when the lights went out."
+        "We",
+        "was waiting",
+        "for the TransJakarta bus",
+        "when it suddenly started to rain."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "was studying"
+        "were waiting"
       ],
-      "explanation": "The singular subject 'She' requires the singular past continuous auxiliary 'was', not 'were'."
+      "explanation": "The plural subject 'We' requires the plural past continuous auxiliary 'were', not 'was'."
     },
     {
       "id": 3,
       "type": "passage_mcq",
-      "passage": "Last Saturday, while the cadets were marching in the parade, it suddenly started to rain heavily. The commander was observing the formation from the main stage. Despite the weather, the students continued their drill without stopping.",
-      "question": "What was the commander doing when it started to rain?",
+      "passage": "During the night patrol last Tuesday, the police officers were monitoring the harbor area. While they were checking the cargo ships, they noticed a small boat moving without lights. The officers immediately radioed for backup and intercepted the vessel.",
+      "question": "What were the officers doing when they noticed the small boat?",
       "options": {
-        "A": "He was marching with the cadets.",
-        "B": "He was observing the formation from the main stage.",
-        "C": "He was running to the shelter.",
-        "D": "He was stopping the drill."
+        "A": "They were radioing for backup.",
+        "B": "They were intercepting the vessel.",
+        "C": "They were checking the cargo ships.",
+        "D": "They were monitoring the harbor area."
       },
-      "correctAnswer": "B",
-      "explanation": "The passage explicitly states, 'The commander was observing the formation from the main stage.'"
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'While they were checking the cargo ships, they noticed a small boat...'"
     },
     {
       "id": 4,
       "type": "mcq",
-      "question": "While the police ___ the area, they found the stolen motorcycle.",
+      "question": "While the candidates ___ the 12-minute run test, the instructor ___ the whistle to signal the end of the round.",
       "options": {
-        "A": "patrolled",
-        "B": "were patrolling",
-        "C": "are patrolling",
-        "D": "patrol"
+        "A": "ran / blew",
+        "B": "ran / was blowing",
+        "C": "were running / blew",
+        "D": "were running / was blowing"
       },
-      "correctAnswer": "B",
-      "explanation": "'While' introduces a longer background action in the past that was interrupted, requiring the past continuous tense 'were patrolling'."
+      "correctAnswer": "C",
+      "explanation": "'Were running' is the ongoing background action, and 'blew' is the sudden, completed interrupting action."
     },
     {
       "id": 5,
       "type": "mcq",
-      "question": "The military recruits ___ their basic training last month with excellent results.",
+      "question": "The detectives ___ the suspect's vehicle thoroughly until they finally found the hidden compartment.",
       "options": {
-        "A": "completed",
-        "B": "were completing",
-        "C": "complete",
-        "D": "completing"
+        "A": "did not search",
+        "B": "were not searching",
+        "C": "do not search",
+        "D": "was not searching"
       },
       "correctAnswer": "A",
-      "explanation": "The time marker 'last month' indicates a finished action, requiring the simple past tense 'completed'."
+      "explanation": "The sentence describes a completed negative action in the past, requiring the simple past negative 'did not search'."
     },
     {
       "id": 6,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "Did he passed the state university entrance exam last year?",
-      "tokens": [
-        "Did he",
-        "passed",
-        "the state university",
-        "entrance exam last year?"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "pass"
-      ],
-      "explanation": "In simple past interrogative sentences, the auxiliary 'did' is followed by the base form of the verb, so 'passed' must be 'pass'."
+      "type": "mcq",
+      "question": "___ you ___ your uniform when the sergeant unexpectedly entered the dormitory room?",
+      "options": {
+        "A": "Did / iron",
+        "B": "Are / ironing",
+        "C": "Was / ironing",
+        "D": "Were / ironing"
+      },
+      "correctAnswer": "D",
+      "explanation": "The subject 'you' requires the auxiliary 'Were' to form the past continuous interrogative for an action in progress."
     },
     {
       "id": 7,
-      "type": "mcq",
-      "question": "I ___ a book when my friend ___ me yesterday evening.",
-      "options": {
-        "A": "read / called",
-        "B": "was reading / was calling",
-        "C": "read / was calling",
-        "D": "was reading / called"
-      },
-      "correctAnswer": "D",
-      "explanation": "A longer action in progress ('was reading') is interrupted by a shorter, completed action ('called'), requiring past continuous and simple past respectively."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Did the students submitted their SNBT registration forms before the deadline yesterday?",
+      "tokens": [
+        "Did the students",
+        "submitted",
+        "their SNBT registration forms",
+        "before the deadline yesterday?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "submit"
+      ],
+      "explanation": "In simple past interrogative sentences, the auxiliary 'Did' is followed by the base form of the verb, so 'submitted' must be 'submit'."
     },
     {
       "id": 8,
-      "type": "passage_mcq",
-      "passage": "On August 17, 1945, Soekarno and Hatta proclaimed the independence of Indonesia. While the leaders were reading the text of the proclamation, the crowd was listening in silent anticipation. After the speech, everyone cheered enthusiastically.",
-      "question": "What was the crowd doing while the leaders were reading the proclamation?",
+      "type": "mcq",
+      "question": "At 7:00 AM yesterday, the entire village ___ to the morning broadcast on the local radio.",
       "options": {
-        "A": "They were cheering enthusiastically.",
-        "B": "They were listening in silent anticipation.",
-        "C": "They were writing the text.",
-        "D": "They were leaving the area."
+        "A": "listened",
+        "B": "is listening",
+        "C": "was listening",
+        "D": "were listening"
       },
-      "correctAnswer": "B",
-      "explanation": "The passage explicitly states, 'While the leaders were reading the text of the proclamation, the crowd was listening in silent anticipation.'"
+      "correctAnswer": "C",
+      "explanation": "The specific time marker 'At 7:00 AM yesterday' indicates an action in progress. 'Village' is treated as a singular collective noun here, requiring 'was listening'."
     },
     {
       "id": 9,
       "type": "mcq",
-      "question": "We ___ the principal at the flag ceremony yesterday morning.",
+      "question": "My brother ___ his driver's license last month after successfully passing the practical test.",
       "options": {
-        "A": "do not see",
-        "B": "did not see",
-        "C": "were not seeing",
-        "D": "does not see"
+        "A": "obtained",
+        "B": "obtains",
+        "C": "was obtaining",
+        "D": "has obtained"
       },
-      "correctAnswer": "B",
-      "explanation": "The negative form of the simple past tense uses 'did not' + base verb ('see'). 'See' is a stative verb and is rarely used in continuous forms."
+      "correctAnswer": "A",
+      "explanation": "The time marker 'last month' indicates a finished action, requiring the simple past tense 'obtained'."
     },
     {
       "id": 10,
-      "type": "mcq",
-      "question": "What ___ you ___ at 7 PM last night?",
+      "type": "passage_mcq",
+      "passage": "Yesterday afternoon, Officer Andi pulled over a red sedan for speeding on the toll road. While he was approaching the driver's window, he noticed that the driver was nervously tapping the steering wheel. The officer politely asked for the driver's license and registration.",
+      "question": "What was the driver doing while Officer Andi was approaching the window?",
       "options": {
-        "A": "did / do",
-        "B": "were / did",
-        "C": "were / doing",
-        "D": "was / doing"
+        "A": "Speeding on the toll road.",
+        "B": "Nervously tapping the steering wheel.",
+        "C": "Politely asking for the license.",
+        "D": "Pulling over the car."
       },
-      "correctAnswer": "C",
-      "explanation": "The specific time marker 'at 7 PM last night' asks about an action in progress, requiring the past continuous interrogative 'were you doing'."
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'While he was approaching the driver's window, he noticed that the driver was nervously tapping the steering wheel.'"
     },
     {
       "id": 11,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "While they was playing football, it started to rain heavily.",
-      "tokens": [
-        "While they",
-        "was playing",
-        "football,",
-        "it started to rain heavily."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "were playing"
-      ],
-      "explanation": "The plural subject 'they' requires the plural past continuous auxiliary 'were', not 'was'."
+      "type": "mcq",
+      "question": "The electricity went out suddenly while I ___ for my crucial scholarship interview.",
+      "options": {
+        "A": "prepared",
+        "B": "am preparing",
+        "C": "was preparing",
+        "D": "prepare"
+      },
+      "correctAnswer": "C",
+      "explanation": "The ongoing action 'was preparing' was interrupted by the sudden event 'went out', requiring the past continuous tense."
     },
     {
       "id": 12,
-      "type": "mcq",
-      "question": "The teacher ___ us a lot of homework yesterday afternoon.",
-      "options": {
-        "A": "gave",
-        "B": "was giving",
-        "C": "gives",
-        "D": "given"
-      },
-      "correctAnswer": "A",
-      "explanation": "The time marker 'yesterday afternoon' indicates a completed action, requiring the simple past tense 'gave'."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They were not pay attention during the important history lecture yesterday morning.",
+      "tokens": [
+        "They",
+        "were not pay",
+        "attention during the important",
+        "history lecture yesterday morning."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "were not paying",
+        "weren't paying"
+      ],
+      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'pay' must be corrected to 'paying'."
     },
     {
       "id": 13,
       "type": "mcq",
-      "question": "The sun ___ brightly when we left the house this morning.",
+      "question": "We ___ a traditional 'Rendang' cooking competition in our neighborhood last weekend.",
       "options": {
-        "A": "shines",
-        "B": "shined",
-        "C": "is shining",
-        "D": "was shining"
+        "A": "join",
+        "B": "are joining",
+        "C": "were joining",
+        "D": "joined"
       },
       "correctAnswer": "D",
-      "explanation": "The sun shining is a background action in progress when another action ('left') occurred, requiring the past continuous 'was shining'."
+      "explanation": "The time marker 'last weekend' indicates a completed action, requiring the simple past tense 'joined'."
     },
     {
       "id": 14,
-      "type": "passage_mcq",
-      "passage": "Last night, Officer Budi was patrolling the neighborhood when he heard a loud noise. While he was investigating the alley, he found a lost dog. He was checking the dog's collar when the owner arrived, looking very worried.",
-      "question": "What was Officer Budi doing when the owner arrived?",
+      "type": "mcq",
+      "question": "I ___ a loud, unusual noise while I ___ peacefully in my bedroom.",
       "options": {
-        "A": "He was patrolling the neighborhood.",
-        "B": "He was hearing a loud noise.",
-        "C": "He was checking the dog's collar.",
-        "D": "He was investigating the alley."
+        "A": "heard / was sleeping",
+        "B": "was hearing / slept",
+        "C": "heard / slept",
+        "D": "was hearing / was sleeping"
       },
-      "correctAnswer": "C",
-      "explanation": "The passage states, 'He was checking the dog's collar when the owner arrived.'"
+      "correctAnswer": "A",
+      "explanation": "'Heard' is the sudden completed action, and 'was sleeping' is the ongoing background action. 'Hear' is a stative verb and is not used in continuous forms."
     },
     {
       "id": 15,
       "type": "mcq",
-      "question": "___ you attend the flag ceremony at school last Monday?",
+      "question": "The military academy ___ its new intake schedule in March last year.",
       "options": {
-        "A": "Do",
-        "B": "Did",
-        "C": "Were",
-        "D": "Was"
+        "A": "announces",
+        "B": "has announced",
+        "C": "announced",
+        "D": "was announcing"
       },
-      "correctAnswer": "B",
-      "explanation": "Simple past interrogative sentences for action verbs begin with the auxiliary 'Did'."
+      "correctAnswer": "C",
+      "explanation": "The specific past time marker 'in March last year' requires the simple past tense 'announced'."
     },
     {
       "id": 16,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "She didn't went to the library to borrow reference books yesterday.",
+      "sentence": "She didn't brought her scientific calculator to the national math exam yesterday.",
       "tokens": [
         "She",
-        "didn't went",
-        "to the library",
-        "to borrow reference books yesterday."
+        "didn't brought",
+        "her scientific calculator",
+        "to the national math exam yesterday."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "didn't go",
-        "did not go"
+        "didn't bring",
+        "did not bring"
       ],
-      "explanation": "After the auxiliary 'didn't', the verb must be in its base form ('go'), not the past form ('went')."
+      "explanation": "After the auxiliary 'didn't', the verb must be in its base form ('bring'), not the past form ('brought')."
     },
     {
       "id": 17,
       "type": "mcq",
-      "question": "As I ___ to school, I ___ a wallet on the street.",
+      "question": "What ___ the mechanics ___ when the aircraft engine suddenly stopped during the test?",
       "options": {
-        "A": "walked / was finding",
-        "B": "was walking / found",
-        "C": "walked / found",
-        "D": "was walking / was finding"
+        "A": "were / checking",
+        "B": "did / check",
+        "C": "was / checking",
+        "D": "are / checking"
       },
-      "correctAnswer": "B",
-      "explanation": "'Was walking' is the continuous background action, and 'found' is the sudden, completed action that interrupted it."
+      "correctAnswer": "A",
+      "explanation": "The plural subject 'mechanics' requires 'were', and the context of an interrupted action requires the past continuous 'checking'."
     },
     {
       "id": 18,
       "type": "mcq",
-      "question": "They ___ when I arrived at their house last night.",
+      "question": "He ___ his wallet at the campus canteen, but fortunately, a fellow student turned it in to the lost and found.",
       "options": {
-        "A": "were not sleeping",
-        "B": "did not sleep",
-        "C": "was not sleeping",
-        "D": "do not sleep"
+        "A": "leaves",
+        "B": "has left",
+        "C": "was leaving",
+        "D": "left"
       },
-      "correctAnswer": "A",
-      "explanation": "The action was in progress at a specific moment in the past ('when I arrived'), requiring the past continuous negative 'were not sleeping'."
+      "correctAnswer": "D",
+      "explanation": "This describes a completed action in the past, requiring the simple past tense 'left'."
     },
     {
       "id": 19,
-      "type": "mcq",
-      "question": "My father ___ me a new laptop for my birthday last year.",
+      "type": "passage_mcq",
+      "passage": "On my very first day at the state university, I felt a mix of excitement and anxiety. While I was walking toward the main lecture hall, I was trying to memorize the campus map. Suddenly, a senior student approached me and offered to show me the way.",
+      "question": "What was the narrator trying to do while walking to the lecture hall?",
       "options": {
-        "A": "buy",
-        "B": "buying",
-        "C": "was buying",
-        "D": "bought"
+        "A": "Feeling a mix of excitement and anxiety.",
+        "B": "Memorizing the campus map.",
+        "C": "Approaching a senior student.",
+        "D": "Offering to show the way."
       },
-      "correctAnswer": "D",
-      "explanation": "'Last year' requires the simple past tense. 'Bought' is the correct irregular past form of 'buy'."
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'While I was walking toward the main lecture hall, I was trying to memorize the campus map.'"
     },
     {
       "id": 20,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "What were you do when the earthquake happened yesterday?",
-      "tokens": [
-        "What",
-        "were you",
-        "do",
-        "when the earthquake happened yesterday?"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "doing"
-      ],
-      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'do' must be corrected to 'doing'."
+      "type": "mcq",
+      "question": "While the tactical officers ___ the perimeter of the building, they discovered a suspicious, unattended package.",
+      "options": {
+        "A": "secure",
+        "B": "secured",
+        "C": "were securing",
+        "D": "are securing"
+      },
+      "correctAnswer": "C",
+      "explanation": "'While' introduces a longer background action in the past that was interrupted, requiring the past continuous tense 'were securing'."
     },
     {
       "id": 21,
       "type": "mcq",
-      "question": "While the students ___ the final test, the fire alarm ___ loudly.",
+      "question": "The national badminton team ___ the championship match decisively last Sunday evening.",
       "options": {
-        "A": "took / was ringing",
-        "B": "were taking / rang",
-        "C": "took / rang",
-        "D": "were taking / was ringing"
+        "A": "won",
+        "B": "win",
+        "C": "was winning",
+        "D": "wins"
       },
-      "correctAnswer": "B",
-      "explanation": "'Were taking' is the ongoing action, and 'rang' is the sudden interrupting action, which is the classic structure for 'while' clauses in the past."
+      "correctAnswer": "A",
+      "explanation": "The time marker 'last Sunday evening' indicates a finished, completed action, requiring the simple past tense 'won'."
     },
     {
       "id": 22,
-      "type": "passage_mcq",
-      "passage": "During my high school graduation ceremony last month, my parents were sitting in the front row. While the principal was giving the speech, I was feeling very nervous. When my name was called, I walked to the stage and received my diploma with pride.",
-      "question": "How was the narrator feeling while the principal was giving the speech?",
-      "options": {
-        "A": "Very proud.",
-        "B": "Very nervous.",
-        "C": "Very excited.",
-        "D": "Very tired."
-      },
-      "correctAnswer": "B",
-      "explanation": "The passage explicitly states, 'While the principal was giving the speech, I was feeling very nervous.'"
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Was the applicants filling out their medical forms when the registration time expired?",
+      "tokens": [
+        "Was the applicants",
+        "filling out their medical forms",
+        "when the registration time",
+        "expired?"
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Were the applicants"
+      ],
+      "explanation": "The plural subject 'applicants' requires the plural past continuous auxiliary 'Were', not 'Was'."
     },
     {
       "id": 23,
       "type": "mcq",
-      "question": "The candidates ___ at the testing center an hour before the exam started.",
+      "question": "She ___ her smartphone when she ___ down the steep stairs.",
       "options": {
-        "A": "arrive",
-        "B": "were arriving",
-        "C": "arrived",
-        "D": "arriving"
+        "A": "dropped / was walking",
+        "B": "was dropping / walked",
+        "C": "dropped / walked",
+        "D": "was dropping / was walking"
       },
-      "correctAnswer": "C",
-      "explanation": "This describes a completed action in the past, requiring the simple past tense 'arrived'."
+      "correctAnswer": "A",
+      "explanation": "'Dropped' is the sudden completed action, and 'was walking' is the ongoing background action."
     },
     {
       "id": 24,
       "type": "mcq",
-      "question": "It ___ heavily all night yesterday, causing floods in several areas.",
+      "question": "It ___ heavily when our hiking group finally reached the mountain summit.",
       "options": {
-        "A": "was raining",
-        "B": "rained",
-        "C": "is raining",
-        "D": "rains"
+        "A": "snowed",
+        "B": "snows",
+        "C": "was snowing",
+        "D": "is snowing"
       },
-      "correctAnswer": "A",
-      "explanation": "'All night yesterday' emphasizes the duration of an action in progress in the past, making the past continuous 'was raining' the most appropriate choice."
+      "correctAnswer": "C",
+      "explanation": "The snowing was a background action in progress when another action ('reached') occurred, requiring the past continuous 'was snowing'."
     },
     {
       "id": 25,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "He was read a book when the phone rang suddenly.",
-      "tokens": [
-        "He",
-        "was read",
-        "a book",
-        "when the phone rang suddenly."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "was reading"
-      ],
-      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'read' should be 'reading'."
+      "type": "mcq",
+      "question": "The city council ___ the old, abandoned building to make way for the new public library last year.",
+      "options": {
+        "A": "demolishes",
+        "B": "has demolished",
+        "C": "was demolishing",
+        "D": "demolished"
+      },
+      "correctAnswer": "D",
+      "explanation": "The time marker 'last year' indicates a completed action, requiring the simple past tense 'demolished'."
     },
     {
       "id": 26,
-      "type": "mcq",
-      "question": "Who ___ this beautiful batik shirt last night?",
-      "options": {
-        "A": "was writing",
-        "B": "writes",
-        "C": "did write",
-        "D": "wrote"
-      },
-      "correctAnswer": "D",
-      "explanation": "When 'who' is the subject of the question asking about a completed past action, we use the simple past tense directly ('wrote'). Note: 'wrote' is used here metaphorically for 'designed/made', or literally if it's a pattern design."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Where did you bought that official police uniform for the ceremony?",
+      "tokens": [
+        "Where",
+        "did you",
+        "bought",
+        "that official police uniform for the ceremony?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "buy"
+      ],
+      "explanation": "The auxiliary 'did' requires the base form of the verb ('buy'), not the past tense form ('bought')."
     },
     {
       "id": 27,
       "type": "mcq",
-      "question": "I ___ for the TransJakarta bus when I ___ a minor traffic accident.",
+      "question": "The students ___ quietly in the auditorium when the principal made the surprise announcement.",
       "options": {
-        "A": "waited / was seeing",
-        "B": "was waiting / saw",
-        "C": "waited / saw",
-        "D": "was waiting / was seeing"
+        "A": "sit",
+        "B": "sat",
+        "C": "were sitting",
+        "D": "are sitting"
       },
-      "correctAnswer": "B",
-      "explanation": "'Was waiting' is the ongoing background action, and 'saw' is the sudden completed action. 'See' is a stative verb and is not typically used in the continuous form."
+      "correctAnswer": "C",
+      "explanation": "The action of sitting was in progress when it was interrupted by the announcement, requiring the past continuous 'were sitting'."
     },
     {
       "id": 28,
-      "type": "passage_mcq",
-      "passage": "During the rigorous military drill last week, the recruits were carrying heavy backpacks. While they were climbing the steep hill, the instructor was shouting encouragement. Suddenly, one recruit dropped his canteen, but he quickly picked it up and continued.",
-      "question": "What was the instructor doing while the recruits were climbing the hill?",
+      "type": "mcq",
+      "question": "I ___ my old classmates from junior high school at the alumni gathering last Saturday.",
       "options": {
-        "A": "He was carrying a heavy backpack.",
-        "B": "He was shouting encouragement.",
-        "C": "He was dropping his canteen.",
-        "D": "He was resting at the bottom."
+        "A": "met",
+        "B": "meet",
+        "C": "was meeting",
+        "D": "have met"
       },
-      "correctAnswer": "B",
-      "explanation": "The passage states, 'While they were climbing the steep hill, the instructor was shouting encouragement.'"
+      "correctAnswer": "A",
+      "explanation": "The time marker 'last Saturday' indicates a completed action, requiring the simple past tense 'met'."
     },
     {
       "id": 29,
-      "type": "mcq",
-      "question": "___ the children playing in the park at 4 PM yesterday?",
+      "type": "passage_mcq",
+      "passage": "During the heroic Battle of Surabaya in 1945, the Indonesian fighters were defending the city fiercely. While they were holding their positions at the front lines, the British forces delivered an ultimatum. Despite the threat, the fighters refused to surrender and continued their resistance.",
+      "question": "What were the Indonesian fighters doing when the British forces delivered the ultimatum?",
       "options": {
-        "A": "Did",
-        "B": "Was",
-        "C": "Were",
-        "D": "Are"
+        "A": "Defending the city fiercely.",
+        "B": "Holding their positions at the front lines.",
+        "C": "Delivering an ultimatum.",
+        "D": "Surrendering to the British forces."
       },
-      "correctAnswer": "C",
-      "explanation": "The plural subject 'the children' requires the plural past continuous auxiliary 'Were'."
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'While they were holding their positions at the front lines, the British forces delivered an ultimatum.'"
     },
     {
       "id": 30,
       "type": "mcq",
-      "question": "We ___ the answer to that difficult SNBT math question yesterday.",
+      "question": "While I ___ the evening news, a breaking story about the earthquake ___ on the television screen.",
       "options": {
-        "A": "did not know",
-        "B": "were not knowing",
-        "C": "do not know",
-        "D": "was not knowing"
+        "A": "watched / appeared",
+        "B": "watched / was appearing",
+        "C": "was watching / was appearing",
+        "D": "was watching / appeared"
       },
-      "correctAnswer": "A",
-      "explanation": "'Know' is a stative verb and is not used in continuous tenses. The simple past negative 'did not know' is correct."
+      "correctAnswer": "D",
+      "explanation": "'Was watching' is the ongoing background action, and 'appeared' is the sudden, completed interrupting action."
     },
     {
       "id": 31,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "Where did you went after the class finished yesterday?",
-      "tokens": [
-        "Where",
-        "did you",
-        "went",
-        "after the class finished yesterday?"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "go"
-      ],
-      "explanation": "The auxiliary 'did' requires the base form of the verb ('go'), not the past tense form ('went')."
+      "type": "mcq",
+      "question": "The student committee ___ the venue for the upcoming graduation ceremony two weeks ago.",
+      "options": {
+        "A": "books",
+        "B": "was booking",
+        "C": "booked",
+        "D": "has booked"
+      },
+      "correctAnswer": "C",
+      "explanation": "The time marker 'two weeks ago' indicates a completed action, requiring the simple past tense 'booked'."
     },
     {
       "id": 32,
-      "type": "mcq",
-      "question": "She ___ dinner while her brother ___ the dishes.",
-      "options": {
-        "A": "cooked / washed",
-        "B": "was cooking / washed",
-        "C": "cooked / was washing",
-        "D": "was cooking / was washing"
-      },
-      "correctAnswer": "D",
-      "explanation": "'While' connects two parallel actions that were in progress simultaneously in the past, requiring the past continuous for both."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He were driving to the testing center when his car suddenly broke down on the highway.",
+      "tokens": [
+        "He",
+        "were driving",
+        "to the testing center",
+        "when his car suddenly broke down on the highway."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "was driving"
+      ],
+      "explanation": "The singular subject 'He' requires the singular past continuous auxiliary 'was', not 'were'."
     },
     {
       "id": 33,
       "type": "mcq",
-      "question": "The officer ___ the suspect when the lawyer arrived at the station.",
+      "question": "We ___ the safety instructions very carefully before starting the physical agility test.",
       "options": {
-        "A": "interrogated",
-        "B": "was interrogating",
-        "C": "interrogates",
-        "D": "has interrogated"
+        "A": "reviewed",
+        "B": "review",
+        "C": "were reviewing",
+        "D": "are reviewing"
       },
-      "correctAnswer": "B",
-      "explanation": "The interrogation was an action in progress when it was interrupted by the lawyer's arrival, requiring the past continuous 'was interrogating'."
+      "correctAnswer": "A",
+      "explanation": "This describes a completed action that happened before another past action, requiring the simple past tense 'reviewed'."
     },
     {
       "id": 34,
       "type": "mcq",
-      "question": "The university ___ the SNBT results last Friday morning.",
+      "question": "Why ___ you ___ so loudly in the university library yesterday afternoon?",
       "options": {
-        "A": "announces",
-        "B": "was announcing",
-        "C": "announced",
-        "D": "announce"
+        "A": "did / laugh",
+        "B": "was / laughing",
+        "C": "were / laughing",
+        "D": "do / laugh"
       },
       "correctAnswer": "C",
-      "explanation": "'Last Friday morning' is a specific completed time in the past, requiring the simple past tense 'announced'."
+      "explanation": "The subject 'you' requires the auxiliary 'were', and the context of an action in progress at a specific past time requires 'laughing'."
     },
     {
       "id": 35,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "They were not listen to the instructor's commands during the drill.",
-      "tokens": [
-        "They",
-        "were not listen",
-        "to the instructor's commands",
-        "during the drill."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "were not listening",
-        "weren't listening"
-      ],
-      "explanation": "The past continuous tense requires the present participle ('-ing') form of the verb, so 'listen' must be 'listening'."
+      "type": "mcq",
+      "question": "The mayor ___ the new integrated public transportation system last month to reduce traffic congestion.",
+      "options": {
+        "A": "inaugurates",
+        "B": "was inaugurating",
+        "C": "has inaugurated",
+        "D": "inaugurated"
+      },
+      "correctAnswer": "D",
+      "explanation": "The time marker 'last month' indicates a completed action, requiring the simple past tense 'inaugurated'."
     },
     {
       "id": 36,
-      "type": "mcq",
-      "question": "When the principal entered the room, everyone ___ up immediately.",
-      "options": {
-        "A": "stood",
-        "B": "was standing",
-        "C": "stand",
-        "D": "were standing"
-      },
-      "correctAnswer": "A",
-      "explanation": "The action of standing up was a quick, completed reaction to the principal entering, requiring the simple past 'stood'."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Did the new recruits finished their obstacle course within the strict time limit?",
+      "tokens": [
+        "Did the new recruits",
+        "finished",
+        "their obstacle course",
+        "within the strict time limit?"
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "finish"
+      ],
+      "explanation": "In simple past interrogative sentences, the auxiliary 'Did' is followed by the base form of the verb, so 'finished' must be 'finish'."
     },
     {
       "id": 37,
-      "type": "passage_mcq",
-      "passage": "On my first day at the police academy, I was feeling very anxious. While the senior officers were explaining the rules, I was trying to memorize them all. When the lunch bell rang, I realized I was starving, so I ate my meal very quickly.",
-      "question": "What was the narrator doing while the senior officers were explaining the rules?",
+      "type": "mcq",
+      "question": "The guard dog ___ aggressively when the mail carrier ___ the front gate.",
       "options": {
-        "A": "Feeling very anxious.",
-        "B": "Trying to memorize them all.",
-        "C": "Eating a meal quickly.",
-        "D": "Listening to the lunch bell."
+        "A": "barked / was opening",
+        "B": "barked / opened",
+        "C": "was barking / opened",
+        "D": "was barking / was opening"
       },
-      "correctAnswer": "B",
-      "explanation": "The passage explicitly states, 'While the senior officers were explaining the rules, I was trying to memorize them all.'"
+      "correctAnswer": "C",
+      "explanation": "'Was barking' is the ongoing background action, and 'opened' is the sudden, completed interrupting action."
     },
     {
       "id": 38,
       "type": "mcq",
-      "question": "I ___ a documentary about Indonesian history at 9 PM last night.",
+      "question": "She ___ a beautiful traditional Saman dance at the national cultural festival last night.",
       "options": {
-        "A": "watch",
-        "B": "watched",
-        "C": "was watching",
-        "D": "am watching"
+        "A": "performed",
+        "B": "performs",
+        "C": "was performing",
+        "D": "has performed"
       },
-      "correctAnswer": "C",
-      "explanation": "'At 9 PM last night' specifies an exact time in the past when an action was in progress, requiring the past continuous 'was watching'."
+      "correctAnswer": "A",
+      "explanation": "The time marker 'last night' indicates a completed action, requiring the simple past tense 'performed'."
     },
     {
       "id": 39,
       "type": "mcq",
-      "question": "He ___ his leg while he was skiing in Switzerland last winter.",
+      "question": "At midnight, the campus security guards ___ their regular safety rounds around the dormitory buildings.",
       "options": {
-        "A": "was breaking",
-        "B": "broke",
-        "C": "breaks",
-        "D": "has broken"
+        "A": "make",
+        "B": "made",
+        "C": "were making",
+        "D": "have made"
       },
-      "correctAnswer": "B",
-      "explanation": "The injury ('broke') is a sudden, completed action that interrupted the ongoing action ('was skiing'), requiring the simple past."
+      "correctAnswer": "C",
+      "explanation": "The specific time marker 'At midnight' indicates an action in progress in the past, requiring the past continuous 'were making'."
     },
     {
       "id": 40,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "Was they studying together at the library last night?",
-      "tokens": [
-        "Was they",
-        "studying together",
-        "at the library",
-        "last night?"
-      ],
-      "incorrectIndex": 0,
-      "correctAnswers": [
-        "Were they"
-      ],
-      "explanation": "The plural subject 'they' requires the plural past continuous auxiliary 'Were', not 'Was'."
+      "type": "passage_mcq",
+      "passage": "Last holiday, my family and I took a flight to Bali for a much-needed vacation. While we were waiting at the departure gate, the airline announced a two-hour delay due to bad weather. We spent the time playing board games and reading magazines.",
+      "question": "What did the family do while waiting for the delayed flight?",
+      "options": {
+        "A": "They took a flight to Bali.",
+        "B": "They announced a two-hour delay.",
+        "C": "They played board games and read magazines.",
+        "D": "They experienced bad weather."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'We spent the time playing board games and reading magazines' while waiting."
     },
     {
       "id": 41,
       "type": "mcq",
-      "question": "While I ___ for the SNBT exam, my sister ___ the guitar in the next room.",
+      "question": "I ___ my best friend from elementary school at the local coffee shop yesterday morning.",
       "options": {
-        "A": "studied / played",
-        "B": "was studying / played",
-        "C": "was studying / was playing",
-        "D": "studied / was playing"
+        "A": "see",
+        "B": "was seeing",
+        "C": "have seen",
+        "D": "saw"
       },
-      "correctAnswer": "C",
-      "explanation": "'While' connects two parallel actions happening simultaneously in the past, so both verbs should be in the past continuous tense."
+      "correctAnswer": "D",
+      "explanation": "The time marker 'yesterday morning' indicates a completed action, requiring the simple past tense 'saw'."
     },
     {
       "id": 42,
-      "type": "mcq",
-      "question": "The police ___ the thief yesterday afternoon near the traditional market.",
-      "options": {
-        "A": "caught",
-        "B": "were catching",
-        "C": "catch",
-        "D": "catching"
-      },
-      "correctAnswer": "A",
-      "explanation": "'Yesterday afternoon' indicates a completed action in the past, requiring the simple past tense 'caught'."
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They was discussing the new university curriculum when the lecture bell rang.",
+      "tokens": [
+        "They",
+        "was discussing",
+        "the new university curriculum",
+        "when the lecture bell rang."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "were discussing"
+      ],
+      "explanation": "The plural subject 'They' requires the plural past continuous auxiliary 'were', not 'was'."
     },
     {
       "id": 43,
       "type": "mcq",
-      "question": "What time ___ you ___ to bed last night?",
+      "question": "The government ___ strict health protocols across the country during the pandemic last year.",
       "options": {
-        "A": "did / go",
-        "B": "were / going",
-        "C": "was / going",
-        "D": "do / go"
+        "A": "implements",
+        "B": "was implementing",
+        "C": "implemented",
+        "D": "has implemented"
       },
-      "correctAnswer": "B",
-      "explanation": "Asking about an action in progress at a specific time in the past requires the past continuous 'were you going'."
+      "correctAnswer": "C",
+      "explanation": "The time marker 'last year' indicates a completed action, requiring the simple past tense 'implemented'."
     },
     {
       "id": 44,
-      "type": "passage_mcq",
-      "passage": "During our KKN (Community Service) program in the village last year, we were building a new reading corner for the local school. While some students were painting the walls, others were organizing the donated books. The village head was very happy with our progress.",
-      "question": "What were 'others' doing while some students were painting the walls?",
+      "type": "mcq",
+      "question": "While the chef ___ the fresh spices, the hungry customers were already waiting eagerly in the dining area.",
       "options": {
-        "A": "They were building a new reading corner.",
-        "B": "They were organizing the donated books.",
-        "C": "They were talking to the village head.",
-        "D": "They were cleaning the school yard."
+        "A": "grinds",
+        "B": "ground",
+        "C": "was grinding",
+        "D": "has ground"
       },
-      "correctAnswer": "B",
-      "explanation": "The passage states, 'While some students were painting the walls, others were organizing the donated books.'"
+      "correctAnswer": "C",
+      "explanation": "'While' connects two parallel actions happening simultaneously in the past, requiring the past continuous 'was grinding'."
     },
     {
       "id": 45,
       "type": "mcq",
-      "question": "As soon as the bell ___, the students ___ the classroom.",
+      "question": "He ___ his ankle severely while he ___ football with his friends at the local field.",
       "options": {
-        "A": "was ringing / were leaving",
-        "B": "rang / left",
-        "C": "rang / were leaving",
-        "D": "was ringing / left"
+        "A": "sprained / was playing",
+        "B": "was spraining / played",
+        "C": "sprained / played",
+        "D": "was spraining / was playing"
       },
-      "correctAnswer": "B",
-      "explanation": "'As soon as' indicates two consecutive, completed actions in the past, requiring the simple past tense for both verbs."
+      "correctAnswer": "A",
+      "explanation": "'Sprained' is the sudden completed action, and 'was playing' is the ongoing background action."
     },
     {
       "id": 46,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "I didn't knew the exam schedule had changed until my friend told me.",
+      "sentence": "I didn't understood the complex grammar rule explained by the teacher yesterday.",
       "tokens": [
         "I",
-        "didn't knew",
-        "the exam schedule had changed",
-        "until my friend told me."
+        "didn't understood",
+        "the complex grammar rule",
+        "explained by the teacher yesterday."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "didn't know",
-        "did not know"
+        "didn't understand",
+        "did not understand"
       ],
-      "explanation": "After the auxiliary 'didn't', the verb must be in its base form ('know'), not the past form ('knew')."
+      "explanation": "After the auxiliary 'didn't', the verb must be in its base form ('understand'), not the past form ('understood')."
     },
     {
       "id": 47,
       "type": "mcq",
-      "question": "The wind ___ strongly when the old tree fell in the park.",
+      "question": "Who ___ the grand piano in the music room when you walked past the open door?",
       "options": {
-        "A": "blew",
-        "B": "blows",
-        "C": "was blowing",
-        "D": "is blowing"
+        "A": "played",
+        "B": "did play",
+        "C": "was playing",
+        "D": "plays"
       },
       "correctAnswer": "C",
-      "explanation": "The wind blowing is the background action in progress when the sudden event ('fell') occurred, requiring the past continuous 'was blowing'."
+      "explanation": "The action was in progress at the specific moment 'when you walked past', requiring the past continuous 'was playing'."
     },
     {
       "id": 48,
       "type": "mcq",
-      "question": "___ she finish her assignment on time last week?",
+      "question": "The executive train ___ the station exactly on time yesterday morning, despite the heavy fog.",
       "options": {
-        "A": "Did",
-        "B": "Was",
-        "C": "Does",
-        "D": "Had"
+        "A": "left",
+        "B": "leaves",
+        "C": "was leaving",
+        "D": "has left"
       },
       "correctAnswer": "A",
-      "explanation": "Simple past interrogative sentences for action verbs begin with the auxiliary 'Did'."
+      "explanation": "The time marker 'yesterday morning' indicates a completed action, requiring the simple past tense 'left'."
     },
     {
       "id": 49,
       "type": "mcq",
-      "question": "They ___ the project when the electricity ___ out suddenly.",
+      "question": "We ___ dinner together when an unexpected guest suddenly ___ at the front door.",
       "options": {
-        "A": "discussed / went",
-        "B": "were discussing / was going",
-        "C": "discussed / was going",
-        "D": "were discussing / went"
+        "A": "had / knocked",
+        "B": "had / was knocking",
+        "C": "were having / was knocking",
+        "D": "were having / knocked"
       },
       "correctAnswer": "D",
-      "explanation": "'Were discussing' is the ongoing action, and 'went' is the sudden interrupting action, which is the standard structure for 'when' clauses in the past."
+      "explanation": "'Were having' is the ongoing background action, and 'knocked' is the sudden, completed interrupting action."
     },
     {
       "id": 50,
-      "type": "click_correct",
-      "question": "Click the incorrect word and correct it",
-      "sentence": "While we was walking home from school, we met our old junior high teacher.",
-      "tokens": [
-        "While we",
-        "was walking",
-        "home from school,",
-        "we met our old junior high teacher."
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "were walking"
-      ],
-      "explanation": "The plural subject 'we' requires the plural past continuous auxiliary 'were', not 'was'."
+      "type": "mcq",
+      "question": "The committee ___ the new regulations last Friday without any objections.",
+      "options": {
+        "A": "approve",
+        "B": "approved",
+        "C": "was approving",
+        "D": "have approved"
+      },
+      "correctAnswer": "B",
+      "explanation": "The time marker 'last Friday' indicates a completed action, requiring the simple past tense 'approved'."
     }
   ]
 }
