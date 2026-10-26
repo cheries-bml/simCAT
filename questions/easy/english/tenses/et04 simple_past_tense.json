@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "title": "English Simple Past Tense Proficiency Test",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 38,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Siti ___ to the traditional market with her mother yesterday morning.",
+      "options": {
+        "A": "went",
+        "B": "goes",
+        "C": "go",
+        "D": "going"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time marker 'yesterday morning' indicates a completed action in the past, requiring the simple past tense form 'went'."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She go to the library to borrow reference books yesterday.",
+      "tokens": [
+        "She",
+        "go",
+        "to the library",
+        "to borrow reference books",
+        "yesterday."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "went"
+      ],
+      "explanation": "The simple past tense of 'go' is 'went'. The time marker 'yesterday' indicates a completed past action."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Andi woke up at 4:00 AM yesterday to prepare for his physical fitness test. He drank a glass of warm water, did some light stretching, and ran around his neighborhood for 30 minutes. After that, he took a shower and ate a healthy breakfast before heading to the training center.",
+      "question": "What did Andi do immediately after running around his neighborhood?",
+      "options": {
+        "A": "He took a shower.",
+        "B": "He drank warm water.",
+        "C": "He did light stretching.",
+        "D": "He ate a healthy breakfast."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'After that, he took a shower...' which happened right after he ran around his neighborhood."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Budi ___ not watch the football match last night because he had to study for his university entrance exam.",
+      "options": {
+        "A": "does",
+        "B": "do",
+        "C": "did",
+        "D": "was"
+      },
+      "correctAnswer": "C",
+      "explanation": "The negative form of the simple past tense for all subjects uses the auxiliary 'did' + 'not' + base verb."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "The new police recruits ___ very exhausted after the 10-kilometer run last night.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "D",
+      "explanation": "The subject 'recruits' is plural, and the time marker 'last night' requires the plural simple past form of 'to be', which is 'were'."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Did the candidates played football during their free time yesterday?",
+      "tokens": [
+        "Did",
+        "the candidates",
+        "played",
+        "football during their free time",
+        "yesterday?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "play"
+      ],
+      "explanation": "In simple past interrogative sentences, the auxiliary 'did' is followed by the base form of the verb, not the past form."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "I ___ my old junior high school teacher at the mall last Sunday.",
+      "options": {
+        "A": "meeting",
+        "B": "meets",
+        "C": "meet",
+        "D": "met"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Met' is the correct irregular simple past tense form of the verb 'meet', matching the time marker 'last Sunday'."
+    },
+    {
+      "id": 8,
+      "type": "passage_mcq",
+      "passage": "Last month, Dewi decided to join a rigorous study group for the SNBT exam. She attended every session, took detailed notes, and asked the tutors many questions. Her hard work paid off when she received a high score on the mock test.",
+      "question": "Why did Dewi receive a high score on the mock test?",
+      "options": {
+        "A": "Because she studied alone at home.",
+        "B": "Because the mock test was very easy.",
+        "C": "Because she skipped the study sessions.",
+        "D": "Because she asked the tutors many questions and took detailed notes."
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage explicitly mentions her attending sessions, taking notes, and asking questions as the reasons for her high score."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "___ you finish your UTBK preparation modules last night?",
+      "options": {
+        "A": "Do",
+        "B": "Did",
+        "C": "Were",
+        "D": "Had"
+      },
+      "correctAnswer": "B",
+      "explanation": "Simple past interrogative sentences for action verbs begin with the auxiliary 'Did', followed by the subject and the base form of the verb."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "We ___ (not / eat) nasi goreng for dinner yesterday; we ordered sate instead.",
+      "options": {
+        "A": "do not eat",
+        "B": "did not ate",
+        "C": "did not eat",
+        "D": "do not ate"
+      },
+      "correctAnswer": "C",
+      "explanation": "The negative simple past tense is formed with 'did not' (or 'didn't') followed by the base form of the verb ('eat')."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She didn't knew the answer to the complex math problem on the exam.",
+      "tokens": [
+        "She",
+        "didn't",
+        "knew",
+        "the answer to the complex math problem",
+        "on the exam."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "know"
+      ],
+      "explanation": "After the auxiliary 'didn't' (did not), the verb must be in its base form ('know'), not the past form ('knew')."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "When ___ the Indonesian Independence Day proclaimed by Soekarno and Hatta?",
+      "options": {
+        "A": "was",
+        "B": "is",
+        "C": "were",
+        "D": "did"
+      },
+      "correctAnswer": "A",
+      "explanation": "The subject 'Indonesian Independence Day' is singular, and the sentence is in the passive voice in the simple past, requiring 'was'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "The officer ___ his wallet while he was walking to the police station yesterday morning.",
+      "options": {
+        "A": "loses",
+        "B": "lost",
+        "C": "lose",
+        "D": "losing"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Lost' is the correct irregular simple past tense form of 'lose', indicating a completed action in the past."
+    },
+    {
+      "id": 14,
+      "type": "passage_mcq",
+      "passage": "During the final evaluation last Friday, the cadets faced a challenging obstacle course. Many of them struggled with the rope climb, but everyone supported each other. Ultimately, the entire platoon completed the course before the sunset deadline.",
+      "question": "What was the main challenge mentioned for the cadets during the evaluation?",
+      "options": {
+        "A": "The written exam.",
+        "B": "The swimming pool.",
+        "C": "The rope climb.",
+        "D": "The running track."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'Many of them struggled with the rope climb,' identifying it as the main challenge."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "The diligent student ___ all the required documents for the state university application last week.",
+      "options": {
+        "A": "submitted",
+        "B": "submit",
+        "C": "submitting",
+        "D": "submits"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time marker 'last week' requires the regular simple past tense form, which is 'submitted'."
+    },
+    {
+      "id": 16,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Where did you bought that official uniform last month?",
+      "tokens": [
+        "Where",
+        "did you",
+        "bought",
+        "that official uniform",
+        "last month?"
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "buy"
+      ],
+      "explanation": "The auxiliary 'did' requires the base form of the verb ('buy'), not the past tense form ('bought')."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The commander ___ the troops to advance and secure the area at dawn yesterday.",
+      "options": {
+        "A": "ordered",
+        "B": "order",
+        "C": "orders",
+        "D": "ordering"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time marker 'yesterday' requires the simple past tense form 'ordered' for this regular verb."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Not only ___ he pass the academic test, but he also aced the physical examination last week.",
+      "options": {
+        "A": "do",
+        "B": "does",
+        "C": "did",
+        "D": "was"
+      },
+      "correctAnswer": "C",
+      "explanation": "In negative or restrictive inversion in the simple past tense, the auxiliary 'did' is placed before the subject."
+    },
+    {
+      "id": 19,
+      "type": "passage_mcq",
+      "passage": "Last holiday, my family and I traveled to Yogyakarta by train. We visited Borobudur Temple early in the morning to avoid the crowds. Later, we bought some traditional batik as souvenirs and enjoyed gudeg for lunch.",
+      "question": "How did the family travel to Yogyakarta?",
+      "options": {
+        "A": "By train.",
+        "B": "By car.",
+        "C": "By plane.",
+        "D": "By bus."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'my family and I traveled to Yogyakarta by train.'"
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "The applicants ___ their best efforts during the intense military drill last year.",
+      "options": {
+        "A": "gives",
+        "B": "give",
+        "C": "given",
+        "D": "gave"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Gave' is the correct irregular simple past tense form of 'give', matching the time marker 'last year'."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am not sure, but I think I see him at the campus library yesterday afternoon.",
+      "tokens": [
+        "I am not sure,",
+        "but I think I",
+        "see",
+        "him at the campus library",
+        "yesterday afternoon."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": [
+        "saw"
+      ],
+      "explanation": "The time marker 'yesterday afternoon' requires the simple past tense form of the verb 'see', which is 'saw'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "___ the candidates submit their administrative documents before the deadline last Friday?",
+      "options": {
+        "A": "Do",
+        "B": "Did",
+        "C": "Does",
+        "D": "Were"
+      },
+      "correctAnswer": "B",
+      "explanation": "The simple past interrogative form for action verbs uses the auxiliary 'Did' at the beginning of the sentence."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "My father ___ a new motorcycle for me after I graduated from high school last year.",
+      "options": {
+        "A": "buying",
+        "B": "buys",
+        "C": "bought",
+        "D": "buy"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Bought' is the correct irregular simple past tense form of 'buy', corresponding to the past time marker 'last year'."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "We ___ at home last weekend because it rained heavily and the streets flooded.",
+      "options": {
+        "A": "stay",
+        "B": "stayed",
+        "C": "staying",
+        "D": "stays"
+      },
+      "correctAnswer": "B",
+      "explanation": "The time marker 'last weekend' requires the regular simple past tense form 'stayed'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "The teacher ___ us to write a 500-word essay about our future career goals yesterday.",
+      "options": {
+        "A": "tells",
+        "B": "tell",
+        "C": "telling",
+        "D": "told"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Told' is the correct irregular simple past tense form of 'tell', matching the completed past action indicated by 'yesterday'."
+    }
+  ]
+}

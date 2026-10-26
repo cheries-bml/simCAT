@@ -3,6 +3,7 @@
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/et01 simple_present_tense.json","title":"02.Simple Present Tense"},
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/et02 present_continous_tense.json","title":"03.Present Continuous Tense"},
   {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/et03 mix_simple_continuous.json","title":"04.Simple Present With Present Continuous"},
+  {"level":"easy","group":"english","topic":"tenses","path":"questions/easy/english/tenses/et04 simple_past_tense.json","title":"04b.Simple Past Tense"},
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/eg01 basic_grammar.json","title":"05.Basic Grammar A"},
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/eg02 basic_grammar.json","title":"06.Basic Grammar B"},
   {"level":"easy","group":"english","topic":"grammar","path":"questions/easy/english/grammar/eg03 parts_of_speech.json","title":"07.Parts Of Speech"},

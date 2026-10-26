@@ -25,20 +25,20 @@
       "id": 2,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "He don't knows the answer.",
+      "sentence": "The man who sits behind don't knows the answer to the question.",
       "tokens": [
-        "He",
-        "don't",
-        "knows",
-        "the",
-        "answer."
+        "The man who sits behind",
+        "don't knows",
+        "the answer",
+        "to",
+        "the question."
       ],
       "incorrectIndex": 1,
       "correctAnswers": [
-        "doesn't",
-        "does not"
+        "doesn't know",
+        "does not know"
       ],
-      "explanation": "The third person singular subject 'He' requires 'doesn't' or 'does not' for negative sentences."
+      "explanation": "The third person singular subject 'The man' requires 'doesn't' or 'does not' for negative sentences, and 'know' should be in its base form."
     },
     {
       "id": 3,
