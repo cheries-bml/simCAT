@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "title": "English Simple Future Tense Proficiency Test",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 30,
+      "easy": 40
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "I ___ you with your UTBK preparation tomorrow afternoon.",
+      "options": {
+        "A": "will help",
+        "B": "help",
+        "C": "helped",
+        "D": "helping"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time marker 'tomorrow afternoon' indicates a future action, requiring the simple future tense 'will help'."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She will goes to the military academy next year.",
+      "tokens": [
+        "She",
+        "will goes",
+        "to the military academy",
+        "next year."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "will go"
+      ],
+      "explanation": "After the modal verb 'will', the main verb must be in its base form ('go'), not the third-person singular form ('goes')."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Next semester, the state university will introduce a new digital library system. Students will be able to access thousands of e-books directly from their smartphones. The administration will also provide free training sessions for all freshmen to ensure they can use the system effectively.",
+      "question": "What will the administration provide for freshmen?",
+      "options": {
+        "A": "Free laptops",
+        "B": "Free training sessions",
+        "C": "New dormitories",
+        "D": "Academic scholarships"
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'The administration will also provide free training sessions for all freshmen.'"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Look at those dark clouds! It ___ rain heavily soon.",
+      "options": {
+        "A": "will",
+        "B": "shall",
+        "C": "is going to",
+        "D": "goes to"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Is going to' is used for future predictions based on present evidence (the dark clouds)."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "___ you help me carry these heavy boxes to the dormitory?",
+      "options": {
+        "A": "Do",
+        "B": "Did",
+        "C": "Are",
+        "D": "Will"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Will' is used to make a polite request or ask for future assistance."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "We are go to submit our state school applications next Monday.",
+      "tokens": [
+        "We",
+        "are go to",
+        "submit our state school applications",
+        "next Monday."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "are going to"
+      ],
+      "explanation": "The correct structure for future plans or intentions is 'be + going to + base verb'. 'Are go to' is grammatically incorrect."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "If it rains tomorrow, the instructor ___ the outdoor physical training session.",
+      "options": {
+        "A": "will cancel",
+        "B": "cancel",
+        "C": "cancels",
+        "D": "canceled"
+      },
+      "correctAnswer": "A",
+      "explanation": "In a first conditional sentence, the main clause uses the simple future tense ('will cancel') to describe the future result of a possible condition."
+    },
+    {
+      "id": 8,
+      "type": "passage_mcq",
+      "passage": "Tomorrow, the new police recruits will wake up at 4:00 AM. They will run five kilometers before breakfast. After that, they will attend a lecture on criminal law and practice their marching drills.",
+      "question": "What will the recruits do before breakfast?",
+      "options": {
+        "A": "Wake up at 5:00 AM",
+        "B": "Attend a lecture",
+        "C": "Run five kilometers",
+        "D": "Practice marching drills"
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'They will run five kilometers before breakfast.'"
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "The university ___ the SNBT admission results next Friday morning.",
+      "options": {
+        "A": "announce",
+        "B": "will announce",
+        "C": "announced",
+        "D": "announces"
+      },
+      "correctAnswer": "B",
+      "explanation": "The time marker 'next Friday morning' indicates a future action, requiring the simple future tense 'will announce'."
+    },
+    {
+      "id": 10,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He will not to join the student organization this semester.",
+      "tokens": [
+        "He",
+        "will not to join",
+        "the student organization",
+        "this semester."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "will not join",
+        "won't join"
+      ],
+      "explanation": "The negative simple future tense is formed with 'will not' (or 'won't') followed directly by the base form of the verb, without 'to'."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "I think Indonesia ___ a major technological hub in Southeast Asia in the next decade.",
+      "options": {
+        "A": "became",
+        "B": "is becoming",
+        "C": "becomes",
+        "D": "will become"
+      },
+      "correctAnswer": "D",
+      "explanation": "The phrase 'in the next decade' indicates a future prediction, requiring the simple future tense 'will become'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "___ I open the window for you? It is getting hot in here.",
+      "options": {
+        "A": "Will",
+        "B": "Do",
+        "C": "Shall",
+        "D": "Did"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Shall' is traditionally used with 'I' or 'we' to make a polite offer or suggestion in the future."
+    },
+    {
+      "id": 13,
+      "type": "passage_mcq",
+      "passage": "After graduating from high school, Siti will apply for a nursing program at the state university. She believes she will get accepted because she has maintained excellent grades and volunteered at the local hospital for two years.",
+      "question": "Why does Siti believe she will get accepted?",
+      "options": {
+        "A": "She has excellent grades and volunteer experience.",
+        "B": "She has wealthy parents who can pay the tuition.",
+        "C": "She will apply next year instead.",
+        "D": "She already works as a nurse at the hospital."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states she believes she will get accepted 'because she has maintained excellent grades and volunteered at the local hospital'."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "Don't worry, the instructor ___ you the correct procedure later.",
+      "options": {
+        "A": "will show",
+        "B": "show",
+        "C": "showed",
+        "D": "shows"
+      },
+      "correctAnswer": "B",
+      "explanation": "The word 'later' indicates a future action, and 'will show' is the correct simple future tense form to express a promise or assurance."
+    },
+    {
+      "id": 15,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Are they will participate in the national science olympiad?",
+      "tokens": [
+        "Are they will",
+        "participate",
+        "in the national science olympiad?"
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "Will they"
+      ],
+      "explanation": "The interrogative form of the simple future tense begins with the modal 'Will', followed by the subject. 'Are they will' is grammatically incorrect."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "My parents ___ me a new laptop if I pass the university entrance exam.",
+      "options": {
+        "A": "buy",
+        "B": "bought",
+        "C": "will buy",
+        "D": "buying"
+      },
+      "correctAnswer": "C",
+      "explanation": "This is a first conditional sentence. The main clause requires the simple future tense ('will buy') to express a future result."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The new police chief ___ a press conference tomorrow morning to address the recent issues.",
+      "options": {
+        "A": "hold",
+        "B": "held",
+        "C": "holds",
+        "D": "will hold"
+      },
+      "correctAnswer": "D",
+      "explanation": "The time marker 'tomorrow morning' indicates a scheduled future action, requiring the simple future tense 'will hold'."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "I am sure she ___ the scholarship because her academic record is outstanding.",
+      "options": {
+        "A": "will get",
+        "B": "get",
+        "C": "got",
+        "D": "gets"
+      },
+      "correctAnswer": "A",
+      "explanation": "The phrase 'I am sure' expresses a strong future prediction, requiring the simple future tense 'will get'."
+    },
+    {
+      "id": 19,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "Unless you study harder, you will not passes the final examination.",
+      "tokens": [
+        "Unless you study harder,",
+        "you will not passes",
+        "the final examination."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "will not pass",
+        "won't pass"
+      ],
+      "explanation": "After the modal 'will not', the verb must be in its base form ('pass'), not the third-person singular form ('passes')."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "We ___ a meeting to discuss the upcoming campus event next week.",
+      "options": {
+        "A": "have",
+        "B": "will have",
+        "C": "had",
+        "D": "having"
+      },
+      "correctAnswer": "B",
+      "explanation": "The time marker 'next week' indicates a future plan, requiring the simple future tense 'will have'."
+    },
+    {
+      "id": 21,
+      "type": "passage_mcq",
+      "passage": "Tomorrow is a national holiday. Andi will visit his grandmother in the village. He will bring some fresh fruits and help her clean the house. In the evening, they will watch traditional wayang kulit together.",
+      "question": "What will Andi and his grandmother do in the evening?",
+      "options": {
+        "A": "Clean the house",
+        "B": "Eat fresh fruits",
+        "C": "Travel to the village",
+        "D": "Watch traditional wayang kulit"
+      },
+      "correctAnswer": "D",
+      "explanation": "The passage explicitly states, 'In the evening, they will watch traditional wayang kulit together.'"
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "Who ___ the keynote speech at the graduation ceremony next month?",
+      "options": {
+        "A": "deliver",
+        "B": "delivered",
+        "C": "will deliver",
+        "D": "delivers"
+      },
+      "correctAnswer": "C",
+      "explanation": "The time marker 'next month' indicates a future action. When 'who' is the subject, we use the simple future tense 'will deliver' directly."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "They ___ to the military training center by bus tomorrow afternoon.",
+      "options": {
+        "A": "will travel",
+        "B": "travel",
+        "C": "traveled",
+        "D": "traveling"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time marker 'tomorrow afternoon' indicates a future action, requiring the simple future tense 'will travel'."
+    },
+    {
+      "id": 24,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I promise I will helps you with your project next week.",
+      "tokens": [
+        "I promise",
+        "I will helps",
+        "you with your project",
+        "next week."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "will help"
+      ],
+      "explanation": "After the modal verb 'will', the main verb must be in its base form ('help'), not the third-person singular form ('helps')."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "The government ___ new regulations to improve public transportation next year.",
+      "options": {
+        "A": "implement",
+        "B": "will implement",
+        "C": "implemented",
+        "D": "implements"
+      },
+      "correctAnswer": "B",
+      "explanation": "The time marker 'next year' indicates a future action, requiring the simple future tense 'will implement'."
+    }
+  ]
+}
