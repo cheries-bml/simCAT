@@ -584,9 +584,8 @@
     },
     {
       "id": 41,
-      "type": "passage_mcq",
-      "passage": "Degrees of Comparison in Military and Civil Service Context:\n| Adjective | Comparative | Superlative |\n|-----------|-------------|-------------|\n| brave     | braver      | bravest     |\n| strict    | stricter    | strictest   |\n| good      | better      | best        |\n| bad       | worse       | worst       |\n| far       | farther     | farthest    |",
-      "question": "Based on the table, what is the comparative form of 'bad'?",
+      "type": "mcq",
+      "question": "What is the comparative form of 'bad'?",
       "options": {
         "A": "badder",
         "B": "worse",
