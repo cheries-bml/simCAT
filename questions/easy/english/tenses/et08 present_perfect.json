@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "title": "English Present Perfect Tense Test",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 45,
+      "easy": 60
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "I ___ my homework already.",
+      "options": {
+        "A": "finished",
+        "B": "have finished",
+        "C": "has finished",
+        "D": "finishing"
+      },
+      "correctAnswer": "B",
+      "explanation": "The subject 'I' requires 'have' + past participle 'finished' for the present perfect tense, and 'already' is a common time marker for this tense."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They has lived in Jakarta since 2010.",
+      "tokens": [
+        "They",
+        "has lived",
+        "in Jakarta",
+        "since 2010."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "have lived"
+      ],
+      "explanation": "The plural subject 'They' requires the auxiliary verb 'have', not 'has', in the present perfect tense."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "I ___ my keys. I can't open the door.",
+      "options": {
+        "A": "lost",
+        "B": "has lost",
+        "C": "have lost",
+        "D": "lose"
+      },
+      "correctAnswer": "C",
+      "explanation": "The present perfect 'have lost' is used to describe a past action with a present result (I can't open the door now)."
+    },
+    {
+      "id": 4,
+      "type": "passage_mcq",
+      "passage": "Budi has studied English for six years to prepare for his university entrance exam. He has passed several mock tests with high scores. Recently, he has joined a study group to improve his speaking skills.",
+      "question": "How long has Budi studied English?",
+      "options": {
+        "A": "For six years",
+        "B": "For three months",
+        "C": "Since he joined a study group",
+        "D": "Since last week"
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'Budi has studied English for six years.'"
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "We have not seen him ___ last week.",
+      "options": {
+        "A": "already",
+        "B": "yet",
+        "C": "for",
+        "D": "since"
+      },
+      "correctAnswer": "D",
+      "explanation": "'Since' is used with the present perfect tense to refer to a specific starting point in the past ('last week')."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "The government ___ new regulations for the state school entrance exam recently.",
+      "options": {
+        "A": "announce",
+        "B": "announcing",
+        "C": "has announced",
+        "D": "have announced"
+      },
+      "correctAnswer": "C",
+      "explanation": "'The government' is treated as a singular collective noun, requiring 'has' + past participle 'announced'. 'Recently' is a common present perfect time marker."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She have never went to the military academy.",
+      "tokens": [
+        "She",
+        "have never went",
+        "to the military",
+        "academy."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "has never been",
+        "has never gone"
+      ],
+      "explanation": "The third-person singular subject 'She' requires 'has', and the past participle of 'go' is 'gone' (or 'been' for visiting)."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "She ___ to Bali three times in her life.",
+      "options": {
+        "A": "was",
+        "B": "have been",
+        "C": "has been",
+        "D": "is being"
+      },
+      "correctAnswer": "C",
+      "explanation": "The third-person singular subject 'She' requires 'has' + past participle 'been' to express life experience in the present perfect tense."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "It is the first time I ___ such a difficult English test.",
+      "options": {
+        "A": "have taken",
+        "B": "has taken",
+        "C": "took",
+        "D": "take"
+      },
+      "correctAnswer": "A",
+      "explanation": "The phrase 'It is the first time' is typically followed by the present perfect tense ('have taken') to express an experience up to the present."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "The police ___ the thief already.",
+      "options": {
+        "A": "has caught",
+        "B": "have caught",
+        "C": "catch",
+        "D": "catching"
+      },
+      "correctAnswer": "B",
+      "explanation": "'The police' is a plural noun in English, so it requires the plural auxiliary verb 'have' + past participle 'caught'."
+    },
+    {
+      "id": 11,
+      "type": "passage_mcq",
+      "passage": "Officer Andi has served in the national police for ten years. He has solved many complex cases and has received two awards for his bravery. He has never taken a bribe in his entire career.",
+      "question": "What can be inferred about Officer Andi's career based on the passage?",
+      "options": {
+        "A": "He has just joined the police force.",
+        "B": "He has failed to solve complex cases.",
+        "C": "He has maintained a clean and honorable record.",
+        "D": "He has taken bribes occasionally."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states he 'has never taken a bribe in his entire career,' indicating a clean and honorable record."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "___ she finished her project yet?",
+      "options": {
+        "A": "Have",
+        "B": "Has",
+        "C": "Did",
+        "D": "Does"
+      },
+      "correctAnswer": "B",
+      "explanation": "The third-person singular subject 'she' requires the auxiliary verb 'Has' to form a present perfect question with 'yet'."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "___ they ___ the new military uniform yet?",
+      "options": {
+        "A": "Did, receive",
+        "B": "Do, receive",
+        "C": "Have, received",
+        "D": "Has, received"
+      },
+      "correctAnswer": "C",
+      "explanation": "The plural subject 'they' requires 'Have', and 'received' is the past participle, fitting the present perfect question with 'yet'."
+    },
+    {
+      "id": 14,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The student has waited for the exam results since two hours.",
+      "tokens": [
+        "The student",
+        "has waited",
+        "for the exam results",
+        "since two hours."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "for two hours."
+      ],
+      "explanation": "'Since' is used for a specific point in time, while 'for' is used for a duration of time."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "This is the best university I ___ ever ___ .",
+      "options": {
+        "A": "had, visited",
+        "B": "has, visited",
+        "C": "am, visiting",
+        "D": "have, visited"
+      },
+      "correctAnswer": "D",
+      "explanation": "The structure 'This is the best [noun] I have ever [past participle]' is a common present perfect pattern."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "___ you ever eaten rendang?",
+      "options": {
+        "A": "Have",
+        "B": "Has",
+        "C": "Did",
+        "D": "Do"
+      },
+      "correctAnswer": "A",
+      "explanation": "The subject 'you' requires the auxiliary verb 'Have' to form a present perfect question about life experience."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The headmaster ___ the new students' orientation schedule.",
+      "options": {
+        "A": "just publishes",
+        "B": "just published",
+        "C": "have just published",
+        "D": "has just published"
+      },
+      "correctAnswer": "D",
+      "explanation": "The singular subject 'The headmaster' requires 'has', and 'just published' indicates a recently completed action in the present perfect tense."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "The army ___ the new recruits for three months.",
+      "options": {
+        "A": "train",
+        "B": "training",
+        "C": "have trained",
+        "D": "has trained"
+      },
+      "correctAnswer": "D",
+      "explanation": "'The army' is a collective noun treated as singular here, requiring 'has' + past participle 'trained' for an action continuing up to the present."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "My brother ___ just ___ the kitchen.",
+      "options": {
+        "A": "has, cleaned",
+        "B": "have, cleaned",
+        "C": "had, cleaned",
+        "D": "is, cleaning"
+      },
+      "correctAnswer": "A",
+      "explanation": "The third-person singular subject 'My brother' requires 'has', and 'just' is placed between the auxiliary verb and the past participle 'cleaned'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "___ your father arrived from his business trip yet?",
+      "options": {
+        "A": "Has",
+        "B": "Have",
+        "C": "Did",
+        "D": "Does"
+      },
+      "correctAnswer": "A",
+      "explanation": "The third-person singular subject 'your father' requires the auxiliary verb 'Has' in the present perfect tense."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "I have known my best friend ___ five years.",
+      "options": {
+        "A": "since",
+        "B": "from",
+        "C": "for",
+        "D": "during"
+      },
+      "correctAnswer": "C",
+      "explanation": "'For' is used with the present perfect tense to indicate a duration of time ('five years')."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "My sister ___ her driving license, so she can drive to campus now.",
+      "options": {
+        "A": "obtains",
+        "B": "obtained",
+        "C": "have obtained",
+        "D": "has obtained"
+      },
+      "correctAnswer": "D",
+      "explanation": "The third-person singular subject 'My sister' requires 'has' + past participle 'obtained' to show a completed action with present relevance."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "We ___ each other since we were in high school.",
+      "options": {
+        "A": "have known",
+        "B": "has known",
+        "C": "knew",
+        "D": "know"
+      },
+      "correctAnswer": "A",
+      "explanation": "The subject 'We' requires 'have', and 'known' is the past participle used with 'since' to show an action starting in the past and continuing to the present."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "I am not hungry because I ___ a large meal.",
+      "options": {
+        "A": "has just eaten",
+        "B": "have just eaten",
+        "C": "just eat",
+        "D": "am just eating"
+      },
+      "correctAnswer": "B",
+      "explanation": "The subject 'I' requires 'have', and the present perfect explains the present state of not being hungry due to a recently completed action."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "I ___ this book three times, and I still find it interesting.",
+      "options": {
+        "A": "have read",
+        "B": "has read",
+        "C": "read",
+        "D": "am reading"
+      },
+      "correctAnswer": "A",
+      "explanation": "The subject 'I' requires 'have', and 'read' (past participle) is used to express repeated actions up to the present moment."
+    }
+  ]
+}

@@ -60,7 +60,7 @@
         "A": "ran / blew",
         "B": "ran / was blowing",
         "C": "were running / blew",
-        "D": "were running / was blowing"
+        "D": "were running / blowing"
       },
       "correctAnswer": "C",
       "explanation": "'Were running' is the ongoing background action, and 'blew' is the sudden, completed interrupting action."
