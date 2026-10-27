@@ -12,14 +12,23 @@
       "id": 1,
       "type": "click_correct",
       "question": "Click the incorrect word, phrase or clause and type the correct one",
+      "sentence": "By the time the board of directors convened next Tuesday morning, the restructuring committee will have completed its review of the balance sheets, assuming that the external auditors furnish the missing valuations on schedule. <No error>",
       "tokens": [
+        "By the time",
+        "the board of directors",
         "convened",
+        "next Tuesday morning,",
+        "the restructuring committee",
         "will have completed",
+        "its review of the balance sheets,",
         "assuming",
+        "that the external auditors",
         "furnish",
-        "<No error>"
+        "the missing valuations",
+        "on schedule.",
+        "<no_error>"
       ],
-      "incorrectIndex": 0,
+      "incorrectIndex": 2,
       "correctAnswers": [
         "convenes"
       ],
@@ -29,18 +38,48 @@
       "id": 2,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
+      "sentence": "If the compliance officer would have known about the subtle anomalies in the ledger prior to the regulatory audit, the company would not be facing severe statutory penalties at this moment.",
       "tokens": [
+        "If the compliance officer",
         "would have known",
+        "about the subtle anomalies",
+        "in the ledger",
         "prior to",
+        "the regulatory audit,",
+        "the company",
         "would not be facing",
+        "severe statutory",
+        "penalties",
         "at this moment",
-        "<No error>"
+        "<no_error>"
       ],
-      "incorrectIndex": 0,
+      "incorrectIndex": 1,
       "correctAnswers": [
         "had known"
       ],
       "explanation": "The third person singular subject 'The man' requires 'doesn't' or 'does not' for negative sentences, and 'know' should be in its base form."
+    },
+    {
+      "id": 3,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "If the government had not intervened in the market last year, the economy would be in a recession right now.",
+      "tokens": [
+        "If",
+        "the government",
+        "had not intervened",
+        "in the market",
+        "last year,",
+        "the economy",
+        "would be",
+        "in a recession right now",
+        "<no_error>"
+      ],
+      "incorrectIndex": -1,
+      "correctAnswers": [
+        "<no_error>"
+      ],
+      "explanation": "The sentences is grammatically correct and doesn't need any correction."
     }
   ]
 }
