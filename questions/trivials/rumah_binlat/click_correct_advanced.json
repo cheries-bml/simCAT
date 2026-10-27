@@ -12,7 +12,6 @@
       "id": 1,
       "type": "click_correct",
       "question": "Click the incorrect word, phrase or clause and type the correct one",
-      "sentence": "By the time the board of directors convened next Tuesday morning, the restructuring committee will have completed its review of the balance sheets, assuming that the external auditors furnish the missing valuations on schedule. <No error>",
       "tokens": [
         "convened",
         "will have completed",
@@ -30,7 +29,6 @@
       "id": 2,
       "type": "click_correct",
       "question": "Click the incorrect word and correct it",
-      "sentence": "If the compliance officer would have known about the subtle anomalies in the ledger prior to the regulatory audit, the company would not be facing severe statutory penalties at this moment.",
       "tokens": [
         "would have known",
         "prior to",
