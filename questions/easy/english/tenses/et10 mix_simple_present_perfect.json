@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "title": "English Simple Present and Present Perfect Tense Test",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 75,
+      "easy": 100
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Andi usually ___ coffee, but he ___ tea every morning this week.",
+      "options": {
+        "A": "drink / has drank",
+        "B": "drinks / has drunk",
+        "C": "drank / has drunk",
+        "D": "drinks / drank"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Usually' indicates a habit (Simple Present: drinks). 'This week' with a repeated action up to now indicates Present Perfect (has drunk)."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She go to the library every day, and she has read ten books this month.",
+      "tokens": [
+        "She go",
+        "to the library every day,",
+        "and she has read",
+        "ten books this month."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "She goes"
+      ],
+      "explanation": "The third-person singular subject 'She' requires the simple present verb form 'goes' for a daily habit."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Officer Budi is a dedicated member of the police force. He wakes up at 4:00 AM every day to exercise. He has served in the national police for ten years and has received two awards for bravery. He always checks his equipment before his shift, and he has never missed a day of work.",
+      "question": "What can be inferred about Officer Budi's work ethic?",
+      "options": {
+        "A": "He occasionally skips his morning exercise.",
+        "B": "He has missed work due to illness.",
+        "C": "He is highly disciplined and reliable.",
+        "D": "He has only served for five years."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage states he 'always checks his equipment' and 'has never missed a day of work,' indicating high discipline and reliability."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "I ___ my keys every day, but I ___ them twice this week!",
+      "options": {
+        "A": "lose / have lost",
+        "B": "lost / have lost",
+        "C": "lose / lost",
+        "D": "am losing / have lost"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Every day' indicates a simple present habit ('lose'). 'Twice this week' indicates a present perfect experience ('have lost')."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "The military academy ___ at 6:00 AM every day, and the recruits ___ three modules so far.",
+      "options": {
+        "A": "starts / have completed",
+        "B": "start / has completed",
+        "C": "started / have completed",
+        "D": "starts / completed"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Every day' requires simple present ('starts') for a schedule. 'So far' requires present perfect ('have completed')."
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The sun rise in the east, and scientists have proven this fact for centuries.",
+      "tokens": [
+        "The sun rise",
+        "in the east,",
+        "and scientists have proven",
+        "this fact for centuries."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "The sun rises"
+      ],
+      "explanation": "The singular subject 'The sun' requires the simple present verb form 'rises' to state a general scientific fact."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "___ you usually eat nasi goreng for breakfast, or ___ you ever tried bubur ayam?",
+      "options": {
+        "A": "Do / did",
+        "B": "Are / have",
+        "C": "Do / have",
+        "D": "Does / has"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Usually' triggers simple present ('Do'). 'Ever' triggers present perfect ('have')."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "She ___ as a teacher for five years, and she ___ her students very well.",
+      "options": {
+        "A": "works / knew",
+        "B": "has worked / knows",
+        "C": "worked / knows",
+        "D": "has worked / knew"
+      },
+      "correctAnswer": "B",
+      "explanation": "'For five years' up to now requires present perfect ('has worked'). Knowing them is a current fact, requiring simple present ('knows')."
+    },
+    {
+      "id": 9,
+      "type": "passage_mcq",
+      "passage": "Siti is preparing for the SNBT university entrance exam. She studies mathematics every evening. She has joined a study group to improve her skills. Her friends say she works very hard, and she has already finished three practice tests this week.",
+      "question": "What has Siti accomplished recently regarding her exam preparation?",
+      "options": {
+        "A": "She has finished three practice tests.",
+        "B": "She studies mathematics every evening.",
+        "C": "She has joined a study group.",
+        "D": "She works very hard."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly uses the present perfect 'has already finished' to describe her recent accomplishment this week."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Water ___ at 100 degrees Celsius, and scientists ___ this fact since the 18th century.",
+      "options": {
+        "A": "boil / have known",
+        "B": "boils / knew",
+        "C": "boils / have known",
+        "D": "boiled / have known"
+      },
+      "correctAnswer": "C",
+      "explanation": "A scientific fact requires simple present ('boils'). 'Since the 18th century' requires present perfect ('have known')."
+    },
+    {
+      "id": 11,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "My father work in a bank, and he has saved enough money for my university tuition.",
+      "tokens": [
+        "My father work",
+        "in a bank,",
+        "and he has saved",
+        "enough money for my university tuition."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "My father works"
+      ],
+      "explanation": "The third-person singular subject 'My father' requires the simple present verb form 'works' for a permanent situation or fact."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "They ___ to the gym three times a week, and they ___ significant progress since January.",
+      "options": {
+        "A": "went / have made",
+        "B": "go / made",
+        "C": "go / have made",
+        "D": "are going / have made"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Three times a week' indicates a simple present habit ('go'). 'Since January' indicates present perfect ('have made')."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "___ the train always arrive on time? Yes, and it ___ never delayed my schedule.",
+      "options": {
+        "A": "Does / has",
+        "B": "Do / has",
+        "C": "Does / have",
+        "D": "Did / has"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Always' triggers simple present question form ('Does'). 'Never' with life experience up to now triggers present perfect ('has')."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "I ___ English every evening, and I ___ my vocabulary significantly this semester.",
+      "options": {
+        "A": "studied / have improved",
+        "B": "study / have improved",
+        "C": "study / improved",
+        "D": "am studying / have improved"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Every evening' requires simple present ('study'). 'This semester' (unfinished time) requires present perfect ('have improved')."
+    },
+    {
+      "id": 15,
+      "type": "passage_mcq",
+      "passage": "Cadet Rina trains at the military academy. She runs five kilometers every morning. She has improved her stamina remarkably over the past six months. Her instructors note that she maintains perfect posture, and she has never failed a physical test.",
+      "question": "What is true about Cadet Rina's physical performance?",
+      "options": {
+        "A": "She runs ten kilometers every morning.",
+        "B": "She has failed a physical test once.",
+        "C": "She has improved her stamina over the past six months.",
+        "D": "She maintains perfect posture only occasionally."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states she 'has improved her stamina remarkably over the past six months.'"
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "He ___ his uniform every night, and he ___ it perfectly clean for the inspection tomorrow.",
+      "options": {
+        "A": "irons / has kept",
+        "B": "iron / has kept",
+        "C": "irons / kept",
+        "D": "has ironed / keeps"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Every night' requires simple present ('irons'). The result leading up to tomorrow requires present perfect ('has kept')."
+    },
+    {
+      "id": 17,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The earth revolve around the sun, and astronomers have observed this for millennia.",
+      "tokens": [
+        "The earth revolve",
+        "around the sun,",
+        "and astronomers have observed",
+        "this for millennia."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "The earth revolves"
+      ],
+      "explanation": "The singular subject 'The earth' requires the simple present verb form 'revolves' to state a scientific fact."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "We ___ a meeting every Monday, and we ___ three new policies so far this year.",
+      "options": {
+        "A": "held / have implemented",
+        "B": "hold / implemented",
+        "C": "hold / have implemented",
+        "D": "are holding / have implemented"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Every Monday' requires simple present ('hold'). 'So far this year' requires present perfect ('have implemented')."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "___ your sister always forget her keys? Yes, and she ___ them in the car twice this week.",
+      "options": {
+        "A": "Do / has left",
+        "B": "Does / has left",
+        "C": "Does / left",
+        "D": "Is / has left"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Always' with third-person singular requires 'Does'. 'Twice this week' requires present perfect 'has left'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "The library ___ at 8:00 AM, and I ___ there every day since I started university.",
+      "options": {
+        "A": "open / have gone",
+        "B": "opens / went",
+        "C": "opens / have gone",
+        "D": "opened / have gone"
+      },
+      "correctAnswer": "C",
+      "explanation": "A fixed schedule requires simple present ('opens'). 'Since I started' requires present perfect ('have gone')."
+    },
+    {
+      "id": 21,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "My friends plays football every Sunday, and they have won five tournaments this year.",
+      "tokens": [
+        "My friends plays",
+        "football every Sunday,",
+        "and they have won",
+        "five tournaments this year."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "My friends play"
+      ],
+      "explanation": "The plural subject 'My friends' requires the simple present verb form 'play' for a regular habit."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "She ___ very hard, and she ___ the top score in every exam this year.",
+      "options": {
+        "A": "studies / achieved",
+        "B": "studies / has achieved",
+        "C": "studied / has achieved",
+        "D": "is studying / achieved"
+      },
+      "correctAnswer": "B",
+      "explanation": "A general fact about her effort requires simple present ('studies'). 'This year' (unfinished time) requires present perfect ('has achieved')."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "___ you know the rules? I ___ them already, but I still made a mistake.",
+      "options": {
+        "A": "Do / have read",
+        "B": "Does / have read",
+        "C": "Are / read",
+        "D": "Do / read"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Do you know' is simple present for current state. 'Have read' is present perfect indicating completion before the present moment."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "The police ___ this area every night, and they ___ no suspicious activity so far.",
+      "options": {
+        "A": "patrol / found",
+        "B": "patrols / have found",
+        "C": "patrol / have found",
+        "D": "are patrolling / have found"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Every night' requires simple present ('patrol'). 'So far' requires present perfect ('have found')."
+    },
+    {
+      "id": 25,
+      "type": "passage_mcq",
+      "passage": "Dimas is a high school graduate aiming for a state university. He reads a book every week. He has expanded his knowledge greatly this year. His parents support him fully, and they have saved money for his tuition since he was born.",
+      "question": "What have Dimas's parents done for his education?",
+      "options": {
+        "A": "They read a book every week.",
+        "B": "They have expanded his knowledge.",
+        "C": "They have saved money for his tuition since he was born.",
+        "D": "They aim for a state university."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states that his parents 'have saved money for his tuition since he was born.'"
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "He ___ his teeth twice a day, and he ___ no cavities since childhood.",
+      "options": {
+        "A": "brush / has had",
+        "B": "brushes / has had",
+        "C": "brushes / had",
+        "D": "has brushed / has"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Twice a day' requires simple present ('brushes'). 'Since childhood' requires present perfect ('has had')."
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The train leave at 7:00 PM every day, and I have taken it many times.",
+      "tokens": [
+        "The train leave",
+        "at 7:00 PM every day,",
+        "and I have taken it",
+        "many times."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "The train leaves"
+      ],
+      "explanation": "The singular subject 'The train' requires the simple present verb form 'leaves' for a fixed schedule."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "___ your parents live in Jakarta? Yes, and they ___ there for over twenty years.",
+      "options": {
+        "A": "Do / lived",
+        "B": "Does / have lived",
+        "C": "Do / have lived",
+        "D": "Are / have lived"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Your parents' (plural) requires 'Do' for simple present. 'For over twenty years' requires present perfect 'have lived'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "I ___ breakfast at 7:00 AM, and I ___ already ___ my morning chores.",
+      "options": {
+        "A": "eat / have / finished",
+        "B": "ate / have / finished",
+        "C": "eat / had / finished",
+        "D": "am eating / have / finished"
+      },
+      "correctAnswer": "A",
+      "explanation": "A daily routine time ('at 7:00 AM') requires simple present ('eat'). 'Already' requires present perfect ('have finished')."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "The sun ___ in the west, and humans ___ this fact since ancient times.",
+      "options": {
+        "A": "set / have known",
+        "B": "sets / have known",
+        "C": "sets / knew",
+        "D": "has set / have known"
+      },
+      "correctAnswer": "B",
+      "explanation": "A universal fact requires simple present ('sets'). 'Since ancient times' requires present perfect ('have known')."
+    },
+    {
+      "id": 31,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She don't like spicy food, but she has eaten rendang three times this month.",
+      "tokens": [
+        "She don't like",
+        "spicy food,",
+        "but she has eaten",
+        "rendang three times this month."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "She doesn't like"
+      ],
+      "explanation": "The third-person singular subject 'She' requires 'doesn't' (does not) for negative simple present sentences."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "We ___ English classes on Tuesdays, and we ___ a lot of new grammar rules this semester.",
+      "options": {
+        "A": "had / learned",
+        "B": "have / learned",
+        "C": "have / have learned",
+        "D": "are having / have learned"
+      },
+      "correctAnswer": "C",
+      "explanation": "'On Tuesdays' indicates a regular schedule (simple present 'have'). 'This semester' indicates present perfect ('have learned')."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "___ the doctor usually work on weekends? No, but he ___ several emergency calls this month.",
+      "options": {
+        "A": "Does / has answered",
+        "B": "Do / has answered",
+        "C": "Does / answered",
+        "D": "Is / has answered"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Usually' with a singular subject requires 'Does'. 'This month' (unfinished time) requires present perfect 'has answered'."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "My phone ___ a lot of battery, and I ___ it three times today already.",
+      "options": {
+        "A": "drain / have charged",
+        "B": "drains / have charged",
+        "C": "drains / charged",
+        "D": "has drained / have charged"
+      },
+      "correctAnswer": "B",
+      "explanation": "A general fact about the phone requires simple present ('drains'). 'Today already' requires present perfect ('have charged')."
+    },
+    {
+      "id": 35,
+      "type": "passage_mcq",
+      "passage": "Officer Sari works at the local police station. She patrols the neighborhood every evening. She has built strong relationships with the residents over the past two years. She knows everyone by name, and she has resolved many minor disputes peacefully.",
+      "question": "What is the result of Officer Sari's evening patrols?",
+      "options": {
+        "A": "She has built strong relationships with the residents.",
+        "B": "She works at the local police station.",
+        "C": "She knows everyone by name.",
+        "D": "She patrols the neighborhood."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage uses the present perfect 'has built strong relationships' to describe the accumulated result of her ongoing evening patrols."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "They ___ the flag every morning, and they ___ it without fail since the academy started.",
+      "options": {
+        "A": "raise / raised",
+        "B": "raises / have raised",
+        "C": "raise / have raised",
+        "D": "have raised / raise"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Every morning' requires simple present ('raise'). 'Since the academy started' requires present perfect ('have raised')."
+    },
+    {
+      "id": 37,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He walk to school every day, and he has never been late this semester.",
+      "tokens": [
+        "He walk",
+        "to school every day,",
+        "and he has never been late",
+        "this semester."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "He walks"
+      ],
+      "explanation": "The third-person singular subject 'He' requires the simple present verb form 'walks' for a daily habit."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "___ you usually drink coffee? No, but I ___ it twice this week to stay awake.",
+      "options": {
+        "A": "Are / have drunk",
+        "B": "Do / drank",
+        "C": "Do / have drunk",
+        "D": "Does / have drunk"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Usually' requires simple present 'Do'. 'Twice this week' requires present perfect 'have drunk'."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "The earth ___ round, and scientists ___ this for centuries.",
+      "options": {
+        "A": "is / knew",
+        "B": "is / have known",
+        "C": "was / have known",
+        "D": "is / know"
+      },
+      "correctAnswer": "B",
+      "explanation": "A permanent fact requires simple present ('is'). 'For centuries' requires present perfect ('have known')."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "She ___ her homework before dinner, and she ___ it early every day this week.",
+      "options": {
+        "A": "does / finished",
+        "B": "do / has finished",
+        "C": "does / has finished",
+        "D": "has done / finishes"
+      },
+      "correctAnswer": "C",
+      "explanation": "A daily routine requires simple present ('does'). 'Every day this week' (leading up to now) requires present perfect ('has finished')."
+    },
+    {
+      "id": 41,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The store open at 9:00 AM, and the manager has been here since 8:00 AM.",
+      "tokens": [
+        "The store open",
+        "at 9:00 AM,",
+        "and the manager has been here",
+        "since 8:00 AM."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "The store opens"
+      ],
+      "explanation": "The singular subject 'The store' requires the simple present verb form 'opens' for a fixed schedule."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "I ___ to the office by bus, and I ___ this route for five years.",
+      "options": {
+        "A": "go / have taken",
+        "B": "goes / have taken",
+        "C": "go / took",
+        "D": "went / have taken"
+      },
+      "correctAnswer": "A",
+      "explanation": "A regular habit requires simple present ('go'). 'For five years' requires present perfect ('have taken')."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "___ your brother play the guitar? Yes, and he ___ three new songs this month.",
+      "options": {
+        "A": "Does / learned",
+        "B": "Do / has learned",
+        "C": "Does / has learned",
+        "D": "Is / has learned"
+      },
+      "correctAnswer": "C",
+      "explanation": "Third-person singular requires 'Does' for simple present. 'This month' requires present perfect 'has learned'."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "The military ___ strict rules, and the recruits ___ them carefully since day one.",
+      "options": {
+        "A": "have / followed",
+        "B": "has / have followed",
+        "C": "has / followed",
+        "D": "have / have followed"
+      },
+      "correctAnswer": "B",
+      "explanation": "'The military' is a collective noun treated as singular here ('has'). 'Since day one' requires present perfect ('have followed')."
+    },
+    {
+      "id": 45,
+      "type": "passage_mcq",
+      "passage": "Anton is a diligent student. He reviews his notes every night. He has maintained a perfect attendance record this year. His teachers appreciate his effort, and he has submitted all his assignments on time.",
+      "question": "What has Anton achieved regarding his assignments?",
+      "options": {
+        "A": "He reviews his notes every night.",
+        "B": "He has maintained a perfect attendance record.",
+        "C": "He has submitted all his assignments on time.",
+        "D": "His teachers appreciate his effort."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states he 'has submitted all his assignments on time,' which is his achievement regarding assignments."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "He ___ a shower every morning, and he ___ his hair with a new shampoo this week.",
+      "options": {
+        "A": "takes / has washed",
+        "B": "take / has washed",
+        "C": "takes / washed",
+        "D": "has taken / washes"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Every morning' requires simple present ('takes'). 'This week' requires present perfect ('has washed')."
+    },
+    {
+      "id": 47,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "My sister study medicine, and she has passed all her exams so far.",
+      "tokens": [
+        "My sister study",
+        "medicine,",
+        "and she has passed",
+        "all her exams so far."
+      ],
+      "incorrectIndex": 0,
+      "correctAnswers": [
+        "My sister studies"
+      ],
+      "explanation": "The third-person singular subject 'My sister' requires the simple present verb form 'studies' for a current, ongoing fact or habit."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "___ it rain a lot in Jakarta? Yes, and it ___ heavily three times this week.",
+      "options": {
+        "A": "Does / rained",
+        "B": "Do / has rained",
+        "C": "Does / has rained",
+        "D": "Is / has rained"
+      },
+      "correctAnswer": "C",
+      "explanation": "Asking about a general climate fact requires simple present 'Does'. 'Three times this week' requires present perfect 'has rained'."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "We ___ our grandparents every Sunday, and we ___ them since I was a child.",
+      "options": {
+        "A": "visit / have visited",
+        "B": "visits / have visited",
+        "C": "visit / visited",
+        "D": "visited / have visited"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Every Sunday' requires simple present ('visit'). 'Since I was a child' requires present perfect ('have visited')."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "The exam ___ at 8:00 AM sharp, and the proctor ___ the instructions already.",
+      "options": {
+        "A": "start / has read",
+        "B": "starts / has read",
+        "C": "starts / read",
+        "D": "started / has read"
+      },
+      "correctAnswer": "B",
+      "explanation": "A fixed schedule requires simple present ('starts'). 'Already' indicates a completed action with present relevance, requiring present perfect ('has read')."
+    }
+  ]
+}

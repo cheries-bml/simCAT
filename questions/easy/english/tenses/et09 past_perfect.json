@@ -183,13 +183,14 @@
         "The team",
         "had already left",
         "the stadium",
-        "when the rain has started."
+        "when the rain started."
       ],
       "incorrectIndex": 3,
       "correctAnswers": [
-        "when the rain had started."
+        "when the rain started.",
+        "when the rain started"
       ],
-      "explanation": "Both actions occurred in the past, and the rain starting is a past event. It should be 'had started' to maintain past perfect consistency or 'started' for simple past, but 'has started' (present perfect) is incorrect here."
+      "explanation": "Both actions occurred in the past, and the rain starting is a past event. It should be 'started' for simple past, but 'has started' (present perfect) is incorrect here."
     },
     {
       "id": 14,
