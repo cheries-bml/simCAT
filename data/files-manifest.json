@@ -1,8 +1,10 @@
 [
   {"group":"english","topic":"info","name":"English Learning Syllabus.pdf","path":"files/english/info/English Learning Syllabus.pdf","type":"pdf"},
-  {"group":"english","topic":"tenses","name":"Present Continuous.pdf","path":"files/english/tenses/Present_Continuous_Tense.pdf","type":"pdf"},
-  {"group":"english","topic":"tenses","name":"Simple Present.pdf","path":"files/english/tenses/Simple_Present_Tense.pdf","type":"pdf"},
-  {"group":"english","topic":"grammar","name":"Parts of Speech.pdf","path":"files/english/grammar/Parts of Speech.pdf","type":"pdf"},
-  {"group":"english","topic":"grammar","name":"Basic English Grammar.pdf","path":"files/english/grammar/Basic English Grammar.pdf","type":"pdf"},
+  {"group":"english","topic":"references","name":"01.Basic Vocabulary.pdf","path":"files/english/references/English Vocabulary.pdf","type":"pdf"},
+  {"group":"english","topic":"grammar","name":"02.Parts of Speech.pdf","path":"files/english/grammar/Parts of Speech.pdf","type":"pdf"},
+  {"group":"english","topic":"grammar","name":"03.Basic English Grammar.pdf","path":"files/english/grammar/Basic English Grammar.pdf","type":"pdf"},
+  {"group":"english","topic":"tenses","name":"11.Simple Present & Present Continuous Tense.pdf","path":"files/english/tenses/Simple_Present_Continuous.pdf","type":"pdf"},
+  {"group":"english","topic":"tenses","name":"12.Simple Past & Past Continuous Tense.pdf","path":"files/english/tenses/Simple_Past_Continuous.pdf","type":"pdf"},
+  {"group":"english","topic":"grammar","name":"30.Subject Verb Agreement.pdf","path":"files/english/grammar/Subject Verb Agreement.pdf","type":"pdf"},
   {"group":"rumah binlat","topic":"info","name":"Rumah Binlat Profile.md","path":"files/rumah binlat/info/rb_profile.md","type":"md"}
 ]
