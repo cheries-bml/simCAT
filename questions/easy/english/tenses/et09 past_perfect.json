@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "title": "English Past Perfect Tense Test",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 40,
+      "easy": 55
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "By the time the police arrived, the thief ___ the scene.",
+      "options": {
+        "A": "has escaped",
+        "B": "had escaped",
+        "C": "escaped",
+        "D": "was escaping"
+      },
+      "correctAnswer": "B",
+      "explanation": "The past perfect tense ('had escaped') is used to describe an action that was completed before another action in the past ('arrived')."
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She had went to the market before it started raining.",
+      "tokens": [
+        "She",
+        "had went",
+        "to the market",
+        "before it started raining."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had gone"
+      ],
+      "explanation": "The past perfect tense requires 'had' + the past participle form of the verb. The past participle of 'go' is 'gone', not 'went'."
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Rina was very nervous during her university entrance interview. She had prepared for weeks, but she had forgotten to bring her identification card. Fortunately, the officer had seen her name on the list and allowed her to proceed after verifying her identity.",
+      "question": "Why was Rina allowed to proceed with the interview?",
+      "options": {
+        "A": "She had prepared for weeks.",
+        "B": "She had brought her identification card.",
+        "C": "The officer had seen her name on the list.",
+        "D": "She had arrived early."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states that the officer 'had seen her name on the list', which is the reason she was allowed to proceed."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Hardly had I ___ my homework when the lights went out.",
+      "options": {
+        "A": "finishing",
+        "B": "finishes",
+        "C": "finish",
+        "D": "finished"
+      },
+      "correctAnswer": "D",
+      "explanation": "The structure 'Hardly had + subject + past participle' is an advanced inversion used to show one past action immediately following another."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "They ___ the movie before we got to the cinema.",
+      "options": {
+        "A": "had watched",
+        "B": "have watched",
+        "C": "watch",
+        "D": "were watching"
+      },
+      "correctAnswer": "A",
+      "explanation": "The past perfect 'had watched' indicates the action was completed before another past action ('got to the cinema')."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "The soldiers realized that they ___ the wrong map by their commander.",
+      "options": {
+        "A": "were given",
+        "B": "have been given",
+        "C": "had gave",
+        "D": "had been given"
+      },
+      "correctAnswer": "D",
+      "explanation": "This requires the past perfect passive voice ('had been' + past participle 'given') to show an action completed before another past action."
+    },
+    {
+      "id": 7,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "After he had ate dinner, he went to sleep immediately.",
+      "tokens": [
+        "After he",
+        "had ate",
+        "dinner,",
+        "he went to sleep immediately."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had eaten"
+      ],
+      "explanation": "The past participle of 'eat' is 'eaten'. The correct past perfect form is 'had eaten'."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "I didn't recognize her because I ___ her since we were in elementary school.",
+      "options": {
+        "A": "did not see",
+        "B": "have not seen",
+        "C": "had not seen",
+        "D": "was not seeing"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect 'had not seen' is used to describe a state that continued up to a specific point in the past ('didn't recognize')."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "___ you finished your report before the deadline yesterday?",
+      "options": {
+        "A": "Had",
+        "B": "Have",
+        "C": "Has",
+        "D": "Did"
+      },
+      "correctAnswer": "A",
+      "explanation": "The past perfect question form uses 'Had' + subject + past participle to ask about an action completed before a specific past time."
+    },
+    {
+      "id": 10,
+      "type": "passage_mcq",
+      "passage": "Before the national university entrance exam (SNBT), Budi had studied mathematics every night for three months. He had solved hundreds of practice problems. However, on the day of the exam, he realized he had left his calculator at home. Despite this, he managed to finish the test on time.",
+      "question": "What had Budi done before the day of the exam?",
+      "options": {
+        "A": "He had bought a new calculator.",
+        "B": "He had solved hundreds of practice problems.",
+        "C": "He had failed his mathematics class.",
+        "D": "He had slept for ten hours."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'He had solved hundreds of practice problems' before the exam day."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "No sooner had the commander ___ the order than the troops moved out.",
+      "options": {
+        "A": "give",
+        "B": "gave",
+        "C": "given",
+        "D": "giving"
+      },
+      "correctAnswer": "C",
+      "explanation": "The structure 'No sooner had + subject + past participle' requires the past participle 'given' to indicate an immediate sequence of past events."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "She was exhausted because she ___ for the police academy physical test all week.",
+      "options": {
+        "A": "has trained",
+        "B": "had trained",
+        "C": "trained",
+        "D": "was training"
+      },
+      "correctAnswer": "B",
+      "explanation": "The past perfect 'had trained' explains the cause of a past state ('was exhausted') by referring to an action completed before it."
+    },
+    {
+      "id": 13,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The team had already left the stadium when the rain has started.",
+      "tokens": [
+        "The team",
+        "had already left",
+        "the stadium",
+        "when the rain has started."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": [
+        "when the rain had started."
+      ],
+      "explanation": "Both actions occurred in the past, and the rain starting is a past event. It should be 'had started' to maintain past perfect consistency or 'started' for simple past, but 'has started' (present perfect) is incorrect here."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "We ___ to Bali twice before we moved to Jakarta in 2020.",
+      "options": {
+        "A": "travel",
+        "B": "have traveled",
+        "C": "had traveled",
+        "D": "were traveling"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect 'had traveled' is used for experiences that occurred before another specific past event ('moved to Jakarta in 2020')."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "By the end of last year, the new recruit ___ three different martial arts.",
+      "options": {
+        "A": "had mastered",
+        "B": "masters",
+        "C": "has mastered",
+        "D": "was mastering"
+      },
+      "correctAnswer": "A",
+      "explanation": "'By the end of last year' is a clear time marker for the past perfect tense, indicating completion before a specific past time."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "The confidential documents ___ before the manager arrived at the office.",
+      "options": {
+        "A": "were signing",
+        "B": "have been signed",
+        "C": "had signed",
+        "D": "had been signed"
+      },
+      "correctAnswer": "D",
+      "explanation": "The past perfect passive ('had been signed') is required because the documents received the action before another past action ('arrived')."
+    },
+    {
+      "id": 17,
+      "type": "passage_mcq",
+      "passage": "The detective arrived at the crime scene at midnight. The window had been broken, and the safe had been emptied. The security guard stated that he had heard a loud noise around 10:00 PM, but he had not checked the room until midnight.",
+      "question": "What had happened before the security guard checked the room?",
+      "options": {
+        "A": "The window had been broken and the safe emptied.",
+        "B": "The detective had arrived.",
+        "C": "The police had arrested the thief.",
+        "D": "The guard had called his supervisor."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage uses the past perfect passive ('had been broken', 'had been emptied') to describe events that occurred before the guard's past action of checking the room."
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I had never saw such a beautiful sunset before that day.",
+      "tokens": [
+        "I",
+        "had never saw",
+        "such a beautiful sunset",
+        "before that day."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had never seen"
+      ],
+      "explanation": "The past participle of 'see' is 'seen'. The correct past perfect form is 'had never seen'."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "He failed the history test because he ___ the material properly.",
+      "options": {
+        "A": "does not review",
+        "B": "did not review",
+        "C": "has not reviewed",
+        "D": "had not reviewed"
+      },
+      "correctAnswer": "D",
+      "explanation": "The past perfect 'had not reviewed' explains the reason for a past result ('failed') by referring to an action that was not completed before it."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "When I woke up, my brother ___ already ___ breakfast.",
+      "options": {
+        "A": "was, eating",
+        "B": "did, eat",
+        "C": "had, eaten",
+        "D": "has, eaten"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect 'had already eaten' shows that the action of eating breakfast was completed before the past action of waking up."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Rarely ___ anyone achieved such a high score in the military academy entrance exam before him.",
+      "options": {
+        "A": "had",
+        "B": "has",
+        "C": "did",
+        "D": "was"
+      },
+      "correctAnswer": "A",
+      "explanation": "Negative adverbs like 'Rarely' at the beginning of a sentence trigger inversion. The past perfect 'had anyone achieved' is correct for an action before a past reference point."
+    },
+    {
+      "id": 22,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "They had took the wrong turn, so they arrived late to the academy.",
+      "tokens": [
+        "They",
+        "had took",
+        "the wrong turn,",
+        "so they arrived late to the academy."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "had taken"
+      ],
+      "explanation": "The past participle of 'take' is 'taken'. The correct past perfect form is 'had taken'."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "The teacher asked if we ___ our assignments before the holiday.",
+      "options": {
+        "A": "submit",
+        "B": "had submitted",
+        "C": "submitted",
+        "D": "have submitted"
+      },
+      "correctAnswer": "B",
+      "explanation": "In reported speech, when the main verb is in the past ('asked'), the original present perfect or simple past shifts to the past perfect ('had submitted') to show the action happened before the asking."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "I couldn't buy the textbook because I ___ my wallet at home.",
+      "options": {
+        "A": "was leaving",
+        "B": "have left",
+        "C": "left",
+        "D": "had left"
+      },
+      "correctAnswer": "D",
+      "explanation": "The past perfect 'had left' indicates the action of leaving the wallet happened before the past inability to buy the textbook ('couldn't buy')."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "By the time the new regulations were implemented, the committee ___ several drafts.",
+      "options": {
+        "A": "reviews",
+        "B": "had reviewed",
+        "C": "has reviewed",
+        "D": "was reviewing"
+      },
+      "correctAnswer": "B",
+      "explanation": "'By the time' followed by a simple past verb ('were implemented') requires the past perfect ('had reviewed') in the main clause to show prior completion."
+    }
+  ]
+}
