@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "title": "Intermediate Grammar Test (B1-B2) - Sentence Correction",
+    "description": "A 30-question error identification test designed for intermediate English learners, featuring contexts relatable to Indonesian participants.",
+    "timeLimits": {
+      "fast": 25,
+      "normal": 40,
+      "easy": 60
+    }
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction. Choose No Error if correct.",
+      "sentence": "My brother and sister is going to the market every Sunday.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My brother and sister", "clickable": false},
+        {"id": "s1", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"]},
+        {"id": "s2", "text": "going to the market every Sunday.", "clickable": false}
+      ],
+      "explanation": "The compound subject 'My brother and sister' is plural and requires the plural verb 'are'."
+    },
+    {
+      "id": "q2",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "We will meet at the coffee shop in Monday morning.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "We will meet at the coffee shop", "clickable": false},
+        {"id": "s1", "text": "in", "clickable": true, "isError": true, "correctAnswers": ["on"]},
+        {"id": "s2", "text": "Monday morning.", "clickable": false}
+      ],
+      "explanation": "Days of the week and specific parts of days require the preposition 'on'."
+    },
+    {
+      "id": "q3",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "She gave me some good advices about my career.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She gave me some good", "clickable": false},
+        {"id": "s1", "text": "advices", "clickable": true, "isError": true, "correctAnswers": ["advice"]},
+        {"id": "s2", "text": "about my career.", "clickable": false}
+      ],
+      "explanation": "'Advice' is an uncountable noun and does not take an 's'."
+    },
+    {
+      "id": "q4",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "He drives very careful on the busy streets of Jakarta.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "He drives very", "clickable": false},
+        {"id": "s1", "text": "careful", "clickable": true, "isError": true, "correctAnswers": ["carefully"]},
+        {"id": "s2", "text": "on the busy streets of Jakarta.", "clickable": false}
+      ],
+      "explanation": "An adverb ('carefully') is needed to modify the verb 'drives', not an adjective."
+    },
+    {
+      "id": "q5",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I have visited Bali last year with my family.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I", "clickable": false},
+        {"id": "s1", "text": "have visited", "clickable": true, "isError": true, "correctAnswers": ["visited"]},
+        {"id": "s2", "text": "Bali last year with my family.", "clickable": false}
+      ],
+      "explanation": "Specific past time markers like 'last year' require the simple past tense, not the present perfect."
+    },
+    {
+      "id": "q6",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "She is an honest person who always tells truth.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She is an honest person who always tells", "clickable": false},
+        {"id": "s1", "text": "truth.", "clickable": true, "isError": true, "correctAnswers": ["the truth."]}
+      ],
+      "explanation": "The noun 'truth' requires the definite article 'the' in this context."
+    },
+    {
+      "id": "q7",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "If it will rain tomorrow, we will cancel the picnic.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If it", "clickable": false},
+        {"id": "s1", "text": "will rain", "clickable": true, "isError": true, "correctAnswers": ["rains"]},
+        {"id": "s2", "text": "tomorrow, we will cancel the picnic.", "clickable": false}
+      ],
+      "explanation": "In First Conditional sentences, the 'if' clause uses the present simple tense, not 'will'."
+    },
+    {
+      "id": "q8",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I enjoy to read novels before going to sleep.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I enjoy", "clickable": false},
+        {"id": "s1", "text": "to read", "clickable": true, "isError": true, "correctAnswers": ["reading"]},
+        {"id": "s2", "text": "novels before going to sleep.", "clickable": false}
+      ],
+      "explanation": "The verb 'enjoy' is always followed by a gerund (-ing form), not an infinitive."
+    },
+    {
+      "id": "q9",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "This mathematics problem is more harder than the previous one.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "This mathematics problem is", "clickable": false},
+        {"id": "s1", "text": "more harder", "clickable": true, "isError": true, "correctAnswers": ["harder"]},
+        {"id": "s2", "text": "than the previous one.", "clickable": false}
+      ],
+      "explanation": "Double comparatives are incorrect. Use either 'harder' or 'more difficult', but not 'more harder'."
+    },
+    {
+      "id": "q10",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Each of the boys have finished his homework.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Each of the boys", "clickable": false},
+        {"id": "s1", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"]},
+        {"id": "s2", "text": "finished his homework.", "clickable": false}
+      ],
+      "explanation": "'Each' is a singular subject and requires the singular verb 'has'."
+    },
+    {
+      "id": "q11",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The new bridge was completed by the local government last year.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new bridge", "clickable": false},
+        {"id": "s1", "text": "was completed", "clickable": true},
+        {"id": "s2", "text": "by the local government", "clickable": false},
+        {"id": "s3", "text": "last year.", "clickable": false}
+      ],
+      "explanation": "No error. The sentence correctly uses the passive voice in the simple past tense."
+    },
+    {
+      "id": "q12",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "You must to wear a helmet when riding a motorcycle.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "You", "clickable": false},
+        {"id": "s1", "text": "must to wear", "clickable": true, "isError": true, "correctAnswers": ["must wear"]},
+        {"id": "s2", "text": "a helmet when riding a motorcycle.", "clickable": false}
+      ],
+      "explanation": "Modal verbs like 'must' are followed directly by the base form of the verb without 'to'."
+    },
+    {
+      "id": "q13",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "There are a few water left in the bottle.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "There", "clickable": false},
+        {"id": "s1", "text": "are a few", "clickable": true, "isError": true, "correctAnswers": ["is a little"]},
+        {"id": "s2", "text": "water left in the bottle.", "clickable": false}
+      ],
+      "explanation": "'Water' is an uncountable noun, so it requires the singular verb 'is' and the quantifier 'a little'."
+    },
+    {
+      "id": "q14",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The man which lives next door is a doctor.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The man", "clickable": false},
+        {"id": "s1", "text": "which", "clickable": true, "isError": true, "correctAnswers": ["who"]},
+        {"id": "s2", "text": "lives next door is a doctor.", "clickable": false}
+      ],
+      "explanation": "The relative pronoun 'who' must be used for people, not 'which'."
+    },
+    {
+      "id": "q15",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Although he was sick, but he went to school.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Although he was sick", "clickable": false},
+        {"id": "s1", "text": ", but he went to school.", "clickable": true, "isError": true, "correctAnswers": [", he went to school."]}
+      ],
+      "explanation": "'Although' and 'but' should not be used together in the same sentence. Remove 'but'."
+    },
+    {
+      "id": "q16",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "She always is late for the morning meeting.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She", "clickable": false},
+        {"id": "s1", "text": "always is", "clickable": true, "isError": true, "correctAnswers": ["is always"]},
+        {"id": "s2", "text": "late for the morning meeting.", "clickable": false}
+      ],
+      "explanation": "Adverbs of frequency like 'always' are placed after the 'to be' verb."
+    },
+    {
+      "id": "q17",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "He is very interested on learning new languages.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "He is very", "clickable": false},
+        {"id": "s1", "text": "interested on", "clickable": true, "isError": true, "correctAnswers": ["interested in"]},
+        {"id": "s2", "text": "learning new languages.", "clickable": false}
+      ],
+      "explanation": "The correct preposition to use after 'interested' is 'in', not 'on'."
+    },
+    {
+      "id": "q18",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "When I arrived at the station, the train already left.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "When I arrived at the station,", "clickable": false},
+        {"id": "s1", "text": "the train already left.", "clickable": true, "isError": true, "correctAnswers": ["the train had already left."]}
+      ],
+      "explanation": "The past perfect tense ('had left') is needed to show an action completed before another past action ('arrived')."
+    },
+    {
+      "id": "q19",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The weather is getting more and more hotter every day.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The weather is getting", "clickable": false},
+        {"id": "s1", "text": "more and more hotter", "clickable": true, "isError": true, "correctAnswers": ["hotter", "more and more hot"]},
+        {"id": "s2", "text": "every day.", "clickable": false}
+      ],
+      "explanation": "Double comparatives are incorrect. Use either 'hotter' or 'more and more hot'."
+    },
+    {
+      "id": "q20",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Everyone in the class know the answer to this question.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Everyone in the class", "clickable": false},
+        {"id": "s1", "text": "know", "clickable": true, "isError": true, "correctAnswers": ["knows"]},
+        {"id": "s2", "text": "the answer to this question.", "clickable": false}
+      ],
+      "explanation": "'Everyone' is an indefinite pronoun that is grammatically singular and requires the verb 'knows'."
+    },
+    {
+      "id": "q21",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "I went to the library for borrowing some reference books.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I went to the library", "clickable": false},
+        {"id": "s1", "text": "for borrowing", "clickable": true, "isError": true, "correctAnswers": ["to borrow"]},
+        {"id": "s2", "text": "some reference books.", "clickable": false}
+      ],
+      "explanation": "To express purpose, we use the to-infinitive ('to borrow'), not 'for + gerund'."
+    },
+    {
+      "id": "q22",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Please look after the document carefully before you sign it.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Please", "clickable": false},
+        {"id": "s1", "text": "look after", "clickable": true, "isError": true, "correctAnswers": ["look over", "review", "check"]},
+        {"id": "s2", "text": "the document carefully before you sign it.", "clickable": false}
+      ],
+      "explanation": "'Look after' means to take care of someone/something. 'Look over' or 'review' means to examine."
+    },
+    {
+      "id": "q23",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "This is the most interesting book I ever read.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "This is the most interesting book", "clickable": false},
+        {"id": "s1", "text": "I ever read.", "clickable": true, "isError": true, "correctAnswers": ["I have ever read."]}
+      ],
+      "explanation": "Superlative adjectives are typically followed by the present perfect tense to indicate an experience up to the present."
+    },
+    {
+      "id": "q24",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "She has a good knowledge about the local culture.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She has", "clickable": false},
+        {"id": "s1", "text": "a good knowledge", "clickable": true, "isError": true, "correctAnswers": ["good knowledge"]},
+        {"id": "s2", "text": "about the local culture.", "clickable": false}
+      ],
+      "explanation": "'Knowledge' is an uncountable noun and should not be preceded by the indefinite article 'a'."
+    },
+    {
+      "id": "q25",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "She told me that she is feeling sick yesterday.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She told me that", "clickable": false},
+        {"id": "s1", "text": "she is feeling sick", "clickable": true, "isError": true, "correctAnswers": ["she was feeling sick"]},
+        {"id": "s2", "text": "yesterday.", "clickable": false}
+      ],
+      "explanation": "Reported speech requires backshifting the tense to past ('was feeling') because of the past time marker 'yesterday'."
+    },
+    {
+      "id": "q26",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "My office is located in the second floor of the building.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My office is located", "clickable": false},
+        {"id": "s1", "text": "in", "clickable": true, "isError": true, "correctAnswers": ["on"]},
+        {"id": "s2", "text": "the second floor of the building.", "clickable": false}
+      ],
+      "explanation": "We use the preposition 'on' for floors in a building, not 'in'."
+    },
+    {
+      "id": "q27",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "He is not tall enough reaching the shelf.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "He is not tall enough", "clickable": false},
+        {"id": "s1", "text": "reaching", "clickable": true, "isError": true, "correctAnswers": ["to reach"]},
+        {"id": "s2", "text": "the shelf.", "clickable": false}
+      ],
+      "explanation": "The correct structure is 'adjective + enough + to-infinitive'."
+    },
+    {
+      "id": "q28",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Neither my brother or my sister likes spicy food.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Neither my brother", "clickable": false},
+        {"id": "s1", "text": "or", "clickable": true, "isError": true, "correctAnswers": ["nor"]},
+        {"id": "s2", "text": "my sister likes spicy food.", "clickable": false}
+      ],
+      "explanation": "The correct correlative conjunction pair is 'Neither... nor', not 'Neither... or'."
+    },
+    {
+      "id": "q29",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I am used to wake up early when I was in high school.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I", "clickable": false},
+        {"id": "s1", "text": "am used to wake up", "clickable": true, "isError": true, "correctAnswers": ["used to wake up"]},
+        {"id": "s2", "text": "early when I was in high school.", "clickable": false}
+      ],
+      "explanation": "'Used to + base verb' describes a past habit. 'Am used to + gerund' describes being accustomed to something in the present."
+    },
+    {
+      "id": "q30",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Despite the heavy traffic, we arrived at the airport on time.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Despite the heavy traffic,", "clickable": false},
+        {"id": "s1", "text": "we arrived", "clickable": true},
+        {"id": "s2", "text": "at the airport", "clickable": false},
+        {"id": "s3", "text": "on time.", "clickable": false}
+      ],
+      "explanation": "No error. The sentence is grammatically correct and uses 'despite' properly to show contrast."
+    }
+  ]
+}
