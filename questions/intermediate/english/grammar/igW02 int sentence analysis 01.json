@@ -1,0 +1,973 @@
+{
+  "meta": {
+    "title": "02.Sentence Analysis - Intermediate (B1-B2)",
+    "description": "A comprehensive 60-question intermediate error identification test featuring varied sentence structures, diverse grammar topics, and contexts relatable to Indonesian learners.",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    }
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause). Click on the error(s) and type the correction. Choose No Error if correct.",
+      "sentence": "Last summer, my family and I travel to Bali, where we stayed at a beautiful resort near the beach and enjoyed delicious local food.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Last summer,", "clickable": false},
+        {"id": "s1", "text": "my family and I", "clickable": true, "isError": false},
+        {"id": "s2", "text": "travel to Bali,", "clickable": true, "isError": true, "correctAnswers": ["traveled to Bali,"]},
+        {"id": "s3", "text": "where we stayed at", "clickable": true, "isError": false},
+        {"id": "s4", "text": "a beautiful resort near", "clickable": true, "isError": false},
+        {"id": "s5", "text": "the beach and enjoyed", "clickable": true, "isError": false},
+        {"id": "s6", "text": "delicious local food.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Past Simple Tense. The time marker 'Last summer' indicates a completed action in the past, so the verb must be in the past simple form 'traveled', not the present form 'travel'."
+    },
+    {
+      "id": "q2",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The university students in Bandung does not has enough time to study because they are working part-time jobs every weekend.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The university students", "clickable": false},
+        {"id": "s1", "text": "in Bandung does not", "clickable": true, "isError": true, "correctAnswers": ["in Bandung do not"]},
+        {"id": "s2", "text": "has enough time", "clickable": true, "isError": true, "correctAnswers": ["have enough time"]},
+        {"id": "s3", "text": "to study because they", "clickable": true, "isError": false},
+        {"id": "s4", "text": "are working part-time", "clickable": true, "isError": false},
+        {"id": "s5", "text": "jobs every weekend.", "clickable": true, "isError": false},
+        {"id": "s6", "text": "to support their families.", "clickable": false}
+      ],
+      "explanation": "Topic: Subject-Verb Agreement. The subject 'students' is plural, so it requires the plural auxiliary 'do' and the base verb 'have', not the singular 'does' and 'has'."
+    },
+    {
+      "id": "q3",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Rendang is a traditional Indonesian dish that originates from West Sumatra and is famous worldwide for its rich and spicy flavor.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Rendang is a traditional", "clickable": false},
+        {"id": "s1", "text": "Indonesian dish that originates", "clickable": true, "isError": false},
+        {"id": "s2", "text": "from West Sumatra and", "clickable": true, "isError": false},
+        {"id": "s3", "text": "is famous worldwide for", "clickable": true, "isError": false},
+        {"id": "s4", "text": "its rich and spicy", "clickable": true, "isError": false},
+        {"id": "s5", "text": "flavor, making it a", "clickable": true, "isError": false},
+        {"id": "s6", "text": "favorite among tourists.", "clickable": false}
+      ],
+      "explanation": "Topic: General Grammar and Vocabulary. No error. The sentence correctly uses the present simple tense for general facts and maintains proper parallel structure."
+    },
+    {
+      "id": "q4",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If you want to avoid the heavy traffic in Jakarta, you should to take the commuter line train early in the morning.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If you want to avoid", "clickable": false},
+        {"id": "s1", "text": "the heavy traffic in Jakarta,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "you should to take", "clickable": true, "isError": true, "correctAnswers": ["you should take"]},
+        {"id": "s3", "text": "the commuter line train", "clickable": true, "isError": false},
+        {"id": "s4", "text": "early in the morning", "clickable": true, "isError": false},
+        {"id": "s5", "text": "instead of driving", "clickable": true, "isError": false},
+        {"id": "s6", "text": "your own motorcycle.", "clickable": false}
+      ],
+      "explanation": "Topic: Modal Verbs. Modal verbs like 'should' are always followed directly by the base form of the verb without 'to'. Therefore, 'should take' is correct."
+    },
+    {
+      "id": "q5",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She have bought a new laptop online yesterday, but it arrive damaged and the seller refuse to give a full refund.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She", "clickable": false},
+        {"id": "s1", "text": "have bought a new", "clickable": true, "isError": true, "correctAnswers": ["bought a new"]},
+        {"id": "s2", "text": "laptop online yesterday,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "but it arrive damaged", "clickable": true, "isError": true, "correctAnswers": ["but it arrived damaged"]},
+        {"id": "s4", "text": "and the seller refuse", "clickable": true, "isError": true, "correctAnswers": ["and the seller refused"]},
+        {"id": "s5", "text": "to give a full", "clickable": true, "isError": false},
+        {"id": "s6", "text": "refund for the product.", "clickable": false}
+      ],
+      "explanation": "Topic: Past Simple Tense. The time marker 'yesterday' requires all verbs in the sequence of past events to be in the past simple form: 'bought', 'arrived', and 'refused'."
+    },
+    {
+      "id": "q6",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "During the rainy season, it is important to bringing an umbrella when you go outside, because the weather can change very quickly.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "During the rainy season,", "clickable": false},
+        {"id": "s1", "text": "it is important to", "clickable": true, "isError": false},
+        {"id": "s2", "text": "bringing an umbrella", "clickable": true, "isError": true, "correctAnswers": ["bring an umbrella"]},
+        {"id": "s3", "text": "when you go outside,", "clickable": true, "isError": false},
+        {"id": "s4", "text": "because the weather can", "clickable": true, "isError": false},
+        {"id": "s5", "text": "change very quickly and", "clickable": true, "isError": false},
+        {"id": "s6", "text": "cause unexpected floods.", "clickable": false}
+      ],
+      "explanation": "Topic: Infinitives. The structure 'it is important to' must be followed by the base form of the verb (the to-infinitive), so 'bring' is correct, not the gerund 'bringing'."
+    },
+    {
+      "id": "q7",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Many tech startups in Indonesia are developing innovative applications to help local farmers sell their products directly to consumers.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Many tech startups in", "clickable": false},
+        {"id": "s1", "text": "Indonesia are developing innovative", "clickable": true, "isError": false},
+        {"id": "s2", "text": "applications to help local", "clickable": true, "isError": false},
+        {"id": "s3", "text": "farmers sell their products", "clickable": true, "isError": false},
+        {"id": "s4", "text": "directly to consumers,", "clickable": true, "isError": false},
+        {"id": "s5", "text": "which improves their income", "clickable": true, "isError": false},
+        {"id": "s6", "text": "significantly every month.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Continuous and Relative Clauses. No error. The sentence correctly uses the present continuous for ongoing actions and a relative clause ('which improves') to add extra information."
+    },
+    {
+      "id": "q8",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The doctor advised him to drinks plenty of water and get enough rest if he wants to recover from the flu quickly.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The doctor advised him", "clickable": false},
+        {"id": "s1", "text": "to drinks plenty of", "clickable": true, "isError": true, "correctAnswers": ["to drink plenty of"]},
+        {"id": "s2", "text": "water and get enough", "clickable": true, "isError": false},
+        {"id": "s3", "text": "rest if he wants", "clickable": true, "isError": false},
+        {"id": "s4", "text": "to recover from the", "clickable": true, "isError": false},
+        {"id": "s5", "text": "flu quickly and safely", "clickable": true, "isError": false},
+        {"id": "s6", "text": "within a few days.", "clickable": false}
+      ],
+      "explanation": "Topic: Infinitives after Verbs. The verb 'advise' is followed by an object and a to-infinitive ('advised him to drink'). The 'to' must be followed by the base form 'drink', not 'drinks'."
+    },
+    {
+      "id": "q9",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Although she studied very hardly for the final exam, she didn't passed because she was too nervous during the test.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Although she studied very", "clickable": false},
+        {"id": "s1", "text": "hardly for the final", "clickable": true, "isError": true, "correctAnswers": ["hard for the final"]},
+        {"id": "s2", "text": "exam, she didn't passed", "clickable": true, "isError": true, "correctAnswers": ["exam, she didn't pass"]},
+        {"id": "s3", "text": "because she was too", "clickable": true, "isError": false},
+        {"id": "s4", "text": "nervous during the test", "clickable": true, "isError": false},
+        {"id": "s5", "text": "and couldn't remember", "clickable": true, "isError": false},
+        {"id": "s6", "text": "the correct answers.", "clickable": false}
+      ],
+      "explanation": "Topic: Adverbs and Past Simple Negatives. 'Hard' is both an adjective and an adverb; 'hardly' means 'almost not'. Also, after the auxiliary 'didn't', the verb must be in its base form 'pass'."
+    },
+    {
+      "id": "q10",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "We are looking forward to visit the new high-speed railway station in Jakarta next month with our relatives.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "We are looking forward", "clickable": false},
+        {"id": "s1", "text": "to visit the new", "clickable": true, "isError": true, "correctAnswers": ["to visiting the new"]},
+        {"id": "s2", "text": "high-speed railway station", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in Jakarta next month", "clickable": true, "isError": false},
+        {"id": "s4", "text": "with our relatives", "clickable": true, "isError": false},
+        {"id": "s5", "text": "who are coming from", "clickable": true, "isError": false},
+        {"id": "s6", "text": "Surabaya for a holiday.", "clickable": false}
+      ],
+      "explanation": "Topic: Gerunds after Prepositions. In the phrase 'look forward to', the word 'to' is a preposition, not part of an infinitive. Therefore, it must be followed by a gerund ('visiting')."
+    },
+    {
+      "id": "q11",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The traditional batik fabric is made using a complex process that involves applying hot wax to the cloth before dyeing it with natural colors.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The traditional batik fabric", "clickable": false},
+        {"id": "s1", "text": "is made using a", "clickable": true, "isError": false},
+        {"id": "s2", "text": "complex process that involves", "clickable": true, "isError": false},
+        {"id": "s3", "text": "applying hot wax to", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the cloth before dyeing", "clickable": true, "isError": false},
+        {"id": "s5", "text": "it with natural colors", "clickable": true, "isError": false},
+        {"id": "s6", "text": "and beautiful patterns.", "clickable": false}
+      ],
+      "explanation": "Topic: Passive Voice and Gerunds. No error. The sentence correctly uses the passive voice ('is made') and follows the verb 'involves' with a gerund ('applying')."
+    },
+    {
+      "id": "q12",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "My brother have been working as a software engineer at a prominent company in South Jakarta since he graduated last year.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My brother have been", "clickable": true, "isError": true, "correctAnswers": ["My brother has been"]},
+        {"id": "s1", "text": "working as a software", "clickable": true, "isError": false},
+        {"id": "s2", "text": "engineer at a prominent", "clickable": true, "isError": false},
+        {"id": "s3", "text": "company in South Jakarta", "clickable": true, "isError": false},
+        {"id": "s4", "text": "since he graduated last", "clickable": true, "isError": false},
+        {"id": "s5", "text": "year and enjoys his", "clickable": true, "isError": false},
+        {"id": "s6", "text": "job very much.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect Continuous. The singular subject 'My brother' requires the singular auxiliary 'has', not 'have', to form the present perfect continuous tense."
+    },
+    {
+      "id": "q13",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If I will have enough money next year, I would travel to Japan to experience the cherry blossom season and try authentic sushi.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If I will have", "clickable": true, "isError": true, "correctAnswers": ["If I have"]},
+        {"id": "s1", "text": "enough money next year,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "I would travel to", "clickable": true, "isError": true, "correctAnswers": ["I will travel to"]},
+        {"id": "s3", "text": "Japan to experience the", "clickable": true, "isError": false},
+        {"id": "s4", "text": "cherry blossom season and", "clickable": true, "isError": false},
+        {"id": "s5", "text": "try authentic sushi", "clickable": true, "isError": false},
+        {"id": "s6", "text": "with my friends.", "clickable": false}
+      ],
+      "explanation": "Topic: First Conditional. In a first conditional sentence (real future possibility), the 'if' clause uses the present simple ('have'), and the main clause uses the future simple ('will travel')."
+    },
+    {
+      "id": "q14",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The teacher explained that the earth go around the sun, which is a basic fact that every student should know.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The teacher explained that", "clickable": false},
+        {"id": "s1", "text": "the earth go around", "clickable": true, "isError": true, "correctAnswers": ["the earth goes around"]},
+        {"id": "s2", "text": "the sun, which is", "clickable": true, "isError": false},
+        {"id": "s3", "text": "a basic fact that", "clickable": true, "isError": false},
+        {"id": "s4", "text": "every student should know", "clickable": true, "isError": false},
+        {"id": "s5", "text": "for their science class", "clickable": true, "isError": false},
+        {"id": "s6", "text": "this semester.", "clickable": false}
+      ],
+      "explanation": "Topic: Reported Speech and General Truths. Even in reported speech, general truths or scientific facts remain in the present simple tense. The singular subject 'earth' requires 'goes'."
+    },
+    {
+      "id": "q15",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Despite the heavy rain, the outdoor music festival in Bandung continued as planned, and the audience enjoyed the performance very much.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Despite the heavy rain,", "clickable": false},
+        {"id": "s1", "text": "the outdoor music festival", "clickable": true, "isError": false},
+        {"id": "s2", "text": "in Bandung continued as", "clickable": true, "isError": false},
+        {"id": "s3", "text": "planned, and the audience", "clickable": true, "isError": false},
+        {"id": "s4", "text": "enjoyed the performance very", "clickable": true, "isError": false},
+        {"id": "s5", "text": "much throughout the entire", "clickable": true, "isError": false},
+        {"id": "s6", "text": "night without complaints.", "clickable": false}
+      ],
+      "explanation": "Topic: Conjunctions and Past Simple. No error. 'Despite' is correctly used as a preposition followed by a noun phrase, and the past simple verbs are used correctly."
+    },
+    {
+      "id": "q16",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "One of the most popular tourist destination in Indonesia is the island of Bali, which attracts millions of visitors annually.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "One of the most", "clickable": false},
+        {"id": "s1", "text": "popular tourist destination in", "clickable": true, "isError": true, "correctAnswers": ["popular tourist destinations in"]},
+        {"id": "s2", "text": "Indonesia is the island", "clickable": true, "isError": false},
+        {"id": "s3", "text": "of Bali, which attracts", "clickable": true, "isError": false},
+        {"id": "s4", "text": "millions of visitors annually", "clickable": true, "isError": false},
+        {"id": "s5", "text": "from all over the", "clickable": true, "isError": false},
+        {"id": "s6", "text": "world for its beaches.", "clickable": false}
+      ],
+      "explanation": "Topic: Superlatives and Plural Nouns. The structure 'one of the' must always be followed by a plural noun ('destinations'), as it refers to a single item within a larger group."
+    },
+    {
+      "id": "q17",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She is used to wake up early every morning because she have to catch the first bus to her office in the city center.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She is used to", "clickable": true, "isError": false},
+        {"id": "s1", "text": "wake up early every", "clickable": true, "isError": true, "correctAnswers": ["waking up early every"]},
+        {"id": "s2", "text": "morning because she have", "clickable": true, "isError": true, "correctAnswers": ["morning because she has"]},
+        {"id": "s3", "text": "to catch the first", "clickable": true, "isError": false},
+        {"id": "s4", "text": "bus to her office", "clickable": true, "isError": false},
+        {"id": "s5", "text": "in the city center", "clickable": true, "isError": false},
+        {"id": "s6", "text": "before the traffic gets bad.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Be used to' and Subject-Verb Agreement. 'Be used to' expresses a habit and is followed by a gerund ('waking'). Also, the singular subject 'she' requires 'has', not 'have'."
+    },
+    {
+      "id": "q18",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The new shopping mall in Surabaya offers a wide variety of international brands, making it a favorite spot for teenagers who loves to hang out.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new shopping mall", "clickable": false},
+        {"id": "s1", "text": "in Surabaya offers a", "clickable": true, "isError": false},
+        {"id": "s2", "text": "wide variety of international", "clickable": true, "isError": false},
+        {"id": "s3", "text": "brands, making it a", "clickable": true, "isError": false},
+        {"id": "s4", "text": "favorite spot for teenagers", "clickable": true, "isError": false},
+        {"id": "s5", "text": "who loves to hang", "clickable": true, "isError": true, "correctAnswers": ["who love to hang"]},
+        {"id": "s6", "text": "out there on weekends.", "clickable": false}
+      ],
+      "explanation": "Topic: Relative Clauses and Subject-Verb Agreement. The relative pronoun 'who' refers to the plural noun 'teenagers', so the verb must be plural ('love'), not singular ('loves')."
+    },
+    {
+      "id": "q19",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "After finishing her homework, the student decided to read a novel about Indonesian history before going to sleep early that night.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "After finishing her homework,", "clickable": false},
+        {"id": "s1", "text": "the student decided to", "clickable": true, "isError": false},
+        {"id": "s2", "text": "read a novel about", "clickable": true, "isError": false},
+        {"id": "s3", "text": "Indonesian history before going", "clickable": true, "isError": false},
+        {"id": "s4", "text": "to sleep early that", "clickable": true, "isError": false},
+        {"id": "s5", "text": "night to prepare for", "clickable": true, "isError": false},
+        {"id": "s6", "text": "the next school day.", "clickable": false}
+      ],
+      "explanation": "Topic: Gerunds and Infinitives. No error. The sentence correctly uses a gerund after the preposition 'After' and an infinitive after the verb 'decided'."
+    },
+    {
+      "id": "q20",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Neither the manager nor the employees was happy with the new policy regarding remote work arrangements that was introduced last month.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Neither the manager nor", "clickable": false},
+        {"id": "s1", "text": "the employees was happy", "clickable": true, "isError": true, "correctAnswers": ["the employees were happy"]},
+        {"id": "s2", "text": "with the new policy", "clickable": true, "isError": false},
+        {"id": "s3", "text": "regarding remote work arrangements", "clickable": true, "isError": false},
+        {"id": "s4", "text": "that was introduced last", "clickable": true, "isError": false},
+        {"id": "s5", "text": "month by the company", "clickable": true, "isError": false},
+        {"id": "s6", "text": "leadership team.", "clickable": false}
+      ],
+      "explanation": "Topic: Correlative Conjunctions and Agreement. With 'neither/nor', the verb agrees with the subject closest to it. Since 'employees' is plural, the verb must be 'were'."
+    },
+    {
+      "id": "q21",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I have never been to Yogyakarta, but my friends told me that the culture there are very rich and the people is friendly.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I have never been", "clickable": false},
+        {"id": "s1", "text": "to Yogyakarta, but my", "clickable": true, "isError": false},
+        {"id": "s2", "text": "friends told me that", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the culture there are", "clickable": true, "isError": true, "correctAnswers": ["the culture there is"]},
+        {"id": "s4", "text": "very rich and the", "clickable": true, "isError": false},
+        {"id": "s5", "text": "people is friendly and", "clickable": true, "isError": true, "correctAnswers": ["people are friendly and"]},
+        {"id": "s6", "text": "welcoming to tourists.", "clickable": false}
+      ],
+      "explanation": "Topic: Subject-Verb Agreement. 'Culture' is a singular noun requiring 'is'. 'People' is a plural noun requiring 'are'."
+    },
+    {
+      "id": "q22",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The government has built several new bridges to connect the remote islands, making transportation much more easier for the locals.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The government has built", "clickable": false},
+        {"id": "s1", "text": "several new bridges to", "clickable": true, "isError": false},
+        {"id": "s2", "text": "connect the remote islands,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "making transportation much more", "clickable": true, "isError": true, "correctAnswers": ["making transportation much"]},
+        {"id": "s4", "text": "easier for the locals", "clickable": true, "isError": false},
+        {"id": "s5", "text": "who live in those", "clickable": true, "isError": false},
+        {"id": "s6", "text": "areas year-round.", "clickable": false}
+      ],
+      "explanation": "Topic: Comparatives. 'Easier' is already the comparative form of 'easy'. Adding 'more' creates an incorrect double comparative. Use 'much easier'."
+    },
+    {
+      "id": "q23",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "If you heat water to one hundred degrees Celsius, it boils and turns into steam, which is a basic scientific principle.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If you heat water", "clickable": false},
+        {"id": "s1", "text": "to one hundred degrees", "clickable": true, "isError": false},
+        {"id": "s2", "text": "Celsius, it boils and", "clickable": true, "isError": false},
+        {"id": "s3", "text": "turns into steam, which", "clickable": true, "isError": false},
+        {"id": "s4", "text": "is a basic scientific", "clickable": true, "isError": false},
+        {"id": "s5", "text": "principle taught in most", "clickable": true, "isError": false},
+        {"id": "s6", "text": "schools across the country.", "clickable": false}
+      ],
+      "explanation": "Topic: Zero Conditional. No error. The zero conditional (present simple + present simple) is correctly used to express a general truth or scientific fact."
+    },
+    {
+      "id": "q24",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The documentary about the Komodo dragon were broadcasted on national television last night and received excellent reviews.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The documentary about the", "clickable": false},
+        {"id": "s1", "text": "Komodo dragon were broadcasted", "clickable": true, "isError": true, "correctAnswers": ["Komodo dragon was broadcast"]},
+        {"id": "s2", "text": "on national television last", "clickable": true, "isError": false},
+        {"id": "s3", "text": "night and received excellent", "clickable": true, "isError": false},
+        {"id": "s4", "text": "reviews from the critics", "clickable": true, "isError": false},
+        {"id": "s5", "text": "who watched the entire", "clickable": true, "isError": false},
+        {"id": "s6", "text": "program with great interest.", "clickable": false}
+      ],
+      "explanation": "Topic: Passive Voice and Irregular Verbs. The singular subject 'documentary' requires 'was'. The past participle of 'broadcast' is 'broadcast', not 'broadcasted'."
+    },
+    {
+      "id": "q25",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Although he was feeling very tired, but he continued to working on his project until midnight to meet the deadline.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Although he was feeling", "clickable": false},
+        {"id": "s1", "text": "very tired, but he", "clickable": true, "isError": true, "correctAnswers": ["very tired, he"]},
+        {"id": "s2", "text": "continued to working on", "clickable": true, "isError": true, "correctAnswers": ["continued to work on"]},
+        {"id": "s3", "text": "his project until midnight", "clickable": true, "isError": false},
+        {"id": "s4", "text": "to meet the strict", "clickable": true, "isError": false},
+        {"id": "s5", "text": "deadline set by his", "clickable": true, "isError": false},
+        {"id": "s6", "text": "university professor.", "clickable": false}
+      ],
+      "explanation": "Topic: Conjunctions and Infinitives. 'Although' and 'but' cannot be used in the same sentence. Also, 'continue' is followed by a to-infinitive ('to work'), not a gerund."
+    },
+    {
+      "id": "q26",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "There are many informations available on the internet about how to prepare authentic Indonesian dishes at home.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "There are many informations", "clickable": true, "isError": true, "correctAnswers": ["There is a lot of information", "There is much information"]},
+        {"id": "s1", "text": "available on the internet", "clickable": true, "isError": false},
+        {"id": "s2", "text": "about how to prepare", "clickable": true, "isError": false},
+        {"id": "s3", "text": "authentic Indonesian dishes at", "clickable": true, "isError": false},
+        {"id": "s4", "text": "home without needing to", "clickable": true, "isError": false},
+        {"id": "s5", "text": "visit a traditional market", "clickable": true, "isError": false},
+        {"id": "s6", "text": "every single day.", "clickable": false}
+      ],
+      "explanation": "Topic: Uncountable Nouns. 'Information' is an uncountable noun. It cannot be pluralized with an 's' and must be used with a singular verb ('is') and quantifiers like 'much' or 'a lot of'."
+    },
+    {
+      "id": "q27",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The local community has successfully preserved the ancient temple, ensuring that future generations can learn about their cultural heritage.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The local community has", "clickable": false},
+        {"id": "s1", "text": "successfully preserved the ancient", "clickable": true, "isError": false},
+        {"id": "s2", "text": "temple, ensuring that future", "clickable": true, "isError": false},
+        {"id": "s3", "text": "generations can learn about", "clickable": true, "isError": false},
+        {"id": "s4", "text": "their cultural heritage and", "clickable": true, "isError": false},
+        {"id": "s5", "text": "traditions for many years", "clickable": true, "isError": false},
+        {"id": "s6", "text": "to come.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect and Participles. No error. The present perfect ('has preserved') is correctly used for an action with present relevance, followed by a participle clause ('ensuring')."
+    },
+    {
+      "id": "q28",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She asked me where did I buy my new backpack, and I told her that I got it from a local artisan.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She asked me where", "clickable": false},
+        {"id": "s1", "text": "did I buy my", "clickable": true, "isError": true, "correctAnswers": ["I bought my"]},
+        {"id": "s2", "text": "new backpack, and I", "clickable": true, "isError": false},
+        {"id": "s3", "text": "told her that I", "clickable": true, "isError": false},
+        {"id": "s4", "text": "got it from a", "clickable": true, "isError": false},
+        {"id": "s5", "text": "local artisan in the", "clickable": true, "isError": false},
+        {"id": "s6", "text": "nearby village.", "clickable": false}
+      ],
+      "explanation": "Topic: Indirect Questions. In an embedded or indirect question, the word order must be subject + verb ('I bought'), not the inverted question form ('did I buy')."
+    },
+    {
+      "id": "q29",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The prices of the flight tickets to Lombok is getting more expensive, so we decides to cancel our trip.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The prices of the", "clickable": false},
+        {"id": "s1", "text": "flight tickets to Lombok", "clickable": true, "isError": false},
+        {"id": "s2", "text": "is getting more expensive,", "clickable": true, "isError": true, "correctAnswers": ["are getting more expensive,"]},
+        {"id": "s3", "text": "so we decides to", "clickable": true, "isError": true, "correctAnswers": ["so we decided to"]},
+        {"id": "s4", "text": "cancel our trip and", "clickable": true, "isError": false},
+        {"id": "s5", "text": "stay at home instead", "clickable": true, "isError": false},
+        {"id": "s6", "text": "of traveling this year.", "clickable": false}
+      ],
+      "explanation": "Topic: Subject-Verb Agreement and Past Simple. The plural subject 'prices' requires the plural verb 'are'. The narrative is in the past, so 'decided' is correct, not 'decides'."
+    },
+    {
+      "id": "q30",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "My father has been driving the same car for over ten years, and it still runs very smoothly despite its old age.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My father has been", "clickable": false},
+        {"id": "s1", "text": "driving the same car", "clickable": true, "isError": false},
+        {"id": "s2", "text": "for over ten years,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "and it still run", "clickable": true, "isError": true, "correctAnswers": ["and it still runs"]},
+        {"id": "s4", "text": "very smoothly despite its", "clickable": true, "isError": false},
+        {"id": "s5", "text": "old age and high", "clickable": true, "isError": false},
+        {"id": "s6", "text": "mileage on the engine.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Simple for Facts/Habits. The singular pronoun 'it' (referring to the car) requires the third-person singular verb 'runs' in the present simple tense."
+    },
+    {
+      "id": "q31",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Before you submit the application form, please make sure that you have filled in all the required details correctly.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Before you submit the", "clickable": false},
+        {"id": "s1", "text": "application form, please make", "clickable": true, "isError": false},
+        {"id": "s2", "text": "sure that you have", "clickable": true, "isError": false},
+        {"id": "s3", "text": "filled in all the", "clickable": true, "isError": false},
+        {"id": "s4", "text": "required details correctly and", "clickable": true, "isError": false},
+        {"id": "s5", "text": "signed the document at", "clickable": true, "isError": false},
+        {"id": "s6", "text": "the bottom of the page.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect and Imperatives. No error. The sentence correctly uses an imperative ('please make sure') followed by a present perfect clause ('have filled') to indicate a completed action."
+    },
+    {
+      "id": "q32",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The children were playing football in the park when suddenly it started to raining heavily and they had to run home.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The children were playing", "clickable": false},
+        {"id": "s1", "text": "football in the park", "clickable": true, "isError": false},
+        {"id": "s2", "text": "when suddenly it started", "clickable": true, "isError": false},
+        {"id": "s3", "text": "to raining heavily and", "clickable": true, "isError": true, "correctAnswers": ["to rain heavily and"]},
+        {"id": "s4", "text": "they had to run", "clickable": true, "isError": false},
+        {"id": "s5", "text": "home to avoid getting", "clickable": true, "isError": false},
+        {"id": "s6", "text": "completely wet and cold.", "clickable": false}
+      ],
+      "explanation": "Topic: Infinitives. The verb 'start' can be followed by a to-infinitive ('to rain') or a gerund ('raining'), but not both together ('to raining')."
+    },
+    {
+      "id": "q33",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I am agree with your opinion about the new school rules, because they is too strict and unfair to the students.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I am agree with", "clickable": true, "isError": true, "correctAnswers": ["I agree with"]},
+        {"id": "s1", "text": "your opinion about the", "clickable": true, "isError": false},
+        {"id": "s2", "text": "new school rules, because", "clickable": true, "isError": false},
+        {"id": "s3", "text": "they is too strict", "clickable": true, "isError": true, "correctAnswers": ["they are too strict"]},
+        {"id": "s4", "text": "and unfair to the", "clickable": true, "isError": false},
+        {"id": "s5", "text": "students who have to", "clickable": true, "isError": false},
+        {"id": "s6", "text": "follow them every day.", "clickable": false}
+      ],
+      "explanation": "Topic: Stative Verbs and Subject-Verb Agreement. 'Agree' is a verb, so 'I agree' is correct (not 'I am agree'). The plural pronoun 'they' requires the plural verb 'are'."
+    },
+    {
+      "id": "q34",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "By the time we arrived at the cinema, the movie already started, so we missed the first twenty minutes of the film.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "By the time we", "clickable": false},
+        {"id": "s1", "text": "arrived at the cinema,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the movie already started,", "clickable": true, "isError": true, "correctAnswers": ["the movie had already started,"]},
+        {"id": "s3", "text": "so we missed the", "clickable": true, "isError": false},
+        {"id": "s4", "text": "first twenty minutes of", "clickable": true, "isError": false},
+        {"id": "s5", "text": "the film and had", "clickable": true, "isError": false},
+        {"id": "s6", "text": "to wait for the next show.", "clickable": false}
+      ],
+      "explanation": "Topic: Past Perfect Tense. When two actions happen in the past, the action that happened first requires the past perfect tense ('had already started') to show the sequence clearly."
+    },
+    {
+      "id": "q35",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The chef recommended trying the spicy noodle soup, which is a signature dish of the restaurant and very popular among locals.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The chef recommended trying", "clickable": false},
+        {"id": "s1", "text": "the spicy noodle soup,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "which is a signature", "clickable": true, "isError": false},
+        {"id": "s3", "text": "dish of the restaurant", "clickable": true, "isError": false},
+        {"id": "s4", "text": "and very popular among", "clickable": true, "isError": false},
+        {"id": "s5", "text": "locals who visit the", "clickable": true, "isError": false},
+        {"id": "s6", "text": "place every weekend.", "clickable": false}
+      ],
+      "explanation": "Topic: Gerunds and Relative Clauses. No error. 'Recommend' is correctly followed by a gerund ('trying'), and the relative clause is properly structured."
+    },
+    {
+      "id": "q36",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Every morning, the street vendors sets up their carts near the station to sell breakfast to the commuters.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Every morning, the street", "clickable": false},
+        {"id": "s1", "text": "vendors sets up their", "clickable": true, "isError": true, "correctAnswers": ["vendors set up their"]},
+        {"id": "s2", "text": "carts near the station", "clickable": true, "isError": false},
+        {"id": "s3", "text": "to sell breakfast to", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the commuters who are", "clickable": true, "isError": false},
+        {"id": "s5", "text": "rushing to catch their", "clickable": true, "isError": false},
+        {"id": "s6", "text": "trains to work.", "clickable": false}
+      ],
+      "explanation": "Topic: Subject-Verb Agreement. The plural subject 'vendors' requires the plural verb 'set', not the singular 'sets', in the present simple tense."
+    },
+    {
+      "id": "q37",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She is the woman which won the national writing competition last year, and her book are now a bestseller.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She is the woman", "clickable": false},
+        {"id": "s1", "text": "which won the national", "clickable": true, "isError": true, "correctAnswers": ["who won the national"]},
+        {"id": "s2", "text": "writing competition last year,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "and her book are", "clickable": true, "isError": true, "correctAnswers": ["and her book is"]},
+        {"id": "s4", "text": "now a bestseller in", "clickable": true, "isError": false},
+        {"id": "s5", "text": "many major bookstores", "clickable": true, "isError": false},
+        {"id": "s6", "text": "across the country.", "clickable": false}
+      ],
+      "explanation": "Topic: Relative Pronouns and Subject-Verb Agreement. Use 'who' for people, not 'which'. The singular subject 'book' requires the singular verb 'is'."
+    },
+    {
+      "id": "q38",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "We should to respect the local customs and traditions when we visit a new village or a different region of the country.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "We should to respect", "clickable": true, "isError": true, "correctAnswers": ["We should respect"]},
+        {"id": "s1", "text": "the local customs and", "clickable": true, "isError": false},
+        {"id": "s2", "text": "traditions when we visit", "clickable": true, "isError": false},
+        {"id": "s3", "text": "a new village or", "clickable": true, "isError": false},
+        {"id": "s4", "text": "a different region of", "clickable": true, "isError": false},
+        {"id": "s5", "text": "the country for a", "clickable": true, "isError": false},
+        {"id": "s6", "text": "short holiday.", "clickable": false}
+      ],
+      "explanation": "Topic: Modal Verbs. Modal verbs like 'should' are followed directly by the base form of the verb without 'to'."
+    },
+    {
+      "id": "q39",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The library provides a quiet environment for students to study, and it also offers free access to a wide range of digital resources.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The library provides a", "clickable": false},
+        {"id": "s1", "text": "quiet environment for students", "clickable": true, "isError": false},
+        {"id": "s2", "text": "to study, and it", "clickable": true, "isError": false},
+        {"id": "s3", "text": "also offers free access", "clickable": true, "isError": false},
+        {"id": "s4", "text": "to a wide range", "clickable": true, "isError": false},
+        {"id": "s5", "text": "of digital resources for", "clickable": true, "isError": false},
+        {"id": "s6", "text": "their research projects.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Simple and Infinitives. No error. The sentence correctly uses the present simple for facts and the to-infinitive to express purpose."
+    },
+    {
+      "id": "q40",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If I was you, I would accept the job offer immediately because it is a great opportunity for your career.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If I was you,", "clickable": true, "isError": true, "correctAnswers": ["If I were you,"]},
+        {"id": "s1", "text": "I would accept the", "clickable": true, "isError": false},
+        {"id": "s2", "text": "job offer immediately because", "clickable": true, "isError": false},
+        {"id": "s3", "text": "it is a great", "clickable": true, "isError": false},
+        {"id": "s4", "text": "opportunity for your career", "clickable": true, "isError": false},
+        {"id": "s5", "text": "and personal growth in", "clickable": true, "isError": false},
+        {"id": "s6", "text": "the future.", "clickable": false}
+      ],
+      "explanation": "Topic: Second Conditional (Subjunctive). In hypothetical 'if' clauses, 'were' is used for all subjects, including 'I', 'he', 'she', and 'it'."
+    },
+    {
+      "id": "q41",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The amount of people who attended the concert was surprisingly large, and many of them was disappointed by the sound quality.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The amount of people", "clickable": true, "isError": true, "correctAnswers": ["The number of people"]},
+        {"id": "s1", "text": "who attended the concert", "clickable": true, "isError": false},
+        {"id": "s2", "text": "was surprisingly large, and", "clickable": true, "isError": false},
+        {"id": "s3", "text": "many of them was", "clickable": true, "isError": true, "correctAnswers": ["many of them were"]},
+        {"id": "s4", "text": "disappointed by the sound", "clickable": true, "isError": false},
+        {"id": "s5", "text": "quality of the performance", "clickable": true, "isError": false},
+        {"id": "s6", "text": "last night.", "clickable": false}
+      ],
+      "explanation": "Topic: Quantifiers and Subject-Verb Agreement. 'Number' is used for countable nouns ('people'), while 'amount' is for uncountable nouns. 'Many of them' is plural and requires 'were'."
+    },
+    {
+      "id": "q42",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The museum exhibition features several ancient artifacts that was discovered in the rural areas of Central Java.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The museum exhibition features", "clickable": false},
+        {"id": "s1", "text": "several ancient artifacts that", "clickable": true, "isError": false},
+        {"id": "s2", "text": "was discovered in the", "clickable": true, "isError": true, "correctAnswers": ["were discovered in the"]},
+        {"id": "s3", "text": "rural areas of Central", "clickable": true, "isError": false},
+        {"id": "s4", "text": "Java and are now", "clickable": true, "isError": false},
+        {"id": "s5", "text": "displayed for the public", "clickable": true, "isError": false},
+        {"id": "s6", "text": "to admire and learn from.", "clickable": false}
+      ],
+      "explanation": "Topic: Relative Clauses and Passive Voice. The relative pronoun 'that' refers to the plural noun 'artifacts', so the passive verb must be plural ('were discovered')."
+    },
+    {
+      "id": "q43",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Although the hike to the top of the mountain was challenging, the breathtaking view made the entire effort completely worthwhile.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Although the hike to", "clickable": false},
+        {"id": "s1", "text": "the top of the", "clickable": true, "isError": false},
+        {"id": "s2", "text": "mountain was challenging, the", "clickable": true, "isError": false},
+        {"id": "s3", "text": "breathtaking view made the", "clickable": true, "isError": false},
+        {"id": "s4", "text": "entire effort completely worthwhile", "clickable": true, "isError": false},
+        {"id": "s5", "text": "for all the tourists", "clickable": true, "isError": false},
+        {"id": "s6", "text": "who made the journey.", "clickable": false}
+      ],
+      "explanation": "Topic: Conjunctions and Past Simple. No error. 'Although' correctly introduces a concessive clause, and the past simple verbs are used appropriately."
+    },
+    {
+      "id": "q44",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "My sister is good at playing the piano, and she has been taking lessons since she is five years old.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My sister is good", "clickable": false},
+        {"id": "s1", "text": "at playing the piano,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "and she has been", "clickable": true, "isError": false},
+        {"id": "s3", "text": "taking lessons since she", "clickable": true, "isError": false},
+        {"id": "s4", "text": "is five years old.", "clickable": true, "isError": true, "correctAnswers": ["was five years old."]},
+        {"id": "s5", "text": "She hopes to perform", "clickable": true, "isError": false},
+        {"id": "s6", "text": "in a major concert soon.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect and Past Simple. The main clause uses present perfect continuous ('has been taking'), but the 'since' clause refers to a specific completed point in the past, requiring the past simple ('was')."
+    },
+    {
+      "id": "q45",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "He didn't knew the answer to the difficult question, so he asked his classmate to helps him understand the topic.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "He didn't knew the", "clickable": true, "isError": true, "correctAnswers": ["He didn't know the"]},
+        {"id": "s1", "text": "answer to the difficult", "clickable": true, "isError": false},
+        {"id": "s2", "text": "question, so he asked", "clickable": true, "isError": false},
+        {"id": "s3", "text": "his classmate to helps", "clickable": true, "isError": true, "correctAnswers": ["his classmate to help"]},
+        {"id": "s4", "text": "him understand the topic", "clickable": true, "isError": false},
+        {"id": "s5", "text": "before the final exam", "clickable": true, "isError": false},
+        {"id": "s6", "text": "next week.", "clickable": false}
+      ],
+      "explanation": "Topic: Past Simple Negatives and Infinitives. After the auxiliary 'didn't', the verb must be in its base form ('know'). Similarly, 'to' is followed by the base form ('help')."
+    },
+    {
+      "id": "q46",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The company is planning to open a new branch in Medan, which will create hundreds of new job opportunity for the local residents.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The company is planning", "clickable": false},
+        {"id": "s1", "text": "to open a new", "clickable": true, "isError": false},
+        {"id": "s2", "text": "branch in Medan, which", "clickable": true, "isError": false},
+        {"id": "s3", "text": "will create hundreds of", "clickable": true, "isError": false},
+        {"id": "s4", "text": "new job opportunity for", "clickable": true, "isError": true, "correctAnswers": ["new job opportunities for"]},
+        {"id": "s5", "text": "the local residents and", "clickable": true, "isError": false},
+        {"id": "s6", "text": "boost the regional economy.", "clickable": false}
+      ],
+      "explanation": "Topic: Countable Nouns. 'Hundreds of' indicates a plural quantity, so the countable noun 'opportunity' must be pluralized to 'opportunities'."
+    },
+    {
+      "id": "q47",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The traditional market is always bustling with activity early in the morning, offering fresh produce and a vibrant atmosphere.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The traditional market is", "clickable": false},
+        {"id": "s1", "text": "always bustling with activity", "clickable": true, "isError": false},
+        {"id": "s2", "text": "early in the morning,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "offering fresh produce and", "clickable": true, "isError": false},
+        {"id": "s4", "text": "a vibrant atmosphere for", "clickable": true, "isError": false},
+        {"id": "s5", "text": "both buyers and sellers", "clickable": true, "isError": false},
+        {"id": "s6", "text": "alike.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Simple and Participles. No error. The sentence correctly uses the present simple for a habitual state and a participle ('offering') to add descriptive detail."
+    },
+    {
+      "id": "q48",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I wish I can speak English fluently, because it would help me communicate better with international colleagues.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I wish I can", "clickable": true, "isError": true, "correctAnswers": ["I wish I could"]},
+        {"id": "s1", "text": "speak English fluently, because", "clickable": true, "isError": false},
+        {"id": "s2", "text": "it would help me", "clickable": true, "isError": false},
+        {"id": "s3", "text": "communicate better with international", "clickable": true, "isError": false},
+        {"id": "s4", "text": "colleagues and expand my", "clickable": true, "isError": false},
+        {"id": "s5", "text": "professional network significantly", "clickable": true, "isError": false},
+        {"id": "s6", "text": "in the future.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Wish' Clauses. To express a wish about a present or future situation that is currently untrue or unlikely, we use the past simple or 'could' after 'wish'."
+    },
+    {
+      "id": "q49",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The police has arrested the suspect who steal the motorcycle from the parking area yesterday afternoon.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The police has arrested", "clickable": true, "isError": true, "correctAnswers": ["The police have arrested"]},
+        {"id": "s1", "text": "the suspect who steal", "clickable": true, "isError": true, "correctAnswers": ["the suspect who stole"]},
+        {"id": "s2", "text": "the motorcycle from the", "clickable": true, "isError": false},
+        {"id": "s3", "text": "parking area yesterday afternoon", "clickable": true, "isError": false},
+        {"id": "s4", "text": "and is currently being", "clickable": true, "isError": false},
+        {"id": "s5", "text": "interrogated at the local", "clickable": true, "isError": false},
+        {"id": "s6", "text": "police station.", "clickable": false}
+      ],
+      "explanation": "Topic: Collective Nouns and Past Simple. 'Police' is a plural collective noun requiring 'have'. The time marker 'yesterday' requires the past simple 'stole'."
+    },
+    {
+      "id": "q50",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Despite of the strong wind, the fishermen decided to go out to sea to catch enough fish for the market.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Despite of the strong", "clickable": true, "isError": true, "correctAnswers": ["Despite the strong"]},
+        {"id": "s1", "text": "wind, the fishermen decided", "clickable": true, "isError": false},
+        {"id": "s2", "text": "to go out to", "clickable": true, "isError": false},
+        {"id": "s3", "text": "sea to catch enough", "clickable": true, "isError": false},
+        {"id": "s4", "text": "fish for the local", "clickable": true, "isError": false},
+        {"id": "s5", "text": "market and support their", "clickable": true, "isError": false},
+        {"id": "s6", "text": "families.", "clickable": false}
+      ],
+      "explanation": "Topic: Prepositions and Conjunctions. 'Despite' is a preposition and should not be followed by 'of'. The correct forms are either 'Despite' or 'In spite of'."
+    },
+    {
+      "id": "q51",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The university library is open until late at night, providing students with a comfortable space to prepare for their upcoming examinations.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The university library is", "clickable": false},
+        {"id": "s1", "text": "open until late at", "clickable": true, "isError": false},
+        {"id": "s2", "text": "night, providing students with", "clickable": true, "isError": false},
+        {"id": "s3", "text": "a comfortable space to", "clickable": true, "isError": false},
+        {"id": "s4", "text": "prepare for their upcoming", "clickable": true, "isError": false},
+        {"id": "s5", "text": "examinations and complete their", "clickable": true, "isError": false},
+        {"id": "s6", "text": "assignments on time.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Simple and Participles. No error. The sentence correctly uses the present simple for a current state and a participle clause ('providing') to show result or additional information."
+    },
+    {
+      "id": "q52",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The manager told the employees that they must to finish the report by the end of the week.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The manager told the", "clickable": false},
+        {"id": "s1", "text": "employees that they must", "clickable": true, "isError": false},
+        {"id": "s2", "text": "to finish the report", "clickable": true, "isError": true, "correctAnswers": ["finish the report"]},
+        {"id": "s3", "text": "by the end of", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the week to ensure", "clickable": true, "isError": false},
+        {"id": "s5", "text": "the project stays on", "clickable": true, "isError": false},
+        {"id": "s6", "text": "schedule.", "clickable": false}
+      ],
+      "explanation": "Topic: Modal Verbs. Modal verbs like 'must' are followed directly by the base form of the verb without 'to'."
+    },
+    {
+      "id": "q53",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "My parents gave me many good advices about how to manage my money and saving for the future.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "My parents gave me", "clickable": false},
+        {"id": "s1", "text": "many good advices about", "clickable": true, "isError": true, "correctAnswers": ["much good advice about", "a lot of good advice about"]},
+        {"id": "s2", "text": "how to manage my", "clickable": true, "isError": false},
+        {"id": "s3", "text": "money and save for", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the future so I", "clickable": true, "isError": false},
+        {"id": "s5", "text": "can buy a house", "clickable": true, "isError": false},
+        {"id": "s6", "text": "someday.", "clickable": false}
+      ],
+      "explanation": "Topic: Uncountable Nouns and Parallelism. 'Advice' is uncountable and cannot take an 's' or 'many'. Also, 'to manage' and 'save' must be parallel infinitives."
+    },
+    {
+      "id": "q54",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The new bridge connecting the two islands are expected to be completed by the end of next year.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new bridge connecting", "clickable": false},
+        {"id": "s1", "text": "the two islands are", "clickable": true, "isError": true, "correctAnswers": ["the two islands is"]},
+        {"id": "s2", "text": "expected to be completed", "clickable": true, "isError": false},
+        {"id": "s3", "text": "by the end of", "clickable": true, "isError": false},
+        {"id": "s4", "text": "next year, which will", "clickable": true, "isError": false},
+        {"id": "s5", "text": "greatly improve transportation and", "clickable": true, "isError": false},
+        {"id": "s6", "text": "trade between the regions.", "clickable": false}
+      ],
+      "explanation": "Topic: Subject-Verb Agreement. The true subject is the singular noun 'bridge', not the plural 'islands'. Therefore, the verb must be singular ('is expected')."
+    },
+    {
+      "id": "q55",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "When the power went out suddenly, the students continued their discussion by the light of their mobile phones.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "When the power went", "clickable": false},
+        {"id": "s1", "text": "out suddenly, the students", "clickable": true, "isError": false},
+        {"id": "s2", "text": "continued their discussion by", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the light of their", "clickable": true, "isError": false},
+        {"id": "s4", "text": "mobile phones and did", "clickable": true, "isError": false},
+        {"id": "s5", "text": "not let the interruption", "clickable": true, "isError": false},
+        {"id": "s6", "text": "stop their progress.", "clickable": false}
+      ],
+      "explanation": "Topic: Past Simple and Phrasal Verbs. No error. The sentence correctly uses the past simple tense and the phrasal verb 'went out' appropriately."
+    },
+    {
+      "id": "q56",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She has lived in Jakarta since five years, and she has made many good friends in the city.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "She has lived in", "clickable": false},
+        {"id": "s1", "text": "Jakarta since five years,", "clickable": true, "isError": true, "correctAnswers": ["Jakarta for five years,"]},
+        {"id": "s2", "text": "and she has made", "clickable": true, "isError": false},
+        {"id": "s3", "text": "many good friends in", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the city and enjoys", "clickable": true, "isError": false},
+        {"id": "s5", "text": "the vibrant urban lifestyle", "clickable": true, "isError": false},
+        {"id": "s6", "text": "very much.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect and Prepositions of Time. 'For' is used to indicate a duration of time ('five years'), while 'since' is used for a specific starting point in the past."
+    },
+    {
+      "id": "q57",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The teacher asked the students to not talk during the exam, but some of them was still whispering to each other.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The teacher asked the", "clickable": false},
+        {"id": "s1", "text": "students to not talk", "clickable": true, "isError": true, "correctAnswers": ["students not to talk"]},
+        {"id": "s2", "text": "during the exam, but", "clickable": true, "isError": false},
+        {"id": "s3", "text": "some of them was", "clickable": true, "isError": true, "correctAnswers": ["some of them were"]},
+        {"id": "s4", "text": "still whispering to each", "clickable": true, "isError": false},
+        {"id": "s5", "text": "other despite the strict", "clickable": true, "isError": false},
+        {"id": "s6", "text": "rules.", "clickable": false}
+      ],
+      "explanation": "Topic: Negative Infinitives and Subject-Verb Agreement. The negative infinitive is formed by placing 'not' before 'to' ('not to talk'). 'Some of them' is plural and requires 'were'."
+    },
+    {
+      "id": "q58",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "I am looking forward to meet you at the conference next week to discuss our potential collaboration.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I am looking forward", "clickable": false},
+        {"id": "s1", "text": "to meet you at", "clickable": true, "isError": true, "correctAnswers": ["to meeting you at"]},
+        {"id": "s2", "text": "the conference next week", "clickable": true, "isError": false},
+        {"id": "s3", "text": "to discuss our potential", "clickable": true, "isError": false},
+        {"id": "s4", "text": "collaboration and share new", "clickable": true, "isError": false},
+        {"id": "s5", "text": "ideas for the project", "clickable": true, "isError": false},
+        {"id": "s6", "text": "in the near future.", "clickable": false}
+      ],
+      "explanation": "Topic: Gerunds after Prepositions. In the phrase 'look forward to', the word 'to' is a preposition, so it must be followed by a gerund ('meeting')."
+    },
+    {
+      "id": "q59",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The local government has implemented a new recycling program to reduce waste and protect the environment for future generations.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The local government has", "clickable": false},
+        {"id": "s1", "text": "implemented a new recycling", "clickable": true, "isError": false},
+        {"id": "s2", "text": "program to reduce waste", "clickable": true, "isError": false},
+        {"id": "s3", "text": "and protect the environment", "clickable": true, "isError": false},
+        {"id": "s4", "text": "for future generations by", "clickable": true, "isError": false},
+        {"id": "s5", "text": "encouraging community participation and", "clickable": true, "isError": false},
+        {"id": "s6", "text": "awareness.", "clickable": false}
+      ],
+      "explanation": "Topic: Present Perfect and Infinitives of Purpose. No error. The sentence correctly uses the present perfect for a recent action with present results, and to-infinitives to express purpose."
+    },
+    {
+      "id": "q60",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If it will rain tomorrow, the outdoor ceremony will be moved to the main hall of the building.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If it will rain", "clickable": true, "isError": true, "correctAnswers": ["If it rains"]},
+        {"id": "s1", "text": "tomorrow, the outdoor ceremony", "clickable": true, "isError": false},
+        {"id": "s2", "text": "will be moved to", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the main hall of", "clickable": true, "isError": false},
+        {"id": "s4", "text": "the building to ensure", "clickable": true, "isError": false},
+        {"id": "s5", "text": "everyone stays dry and", "clickable": true, "isError": false},
+        {"id": "s6", "text": "comfortable.", "clickable": false}
+      ],
+      "explanation": "Topic: First Conditional. In a first conditional sentence, the 'if' clause uses the present simple tense ('rains'), not the future tense ('will rain')."
+    }
+  ]
+}
