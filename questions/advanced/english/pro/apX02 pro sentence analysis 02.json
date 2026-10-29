@@ -463,8 +463,8 @@
       "question": "Identify all errors (word, phrase, or clause).",
       "sentence": "The new policy will only affect employees who has been with the company for less than two years, causing widespread dissatisfaction.",
       "multiErrorSegments": [
-        {"id": "s0", "text": "The new policy will only", "clickable": true, "isError": true, "correctAnswers": ["The new policy will affect only"]},
-        {"id": "s1", "text": "affect employees who has been", "clickable": true, "isError": true, "correctAnswers": ["affect employees who have been"]},
+        {"id": "s0", "text": "The new policy will only affect", "clickable": true, "isError": true, "correctAnswers": ["The new policy will affect only"]},
+        {"id": "s1", "text": "employees who has been", "clickable": true, "isError": true, "correctAnswers": ["employees who have been"]},
         {"id": "s2", "text": "with the company for less", "clickable": true, "isError": false},
         {"id": "s3", "text": "than two years, causing widespread", "clickable": true, "isError": false},
         {"id": "s4", "text": "dissatisfaction among the workforce,", "clickable": true, "isError": false},
