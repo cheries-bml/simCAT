@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Test Title",
+    "description": "Click errors + type corrections",
+    "timeLimits": {"fast":5,"normal":10,"easy":20}
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction. Choose No Error if correct.",
+      "sentence": "The students was planning to visit the museum yesterday.",
+      "multiErrorSegments": [
+        {"id":"s0", "text":"The students", "clickable":false},
+        {"id":"s1", "text":"was", "clickable":true, "isError":true, "correctAnswers":["were"]},
+        {"id":"s2", "text":"planning to visit the museum yesterday.", "clickable":false}
+      ],
+      "explanation": "Students (plural) requires were."
+    },
+    {
+      "id": "q2",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "She don't likes to go to the market because she have no money.",
+      "multiErrorSegments": [
+        {"id":"s0", "text":"She", "clickable":false},
+        {"id":"s1", "text":"don't", "clickable":true, "isError":true, "correctAnswers":["doesn't"]},
+        {"id":"s2", "text":"likes", "clickable":true, "isError":true, "correctAnswers":["like"]},
+        {"id":"s3", "text":"to go to the market because she", "clickable":false},
+        {"id":"s4", "text":"have", "clickable":true, "isError":true, "correctAnswers":["has"]},
+        {"id":"s5", "text":"no money.", "clickable":false}
+      ],
+      "explanation": "She doesn't like... she has..."
+    },
+    {
+      "id": "q3",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The research was conducted thoroughly and published last month.",
+      "multiErrorSegments": [
+        {"id":"s0", "text":"The research", "clickable":false},
+        {"id":"s1", "text":"was conducted", "clickable":true},
+        {"id":"s2", "text":"thoroughly", "clickable":true},
+        {"id":"s3", "text":"and", "clickable":false},
+        {"id":"s4", "text":"published", "clickable":true},
+        {"id":"s5", "text":"last month", "clickable":false}
+      ],
+      "explanation": "No error - sentence is correct."
+    }
+  ]
+}
