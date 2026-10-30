@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "title": "03.Advanced English Proficiency Test (C1-C2)",
+    "description": "A comprehensive 30-question advanced English grammar and syntax test featuring multi-error detection, tailored for Indonesian participants.",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 90
+    },
+    "updatedAt": "October 31, 2026 10:00:00"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Rarely ", "clickable": false },
+        { "id": "s2", "text": "we have seen ", "clickable": true, "isError": true, "correctAnswers": ["have we seen "] },
+        { "id": "s3", "text": "such a remarkable ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "demonstration of skill ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "in recent years.", "clickable": false }
+      ],
+      "explanation": "Negative adverbials at the beginning of a sentence require subject-auxiliary inversion.",
+      "explanationDetails": {
+        "id": "GRAM-0101",
+        "slug": "inversion-negative-adverbials",
+        "topic": {
+          "name": { "en": "Inversion", "id": "Inversi" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Negative Adverbial Inversion", "id": "Inversi Adverbial Negatif" },
+          "description": { "en": "When a negative adverbial is placed at the beginning of a sentence for emphasis, the subject and auxiliary verb must be inverted.", "id": "Ketika adverbial negatif diletakkan di awal kalimat untuk penekanan, subjek dan kata kerja bantu harus dibalik." }
+        },
+        "wrong_correct": [
+          { "wrong": "Rarely we have seen such talent.", "correct": "Rarely have we seen such talent.", "explanation": { "en": "Inversion is required after 'Rarely'.", "id": "Inversi diperlukan setelah 'Rarely'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Inversion adds formal emphasis. The auxiliary verb comes before the subject.",
+            "rules": [
+              { "title": "1. Basic Structure", "explanation": "Negative adverb + auxiliary + subject + main verb.", "structure": "Rarely + have/has/did + subject + V3/V1", "notes": ["Applies to: rarely, seldom, never, hardly, scarcely, no sooner"] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Never I will forget this.", "correct": "Never will I forget this.", "reason": "Missing inversion after negative adverb." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } }
+        ],
+        "references": [
+          { "title": "Inversion", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/inversion", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "If he had taken ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the job offer, ", "clickable": false },
+        { "id": "s3", "text": "he would be ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "living in Paris ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "right now.", "clickable": false }
+      ],
+      "explanation": "This is a correct mixed conditional sentence: past condition (had taken) with a present result (would be living).",
+      "explanationDetails": {
+        "id": "GRAM-0102",
+        "slug": "mixed-conditionals",
+        "topic": {
+          "name": { "en": "Mixed Conditionals", "id": "Kalimat Pengandaian Campuran" },
+          "category": "Conditionals",
+          "subtopic": { "en": "Mixed Conditional", "id": "Conditional Campuran" },
+          "description": { "en": "Mixed conditionals combine different time frames, typically a past condition with a present result.", "id": "Conditional campuran menggabungkan kerangka waktu yang berbeda, biasanya kondisi masa lalu dengan hasil masa kini." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Mixed conditionals allow us to express complex hypothetical situations across different time periods.",
+            "rules": [
+              { "title": "1. Past Condition, Present Result", "explanation": "If-clause uses past perfect, main clause uses would + base verb.", "structure": "If + subject + had + V3, subject + would + V1", "notes": ["Used for past actions affecting the present."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "If he had taken the job, he would have been living in Paris now.", "correct": "If he had taken the job, he would be living in Paris now.", "reason": "'Now' requires a present result (would be), not a past result (would have been)." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "If I had studied medicine, I would be a doctor now.", "translation": "Jika saya belajar kedokteran, saya akan menjadi dokter sekarang.", "explanation": { "en": "Past study affects present profession.", "id": "Kuliah masa lalu memengaruhi profesi saat ini." } }
+        ],
+        "references": [
+          { "title": "Mixed Conditionals", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/mixed-conditionals", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Having been finished ", "clickable": true, "isError": true, "correctAnswers": ["Having finished "] },
+        { "id": "s2", "text": "the comprehensive report, ", "clickable": false },
+        { "id": "s3", "text": "the project manager ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "submitted it ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "to the board of directors.", "clickable": false }
+      ],
+      "explanation": "The active participle 'Having finished' should be used because the project manager finished the report. 'Having been finished' is passive and incorrect here.",
+      "explanationDetails": {
+        "id": "GRAM-0103",
+        "slug": "participle-clauses",
+        "topic": {
+          "name": { "en": "Participle Clauses", "id": "Klausa Partisip" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Perfect Participle", "id": "Partisip Sempurna" },
+          "description": { "en": "Perfect participle clauses show that one action was completed before another began. The voice must match the subject.", "id": "Klausa partisip sempurna menunjukkan bahwa satu tindakan selesai sebelum yang lain dimulai. Suara (aktif/pasif) harus sesuai dengan subjek." }
+        },
+        "wrong_correct": [
+          { "wrong": "Having been finished the report, she left.", "correct": "Having finished the report, she left.", "explanation": { "en": "Active subject requires active participle.", "id": "Subjek aktif memerlukan partisip aktif." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Participle clauses make writing more concise and formal.",
+            "rules": [
+              { "title": "1. Active Perfect Participle", "explanation": "Used when the subject performed the action.", "structure": "Having + V3 + object, subject + main verb", "notes": ["Subject of participle must be the same as main clause subject."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Having been read the book, I returned it.", "correct": "Having read the book, I returned it.", "reason": "The subject 'I' actively read the book." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Having completed the course, she received her certificate.", "translation": "Setelah menyelesaikan kursus, dia menerima sertifikatnya.", "explanation": { "en": "Completion precedes receiving.", "id": "Penyelesaian mendahului penerimaan." } }
+        ],
+        "references": [
+          { "title": "Participle Clauses", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/participle-clauses", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It is absolutely essential ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that every applicant ", "clickable": false },
+        { "id": "s3", "text": "be evaluated ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "impartially and ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "without any bias.", "clickable": false }
+      ],
+      "explanation": "The subjunctive mood correctly uses the base form 'be evaluated' after 'It is essential that'.",
+      "explanationDetails": {
+        "id": "GRAM-0104",
+        "slug": "subjunctive-mood",
+        "topic": {
+          "name": { "en": "Subjunctive Mood", "id": "Subjunktif" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Mandative Subjunctive", "id": "Subjunktif Mandatif" },
+          "description": { "en": "The mandative subjunctive uses the base form of the verb after expressions of necessity, importance, or suggestion.", "id": "Subjunktif mandatif menggunakan bentuk dasar kata kerja setelah ekspresi kebutuhan, kepentingan, atau saran." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The subjunctive is formal and common in academic or legal English.",
+            "rules": [
+              { "title": "1. Mandative Subjunctive", "explanation": "Base form of the verb is used regardless of the subject.", "structure": "It is essential/important/vital that + subject + base verb", "notes": ["Common triggers: essential, crucial, imperative, suggest, recommend"] }
+            ],
+            "common_mistakes": [
+              { "wrong": "It is essential that he is evaluated.", "correct": "It is essential that he be evaluated.", "reason": "Subjunctive requires base form 'be', not 'is'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The committee recommended that the proposal be reviewed.", "translation": "Komite merekomendasikan agar proposal tersebut ditinjau.", "explanation": { "en": "Base form 'be' used after 'recommended that'.", "id": "Bentuk dasar 'be' digunakan setelah 'recommended that'." } }
+        ],
+        "references": [
+          { "title": "Subjunctive", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/the-subjunctive", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The new corporate policy aims ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "at reducing operational costs, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "to improve workflow efficiency, ", "clickable": true, "isError": true, "correctAnswers": ["improving workflow efficiency, "] },
+        { "id": "s4", "text": "and enhancing ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "overall employee productivity.", "clickable": false }
+      ],
+      "explanation": "Parallel structure requires all items in the list to follow the same grammatical form. Since it starts with 'reducing', the others must be 'improving' and 'enhancing'.",
+      "explanationDetails": {
+        "id": "GRAM-0105",
+        "slug": "parallel-structure",
+        "topic": {
+          "name": { "en": "Parallel Structure", "id": "Struktur Paralel" },
+          "category": "Syntax",
+          "subtopic": { "en": "Parallelism", "id": "Paralelisme" },
+          "description": { "en": "Parallel structure requires that items in a list or series share the same grammatical form.", "id": "Struktur paralel mengharuskan item dalam daftar atau seri memiliki bentuk tata bahasa yang sama." }
+        },
+        "wrong_correct": [
+          { "wrong": "The policy aims at reducing costs, to improve efficiency, and enhancing productivity.", "correct": "The policy aims at reducing costs, improving efficiency, and enhancing productivity.", "explanation": { "en": "All items must be gerunds to match 'reducing'.", "id": "Semua item harus berupa gerund agar sesuai dengan 'reducing'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Parallelism ensures clarity and rhythm in writing.",
+            "rules": [
+              { "title": "1. Lists and Series", "explanation": "Items joined by conjunctions must match in form.", "structure": "verb-ing, verb-ing, and verb-ing", "notes": ["Applies to nouns, infinitives, gerunds, and clauses."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "She likes hiking, swimming, and to ride bikes.", "correct": "She likes hiking, swimming, and riding bikes.", "reason": "Mixed gerund and infinitive forms." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The software is designed to be fast, reliable, and secure.", "translation": "Perangkat lunak ini dirancang agar cepat, andal, dan aman.", "explanation": { "en": "All adjectives in the series.", "id": "Semua kata sifat dalam seri." } }
+        ],
+        "references": [
+          { "title": "Parallelism", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/parallel-structure", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It was ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the innovative marketing strategy ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "which ", "clickable": true, "isError": true, "correctAnswers": ["that "] },
+        { "id": "s4", "text": "led to the company's ", "clickable": false },
+        { "id": "s5", "text": "unprecedented growth last year.", "clickable": false }
+      ],
+      "explanation": "In 'It-cleft' sentences, 'that' is preferred over 'which' to introduce the relative clause, especially when emphasizing a non-human subject in formal English.",
+      "explanationDetails": {
+        "id": "GRAM-0106",
+        "slug": "cleft-sentences",
+        "topic": {
+          "name": { "en": "Cleft Sentences", "id": "Kalimat Cleft" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "It-Cleft", "id": "It-Cleft" },
+          "description": { "en": "Cleft sentences are used to emphasize a specific part of a sentence by splitting it into two clauses.", "id": "Kalimat cleft digunakan untuk menekankan bagian tertentu dari kalimat dengan membaginya menjadi dua klausa." }
+        },
+        "wrong_correct": [
+          { "wrong": "It was the strategy which led to success.", "correct": "It was the strategy that led to success.", "explanation": { "en": "'That' is the standard relative pronoun in it-clefts.", "id": "'That' adalah kata ganti relatif standar dalam it-clefts." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Clefts shift the focus to the emphasized element.",
+            "rules": [
+              { "title": "1. It-Cleft Structure", "explanation": "Starts with 'It + be + emphasized element + that/who clause'.", "structure": "It + is/was + focus + that + clause", "notes": ["Use 'who' for people, 'that' for things or people."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "It was John which called me.", "correct": "It was John who called me.", "reason": "'Which' cannot refer to a person." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "It was the heavy rain that caused the flood.", "translation": "Hujan deras itulah yang menyebabkan banjir.", "explanation": { "en": "Emphasizes 'the heavy rain' as the cause.", "id": "Menekankan 'hujan deras' sebagai penyebab." } }
+        ],
+        "references": [
+          { "title": "Cleft Sentences", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/cleft-sentences", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The methodology ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "by which ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the data was collected ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "has been widely ", "clickable": false },
+        { "id": "s5", "text": "criticized by peers.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'By which' is the appropriate formal relative pronoun phrase indicating the method or means.",
+      "explanationDetails": {
+        "id": "GRAM-0107",
+        "slug": "advanced-relative-clauses",
+        "topic": {
+          "name": { "en": "Relative Clauses", "id": "Klausa Relatif" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Preposition + Relative Pronoun", "id": "Preposisi + Kata Ganti Relatif" },
+          "description": { "en": "In formal English, prepositions are placed before the relative pronoun (which/whom).", "id": "Dalam bahasa Inggris formal, preposisi diletakkan sebelum kata ganti relatif (which/whom)." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is highly formal and common in academic writing.",
+            "rules": [
+              { "title": "1. Preposition + Which/Whom", "explanation": "The preposition relates to the verb or noun in the relative clause.", "structure": "noun + preposition + which/whom + clause", "notes": ["Do not use 'that' after a preposition."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The method that we relied on was flawed.", "correct": "The method on which we relied was flawed.", "reason": "Formal writing prefers preposition + which." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The criteria according to which candidates are judged are strict.", "translation": "Kriteria yang digunakan untuk menilai kandidat sangat ketat.", "explanation": { "en": "'According to which' refers to the criteria.", "id": "'According to which' merujuk pada kriteria." } }
+        ],
+        "references": [
+          { "title": "Relative Clauses", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/relative-clauses", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The number of ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "international students ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "enrolling in the program ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "have increased ", "clickable": true, "isError": true, "correctAnswers": ["has increased "] },
+        { "id": "s5", "text": "significantly this decade.", "clickable": false }
+      ],
+      "explanation": "'The number of' takes a singular verb ('has'), whereas 'A number of' takes a plural verb ('have').",
+      "explanationDetails": {
+        "id": "GRAM-0108",
+        "slug": "subject-verb-agreement",
+        "topic": {
+          "name": { "en": "Subject-Verb Agreement", "id": "Kesesuaian Subjek-Kata Kerja" },
+          "category": "Grammar",
+          "subtopic": { "en": "Complex Subjects", "id": "Subjek Kompleks" },
+          "description": { "en": "'The number of' refers to a single statistical figure, requiring a singular verb.", "id": "'The number of' merujuk pada angka statistik tunggal, memerlukan kata kerja tunggal." }
+        },
+        "wrong_correct": [
+          { "wrong": "The number of applicants have risen.", "correct": "The number of applicants has risen.", "explanation": { "en": "'The number' is singular.", "id": "'The number' adalah tunggal." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Agreement depends on the head noun of the subject phrase.",
+            "rules": [
+              { "title": "1. The number vs. A number", "explanation": "'The number' is singular; 'A number' is plural.", "structure": "The number of + plural noun + singular verb", "notes": ["A number of + plural noun + plural verb"] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The number of cars are increasing.", "correct": "The number of cars is increasing.", "reason": "Head noun is 'number', not 'cars'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "A number of issues remain unresolved.", "translation": "Sejumlah masalah masih belum terselesaikan.", "explanation": { "en": "'A number of' acts as a plural quantifier.", "id": "'A number of' bertindak sebagai kuantifier jamak." } }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The committee is ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "composed from ", "clickable": true, "isError": true, "correctAnswers": ["composed of "] },
+        { "id": "s3", "text": "experts who are ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "capable to handle ", "clickable": true, "isError": true, "correctAnswers": ["capable of handling "] },
+        { "id": "s5", "text": "complex logistical challenges.", "clickable": false }
+      ],
+      "explanation": "The correct dependent prepositions are 'composed of' and 'capable of' + gerund.",
+      "explanationDetails": {
+        "id": "GRAM-0109",
+        "slug": "dependent-prepositions",
+        "topic": {
+          "name": { "en": "Dependent Prepositions", "id": "Preposisi Dependen" },
+          "category": "Grammar",
+          "subtopic": { "en": "Advanced Prepositions", "id": "Preposisi Lanjutan" },
+          "description": { "en": "Certain adjectives and verbs require specific prepositions that must be memorized.", "id": "Kata sifat dan kata kerja tertentu memerlukan preposisi spesifik yang harus dihafal." }
+        },
+        "wrong_correct": [
+          { "wrong": "The team is composed from members capable to work hard.", "correct": "The team is composed of members capable of working hard.", "explanation": { "en": "'Composed of' and 'capable of + V-ing' are fixed collocations.", "id": "'Composed of' dan 'capable of + V-ing' adalah kolokasi tetap." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Preposition choice is often idiomatic and does not translate directly.",
+            "rules": [
+              { "title": "1. Fixed Prepositions", "explanation": "Adjectives and past participles often take specific prepositions.", "structure": "composed of, capable of, interested in", "notes": ["'Capable' is always followed by 'of + gerund'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "She is capable to do it.", "correct": "She is capable of doing it.", "reason": "'Capable' requires 'of + gerund'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The cake is made of flour and sugar.", "translation": "Kue itu terbuat dari tepung dan gula.", "explanation": { "en": "'Made of' indicates material.", "id": "'Made of' menunjukkan bahan." } }
+        ],
+        "references": [
+          { "title": "Dependent Prepositions", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The newly appointed CEO ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "has transformed completely ", "clickable": true, "isError": true, "correctAnswers": ["has completely transformed "] },
+        { "id": "s3", "text": "the company's strategic ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "vision and ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "core values.", "clickable": false }
+      ],
+      "explanation": "Mid-position adverbs like 'completely' should be placed between the auxiliary verb and the main verb.",
+      "explanationDetails": {
+        "id": "GRAM-0110",
+        "slug": "adverb-placement",
+        "topic": {
+          "name": { "en": "Adverb Placement", "id": "Penempatan Kata Keterangan" },
+          "category": "Syntax",
+          "subtopic": { "en": "Mid-position Adverbs", "id": "Kata Keterangan Posisi Tengah" },
+          "description": { "en": "Mid-position adverbs typically appear after the first auxiliary verb or before the main verb.", "id": "Kata keterangan posisi tengah biasanya muncul setelah kata kerja bantu pertama atau sebelum kata kerja utama." }
+        },
+        "wrong_correct": [
+          { "wrong": "The CEO has transformed completely the vision.", "correct": "The CEO has completely transformed the vision.", "explanation": { "en": "Adverb of degree goes between auxiliary and main verb.", "id": "Kata keterangan derajat berada di antara kata kerja bantu dan utama." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Correct adverb placement ensures natural-sounding English.",
+            "rules": [
+              { "title": "1. Mid-Position Rule", "explanation": "Place adverbs of degree after the auxiliary verb.", "structure": "Subject + auxiliary + adverb + main verb + object", "notes": ["Applies to: completely, totally, almost, never, always"] }
+            ],
+            "common_mistakes": [
+              { "wrong": "I have forgotten totally my keys.", "correct": "I have totally forgotten my keys.", "reason": "Adverb should not be placed between verb and object." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "He has always wanted to visit Japan.", "translation": "Dia selalu ingin mengunjungi Jepang.", "explanation": { "en": "'Always' is correctly placed after 'has'.", "id": "'Always' ditempatkan dengan benar setelah 'has'." } }
+        ],
+        "references": [
+          { "title": "Adverb Placement", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/adverb-position", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "You should have ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "submit the report ", "clickable": true, "isError": true, "correctAnswers": ["submitted the report "] },
+        { "id": "s3", "text": "by last Friday, ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "but you ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "failed to do so.", "clickable": false }
+      ],
+      "explanation": "After modal verbs (should have, must have), the past participle (V3) must be used.",
+      "explanationDetails": {
+        "id": "GRAM-0111",
+        "slug": "past-modals",
+        "topic": {
+          "name": { "en": "Past Modals", "id": "Modal Masa Lalu" },
+          "category": "Grammar",
+          "subtopic": { "en": "Modal Verbs", "id": "Kata Kerja Modal" },
+          "description": { "en": "Past modals express deduction, criticism, or regret about past events using modal + have + V3.", "id": "Modal masa lalu mengekspresikan deduksi, kritik, atau penyesalan tentang peristiwa masa lalu menggunakan modal + have + V3." }
+        },
+        "wrong_correct": [
+          { "wrong": "You should have submit the report.", "correct": "You should have submitted the report.", "explanation": { "en": "'Have' must be followed by the past participle (V3).", "id": "'Have' harus diikuti oleh partisip lampau (V3)." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Past modals are essential for expressing nuanced attitudes toward past actions.",
+            "rules": [
+              { "title": "1. Modal + Have + V3", "explanation": "Used for past deduction, regret, or criticism.", "structure": "Subject + should/must/could + have + V3", "notes": ["Never use V1 after 'have' in this structure."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "He must have forgot the meeting.", "correct": "He must have forgotten the meeting.", "reason": "'Forget' is V1; 'forgotten' is V3." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "She could have won the race if she hadn't fallen.", "translation": "Dia bisa saja memenangkan lomba jika tidak jatuh.", "explanation": { "en": "Expresses a missed past opportunity.", "id": "Mengekspresikan peluang masa lalu yang terlewat." } }
+        ],
+        "references": [
+          { "title": "Past Modals", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/modal-verbs", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "By the end ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "of this decade, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "scientists will have developed ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "a viable alternative ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "to fossil fuels.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'Will have developed' is the correct future perfect tense, indicating an action completed before a specific future time.",
+      "explanationDetails": {
+        "id": "GRAM-0112",
+        "slug": "future-perfect",
+        "topic": {
+          "name": { "en": "Future Perfect", "id": "Future Perfect" },
+          "category": "Tenses",
+          "subtopic": { "en": "Future Perfect Tense", "id": "Future Perfect" },
+          "description": { "en": "The future perfect tense describes an action that will be completed before a specific point in the future.", "id": "Future perfect menggambarkan tindakan yang akan selesai sebelum titik waktu tertentu di masa depan." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Often used with 'by' or 'by the time'.",
+            "rules": [
+              { "title": "1. Future Perfect Structure", "explanation": "Indicates completion before a future deadline.", "structure": "Subject + will have + V3 + by + future time", "notes": ["The action is viewed from a future perspective."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "By tomorrow, I will finish the work.", "correct": "By tomorrow, I will have finished the work.", "reason": "'By' requires future perfect to show completion." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "They will have arrived by noon.", "translation": "Mereka akan tiba sebelum siang hari.", "explanation": { "en": "Completion before noon.", "id": "Penyelesaian sebelum siang hari." } }
+        ],
+        "references": [
+          { "title": "Future Perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "I wish ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "I would know ", "clickable": true, "isError": true, "correctAnswers": ["I knew "] },
+        { "id": "s3", "text": "the answer ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to this complex ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "mathematical problem.", "clickable": false }
+      ],
+      "explanation": "To express a present desire for a different state, 'wish' is followed by the past simple, not 'would'.",
+      "explanationDetails": {
+        "id": "GRAM-0113",
+        "slug": "wish-if-only",
+        "topic": {
+          "name": { "en": "Wish and If Only", "id": "Wish dan If Only" },
+          "category": "Grammar",
+          "subtopic": { "en": "Hypothetical Wishes", "id": "Harapan Hipotetis" },
+          "description": { "en": "'Wish' + past simple is used to express a desire for a present situation to be different.", "id": "'Wish' + past simple digunakan untuk mengekspresikan keinginan agar situasi saat ini berbeda." }
+        },
+        "wrong_correct": [
+          { "wrong": "I wish I would know the answer.", "correct": "I wish I knew the answer.", "explanation": { "en": "Use past simple for present wishes about states.", "id": "Gunakan past simple untuk harapan saat ini tentang keadaan." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "'Would' is only used with 'wish' for complaints about others' actions, not for one's own states.",
+            "rules": [
+              { "title": "1. Wish + Past Simple", "explanation": "Used for present states we want to change.", "structure": "Subject + wish + subject + past simple", "notes": ["Use 'were' instead of 'was' for all subjects in formal English."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "I wish I have more time.", "correct": "I wish I had more time.", "reason": "Present wish requires past simple." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "If only I lived closer to my family.", "translation": "Andai saja saya tinggal lebih dekat dengan keluarga saya.", "explanation": { "en": "Expresses a present regret about location.", "id": "Mengekspresikan penyesalan saat ini tentang lokasi." } }
+        ],
+        "references": [
+          { "title": "Wish and If Only", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/wish", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not only ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the software is ", "clickable": true, "isError": true, "correctAnswers": ["is the software "] },
+        { "id": "s3", "text": "highly intuitive, ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "but it also ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "offers robust security features.", "clickable": false }
+      ],
+      "explanation": "When 'Not only' begins a sentence, it triggers inversion in the first clause.",
+      "explanationDetails": {
+        "id": "GRAM-0114",
+        "slug": "correlative-conjunctions",
+        "topic": {
+          "name": { "en": "Correlative Conjunctions", "id": "Konjungsi Korelatif" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Not Only... But Also", "id": "Not Only... But Also" },
+          "description": { "en": "'Not only' at the beginning of a clause requires subject-auxiliary inversion.", "id": "'Not only' di awal klausa memerlukan inversi subjek-kata kerja bantu." }
+        },
+        "wrong_correct": [
+          { "wrong": "Not only the software is intuitive, but it also offers security.", "correct": "Not only is the software intuitive, but it also offers security.", "explanation": { "en": "Inversion is mandatory after initial 'Not only'.", "id": "Inversi wajib setelah 'Not only' di awal." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure adds strong emphasis to the first element.",
+            "rules": [
+              { "title": "1. Inversion with Not Only", "explanation": "Treat 'Not only' like a negative adverbial.", "structure": "Not only + auxiliary + subject + verb, but + subject + also + verb", "notes": ["Ensure parallel structure in both clauses."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Not only she sings, but she also dances.", "correct": "Not only does she sing, but she also dances.", "reason": "Missing auxiliary 'does' for inversion." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Not only did he apologize, but he also offered compensation.", "translation": "Dia tidak hanya meminta maaf, tetapi juga menawarkan kompensasi.", "explanation": { "en": "Correct inversion with 'did'.", "id": "Inversi yang benar dengan 'did'." } }
+        ],
+        "references": [
+          { "title": "Correlative Conjunctions", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/not-only-but-also", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "What the researchers ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "failed to anticipate ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "was the rapid ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "deterioration of ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "the global supply chain.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'What the researchers failed to anticipate' functions as a nominal relative clause acting as the subject.",
+      "explanationDetails": {
+        "id": "GRAM-0115",
+        "slug": "noun-clauses",
+        "topic": {
+          "name": { "en": "Noun Clauses", "id": "Klausa Kata Benda" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Nominal Relative Clauses", "id": "Klausa Relatif Nominal" },
+          "description": { "en": "A nominal relative clause can act as the subject of a sentence.", "id": "Klausa relatif nominal dapat bertindak sebagai subjek kalimat." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is common in academic and formal writing to emphasize the subject.",
+            "rules": [
+              { "title": "1. Nominal Relative Subject", "explanation": "The entire 'what' clause acts as a singular subject.", "structure": "What + subject + verb + be + complement", "notes": ["The verb 'be' is usually singular."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "What they need are more time.", "correct": "What they need is more time.", "reason": "The 'what' clause is treated as singular." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Whatever you decide is fine with me.", "translation": "Apa pun yang kamu putuskan baik-baik saja bagi saya.", "explanation": { "en": "'Whatever you decide' is the subject.", "id": "'Whatever you decide' adalah subjek." } }
+        ],
+        "references": [
+          { "title": "Noun Clauses", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/noun-clauses", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The CEO admitted ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "to make ", "clickable": true, "isError": true, "correctAnswers": ["making "] },
+        { "id": "s3", "text": "a strategic error ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "during the ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "initial negotiation phase.", "clickable": false }
+      ],
+      "explanation": "The verb 'admit' is followed by a gerund (V-ing), not an infinitive.",
+      "explanationDetails": {
+        "id": "GRAM-0116",
+        "slug": "gerund-vs-infinitive",
+        "topic": {
+          "name": { "en": "Gerund vs. Infinitive", "id": "Gerund vs. Infinitif" },
+          "category": "Grammar",
+          "subtopic": { "en": "Verb Patterns", "id": "Pola Kata Kerja" },
+          "description": { "en": "Certain verbs are strictly followed by a gerund, while others take an infinitive.", "id": "Kata kerja tertentu secara ketat diikuti oleh gerund, sementara yang lain mengambil infinitif." }
+        },
+        "wrong_correct": [
+          { "wrong": "The CEO admitted to make a strategic error.", "correct": "The CEO admitted making a strategic error.", "explanation": { "en": "'Admit' is directly followed by a gerund.", "id": "'Admit' secara langsung diikuti oleh gerund." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Verb patterns must be memorized as they do not always follow logical rules.",
+            "rules": [
+              { "title": "1. Verbs + Gerund", "explanation": "Verbs like admit, avoid, deny, suggest take a gerund.", "structure": "Subject + verb + V-ing", "notes": ["'Admit to' can be used, but 'to' is a preposition, so it still takes a gerund."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "She denied to steal the money.", "correct": "She denied stealing the money.", "reason": "'Deny' requires a gerund." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "I regret informing you that your application was rejected.", "translation": "Saya menyesal memberi tahu Anda bahwa lamaran Anda ditolak.", "explanation": { "en": "'Regret' + gerund refers to a past action.", "id": "'Regret' + gerund merujuk pada tindakan masa lalu." } }
+        ],
+        "references": [
+          { "title": "Verb Patterns", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The first quarter results ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "were better than ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "those of ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the previous ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "fiscal year.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'Those' is used correctly as a substitute for 'the results' to avoid repetition.",
+      "explanationDetails": {
+        "id": "GRAM-0117",
+        "slug": "ellipsis-substitution",
+        "topic": {
+          "name": { "en": "Ellipsis and Substitution", "id": "Elipsis dan Substitusi" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Pronominal Substitution", "id": "Substitusi Pronominal" },
+          "description": { "en": "Substitution uses words like 'one(s)', 'so', or 'those' to replace a noun phrase and avoid repetition.", "id": "Substitusi menggunakan kata seperti 'one(s)', 'so', atau 'those' untuk menggantikan frasa kata benda dan menghindari pengulangan." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Substitution creates cohesion and conciseness in comparative structures.",
+            "rules": [
+              { "title": "1. Demonstrative Substitution", "explanation": "Use 'that' for singular and 'those' for plural nouns.", "structure": "Noun phrase + than + those/that + of + noun", "notes": ["'Those' refers back to 'results'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The cars here are faster than the cars in Japan.", "correct": "The cars here are faster than those in Japan.", "reason": "Substitution avoids repeating 'the cars'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The climate of this region is milder than that of the north.", "translation": "Iklim wilayah ini lebih sejuk daripada iklim di utara.", "explanation": { "en": "'That' substitutes for 'the climate'.", "id": "'That' menggantikan 'the climate'." } }
+        ],
+        "references": [
+          { "title": "Substitution", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/substitution", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The team of researchers ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "published their ", "clickable": true, "isError": true, "correctAnswers": ["its "] },
+        { "id": "s3", "text": "findings in a ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "prestigious academic ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "journal last month.", "clickable": false }
+      ],
+      "explanation": "In formal American English, collective nouns like 'team' are treated as singular and require singular pronouns ('its').",
+      "explanationDetails": {
+        "id": "GRAM-0118",
+        "slug": "collective-nouns",
+        "topic": {
+          "name": { "en": "Collective Nouns", "id": "Kata Benda Kolektif" },
+          "category": "Grammar",
+          "subtopic": { "en": "Subject-Pronoun Agreement", "id": "Kesesuaian Subjek-Kata Ganti" },
+          "description": { "en": "Collective nouns can be singular or plural depending on whether the group acts as a single unit or as individuals.", "id": "Kata benda kolektif bisa tunggal atau jamak tergantung pada apakah kelompok bertindak sebagai satu unit atau sebagai individu." }
+        },
+        "wrong_correct": [
+          { "wrong": "The team published their findings.", "correct": "The team published its findings.", "explanation": { "en": "In formal contexts, 'team' is a single unit, requiring 'its'.", "id": "Dalam konteks formal, 'team' adalah satu unit, memerlukan 'its'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Consistency in number (singular/plural) is crucial for formal writing.",
+            "rules": [
+              { "title": "1. Collective Noun Agreement", "explanation": "Treat the collective noun as singular if it acts as one unit.", "structure": "Collective noun + singular verb + singular pronoun", "notes": ["Examples: team, committee, government, family."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The committee has made their decision.", "correct": "The committee has made its decision.", "reason": "Singular verb 'has' requires singular pronoun 'its'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The audience was captivated by its performance.", "translation": "Penonton terpukau oleh penampilannya.", "explanation": { "en": "'Audience' treated as a single entity.", "id": "'Audience' diperlakukan sebagai entitas tunggal." } }
+        ],
+        "references": [
+          { "title": "Collective Nouns", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/collective-nouns", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The new regulations ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "will have a profound ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "effect on how ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "companies do ", "clickable": true, "isError": true, "correctAnswers": ["companies conduct "] },
+        { "id": "s5", "text": "business globally.", "clickable": false }
+      ],
+      "explanation": "In formal contexts, 'conduct business' is the correct collocation, not 'do business'.",
+      "explanationDetails": {
+        "id": "GRAM-0119",
+        "slug": "advanced-collocations",
+        "topic": {
+          "name": { "en": "Advanced Collocations", "id": "Kolokasi Lanjutan" },
+          "category": "Vocabulary",
+          "subtopic": { "en": "Formal Collocations", "id": "Kolokasi Formal" },
+          "description": { "en": "Collocations are words that naturally go together. Formal English requires specific verb-noun pairings.", "id": "Kolokasi adalah kata-kata yang secara alami saling menyertai. Bahasa Inggris formal memerlukan pasangan kata kerja-kata benda tertentu." }
+        },
+        "wrong_correct": [
+          { "wrong": "Companies do business globally.", "correct": "Companies conduct business globally.", "explanation": { "en": "'Conduct' is the formal verb collocated with 'business'.", "id": "'Conduct' adalah kata kerja formal yang berkolokasi dengan 'business'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Using precise collocations elevates the formality and accuracy of writing.",
+            "rules": [
+              { "title": "1. Formal Verb-Noun Collocations", "explanation": "Replace informal verbs with formal equivalents.", "structure": "conduct business, make a decision, pose a threat", "notes": ["Avoid 'do', 'make', 'get' in formal academic writing where specific verbs exist."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "We need to do a thorough investigation.", "correct": "We need to conduct a thorough investigation.", "reason": "'Conduct' is the appropriate formal verb for 'investigation'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The government will implement new policies.", "translation": "Pemerintah akan menerapkan kebijakan baru.", "explanation": { "en": "'Implement' collocates with 'policies'.", "id": "'Implement' berkolokasi dengan 'policies'." } }
+        ],
+        "references": [
+          { "title": "Collocations", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/collocations", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The ancient artifact ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "is believed ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "that it dates ", "clickable": true, "isError": true, "correctAnswers": ["to date "] },
+        { "id": "s4", "text": "back to the ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "third century BCE.", "clickable": false }
+      ],
+      "explanation": "With reporting verbs in the passive, the correct structure is 'Subject + is believed + to infinitive', not 'is believed that it + verb'.",
+      "explanationDetails": {
+        "id": "GRAM-0120",
+        "slug": "passive-reporting-verbs",
+        "topic": {
+          "name": { "en": "Passive Reporting Verbs", "id": "Kata Kerja Pelaporan Pasif" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Impersonal Passive", "id": "Pasif Impersonal" },
+          "description": { "en": "Impersonal passive structures are used to report beliefs, claims, or knowledge formally.", "id": "Struktur pasif impersonal digunakan untuk melaporkan kepercayaan, klaim, atau pengetahuan secara formal." }
+        },
+        "wrong_correct": [
+          { "wrong": "The artifact is believed that it dates back.", "correct": "The artifact is believed to date back.", "explanation": { "en": "Use 'to + infinitive' after passive reporting verbs.", "id": "Gunakan 'to + infinitive' setelah kata kerja pelaporan pasif." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is common in journalism and academic writing.",
+            "rules": [
+              { "title": "1. Personal Passive Structure", "explanation": "The subject of the active clause becomes the subject of the passive clause.", "structure": "Subject + is/are + believed/said/thought + to + V1", "notes": ["For past events, use 'to have + V3'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "He is said that he is rich.", "correct": "He is said to be rich.", "reason": "The 'that' clause is incorrect in this personal passive structure." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The suspect is thought to have fled the country.", "translation": "Tersangka diduga telah melarikan diri ke luar negeri.", "explanation": { "en": "'To have fled' indicates a past action.", "id": "'To have fled' menunjukkan tindakan masa lalu." } }
+        ],
+        "references": [
+          { "title": "Passive Reporting Verbs", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/passive-with-reporting-verbs", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Despite the fact that ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the economy is ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "experiencing a downturn, ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the tech sector ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "continues to thrive.", "clickable": false }
+      ],
+      "explanation": "The sentence is grammatically correct. 'Despite the fact that' is properly followed by a full clause.",
+      "explanationDetails": {
+        "id": "GRAM-0121",
+        "slug": "concession-clauses",
+        "topic": {
+          "name": { "en": "Concession Clauses", "id": "Klausa Konsesi" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Despite / In spite of", "id": "Meskipun" },
+          "description": { "en": "'Despite the fact that' is a formal conjunction followed by a subject and verb.", "id": "'Despite the fact that' adalah konjungsi formal yang diikuti oleh subjek dan kata kerja." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Both 'despite' and 'despite the fact that' are correct, but their grammatical requirements differ.",
+            "rules": [
+              { "title": "1. Despite vs. Despite the fact that", "explanation": "'Despite' + noun phrase; 'Despite the fact that' + clause.", "structure": "Despite + noun phrase OR Despite the fact that + subject + verb", "notes": ["Never use 'despite of'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Despite of the rain, we went out.", "correct": "Despite the rain, we went out.", "reason": "'Despite' does not take 'of'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "In spite of the heavy traffic, we arrived on time.", "translation": "Meskipun lalu lintas padat, kami tiba tepat waktu.", "explanation": { "en": "'In spite of' + noun phrase.", "id": "'In spite of' + frasa kata benda." } }
+        ],
+        "references": [
+          { "title": "Concession", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/despite-in-spite-of", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The scientist's hypothesis ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "was subsequently ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "validated by ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "a series of ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "rigorous experiments.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'Subsequently', 'validated', and 'rigorous' are used correctly in formal academic context.",
+      "explanationDetails": {
+        "id": "GRAM-0122",
+        "slug": "academic-vocabulary",
+        "topic": {
+          "name": { "en": "Academic Vocabulary", "id": "Kosakata Akademik" },
+          "category": "Vocabulary",
+          "subtopic": { "en": "Formal Register", "id": "Register Formal" },
+          "description": { "en": "Academic writing requires precise vocabulary and correct adverb placement.", "id": "Penulisan akademis memerlukan kosakata yang tepat dan penempatan kata keterangan yang benar." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Words like 'subsequently', 'validated', and 'rigorous' are hallmarks of C1/C2 academic English.",
+            "rules": [
+              { "title": "1. Formal Adverb Placement", "explanation": "Adverbs of time/sequence often appear before the main verb.", "structure": "Subject + auxiliary + adverb + past participle", "notes": ["'Subsequently' means 'after that' or 'later'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The hypothesis was validated rigorous.", "correct": "The hypothesis was validated by rigorous experiments.", "reason": "Adjective 'rigorous' must modify a noun, not a verb." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The theory was initially proposed in the 19th century.", "translation": "Teori tersebut awalnya diusulkan pada abad ke-19.", "explanation": { "en": "'Initially' correctly modifies 'proposed'.", "id": "'Initially' dengan benar memodifikasi 'proposed'." } }
+        ],
+        "references": [
+          { "title": "Academic Vocabulary", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/academic-vocabulary", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Only after the ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "data was thoroughly ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "analyzed did ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the researchers ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "publish their findings.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. 'Only after' at the beginning of a sentence triggers inversion in the main clause.",
+      "explanationDetails": {
+        "id": "GRAM-0123",
+        "slug": "inversion-only",
+        "topic": {
+          "name": { "en": "Inversion with 'Only'", "id": "Inversi dengan 'Only'" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Only + Time Expression", "id": "Only + Ekspresi Waktu" },
+          "description": { "en": "When 'only' + a time expression begins a sentence, the main clause requires inversion.", "id": "Ketika 'only' + ekspresi waktu mengawali kalimat, klausa utama memerlukan inversi." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure emphasizes the condition that must be met before the main action occurs.",
+            "rules": [
+              { "title": "1. Only + Time Expression", "explanation": "The subordinate clause remains normal; the main clause is inverted.", "structure": "Only after + clause, auxiliary + subject + main verb", "notes": ["The inversion happens in the main clause, not the 'only' clause."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Only after he left, I realized the truth.", "correct": "Only after he left did I realize the truth.", "reason": "Main clause requires inversion." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Only when the rain stopped could we continue the journey.", "translation": "Hanya ketika hujan berhenti kami bisa melanjutkan perjalanan.", "explanation": { "en": "Inversion 'could we' in the main clause.", "id": "Inversi 'could we' di klausa utama." } }
+        ],
+        "references": [
+          { "title": "Inversion", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/inversion", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "A series of ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "lectures on quantum physics ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "are scheduled ", "clickable": true, "isError": true, "correctAnswers": ["is scheduled "] },
+        { "id": "s4", "text": "to commence ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "on next Monday.", "clickable": true, "isError": true, "correctAnswers": ["next Monday."] }
+      ],
+      "explanation": "1. 'A series' is singular, so it requires 'is scheduled'. 2. 'On' is not used before 'next Monday'.",
+      "explanationDetails": {
+        "id": "GRAM-0124",
+        "slug": "multiple-errors-agreement-preposition",
+        "topic": {
+          "name": { "en": "Multiple Errors", "id": "Kesalahan Ganda" },
+          "category": "Grammar",
+          "subtopic": { "en": "Mixed Grammar Rules", "id": "Aturan Tata Bahasa Campuran" },
+          "description": { "en": "Advanced sentences may contain multiple distinct errors, such as subject-verb agreement and preposition misuse.", "id": "Kalimat lanjutan mungkin mengandung beberapa kesalahan berbeda." }
+        },
+        "wrong_correct": [
+          { "wrong": "A series of lectures are scheduled on next Monday.", "correct": "A series of lectures is scheduled next Monday.", "explanation": { "en": "'Series' is singular; 'next Monday' does not take 'on'.", "id": "'Series' adalah tunggal; 'next Monday' tidak menggunakan 'on'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Careful proofreading is required to catch multiple error types in a single sentence.",
+            "rules": [
+              { "title": "1. Collective/Quantifier Agreement", "explanation": "'A series', 'each' are singular.", "structure": "A series of + plural noun + singular verb", "notes": ["Focus on the head noun, not the noun in the prepositional phrase."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "We will meet on next week.", "correct": "We will meet next week.", "reason": "Do not use prepositions of time before 'next', 'last', or 'this'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "A pair of shoes was left in the hallway.", "translation": "Sepasang sepatu tertinggal di lorong.", "explanation": { "en": "'A pair' is singular.", "id": "'A pair' adalah tunggal." } }
+        ],
+        "references": [
+          { "title": "Multiple Errors", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The manager is responsible ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "for training new staff, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "to evaluate ", "clickable": true, "isError": true, "correctAnswers": ["evaluating "] },
+        { "id": "s4", "text": "their performance, ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "and to assign daily tasks.", "clickable": true, "isError": true, "correctAnswers": ["and assigning daily tasks."] }
+      ],
+      "explanation": "Parallelism requires all items after 'responsible for' to be gerunds: 'training', 'evaluating', and 'assigning'.",
+      "explanationDetails": {
+        "id": "GRAM-0125",
+        "slug": "parallelism-gerunds",
+        "topic": {
+          "name": { "en": "Parallelism with Gerunds", "id": "Paralelisme dengan Gerund" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Parallel Structure", "id": "Struktur Paralel" },
+          "description": { "en": "Items in a list following a preposition must all be in the gerund form.", "id": "Item dalam daftar yang mengikuti preposisi harus semuanya dalam bentuk gerund." }
+        },
+        "wrong_correct": [
+          { "wrong": "Responsible for training, to evaluate, and to assign.", "correct": "Responsible for training, evaluating, and assigning.", "explanation": { "en": "All items must be gerunds to maintain parallel structure.", "id": "Semua item harus berupa gerund untuk mempertahankan struktur paralel." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Parallelism ensures that the reader can easily follow the list of responsibilities.",
+            "rules": [
+              { "title": "1. Gerund Lists", "explanation": "After a preposition, all coordinated verbs must be gerunds.", "structure": "for + V-ing, V-ing, and V-ing", "notes": ["Do not mix infinitives and gerunds in the same list."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "She is interested in learning, to teach, and researching.", "correct": "She is interested in learning, teaching, and researching.", "reason": "Mixed forms break parallel structure." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "He is known for writing, editing, and publishing his own books.", "translation": "Dia dikenal karena menulis, mengedit, dan menerbitkan bukunya sendiri.", "explanation": { "en": "All gerunds follow 'for'.", "id": "Semua gerund mengikuti 'for'." } }
+        ],
+        "references": [
+          { "title": "Parallelism", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/parallel-structure", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Were I to ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "accept the position, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "I will ", "clickable": true, "isError": true, "correctAnswers": ["I would "] },
+        { "id": "s4", "text": "relocate to ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "the headquarters.", "clickable": false }
+      ],
+      "explanation": "'Were I to accept' is a formal second conditional. The main clause must use 'would + base verb', not 'will'.",
+      "explanationDetails": {
+        "id": "GRAM-0126",
+        "slug": "formal-conditionals",
+        "topic": {
+          "name": { "en": "Formal Conditionals", "id": "Conditional Formal" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Inverted Conditionals", "id": "Conditional Inversi" },
+          "description": { "en": "'Were + subject + to + verb' is a formal alternative to 'If + subject + past simple' in second conditionals.", "id": "'Were + subjek + to + kata kerja' adalah alternatif formal untuk 'If + subjek + past simple'." }
+        },
+        "wrong_correct": [
+          { "wrong": "Were I to accept the position, I will relocate.", "correct": "Were I to accept the position, I would relocate.", "explanation": { "en": "Second conditional requires 'would' in the main clause, not 'will'.", "id": "Conditional kedua memerlukan 'would' di klausa utama, bukan 'will'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is highly formal and common in professional or academic contexts.",
+            "rules": [
+              { "title": "1. Inverted Second Conditional", "explanation": "Omits 'if' and inverts 'were' and the subject.", "structure": "Were + subject + to + V1, subject + would + V1", "notes": ["Only used with 'were', not 'was'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Were he to ask, I will help him.", "correct": "Were he to ask, I would help him.", "reason": "Hypothetical present/future requires 'would', not 'will'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Should you need any assistance, please contact us.", "translation": "Jika Anda memerlukan bantuan, silakan hubungi kami.", "explanation": { "en": "'Should you need' is a formal first conditional inversion.", "id": "'Should you need' adalah inversi conditional pertama yang formal." } }
+        ],
+        "references": [
+          { "title": "Formal Conditionals", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals-if", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The proposals ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "presented at ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the conference ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "was highly ", "clickable": true, "isError": true, "correctAnswers": ["were highly "] },
+        { "id": "s5", "text": "innovative and practical.", "clickable": false }
+      ],
+      "explanation": "The subject 'proposals' is plural, so the verb must be 'were'. 'Presented at the conference' is a correctly reduced relative clause.",
+      "explanationDetails": {
+        "id": "GRAM-0127",
+        "slug": "reduced-relative-clauses",
+        "topic": {
+          "name": { "en": "Reduced Relative Clauses", "id": "Klausa Relatif Tereduksi" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Participle Modifiers", "id": "Modifier Partisip" },
+          "description": { "en": "Relative clauses can be reduced to participle phrases when the relative pronoun is the subject.", "id": "Klausa relatif dapat direduksi menjadi frasa partisip ketika kata ganti relatif adalah subjek." }
+        },
+        "wrong_correct": [
+          { "wrong": "The proposals presented at the conference was innovative.", "correct": "The proposals presented at the conference were innovative.", "explanation": { "en": "The head noun 'proposals' is plural, requiring a plural verb.", "id": "Kata benda utama 'proposals' adalah jamak, memerlukan kata kerja jamak." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Reduction makes sentences more concise without losing meaning.",
+            "rules": [
+              { "title": "1. Passive Reduction", "explanation": "Remove the relative pronoun and 'be' verb.", "structure": "Noun + past participle phrase", "notes": ["'The proposals (which were) presented...'"] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The students who studying hard passed the exam.", "correct": "The students studying hard passed the exam.", "reason": "In reduced relative clauses, do not keep the relative pronoun if you remove the 'be' verb." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The data collected over ten years shows a clear trend.", "translation": "Data yang dikumpulkan selama sepuluh tahun menunjukkan tren yang jelas.", "explanation": { "en": "'Collected over ten years' modifies 'data'.", "id": "'Collected over ten years' memodifikasi 'data'." } }
+        ],
+        "references": [
+          { "title": "Reduced Relative Clauses", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/reduced-relative-clauses", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The more complex ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the algorithm becomes, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the more higher ", "clickable": true, "isError": true, "correctAnswers": ["the higher "] },
+        { "id": "s4", "text": "the computational ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "cost will be.", "clickable": false }
+      ],
+      "explanation": "Double comparatives use 'the + comparative', not 'the more + comparative'. 'Higher' is already comparative.",
+      "explanationDetails": {
+        "id": "GRAM-0128",
+        "slug": "double-comparatives",
+        "topic": {
+          "name": { "en": "Double Comparatives", "id": "Komparatif Ganda" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "The... The...", "id": "The... The..." },
+          "description": { "en": "Double comparatives express that two things change together.", "id": "Komparatif ganda mengekspresikan bahwa dua hal berubah bersama." }
+        },
+        "wrong_correct": [
+          { "wrong": "The more complex it is, the more higher the cost.", "correct": "The more complex it is, the higher the cost.", "explanation": { "en": "Use 'the + comparative', not 'the more + comparative'.", "id": "Gunakan 'the + komparatif', bukan 'the more + komparatif'." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is used to show proportional correlation.",
+            "rules": [
+              { "title": "1. The + Comparative, The + Comparative", "explanation": "Both clauses must start with 'the' followed by a comparative form.", "structure": "The + comparative + subject + verb, the + comparative + subject + verb", "notes": ["Do not use 'more' with adjectives that already have '-er'."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "The more you practice, the more better you get.", "correct": "The more you practice, the better you get.", "reason": "'Better' is already comparative; 'more' is redundant." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "The sooner we start, the earlier we will finish.", "translation": "Semakin cepat kita mulai, semakin awal kita akan selesai.", "explanation": { "en": "Correct double comparative structure.", "id": "Struktur komparatif ganda yang benar." } }
+        ],
+        "references": [
+          { "title": "Double Comparatives", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparatives", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Although the initial ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "investment was substantial, ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the long-term benefits ", "clickable": true, "isError": false },
+        { "id": "s4", "text": "have far exceeded ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "our original projections.", "clickable": false }
+      ],
+      "explanation": "The sentence is correct. It properly uses a concessive clause and the present perfect tense to connect past action to present relevance.",
+      "explanationDetails": {
+        "id": "GRAM-0129",
+        "slug": "complex-sentences",
+        "topic": {
+          "name": { "en": "Complex Sentences", "id": "Kalimat Kompleks" },
+          "category": "Advanced Syntax",
+          "subtopic": { "en": "Subordinate Clauses", "id": "Klausa Bawahan" },
+          "description": { "en": "Complex sentences combine an independent clause with one or more dependent clauses.", "id": "Kalimat kompleks menggabungkan klausa independen dengan satu atau lebih klausa dependen." }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Mastering complex sentences is key to C1/C2 writing proficiency.",
+            "rules": [
+              { "title": "1. Concessive + Main Clause", "explanation": "A contrast is established, followed by the main point.", "structure": "Although + clause, main clause", "notes": ["Do not use 'but' in the main clause if 'Although' is used."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "Although it was raining, but we went out.", "correct": "Although it was raining, we went out.", "reason": "'Although' and 'but' cannot be used in the same sentence." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "Even though the task was difficult, she completed it successfully.", "translation": "Meskipun tugasnya sulit, dia menyelesaikannya dengan sukses.", "explanation": { "en": "Correct use of 'Even though' without 'but'.", "id": "Penggunaan 'Even though' yang benar tanpa 'but'." } }
+        ],
+        "references": [
+          { "title": "Complex Sentences", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/complex-sentences", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1, or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The board had ", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the external auditors ", "clickable": true, "isError": false },
+        { "id": "s3", "text": "to review ", "clickable": true, "isError": true, "correctAnswers": ["review "] },
+        { "id": "s4", "text": "the financial ", "clickable": true, "isError": false },
+        { "id": "s5", "text": "statements last week.", "clickable": false }
+      ],
+      "explanation": "The causative 'have' is followed by an object and the base form of the verb (have someone do something), not the infinitive ('to review').",
+      "explanationDetails": {
+        "id": "GRAM-0130",
+        "slug": "causative-have",
+        "topic": {
+          "name": { "en": "Causative 'Have'", "id": "Kausatif 'Have'" },
+          "category": "Advanced Grammar",
+          "subtopic": { "en": "Causative Verbs", "id": "Kata Kerja Kausatif" },
+          "description": { "en": "The causative 'have' indicates that the subject arranged for someone else to perform an action.", "id": "Kausatif 'have' menunjukkan bahwa subjek mengatur agar orang lain melakukan suatu tindakan." }
+        },
+        "wrong_correct": [
+          { "wrong": "I had the mechanic to fix my car.", "correct": "I had the mechanic fix my car.", "explanation": { "en": "Causative 'have' takes the base verb, not the infinitive.", "id": "Kausatif 'have' mengambil kata kerja dasar, bukan infinitif." } }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "This structure is essential for describing delegated actions formally.",
+            "rules": [
+              { "title": "1. Active Causative", "explanation": "Subject + have + person + base verb + object.", "structure": "Subject + had + someone + V1 + object", "notes": ["Alternatively, 'get + someone + to + V1' can be used."] }
+            ],
+            "common_mistakes": [
+              { "wrong": "She had her assistant to prepare the report.", "correct": "She had her assistant prepare the report.", "reason": "'Have' is followed by the base verb, not 'to + verb'." }
+            ]
+          }
+        },
+        "other_examples": [
+          { "sentence": "We will have the IT department install the new software.", "translation": "Kami akan meminta departemen TI menginstal perangkat lunak baru.", "explanation": { "en": "'Have' + object + base verb.", "id": "'Have' + objek + kata kerja dasar." } }
+        ],
+        "references": [
+          { "title": "Causative Verbs", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/causative-have-and-get", "type": "grammar_reference" }
+        ]
+      }
+    }
+  ]
+}
