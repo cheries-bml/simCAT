@@ -1,563 +1,467 @@
 {
-  "meta": {
-    "title": "Very Advanced Pro English (C1 and C2) Assessment",
-    "timeLimits": {
-      "fast": 20,
-      "normal": 40,
-      "easy": 60
-    }
-  },
-  "questions": [
-    {
-      "id": 1,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Rarely",
-        "did",
-        "the CEO",
-        "anticipated",
-        "the market crash.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "anticipate"
-      ],
-      "explanation": "[Topic: Inversion] -> Negative adverbs like 'Rarely' at the beginning of a sentence trigger subject-auxiliary inversion. The base form of the verb must follow the auxiliary 'did'. | [Topik: Inversi] Kata keterangan negatif seperti 'Rarely' di awal kalimat memicu inversi subjek-auksiliaris. Bentuk dasar kata kerja harus mengikuti auksiliaris 'did'."
+    "meta": {
+        "title": "Very Advanced Pro English (C1 and C2) Assessment",
+        "timeLimits": {
+            "fast": 20,
+            "normal": 40,
+            "easy": 60
+        }
     },
-    {
-      "id": 2,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "It is imperative",
-        "that",
-        "the manager",
-        "is",
-        "present",
-        "at the hearing.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "be"
-      ],
-      "explanation": "[Topic: Subjunctive Mood] -> Verbs and adjectives expressing urgency (e.g., imperative, essential) require the base form of the verb (subjunctive) in the 'that' clause, regardless of the subject. | [Topik: Subjungtif] Kata kerja dan kata sifat yang mendesak (misalnya, imperative, essential) mengharuskan penggunaan bentuk dasar kata kerja (subjungtif) dalam klausa 'that', terlepas dari subjeknya."
-    },
-    {
-      "id": 3,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "If I",
-        "had accepted",
-        "the offer,",
-        "I would be",
-        "living",
-        "in Paris now.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 6,
-      "correctAnswers": [
-        "<no_error>"
-      ],
-      "explanation": "[Topic: Mixed Conditionals] -> This sentence correctly uses a mixed conditional to describe a past action with a present result. 'Had accepted' (past perfect) pairs with 'would be living' (present conditional). | [Topik: Pengandaian Campuran] Kalimat ini dengan benar menggunakan pengandaian campuran untuk menggambarkan tindakan masa lalu dengan hasil di masa kini."
-    },
-    {
-      "id": 4,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Being completed",
-        "the project,",
-        "the team",
-        "celebrated",
-        "their success.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 0,
-      "correctAnswers": [
-        "Having completed"
-      ],
-      "explanation": "[Topic: Participle Clauses] -> 'Being completed' implies a passive ongoing action, which doesn't fit the context of the team celebrating. The perfect active participle 'Having completed' shows the action was finished before the main verb. | [Topik: Klausa Partisip] 'Being completed' menyiratkan tindakan pasif yang sedang berlangsung. Partisip sempurna aktif 'Having completed' menunjukkan tindakan selesai sebelum kata kerja utama."
-    },
-    {
-      "id": 5,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The proposal",
-        "was rejected",
-        "by virtue",
-        "for its",
-        "lack of",
-        "financial viability.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "of its"
-      ],
-      "explanation": "[Topic: Prepositional Phrases] -> The correct formal phrase is 'by virtue of', meaning 'because of' or 'as a result of'. 'For' is incorrect here. | [Topik: Frasa Preposisional] Frasa formal yang benar adalah 'by virtue of', yang berarti 'karena' atau 'sebagai hasil dari'."
-    },
-    {
-      "id": 6,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The board,",
-        "which members",
-        "were appointed",
-        "last year,",
-        "has decided",
-        "to merge.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "whose members"
-      ],
-      "explanation": "[Topic: Relative Pronouns] -> 'Whose' is the correct relative pronoun to indicate possession (the members of the board). 'Which' cannot be used to show possession in this way. | [Topik: Kata Ganti Penghubung] 'Whose' adalah kata ganti penghubung yang benar untuk menunjukkan kepemilikan."
-    },
-    {
-      "id": 7,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The conference",
-        "was to had been",
-        "held",
-        "in May,",
-        "but was cancelled.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "was to have been"
-      ],
-      "explanation": "[Topic: Future in the Past] -> The structure 'was/were to have + past participle' is used to talk about something that was planned but did not happen. 'Had' is grammatically incorrect here. | [Topik: Masa Depan dalam Masa Lalu] Struktur 'was/were to have + past participle' digunakan untuk membicarakan sesuatu yang direncanakan tetapi tidak terjadi."
-    },
-    {
-      "id": 8,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "I wish",
-        "I would have",
-        "invested",
-        "in that startup",
-        "when I had the chance.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "had"
-      ],
-      "explanation": "[Topic: Subjunctive 'Wish'] -> When expressing regret about a past event using 'wish', we use the Past Perfect tense ('had + past participle'), not 'would have'. | [Topik: Subjungtif 'Wish'] Saat mengungkapkan penyesalan tentang peristiwa masa lalu dengan 'wish', kita menggunakan Past Perfect ('had + past participle')."
-    },
-    {
-      "id": 9,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Being",
-        "a nice day,",
-        "we went",
-        "to the beach.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 0,
-      "correctAnswers": [
-        "It being"
-      ],
-      "explanation": "[Topic: Dangling Modifiers / Absolute Phrases] -> The participle phrase must logically connect to the sentence. Adding 'It' creates a correct absolute phrase ('It being a nice day...'). | [Topik: Penggantung Modifikasi] Menambahkan 'It' menciptakan frasa absolut yang benar ('It being a nice day...')."
-    },
-    {
-      "id": 10,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The CEO",
-        "promised",
-        "to increase",
-        "salaries,",
-        "improving",
-        "benefits,",
-        "and to expand",
-        "operations.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "to improve"
-      ],
-      "explanation": "[Topic: Parallel Structure] -> Items in a list must be in the same grammatical form. Since 'to increase' and 'to expand' are infinitives, 'improving' must be changed to the infinitive 'to improve'. | [Topik: Struktur Paralel] Item dalam daftar harus memiliki bentuk tata bahasa yang sama."
-    },
-    {
-      "id": 11,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "He stopped",
-        "to smoke",
-        "because",
-        "he wanted",
-        "to quit",
-        "the habit entirely.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "smoking"
-      ],
-      "explanation": "[Topic: Gerunds vs. Infinitives] -> 'Stop + gerund' means to quit an action entirely. 'Stop + infinitive' means to pause one action in order to do another. The context implies quitting the habit, so 'smoking' is correct. | [Topik: Gerund vs Infinitif] 'Stop + gerund' berarti berhenti melakukan suatu tindakan."
-    },
-    {
-      "id": 12,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The project",
-        "was successful,",
-        "albeit",
-        "it was",
-        "delayed",
-        "by three months.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "although"
-      ],
-      "explanation": "[Topic: Conjunctions] -> 'Albeit' means 'although' but is typically followed by an adjective, adverb, or prepositional phrase, not a full clause with a subject and verb. 'Although' is required here. | [Topik: Konjungsi] 'Albeit' biasanya diikuti oleh kata sifat atau frasa, bukan klausa penuh."
-    },
-    {
-      "id": 13,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The suspect",
-        "is believing",
-        "to have been",
-        "fleeing",
-        "the country.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "is believed"
-      ],
-      "explanation": "[Topic: Passive Reporting Verbs] -> The passive structure for reporting verbs is 'Subject + is/are + past participle + to-infinitive'. 'Believing' is active and incorrect. | [Topik: Kata Kerja Pelaporan Pasif] Struktur pasif untuk kata kerja pelaporan adalah 'Subjek + is/are + past participle + to-infinitive'."
-    },
-    {
-      "id": 14,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Neither",
-        "the manager",
-        "nor the employees",
-        "was",
-        "aware",
-        "of the changes.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "were"
-      ],
-      "explanation": "[Topic: Subject-Verb Agreement] -> With 'neither... nor', the verb agrees with the subject closest to it. 'Employees' is plural, so the verb must be 'were'. | [Topik: Kesesuaian Subjek-Kata Kerja] Dengan 'neither... nor', kata kerja menyesuaikan dengan subjek yang paling dekat ('employees' adalah jamak)."
-    },
-    {
-      "id": 15,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "What I find",
-        "most troubling",
-        "are",
-        "the lack of",
-        "transparency.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "is"
-      ],
-      "explanation": "[Topic: Noun Clauses as Subjects] -> A noun clause acting as the subject of a sentence generally takes a singular verb. 'What I find most troubling' is a singular concept, requiring 'is'. | [Topik: Klausa Kata Benda sebagai Subjek] Klausa kata benda yang bertindak sebagai subjek kalimat umumnya menggunakan kata kerja tunggal."
-    },
-    {
-      "id": 16,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "By next year,",
-        "I will be having been",
-        "working",
-        "here",
-        "for a decade.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "will have been"
-      ],
-      "explanation": "[Topic: Future Perfect Continuous] -> The correct structure is 'will have been + verb-ing'. 'Will be having been' is grammatically invalid and overly complex. | [Topik: Future Perfect Continuous] Struktur yang benar adalah 'will have been + verb-ing'."
-    },
-    {
-      "id": 17,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "She can't",
-        "have been",
-        "at the meeting;",
-        "she must",
-        "been",
-        "at the hospital.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "have been"
-      ],
-      "explanation": "[Topic: Modals of Deduction] -> To express a logical conclusion about a past event, use 'must have + past participle'. 'Must been' is missing the auxiliary 'have'. | [Topik: Modus Deduksi] Untuk menyatakan kesimpulan logis tentang peristiwa masa lalu, gunakan 'must have + past participle'."
-    },
-    {
-      "id": 18,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The board",
-        "decided",
-        "to do away",
-        "for",
-        "the outdated policy.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "with"
-      ],
-      "explanation": "[Topic: Phrasal Verbs] -> The correct phrasal verb meaning 'to abolish' or 'to eliminate' is 'do away with'. 'For' is the wrong preposition. | [Topik: Frasa Kerja] Frasa kerja yang benar yang berarti 'menghapuskan' adalah 'do away with'."
-    },
-    {
-      "id": 19,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "A great deal",
-        "of research",
-        "have been",
-        "conducted",
-        "on this topic.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "has been"
-      ],
-      "explanation": "[Topic: Quantifiers and Uncountable Nouns] -> 'Research' is an uncountable noun. 'A great deal of' is a singular quantifier phrase, so it requires the singular verb 'has been'. | [Topik: Kata Bilangan dan Kata Benda Tak Bisa Dihitung] 'Research' adalah kata benda tak bisa dihitung dan membutuhkan kata kerja tunggal 'has been'."
-    },
-    {
-      "id": 20,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The committee",
-        "requested",
-        "an information",
-        "regarding",
-        "the incident.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "information"
-      ],
-      "explanation": "[Topic: Uncountable Nouns and Articles] -> 'Information' is an uncountable noun and cannot be preceded by the indefinite article 'an'. | [Topik: Kata Benda Tak Bisa Dihitung dan Artikel] 'Information' adalah kata benda tak bisa dihitung dan tidak dapat didahului oleh artikel tak tentu 'an'."
-    },
-    {
-      "id": 21,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "He denied",
-        "to have stolen",
-        "the funds",
-        "from the company.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "having stolen"
-      ],
-      "explanation": "[Topic: Verb Patterns] -> The verb 'deny' is followed by a gerund (verb-ing), not an infinitive. 'Having stolen' or 'stealing' is correct. | [Topik: Pola Kata Kerja] Kata kerja 'deny' diikuti oleh gerund (verb-ing), bukan infinitif."
-    },
-    {
-      "id": 22,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "I had",
-        "my car",
-        "to be repaired",
-        "at the local garage.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "repaired"
-      ],
-      "explanation": "[Topic: Causative Verbs] -> The structure for 'have' in the causative sense is 'have + object + past participle'. 'To be repaired' is incorrect. | [Topik: Kata Kerja Kausatif] Struktur untuk 'have' dalam arti kausatif adalah 'have + objek + past participle'."
-    },
-    {
-      "id": 23,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Not only",
-        "did he",
-        "forgot",
-        "his lines,",
-        "but he also",
-        "missed",
-        "his cue.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "forget"
-      ],
-      "explanation": "[Topic: Inversion with Negative Adverbials] -> When 'Not only' begins a clause, it triggers inversion. Since 'did' is the auxiliary, the main verb must be the base form 'forget'. | [Topik: Inversi dengan Kata Keterangan Negatif] Ketika 'Not only' mengawali klausa, itu memicu inversi. Kata kerja utama harus berupa bentuk dasar 'forget'."
-    },
-    {
-      "id": 24,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Little",
-        "he knew",
-        "that",
-        "the decision",
-        "would ruin",
-        "his career.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "did he know"
-      ],
-      "explanation": "[Topic: Inversion] -> Negative or restrictive adverbs like 'Little' at the beginning of a sentence require subject-auxiliary inversion ('did he know'). | [Topik: Inversi] Kata keterangan negatif atau restriktif seperti 'Little' di awal kalimat memerlukan inversi subjek-auksiliaris."
-    },
-    {
-      "id": 25,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Was I",
-        "in your shoes,",
-        "I would have",
-        "resigned",
-        "immediately.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 0,
-      "correctAnswers": [
-        "Were I"
-      ],
-      "explanation": "[Topic: Subjunctive in Conditionals] -> In formal second conditional sentences, 'were' is used for all subjects, including 'I', 'he', 'she', and 'it'. 'Was' is considered informal or incorrect in this structure. | [Topik: Subjungtif dalam Kalimat Pengandaian] Dalam kalimat pengandaian tipe kedua yang formal, 'were' digunakan untuk semua subjek."
-    },
-    {
-      "id": 26,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The weather",
-        "was fine,",
-        "we decided",
-        "to go",
-        "for a picnic.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "being fine,"
-      ],
-      "explanation": "[Topic: Absolute Phrases vs. Comma Splices] -> 'The weather was fine, we decided...' is a comma splice. Changing 'was' to 'being' creates a correct absolute phrase modifying the main clause. | [Topik: Frasa Absolut vs Comma Splice] Menggabungkan dua klausa independen dengan koma adalah kesalahan. Mengubah 'was' menjadi 'being' menciptakan frasa absolut yang benar."
-    },
-    {
-      "id": 27,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "The artifacts",
-        "displaying",
-        "in the museum",
-        "are",
-        "priceless.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 1,
-      "correctAnswers": [
-        "displayed"
-      ],
-      "explanation": "[Topic: Reduced Relative Clauses] -> When reducing a passive relative clause ('which are displayed'), use the past participle ('displayed'). 'Displaying' implies the artifacts are doing the action. | [Topik: Klausa Relatif yang Disederhanakan] Saat menyederhanakan klausa relatif pasif, gunakan past participle ('displayed')."
-    },
-    {
-      "id": 28,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Hardly",
-        "had I",
-        "arrived",
-        "when the meeting",
-        "has started.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 4,
-      "correctAnswers": [
-        "started."
-      ],
-      "explanation": "[Topic: Inversion with 'Hardly'] -> The structure is 'Hardly + had + subject + past participle + when + subject + past simple'. 'Has started' is the wrong tense; it must be simple past 'started'. | [Topik: Inversi dengan 'Hardly'] Strukturnya adalah 'Hardly + had + subjek + past participle + when + subjek + past simple'."
-    },
-    {
-      "id": 29,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "She is",
-        "capable",
-        "to handle",
-        "the complex",
-        "negotiations.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 2,
-      "correctAnswers": [
-        "of handling"
-      ],
-      "explanation": "[Topic: Adjective + Preposition Collocations] -> The adjective 'capable' is followed by the preposition 'of' and a gerund ('handling'), not an infinitive. | [Topik: Kolokasi Kata Sifat + Preposisi] Kata sifat 'capable' diikuti oleh preposisi 'of' dan gerund ('handling'), bukan infinitif."
-    },
-    {
-      "id": 30,
-      "type": "click_correct",
-      "question": "Click the incorrect word, phrase or clause and type the correct one, or choose <no_error> and type '<no_error>'",
-      "tokens": [
-        "Scarcely",
-        "had we",
-        "sat down",
-        "than",
-        "the performance began.",
-        "<no_error>"
-      ],
-      "incorrectIndex": 3,
-      "correctAnswers": [
-        "when"
-      ],
-      "explanation": "[Topic: Correlative Time Conjunctions] -> 'Scarcely' and 'Hardly' are paired with 'when' (e.g., Scarcely had we... when...). 'No sooner' is paired with 'than'. | [Topik: Konjungsi Waktu Korelatif] 'Scarcely' dan 'Hardly' dipasangkan dengan 'when'. 'No sooner' dipasangkan dengan 'than'."
-    }
-  ]
+    "questions": [
+        {
+            "id": 1,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Was I",
+                "in your shoes,",
+                "I would have",
+                "resigned",
+                "immediately."
+            ],
+            "incorrectIndex": 0,
+            "correctAnswers": ["Were I"],
+            "explanation": "[Topic: Subjunctive in Conditionals] -> In formal second conditional sentences, 'were' is used for all subjects, including 'I', 'he', 'she', and 'it'. 'Was' is considered informal or incorrect in this structure. | [Topik: Subjungtif dalam Kalimat Pengandaian] Dalam kalimat pengandaian tipe kedua yang formal, 'were' digunakan untuk semua subjek."
+        },
+        {
+            "id": 2,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "It is imperative",
+                "that",
+                "the manager",
+                "is",
+                "present",
+                "at the hearing."
+            ],
+            "incorrectIndex": 3,
+            "correctAnswers": ["be"],
+            "explanation": "[Topic: Subjunctive Mood] -> Verbs and adjectives expressing urgency (e.g., imperative, essential) require the base form of the verb (subjunctive) in the 'that' clause, regardless of the subject. | [Topik: Subjungtif] Kata kerja dan kata sifat yang mendesak (misalnya, imperative, essential) mengharuskan penggunaan bentuk dasar kata kerja (subjungtif) dalam klausa 'that', terlepas dari subjeknya."
+        },
+        {
+            "id": 3,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The board",
+                "decided",
+                "to do away",
+                "for",
+                "the outdated policy."
+            ],
+            "incorrectIndex": 3,
+            "correctAnswers": ["with"],
+            "explanation": "[Topic: Phrasal Verbs] -> The correct phrasal verb meaning 'to abolish' or 'to eliminate' is 'do away with'. 'For' is the wrong preposition. | [Topik: Frasa Kerja] Frasa kerja yang benar yang berarti 'menghapuskan' adalah 'do away with'."
+        },
+        {
+            "id": 4,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "By next year,",
+                "I will be having been",
+                "working",
+                "here",
+                "for a decade."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["will have been"],
+            "explanation": "[Topic: Future Perfect Continuous] -> The correct structure is 'will have been + verb-ing'. 'Will be having been' is grammatically invalid and overly complex. | [Topik: Future Perfect Continuous] Struktur yang benar adalah 'will have been + verb-ing'."
+        },
+        {
+            "id": 5,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "A great deal",
+                "of research",
+                "have been",
+                "conducted",
+                "on this topic."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["has been"],
+            "explanation": "[Topic: Quantifiers and Uncountable Nouns] -> 'Research' is an uncountable noun. 'A great deal of' is a singular quantifier phrase, so it requires the singular verb 'has been'. | [Topik: Kata Bilangan dan Kata Benda Tak Bisa Dihitung] 'Research' adalah kata benda tak bisa dihitung dan membutuhkan kata kerja tunggal 'has been'."
+        },
+        {
+            "id": 6,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "She is",
+                "capable",
+                "to handle",
+                "the complex",
+                "negotiations."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["of handling"],
+            "explanation": "[Topic: Adjective + Preposition Collocations] -> The adjective 'capable' is followed by the preposition 'of' and a gerund ('handling'), not an infinitive. | [Topik: Kolokasi Kata Sifat + Preposisi] Kata sifat 'capable' diikuti oleh preposisi 'of' dan gerund ('handling'), bukan infinitif."
+        },
+        {
+            "id": 7,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "I wish",
+                "I would have",
+                "invested",
+                "in that startup",
+                "when I had the chance."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["had"],
+            "explanation": "[Topic: Subjunctive 'Wish'] -> When expressing regret about a past event using 'wish', we use the Past Perfect tense ('had + past participle'), not 'would have'. | [Topik: Subjungtif 'Wish'] Saat mengungkapkan penyesalan tentang peristiwa masa lalu dengan 'wish', kita menggunakan Past Perfect ('had + past participle')."
+        },
+        {
+            "id": 8,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The proposal",
+                "was rejected",
+                "by virtue",
+                "for its",
+                "lack of",
+                "financial viability."
+            ],
+            "incorrectIndex": 3,
+            "correctAnswers": ["of its"],
+            "explanation": "[Topic: Prepositional Phrases] -> The correct formal phrase is 'by virtue of', meaning 'because of' or 'as a result of'. 'For' is incorrect here. | [Topik: Frasa Preposisional] Frasa formal yang benar adalah 'by virtue of', yang berarti 'karena' atau 'sebagai hasil dari'."
+        },
+        {
+            "id": 9,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Hardly",
+                "had I",
+                "arrived",
+                "when the meeting",
+                "has started."
+            ],
+            "incorrectIndex": 4,
+            "correctAnswers": ["started."],
+            "explanation": "[Topic: Inversion with 'Hardly'] -> The structure is 'Hardly + had + subject + past participle + when + subject + past simple'. 'Has started' is the wrong tense; it must be simple past 'started'. | [Topik: Inversi dengan 'Hardly'] Strukturnya adalah 'Hardly + had + subjek + past participle + when + subjek + past simple'."
+        },
+        {
+            "id": 10,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The CEO",
+                "promised",
+                "to increase",
+                "salaries,",
+                "improving",
+                "benefits,",
+                "and to expand",
+                "operations."
+            ],
+            "incorrectIndex": 4,
+            "correctAnswers": ["to improve"],
+            "explanation": "[Topic: Parallel Structure] -> Items in a list must be in the same grammatical form. Since 'to increase' and 'to expand' are infinitives, 'improving' must be changed to the infinitive 'to improve'. | [Topik: Struktur Paralel] Item dalam daftar harus memiliki bentuk tata bahasa yang sama."
+        },
+        {
+            "id": 11,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Rarely",
+                "did the CEO",
+                "anticipated",
+                "the market crash."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["anticipate"],
+            "explanation": "[Topic: Inversion] -> Negative adverbs like 'Rarely' at the beginning of a sentence trigger subject-auxiliary inversion. The base form of the verb must follow the auxiliary 'did'. | [Topik: Inversi] Kata keterangan negatif seperti 'Rarely' di awal kalimat memicu inversi subjek-auksiliaris. Bentuk dasar kata kerja harus mengikuti auksiliaris 'did'."
+        },
+        {
+            "id": 12,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Being completed",
+                "the project,",
+                "the team",
+                "celebrated",
+                "their success."
+            ],
+            "incorrectIndex": 0,
+            "correctAnswers": ["Having completed"],
+            "explanation": "[Topic: Participle Clauses] -> 'Being completed' implies a passive ongoing action, which doesn't fit the context of the team celebrating. The perfect active participle 'Having completed' shows the action was finished before the main verb. | [Topik: Klausa Partisip] 'Being completed' menyiratkan tindakan pasif yang sedang berlangsung. Partisip sempurna aktif 'Having completed' menunjukkan tindakan selesai sebelum kata kerja utama."
+        },
+        {
+            "id": 13,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Little",
+                "he knew",
+                "that",
+                "the decision",
+                "would ruin",
+                "his career."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["did he know"],
+            "explanation": "[Topic: Inversion] -> Negative or restrictive adverbs like 'Little' at the beginning of a sentence require subject-auxiliary inversion ('did he know'). | [Topik: Inversi] Kata keterangan negatif atau restriktif seperti 'Little' di awal kalimat memerlukan inversi subjek-auksiliaris."
+        },
+        {
+            "id": 14,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The committee",
+                "requested",
+                "an information",
+                "regarding",
+                "the incident."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["information"],
+            "explanation": "[Topic: Uncountable Nouns and Articles] -> 'Information' is an uncountable noun and cannot be preceded by the indefinite article 'an'. | [Topik: Kata Benda Tak Bisa Dihitung dan Artikel] 'Information' adalah kata benda tak bisa dihitung dan tidak dapat didahului oleh artikel tak tentu 'an'."
+        },
+        {
+            "id": 15,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The conference",
+                "was to had been",
+                "held",
+                "in May,",
+                "but was cancelled."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["was to have been"],
+            "explanation": "[Topic: Future in the Past] -> The structure 'was/were to have + past participle' is used to talk about something that was planned but did not happen. 'Had' is grammatically incorrect here. | [Topik: Masa Depan dalam Masa Lalu] Struktur 'was/were to have + past participle' digunakan untuk membicarakan sesuatu yang direncanakan tetapi tidak terjadi."
+        },
+        {
+            "id": 16,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The board,",
+                "which members",
+                "were appointed",
+                "last year,",
+                "has decided",
+                "to merge."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["whose members"],
+            "explanation": "[Topic: Relative Pronouns] -> 'Whose' is the correct relative pronoun to indicate possession (the members of the board). 'Which' cannot be used to show possession in this way. | [Topik: Kata Ganti Penghubung] 'Whose' adalah kata ganti penghubung yang benar untuk menunjukkan kepemilikan."
+        },
+        {
+            "id": 17,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Not only",
+                "did he",
+                "forgot",
+                "his lines,",
+                "but he also",
+                "missed",
+                "his cue."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["forget"],
+            "explanation": "[Topic: Inversion with Negative Adverbials] -> When 'Not only' begins a clause, it triggers inversion. Since 'did' is the auxiliary, the main verb must be the base form 'forget'. | [Topik: Inversi dengan Kata Keterangan Negatif] Ketika 'Not only' mengawali klausa, itu memicu inversi. Kata kerja utama harus berupa bentuk dasar 'forget'."
+        },
+        {
+            "id": 18,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "If I",
+                "would have accepted",
+                "the offer,",
+                "I would be",
+                "living",
+                "in Paris now."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["had accepted"],
+            "explanation": "[Topic: Conditionals] -> In hypothetical past conditional clauses (if-clause), use the Past Perfect tense 'had accepted', not 'would have accepted'. | [Topik: Kalimat Pengandaian] Dalam klausa syarat bentuk lampau hipotetis (if-clause), gunakan Past Perfect 'had accepted', bukan 'would have accepted'."
+        },
+        {
+            "id": 19,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Scarcely",
+                "had we",
+                "sat down",
+                "than",
+                "the performance began."
+            ],
+            "incorrectIndex": 3,
+            "correctAnswers": ["when"],
+            "explanation": "[Topic: Correlative Time Conjunctions] -> 'Scarcely' and 'Hardly' are paired with 'when' (e.g., Scarcely had we... when...). 'No sooner' is paired with 'than'. | [Topik: Konjungsi Waktu Korelatif] 'Scarcely' dan 'Hardly' dipasangkan dengan 'when'. 'No sooner' dipasangkan dengan 'than'."
+        },
+        {
+            "id": 20,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "What I find",
+                "most troubling",
+                "are",
+                "the lack of",
+                "transparency."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["is"],
+            "explanation": "[Topic: Noun Clauses as Subjects] -> A noun clause acting as the subject of a sentence generally takes a singular verb. 'What I find most troubling' is a singular concept, requiring 'is'. | [Topik: Klausa Kata Benda sebagai Subjek] Klausa kata benda yang bertindak sebagai subjek kalimat umumnya menggunakan kata kerja tunggal."
+        },
+        {
+            "id": 21,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": ["Being", "a nice day,", "we went", "to the beach."],
+            "incorrectIndex": 0,
+            "correctAnswers": ["It being"],
+            "explanation": "[Topic: Dangling Modifiers / Absolute Phrases] -> The participle phrase must logically connect to the sentence. Adding 'It' creates a correct absolute phrase ('It being a nice day...'). | [Topik: Penggantung Modifikasi] Menambahkan 'It' menciptakan frasa absolut yang benar ('It being a nice day...')."
+        },
+        {
+            "id": 22,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "He denied",
+                "to have stolen",
+                "the funds",
+                "from the company."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["having stolen"],
+            "explanation": "[Topic: Verb Patterns] -> The verb 'deny' is followed by a gerund (verb-ing), not an infinitive. 'Having stolen' or 'stealing' is correct. | [Topik: Pola Kata Kerja] Kata kerja 'deny' diikuti oleh gerund (verb-ing), bukan infinitif."
+        },
+        {
+            "id": 23,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "He stopped",
+                "to smoke",
+                "because",
+                "he wanted",
+                "to quit",
+                "the habit entirely."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["smoking"],
+            "explanation": "[Topic: Gerunds vs. Infinitives] -> 'Stop + gerund' means to quit an action entirely. 'Stop + infinitive' means to pause one action in order to do another. The context implies quitting the habit, so 'smoking' is correct. | [Topik: Gerund vs Infinitif] 'Stop + gerund' berarti berhenti melakukan suatu tindakan."
+        },
+        {
+            "id": 24,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The project",
+                "was successful,",
+                "albeit",
+                "it was",
+                "delayed",
+                "by three months."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["although"],
+            "explanation": "[Topic: Conjunctions] -> 'Albeit' means 'although' but is typically followed by an adjective, adverb, or prepositional phrase, not a full clause with a subject and verb. 'Although' is required here. | [Topik: Konjungsi] 'Albeit' biasanya diikuti oleh kata sifat atau frasa, bukan klausa penuh."
+        },
+        {
+            "id": 25,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The suspect",
+                "is believing",
+                "to have been",
+                "fleeing",
+                "the country."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["is believed"],
+            "explanation": "[Topic: Passive Reporting Verbs] -> The passive structure for reporting verbs is 'Subject + is/are + past participle + to-infinitive'. 'Believing' is active and incorrect. | [Topik: Kata Kerja Pelaporan Pasif] Struktur pasif untuk kata kerja pelaporan adalah 'Subjek + is/are + past participle + to-infinitive'."
+        },
+        {
+            "id": 26,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "She can't",
+                "have been",
+                "at the meeting;",
+                "she must",
+                "been",
+                "at the hospital."
+            ],
+            "incorrectIndex": 4,
+            "correctAnswers": ["have been"],
+            "explanation": "[Topic: Modals of Deduction] -> To express a logical conclusion about a past event, use 'must have + past participle'. 'Must been' is missing the auxiliary 'have'. | [Topik: Modus Deduksi] Untuk menyatakan kesimpulan logis tentang peristiwa masa lalu, gunakan 'must have + past participle'."
+        },
+        {
+            "id": 27,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "Neither",
+                "the manager",
+                "nor the employees",
+                "was",
+                "aware",
+                "of the changes."
+            ],
+            "incorrectIndex": 3,
+            "correctAnswers": ["were"],
+            "explanation": "[Topic: Subject-Verb Agreement] -> With 'neither... nor', the verb agrees with the subject closest to it. 'Employees' is plural, so the verb must be 'were'. | [Topik: Kesesuaian Subjek-Kata Kerja] Dengan 'neither... nor', kata kerja menyesuaikan dengan subjek yang paling dekat ('employees' adalah jamak)."
+        },
+        {
+            "id": 28,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "I had",
+                "my car",
+                "to be repaired",
+                "at the local garage."
+            ],
+            "incorrectIndex": 2,
+            "correctAnswers": ["repaired"],
+            "explanation": "[Topic: Causative Verbs] -> The structure for 'have' in the causative sense is 'have + object + past participle'. 'To be repaired' is incorrect. | [Topik: Kata Kerja Kausatif] Struktur untuk 'have' dalam arti kausatif adalah 'have + objek + past participle'."
+        },
+        {
+            "id": 29,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The weather",
+                "was fine,",
+                "we decided",
+                "to go",
+                "for a picnic."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["being fine,"],
+            "explanation": "[Topic: Absolute Phrases vs. Comma Splices] -> 'The weather was fine, we decided...' is a comma splice. Changing 'was' to 'being' creates a correct absolute phrase modifying the main clause. | [Topik: Frasa Absolut vs Comma Splice] Menggabungkan dua klausa independen dengan koma adalah kesalahan. Mengubah 'was' menjadi 'being' menciptakan frasa absolut yang benar."
+        },
+        {
+            "id": 30,
+            "type": "click_correct",
+            "question": "Click the incorrect word, phrase or clause and type the correct one",
+            "tokens": [
+                "The artifacts",
+                "displaying",
+                "in the museum",
+                "are",
+                "priceless."
+            ],
+            "incorrectIndex": 1,
+            "correctAnswers": ["displayed"],
+            "explanation": "[Topic: Reduced Relative Clauses] -> When reducing a passive relative clause ('which are displayed'), use the past participle ('displayed'). 'Displaying' implies the artifacts are doing the action. | [Topik: Klausa Relatif yang Disederhanakan] Saat menyederhanakan klausa relatif pasif, gunakan past participle ('displayed')."
+        }
+    ]
 }
