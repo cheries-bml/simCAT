@@ -1,0 +1,2856 @@
+{
+  "meta": {
+    "title": "Advanced English Grammar Proficiency Test 01",
+    "description": "A comprehensive C1/C2 level assessment focusing on complex syntactic structures, advanced conditionals, inversions, and subtle grammatical nuances. Tailored for advanced Indonesian learners.",
+    "timeLimits": {
+      "fast": 30,
+      "normal": 50,
+      "easy": 80
+    },
+    "updatedAt": "October 31, 2026 14:30:00"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Not only did the committee approve the new budget,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "but they also allocated",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "additional funds for",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the research department.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of negative inversion with 'Not only... but also'.",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "slug": "adv-gram-01",
+        "topic": {
+          "name": {
+            "en": "Inversion",
+            "id": "Inversi"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Negative Adverbials",
+            "id": "Adverbia Negatif"
+          },
+          "description": {
+            "en": "Inversion occurs when the normal word order is reversed.",
+            "id": "Inversi terjadi ketika urutan kata normal dibalik."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Used for formal emphasis after negative adverbials.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Negative Adverbial + Auxiliary + Subject + Verb",
+                "structure": "Not only + did + S + V",
+                "notes": [
+                  "Requires auxiliary verb before subject"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Rarely do we see such dedication.",
+            "translation": "Jarang kita melihat dedikasi seperti itu.",
+            "explanation": {
+              "en": "Negative adverbial triggers inversion.",
+              "id": "Adverbia negatif memicu inversi."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Inversion",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "If the government",
+          "clickable": false
+        },
+        {
+          "id": "s1",
+          "text": "would have implemented",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "had implemented"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the environmental policies last year,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the air quality would be significantly better today.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanation": "Mixed conditional requires past perfect in the if-clause.",
+      "explanationDetails": {
+        "id": "GRAM-0002",
+        "slug": "adv-gram-02",
+        "topic": {
+          "name": {
+            "en": "Conditionals",
+            "id": "Kalimat Pengandaian"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Mixed Conditionals",
+            "id": "Pengandaian Campuran"
+          },
+          "description": {
+            "en": "Combines different time frames.",
+            "id": "Menggabungkan kerangka waktu berbeda."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "would have implemented",
+            "correct": "had implemented",
+            "explanation": {
+              "en": "Use past perfect in if-clause.",
+              "id": "Gunakan past perfect di if-clause."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Past condition affecting present result.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "If + past perfect, would + base verb",
+                "structure": "If + S + had + V3, S + would + V1",
+                "notes": [
+                  "Past condition -> Present result"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "If she had studied medicine, she would be a doctor now.",
+            "translation": "Jika dia dulu belajar kedokteran, dia akan menjadi dokter sekarang.",
+            "explanation": {
+              "en": "Past action affecting present status.",
+              "id": "Tindakan masa lalu memengaruhi status sekarang."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The board of directors recommended that",
+          "clickable": false
+        },
+        {
+          "id": "s1",
+          "text": "the CEO resigns immediately,",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "the CEO resign immediately,"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "and that the financial reports",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "are audited by an independent firm.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "be audited by an independent firm."
+          ]
+        }
+      ],
+      "explanation": "Mandative subjunctive requires the base form of the verb.",
+      "explanationDetails": {
+        "id": "GRAM-0003",
+        "slug": "adv-gram-03",
+        "topic": {
+          "name": {
+            "en": "Subjunctive",
+            "id": "Subjungtif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Mandative Subjunctive",
+            "id": "Subjungtif Mandatif"
+          },
+          "description": {
+            "en": "Used after verbs of recommending.",
+            "id": "Digunakan setelah kata kerja rekomendasi."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "resigns / are audited",
+            "correct": "resign / be audited",
+            "explanation": {
+              "en": "Use base form in that-clauses.",
+              "id": "Gunakan bentuk dasar di klausa that."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Formal requests or demands.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Verb + that + Subject + Base Verb",
+                "structure": "recommend that + S + V1",
+                "notes": [
+                  "No 's' for third person"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The judge ordered that the defendant be released.",
+            "translation": "Hakim memerintahkan agar terdakwa dibebaskan.",
+            "explanation": {
+              "en": "Base form 'be' used.",
+              "id": "Bentuk dasar 'be' digunakan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subjunctive",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The ancient manuscript,",
+          "clickable": false
+        },
+        {
+          "id": "s1",
+          "text": "the origins of that remain a mystery to historians,",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "the origins of which remain a mystery to historians,"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "was finally translated",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "by a team of linguists.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanation": "Prepositional relative clauses use 'which', not 'that'.",
+      "explanationDetails": {
+        "id": "GRAM-0004",
+        "slug": "adv-gram-04",
+        "topic": {
+          "name": {
+            "en": "Relative Clauses",
+            "id": "Klausa Relatif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Prepositional Relative Clauses",
+            "id": "Klausa Relatif Preposisional"
+          },
+          "description": {
+            "en": "Relative pronouns after prepositions.",
+            "id": "Kata ganti relatif setelah preposisi."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "of that",
+            "correct": "of which",
+            "explanation": {
+              "en": "Use 'which' after prepositions.",
+              "id": "Gunakan 'which' setelah preposisi."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Advanced relative structures.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Preposition + which",
+                "structure": "Noun + prep + which",
+                "notes": [
+                  "Never use 'that' after preposition"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The house in which I grew up was demolished.",
+            "translation": "Rumah tempat saya dibesarkan telah dirobohkan.",
+            "explanation": {
+              "en": "'in which' replaces 'where'.",
+              "id": "'in which' menggantikan 'where'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Relative Clauses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Having thoroughly reviewed",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the legal documents,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "the senior partner decided",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "to proceed with the merger.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of perfect participle to show completed prior action.",
+      "explanationDetails": {
+        "id": "GRAM-0005",
+        "slug": "adv-gram-05",
+        "topic": {
+          "name": {
+            "en": "Participle Clauses",
+            "id": "Klausa Partisip"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Perfect Participle",
+            "id": "Partisip Sempurna"
+          },
+          "description": {
+            "en": "Shows action completed before main verb.",
+            "id": "Menunjukkan tindakan selesai sebelum kata kerja utama."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Expresses prior completed action.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Having + V3",
+                "structure": "Having + V3, S + V",
+                "notes": [
+                  "Subject must be same in both clauses"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Having finished his work, he went home.",
+            "translation": "Setelah menyelesaikan pekerjaannya, dia pulang.",
+            "explanation": {
+              "en": "Action completed before going home.",
+              "id": "Tindakan selesai sebelum pulang."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Participle Clauses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Had the board be informed",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "Had the board been informed"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "of the impending bankruptcy,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "they would have halted",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the acquisition immediately.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Inverted conditionals require past participle 'been' for passive.",
+      "explanationDetails": {
+        "id": "GRAM-0006",
+        "slug": "adv-gram-06",
+        "topic": {
+          "name": {
+            "en": "Conditionals",
+            "id": "Kalimat Pengandaian"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Inverted Conditionals",
+            "id": "Pengandaian Terinversi"
+          },
+          "description": {
+            "en": "Omitting 'if' by inverting auxiliary.",
+            "id": "Menghilangkan 'if' dengan membalik auxiliar."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Had ... be",
+            "correct": "Had ... been",
+            "explanation": {
+              "en": "Passive requires 'been'.",
+              "id": "Pasif membutuhkan 'been'."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Formal conditional inversion.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Had + S + V3",
+                "structure": "Had + S + V3",
+                "notes": [
+                  "Replaces 'If S had'"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Had I known, I would have helped.",
+            "translation": "Seandainya saya tahu, saya pasti membantu.",
+            "explanation": {
+              "en": "'If I had known' inverted.",
+              "id": "'If I had known' diinversi."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "What the committee failed to understand was",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "that why the project manager had approved",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "why the project manager had approved"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the expenditures without",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "consult the finance department.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "consulting the finance department."
+          ]
+        }
+      ],
+      "explanation": "Wh-clefts use 'what', and prepositions are followed by gerunds.",
+      "explanationDetails": {
+        "id": "GRAM-0007",
+        "slug": "adv-gram-07",
+        "topic": {
+          "name": {
+            "en": "Cleft Sentences",
+            "id": "Kalimat Cleft"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Wh-Clefts",
+            "id": "Kalimat Cleft Wh-"
+          },
+          "description": {
+            "en": "Emphasizes a specific part of the sentence.",
+            "id": "Menekankan bagian tertentu dari kalimat."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "that why / without consult",
+            "correct": "why / without consulting",
+            "explanation": {
+              "en": "Remove 'that' before wh-word, use gerund after prep.",
+              "id": "Hapus 'that' sebelum kata wh, gunakan gerund setelah prep."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Focus and emphasis.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Wh-clause + be + emphasized phrase",
+                "structure": "What + S + V + be + ...",
+                "notes": [
+                  "'that' is redundant before wh-words"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "What I need is a long vacation.",
+            "translation": "Yang saya butuhkan adalah liburan panjang.",
+            "explanation": {
+              "en": "Emphasizes 'a long vacation'.",
+              "id": "Menekankan 'liburan panjang'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Cleft Sentences",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "You didn't need buy",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "You didn't need to buy"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "a new laptop;",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "you needn't have repaired the old one,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "as it was already obsolete.",
+          "clickable": false
+        }
+      ],
+      "explanation": "'didn't need to' requires the infinitive marker 'to'.",
+      "explanationDetails": {
+        "id": "GRAM-0008",
+        "slug": "adv-gram-08",
+        "topic": {
+          "name": {
+            "en": "Modals",
+            "id": "Modal"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Past Modals",
+            "id": "Modal Lampau"
+          },
+          "description": {
+            "en": "Expresses past necessity or lack thereof.",
+            "id": "Menyatakan keharusan atau ketiadaan keharusan di masa lalu."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "didn't need buy",
+            "correct": "didn't need to buy",
+            "explanation": {
+              "en": "'need' as main verb takes 'to'.",
+              "id": "'need' sebagai kata kerja utama membutuhkan 'to'."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Differences in past modal meanings.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "didn't need to + V1 vs needn't have + V3",
+                "structure": "didn't need to V1 (didn't do it), needn't have V3 (did it unnecessarily)",
+                "notes": [
+                  "Crucial meaning difference"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "I didn't need to wake up early, so I slept in.",
+            "translation": "Saya tidak perlu bangun pagi, jadi saya tidur lebih lama.",
+            "explanation": {
+              "en": "No necessity, action not done.",
+              "id": "Tidak perlu, tindakan tidak dilakukan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Modals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "By the time the new infrastructure project is completed,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the construction crew will have been working",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "on it for over",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "five consecutive years.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of future perfect continuous for duration up to a future point.",
+      "explanationDetails": {
+        "id": "GRAM-0009",
+        "slug": "adv-gram-09",
+        "topic": {
+          "name": {
+            "en": "Tenses",
+            "id": "Tenses"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Future Perfect Continuous",
+            "id": "Future Perfect Continuous"
+          },
+          "description": {
+            "en": "Action continuing up to a future time.",
+            "id": "Tindakan berlanjut hingga waktu di masa depan."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Emphasizes duration of a future action.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "will have been + V-ing",
+                "structure": "S + will have been + V-ing + for/since",
+                "notes": [
+                  "Used with time expressions"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "By next year, I will have been living here for a decade.",
+            "translation": "Menjelang tahun depan, saya akan telah tinggal di sini selama satu dekade.",
+            "explanation": {
+              "en": "Duration up to future point.",
+              "id": "Durasi hingga titik masa depan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Tenses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The suspect is alleged",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "having committed the fraud,",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "to have committed the fraud,"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "and his assets are believing",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "and his assets are believed"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "to have been seized by the authorities.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Reporting verbs in passive take infinitive, not gerund.",
+      "explanationDetails": {
+        "id": "GRAM-0010",
+        "slug": "adv-gram-10",
+        "topic": {
+          "name": {
+            "en": "Passives",
+            "id": "Kalimat Pasif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Advanced Passives",
+            "id": "Kalimat Pasif Lanjutan"
+          },
+          "description": {
+            "en": "Passive structures with reporting verbs.",
+            "id": "Struktur pasif dengan kata kerja pelaporan."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "alleged having / are believing",
+            "correct": "alleged to have / are believed",
+            "explanation": {
+              "en": "Use infinitive after reporting verbs in passive.",
+              "id": "Gunakan infinitif setelah kata kerja pelaporan dalam pasif."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Formal reporting structures.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Subject + be + past participle + to infinitive",
+                "structure": "S + is alleged + to have V3",
+                "notes": [
+                  "Common in news reporting"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "He is said to be the richest man in the world.",
+            "translation": "Dia dikatakan sebagai orang terkaya di dunia.",
+            "explanation": {
+              "en": "Passive reporting structure.",
+              "id": "Struktur pelaporan pasif."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Passives",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "If she was more proficient",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "If she were more proficient"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "in data analytics,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "she would have secured",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the senior research position last month.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Subjunctive 'were' is preferred in formal mixed conditionals.",
+      "explanationDetails": {
+        "id": "GRAM-0011",
+        "slug": "adv-gram-11",
+        "topic": {
+          "name": {
+            "en": "Conditionals",
+            "id": "Kalimat Pengandaian"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Mixed Conditionals",
+            "id": "Pengandaian Campuran"
+          },
+          "description": {
+            "en": "Present condition affecting past result.",
+            "id": "Kondisi sekarang memengaruhi hasil masa lalu."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "was",
+            "correct": "were",
+            "explanation": {
+              "en": "Use 'were' for all subjects in formal conditionals.",
+              "id": "Gunakan 'were' untuk semua subjek dalam pengandaian formal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Hypothetical present affecting past.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "If + S + were, S + would have + V3",
+                "structure": "If + S + were + adj, S + would have + V3",
+                "notes": [
+                  "Present trait -> Past consequence"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "If I were taller, I would have joined the basketball team.",
+            "translation": "Seandainya saya lebih tinggi, saya pasti sudah bergabung dengan tim basket.",
+            "explanation": {
+              "en": "Present trait affecting past opportunity.",
+              "id": "Sifat sekarang memengaruhi kesempatan masa lalu."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "I wish the management had foreseen",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the supply chain disruptions",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "before they caused such",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "catastrophic financial losses.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of past perfect with 'wish' for past regrets.",
+      "explanationDetails": {
+        "id": "GRAM-0012",
+        "slug": "adv-gram-12",
+        "topic": {
+          "name": {
+            "en": "Subjunctive",
+            "id": "Subjungtif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Wish / If Only",
+            "id": "Wish / If Only"
+          },
+          "description": {
+            "en": "Expresses regrets about the past.",
+            "id": "Menyatakan penyesalan tentang masa lalu."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Past regrets with past perfect.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "wish + past perfect",
+                "structure": "S + wish + S + had + V3",
+                "notes": [
+                  "Expresses impossibility of changing past"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "I wish I had studied harder for the exam.",
+            "translation": "Saya berharap dulu saya belajar lebih giat untuk ujian.",
+            "explanation": {
+              "en": "Regret about past action.",
+              "id": "Penyesalan tentang tindakan masa lalu."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subjunctive",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The newly appointed ambassador is knowing",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "The newly appointed ambassador is known"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "not only for her eloquent diplomatic negotiations",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "but also to champion",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "but also for championing"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "human rights globally.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Parallel structures must match grammatically.",
+      "explanationDetails": {
+        "id": "GRAM-0013",
+        "slug": "adv-gram-13",
+        "topic": {
+          "name": {
+            "en": "Parallelism",
+            "id": "Kesejajaran"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Correlative Conjunctions",
+            "id": "Konjungsi Korelatif"
+          },
+          "description": {
+            "en": "Balanced grammatical structures.",
+            "id": "Struktur tata bahasa yang seimbang."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "is knowing / to champion",
+            "correct": "is known / for championing",
+            "explanation": {
+              "en": "Passive voice and matching prepositions.",
+              "id": "Suara pasif dan preposisi yang sesuai."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Maintaining balance in lists.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "not only [prep + noun/gerund] but also [prep + noun/gerund]",
+                "structure": "not only for A but also for B",
+                "notes": [
+                  "Prepositions must match"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "She is admired not only for her intelligence but also for her kindness.",
+            "translation": "Dia dikagumi tidak hanya karena kecerdasannya tetapi juga karena kebaikannya.",
+            "explanation": {
+              "en": "Parallel prepositional phrases.",
+              "id": "Frasa preposisional yang sejajar."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Parallelism",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The artifacts excavating",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "The artifacts excavated"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "from the submerged ruins provide",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "invaluable insights into",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the maritime trade of the ancient civilization.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Passive meaning requires past participle in reduced relative clauses.",
+      "explanationDetails": {
+        "id": "GRAM-0014",
+        "slug": "adv-gram-14",
+        "topic": {
+          "name": {
+            "en": "Relative Clauses",
+            "id": "Klausa Relatif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Reduced Relative Clauses",
+            "id": "Klausa Relatif Tereduksi"
+          },
+          "description": {
+            "en": "Shortening relative clauses.",
+            "id": "Memendekkan klausa relatif."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "excavating",
+            "correct": "excavated",
+            "explanation": {
+              "en": "Use V3 for passive meaning.",
+              "id": "Gunakan V3 untuk makna pasif."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Conciseness in writing.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Noun + V3 (passive) / V-ing (active)",
+                "structure": "The artifacts (which were) excavated",
+                "notes": [
+                  "Check active vs passive voice"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The people living next door are very noisy.",
+            "translation": "Orang-orang yang tinggal di sebelah sangat berisik.",
+            "explanation": {
+              "en": "Active meaning uses V-ing.",
+              "id": "Makna aktif menggunakan V-ing."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Relative Clauses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Not until the forensic analysis was completed",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the investigators realized that",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "did the investigators realize that"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the evidence had been",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "tampered with.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Negative time expressions at the start trigger inversion in the main clause.",
+      "explanationDetails": {
+        "id": "GRAM-0015",
+        "slug": "adv-gram-15",
+        "topic": {
+          "name": {
+            "en": "Inversion",
+            "id": "Inversi"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Negative Time Expressions",
+            "id": "Ekspresi Waktu Negatif"
+          },
+          "description": {
+            "en": "Inversion after negative adverbials.",
+            "id": "Inversi setelah adverbia negatif."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "the investigators realized",
+            "correct": "did the investigators realize",
+            "explanation": {
+              "en": "Main clause requires inversion.",
+              "id": "Klausa utama membutuhkan inversi."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Emphasis on time.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Not until + clause, auxiliary + S + V",
+                "structure": "Not until A happened, did S do B",
+                "notes": [
+                  "Inversion happens in main clause"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Not until midnight did he finally arrive.",
+            "translation": "Baru pada tengah malam dia akhirnya tiba.",
+            "explanation": {
+              "en": "Inversion emphasizes the delay.",
+              "id": "Inversi menekankan keterlambatan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Inversion",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Whether the proposed legislation will effectively curb",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "corporate monopolies remains",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "to be seen, despite",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the committee's exhaustive deliberations.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of noun clause as subject.",
+      "explanationDetails": {
+        "id": "GRAM-0016",
+        "slug": "adv-gram-16",
+        "topic": {
+          "name": {
+            "en": "Noun Clauses",
+            "id": "Klausa Kata Benda"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Subject Noun Clauses",
+            "id": "Klausa Kata Benda Subjek"
+          },
+          "description": {
+            "en": "Clauses acting as subjects.",
+            "id": "Klausa yang bertindak sebagai subjek."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Complex subjects.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Whether/if clause + singular verb",
+                "structure": "Whether + S + V + singular V",
+                "notes": [
+                  "Clause treated as singular subject"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "What he said is completely irrelevant.",
+            "translation": "Apa yang dia katakan sama sekali tidak relevan.",
+            "explanation": {
+              "en": "Wh-clause as subject.",
+              "id": "Klausa Wh sebagai subjek."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Noun Clauses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Neither the macroeconomic indicators nor the microeconomic trends suggests",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "Neither the macroeconomic indicators nor the microeconomic trends suggest"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "that the recession is ending,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "and the central bank has neither the tools",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "nor they have the mandate to intervene further.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "nor the mandate to intervene further."
+          ]
+        }
+      ],
+      "explanation": "Proximity rule for verb agreement and parallelism after correlative conjunctions.",
+      "explanationDetails": {
+        "id": "GRAM-0017",
+        "slug": "adv-gram-17",
+        "topic": {
+          "name": {
+            "en": "Conjunctions",
+            "id": "Konjungsi"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Correlative Conjunctions",
+            "id": "Konjungsi Korelatif"
+          },
+          "description": {
+            "en": "Paired conjunctions.",
+            "id": "Konjungsi berpasangan."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "suggests / nor they have the mandate",
+            "correct": "suggest / nor the mandate",
+            "explanation": {
+              "en": "Verb agrees with closer subject, parallel nouns.",
+              "id": "Kata kerja sesuai subjek terdekat, kata benda sejajar."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Advanced agreement rules.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Neither A nor B + verb (agrees with B)",
+                "structure": "Neither A nor B + V",
+                "notes": [
+                  "Proximity rule applies"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Neither the students nor the teacher was present.",
+            "translation": "Baik para siswa maupun guru tidak hadir.",
+            "explanation": {
+              "en": "Verb agrees with 'teacher'.",
+              "id": "Kata kerja sesuai dengan 'guru'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conjunctions",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The manuscript must have written",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "The manuscript must have been written"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "in the late 18th century,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "as the linguistic patterns and paper composition",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "perfectly align with that era.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Passive voice required for past deduction when subject receives action.",
+      "explanationDetails": {
+        "id": "GRAM-0018",
+        "slug": "adv-gram-18",
+        "topic": {
+          "name": {
+            "en": "Modals",
+            "id": "Modal"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Modals of Deduction",
+            "id": "Modal Deduksi"
+          },
+          "description": {
+            "en": "Logical conclusions about the past.",
+            "id": "Kesimpulan logis tentang masa lalu."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "must have written",
+            "correct": "must have been written",
+            "explanation": {
+              "en": "Passive form needed.",
+              "id": "Bentuk pasif dibutuhkan."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Past deductions.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "must have been + V3",
+                "structure": "S + must have been + V3",
+                "notes": [
+                  "Certainty about past passive action"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The window must have been broken by the storm.",
+            "translation": "Jendela itu pasti telah dipecahkan oleh badai.",
+            "explanation": {
+              "en": "Logical conclusion about past passive.",
+              "id": "Kesimpulan logis tentang pasif masa lalu."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Modals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Were the board to approve",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the controversial merger,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "the shareholders would inevitably launch",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "a lawsuit against the executive committee.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct formal inversion of Type 2 conditional with 'were to'.",
+      "explanationDetails": {
+        "id": "GRAM-0019",
+        "slug": "adv-gram-19",
+        "topic": {
+          "name": {
+            "en": "Conditionals",
+            "id": "Kalimat Pengandaian"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Inverted Conditionals",
+            "id": "Pengandaian Terinversi"
+          },
+          "description": {
+            "en": "Formal conditional inversion.",
+            "id": "Inversi pengandaian formal."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Highly formal conditionals.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Were + S + to V1",
+                "structure": "Were S to V1, S would V1",
+                "notes": [
+                  "Replaces 'If S were to V1'"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Were I to win the lottery, I would travel the world.",
+            "translation": "Seandainya saya menang lotre, saya akan keliling dunia.",
+            "explanation": {
+              "en": "Formal hypothetical.",
+              "id": "Hipotetis formal."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The renowned epidemiologist was widely acknowledged",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "for having come up",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "a groundbreaking theory regarding",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "with a groundbreaking theory regarding"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "the transmission of airborne pathogens.",
+          "clickable": false
+        }
+      ],
+      "explanation": "'Come up with' is the correct phrasal verb for inventing/producing an idea.",
+      "explanationDetails": {
+        "id": "GRAM-0020",
+        "slug": "adv-gram-20",
+        "topic": {
+          "name": {
+            "en": "Phrasal Verbs",
+            "id": "Kata Kerja Frasal"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Advanced Phrasal Verbs",
+            "id": "Kata Kerja Frasal Lanjutan"
+          },
+          "description": {
+            "en": "Multi-word verbs.",
+            "id": "Kata kerja multi-kata."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "come up a",
+            "correct": "come up with a",
+            "explanation": {
+              "en": "'with' is required.",
+              "id": "'with' diperlukan."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Academic phrasal verbs.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "come up with + noun",
+                "structure": "V + prep + noun",
+                "notes": [
+                  "Inseparable transitive phrasal verb"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "She came up with a brilliant solution.",
+            "translation": "Dia menemukan solusi yang cemerlang.",
+            "explanation": {
+              "en": "Inventing an idea.",
+              "id": "Menemukan ide."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Phrasal Verbs",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Reviewing the quarterly financial statements,",
+          "clickable": false
+        },
+        {
+          "id": "s1",
+          "text": "the discrepancies in the revenue reports were immediately identified",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "the chief auditor immediately identified the discrepancies in the revenue reports"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "by the chief auditor.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            ""
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "",
+          "clickable": false
+        }
+      ],
+      "explanation": "Participle clauses must logically modify the subject of the main clause.",
+      "explanationDetails": {
+        "id": "GRAM-0021",
+        "slug": "adv-gram-21",
+        "topic": {
+          "name": {
+            "en": "Modifiers",
+            "id": "Modifikator"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Dangling Modifiers",
+            "id": "Modifikator Menggantung"
+          },
+          "description": {
+            "en": "Misplaced participial phrases.",
+            "id": "Frasa partisipial yang salah tempat."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "the discrepancies... were identified by the chief auditor",
+            "correct": "the chief auditor identified the discrepancies...",
+            "explanation": {
+              "en": "Subject must perform the action of the participle.",
+              "id": "Subjek harus melakukan tindakan partisip."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Logical subject matching.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "V-ing phrase, S + V",
+                "structure": "V-ing + O, S (who did V-ing) + V",
+                "notes": [
+                  "Ensure S is the doer"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Walking down the street, the trees were beautiful.",
+            "translation": "Berjalan menyusuri jalan, pohon-pohon itu indah. (WRONG)",
+            "explanation": {
+              "en": "Trees don't walk.",
+              "id": "Pohon tidak berjalan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Modifiers",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The delegates were to have signed",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the treaty yesterday,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "but the sudden diplomatic crisis forced them",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "to postpone the ceremony indefinitely.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct use of 'were to have + V3' for unfulfilled past plans.",
+      "explanationDetails": {
+        "id": "GRAM-0022",
+        "slug": "adv-gram-22",
+        "topic": {
+          "name": {
+            "en": "Tenses",
+            "id": "Tenses"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Future in the Past",
+            "id": "Masa Depan di Masa Lalu"
+          },
+          "description": {
+            "en": "Past plans that didn't happen.",
+            "id": "Rencana masa lalu yang tidak terjadi."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Unfulfilled past intentions.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "was/were to have + V3",
+                "structure": "S + was/were to have + V3",
+                "notes": [
+                  "Implies the action was NOT done"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "I was to have called you, but my phone died.",
+            "translation": "Saya seharusnya meneleponmu, tapi baterai ponsel saya habis.",
+            "explanation": {
+              "en": "Plan interrupted.",
+              "id": "Rencana terganggu."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Tenses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "It is absolutely imperative that",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the lead researcher submits",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "the lead researcher submit"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the preliminary findings to the ethics committee",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "before the end of the fiscal quarter.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Adjectives of urgency trigger the mandative subjunctive.",
+      "explanationDetails": {
+        "id": "GRAM-0023",
+        "slug": "adv-gram-23",
+        "topic": {
+          "name": {
+            "en": "Subjunctive",
+            "id": "Subjungtif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Mandative Subjunctive",
+            "id": "Subjungtif Mandatif"
+          },
+          "description": {
+            "en": "Subjunctive after adjectives.",
+            "id": "Subjungtif setelah kata sifat."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "submits",
+            "correct": "submit",
+            "explanation": {
+              "en": "Base form required.",
+              "id": "Bentuk dasar diperlukan."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Expressing urgency.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "It is + adj + that + S + V1",
+                "structure": "It is imperative that S submit",
+                "notes": [
+                  "No 's' for 3rd person"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "It is essential that she be present.",
+            "translation": "Sangat penting bahwa dia hadir.",
+            "explanation": {
+              "en": "Base form 'be'.",
+              "id": "Bentuk dasar 'be'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subjunctive",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "It was the unprecedented volatility",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "in the cryptocurrency market what caused",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "in the cryptocurrency market that caused"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the hedge fund to liquidate",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "its assets prematurely.",
+          "clickable": false
+        }
+      ],
+      "explanation": "It-clefts use 'that' or 'who', not 'what'.",
+      "explanationDetails": {
+        "id": "GRAM-0024",
+        "slug": "adv-gram-24",
+        "topic": {
+          "name": {
+            "en": "Cleft Sentences",
+            "id": "Kalimat Cleft"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "It-Clefts",
+            "id": "Kalimat Cleft It-"
+          },
+          "description": {
+            "en": "Focuses on a specific element.",
+            "id": "Memfokuskan pada elemen tertentu."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "what caused",
+            "correct": "that caused",
+            "explanation": {
+              "en": "'that' introduces the relative clause.",
+              "id": "'that' memperkenalkan klausa relatif."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Highlighting information.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "It + be + emphasized element + that/who + clause",
+                "structure": "It was X that did Y",
+                "notes": [
+                  "'what' is incorrect in it-clefts"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "It was John who broke the window.",
+            "translation": "Johnlah yang memecahkan jendela.",
+            "explanation": {
+              "en": "Emphasizes 'John'.",
+              "id": "Menekankan 'John'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Cleft Sentences",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The CEO remembered to lock",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "The CEO remembered locking"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "the vault, but",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "forgot turning off",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "forgot to turn off"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "the main security system.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Remember/forget + V-ing refers to memory of past action; + to V refers to responsibility.",
+      "explanationDetails": {
+        "id": "GRAM-0025",
+        "slug": "adv-gram-25",
+        "topic": {
+          "name": {
+            "en": "Verb Patterns",
+            "id": "Pola Kata Kerja"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Gerund vs Infinitive",
+            "id": "Gerund vs Infinitif"
+          },
+          "description": {
+            "en": "Meaning changes with verb patterns.",
+            "id": "Perubahan makna dengan pola kata kerja."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "remembered to lock / forgot turning off",
+            "correct": "remembered locking / forgot to turn off",
+            "explanation": {
+              "en": "Match meaning to correct form.",
+              "id": "Sesuaikan makna dengan bentuk yang benar."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Nuances in verb patterns.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "remember/forget + V-ing (recall) vs + to V (task)",
+                "structure": "remember V-ing (past memory), remember to V (future task)",
+                "notes": [
+                  "Crucial meaning difference"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "I forgot to buy milk.",
+            "translation": "Saya lupa membeli susu. (Didn't buy it)",
+            "explanation": {
+              "en": "Task not done.",
+              "id": "Tugas tidak dilakukan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Verb Patterns",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The distinguished panel of judges,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "of which impartiality the audience",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "of whose impartiality the audience"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "was highly skeptical, eventually",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "delivered a unanimous verdict.",
+          "clickable": false
+        }
+      ],
+      "explanation": "'Whose' is the possessive relative pronoun, not 'which'.",
+      "explanationDetails": {
+        "id": "GRAM-0026",
+        "slug": "adv-gram-26",
+        "topic": {
+          "name": {
+            "en": "Relative Clauses",
+            "id": "Klausa Relatif"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Possessive Relative Pronouns",
+            "id": "Kata Ganti Relatif Posesif"
+          },
+          "description": {
+            "en": "Indicating possession in relative clauses.",
+            "id": "Menunjukkan kepemilikan dalam klausa relatif."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "of which",
+            "correct": "of whose",
+            "explanation": {
+              "en": "Use 'whose' for possession.",
+              "id": "Gunakan 'whose' untuk kepemilikan."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Advanced relative structures.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Prep + whose + noun",
+                "structure": "of whose impartiality",
+                "notes": [
+                  "'which' cannot show possession"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The author, whose books are bestsellers, will speak tonight.",
+            "translation": "Penulis, yang buku-bukunya adalah buku terlaris, akan berbicara malam ini.",
+            "explanation": {
+              "en": "Possessive relative pronoun.",
+              "id": "Kata ganti relatif posesif."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Relative Clauses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "The junior analysts were instructed to compile the data,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "and the senior analysts to interpret it,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "before the final",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "presentation.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Correct ellipsis of the passive verb phrase in coordinated clauses.",
+      "explanationDetails": {
+        "id": "GRAM-0027",
+        "slug": "adv-gram-27",
+        "topic": {
+          "name": {
+            "en": "Ellipsis",
+            "id": "Elipsis"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Clausal Ellipsis",
+            "id": "Elipsis Klausa"
+          },
+          "description": {
+            "en": "Omitting words to avoid repetition.",
+            "id": "Menghilangkan kata untuk menghindari pengulangan."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "Concise coordination.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "S1 + be + V3, and S2 + to V1",
+                "structure": "S1 were instructed to compile, and S2 (were instructed) to interpret",
+                "notes": [
+                  "Passive verb omitted"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "John likes coffee, and Mary tea.",
+            "translation": "John suka kopi, dan Mary teh.",
+            "explanation": {
+              "en": "Verb 'likes' omitted.",
+              "id": "Kata kerja 'likes' dihilangkan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Ellipsis",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "Brilliant as was",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "Brilliant as her"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "her theoretical framework,",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "theoretical framework was,"
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "the empirical data failed",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "to support her hypothesis regarding quantum entanglement.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Concessive inversion requires Adj/Adv/Noun + as + Subject + Verb.",
+      "explanationDetails": {
+        "id": "GRAM-0028",
+        "slug": "adv-gram-28",
+        "topic": {
+          "name": {
+            "en": "Inversion",
+            "id": "Inversi"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Concessive Inversion",
+            "id": "Inversi Konsesif"
+          },
+          "description": {
+            "en": "Expressing contrast with inversion.",
+            "id": "Menyatakan kontras dengan inversi."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Brilliant as was her theoretical framework",
+            "correct": "Brilliant as her theoretical framework was",
+            "explanation": {
+              "en": "Subject must precede verb in this structure.",
+              "id": "Subjek harus mendahului kata kerja dalam struktur ini."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Formal contrast.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "Adj + as + S + V",
+                "structure": "Brilliant as her framework was",
+                "notes": [
+                  "Means 'Although her framework was brilliant'"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Hard as he tried, he couldn't win.",
+            "translation": "Seberapa keras pun dia mencoba, dia tidak bisa menang.",
+            "explanation": {
+              "en": "Concessive meaning.",
+              "id": "Makna konsesif."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Inversion",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "By the time the new regulations take effect,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s1",
+          "text": "the corporation will have been operating under the old compliance framework for over a decade,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "and they would have already spent",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "and they will have already spent"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "millions on the transition.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Consistent future time frame requires future perfect, not conditional perfect.",
+      "explanationDetails": {
+        "id": "GRAM-0029",
+        "slug": "adv-gram-29",
+        "topic": {
+          "name": {
+            "en": "Tenses",
+            "id": "Tenses"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Future Perfect",
+            "id": "Future Perfect"
+          },
+          "description": {
+            "en": "Actions completed before a future time.",
+            "id": "Tindakan selesai sebelum waktu masa depan."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "would have already spent",
+            "correct": "will have already spent",
+            "explanation": {
+              "en": "Maintain future time reference.",
+              "id": "Pertahankan referensi waktu masa depan."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Future projections.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "will have + V3",
+                "structure": "S + will have + V3",
+                "notes": [
+                  "Matches 'will have been operating'"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "By tomorrow, I will have finished the report.",
+            "translation": "Menjelang besok, saya akan telah menyelesaikan laporan.",
+            "explanation": {
+              "en": "Future completion.",
+              "id": "Penyelesaian masa depan."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Tenses",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "type": "multi_error",
+      "question": "Identify and correct any grammatical or syntactical errors in the following advanced sentence or passage. If there are no errors, select the 'No Error' option.",
+      "multiErrorSegments": [
+        {
+          "id": "s0",
+          "text": "If the ancient civilization would have developed",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "If the ancient civilization had developed"
+          ]
+        },
+        {
+          "id": "s1",
+          "text": "a more sophisticated irrigation system,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "their agricultural yields would be sufficient to sustain the growing population,",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": [
+            "their agricultural yields would have been sufficient to sustain the growing population,"
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "preventing the societal collapse that archaeologists believe occurred around 1200 BCE.",
+          "clickable": false
+        }
+      ],
+      "explanation": "Past condition requires past perfect; past result requires conditional perfect.",
+      "explanationDetails": {
+        "id": "GRAM-0030",
+        "slug": "adv-gram-30",
+        "topic": {
+          "name": {
+            "en": "Conditionals",
+            "id": "Kalimat Pengandaian"
+          },
+          "category": "Advanced Grammar",
+          "subtopic": {
+            "en": "Third Conditional",
+            "id": "Pengandaian Ketiga"
+          },
+          "description": {
+            "en": "Imaginary past situations and results.",
+            "id": "Situasi dan hasil masa lalu imajiner."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "would have developed / would be sufficient",
+            "correct": "had developed / would have been sufficient",
+            "explanation": {
+              "en": "Use past perfect in if-clause, would have + V3 in main clause.",
+              "id": "Gunakan past perfect di if-clause, would have + V3 di klausa utama."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Historical hypotheticals.",
+            "rules": [
+              {
+                "title": "Structure",
+                "explanation": "If + past perfect, would have + V3",
+                "structure": "If S had V3, S would have V3",
+                "notes": [
+                  "Both condition and result in the past"
+                ]
+              }
+            ],
+            "common_mistakes": []
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "If they had left earlier, they would have avoided the traffic.",
+            "translation": "Jika mereka berangkat lebih awal, mereka pasti menghindari kemacetan.",
+            "explanation": {
+              "en": "Past hypothetical.",
+              "id": "Hipotetis masa lalu."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge University Press",
+            "url": "https://dictionary.cambridge.org",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    }
+  ]
+}

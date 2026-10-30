@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Question Title",
+    "description": "Question Description",
+    "timeLimits": { "fast": 8, "normal": 14, "easy": 25 },
+    "updatedAt": "use current datetime with format MMMM dd, yyyy HH:mm:ss"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "If", "clickable": false },
+        { "id": "s2", "text": "I would have studied", "clickable": true, "isError": true, "correctAnswers": ["I had studied", "I had studied harder"] },
+        { "id": "s3", "text": "harder,", "clickable": false },
+        { "id": "s4", "text": "I would have passed", "clickable": false },
+        { "id": "s5", "text": "the exam.", "clickable": false }
+      ],
+      "explanation": "Standard third conditional uses past perfect (had + V3) in if-clause, not would have + V3. Correct: If I had studied harder, I would have passed the exam.",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "slug": "third-conditional",
+        "topic": {
+          "name": { "en": "Conditional Sentences", "id": "Kalimat Pengandaian" },
+          "category": "Conditionals",
+          "subtopic": { "en": "Third Conditional", "id": "Conditional Tipe Ketiga" },
+          "description": {
+            "en": "Third conditional is used for imaginary past situations and hypothetical past results.",
+            "id": "Third conditional untuk situasi imajiner di masa lalu."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "If I would have studied harder, I would have passed the exam.",
+            "correct": "If I had studied harder, I would have passed the exam.",
+            "explanation": {
+              "en": "Use past perfect (had + V3) in if-clause, would have + V3 in main clause.",
+              "id": "Gunakan past perfect di if-clause, bukan would have."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Third conditional describes something that did not happen and imagines a different result. Used for regret/criticism.",
+            "rules": [
+              {
+                "title": "1. Basic Structure",
+                "explanation": "If-clause = imaginary past condition, Main clause = hypothetical past result.",
+                "structure": "If + subject + had + V3, subject + would have + V3.",
+                "notes": ["V3 = past participle", "Clauses can swap position"]
+              },
+              {
+                "title": "2. If-Clause",
+                "explanation": "Uses past perfect: had + V3.",
+                "structure": "If + subject + had + V3",
+                "notes": ["Had for all subjects", "'d contraction in informal"]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "If I would have known, I would have helped.",
+                "correct": "If I had known, I would have helped.",
+                "reason": "Don't use would have in if-clause."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "If they had invited me, I would have attended.",
+            "translation": "Jika mereka mengundang saya, saya pasti hadir.",
+            "explanation": { "en": "They didn't invite, so speaker didn't attend.", "id": "Tidak diundang, tidak hadir." }
+          }
+        ],
+        "references": [
+          { "title": "Conditionals: if", "author": "【entity-Cambridge Dictionary¦canonical_name=Cambridge Dictionary】", "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals-if", "type": "grammar_reference" }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "Spot errors - third conditional with mixed modals.",
+      "multiErrorSegments": [
+        { "id": "a1", "text": "If she had came", "clickable": true, "isError": true, "correctAnswers": ["If she had come"] },
+        { "id": "a2", "text": "earlier,", "clickable": false },
+        { "id": "a3", "text": "she would pass", "clickable": true, "isError": true, "correctAnswers": ["she would have passed", "she would have passed the exam"] },
+        { "id": "a4", "text": "the exam.", "clickable": false }
+      ],
+      "explanation": "Imaginary past result needs would have + V3. Correct: would have passed, not would pass. Also, 'came' is incorrect; use past participle 'come'.",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "slug": "third-conditional",
+        "topic": { "name": { "en": "Conditional Sentences", "id": "Kalimat Pengandaian" }, "category": "Conditionals", "subtopic": { "en": "Third Conditional", "id": "Conditional Tipe Ketiga" } }
+      }
+    }
+  ]
+}

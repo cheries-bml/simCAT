@@ -26,6 +26,6 @@
   {"level":"advanced","group":"english","topic":"pro","path":"questions/advanced/english/pro/apX01 pro sentence analysis 01.json","title":"APX01 Sentence Analysis - Advanced (Pro X01)"},
   {"level":"advanced","group":"english","topic":"pro","path":"questions/advanced/english/pro/apX02 pro sentence analysis 02.json","title":"APX02 Sentence Analysis - Advanced (Pro X02)"},
   {"level":"easy","group":"math","topic":"algebra","path":"questions/easy/math/algebra/question.json","title":"Algebra Basics"},
-  {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/click_correct_advanced.json","title":"🏠Test 01"},
+  {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/sample.json","title":"🏠Sample 01"},
   {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/quizz 01.json","title":"🏠Funny Quizz 01"}
 ]
