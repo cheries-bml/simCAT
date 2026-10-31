@@ -19,7 +19,115 @@
         "D": "go"
       },
       "correctAnswer": "C",
-      "explanation": "Third person singular subject 'She' requires the verb form 'goes' in the simple present tense."
+      "explanation": "Third person singular subject 'She' requires the verb form 'goes' in the simple present tense.",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "slug": "simple-present-third-person-singular-affirmative",
+        "topic": {
+          "name": {
+            "en": "Simple Present Tense",
+            "id": "Simple Present Tense (Kala Kini Sederhana)"
+          },
+          "category": "Verb Tenses",
+          "subtopic": {
+            "en": "Third-Person Singular in Affirmative Sentences",
+            "id": "Orang Ketiga Tunggal dalam Kalimat Positif"
+          },
+          "description": {
+            "en": "The simple present is used for habits, routines, and general facts. In affirmative sentences, a third-person singular subject takes a verb form ending in -s or -es.",
+            "id": "Simple present digunakan untuk kebiasaan, rutinitas, dan fakta umum. Dalam kalimat positif, subjek orang ketiga tunggal menggunakan kata kerja yang berakhiran -s atau -es."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "She go to the gym every morning.",
+            "correct": "She goes to the gym every morning.",
+            "explanation": {
+              "en": "The subject 'she' is third-person singular, so the simple-present verb must be 'goes', not 'go'.",
+              "id": "Subjek 'she' merupakan orang ketiga tunggal, sehingga kata kerja simple present harus berbentuk 'goes', bukan 'go'."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes a regular routine: going to the gym every morning. The simple present is used for repeated actions and habits. Because the subject is 'she', the verb must use the third-person singular form 'goes'.",
+            "rules": [
+              {
+                "title": "1. When to Use the Simple Present",
+                "explanation": "Use the simple present for habits, routines, repeated actions, and general facts. Time expressions such as 'every morning', 'every day', and 'usually' often indicate a routine.",
+                "structure": "Subject + simple-present verb (+ other information).",
+                "notes": [
+                  "The phrase 'every morning' shows that the action happens regularly.",
+                  "The simple present describes the routine, not an action happening only at this moment."
+                ]
+              },
+              {
+                "title": "2. Third-Person Singular in Affirmative Sentences",
+                "explanation": "With he, she, it, or a singular noun, add the appropriate third-person singular ending to the main verb in an affirmative simple-present sentence.",
+                "structure": "He/She/It + verb-s/-es; I/You/We/They + base verb.",
+                "notes": [
+                  "Most verbs take -s: work → works.",
+                  "Some verbs take -es: watch → watches; go → goes.",
+                  "The verb 'go' changes to 'goes' with 'she'."
+                ]
+              },
+              {
+                "title": "3. Applying the Rule to This Question",
+                "explanation": "The subject is 'She', so the correct verb form is 'goes'. The other options do not fit this affirmative simple-present sentence: 'going' normally needs a form of 'be', 'gone' is a past participle, and 'go' is the base form used here with other subjects such as I, you, we, and they.",
+                "structure": "She + goes + to the gym + every morning.",
+                "notes": [
+                  "Correct answer: C — goes.",
+                  "The verb 'goes' is the third-person singular form of 'go'."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "She go to the gym every morning.",
+                "correct": "She goes to the gym every morning.",
+                "reason": "Do not leave the main verb in its base form with a third-person singular subject in an affirmative simple-present sentence."
+              },
+              {
+                "wrong": "She is go to the gym every morning.",
+                "correct": "She goes to the gym every morning.",
+                "reason": "Do not combine 'is' directly with the base verb 'go'. Use the simple present for a routine, or use 'is going' for an action in progress or a temporary arrangement."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "My brother goes to school by bus every day.",
+            "translation": "Saudara laki-laki saya pergi ke sekolah naik bus setiap hari.",
+            "explanation": {
+              "en": "'My brother' is a singular third-person subject, so 'go' becomes 'goes'. 'Every day' indicates a regular routine.",
+              "id": "'My brother' adalah subjek orang ketiga tunggal, sehingga 'go' berubah menjadi 'goes'. 'Every day' menunjukkan rutinitas."
+            }
+          },
+          {
+            "sentence": "They go to the gym every morning.",
+            "translation": "Mereka pergi ke pusat kebugaran setiap pagi.",
+            "explanation": {
+              "en": "'They' is plural, so the main verb stays in its base form: 'go', not 'goes'.",
+              "id": "'They' adalah subjek jamak, sehingga kata kerja tetap dalam bentuk dasar, yaitu 'go', bukan 'goes'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple (I work)",
+            "author": "Cambridge Dictionary — English Grammar Today",
+            "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          },
+          {
+            "title": "Present simple",
+            "author": "British Council LearnEnglish",
+            "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 2,
@@ -38,7 +146,121 @@
         "doesn't know",
         "does not know"
       ],
-      "explanation": "The third person singular subject 'The man' requires 'doesn't' or 'does not' for negative sentences, and 'know' should be in its base form."
+      "explanation": "The third person singular subject 'The man' requires 'doesn't' or 'does not' for negative sentences, and 'know' should be in its base form.",
+      "explanationDetails": {
+        "id": "GRAM-0002",
+        "slug": "simple-present-negative-does-not-base-verb",
+        "topic": {
+          "name": {
+            "en": "Simple Present Tense",
+            "id": "Simple Present Tense (Kala Kini Sederhana)"
+          },
+          "category": "Verb Tenses",
+          "subtopic": {
+            "en": "Negative Sentences with Do Not and Does Not",
+            "id": "Kalimat Negatif dengan Do Not dan Does Not"
+          },
+          "description": {
+            "en": "Negative simple-present sentences use do not (don't) or does not (doesn't) before the base form of the main verb. Does not is used with third-person singular subjects.",
+            "id": "Kalimat negatif simple present menggunakan do not (don't) atau does not (doesn't) sebelum kata kerja utama bentuk dasar. Does not digunakan dengan subjek orang ketiga tunggal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The man who sits behind don't knows the answer to the question.",
+            "correct": "The man who sits behind doesn't know the answer to the question.",
+            "explanation": {
+              "en": "The head of the subject is the singular noun 'man', so the negative auxiliary must be 'doesn't'. After 'doesn't', the main verb must be the base form 'know', not 'knows'.",
+              "id": "Inti subjeknya adalah kata benda tunggal 'man', sehingga kata bantu negatif yang tepat adalah 'doesn't'. Setelah 'doesn't', kata kerja utama harus berbentuk dasar 'know', bukan 'knows'."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence is a negative statement in the simple present. Its subject is 'The man who sits behind'. The main noun (head) of this subject is the singular noun 'man'. Therefore, the sentence needs 'does not' or 'doesn't'. After this auxiliary, the main verb must be in its base form, 'know'.",
+            "rules": [
+              {
+                "title": "1. Choosing Do Not or Does Not",
+                "explanation": "Use do not (don't) with I, you, we, they, and plural subjects. Use does not (doesn't) with he, she, it, and singular third-person subjects.",
+                "structure": "I/You/We/They + don't + base verb; He/She/It or a singular noun + doesn't + base verb.",
+                "notes": [
+                  "'The man' is singular, so use 'doesn't'.",
+                  "The words 'who sits behind' form a relative clause describing 'the man'; they do not make the main subject plural."
+                ]
+              },
+              {
+                "title": "2. Use the Base Verb After Doesn't",
+                "explanation": "When 'does' carries the third-person singular marking, the main verb after it stays in its base form. Do not add -s or -es to the main verb.",
+                "structure": "doesn't + V1 (base form): doesn't know, doesn't work, doesn't like.",
+                "notes": [
+                  "Correct: doesn't know.",
+                  "Incorrect: doesn't knows.",
+                  "The -s sound is already represented in 'does', so it is not added to the main verb."
+                ]
+              },
+              {
+                "title": "3. Applying the Rules to This Sentence",
+                "explanation": "First identify the main subject: 'The man'. It is singular, so choose 'doesn't'. Then use the base form 'know' after the auxiliary. The corrected phrase is 'doesn't know'.",
+                "structure": "The man who sits behind + doesn't + know + the answer to the question.",
+                "notes": [
+                  "Correct answer: 'doesn't know' or 'does not know'.",
+                  "Both the contracted and full forms are grammatically correct."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "She doesn't likes coffee.",
+                "correct": "She doesn't like coffee.",
+                "reason": "After 'doesn't', use the base form 'like', not the third-person singular form 'likes'."
+              },
+              {
+                "wrong": "They doesn't know the answer.",
+                "correct": "They don't know the answer.",
+                "reason": "Use 'don't' with the plural subject 'they'; use 'doesn't' with a third-person singular subject."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The woman who works here doesn't drive to work.",
+            "translation": "Perempuan yang bekerja di sini tidak mengemudi ke tempat kerja.",
+            "explanation": {
+              "en": "The head noun 'woman' is singular, so the negative auxiliary is 'doesn't'. The main verb remains in its base form 'drive'.",
+              "id": "Kata benda inti 'woman' berbentuk tunggal, sehingga kata bantu negatifnya adalah 'doesn't'. Kata kerja utama tetap dalam bentuk dasar 'drive'."
+            }
+          },
+          {
+            "sentence": "The students don't understand the question.",
+            "translation": "Para siswa tidak memahami pertanyaan tersebut.",
+            "explanation": {
+              "en": "'The students' is plural, so use 'don't'. The main verb remains in its base form 'understand'.",
+              "id": "'The students' adalah subjek jamak, sehingga gunakan 'don't'. Kata kerja utama tetap dalam bentuk dasar 'understand'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple (I work)",
+            "author": "Cambridge Dictionary — English Grammar Today",
+            "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          },
+          {
+            "title": "Do as an auxiliary verb",
+            "author": "Cambridge Dictionary — English Grammar Today",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/do",
+            "type": "grammar_reference"
+          },
+          {
+            "title": "Present simple",
+            "author": "British Council LearnEnglish",
+            "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -52,7 +274,97 @@
         "D": "9:00 AM"
       },
       "correctAnswer": "C",
-      "explanation": "The passage explicitly states, 'Her classes start at 8:00 AM.'"
+      "explanation": "The passage explicitly states, 'Her classes start at 8:00 AM.'",
+      "explanationDetails": {
+        "id": "READ-0001",
+        "slug": "reading-comprehension-scanning-for-specific-information",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension",
+            "id": "Pemahaman Bacaan"
+          },
+          "category": "Reading Skills",
+          "subtopic": {
+            "en": "Scanning for Specific Information",
+            "id": "Memindai untuk Menemukan Informasi Spesifik"
+          },
+          "description": {
+            "en": "Scanning is a reading technique used to locate a particular detail, such as a time, date, name, or number, without rereading every word of the passage.",
+            "id": "Scanning adalah teknik membaca untuk menemukan detail tertentu, seperti waktu, tanggal, nama, atau angka, tanpa harus membaca ulang setiap kata dalam bacaan."
+          }
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "This question tests the ability to find a specific detail in a passage. The question asks for the time Maria's classes start. The relevant sentence is: 'Her classes start at 8:00 AM.' Therefore, option C (8:00 AM) is correct. The passage also mentions 6:00 AM, but that is the time Maria wakes up, not the time her classes start.",
+            "rules": [
+              {
+                "title": "1. Identify Exactly What the Question Asks",
+                "explanation": "Focus on the information requested. Here, the key detail is the starting time of Maria's classes, not her waking-up time or her other morning activities.",
+                "structure": "Question keyword: 'What time' + detail being asked about: 'Maria's classes start'.",
+                "notes": [
+                  "Underline or remember key words such as 'classes' and 'start'.",
+                  "Do not choose a time merely because it appears in the passage; check what event that time refers to."
+                ]
+              },
+              {
+                "title": "2. Scan the Passage for the Relevant Detail",
+                "explanation": "Scan the passage for the key words from the question or for a sentence expressing the same idea. The passage says, 'Her classes start at 8:00 AM.' The pronoun 'Her' refers to Maria.",
+                "structure": "Question: What time do Maria's classes start? → Passage: Her classes start at 8:00 AM.",
+                "notes": [
+                  "Scanning is useful for finding specific details such as times, dates, names, and numbers.",
+                  "You do not need to interpret an unstated reason; the answer is directly stated."
+                ]
+              },
+              {
+                "title": "3. Compare the Options with the Passage",
+                "explanation": "Choose the option that matches the relevant sentence exactly. Option C, 8:00 AM, matches the class-start time. Option A, 6:00 AM, is a distractor because it refers to when Maria wakes up.",
+                "structure": "Correct answer: C — 8:00 AM.",
+                "notes": [
+                  "A distractor may repeat another detail from the passage but answer a different question.",
+                  "Always connect a number or time to the correct person, action, or event."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "A — 6:00 AM",
+                "correct": "C — 8:00 AM",
+                "reason": "6:00 AM is mentioned in the passage, but it is the time Maria wakes up. The question asks when her classes start."
+              },
+              {
+                "wrong": "Choosing a time just because it appears in the passage.",
+                "correct": "Choose the time connected specifically to the classes starting.",
+                "reason": "Reading-comprehension answers must match the information requested, not merely repeat a detail found somewhere in the passage."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "The library opens at 9:30 AM. For the question 'What time does the library open?', the answer is 9:30 AM.",
+            "translation": "Perpustakaan buka pukul 09.30. Untuk pertanyaan 'Pukul berapa perpustakaan buka?', jawabannya adalah pukul 09.30.",
+            "explanation": {
+              "en": "The reader identifies the event in the question ('the library opens') and scans for the matching detail in the passage. The time directly connected to that event is the answer.",
+              "id": "Pembaca mengidentifikasi peristiwa yang ditanyakan ('perpustakaan buka'), lalu memindai bacaan untuk menemukan detail yang sesuai. Waktu yang secara langsung berkaitan dengan peristiwa tersebut adalah jawabannya."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "How to read the text",
+            "author": "British Council LearnEnglish Teens",
+            "url": "https://learnenglishteens.britishcouncil.org/exams/reading-exams/how-read-text",
+            "type": "reading_reference"
+          },
+          {
+            "title": "Practise English reading skills",
+            "author": "British Council LearnEnglish",
+            "url": "https://learnenglish.britishcouncil.org/free-resources/reading",
+            "type": "reading_reference"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,1751 @@
+{
+  "meta": {
+    "title": "Advanced English Mixed Tenses Test",
+    "timeLimits": {
+      "fast": 50,
+      "normal": 75,
+      "easy": 100
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "By the time the new recruits ___ their training, they ___ over 500 kilometers.",
+      "options": {
+        "A": "finish / will have run",
+        "B": "will finish / will run",
+        "C": "finished / have run",
+        "D": "finishing / will be running"
+      },
+      "correctAnswer": "A",
+      "explanation": "The time clause 'By the time' requires the simple present ('finish') for future reference, while the main clause requires the future perfect ('will have run') to show completion before that future point.",
+      "explanationDetails": {
+        "id": "TENSE-0001",
+        "slug": "future-perfect-simple-present-time-clause",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect with Simple Present in Time Clauses", "id": "Future Perfect dengan Simple Present dalam Klausa Waktu"},
+          "description": {"en": "Using Future Perfect for actions completed before a future time, and Simple Present in time clauses.", "id": "Menggunakan Future Perfect untuk aksi yang selesai sebelum waktu masa depan, dan Simple Present dalam klausa waktu."}
+        },
+        "wrong_correct": [{"wrong": "By the time they will finish, they will run.", "correct": "By the time they finish, they will have run.", "explanation": {"en": "Future perfect requires 'will have' + past participle, and time clauses use simple present.", "id": "Future perfect memerlukan 'will have' + past participle, dan klausa waktu menggunakan simple present."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence combines a future perfect action with a simple present time clause to describe a future milestone.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used for actions completed before a specific future time.", "structure": "Subject + will have + V3", "notes": ["Indicates completion before a future point."]},
+              {"title": "2. Simple Present in Time Clauses", "explanation": "After 'by the time', 'when', or 'before' referring to the future, use simple present.", "structure": "By the time + Subject + V1/Vs", "notes": ["Do not use 'will' in the time clause."]}
+            ],
+            "common_mistakes": [{"wrong": "By the time they will finish...", "correct": "By the time they finish...", "reason": "Time clauses referring to the future use simple present, not future tense."}]
+          }
+        },
+        "other_examples": [{"sentence": "By next year, she will have graduated.", "translation": "Menjelang tahun depan, dia akan telah lulus.", "explanation": {"en": "Future perfect indicates completion by a future time.", "id": "Future perfect menunjukkan penyelesaian pada waktu masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The cadet was exhausted because he has been running for three hours.",
+      "tokens": ["The cadet was exhausted", "because he", "has been running", "for three hours."],
+      "incorrectIndex": 2,
+      "correctAnswers": ["had been running"],
+      "explanation": "The main clause is in the simple past ('was exhausted'), so the preceding continuous action must be in the past perfect continuous ('had been running').",
+      "explanationDetails": {
+        "id": "TENSE-0002",
+        "slug": "past-perfect-continuous-simple-past",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect Continuous with Simple Past", "id": "Past Perfect Continuous dengan Simple Past"},
+          "description": {"en": "Past perfect continuous describes an action that was ongoing before another past action.", "id": "Past perfect continuous menggambarkan aksi yang sedang berlangsung sebelum aksi masa lalu lainnya."}
+        },
+        "wrong_correct": [{"wrong": "The cadet was exhausted because he has been running.", "correct": "The cadet was exhausted because he had been running.", "explanation": {"en": "Past context requires past perfect continuous, not present perfect continuous.", "id": "Konteks masa lalu memerlukan past perfect continuous, bukan present perfect continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes a past state caused by an earlier ongoing action.",
+            "rules": [
+              {"title": "1. Past Perfect Continuous", "explanation": "Used for an action that started in the past and continued up to another point in the past.", "structure": "Subject + had been + V-ing", "notes": ["Emphasizes the duration of the past action."]}
+            ],
+            "common_mistakes": [{"wrong": "...because he has been running.", "correct": "...because he had been running.", "reason": "Do not mix present perfect continuous with a simple past main clause."}]
+          }
+        },
+        "other_examples": [{"sentence": "She was tired because she had been working all day.", "translation": "Dia lelah karena dia telah bekerja sepanjang hari.", "explanation": {"en": "Past perfect continuous explains the cause of a past state.", "id": "Past perfect continuous menjelaskan penyebab dari keadaan masa lalu."}}],
+        "references": [{"title": "Past perfect continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Rina is currently preparing for the SNBT. She has been studying mathematics for three hours every day. Last week, she took a mock test and scored 85. She believes that if she maintains this routine, she will have mastered all the topics by the exam date.",
+      "question": "What will Rina have achieved by the exam date if she maintains her routine?",
+      "options": {
+        "A": "She will have taken a mock test.",
+        "B": "She will have mastered all the topics.",
+        "C": "She has been studying mathematics.",
+        "D": "She scored 85."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states, 'she will have mastered all the topics by the exam date.'",
+      "explanationDetails": {
+        "id": "READ-0001",
+        "slug": "reading-comprehension-future-perfect",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Future Outcomes", "id": "Mengidentifikasi Hasil Masa Depan"},
+          "description": {"en": "Scanning for specific future predictions stated in the text.", "id": "Memindai prediksi masa depan spesifik yang dinyatakan dalam teks."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for a future outcome based on the passage. The text directly states the future perfect outcome.",
+            "rules": [
+              {"title": "1. Locate the Future Time Marker", "explanation": "Find 'by the exam date' in the passage.", "structure": "Scan for 'by' + future time.", "notes": ["Match the tense in the question to the tense in the passage."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing a past event like scoring 85.", "correct": "Choosing the future perfect event.", "reason": "The question specifically asks what she *will have achieved* by the exam date."}]
+          }
+        },
+        "other_examples": [{"sentence": "By 2030, the city will have built a new hospital.", "translation": "Menjelang 2030, kota tersebut akan telah membangun rumah sakit baru.", "explanation": {"en": "Identifies a completed future action.", "id": "Mengidentifikasi aksi masa depan yang telah selesai."}}],
+        "references": [{"title": "Reading for specific information", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "I ___ my wallet. I ___ it everywhere since this morning.",
+      "options": {
+        "A": "lost / looked",
+        "B": "have lost / have been looking",
+        "C": "had lost / was looking",
+        "D": "lose / am looking"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Have lost' (present perfect) describes a past action with present relevance. 'Have been looking' (present perfect continuous) describes an action starting in the past and continuing to now, emphasized by 'since this morning'.",
+      "explanationDetails": {
+        "id": "TENSE-0003",
+        "slug": "present-perfect-present-perfect-continuous",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect and Present Perfect Continuous", "id": "Present Perfect dan Present Perfect Continuous"},
+          "description": {"en": "Combining a completed action with present relevance and an ongoing action with duration.", "id": "Menggabungkan aksi yang telah selesai dengan relevansi saat ini dan aksi yang sedang berlangsung dengan durasi."}
+        },
+        "wrong_correct": [{"wrong": "I lost my wallet. I looked for it everywhere since this morning.", "correct": "I have lost my wallet. I have been looking for it everywhere since this morning.", "explanation": {"en": "'Since' requires a perfect tense, not simple past.", "id": "'Since' memerlukan perfect tense, bukan simple past."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The first blank needs present perfect for a recent completed action affecting the present. The second needs present perfect continuous for an ongoing action with 'since'.",
+            "rules": [
+              {"title": "1. Present Perfect", "explanation": "Used for past actions with present results.", "structure": "Subject + have/has + V3", "notes": ["The wallet is still missing now."]},
+              {"title": "2. Present Perfect Continuous", "explanation": "Used for actions starting in the past and continuing to now.", "structure": "Subject + have/has + been + V-ing", "notes": ["'Since this morning' indicates duration up to the present."]}
+            ],
+            "common_mistakes": [{"wrong": "I have lost my wallet. I look for it since this morning.", "correct": "I have been looking for it since this morning.", "reason": "Simple present cannot be used with 'since' to show duration up to now."}]
+          }
+        },
+        "other_examples": [{"sentence": "She has broken her leg, so she has been resting for a week.", "translation": "Dia telah mematahkan kakinya, jadi dia telah beristirahat selama seminggu.", "explanation": {"en": "Present perfect result followed by present perfect continuous duration.", "id": "Hasil present perfect diikuti oleh durasi present perfect continuous."}}],
+        "references": [{"title": "Present perfect continuous", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "While the instructor ___ the rules, a loud noise ___ from the courtyard.",
+      "options": {
+        "A": "explained / was coming",
+        "B": "was explaining / came",
+        "C": "has explained / comes",
+        "D": "had explained / had come"
+      },
+      "correctAnswer": "B",
+      "explanation": "'While' introduces a longer background action in the past continuous ('was explaining'), which is interrupted by a shorter, sudden action in the simple past ('came').",
+      "explanationDetails": {
+        "id": "TENSE-0004",
+        "slug": "past-continuous-simple-past-interruption",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Continuous Interrupted by Simple Past", "id": "Past Continuous yang Disela oleh Simple Past"},
+          "description": {"en": "Using past continuous for a background action and simple past for an interrupting action.", "id": "Menggunakan past continuous untuk aksi latar belakang dan simple past untuk aksi yang menyela."}
+        },
+        "wrong_correct": [{"wrong": "While the instructor explained the rules, a loud noise was coming.", "correct": "While the instructor was explaining the rules, a loud noise came.", "explanation": {"en": "The longer action takes continuous form; the interrupting action takes simple form.", "id": "Aksi yang lebih lama menggunakan bentuk continuous; aksi yang menyela menggunakan bentuk simple."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "This sentence structure contrasts a continuous background action with a sudden interrupting event.",
+            "rules": [
+              {"title": "1. Past Continuous for Background", "explanation": "Used for actions in progress at a specific time in the past.", "structure": "Subject + was/were + V-ing", "notes": ["Often introduced by 'while' or 'as'."]},
+              {"title": "2. Simple Past for Interruption", "explanation": "Used for the shorter action that interrupts the continuous one.", "structure": "Subject + V2", "notes": ["Often introduced by 'when' or placed in the main clause."]}
+            ],
+            "common_mistakes": [{"wrong": "While he was explaining, the noise was coming.", "correct": "While he was explaining, the noise came.", "reason": "Two continuous actions with 'while' imply simultaneity, not interruption."}]
+          }
+        },
+        "other_examples": [{"sentence": "While I was sleeping, the phone rang.", "translation": "Saat saya sedang tidur, telepon berdering.", "explanation": {"en": "Classic interruption structure.", "id": "Struktur penyelaan klasik."}}],
+        "references": [{"title": "Past continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 6,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She is knowing the answer to the difficult mathematics problem.",
+      "tokens": ["She", "is knowing", "the answer to", "the difficult mathematics problem."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["knows"],
+      "explanation": "'Know' is a stative verb and is not used in the continuous form. It should be in the simple present tense.",
+      "explanationDetails": {
+        "id": "TENSE-0005",
+        "slug": "stative-verbs-simple-present",
+        "topic": {
+          "name": {"en": "Verb Forms", "id": "Bentuk Kata Kerja"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Stative Verbs in Simple Present", "id": "Stative Verbs dalam Simple Present"},
+          "description": {"en": "Stative verbs describe states, not actions, and are rarely used in continuous tenses.", "id": "Stative verbs menggambarkan keadaan, bukan aksi, dan jarang digunakan dalam bentuk continuous."}
+        },
+        "wrong_correct": [{"wrong": "She is knowing the answer.", "correct": "She knows the answer.", "explanation": {"en": "Stative verbs like 'know' take simple present, not present continuous.", "id": "Stative verbs seperti 'know' menggunakan simple present, bukan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The verb 'know' describes a mental state, not a physical action, so it cannot be used in the continuous form.",
+            "rules": [
+              {"title": "1. Stative Verbs", "explanation": "Verbs of thinking, feeling, possessing, or sensing are typically stative.", "structure": "Subject + V1/Vs", "notes": ["Examples: know, believe, own, hear, understand."]}
+            ],
+            "common_mistakes": [{"wrong": "I am understanding the lesson.", "correct": "I understand the lesson.", "reason": "'Understand' is a stative verb and does not take the -ing form."}]
+          }
+        },
+        "other_examples": [{"sentence": "He owns a car.", "translation": "Dia memiliki sebuah mobil.", "explanation": {"en": "'Own' is a stative verb, so simple present is used.", "id": "'Own' adalah stative verb, sehingga simple present digunakan."}}],
+        "references": [{"title": "Stative verbs", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/stative-verbs", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "If it rains tomorrow, the military parade ___.",
+      "options": {
+        "A": "is canceled",
+        "B": "will be canceled",
+        "C": "would be canceled",
+        "D": "has been canceled"
+      },
+      "correctAnswer": "B",
+      "explanation": "This is a First Conditional sentence. The 'if' clause uses the simple present ('rains'), and the main clause uses the future simple passive ('will be canceled').",
+      "explanationDetails": {
+        "id": "TENSE-0006",
+        "slug": "first-conditional-future-simple-passive",
+        "topic": {
+          "name": {"en": "Conditionals and Tenses", "id": "Kalimat Pengandaian dan Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "First Conditional", "id": "First Conditional"},
+          "description": {"en": "First conditional expresses a real possibility in the future.", "id": "First conditional menyatakan kemungkinan nyata di masa depan."}
+        },
+        "wrong_correct": [{"wrong": "If it rains, the parade would be canceled.", "correct": "If it rains, the parade will be canceled.", "explanation": {"en": "First conditional requires 'will' in the main clause, not 'would'.", "id": "First conditional memerlukan 'will' di klausa utama, bukan 'would'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes a real future possibility and its consequence.",
+            "rules": [
+              {"title": "1. First Conditional Structure", "explanation": "Used for likely future events.", "structure": "If + simple present, subject + will + base verb", "notes": ["The 'if' clause never uses 'will'."]}
+            ],
+            "common_mistakes": [{"wrong": "If it will rain, the parade will be canceled.", "correct": "If it rains, the parade will be canceled.", "reason": "Do not use 'will' in the 'if' clause of a first conditional."}]
+          }
+        },
+        "other_examples": [{"sentence": "If she studies hard, she will pass the exam.", "translation": "Jika dia belajar dengan giat, dia akan lulus ujian.", "explanation": {"en": "Standard first conditional structure.", "id": "Struktur first conditional standar."}}],
+        "references": [{"title": "First conditional", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/first-conditional", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "They ___ in Jakarta for five years before they moved to Surabaya.",
+      "options": {
+        "A": "have lived",
+        "B": "had lived",
+        "C": "lived",
+        "D": "were living"
+      },
+      "correctAnswer": "B",
+      "explanation": "The past perfect ('had lived') is used to describe an action that was completed before another past action ('moved').",
+      "explanationDetails": {
+        "id": "TENSE-0007",
+        "slug": "past-perfect-simple-past-sequence",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect before Simple Past", "id": "Past Perfect sebelum Simple Past"},
+          "description": {"en": "Past perfect shows which of two past actions happened first.", "id": "Past perfect menunjukkan mana dari dua aksi masa lalu yang terjadi lebih dulu."}
+        },
+        "wrong_correct": [{"wrong": "They have lived in Jakarta before they moved.", "correct": "They had lived in Jakarta before they moved.", "explanation": {"en": "Present perfect cannot be used with a specific past time reference like 'before they moved'.", "id": "Present perfect tidak dapat digunakan dengan referensi waktu masa lalu spesifik seperti 'before they moved'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes two past events. The one that happened first takes the past perfect.",
+            "rules": [
+              {"title": "1. Past Perfect Tense", "explanation": "Used for the earlier of two past actions.", "structure": "Subject + had + V3", "notes": ["Often used with 'before', 'after', or 'by the time'."]}
+            ],
+            "common_mistakes": [{"wrong": "They lived in Jakarta before they had moved.", "correct": "They had lived in Jakarta before they moved.", "reason": "The earlier action gets the past perfect, not the later one."}]
+          }
+        },
+        "other_examples": [{"sentence": "She had finished her work before the boss arrived.", "translation": "Dia telah menyelesaikan pekerjaannya sebelum bos tiba.", "explanation": {"en": "Finishing work happened before the arrival.", "id": "Menyelesaikan pekerjaan terjadi sebelum kedatangan."}}],
+        "references": [{"title": "Past perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 9,
+      "type": "passage_mcq",
+      "passage": "Officer Budi patrols the neighborhood every night. He has served in the police force for ten years. Yesterday, while he was walking his usual route, he noticed a broken window at the local bank. He immediately called for backup, and the suspects had already fled the scene.",
+      "question": "What had happened before Officer Budi called for backup?",
+      "options": {
+        "A": "He had served for ten years.",
+        "B": "The suspects had already fled the scene.",
+        "C": "He had noticed a broken window.",
+        "D": "He had walked his usual route."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly uses the past perfect 'had already fled' to describe the action completed before he called for backup.",
+      "explanationDetails": {
+        "id": "READ-0002",
+        "slug": "reading-comprehension-past-perfect-sequence",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Understanding Chronological Order", "id": "Memahami Urutan Kronologis"},
+          "description": {"en": "Identifying the sequence of past events using tense markers.", "id": "Mengidentifikasi urutan peristiwa masa lalu menggunakan penanda tenses."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for an event that occurred prior to a specific past action. The past perfect tense is the key indicator.",
+            "rules": [
+              {"title": "1. Identify Past Perfect Markers", "explanation": "Look for 'had + V3' in the passage to find the earliest action.", "structure": "Scan for 'had' + past participle.", "notes": ["This indicates the action happened before the simple past events."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing a simple past event.", "correct": "Choosing the past perfect event.", "reason": "The question specifically asks what *had happened* before the main past action."}]
+          }
+        },
+        "other_examples": [{"sentence": "When I arrived, the train had already left.", "translation": "Ketika saya tiba, kereta telah berangkat.", "explanation": {"en": "The train leaving happened before the arrival.", "id": "Kereta berangkat terjadi sebelum kedatangan."}}],
+        "references": [{"title": "Reading for detail", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Look! The mechanic ___ on the engine. He ___ on it since 8 AM.",
+      "options": {
+        "A": "works / has worked",
+        "B": "is working / has been working",
+        "C": "worked / had worked",
+        "D": "has worked / is working"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Look!' indicates an action happening right now (present continuous: 'is working'). 'Since 8 AM' indicates an action that started in the past and continues to the present (present perfect continuous: 'has been working').",
+      "explanationDetails": {
+        "id": "TENSE-0008",
+        "slug": "present-continuous-present-perfect-continuous",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Continuous and Present Perfect Continuous", "id": "Present Continuous dan Present Perfect Continuous"},
+          "description": {"en": "Combining an action happening now with an action that has duration up to now.", "id": "Menggabungkan aksi yang terjadi sekarang dengan aksi yang memiliki durasi hingga sekarang."}
+        },
+        "wrong_correct": [{"wrong": "Look! The mechanic works on the engine. He has worked on it since 8 AM.", "correct": "Look! The mechanic is working on the engine. He has been working on it since 8 AM.", "explanation": {"en": "'Look!' requires present continuous. 'Since' with an ongoing action requires present perfect continuous.", "id": "'Look!' memerlukan present continuous. 'Since' dengan aksi yang berlangsung memerlukan present perfect continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The first part describes an immediate observation, while the second part provides the duration of that ongoing activity.",
+            "rules": [
+              {"title": "1. Present Continuous", "explanation": "Used for actions happening at the moment of speaking.", "structure": "Subject + am/is/are + V-ing", "notes": ["Signal words: Look!, Listen!, now."]},
+              {"title": "2. Present Perfect Continuous", "explanation": "Used for actions starting in the past and continuing to now, emphasizing duration.", "structure": "Subject + have/has + been + V-ing", "notes": ["Signal words: since, for, all day."]}
+            ],
+            "common_mistakes": [{"wrong": "He is working on it since 8 AM.", "correct": "He has been working on it since 8 AM.", "reason": "Present continuous cannot be used with 'since' to show duration from the past to now."}]
+          }
+        },
+        "other_examples": [{"sentence": "Listen! She is singing. She has been practicing all week.", "translation": "Dengarkan! Dia sedang bernyanyi. Dia telah berlatih sepanjang minggu.", "explanation": {"en": "Immediate action followed by duration up to now.", "id": "Aksi segera diikuti oleh durasi hingga sekarang."}}],
+        "references": [{"title": "Present continuous", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "By next year, I ___ my bachelor's degree.",
+      "options": {
+        "A": "will obtain",
+        "B": "will have obtained",
+        "C": "am obtaining",
+        "D": "have obtained"
+      },
+      "correctAnswer": "B",
+      "explanation": "'By next year' is a future time marker that requires the future perfect tense ('will have obtained') to show completion before that time.",
+      "explanationDetails": {
+        "id": "TENSE-0009",
+        "slug": "future-perfect-completion",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect", "id": "Future Perfect"},
+          "description": {"en": "Future perfect describes an action that will be completed before a specific future time.", "id": "Future perfect menggambarkan aksi yang akan selesai sebelum waktu masa depan tertentu."}
+        },
+        "wrong_correct": [{"wrong": "By next year, I will obtain my degree.", "correct": "By next year, I will have obtained my degree.", "explanation": {"en": "'By' + future time requires future perfect to emphasize completion.", "id": "'By' + waktu masa depan memerlukan future perfect untuk menekankan penyelesaian."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence predicts the completion of an action before a future deadline.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used to look back from a future point to an action that will be finished.", "structure": "Subject + will have + V3", "notes": ["Often used with 'by', 'by the time', or 'before' + future time."]}
+            ],
+            "common_mistakes": [{"wrong": "By next year, I will finish my degree.", "correct": "By next year, I will have finished my degree.", "reason": "Simple future does not convey the sense of completion *before* the future time marker."}]
+          }
+        },
+        "other_examples": [{"sentence": "By 2025, they will have built the new bridge.", "translation": "Menjelang 2025, mereka akan telah membangun jembatan baru.", "explanation": {"en": "Completion before a future year.", "id": "Penyelesaian sebelum tahun masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 12,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The students has been studying for the entrance exam since last month.",
+      "tokens": ["The students", "has been studying", "for the entrance exam", "since last month."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["have been studying"],
+      "explanation": "The plural subject 'The students' requires the plural auxiliary 'have', not 'has', in the present perfect continuous tense.",
+      "explanationDetails": {
+        "id": "TENSE-0010",
+        "slug": "present-perfect-continuous-subject-verb-agreement",
+        "topic": {
+          "name": {"en": "Verb Tenses", "id": "Tenses Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Subject-Verb Agreement in Perfect Continuous", "id": "Kesesuaian Subjek-Kata Kerja dalam Perfect Continuous"},
+          "description": {"en": "Ensuring the auxiliary verb matches the subject in number.", "id": "Memastikan kata bantu sesuai dengan jumlah subjek."}
+        },
+        "wrong_correct": [{"wrong": "The students has been studying.", "correct": "The students have been studying.", "explanation": {"en": "Plural subjects take 'have', not 'has'.", "id": "Subjek jamak menggunakan 'have', bukan 'has'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The subject 'The students' is plural, so the auxiliary verb must be 'have'.",
+            "rules": [
+              {"title": "1. Subject-Verb Agreement", "explanation": "Plural subjects require plural verbs.", "structure": "They/We/You/Plural Noun + have + been + V-ing", "notes": ["'Has' is only for third-person singular (he, she, it)."]}
+            ],
+            "common_mistakes": [{"wrong": "The team has been playing.", "correct": "The team have been playing. (British English) / The team has been playing. (American English, treating 'team' as singular collective).", "reason": "Collective nouns can be tricky, but 'students' is clearly plural."}]
+          }
+        },
+        "other_examples": [{"sentence": "My friends have been waiting for an hour.", "translation": "Teman-teman saya telah menunggu selama satu jam.", "explanation": {"en": "Plural subject 'friends' takes 'have'.", "id": "Subjek jamak 'friends' menggunakan 'have'."}}],
+        "references": [{"title": "Subject-verb agreement", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "When I called him, he ___ a shower, so he couldn't answer.",
+      "options": {
+        "A": "took",
+        "B": "has taken",
+        "C": "was taking",
+        "D": "had taken"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past continuous ('was taking') is used to describe an action that was in progress at a specific moment in the past ('When I called him').",
+      "explanationDetails": {
+        "id": "TENSE-0011",
+        "slug": "past-continuous-specific-past-moment",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Continuous for Actions in Progress", "id": "Past Continuous untuk Aksi yang Sedang Berlangsung"},
+          "description": {"en": "Past continuous describes an action ongoing at a specific past time.", "id": "Past continuous menggambarkan aksi yang sedang berlangsung pada waktu masa lalu tertentu."}
+        },
+        "wrong_correct": [{"wrong": "When I called him, he took a shower.", "correct": "When I called him, he was taking a shower.", "explanation": {"en": "Simple past implies the action happened after or as a complete event, not that it was in progress during the call.", "id": "Simple past menyiratkan aksi terjadi setelah atau sebagai peristiwa lengkap, bukan bahwa itu sedang berlangsung selama panggilan."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes an action that was already happening when another past action occurred.",
+            "rules": [
+              {"title": "1. Past Continuous", "explanation": "Used for actions in progress at a specific past moment.", "structure": "Subject + was/were + V-ing", "notes": ["The call interrupted or occurred during the shower."]}
+            ],
+            "common_mistakes": [{"wrong": "When I called, he took a shower.", "correct": "When I called, he was taking a shower.", "reason": "This changes the meaning to suggest he started the shower after the call."}]
+          }
+        },
+        "other_examples": [{"sentence": "When the phone rang, I was cooking dinner.", "translation": "Ketika telepon berdering, saya sedang memasak makan malam.", "explanation": {"en": "Cooking was in progress when the phone rang.", "id": "Memasak sedang berlangsung ketika telepon berdering."}}],
+        "references": [{"title": "Past continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "She ___ three job interviews so far, and she ___ for the results eagerly.",
+      "options": {
+        "A": "had / waited",
+        "B": "has had / is waiting",
+        "C": "had had / was waiting",
+        "D": "has / waits"
+      },
+      "correctAnswer": "B",
+      "explanation": "'So far' indicates the present perfect ('has had'). The second part describes her current ongoing state, requiring the present continuous ('is waiting').",
+      "explanationDetails": {
+        "id": "TENSE-0012",
+        "slug": "present-perfect-present-continuous-mix",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect and Present Continuous", "id": "Present Perfect dan Present Continuous"},
+          "description": {"en": "Combining a completed experience up to now with a current ongoing action.", "id": "Menggabungkan pengalaman yang telah selesai hingga sekarang dengan aksi yang sedang berlangsung saat ini."}
+        },
+        "wrong_correct": [{"wrong": "She had three job interviews so far, and she waits for the results.", "correct": "She has had three job interviews so far, and she is waiting for the results.", "explanation": {"en": "'So far' requires present perfect. Current eagerness requires present continuous.", "id": "'So far' memerlukan present perfect. Kegelisahan saat ini memerlukan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The first clause summarizes an experience up to the present. The second clause describes what is happening right now.",
+            "rules": [
+              {"title": "1. Present Perfect with 'So Far'", "explanation": "Used for experiences from the past up to the present moment.", "structure": "Subject + have/has + V3", "notes": ["'So far', 'up to now', 'recently' are common markers."]},
+              {"title": "2. Present Continuous for Current State", "explanation": "Used for actions or states happening around the present moment.", "structure": "Subject + am/is/are + V-ing", "notes": ["'Eagerly' suggests an ongoing emotional state or action."]}
+            ],
+            "common_mistakes": [{"wrong": "She has three job interviews so far.", "correct": "She has had three job interviews so far.", "reason": "Present perfect requires the past participle 'had', not the base form."}]
+          }
+        },
+        "other_examples": [{"sentence": "I have read two chapters so far, and I am enjoying the book.", "translation": "Saya telah membaca dua bab sejauh ini, dan saya menikmati buku tersebut.", "explanation": {"en": "Present perfect experience + present continuous current feeling.", "id": "Pengalaman present perfect + perasaan saat ini present continuous."}}],
+        "references": [{"title": "Present perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 15,
+      "type": "passage_mcq",
+      "passage": "Indonesia declared its independence in 1945. Since then, the nation has grown significantly. Currently, the government is focusing on digital infrastructure. By 2030, experts predict that the country will have established a fully integrated digital economy.",
+      "question": "What is the current focus of the government according to the passage?",
+      "options": {
+        "A": "Declaring independence.",
+        "B": "Growing significantly.",
+        "C": "Focusing on digital infrastructure.",
+        "D": "Establishing a fully integrated digital economy."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'Currently, the government is focusing on digital infrastructure.'",
+      "explanationDetails": {
+        "id": "READ-0003",
+        "slug": "reading-comprehension-present-continuous-fact",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Current Actions", "id": "Mengidentifikasi Aksi Saat Ini"},
+          "description": {"en": "Locating present continuous actions described in a text.", "id": "Menemukan aksi present continuous yang dijelaskan dalam teks."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the current focus, which is indicated by the word 'Currently' and the present continuous tense in the passage.",
+            "rules": [
+              {"title": "1. Scan for Time Markers", "explanation": "Look for words like 'currently', 'now', or 'at present'.", "structure": "Match the question's time frame to the passage.", "notes": ["'Currently' directly points to the present continuous action."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing the future prediction.", "correct": "Choosing the current action.", "reason": "The question asks for the *current* focus, not the future prediction (2030)."}]
+          }
+        },
+        "other_examples": [{"sentence": "Currently, the company is expanding its operations.", "translation": "Saat ini, perusahaan sedang memperluas operasinya.", "explanation": {"en": "Identifies the present ongoing action.", "id": "Mengidentifikasi aksi yang sedang berlangsung saat ini."}}],
+        "references": [{"title": "Reading for specific information", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "The sun ___ in the east, but today it ___ behind thick clouds.",
+      "options": {
+        "A": "rises / is hiding",
+        "B": "is rising / hides",
+        "C": "rose / was hiding",
+        "D": "has risen / has hidden"
+      },
+      "correctAnswer": "A",
+      "explanation": "The first clause states a general scientific fact (simple present: 'rises'). The second clause describes a temporary situation happening today (present continuous: 'is hiding').",
+      "explanationDetails": {
+        "id": "TENSE-0013",
+        "slug": "simple-present-fact-present-continuous-temporary",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Simple Present for Facts vs. Present Continuous for Temporary Situations", "id": "Simple Present untuk Fakta vs. Present Continuous untuk Situasi Sementara"},
+          "description": {"en": "Contrasting permanent facts with temporary current actions.", "id": "Mempertentangkan fakta permanen dengan aksi sementara saat ini."}
+        },
+        "wrong_correct": [{"wrong": "The sun is rising in the east, but today it hides behind thick clouds.", "correct": "The sun rises in the east, but today it is hiding behind thick clouds.", "explanation": {"en": "General truths take simple present. Temporary deviations take present continuous.", "id": "Kebenaran umum menggunakan simple present. Penyimpangan sementara menggunakan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence contrasts a universal truth with a temporary exception.",
+            "rules": [
+              {"title": "1. Simple Present for Facts", "explanation": "Used for scientific facts and general truths.", "structure": "Subject + V1/Vs", "notes": ["The sun always rises in the east."]},
+              {"title": "2. Present Continuous for Temporary Situations", "explanation": "Used for actions happening around now, but not permanently.", "structure": "Subject + am/is/are + V-ing", "notes": ["'Today' indicates a temporary deviation from the norm."]}
+            ],
+            "common_mistakes": [{"wrong": "The sun rises in the east, but today it hides.", "correct": "The sun rises in the east, but today it is hiding.", "reason": "Simple present 'hides' would imply it always hides behind clouds today, which is unnatural. Continuous emphasizes the temporary ongoing state."}]
+          }
+        },
+        "other_examples": [{"sentence": "Water boils at 100°C, but today it is boiling faster because of the high altitude.", "translation": "Air mendidih pada 100°C, tetapi hari ini air mendidih lebih cepat karena ketinggian.", "explanation": {"en": "Fact vs. temporary condition.", "id": "Fakta vs. kondisi sementara."}}],
+        "references": [{"title": "Present simple and present continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple-and-present-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "We ___ the project by the time the deadline arrives.",
+      "options": {
+        "A": "will complete",
+        "B": "will have completed",
+        "C": "complete",
+        "D": "are completing"
+      },
+      "correctAnswer": "B",
+      "explanation": "'By the time' followed by a present tense verb ('arrives') referring to the future requires the future perfect tense ('will have completed') in the main clause.",
+      "explanationDetails": {
+        "id": "TENSE-0014",
+        "slug": "future-perfect-by-the-time",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect with Time Clauses", "id": "Future Perfect dengan Klausa Waktu"},
+          "description": {"en": "Using future perfect to show completion before a future time clause.", "id": "Menggunakan future perfect untuk menunjukkan penyelesaian sebelum klausa waktu masa depan."}
+        },
+        "wrong_correct": [{"wrong": "We will complete the project by the time the deadline arrives.", "correct": "We will have completed the project by the time the deadline arrives.", "explanation": {"en": "'By the time' emphasizes completion *before* that moment, requiring future perfect.", "id": "'By the time' menekankan penyelesaian *sebelum* momen tersebut, memerlukan future perfect."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence sets a future deadline and states that the action will be finished before that point.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used for actions that will be finished before a specific future time.", "structure": "Subject + will have + V3", "notes": ["The time clause uses simple present ('arrives') to refer to the future."]}
+            ],
+            "common_mistakes": [{"wrong": "We will have completed the project by the time the deadline will arrive.", "correct": "We will have completed the project by the time the deadline arrives.", "reason": "Do not use 'will' in the time clause."}]
+          }
+        },
+        "other_examples": [{"sentence": "She will have graduated by the time she turns 22.", "translation": "Dia akan telah lulus pada saat dia berusia 22 tahun.", "explanation": {"en": "Completion before a future age.", "id": "Penyelesaian sebelum usia masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 18,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am not believing what the news anchor is saying right now.",
+      "tokens": ["I", "am not believing", "what the news anchor", "is saying right now."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["do not believe", "don't believe"],
+      "explanation": "'Believe' is a stative verb expressing a mental state and is not used in the continuous form. It should be in the simple present negative.",
+      "explanationDetails": {
+        "id": "TENSE-0015",
+        "slug": "stative-verbs-negative-simple-present",
+        "topic": {
+          "name": {"en": "Verb Forms", "id": "Bentuk Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Stative Verbs in Negative Sentences", "id": "Stative Verbs dalam Kalimat Negatif"},
+          "description": {"en": "Stative verbs require simple tenses, even in negative forms.", "id": "Stative verbs memerlukan tenses simple, bahkan dalam bentuk negatif."}
+        },
+        "wrong_correct": [{"wrong": "I am not believing the news.", "correct": "I do not believe the news.", "explanation": {"en": "Stative verbs like 'believe' do not take the continuous form.", "id": "Stative verbs seperti 'believe' tidak menggunakan bentuk continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The verb 'believe' describes a cognitive state, not an active process, so it must be in the simple present.",
+            "rules": [
+              {"title": "1. Stative Verbs", "explanation": "Verbs of cognition (know, believe, understand) are not used in continuous tenses.", "structure": "Subject + do/does not + base verb", "notes": ["Use 'don't believe' instead of 'am not believing'."]}
+            ],
+            "common_mistakes": [{"wrong": "I am not understanding.", "correct": "I do not understand.", "reason": "'Understand' is also a stative verb."}]
+          }
+        },
+        "other_examples": [{"sentence": "I don't agree with that statement.", "translation": "Saya tidak setuju dengan pernyataan itu.", "explanation": {"en": "'Agree' is a stative verb, so simple present negative is used.", "id": "'Agree' adalah stative verb, sehingga simple present negatif digunakan."}}],
+        "references": [{"title": "Stative verbs", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/stative-verbs", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "Before the police arrived, the thieves ___ already ___ the building.",
+      "options": {
+        "A": "have / escaped",
+        "B": "had / escaped",
+        "C": "were / escaping",
+        "D": "did / escape"
+      },
+      "correctAnswer": "B",
+      "explanation": "The past perfect ('had escaped') is used to show that the action was completed before another past action ('arrived').",
+      "explanationDetails": {
+        "id": "TENSE-0016",
+        "slug": "past-perfect-before-simple-past",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect for Earlier Actions", "id": "Past Perfect untuk Aksi yang Lebih Awal"},
+          "description": {"en": "Past perfect clarifies the sequence of two past events.", "id": "Past perfect memperjelas urutan dari dua peristiwa masa lalu."}
+        },
+        "wrong_correct": [{"wrong": "Before the police arrived, the thieves have already escaped.", "correct": "Before the police arrived, the thieves had already escaped.", "explanation": {"en": "Present perfect cannot be used with a past time reference like 'before the police arrived'.", "id": "Present perfect tidak dapat digunakan dengan referensi waktu masa lalu seperti 'before the police arrived'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes two past events. The one that happened first takes the past perfect.",
+            "rules": [
+              {"title": "1. Past Perfect Tense", "explanation": "Used for the earlier of two past actions.", "structure": "Subject + had + V3", "notes": ["'Already' emphasizes the completion before the second event."]}
+            ],
+            "common_mistakes": [{"wrong": "The thieves escaped before the police had arrived.", "correct": "The thieves had escaped before the police arrived.", "reason": "The earlier action (escaping) gets the past perfect, not the later one."}]
+          }
+        },
+        "other_examples": [{"sentence": "The movie had already started when we got to the cinema.", "translation": "Film telah mulai ketika kami tiba di bioskop.", "explanation": {"en": "Starting happened before arriving.", "id": "Mulai terjadi sebelum tiba."}}],
+        "references": [{"title": "Past perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "How long ___ you ___ English before you moved to Australia?",
+      "options": {
+        "A": "did / study",
+        "B": "have / studied",
+        "C": "had / been studying",
+        "D": "were / studying"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect continuous ('had been studying') is used to ask about the duration of an action that was ongoing up until another past event ('moved').",
+      "explanationDetails": {
+        "id": "TENSE-0017",
+        "slug": "past-perfect-continuous-duration-before-past",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect Continuous for Duration", "id": "Past Perfect Continuous untuk Durasi"},
+          "description": {"en": "Past perfect continuous emphasizes the duration of an action leading up to a past point.", "id": "Past perfect continuous menekankan durasi aksi yang mengarah ke titik masa lalu."}
+        },
+        "wrong_correct": [{"wrong": "How long did you study English before you moved?", "correct": "How long had you been studying English before you moved?", "explanation": {"en": "'How long' with a past endpoint requires past perfect continuous to emphasize duration.", "id": "'How long' dengan titik akhir masa lalu memerlukan past perfect continuous untuk menekankan durasi."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the duration of an activity that continued up to a specific moment in the past.",
+            "rules": [
+              {"title": "1. Past Perfect Continuous", "explanation": "Used to emphasize the duration of an action before another past action.", "structure": "How long + had + subject + been + V-ing", "notes": ["'Before you moved' sets the past endpoint."]}
+            ],
+            "common_mistakes": [{"wrong": "How long have you been studying English before you moved?", "correct": "How long had you been studying English before you moved?", "reason": "Present perfect continuous cannot be used with a past time marker like 'moved'."}]
+          }
+        },
+        "other_examples": [{"sentence": "How long had she been waiting before the bus arrived?", "translation": "Berapa lama dia telah menunggu sebelum bus tiba?", "explanation": {"en": "Duration of waiting up to a past event.", "id": "Durasi menunggu hingga peristiwa masa lalu."}}],
+        "references": [{"title": "Past perfect continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "At this time tomorrow, we ___ our final examination.",
+      "options": {
+        "A": "will take",
+        "B": "will be taking",
+        "C": "will have taken",
+        "D": "are taking"
+      },
+      "correctAnswer": "B",
+      "explanation": "'At this time tomorrow' refers to a specific moment in the future, requiring the future continuous tense ('will be taking') to describe an action that will be in progress at that moment.",
+      "explanationDetails": {
+        "id": "TENSE-0018",
+        "slug": "future-continuous-specific-future-moment",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Continuous", "id": "Future Continuous"},
+          "description": {"en": "Future continuous describes an action that will be in progress at a specific future time.", "id": "Future continuous menggambarkan aksi yang akan sedang berlangsung pada waktu masa depan tertentu."}
+        },
+        "wrong_correct": [{"wrong": "At this time tomorrow, we will take our exam.", "correct": "At this time tomorrow, we will be taking our exam.", "explanation": {"en": "'At this time tomorrow' emphasizes the action being in progress, not just a future fact.", "id": "'At this time tomorrow' menekankan aksi yang sedang berlangsung, bukan hanya fakta masa depan."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes an action that will be ongoing at a precise future moment.",
+            "rules": [
+              {"title": "1. Future Continuous", "explanation": "Used for actions in progress at a specific future time.", "structure": "Subject + will be + V-ing", "notes": ["Signal phrases: 'at this time tomorrow', 'at 8 PM tonight'."]}
+            ],
+            "common_mistakes": [{"wrong": "At this time tomorrow, we will have taken our exam.", "correct": "At this time tomorrow, we will be taking our exam.", "reason": "Future perfect implies the exam is already finished, which contradicts 'at this time' (implying during the exam)."}]
+          }
+        },
+        "other_examples": [{"sentence": "This time next week, I will be flying to Jakarta.", "translation": "Minggu ini minggu depan, saya akan sedang terbang ke Jakarta.", "explanation": {"en": "Action in progress at a specific future time.", "id": "Aksi yang sedang berlangsung pada waktu masa depan tertentu."}}],
+        "references": [{"title": "Future continuous", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "passage": "During the chemistry lab, Andi mixed the wrong chemicals. The solution was boiling rapidly when he realized his mistake. He had not read the instructions carefully. Now, he always double-checks the manual before starting any experiment.",
+      "question": "Why did the solution boil rapidly?",
+      "options": {
+        "A": "Because he had not read the instructions carefully.",
+        "B": "Because he always double-checks the manual.",
+        "C": "Because he is mixing the right chemicals.",
+        "D": "Because he will read the instructions."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage states, 'He had not read the instructions carefully,' which is the past perfect cause of the past event (the solution boiling).",
+      "explanationDetails": {
+        "id": "READ-0004",
+        "slug": "reading-comprehension-cause-and-effect-past",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Cause and Effect", "id": "Mengidentifikasi Sebab dan Akibat"},
+          "description": {"en": "Understanding the relationship between past events using tense clues.", "id": "Memahami hubungan antara peristiwa masa lalu menggunakan petunjuk tenses."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the cause of a past event. The passage uses the past perfect to indicate the prior cause.",
+            "rules": [
+              {"title": "1. Identify the Cause", "explanation": "Look for the action that happened before the main event.", "structure": "Scan for past perfect or explanatory clauses.", "notes": ["'Had not read' explains why the mistake happened."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing a present habit.", "correct": "Choosing the past cause.", "reason": "The question asks why it *did* boil (past), not what he does *now*."}]
+          }
+        },
+        "other_examples": [{"sentence": "He failed the test because he had not studied.", "translation": "Dia gagal dalam tes karena dia tidak belajar.", "explanation": {"en": "Past perfect explains the past failure.", "id": "Past perfect menjelaskan kegagalan masa lalu."}}],
+        "references": [{"title": "Reading for detail", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 23,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The team are winning the championship every year.",
+      "tokens": ["The team", "are winning", "the championship", "every year."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["wins", "is winning"],
+      "explanation": "'Every year' indicates a regular habit or repeated action, which requires the simple present tense ('wins'). 'Are winning' is present continuous, which is used for actions happening now, not regular habits.",
+      "explanationDetails": {
+        "id": "TENSE-0019",
+        "slug": "simple-present-habit-vs-present-continuous",
+        "topic": {
+          "name": {"en": "Verb Tenses", "id": "Tenses Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Simple Present for Habits", "id": "Simple Present untuk Kebiasaan"},
+          "description": {"en": "Using simple present for repeated actions indicated by frequency adverbs.", "id": "Menggunakan simple present untuk aksi berulang yang ditunjukkan oleh adverbia frekuensi."}
+        },
+        "wrong_correct": [{"wrong": "The team are winning the championship every year.", "correct": "The team wins the championship every year.", "explanation": {"en": "'Every year' requires simple present, not present continuous.", "id": "'Every year' memerlukan simple present, bukan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The time marker 'every year' indicates a routine or repeated fact, which must be expressed in the simple present tense.",
+            "rules": [
+              {"title": "1. Simple Present for Routines", "explanation": "Used for actions that happen regularly.", "structure": "Subject + V1/Vs", "notes": ["Signal words: every day, every year, always, usually."]}
+            ],
+            "common_mistakes": [{"wrong": "He is going to school every day.", "correct": "He goes to school every day.", "reason": "Present continuous is for actions happening now, not daily routines."}]
+          }
+        },
+        "other_examples": [{"sentence": "The sun rises in the east every morning.", "translation": "Matahari terbit di timur setiap pagi.", "explanation": {"en": "Regular occurrence requires simple present.", "id": "Kejadian teratur memerlukan simple present."}}],
+        "references": [{"title": "Present simple", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "I ___ my keys. Can you help me find them?",
+      "options": {
+        "A": "lose",
+        "B": "lost",
+        "C": "have lost",
+        "D": "had lost"
+      },
+      "correctAnswer": "C",
+      "explanation": "The present perfect ('have lost') is used to describe a past action that has a direct result in the present (the keys are still missing now).",
+      "explanationDetails": {
+        "id": "TENSE-0020",
+        "slug": "present-perfect-present-result",
+        "topic": {
+          "name": {"en": "Present Tenses", "id": "Tenses Masa Kini"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect for Present Results", "id": "Present Perfect untuk Hasil Saat Ini"},
+          "description": {"en": "Present perfect connects a past action to the present situation.", "id": "Present perfect menghubungkan aksi masa lalu dengan situasi saat ini."}
+        },
+        "wrong_correct": [{"wrong": "I lost my keys. Can you help me find them?", "correct": "I have lost my keys. Can you help me find them?", "explanation": {"en": "While 'lost' is grammatically possible, 'have lost' is preferred to emphasize the current relevance (they are still missing).", "id": "Meskipun 'lost' secara tata bahasa mungkin, 'have lost' lebih disukai untuk menekankan relevansi saat ini (masih hilang)."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The speaker is asking for help now because the past action of losing the keys affects the present.",
+            "rules": [
+              {"title": "1. Present Perfect for Present Relevance", "explanation": "Used when a past action has a clear result or impact on the present moment.", "structure": "Subject + have/has + V3", "notes": ["The focus is on the current state (missing keys), not when it happened."]}
+            ],
+            "common_mistakes": [{"wrong": "I have lost my keys yesterday.", "correct": "I lost my keys yesterday.", "reason": "If a specific past time ('yesterday') is mentioned, use simple past, not present perfect."}]
+          }
+        },
+        "other_examples": [{"sentence": "I have broken my glasses, so I can't read.", "translation": "Saya telah memecahkan kacamata saya, jadi saya tidak bisa membaca.", "explanation": {"en": "Past action with a present consequence.", "id": "Aksi masa lalu dengan konsekuensi saat ini."}}],
+        "references": [{"title": "Present perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "She usually ___ coffee, but this week she ___ tea.",
+      "options": {
+        "A": "drinks / is drinking",
+        "B": "is drinking / drinks",
+        "C": "drank / has drunk",
+        "D": "has drunk / is drinking"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Usually' indicates a regular habit (simple present: 'drinks'). 'This week' indicates a temporary deviation from the habit (present continuous: 'is drinking').",
+      "explanationDetails": {
+        "id": "TENSE-0021",
+        "slug": "simple-present-habit-present-continuous-temporary",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Habits vs. Temporary Situations", "id": "Kebiasaan vs. Situasi Sementara"},
+          "description": {"en": "Contrasting regular habits with temporary current actions.", "id": "Mempertentangkan kebiasaan teratur dengan aksi sementara saat ini."}
+        },
+        "wrong_correct": [{"wrong": "She usually is drinking coffee, but this week she drinks tea.", "correct": "She usually drinks coffee, but this week she is drinking tea.", "explanation": {"en": "'Usually' takes simple present. 'This week' (temporary) takes present continuous.", "id": "'Usually' menggunakan simple present. 'This week' (sementara) menggunakan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence contrasts a long-term habit with a short-term exception.",
+            "rules": [
+              {"title": "1. Simple Present for Habits", "explanation": "Used for regular, repeated actions.", "structure": "Subject + V1/Vs", "notes": ["Signal: 'usually'."]},
+              {"title": "2. Present Continuous for Temporary Situations", "explanation": "Used for actions happening around now, but not permanently.", "structure": "Subject + am/is/are + V-ing", "notes": ["Signal: 'this week', 'currently'."]}
+            ],
+            "common_mistakes": [{"wrong": "She usually drinks coffee, but this week she drinks tea.", "correct": "She usually drinks coffee, but this week she is drinking tea.", "reason": "Using simple present for 'this week' loses the nuance that it is a temporary change."}]
+          }
+        },
+        "other_examples": [{"sentence": "I normally drive to work, but today I am taking the bus.", "translation": "Saya biasanya mengemudi ke tempat kerja, tetapi hari ini saya naik bus.", "explanation": {"en": "Habit vs. temporary action.", "id": "Kebiasaan vs. aksi sementara."}}],
+        "references": [{"title": "Present simple and present continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple-and-present-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "By the end of this month, the government ___ the new regulation.",
+      "options": {
+        "A": "implements",
+        "B": "will implement",
+        "C": "will have implemented",
+        "D": "is implementing"
+      },
+      "correctAnswer": "C",
+      "explanation": "'By the end of this month' is a future time marker that requires the future perfect tense ('will have implemented') to show completion before that time.",
+      "explanationDetails": {
+        "id": "TENSE-0022",
+        "slug": "future-perfect-by-the-end-of",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect", "id": "Future Perfect"},
+          "description": {"en": "Future perfect describes an action completed before a future deadline.", "id": "Future perfect menggambarkan aksi yang selesai sebelum batas waktu masa depan."}
+        },
+        "wrong_correct": [{"wrong": "By the end of this month, the government will implement the new regulation.", "correct": "By the end of this month, the government will have implemented the new regulation.", "explanation": {"en": "'By' + future time requires future perfect to emphasize completion.", "id": "'By' + waktu masa depan memerlukan future perfect untuk menekankan penyelesaian."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence predicts the completion of an action before a future deadline.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used to look back from a future point to an action that will be finished.", "structure": "Subject + will have + V3", "notes": ["Often used with 'by the end of', 'by next year'."]}
+            ],
+            "common_mistakes": [{"wrong": "By the end of this month, the government implements the new regulation.", "correct": "By the end of this month, the government will have implemented the new regulation.", "reason": "Simple present cannot express a future completed action."}]
+          }
+        },
+        "other_examples": [{"sentence": "By Friday, I will have finished the report.", "translation": "Menjelang hari Jumat, saya akan telah menyelesaikan laporan tersebut.", "explanation": {"en": "Completion before a future day.", "id": "Penyelesaian sebelum hari masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "He has been knowing his best friend since childhood.",
+      "tokens": ["He", "has been knowing", "his best friend", "since childhood."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["has known"],
+      "explanation": "'Know' is a stative verb and cannot be used in the continuous form. It should be in the present perfect tense ('has known') to show a state starting in the past and continuing to the present.",
+      "explanationDetails": {
+        "id": "TENSE-0023",
+        "slug": "stative-verbs-present-perfect",
+        "topic": {
+          "name": {"en": "Verb Forms", "id": "Bentuk Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Stative Verbs in Perfect Tenses", "id": "Stative Verbs dalam Tenses Perfect"},
+          "description": {"en": "Stative verbs use perfect tenses, not perfect continuous tenses.", "id": "Stative verbs menggunakan tenses perfect, bukan perfect continuous."}
+        },
+        "wrong_correct": [{"wrong": "He has been knowing his friend.", "correct": "He has known his friend.", "explanation": {"en": "Stative verbs like 'know' do not take the continuous form, even with 'since'.", "id": "Stative verbs seperti 'know' tidak menggunakan bentuk continuous, bahkan dengan 'since'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The verb 'know' describes a state of familiarity, not an ongoing action, so it must be in the present perfect, not present perfect continuous.",
+            "rules": [
+              {"title": "1. Stative Verbs", "explanation": "Verbs of cognition or relationship are not used in continuous forms.", "structure": "Subject + have/has + V3", "notes": ["Use 'has known' instead of 'has been knowing'."]}
+            ],
+            "common_mistakes": [{"wrong": "I have been having this car for years.", "correct": "I have had this car for years.", "reason": "'Have' (possession) is a stative verb."}]
+          }
+        },
+        "other_examples": [{"sentence": "I have understood the lesson since the teacher explained it.", "translation": "Saya telah memahami pelajaran tersebut sejak guru menjelaskannya.", "explanation": {"en": "'Understand' is a stative verb, so present perfect is used.", "id": "'Understand' adalah stative verb, sehingga present perfect digunakan."}}],
+        "references": [{"title": "Stative verbs", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/stative-verbs", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "While I ___ down the street, I ___ an old friend.",
+      "options": {
+        "A": "walked / was meeting",
+        "B": "was walking / met",
+        "C": "have walked / meet",
+        "D": "had walked / had met"
+      },
+      "correctAnswer": "B",
+      "explanation": "'While' introduces a longer background action in the past continuous ('was walking'), which is interrupted by a shorter, sudden action in the simple past ('met').",
+      "explanationDetails": {
+        "id": "TENSE-0024",
+        "slug": "past-continuous-interrupted-by-simple-past",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Continuous and Simple Past", "id": "Past Continuous dan Simple Past"},
+          "description": {"en": "Using past continuous for a background action and simple past for an interrupting action.", "id": "Menggunakan past continuous untuk aksi latar belakang dan simple past untuk aksi yang menyela."}
+        },
+        "wrong_correct": [{"wrong": "While I walked down the street, I was meeting an old friend.", "correct": "While I was walking down the street, I met an old friend.", "explanation": {"en": "The longer action takes continuous form; the interrupting action takes simple form.", "id": "Aksi yang lebih lama menggunakan bentuk continuous; aksi yang menyela menggunakan bentuk simple."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "This sentence structure contrasts a continuous background action with a sudden interrupting event.",
+            "rules": [
+              {"title": "1. Past Continuous for Background", "explanation": "Used for actions in progress at a specific time in the past.", "structure": "Subject + was/were + V-ing", "notes": ["Introduced by 'while'."]},
+              {"title": "2. Simple Past for Interruption", "explanation": "Used for the shorter action that interrupts the continuous one.", "structure": "Subject + V2", "notes": ["The meeting happened during the walk."]}
+            ],
+            "common_mistakes": [{"wrong": "While I was walking, I was meeting.", "correct": "While I was walking, I met.", "reason": "Two continuous actions imply simultaneity, not interruption."}]
+          }
+        },
+        "other_examples": [{"sentence": "While she was cooking, the phone rang.", "translation": "Saat dia sedang memasak, telepon berdering.", "explanation": {"en": "Classic interruption structure.", "id": "Struktur penyelaan klasik."}}],
+        "references": [{"title": "Past continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "They ___ for the bus for 30 minutes when it finally arrived.",
+      "options": {
+        "A": "waited",
+        "B": "have waited",
+        "C": "had been waiting",
+        "D": "were waiting"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect continuous ('had been waiting') is used to emphasize the duration of an action that was ongoing up until another past event ('arrived').",
+      "explanationDetails": {
+        "id": "TENSE-0025",
+        "slug": "past-perfect-continuous-duration",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect Continuous", "id": "Past Perfect Continuous"},
+          "description": {"en": "Past perfect continuous emphasizes the duration of an action leading up to a past point.", "id": "Past perfect continuous menekankan durasi aksi yang mengarah ke titik masa lalu."}
+        },
+        "wrong_correct": [{"wrong": "They waited for the bus for 30 minutes when it finally arrived.", "correct": "They had been waiting for the bus for 30 minutes when it finally arrived.", "explanation": {"en": "'For 30 minutes' before a past event requires past perfect continuous to emphasize duration.", "id": "'For 30 minutes' sebelum peristiwa masa lalu memerlukan past perfect continuous untuk menekankan durasi."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes an action that continued for a period of time before another past action occurred.",
+            "rules": [
+              {"title": "1. Past Perfect Continuous", "explanation": "Used to emphasize the duration of an action before another past action.", "structure": "Subject + had been + V-ing", "notes": ["'When it finally arrived' sets the past endpoint."]}
+            ],
+            "common_mistakes": [{"wrong": "They have been waiting for the bus for 30 minutes when it arrived.", "correct": "They had been waiting for the bus for 30 minutes when it arrived.", "reason": "Present perfect continuous cannot be used with a past time marker like 'arrived'."}]
+          }
+        },
+        "other_examples": [{"sentence": "She had been working for two hours when the power went out.", "translation": "Dia telah bekerja selama dua jam ketika listrik padam.", "explanation": {"en": "Duration of working up to a past event.", "id": "Durasi bekerja hingga peristiwa masa lalu."}}],
+        "references": [{"title": "Past perfect continuous", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 30,
+      "type": "passage_mcq",
+      "passage": "Dr. Sari works at the city hospital. She has been a pediatrician for fifteen years. Last night, while she was examining a young patient, an emergency case arrived. She had just finished her regular shift, but she stayed to assist the surgical team.",
+      "question": "What was Dr. Sari doing when the emergency case arrived?",
+      "options": {
+        "A": "She was examining a young patient.",
+        "B": "She had just finished her regular shift.",
+        "C": "She has been a pediatrician.",
+        "D": "She stayed to assist the surgical team."
+      },
+      "correctAnswer": "A",
+      "explanation": "The passage explicitly states, 'while she was examining a young patient, an emergency case arrived,' using the past continuous to describe the ongoing action at that moment.",
+      "explanationDetails": {
+        "id": "READ-0005",
+        "slug": "reading-comprehension-past-continuous-action",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Ongoing Past Actions", "id": "Mengidentifikasi Aksi Masa Lalu yang Sedang Berlangsung"},
+          "description": {"en": "Locating past continuous actions described in a narrative.", "id": "Menemukan aksi past continuous yang dijelaskan dalam narasi."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the action in progress at a specific past moment. The past continuous tense is the key indicator.",
+            "rules": [
+              {"title": "1. Identify Past Continuous Markers", "explanation": "Look for 'was/were + V-ing' in the passage to find the ongoing action.", "structure": "Scan for 'while' + past continuous.", "notes": ["This indicates the action happening at that exact moment."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing the action that happened after.", "correct": "Choosing the ongoing action.", "reason": "The question asks what she *was doing* when it arrived, not what she did afterward."}]
+          }
+        },
+        "other_examples": [{"sentence": "When the alarm rang, the students were taking a test.", "translation": "Ketika alarm berbunyi, para siswa sedang mengikuti ujian.", "explanation": {"en": "Identifies the ongoing action at the moment of interruption.", "id": "Mengidentifikasi aksi yang sedang berlangsung pada saat penyelaan."}}],
+        "references": [{"title": "Reading for detail", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "___ you ever ___ to Mount Bromo?",
+      "options": {
+        "A": "Did / go",
+        "B": "Have / been",
+        "C": "Do / go",
+        "D": "Had / gone"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Ever' is a common time marker for the present perfect tense, used to ask about life experiences up to the present moment.",
+      "explanationDetails": {
+        "id": "TENSE-0026",
+        "slug": "present-perfect-life-experience",
+        "topic": {
+          "name": {"en": "Present Tenses", "id": "Tenses Masa Kini"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect for Life Experiences", "id": "Present Perfect untuk Pengalaman Hidup"},
+          "description": {"en": "Present perfect is used to ask about or describe experiences at any time up to now.", "id": "Present perfect digunakan untuk menanyakan atau menggambarkan pengalaman kapan saja hingga sekarang."}
+        },
+        "wrong_correct": [{"wrong": "Did you ever go to Mount Bromo?", "correct": "Have you ever been to Mount Bromo?", "explanation": {"en": "'Ever' in questions about general life experience typically uses present perfect.", "id": "'Ever' dalam pertanyaan tentang pengalaman hidup umum biasanya menggunakan present perfect."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks about a general life experience without specifying a time in the past.",
+            "rules": [
+              {"title": "1. Present Perfect for Experiences", "explanation": "Used to talk about things you have done in your life up to now.", "structure": "Have/Has + subject + ever + V3", "notes": ["'Been' is used for visiting a place and returning."]}
+            ],
+            "common_mistakes": [{"wrong": "Have you ever went to Mount Bromo?", "correct": "Have you ever been to Mount Bromo?", "reason": "The past participle of 'go' is 'gone', but 'been' is used for visiting experiences."}]
+          }
+        },
+        "other_examples": [{"sentence": "Have you ever eaten rendang?", "translation": "Pernahkah kamu makan rendang?", "explanation": {"en": "Asking about a general life experience.", "id": "Menanyakan tentang pengalaman hidup umum."}}],
+        "references": [{"title": "Present perfect", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "The train ___ at 9 PM tonight, so we must hurry.",
+      "options": {
+        "A": "leaves",
+        "B": "is leaving",
+        "C": "will leave",
+        "D": "has left"
+      },
+      "correctAnswer": "A",
+      "explanation": "The simple present ('leaves') is used to talk about fixed schedules and timetables, even if the event is in the future.",
+      "explanationDetails": {
+        "id": "TENSE-0027",
+        "slug": "simple-present-future-schedule",
+        "topic": {
+          "name": {"en": "Present Tenses", "id": "Tenses Masa Kini"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Simple Present for Future Schedules", "id": "Simple Present untuk Jadwal Masa Depan"},
+          "description": {"en": "Simple present is used for fixed timetables and schedules.", "id": "Simple present digunakan untuk jadwal dan jadwal waktu yang tetap."}
+        },
+        "wrong_correct": [{"wrong": "The train will leave at 9 PM tonight.", "correct": "The train leaves at 9 PM tonight.", "explanation": {"en": "For public transport schedules, simple present is preferred over future simple.", "id": "Untuk jadwal transportasi umum, simple present lebih disukai daripada future simple."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence refers to a fixed timetable event, which uses the simple present tense.",
+            "rules": [
+              {"title": "1. Simple Present for Schedules", "explanation": "Used for events that are part of a fixed schedule or timetable.", "structure": "Subject + V1/Vs", "notes": ["Common for trains, flights, classes, and movies."]}
+            ],
+            "common_mistakes": [{"wrong": "The train is leaving at 9 PM tonight.", "correct": "The train leaves at 9 PM tonight.", "reason": "Present continuous is for personal arrangements, not fixed public schedules."}]
+          }
+        },
+        "other_examples": [{"sentence": "The movie starts at 8 PM.", "translation": "Film dimulai pukul 8 malam.", "explanation": {"en": "Fixed schedule uses simple present.", "id": "Jadwal tetap menggunakan simple present."}}],
+        "references": [{"title": "Present simple for future", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple-for-future", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 33,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The cadets was marching in perfect synchronization when the commander stopped them.",
+      "tokens": ["The cadets", "was marching", "in perfect synchronization", "when the commander stopped them."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["were marching"],
+      "explanation": "The plural subject 'The cadets' requires the plural past continuous auxiliary 'were', not 'was'.",
+      "explanationDetails": {
+        "id": "TENSE-0028",
+        "slug": "past-continuous-subject-verb-agreement",
+        "topic": {
+          "name": {"en": "Verb Tenses", "id": "Tenses Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Subject-Verb Agreement in Past Continuous", "id": "Kesesuaian Subjek-Kata Kerja dalam Past Continuous"},
+          "description": {"en": "Ensuring the auxiliary verb matches the plural or singular subject.", "id": "Memastikan kata bantu sesuai dengan subjek jamak atau tunggal."}
+        },
+        "wrong_correct": [{"wrong": "The cadets was marching.", "correct": "The cadets were marching.", "explanation": {"en": "Plural subjects take 'were', not 'was'.", "id": "Subjek jamak menggunakan 'were', bukan 'was'."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The subject 'The cadets' is plural, so the auxiliary verb must be 'were'.",
+            "rules": [
+              {"title": "1. Subject-Verb Agreement", "explanation": "Plural subjects require plural verbs.", "structure": "They/We/You/Plural Noun + were + V-ing", "notes": ["'Was' is only for first and third-person singular (I, he, she, it)."]}
+            ],
+            "common_mistakes": [{"wrong": "The students was studying.", "correct": "The students were studying.", "reason": "Plural noun requires plural auxiliary."}]
+          }
+        },
+        "other_examples": [{"sentence": "The birds were singing in the morning.", "translation": "Burung-burung sedang bernyanyi di pagi hari.", "explanation": {"en": "Plural subject 'birds' takes 'were'.", "id": "Subjek jamak 'birds' menggunakan 'were'."}}],
+        "references": [{"title": "Subject-verb agreement", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/subject-verb-agreement", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "I ___ my homework before my friends came over.",
+      "options": {
+        "A": "finished",
+        "B": "have finished",
+        "C": "had finished",
+        "D": "was finishing"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect ('had finished') is used to show that the action was completed before another past action ('came over').",
+      "explanationDetails": {
+        "id": "TENSE-0029",
+        "slug": "past-perfect-before-another-past-action",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect Sequence", "id": "Urutan Past Perfect"},
+          "description": {"en": "Past perfect shows which of two past actions happened first.", "id": "Past perfect menunjukkan mana dari dua aksi masa lalu yang terjadi lebih dulu."}
+        },
+        "wrong_correct": [{"wrong": "I finished my homework before my friends came over.", "correct": "I had finished my homework before my friends came over.", "explanation": {"en": "While 'finished' is sometimes used informally, 'had finished' is grammatically precise to show the sequence.", "id": "Meskipun 'finished' terkadang digunakan secara informal, 'had finished' secara tata bahasa lebih tepat untuk menunjukkan urutan."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes two past events. The one that happened first takes the past perfect.",
+            "rules": [
+              {"title": "1. Past Perfect Tense", "explanation": "Used for the earlier of two past actions.", "structure": "Subject + had + V3", "notes": ["'Before' clearly establishes the sequence."]}
+            ],
+            "common_mistakes": [{"wrong": "I had finished my homework before my friends had come over.", "correct": "I had finished my homework before my friends came over.", "reason": "The later action takes the simple past, not the past perfect."}]
+          }
+        },
+        "other_examples": [{"sentence": "She had eaten dinner before the movie started.", "translation": "Dia telah makan malam sebelum film dimulai.", "explanation": {"en": "Eating happened before the movie started.", "id": "Makan terjadi sebelum film dimulai."}}],
+        "references": [{"title": "Past perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Next week, I ___ at this company for exactly ten years.",
+      "options": {
+        "A": "will work",
+        "B": "will have been working",
+        "C": "am working",
+        "D": "have worked"
+      },
+      "correctAnswer": "B",
+      "explanation": "The future perfect continuous ('will have been working') is used to emphasize the duration of an action up to a specific point in the future ('Next week').",
+      "explanationDetails": {
+        "id": "TENSE-0030",
+        "slug": "future-perfect-continuous-duration",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect Continuous", "id": "Future Perfect Continuous"},
+          "description": {"en": "Future perfect continuous emphasizes the duration of an action leading up to a future point.", "id": "Future perfect continuous menekankan durasi aksi yang mengarah ke titik masa depan."}
+        },
+        "wrong_correct": [{"wrong": "Next week, I will work at this company for exactly ten years.", "correct": "Next week, I will have been working at this company for exactly ten years.", "explanation": {"en": "'For exactly ten years' at a future point requires future perfect continuous.", "id": "'For exactly ten years' pada titik masa depan memerlukan future perfect continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes an action that will have continued for a specific duration up to a future moment.",
+            "rules": [
+              {"title": "1. Future Perfect Continuous", "explanation": "Used to emphasize the duration of an action up to a future point.", "structure": "Subject + will have been + V-ing", "notes": ["Often used with 'for' + duration and a future time marker."]}
+            ],
+            "common_mistakes": [{"wrong": "Next week, I will be working at this company for ten years.", "correct": "Next week, I will have been working at this company for ten years.", "reason": "Future continuous does not convey the completion of a duration up to a future point."}]
+          }
+        },
+        "other_examples": [{"sentence": "By next month, she will have been teaching for five years.", "translation": "Menjelang bulan depan, dia akan telah mengajar selama lima tahun.", "explanation": {"en": "Duration of teaching up to a future point.", "id": "Durasi mengajar hingga titik masa depan."}}],
+        "references": [{"title": "Future perfect continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/future-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "He usually ___ coffee, but today he ___ tea.",
+      "options": {
+        "A": "drinks / is drinking",
+        "B": "is drinking / drinks",
+        "C": "drank / has drunk",
+        "D": "has drunk / is drinking"
+      },
+      "correctAnswer": "A",
+      "explanation": "'Usually' indicates a regular habit (simple present: 'drinks'). 'Today' indicates a temporary deviation from the habit (present continuous: 'is drinking').",
+      "explanationDetails": {
+        "id": "TENSE-0031",
+        "slug": "simple-present-habit-present-continuous-today",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Habits vs. Temporary Situations", "id": "Kebiasaan vs. Situasi Sementara"},
+          "description": {"en": "Contrasting regular habits with temporary current actions.", "id": "Mempertentangkan kebiasaan teratur dengan aksi sementara saat ini."}
+        },
+        "wrong_correct": [{"wrong": "He usually is drinking coffee, but today he drinks tea.", "correct": "He usually drinks coffee, but today he is drinking tea.", "explanation": {"en": "'Usually' takes simple present. 'Today' (temporary) takes present continuous.", "id": "'Usually' menggunakan simple present. 'Today' (sementara) menggunakan present continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence contrasts a long-term habit with a short-term exception.",
+            "rules": [
+              {"title": "1. Simple Present for Habits", "explanation": "Used for regular, repeated actions.", "structure": "Subject + V1/Vs", "notes": ["Signal: 'usually'."]},
+              {"title": "2. Present Continuous for Temporary Situations", "explanation": "Used for actions happening around now, but not permanently.", "structure": "Subject + am/is/are + V-ing", "notes": ["Signal: 'today', 'currently'."]}
+            ],
+            "common_mistakes": [{"wrong": "He usually drinks coffee, but today he drinks tea.", "correct": "He usually drinks coffee, but today he is drinking tea.", "reason": "Using simple present for 'today' loses the nuance that it is a temporary change."}]
+          }
+        },
+        "other_examples": [{"sentence": "I normally walk to work, but today I am driving.", "translation": "Saya biasanya berjalan kaki ke tempat kerja, tetapi hari ini saya mengemudi.", "explanation": {"en": "Habit vs. temporary action.", "id": "Kebiasaan vs. aksi sementara."}}],
+        "references": [{"title": "Present simple and present continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple-and-present-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 37,
+      "type": "passage_mcq",
+      "passage": "The Amazon rainforest produces twenty percent of the world's oxygen. However, deforestation has increased dramatically over the past decade. If this trend continues, scientists warn that the region will have lost half of its original cover by 2050.",
+      "question": "What do scientists warn will happen by 2050 if the trend continues?",
+      "options": {
+        "A": "The region produces twenty percent of oxygen.",
+        "B": "Deforestation has increased dramatically.",
+        "C": "The region will have lost half of its original cover.",
+        "D": "The trend continues."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'scientists warn that the region will have lost half of its original cover by 2050.'",
+      "explanationDetails": {
+        "id": "READ-0006",
+        "slug": "reading-comprehension-future-perfect-prediction",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Future Predictions", "id": "Mengidentifikasi Prediksi Masa Depan"},
+          "description": {"en": "Locating future perfect predictions described in a text.", "id": "Menemukan prediksi future perfect yang dijelaskan dalam teks."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for a future prediction based on the passage. The text directly states the future perfect outcome.",
+            "rules": [
+              {"title": "1. Locate the Future Time Marker", "explanation": "Find 'by 2050' in the passage.", "structure": "Scan for 'by' + future year.", "notes": ["Match the tense in the question to the tense in the passage."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing a present fact.", "correct": "Choosing the future prediction.", "reason": "The question specifically asks what *will have happened* by 2050."}]
+          }
+        },
+        "other_examples": [{"sentence": "By 2030, the city will have reduced emissions by half.", "translation": "Menjelang 2030, kota tersebut akan telah mengurangi emisi hingga setengahnya.", "explanation": {"en": "Identifies a completed future action.", "id": "Mengidentifikasi aksi masa depan yang telah selesai."}}],
+        "references": [{"title": "Reading for specific information", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 38,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "She didn't went to the academy yesterday because she was sick.",
+      "tokens": ["She", "didn't went", "to the academy yesterday", "because she was sick."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["didn't go", "did not go"],
+      "explanation": "In the simple past negative, the auxiliary 'did' (or 'didn't') is followed by the base form of the verb, not the past tense form.",
+      "explanationDetails": {
+        "id": "TENSE-0032",
+        "slug": "simple-past-negative-base-verb",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Grammar",
+          "subtopic": {"en": "Simple Past Negative Form", "id": "Bentuk Negatif Simple Past"},
+          "description": {"en": "Simple past negative uses 'did not' + base verb.", "id": "Simple past negatif menggunakan 'did not' + kata kerja dasar."}
+        },
+        "wrong_correct": [{"wrong": "She didn't went to the academy.", "correct": "She didn't go to the academy.", "explanation": {"en": "After 'didn't', the main verb must be in its base form.", "id": "Setelah 'didn't', kata kerja utama harus dalam bentuk dasar."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence is a negative statement in the simple past. The auxiliary 'did' already carries the past tense marker, so the main verb must be in its base form.",
+            "rules": [
+              {"title": "1. Simple Past Negative", "explanation": "Formed with 'did not' (didn't) + base verb.", "structure": "Subject + didn't + V1", "notes": ["Do not add -ed or use the irregular past form after 'didn't'."]}
+            ],
+            "common_mistakes": [{"wrong": "He didn't ate breakfast.", "correct": "He didn't eat breakfast.", "reason": "The past tense is already shown by 'didn't', so 'eat' remains in the base form."}]
+          }
+        },
+        "other_examples": [{"sentence": "They didn't see the movie.", "translation": "Mereka tidak menonton film tersebut.", "explanation": {"en": "'See' is the base form, not 'saw'.", "id": "'See' adalah bentuk dasar, bukan 'saw'."}}],
+        "references": [{"title": "Past simple negative", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-simple-negative", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "By the time you read this letter, I ___ the country.",
+      "options": {
+        "A": "will leave",
+        "B": "will have left",
+        "C": "leave",
+        "D": "am leaving"
+      },
+      "correctAnswer": "B",
+      "explanation": "'By the time' followed by a present tense verb ('read') referring to the future requires the future perfect tense ('will have left') in the main clause.",
+      "explanationDetails": {
+        "id": "TENSE-0033",
+        "slug": "future-perfect-by-the-time-letter",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect with Time Clauses", "id": "Future Perfect dengan Klausa Waktu"},
+          "description": {"en": "Using future perfect to show completion before a future time clause.", "id": "Menggunakan future perfect untuk menunjukkan penyelesaian sebelum klausa waktu masa depan."}
+        },
+        "wrong_correct": [{"wrong": "By the time you read this letter, I will leave the country.", "correct": "By the time you read this letter, I will have left the country.", "explanation": {"en": "'By the time' emphasizes completion *before* that moment, requiring future perfect.", "id": "'By the time' menekankan penyelesaian *sebelum* momen tersebut, memerlukan future perfect."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence sets a future moment (reading the letter) and states that the action will be finished before that point.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used for actions that will be finished before a specific future time.", "structure": "Subject + will have + V3", "notes": ["The time clause uses simple present ('read') to refer to the future."]}
+            ],
+            "common_mistakes": [{"wrong": "By the time you will read this letter, I will have left.", "correct": "By the time you read this letter, I will have left.", "reason": "Do not use 'will' in the time clause."}]
+          }
+        },
+        "other_examples": [{"sentence": "By the time you arrive, we will have eaten dinner.", "translation": "Pada saat kamu tiba, kami akan telah makan malam.", "explanation": {"en": "Completion before a future arrival.", "id": "Penyelesaian sebelum kedatangan masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "The water ___ when I touched the pot.",
+      "options": {
+        "A": "boiled",
+        "B": "was boiling",
+        "C": "has boiled",
+        "D": "had boiled"
+      },
+      "correctAnswer": "B",
+      "explanation": "The past continuous ('was boiling') is used to describe an action that was in progress at a specific moment in the past ('when I touched the pot').",
+      "explanationDetails": {
+        "id": "TENSE-0034",
+        "slug": "past-continuous-specific-past-moment-pot",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Continuous for Actions in Progress", "id": "Past Continuous untuk Aksi yang Sedang Berlangsung"},
+          "description": {"en": "Past continuous describes an action ongoing at a specific past time.", "id": "Past continuous menggambarkan aksi yang sedang berlangsung pada waktu masa lalu tertentu."}
+        },
+        "wrong_correct": [{"wrong": "The water boiled when I touched the pot.", "correct": "The water was boiling when I touched the pot.", "explanation": {"en": "Simple past implies the boiling started after touching, while past continuous shows it was already happening.", "id": "Simple past menyiratkan mendidih mulai setelah menyentuh, sementara past continuous menunjukkan itu sudah terjadi."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes an action that was already happening when another past action occurred.",
+            "rules": [
+              {"title": "1. Past Continuous", "explanation": "Used for actions in progress at a specific past moment.", "structure": "Subject + was/were + V-ing", "notes": ["The touch occurred during the boiling."]}
+            ],
+            "common_mistakes": [{"wrong": "When I touched the pot, the water boiled.", "correct": "When I touched the pot, the water was boiling.", "reason": "This changes the meaning to suggest the touch caused the boiling."}]
+          }
+        },
+        "other_examples": [{"sentence": "The phone rang while I was sleeping.", "translation": "Telepon berdering saat saya sedang tidur.", "explanation": {"en": "Sleeping was in progress when the phone rang.", "id": "Tidur sedang berlangsung ketika telepon berdering."}}],
+        "references": [{"title": "Past continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "We ___ each other since we were in elementary school.",
+      "options": {
+        "A": "know",
+        "B": "knew",
+        "C": "have known",
+        "D": "had known"
+      },
+      "correctAnswer": "C",
+      "explanation": "The present perfect ('have known') is used with 'since' to describe a state that started in the past and continues to the present. 'Know' is a stative verb, so it does not take the continuous form.",
+      "explanationDetails": {
+        "id": "TENSE-0035",
+        "slug": "present-perfect-stative-since",
+        "topic": {
+          "name": {"en": "Present Tenses", "id": "Tenses Masa Kini"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect with Stative Verbs", "id": "Present Perfect dengan Stative Verbs"},
+          "description": {"en": "Present perfect is used with stative verbs to show a state continuing from the past to now.", "id": "Present perfect digunakan dengan stative verbs untuk menunjukkan keadaan yang berlanjut dari masa lalu hingga sekarang."}
+        },
+        "wrong_correct": [{"wrong": "We have been knowing each other since elementary school.", "correct": "We have known each other since elementary school.", "explanation": {"en": "'Know' is a stative verb and cannot be used in the continuous form.", "id": "'Know' adalah stative verb dan tidak dapat digunakan dalam bentuk continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes a relationship that started in the past and continues to the present.",
+            "rules": [
+              {"title": "1. Present Perfect with 'Since'", "explanation": "Used for states or actions starting in the past and continuing to now.", "structure": "Subject + have/has + V3", "notes": ["Stative verbs like 'know' do not use the continuous form."]}
+            ],
+            "common_mistakes": [{"wrong": "We know each other since elementary school.", "correct": "We have known each other since elementary school.", "reason": "Simple present cannot be used with 'since' to show duration from the past to now."}]
+          }
+        },
+        "other_examples": [{"sentence": "I have had this car for five years.", "translation": "Saya telah memiliki mobil ini selama lima tahun.", "explanation": {"en": "'Have' (possession) is a stative verb, so present perfect is used.", "id": "'Have' (kepemilikan) adalah stative verb, sehingga present perfect digunakan."}}],
+        "references": [{"title": "Present perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 42,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "I am having a car, so I can drive to the campus.",
+      "tokens": ["I", "am having", "a car,", "so I can drive to the campus."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["have"],
+      "explanation": "'Have' indicating possession is a stative verb and is not used in the continuous form. It should be in the simple present tense.",
+      "explanationDetails": {
+        "id": "TENSE-0036",
+        "slug": "stative-verbs-possession-simple-present",
+        "topic": {
+          "name": {"en": "Verb Forms", "id": "Bentuk Kata Kerja"},
+          "category": "Grammar",
+          "subtopic": {"en": "Stative Verbs of Possession", "id": "Stative Verbs Kepemilikan"},
+          "description": {"en": "Verbs indicating possession are stative and use simple tenses.", "id": "Kata kerja yang menunjukkan kepemilikan adalah stative dan menggunakan tenses simple."}
+        },
+        "wrong_correct": [{"wrong": "I am having a car.", "correct": "I have a car.", "explanation": {"en": "'Have' for possession is a stative verb and does not take the continuous form.", "id": "'Have' untuk kepemilikan adalah stative verb dan tidak menggunakan bentuk continuous."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The verb 'have' when meaning 'to possess' is a stative verb and cannot be used in the continuous form.",
+            "rules": [
+              {"title": "1. Stative Verbs of Possession", "explanation": "Verbs like 'have', 'own', and 'possess' describe a state, not an action.", "structure": "Subject + V1/Vs", "notes": ["Use 'have' instead of 'am having'."]}
+            ],
+            "common_mistakes": [{"wrong": "She is having a new phone.", "correct": "She has a new phone.", "reason": "'Have' for possession is always simple present."}]
+          }
+        },
+        "other_examples": [{"sentence": "He owns a large house.", "translation": "Dia memiliki rumah yang besar.", "explanation": {"en": "'Own' is a stative verb of possession.", "id": "'Own' adalah stative verb kepemilikan."}}],
+        "references": [{"title": "Stative verbs", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/stative-verbs", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "The soldiers ___ their positions before the enemy attacked.",
+      "options": {
+        "A": "secure",
+        "B": "secured",
+        "C": "had secured",
+        "D": "have secured"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect ('had secured') is used to show that the action was completed before another past action ('attacked').",
+      "explanationDetails": {
+        "id": "TENSE-0037",
+        "slug": "past-perfect-before-attack",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Perfect for Earlier Actions", "id": "Past Perfect untuk Aksi yang Lebih Awal"},
+          "description": {"en": "Past perfect clarifies the sequence of two past events.", "id": "Past perfect memperjelas urutan dari dua peristiwa masa lalu."}
+        },
+        "wrong_correct": [{"wrong": "The soldiers secured their positions before the enemy had attacked.", "correct": "The soldiers had secured their positions before the enemy attacked.", "explanation": {"en": "The earlier action (securing) takes the past perfect, not the later one.", "id": "Aksi yang lebih awal (mengamankan) menggunakan past perfect, bukan yang lebih akhir."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes two past events. The one that happened first takes the past perfect.",
+            "rules": [
+              {"title": "1. Past Perfect Tense", "explanation": "Used for the earlier of two past actions.", "structure": "Subject + had + V3", "notes": ["'Before' clearly establishes the sequence."]}
+            ],
+            "common_mistakes": [{"wrong": "The soldiers have secured their positions before the enemy attacked.", "correct": "The soldiers had secured their positions before the enemy attacked.", "reason": "Present perfect cannot be used with a specific past time reference like 'before the enemy attacked'."}]
+          }
+        },
+        "other_examples": [{"sentence": "The team had scored two goals before the halftime whistle blew.", "translation": "Tim tersebut telah mencetak dua gol sebelum peluit babak pertama berbunyi.", "explanation": {"en": "Scoring happened before the whistle.", "id": "Mencetak gol terjadi sebelum peluit."}}],
+        "references": [{"title": "Past perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "What ___ you ___ at 8 PM last night?",
+      "options": {
+        "A": "did / do",
+        "B": "were / doing",
+        "C": "have / done",
+        "D": "had / done"
+      },
+      "correctAnswer": "B",
+      "explanation": "'At 8 PM last night' refers to a specific moment in the past, requiring the past continuous tense ('were doing') to ask about an action that was in progress at that time.",
+      "explanationDetails": {
+        "id": "TENSE-0038",
+        "slug": "past-continuous-question-specific-time",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Past Continuous Questions", "id": "Pertanyaan Past Continuous"},
+          "description": {"en": "Past continuous questions ask about actions in progress at a specific past time.", "id": "Pertanyaan past continuous menanyakan tentang aksi yang sedang berlangsung pada waktu masa lalu tertentu."}
+        },
+        "wrong_correct": [{"wrong": "What did you do at 8 PM last night?", "correct": "What were you doing at 8 PM last night?", "explanation": {"en": "'At 8 PM' asks about the action in progress, not a completed action.", "id": "'At 8 PM' menanyakan tentang aksi yang sedang berlangsung, bukan aksi yang telah selesai."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the action that was ongoing at a precise past moment.",
+            "rules": [
+              {"title": "1. Past Continuous Questions", "explanation": "Used to ask about actions in progress at a specific past time.", "structure": "What + was/were + subject + V-ing", "notes": ["Signal phrases: 'at 8 PM last night', 'at that moment'."]}
+            ],
+            "common_mistakes": [{"wrong": "What did you doing at 8 PM?", "correct": "What were you doing at 8 PM?", "reason": "Past continuous requires 'was/were' + V-ing, not 'did'."}]
+          }
+        },
+        "other_examples": [{"sentence": "Where were you going when I saw you?", "translation": "Ke mana kamu pergi ketika saya melihatmu?", "explanation": {"en": "Asking about the ongoing action at the moment of seeing.", "id": "Menanyakan tentang aksi yang sedang berlangsung pada saat melihat."}}],
+        "references": [{"title": "Past continuous questions", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous-questions", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 45,
+      "type": "passage_mcq",
+      "passage": "Dedi graduated from high school last year. He has been applying to various state universities. Currently, he is waiting for the announcement of his SNBT results. He hopes that he will have received good news by the end of this month.",
+      "question": "What is Dedi currently doing?",
+      "options": {
+        "A": "He graduated from high school.",
+        "B": "He has been applying to various state universities.",
+        "C": "He is waiting for the announcement of his SNBT results.",
+        "D": "He will have received good news."
+      },
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly states, 'Currently, he is waiting for the announcement of his SNBT results,' using the present continuous to describe his current action.",
+      "explanationDetails": {
+        "id": "READ-0007",
+        "slug": "reading-comprehension-present-continuous-current",
+        "topic": {
+          "name": {"en": "Reading Comprehension", "id": "Pemahaman Bacaan"},
+          "category": "Reading Skills",
+          "subtopic": {"en": "Identifying Current Actions", "id": "Mengidentifikasi Aksi Saat Ini"},
+          "description": {"en": "Locating present continuous actions described in a text.", "id": "Menemukan aksi present continuous yang dijelaskan dalam teks."}
+        },
+        "wrong_correct": [],
+        "details_explanation": {
+          "en": {
+            "introduction": "The question asks for the current action, which is indicated by the word 'Currently' and the present continuous tense in the passage.",
+            "rules": [
+              {"title": "1. Scan for Time Markers", "explanation": "Look for words like 'currently', 'now', or 'at present'.", "structure": "Match the question's time frame to the passage.", "notes": ["'Currently' directly points to the present continuous action."]}
+            ],
+            "common_mistakes": [{"wrong": "Choosing a past event.", "correct": "Choosing the current action.", "reason": "The question asks what he is *currently* doing, not what he did last year."}]
+          }
+        },
+        "other_examples": [{"sentence": "Currently, the student is reviewing his notes.", "translation": "Saat ini, siswa tersebut sedang meninjau catatannya.", "explanation": {"en": "Identifies the present ongoing action.", "id": "Mengidentifikasi aksi yang sedang berlangsung saat ini."}}],
+        "references": [{"title": "Reading for specific information", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading", "type": "reading_reference"}]
+      }
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "She ___ the report by the time the manager arrives.",
+      "options": {
+        "A": "finishes",
+        "B": "will finish",
+        "C": "will have finished",
+        "D": "is finishing"
+      },
+      "correctAnswer": "C",
+      "explanation": "'By the time' followed by a present tense verb ('arrives') referring to the future requires the future perfect tense ('will have finished') in the main clause.",
+      "explanationDetails": {
+        "id": "TENSE-0039",
+        "slug": "future-perfect-by-the-time-manager",
+        "topic": {
+          "name": {"en": "Future Tenses", "id": "Tenses Masa Depan"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Future Perfect with Time Clauses", "id": "Future Perfect dengan Klausa Waktu"},
+          "description": {"en": "Using future perfect to show completion before a future time clause.", "id": "Menggunakan future perfect untuk menunjukkan penyelesaian sebelum klausa waktu masa depan."}
+        },
+        "wrong_correct": [{"wrong": "She will finish the report by the time the manager arrives.", "correct": "She will have finished the report by the time the manager arrives.", "explanation": {"en": "'By the time' emphasizes completion *before* that moment, requiring future perfect.", "id": "'By the time' menekankan penyelesaian *sebelum* momen tersebut, memerlukan future perfect."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence sets a future moment (manager's arrival) and states that the action will be finished before that point.",
+            "rules": [
+              {"title": "1. Future Perfect Tense", "explanation": "Used for actions that will be finished before a specific future time.", "structure": "Subject + will have + V3", "notes": ["The time clause uses simple present ('arrives') to refer to the future."]}
+            ],
+            "common_mistakes": [{"wrong": "She will have finished the report by the time the manager will arrive.", "correct": "She will have finished the report by the time the manager arrives.", "reason": "Do not use 'will' in the time clause."}]
+          }
+        },
+        "other_examples": [{"sentence": "He will have cooked dinner by the time we get home.", "translation": "Dia akan telah memasak makan malam pada saat kita pulang ke rumah.", "explanation": {"en": "Completion before a future arrival.", "id": "Penyelesaian sebelum kedatangan masa depan."}}],
+        "references": [{"title": "Future perfect", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-perfect", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "I ___ tired because I ___ all day.",
+      "options": {
+        "A": "am / have been working",
+        "B": "was / worked",
+        "C": "have been / worked",
+        "D": "will be / will work"
+      },
+      "correctAnswer": "A",
+      "explanation": "The present simple ('am') describes the current state, and the present perfect continuous ('have been working') explains the ongoing action that led to this current state.",
+      "explanationDetails": {
+        "id": "TENSE-0040",
+        "slug": "present-simple-present-perfect-continuous-cause",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present State and Present Perfect Continuous Cause", "id": "Keadaan Saat Ini dan Penyebab Present Perfect Continuous"},
+          "description": {"en": "Using present perfect continuous to explain a current present state.", "id": "Menggunakan present perfect continuous untuk menjelaskan keadaan present saat ini."}
+        },
+        "wrong_correct": [{"wrong": "I am tired because I worked all day.", "correct": "I am tired because I have been working all day.", "explanation": {"en": "Present perfect continuous emphasizes the duration and ongoing nature of the action causing the present state.", "id": "Present perfect continuous menekankan durasi dan sifat berkelanjutan dari aksi yang menyebabkan keadaan saat ini."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence links a current feeling to an action that has been ongoing up to the present.",
+            "rules": [
+              {"title": "1. Present Simple for Current State", "explanation": "Used to describe how someone feels right now.", "structure": "Subject + am/is/are + adjective", "notes": ["'I am tired' is the current result."]},
+              {"title": "2. Present Perfect Continuous for Cause", "explanation": "Used to explain the ongoing action that led to the current state.", "structure": "Subject + have/has + been + V-ing", "notes": ["'All day' indicates the duration up to now."]}
+            ],
+            "common_mistakes": [{"wrong": "I am tired because I am working all day.", "correct": "I am tired because I have been working all day.", "reason": "Present continuous cannot be used with 'all day' to show duration up to the present."}]
+          }
+        },
+        "other_examples": [{"sentence": "Her eyes are red because she has been crying.", "translation": "Matanya merah karena dia telah menangis.", "explanation": {"en": "Current state explained by present perfect continuous action.", "id": "Keadaan saat ini dijelaskan oleh aksi present perfect continuous."}}],
+        "references": [{"title": "Present perfect continuous", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect-continuous", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 48,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The earth is revolving around the sun.",
+      "tokens": ["The earth", "is revolving", "around the sun."],
+      "incorrectIndex": 1,
+      "correctAnswers": ["revolves"],
+      "explanation": "The sentence states a permanent scientific fact, which requires the simple present tense, not the present continuous.",
+      "explanationDetails": {
+        "id": "TENSE-0041",
+        "slug": "simple-present-scientific-fact",
+        "topic": {
+          "name": {"en": "Present Tenses", "id": "Tenses Masa Kini"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Simple Present for Scientific Facts", "id": "Simple Present untuk Fakta Ilmiah"},
+          "description": {"en": "Simple present is used for permanent truths and scientific facts.", "id": "Simple present digunakan untuk kebenaran permanen dan fakta ilmiah."}
+        },
+        "wrong_correct": [{"wrong": "The earth is revolving around the sun.", "correct": "The earth revolves around the sun.", "explanation": {"en": "Scientific facts are permanent and require the simple present tense.", "id": "Fakta ilmiah bersifat permanen dan memerlukan tenses simple present."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence describes a universal, unchanging truth, which must be expressed in the simple present tense.",
+            "rules": [
+              {"title": "1. Simple Present for Facts", "explanation": "Used for scientific facts, general truths, and permanent situations.", "structure": "Subject + V1/Vs", "notes": ["Do not use continuous tenses for permanent facts."]}
+            ],
+            "common_mistakes": [{"wrong": "Water is boiling at 100 degrees Celsius.", "correct": "Water boils at 100 degrees Celsius.", "reason": "Scientific facts are always simple present."}]
+          }
+        },
+        "other_examples": [{"sentence": "The moon orbits the earth.", "translation": "Bulan mengorbit bumi.", "explanation": {"en": "Permanent astronomical fact uses simple present.", "id": "Fakta astronomi permanen menggunakan simple present."}}],
+        "references": [{"title": "Present simple", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "He ___ his leg while he ___ football.",
+      "options": {
+        "A": "broke / was playing",
+        "B": "was breaking / played",
+        "C": "has broken / is playing",
+        "D": "had broken / played"
+      },
+      "correctAnswer": "A",
+      "explanation": "The simple past ('broke') is used for the sudden, completed action, while the past continuous ('was playing') describes the longer background action that was in progress.",
+      "explanationDetails": {
+        "id": "TENSE-0042",
+        "slug": "simple-past-interrupting-past-continuous",
+        "topic": {
+          "name": {"en": "Past Tenses", "id": "Tenses Masa Lalu"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Simple Past Interrupting Past Continuous", "id": "Simple Past Menyela Past Continuous"},
+          "description": {"en": "Simple past is used for the shorter action that interrupts a longer past continuous action.", "id": "Simple past digunakan untuk aksi yang lebih pendek yang menyela aksi past continuous yang lebih lama."}
+        },
+        "wrong_correct": [{"wrong": "He was breaking his leg while he played football.", "correct": "He broke his leg while he was playing football.", "explanation": {"en": "The injury is a sudden event (simple past), and the game is the background activity (past continuous).", "id": "Cedera adalah peristiwa tiba-tiba (simple past), dan permainan adalah aktivitas latar belakang (past continuous)."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The sentence contrasts a sudden, completed past event with an ongoing background activity.",
+            "rules": [
+              {"title": "1. Simple Past for Sudden Events", "explanation": "Used for short, completed actions.", "structure": "Subject + V2", "notes": ["'Broke' is the sudden event."]},
+              {"title": "2. Past Continuous for Background", "explanation": "Used for the longer action in progress.", "structure": "Subject + was/were + V-ing", "notes": ["'While he was playing' sets the scene."]}
+            ],
+            "common_mistakes": [{"wrong": "He broke his leg while he played football.", "correct": "He broke his leg while he was playing football.", "reason": "Using simple past for both actions loses the sense that the injury happened *during* the game."}]
+          }
+        },
+        "other_examples": [{"sentence": "She cut her finger while she was chopping vegetables.", "translation": "Dia memotong jarinya saat dia sedang memotong sayuran.", "explanation": {"en": "Sudden injury during an ongoing activity.", "id": "Cedera tiba-tiba selama aktivitas yang sedang berlangsung."}}],
+        "references": [{"title": "Past continuous and past simple", "author": "British Council", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous-and-past-simple", "type": "grammar_reference"}]
+      }
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "They ___ the new software yet, but they ___ it tomorrow.",
+      "options": {
+        "A": "didn't install / test",
+        "B": "haven't installed / will test",
+        "C": "hadn't installed / are testing",
+        "D": "don't install / will test"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Yet' in a negative sentence requires the present perfect ('haven't installed'). 'Tomorrow' indicates a future action, requiring the future simple ('will test').",
+      "explanationDetails": {
+        "id": "TENSE-0043",
+        "slug": "present-perfect-negative-yet-future-simple",
+        "topic": {
+          "name": {"en": "Mixed Tenses", "id": "Campuran Tenses"},
+          "category": "Verb Tenses",
+          "subtopic": {"en": "Present Perfect Negative and Future Simple", "id": "Present Perfect Negatif dan Future Simple"},
+          "description": {"en": "Combining a negative present perfect experience with a future plan.", "id": "Menggabungkan pengalaman present perfect negatif dengan rencana masa depan."}
+        },
+        "wrong_correct": [{"wrong": "They didn't install the new software yet, but they will test it tomorrow.", "correct": "They haven't installed the new software yet, but they will test it tomorrow.", "explanation": {"en": "'Yet' is used with the present perfect, not the simple past.", "id": "'Yet' digunakan dengan present perfect, bukan simple past."}}],
+        "details_explanation": {
+          "en": {
+            "introduction": "The first clause describes an action not completed up to the present. The second clause describes a future intention.",
+            "rules": [
+              {"title": "1. Present Perfect Negative with 'Yet'", "explanation": "Used for actions expected to happen but not completed up to now.", "structure": "Subject + have/has + not + V3 + yet", "notes": ["'Yet' is a strong marker for present perfect."]},
+              {"title": "2. Future Simple for Plans", "explanation": "Used for future actions or decisions.", "structure": "Subject + will + base verb", "notes": ["'Tomorrow' indicates the future time."]}
+            ],
+            "common_mistakes": [{"wrong": "They haven't installed the new software yet, but they test it tomorrow.", "correct": "They haven't installed the new software yet, but they will test it tomorrow.", "reason": "Future time markers like 'tomorrow' require a future tense, not simple present."}]
+          }
+        },
+        "other_examples": [{"sentence": "I haven't finished my homework yet, but I will do it tonight.", "translation": "Saya belum menyelesaikan pekerjaan rumah saya, tetapi saya akan mengerjakannya malam ini.", "explanation": {"en": "Present perfect negative + future simple.", "id": "Present perfect negatif + future simple."}}],
+        "references": [{"title": "Present perfect with 'yet'", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-with-yet", "type": "grammar_reference"}]
+      }
+    }
+  ]
+}
