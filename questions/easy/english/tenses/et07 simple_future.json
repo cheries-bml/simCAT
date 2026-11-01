@@ -203,7 +203,7 @@
         "C": "showed",
         "D": "shows"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "explanation": "The word 'later' indicates a future action, and 'will show' is the correct simple future tense form to express a promise or assurance."
     },
     {
@@ -267,8 +267,8 @@
       "question": "Click the incorrect word and correct it",
       "sentence": "Unless you study harder, you will not passes the final examination.",
       "tokens": [
-        "Unless you study harder,",
-        "you will not passes",
+        "Unless you study harder, you",
+        "will not passes",
         "the final examination."
       ],
       "incorrectIndex": 1,
@@ -337,8 +337,8 @@
       "question": "Click the incorrect word and correct it",
       "sentence": "I promise I will helps you with your project next week.",
       "tokens": [
-        "I promise",
-        "I will helps",
+        "I promise I",
+        "will helps",
         "you with your project",
         "next week."
       ],
