@@ -1,0 +1,30 @@
+[
+  {
+    "role":"admin",
+    "description":"admin",
+    "folderAllowed":["./**"]
+  },
+  {
+    "role":"teacher",
+    "description":"teacher",
+    "folderAllowed":[
+      "./questions/**",
+      "./files/**"
+    ],
+    "filesAllowed":[
+      "./files/english/beginner/simple_present.pdf",
+      "./files/english/intermediate/conditional.pdf"
+    ]
+  },
+  {
+    "role":"student",
+    "description":"student",
+    "folderAllowed":[
+      "./questions/easy/**",
+      "./questions/trivials/**"
+    ],
+    "filesAllowed":[
+      "./files/english/**"
+    ]
+  }
+]

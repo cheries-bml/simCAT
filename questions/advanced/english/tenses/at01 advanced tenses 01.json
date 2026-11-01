@@ -1094,8 +1094,8 @@
       "question": "The train ___ at 9 PM tonight, so we must hurry.",
       "options": {
         "A": "leaves",
-        "B": "is leaving",
-        "C": "will leave",
+        "B": "left",
+        "C": "will leaving",
         "D": "has left"
       },
       "correctAnswer": "A",
