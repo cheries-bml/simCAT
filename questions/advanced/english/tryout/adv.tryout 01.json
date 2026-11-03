@@ -1,0 +1,712 @@
+{
+  "meta": {
+    "title": "Tryout Test - Advanced 01",
+    "timeLimits": {
+      "fast": 45,
+      "normal": 60,
+      "easy": 75
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "The board has declared the previous policy ___ due to its negative impact on employee morale.",
+      "options": {
+        "A": "ineffective",
+        "B": "ineffectively",
+        "C": "effect",
+        "D": "effective",
+        "E": "effectively"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Perfect Tense, Prefix, Object Complement. Terjemahan: Dewan telah menyatakan kebijakan sebelumnya tidak efektif karena dampak negatifnya terhadap moral karyawan. Penjelasan: 'Has declared' adalah present perfect tense. 'Ineffective' menggunakan prefix 'in-' (tidak) dan berfungsi sebagai object complement yang menerangkan 'the previous policy'."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "He has demonstrated greater knowledge than his peers in this specific subject area.",
+      "options": {
+        "A": "more great",
+        "B": "greatest",
+        "C": "as great",
+        "D": "greater",
+        "E": "great"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Present Perfect Tense, Degree of Comparison, Uncountable Noun. Terjemahan: Dia telah menunjukkan pengetahuan yang lebih besar daripada rekan-rekannya di area subjek yang spesifik ini. Penjelasan: 'Has demonstrated' adalah present perfect tense. 'Than' menandakan comparative degree, sehingga 'greater' adalah bentuk yang tepat. 'Knowledge' adalah uncountable noun."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "The commander gives the soldiers strict orders before every mission to ensure operational success.",
+      "options": {
+        "A": "is giving",
+        "B": "has given",
+        "C": "gave",
+        "D": "gives",
+        "E": "give"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Simple Present Tense, Direct/Indirect Object, Preposition. Terjemahan: Komandan memberikan perintah ketat kepada para prajurit sebelum setiap misi untuk memastikan keberhasilan operasional. Penjelasan: 'Before every mission' menunjukkan rutinitas (simple present tense). Subjek 'The commander' adalah singular, sehingga verb-nya 'gives'. 'The soldiers' adalah indirect object, 'strict orders' adalah direct object."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "The university offers scholarships and grants to outstanding students who demonstrate academic excellence.",
+      "options": {
+        "A": "offered",
+        "B": "offer",
+        "C": "is offering",
+        "D": "offers",
+        "E": "has offered"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Simple Present Tense, Direct/Indirect Object, Conjunction. Terjemahan: Universitas tersebut menawarkan beasiswa dan hibah kepada siswa berprestasi yang menunjukkan keunggulan akademik. Penjelasan: 'Offers' adalah simple present tense (fakta/kebijakan). Subjek 'The university' adalah singular. 'Scholarships and grants' adalah direct object, 'to outstanding students' adalah indirect object phrase."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "The new system will process data much faster than the legacy system currently in use.",
+      "options": {
+        "A": "has processed",
+        "B": "will process",
+        "C": "processed",
+        "D": "process",
+        "E": "processes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Future Tense, Degree of Comparison, Adverb. Terjemahan: Sistem baru tersebut akan memproses data jauh lebih cepat daripada sistem lama yang saat ini digunakan. Penjelasan: 'Will process' menunjukkan simple future tense. 'Faster than' adalah comparative degree. 'Much' adalah adverb yang memperkuat comparative."
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Alas! The team ___ the physical test despite their hard work and dedication over the past few months.",
+      "options": {
+        "A": "is failing",
+        "B": "failed",
+        "C": "fails",
+        "D": "has failed",
+        "E": "fail"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Present Perfect Tense, Subject/Predicate, Interjection. Terjemahan: Sayang sekali! Tim tersebut telah gagal dalam tes fisik meskipun bekerja keras dan berdedikasi selama beberapa bulan terakhir. Penjelasan: 'Alas!' adalah interjection (kata seru kesedihan). 'Has failed' menunjukkan present perfect tense, menghubungkan usaha di masa lalu dengan hasil di masa kini."
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "The committee is reviewing the proposals and the budgets right now to ensure financial transparency.",
+      "options": {
+        "A": "has reviewed",
+        "B": "reviewed",
+        "C": "is reviewing",
+        "D": "reviews",
+        "E": "review"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Present Continuous Tense, Conjunction, Countable Noun. Terjemahan: Komite tersebut sedang meninjau proposal dan anggaran saat ini untuk memastikan transparansi keuangan. Penjelasan: 'Right now' menandakan present continuous tense ('is reviewing' karena 'committee' dianggap singular collective noun). 'And' adalah conjunction. 'Proposals' dan 'budgets' adalah plural countable nouns."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "She ___ her homework and submitted the required documents, but she still lacks sufficient information for the final report.",
+      "options": {
+        "A": "finishes",
+        "B": "finish",
+        "C": "finished",
+        "D": "is finishing",
+        "E": "has finished"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Present Perfect Tense, Conjunction, Countable/Uncountable Noun. Terjemahan: Dia telah menyelesaikan pekerjaan rumahnya dan mengumpulkan dokumen yang diperlukan, tetapi dia masih kekurangan informasi yang cukup untuk laporan akhir. Penjelasan: 'Has finished' menunjukkan present perfect tense. 'And' dan 'but' adalah conjunctions. 'Information' adalah uncountable noun, sehingga menggunakan 'sufficient' bukan 'many'."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "The academy will provide adequate equipment and ___ water for the recruits during the survival training.",
+      "options": {
+        "A": "a few",
+        "B": "sufficient",
+        "C": "many",
+        "D": "several",
+        "E": "numerous"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Future Tense, Countable/Uncountable Noun, Conjunction. Terjemahan: Akademi tersebut akan menyediakan peralatan yang memadai dan air yang cukup untuk para rekrutan selama pelatihan bertahan hidup. Penjelasan: 'Will provide' adalah simple future tense. 'Water' adalah uncountable noun, sehingga memerlukan quantifier seperti 'sufficient' atau 'much', bukan 'many' atau 'several'."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "The team is currently focusing on the improvement of their defensive strategies for the next match.",
+      "options": {
+        "A": "is focusing",
+        "B": "focus",
+        "C": "has focused",
+        "D": "focuses",
+        "E": "focused"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Continuous Tense, Suffix, Preposition. Terjemahan: Tim tersebut saat ini sedang berfokus pada peningkatan strategi defensif mereka untuk pertandingan berikutnya. Penjelasan: 'Is focusing' menunjukkan present continuous tense. 'Improvement' adalah noun dengan suffix '-ment'. 'On' dan 'for' adalah prepositions."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "This recipe requires less sugar than the traditional one to be considered a healthy alternative.",
+      "options": {
+        "A": "required",
+        "B": "requires",
+        "C": "require",
+        "D": "is requiring",
+        "E": "has required"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Present Tense, Degree of Comparison, Uncountable Noun. Terjemahan: Resep ini memerlukan lebih sedikit gula daripada resep tradisional agar dianggap sebagai alternatif yang sehat. Penjelasan: 'Requires' adalah simple present tense (fakta). Subjek 'This recipe' adalah singular. 'Less sugar than' menunjukkan comparative degree untuk uncountable noun ('sugar')."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "The severe storm will cause significant damage to the coastal areas if no preventive measures are taken.",
+      "options": {
+        "A": "cause",
+        "B": "will cause",
+        "C": "causes",
+        "D": "has caused",
+        "E": "caused"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Future Tense, Uncountable Noun, Verb. Terjemahan: Badai yang hebat tersebut akan menyebabkan kerusakan signifikan pada wilayah pesisir jika tidak ada tindakan pencegahan yang diambil. Penjelasan: 'Will cause' menunjukkan simple future tense (prediksi). 'Damage' dalam konteks ini adalah uncountable noun."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "They are working harder than we are to finish the project on time and meet the client's expectations.",
+      "options": {
+        "A": "are working",
+        "B": "works",
+        "C": "have worked",
+        "D": "work",
+        "E": "worked"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Continuous Tense, Degree of Comparison, Pronoun. Terjemahan: Mereka sedang bekerja lebih keras daripada kami untuk menyelesaikan proyek tepat waktu dan memenuhi ekspektasi klien. Penjelasan: 'Are working' menunjukkan present continuous tense. 'Harder than' adalah comparative degree. 'They' dan 'we' adalah subject pronouns."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "A well-trained dog responds more quickly than an untrained one in emergency situations.",
+      "options": {
+        "A": "responded",
+        "B": "respond",
+        "C": "has responded",
+        "D": "is responding",
+        "E": "responds"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Present Tense, Subject/Predicate, Degree of Comparison. Terjemahan: Anjing yang terlatih dengan baik merespons lebih cepat daripada yang tidak terlatih dalam situasi darurat. Penjelasan: Kalimat ini menyatakan fakta umum (simple present tense). Subjek 'A well-trained dog' adalah singular, sehingga verb-nya 'responds'. 'More quickly than' adalah comparative degree."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "The company has unfortunately discontinued the unprofitable product line due to market changes.",
+      "options": {
+        "A": "discontinue",
+        "B": "has discontinued",
+        "C": "discontinued",
+        "D": "is discontinuing",
+        "E": "discontinues"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Present Perfect Tense, Prefix, Adverbial. Terjemahan: Perusahaan tersebut sayangnya telah menghentikan lini produk yang tidak menguntungkan karena perubahan pasar. Penjelasan: 'Has discontinued' adalah present perfect tense. 'Unprofitable' menggunakan prefix 'un-'. 'Unfortunately' adalah adverbial yang menerangkan seluruh kalimat."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "The panel will name him the winner of the competition based on his outstanding performance.",
+      "options": {
+        "A": "names",
+        "B": "name",
+        "C": "has named",
+        "D": "named",
+        "E": "will name"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Future Tense, Object Complement, Noun. Terjemahan: Panitia tersebut akan menobatkannya sebagai pemenang kompetisi berdasarkan penampilannya yang luar biasa. Penjelasan: 'Will name' menunjukkan simple future tense. 'Him' adalah object, dan 'the winner' adalah object complement yang menjelaskan status objek tersebut."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "We will appoint ___ the new captain of the debate team due to her exceptional leadership skills.",
+      "options": {
+        "A": "she's",
+        "B": "her",
+        "C": "she",
+        "D": "herself",
+        "E": "hers"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Future Tense, Pronoun, Object Complement. Terjemahan: Kami akan menunjuknya sebagai kapten baru tim debat karena keterampilan kepemimpinannya yang luar biasa. Penjelasan: 'Will appoint' menunjukkan simple future tense. Setelah verb 'appoint', kita memerlukan object pronoun, yaitu 'her'. 'The new captain' berfungsi sebagai object complement."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "He always ___ the rules and gets punished because he refuses to listen to good advice.",
+      "options": {
+        "A": "is disobeying",
+        "B": "obeys",
+        "C": "obey",
+        "D": "disobeys",
+        "E": "disobeyed"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Simple Present Tense, Prefix, Conjunction. Terjemahan: Dia selalu tidak mematuhi peraturan dan dihukum karena dia menolak mendengarkan nasihat yang baik. Penjelasan: 'Always' menunjukkan simple present tense. Prefix 'dis-' pada 'disobeys' memberikan makna negatif (tidak mematuhi). Subjek 'He' memerlukan verb dengan akhiran -s. 'And' dan 'because' adalah conjunctions."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "She is acting as the temporary leader while the chief is absent from the headquarters.",
+      "options": {
+        "A": "acts",
+        "B": "is acting",
+        "C": "act",
+        "D": "has acted",
+        "E": "acted"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Present Continuous Tense, Pronoun, Subject/Predicate. Terjemahan: Dia sedang bertindak sebagai pemimpin sementara sementara sang kepala tidak berada di markas. Penjelasan: Konteks 'while the chief is absent' menunjukkan aksi yang sedang berlangsung, sehingga menggunakan present continuous tense 'is acting'. 'She' adalah subject pronoun."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "The officer regularly patrols around the campus at night to prevent any unauthorized activities.",
+      "options": {
+        "A": "patrolled",
+        "B": "patrol",
+        "C": "patrols",
+        "D": "has patrolled",
+        "E": "is patrolling"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Simple Present Tense, Adverb, Preposition. Terjemahan: Petugas tersebut secara teratur berpatroli di sekitar kampus pada malam hari untuk mencegah aktivitas yang tidak sah. Penjelasan: 'Regularly' menunjukkan simple present tense. Subjek 'The officer' adalah singular, sehingga verb-nya 'patrols'. 'Around' dan 'at' adalah prepositions."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "The tactical unit ___ to the border region annually to maintain national security and protect the citizens.",
+      "options": {
+        "A": "is deploying",
+        "B": "deployed",
+        "C": "has deployed",
+        "D": "deploys",
+        "E": "deploy"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Simple Present Tense, Adverbial, Verb. Terjemahan: Unit taktis tersebut dikerahkan ke wilayah perbatasan setiap tahun untuk menjaga keamanan nasional dan melindungi warga. Penjelasan: 'Annually' menunjukkan simple present tense (kebiasaan/rutinitas). Subjek 'The tactical unit' adalah singular, sehingga verb yang tepat adalah 'deploys'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "The teacher is teaching the students complex mathematical formulas to prepare them for the national exam.",
+      "options": {
+        "A": "teach",
+        "B": "teaches",
+        "C": "has taught",
+        "D": "is teaching",
+        "E": "taught"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Present Continuous Tense, Direct/Indirect Object, Verb. Terjemahan: Guru tersebut sedang mengajarkan rumus matematika yang kompleks kepada para siswa untuk mempersiapkan mereka menghadapi ujian nasional. Penjelasan: 'Is teaching' menunjukkan present continuous tense. 'The students' adalah indirect object, dan 'complex mathematical formulas' adalah direct object."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "The jury considers the defendant guilty beyond a reasonable doubt based on the presented evidence.",
+      "options": {
+        "A": "has considered",
+        "B": "considers",
+        "C": "is considering",
+        "D": "considered",
+        "E": "consider"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Present Tense, Adverbial, Object Complement. Terjemahan: Juri menganggap terdakwa bersalah di luar keraguan yang masuk akal berdasarkan bukti yang disajikan. Penjelasan: 'Considers' adalah simple present tense (fakta/prosedur hukum). 'The defendant' adalah object, 'guilty' adalah object complement. 'Beyond a reasonable doubt' adalah adverbial phrase."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "Wow! Many applicants bring their original certificates to the registration desk every morning.",
+      "options": {
+        "A": "brings",
+        "B": "are bringing",
+        "C": "brought",
+        "D": "bring",
+        "E": "have brought"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Simple Present Tense, Interjection, Countable Noun. Terjemahan: Wah! Banyak pelamar membawa sertifikat asli mereka ke meja registrasi setiap pagi. Penjelasan: 'Wow!' adalah interjection. 'Every morning' menunjukkan simple present tense. Subjek 'Many applicants' adalah plural, sehingga verb-nya 'bring' (tanpa -s)."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "Currently, the board of directors ___ him the most suitable candidate for the police academy leadership program.",
+      "options": {
+        "A": "has considered",
+        "B": "consider",
+        "C": "considered",
+        "D": "considers",
+        "E": "is considering"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Present Continuous Tense, Pronoun, Object Complement. Terjemahan: Saat ini, dewan direksi sedang mempertimbangkannya sebagai kandidat yang paling cocok untuk program kepemimpinan akademi kepolisian. Penjelasan: Kata 'Currently' menunjukkan present continuous tense ('is considering'). 'Him' adalah object pronoun, dan 'the most suitable candidate' berfungsi sebagai object complement yang melengkapi makna objek."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "My brother ___ harder than I do, and he always ___ the top score in every math test.",
+      "options": {
+        "A": "studied / got",
+        "B": "is studying / is getting",
+        "C": "studies / gets",
+        "D": "has studied / has got",
+        "E": "study / get"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Simple Present Tense, Conjunction, Degree of Comparison. Terjemahan: Saudara laki-lakiku belajar lebih keras daripada aku, dan dia selalu mendapatkan nilai tertinggi di setiap tes matematika. Penjelasan: Kalimat ini menyatakan fakta kebiasaan (simple present tense). Subjek 'My brother' adalah orang ketiga tunggal sehingga memerlukan verb+s/es ('studies' dan 'gets'). Kata 'and' berfungsi sebagai conjunction (kata hubung) yang menghubungkan dua klausa independen."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "She has lived in this city since 2010, and she knows every street perfectly.",
+      "options": {
+        "A": "lives",
+        "B": "lived",
+        "C": "live",
+        "D": "is living",
+        "E": "has lived"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Present Perfect Tense, Conjunction, Preposition. Terjemahan: Dia telah tinggal di kota ini sejak tahun 2010, dan dia mengenal setiap jalan dengan sempurna. Penjelasan: 'Has lived' adalah present perfect tense, digunakan dengan 'since' (preposition/conjunction of time). 'And' adalah conjunction yang menghubungkan dua klausa."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "The selection committee ___ an unwise decision because there are too many unqualified applicants for the limited positions.",
+      "options": {
+        "A": "has made",
+        "B": "made",
+        "C": "makes",
+        "D": "is making",
+        "E": "make"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Perfect Tense, Prefix/Suffix, Countable/Uncountable Noun. Terjemahan: Panitia seleksi telah membuat keputusan yang tidak bijaksana karena ada terlalu banyak pelamar yang tidak memenuhi syarat untuk posisi yang terbatas. Penjelasan: Kata 'has made' menunjukkan present perfect tense yang menyatakan aksi selesai di masa lalu dengan dampak di masa kini. 'Unwise' menggunakan prefix 'un-' (tidak), dan 'applicants' adalah countable noun (bisa dihitung) yang sesuai dengan quantifier 'many'."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "They have completed the assignment successfully, but they need more time for revision.",
+      "options": {
+        "A": "have completed",
+        "B": "are completing",
+        "C": "completed",
+        "D": "complete",
+        "E": "completes"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Perfect Tense, Conjunction, Adverbial. Terjemahan: Mereka telah menyelesaikan tugas tersebut dengan sukses, tetapi mereka memerlukan lebih banyak waktu untuk revisi. Penjelasan: 'Have completed' menunjukkan present perfect tense (aksi selesai dengan hasil di masa kini). 'But' adalah conjunction. 'Successfully' adalah adverbial."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "He is running ___ than his rivals during this intense training session to secure his position.",
+      "options": {
+        "A": "more fast",
+        "B": "faster",
+        "C": "fastest",
+        "D": "fast",
+        "E": "as fast"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Present Continuous Tense, Degree of Comparison, Adverb. Terjemahan: Dia berlari lebih cepat daripada pesaingnya selama sesi latihan yang intens ini untuk mengamankan posisinya. Penjelasan: 'Is running' menunjukkan present continuous tense. 'Than' menandakan comparative degree. Bentuk comparative dari adverb 'fast' adalah 'faster'."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "Oh no! The committee has canceled the scheduled event due to the unpredictable weather conditions.",
+      "options": {
+        "A": "canceled",
+        "B": "is canceling",
+        "C": "cancels",
+        "D": "has canceled",
+        "E": "cancel"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topik: Present Perfect Tense, Subject/Predicate, Interjection. Terjemahan: Oh tidak! Komite tersebut telah membatalkan acara yang dijadwalkan karena kondisi cuaca yang tidak dapat diprediksi. Penjelasan: 'Oh no!' adalah interjection. 'Has canceled' adalah present perfect tense, menunjukkan aksi yang baru saja selesai dengan dampak sekarang."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "The happiness and satisfaction of the citizens depend on good governance and transparent policies.",
+      "options": {
+        "A": "depends",
+        "B": "has depended",
+        "C": "depended",
+        "D": "is depending",
+        "E": "depend"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Present Tense, Suffix, Conjunction. Terjemahan: Kebahagiaan dan kepuasan warga bergantung pada tata kelola yang baik dan kebijakan yang transparan. Penjelasan: Subjek 'The happiness and satisfaction' adalah compound subject (plural), sehingga verb-nya 'depend' (tanpa -s). 'Happiness' dan 'satisfaction' menggunakan suffix '-ness' dan '-tion' (noun)."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "The investigators are meticulously searching for evidence inside the abandoned building.",
+      "options": {
+        "A": "searched",
+        "B": "have searched",
+        "C": "are searching",
+        "D": "searches",
+        "E": "search"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Present Continuous Tense, Adverb, Preposition. Terjemahan: Para penyelidik sedang mencari bukti dengan saksama di dalam gedung yang ditinggalkan tersebut. Penjelasan: 'Are searching' menunjukkan present continuous tense. 'Meticulously' adalah adverb yang menerangkan verb 'searching'. 'Inside' adalah preposition."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The candidates will arrive at the venue early tomorrow morning to register for the selection process.",
+      "options": {
+        "A": "arrive",
+        "B": "arrived",
+        "C": "will arrive",
+        "D": "have arrived",
+        "E": "arrives"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Simple Future Tense, Adjective, Adverbial. Terjemahan: Para kandidat akan tiba di tempat tersebut lebih awal besok pagi untuk mendaftar dalam proses seleksi. Penjelasan: 'Will arrive' menunjukkan simple future tense. 'Early' adalah adjective/adverb yang berfungsi sebagai adverbial di sini. 'Tomorrow morning' adalah adverbial of time."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "The upcoming examination will be undoubtedly ___ for all participants due to the complex material covered.",
+      "options": {
+        "A": "challenge",
+        "B": "challenges",
+        "C": "challenger",
+        "D": "challenged",
+        "E": "challenging"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Future Tense, Suffix, Adjective. Terjemahan: Ujian yang akan datang tidak diragukan lagi akan menantang bagi semua peserta karena materi kompleks yang dicakup. Penjelasan: 'Will be' menunjukkan simple future tense. Setelah 'be', kita memerlukan adjective. 'Challenging' dibentuk dari verb 'challenge' + suffix '-ing' yang berfungsi sebagai adjective."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "They are currently gathering ___ information carefully to prepare for the upcoming military aptitude test.",
+      "options": {
+        "A": "a few",
+        "B": "much",
+        "C": "many",
+        "D": "a number of",
+        "E": "several"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Present Continuous Tense, Uncountable Noun, Adverb. Terjemahan: Mereka saat ini sedang mengumpulkan banyak informasi dengan hati-hati untuk mempersiapkan tes bakat militer yang akan datang. Penjelasan: 'Are gathering' menunjukkan present continuous tense. 'Information' adalah uncountable noun, sehingga quantifier yang tepat adalah 'much'. 'Carefully' adalah adverb yang menerangkan verb 'gathering'."
+    },
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "The instructor ___ the new cadets the proper procedures clearly, so they understand their duties perfectly.",
+      "options": {
+        "A": "has explained",
+        "B": "explains",
+        "C": "explained",
+        "D": "is explaining",
+        "E": "explain"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Perfect Tense, Adverb, Direct/Indirect Object. Terjemahan: Instruktur tersebut telah menjelaskan prosedur yang benar kepada para kadet baru dengan jelas, sehingga mereka memahami tugas mereka dengan sempurna. Penjelasan: 'Has explained' adalah present perfect tense. 'The new cadets' adalah indirect object, dan 'the proper procedures' adalah direct object. 'Clearly' adalah adverb."
+    },
+    {
+      "id": 38,
+      "type": "mcq",
+      "question": "Hurry! The bus will leave the station very soon, and we might miss our scheduled appointment.",
+      "options": {
+        "A": "leave",
+        "B": "will leave",
+        "C": "left",
+        "D": "leaves",
+        "E": "has left"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Simple Future Tense, Interjection, Adverb. Terjemahan: Cepat! Bus tersebut akan segera meninggalkan stasiun, dan kita mungkin akan melewatkan janji yang telah dijadwalkan. Penjelasan: 'Hurry!' adalah interjection. 'Will leave' menunjukkan simple future tense. 'Very soon' adalah adverbial phrase."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "Right now, the candidates ___ harder than ever before to achieve the highest possible score on the entrance exam.",
+      "options": {
+        "A": "study",
+        "B": "are studying",
+        "C": "studied",
+        "D": "studies",
+        "E": "have studied"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topik: Present Continuous Tense, Degree of Comparison, Noun. Terjemahan: Saat ini, para kandidat sedang belajar lebih keras daripada sebelumnya untuk mencapai nilai setinggi mungkin pada ujian masuk. Penjelasan: 'Right now' menandakan present continuous tense ('are studying' untuk plural subject 'candidates'). 'Harder than ever before' adalah degree of comparison (comparative form)."
+    },
+    {
+      "id": 40,
+      "type": "mcq",
+      "question": "The students are preparing their essays and presentations for the final assessment next week.",
+      "options": {
+        "A": "prepares",
+        "B": "prepared",
+        "C": "are preparing",
+        "D": "prepare",
+        "E": "have prepared"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Present Continuous Tense, Countable Noun, Conjunction. Terjemahan: Para siswa sedang mempersiapkan esai dan presentasi mereka untuk penilaian akhir minggu depan. Penjelasan: 'Are preparing' menunjukkan present continuous tense (aksi sedang berlangsung). 'Essays' dan 'presentations' adalah plural countable nouns. 'And' adalah conjunction."
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "Wow! The team ___ to the headquarters next week to discuss the strategic plan with the chief commander.",
+      "options": {
+        "A": "will travel",
+        "B": "has traveled",
+        "C": "traveled",
+        "D": "travel",
+        "E": "travels"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Simple Future Tense, Interjection, Preposition. Terjemahan: Wah! Tim tersebut akan bepergian ke markas besar minggu depan untuk membahas rencana strategis dengan komandan utama. Penjelasan: 'Wow!' adalah interjection (kata seru). 'Next week' menunjukkan simple future tense ('will travel'). 'To' adalah preposition yang menunjukkan tujuan."
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "question": "The manager has sent the employees a detailed memo about the new safety regulations.",
+      "options": {
+        "A": "sends",
+        "B": "sent",
+        "C": "is sending",
+        "D": "send",
+        "E": "has sent"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Present Perfect Tense, Direct/Indirect Object, Preposition. Terjemahan: Manajer tersebut telah mengirimkan memo rinci kepada para karyawan tentang peraturan keselamatan yang baru. Penjelasan: 'Has sent' adalah present perfect tense. 'The employees' adalah indirect object, 'a detailed memo' adalah direct object. 'About' adalah preposition."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "The government ___ new regulations to improve the effectiveness of the national education system every few years.",
+      "options": {
+        "A": "is introducing",
+        "B": "introduced",
+        "C": "has introduced",
+        "D": "introduce",
+        "E": "introduces"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Present Tense, Subject/Predicate/Object, Suffix. Terjemahan: Pemerintah memperkenalkan peraturan baru untuk meningkatkan efektivitas sistem pendidikan nasional setiap beberapa tahun. Penjelasan: 'Every few years' menunjukkan simple present tense. Subjek 'The government' dianggap singular, sehingga predicate-nya 'introduces'. 'Effectiveness' memiliki suffix '-ness' yang mengubah adjective menjadi noun."
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "question": "She has shown ___ performance than anyone else in the squad since she joined last month.",
+      "options": {
+        "A": "best",
+        "B": "the best",
+        "C": "well",
+        "D": "good",
+        "E": "better"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Present Perfect Tense, Degree of Comparison, Preposition. Terjemahan: Dia telah menunjukkan performa yang lebih baik daripada orang lain di regu tersebut sejak dia bergabung bulan lalu. Penjelasan: 'Has shown' adalah present perfect tense. Kata 'than' menandakan comparative degree, sehingga bentuk yang tepat adalah 'better'. 'Since' adalah preposition/conjunction yang menunjukkan waktu."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "The flight will depart from the main terminal at exactly noon, so please arrive early.",
+      "options": {
+        "A": "depart",
+        "B": "departs",
+        "C": "has departed",
+        "D": "departed",
+        "E": "will depart"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Future Tense, Preposition, Adjective. Terjemahan: Penerbangan tersebut akan berangkat dari terminal utama tepat pada siang hari, jadi harap tiba lebih awal. Penjelasan: 'Will depart' menunjukkan simple future tense. 'From' dan 'at' adalah prepositions. 'Main' adalah adjective yang menerangkan 'terminal'."
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "question": "The responsible supervisor ensures the safety of all workers at the construction site.",
+      "options": {
+        "A": "ensures",
+        "B": "ensured",
+        "C": "ensure",
+        "D": "has ensured",
+        "E": "is ensuring"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Simple Present Tense, Adjective, Suffix. Terjemahan: Pengawas yang bertanggung jawab memastikan keselamatan semua pekerja di lokasi konstruksi. Penjelasan: Menyatakan fakta/rutinitas (simple present tense). Subjek 'The responsible supervisor' adalah singular, sehingga verb-nya 'ensures'. 'Responsible' adalah adjective, 'safety' adalah noun dengan suffix '-ty'."
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "The new recruits ___ bravely into the training center tomorrow morning to begin their rigorous physical exercises.",
+      "options": {
+        "A": "have marched",
+        "B": "marches",
+        "C": "marched",
+        "D": "march",
+        "E": "will march"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topik: Simple Future Tense, Adverb, Preposition. Terjemahan: Para rekrutan baru akan berbaris dengan berani ke pusat pelatihan besok pagi untuk memulai latihan fisik mereka yang ketat. Penjelasan: Keterangan waktu 'tomorrow morning' menandakan simple future tense, sehingga memerlukan 'will march'. 'Bravely' adalah adverb (kata keterangan) yang memodifikasi verb 'march', dan 'into' adalah preposition (kata depan) yang menunjukkan arah."
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "question": "The organization is dismantling the illegal networks across the region to restore public order.",
+      "options": {
+        "A": "is dismantling",
+        "B": "has dismantled",
+        "C": "dismantle",
+        "D": "dismantles",
+        "E": "dismantled"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topik: Present Continuous Tense, Prefix, Countable Noun. Terjemahan: Organisasi tersebut sedang membongkar jaringan ilegal di seluruh wilayah untuk memulihkan ketertiban umum. Penjelasan: 'Is dismantling' menunjukkan present continuous tense. 'Dismantling' memiliki prefix 'dis-'. 'Networks' adalah plural countable noun."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "This new method will be more ___ and efficient than the old one in processing data.",
+      "options": {
+        "A": "effectiveness",
+        "B": "affect",
+        "C": "effective",
+        "D": "effectively",
+        "E": "effect"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Simple Future Tense, Degree of Comparison, Suffix. Terjemahan: Metode baru ini akan lebih efektif dan efisien daripada yang lama dalam memproses data. Penjelasan: 'Will be' menunjukkan simple future tense. Setelah 'more', kita memerlukan adjective. 'Effective' adalah adjective (suffix '-ive'). 'Than' menandakan comparative degree."
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "question": "A diligent student always ___ English grammar rules very carefully to ensure absolute accuracy in writing.",
+      "options": {
+        "A": "studied",
+        "B": "study",
+        "C": "studies",
+        "D": "is studying",
+        "E": "has studied"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topik: Simple Present Tense, Adjective, Adverb. Terjemahan: Seorang siswa yang rajin selalu mempelajari aturan tata bahasa Inggris dengan sangat hati-hati untuk memastikan keakuratan mutlak dalam menulis. Penjelasan: 'Always' menandakan simple present tense. Subjek 'A diligent student' adalah singular, sehingga verb yang tepat adalah 'studies'. 'Diligent' adalah adjective yang menerangkan student, dan 'carefully' adalah adverb yang menerangkan verb 'studies'."
+    }
+  ]
+}
