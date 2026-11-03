@@ -125,7 +125,7 @@
       "type": "mcq",
       "question": "___! That was a very difficult mathematics question on the state university entrance exam.",
       "options": {
-        "A": "Oops",
+        "A": "Amazing",
         "B": "Hooray",
         "C": "Ouch",
         "D": "Alas",
@@ -493,10 +493,10 @@
         "B": "is",
         "C": "has been",
         "D": "are",
-        "E": "were"
+        "E": "have"
       },
-      "correctAnswer": "E",
-      "explanation": "Topic: Subject-Verb Agreement. With 'neither/nor', the verb agrees with the subject closest to it. 'Soldiers' is plural, so the past tense plural verb 'were' is correct. Translation: Baik komandan maupun para prajurit tidak menyadari perubahan mendadak pada jadwal tersebut. Penjelasan: Dengan pola 'neither/nor', kata kerja sesuai dengan subjek yang paling dekat. 'Soldiers' adalah jamak, jadi kata kerja bentuk lampau jamak 'were' adalah benar."
+      "correctAnswer": "D",
+      "explanation": "Topic: Subject-Verb Agreement. With 'neither/nor', the verb agrees with the subject closest to it. 'Soldiers' is plural, so the past tense plural verb 'are' is correct. Translation: Baik komandan maupun para prajurit tidak menyadari perubahan mendadak pada jadwal tersebut. Penjelasan: Dengan pola 'neither/nor', kata kerja sesuai dengan subjek yang paling dekat. 'Soldiers' adalah jamak, jadi kata kerja bentuk lampau jamak 'are' adalah benar."
     },
     {
       "id": 36,
@@ -507,7 +507,7 @@
         "B": "just",
         "C": "yet",
         "D": "since",
-        "E": "already"
+        "E": "will"
       },
       "correctAnswer": "B",
       "explanation": "Topic: Present Perfect Tense. The adverb 'just' is used in positive present perfect sentences to indicate an action completed a very short time ago. Translation: Kami baru saja menyelesaikan proses pendaftaran untuk akademi polisi. Penjelasan: Adverb 'just' digunakan dalam kalimat present perfect positif untuk menunjukkan aksi yang selesai dalam waktu yang sangat singkat."
@@ -616,7 +616,7 @@
       "question": "The university applicant ___ his documents carefully before submitting them.",
       "options": {
         "A": "check",
-        "B": "has checked",
+        "B": "will checked",
         "C": "checks",
         "D": "checked",
         "E": "checking"
