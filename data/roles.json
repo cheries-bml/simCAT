@@ -20,7 +20,14 @@
     "role":"student",
     "description":"student",
     "folderAllowed":[
-      "./questions/easy/**",
+      "./questions/easy/english/vocabulary/**",
+      "./questions/easy/english/grammar/**",
+      "./questions/easy/english/tenses/**",
+      "./questions/easy/english/reading/**",
+      "./questions/intermediate/english/vocabulary/**",
+      "./questions/intermediate/english/grammar/**",
+      "./questions/intermediate/english/tenses/**",
+      "./questions/intermediate/english/reading/**",
       "./questions/trivials/**"
     ],
     "filesAllowed":[
