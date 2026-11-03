@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Try Out Your English Skills 01",
+    "title": "Tryout Test 01",
     "timeLimits": {
       "fast": 45,
       "normal": 60,
@@ -11,652 +11,702 @@
     {
       "id": 1,
       "type": "mcq",
-      "question": "I ___ my homework yet, so I cannot go out to play.",
+      "question": "___! I completely forgot to bring my admission ticket to the testing center.",
       "options": {
-        "A": "do not finish",
-        "B": "did not finish",
-        "C": "have not finished",
-        "D": "am not finishing"
+        "A": "Wow",
+        "B": "Oops",
+        "C": "Hooray",
+        "D": "Ouch",
+        "E": "Shh"
       },
-      "correctAnswer": "C",
-      "explanation": "The present perfect tense with 'yet' is used in negative sentences to show an action not completed up to now. Translation: Saya belum menyelesaikan pekerjaan rumah saya, jadi saya tidak bisa pergi keluar bermain. Penjelasan: Present perfect tense dengan 'yet' digunakan dalam kalimat negatif untuk menunjukkan aksi yang belum selesai hingga sekarang."
+      "correctAnswer": "B",
+      "explanation": "Topic: Interjection. The interjection 'Oops' is used to express a mild apology or realization of a small mistake or accident. Translation: Ups! Saya benar-benar lupa membawa tiket masuk saya ke pusat pengujian. Penjelasan: Interjection 'Oops' digunakan untuk mengekspresikan permintaan maaf yang ringan atau kesadaran akan kesalahan atau kecelakaan kecil."
     },
     {
       "id": 2,
       "type": "mcq",
-      "question": "There is not ___ water left in the bottle.",
+      "question": "The sergeant ordered the recruits ___ their boots immediately before the inspection.",
       "options": {
-        "A": "a few",
-        "B": "many",
-        "C": "much",
-        "D": "several"
+        "A": "to polish",
+        "B": "polished",
+        "C": "polish",
+        "D": "polishing",
+        "E": "polishes"
       },
-      "correctAnswer": "C",
-      "explanation": "Water is an uncountable noun, so it requires the quantifier 'much' in negative sentences. Translation: Tidak ada banyak air tersisa di dalam botol. Penjelasan: Water adalah uncountable noun, sehingga memerlukan quantifier 'much' dalam kalimat negatif."
+      "correctAnswer": "A",
+      "explanation": "Topic: Object Complement. The verb 'order' is followed by an object and an infinitive ('to polish') to form an object complement structure. Translation: Sersan memerintahkan para rekrutan untuk mengilapkan sepatu bot mereka segera sebelum inspeksi. Penjelasan: Kata kerja 'order' diikuti oleh objek dan infinitive ('to polish') untuk membentuk struktur object complement."
     },
     {
       "id": 3,
       "type": "mcq",
-      "question": "We ___ to the new training facility next week.",
+      "question": "The cadet ___ his uniform neatly before the morning inspection every day.",
       "options": {
-        "A": "moved",
-        "B": "are moving",
-        "C": "moves",
-        "D": "have moved"
+        "A": "ironing",
+        "B": "ironed",
+        "C": "has ironed",
+        "D": "irons",
+        "E": "iron"
       },
-      "correctAnswer": "B",
-      "explanation": "The present continuous tense 'are moving' is used for a fixed future arrangement. Translation: Kami akan pindah ke fasilitas pelatihan baru minggu depan. Penjelasan: Present continuous tense 'are moving' digunakan untuk rencana masa depan yang sudah pasti."
+      "correctAnswer": "D",
+      "explanation": "Topic: Simple Present Tense. The third-person singular subject 'cadet' requires the verb form 'irons' for a daily habitual action. Translation: Kadet tersebut menyetrika seragamnya dengan rapi sebelum inspeksi pagi setiap hari. Penjelasan: Subjek orang ketiga tunggal 'cadet' memerlukan bentuk kata kerja 'irons' untuk tindakan kebiasaan harian."
     },
     {
       "id": 4,
       "type": "mcq",
-      "question": "___ you ever visited the national museum?",
+      "question": "___ you ever taken a standardized English proficiency test before applying to university?",
       "options": {
-        "A": "Do",
-        "B": "Did",
-        "C": "Are",
-        "D": "Have"
+        "A": "Have",
+        "B": "Has",
+        "C": "Did",
+        "D": "Do",
+        "E": "Are"
       },
-      "correctAnswer": "D",
-      "explanation": "The present perfect tense uses 'Have' with 'ever' to ask about life experiences. Translation: Apakah kamu pernah mengunjungi museum nasional? Penjelasan: Present perfect tense menggunakan 'Have' dengan 'ever' untuk menanyakan tentang pengalaman hidup."
+      "correctAnswer": "A",
+      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'Have' with 'ever' to ask about general life experiences up to the present. Translation: Apakah kamu pernah mengikuti tes kemampuan bahasa Inggris yang terstandarisasi sebelum mendaftar ke universitas? Penjelasan: Present perfect tense menggunakan 'Have' dengan 'ever' untuk menanyakan tentang pengalaman hidup secara umum hingga saat ini."
     },
     {
       "id": 5,
       "type": "mcq",
-      "question": "If it rains tomorrow, we ___ the outdoor training.",
+      "question": "The children are waiting ___ for their exam results to be announced by the school.",
       "options": {
-        "A": "cancel",
-        "B": "have cancelled",
-        "C": "cancelled",
-        "D": "will cancel"
+        "A": "anxiety",
+        "B": "anxieties",
+        "C": "anxious",
+        "D": "more anxious",
+        "E": "anxiously"
       },
-      "correctAnswer": "D",
-      "explanation": "The simple future tense 'will cancel' is used in the main clause of a first conditional sentence. Translation: Jika besok hujan, kita akan membatalkan pelatihan di luar ruangan. Penjelasan: Simple future tense 'will cancel' digunakan di main clause kalimat conditional type 1."
+      "correctAnswer": "E",
+      "explanation": "Topic: Adverb of Manner. An adverb is needed to modify the verb 'waiting', describing how the action is performed. 'Anxiously' is the correct form. Translation: Anak-anak sedang menunggu dengan cemas hasil ujian mereka untuk diumumkan oleh sekolah. Penjelasan: Adverb of manner diperlukan untuk memodifikasi kata kerja 'waiting', menjelaskan bagaimana aksi tersebut dilakukan. 'Anxiously' adalah bentuk yang tepat."
     },
     {
       "id": 6,
       "type": "mcq",
-      "question": "The government is taking measures to reduce ___ pollution.",
+      "question": "The principal gave ___ a warning about the strict school rules yesterday.",
       "options": {
-        "A": "environment",
-        "B": "environmentally",
-        "C": "environments",
-        "D": "environmental"
+        "A": "theirs",
+        "B": "them",
+        "C": "their",
+        "D": "themselves",
+        "E": "they"
       },
-      "correctAnswer": "D",
-      "explanation": "An adjective is needed to modify the noun 'pollution'. 'Environmental' is the correct adjective form. Translation: Pemerintah sedang mengambil langkah-langkah untuk mengurangi polusi lingkungan. Penjelasan: Adjective diperlukan untuk memodifikasi noun 'pollution'. 'Environmental' adalah bentuk adjective yang tepat."
+      "correctAnswer": "B",
+      "explanation": "Topic: Pronoun (Object). The verb 'gave' requires an object pronoun to receive the action. 'Them' is the correct object pronoun for the third person plural. Translation: Kepala sekolah memberikan mereka peringatan tentang peraturan sekolah yang ketat kemarin. Penjelasan: Kata kerja 'gave' memerlukan object pronoun untuk menerima aksi tersebut. 'Them' adalah object pronoun yang tepat untuk orang ketiga jamak."
     },
     {
       "id": 7,
       "type": "mcq",
-      "question": "___ the fact that he was tired, he finished the marathon.",
+      "question": "They have lived in Jakarta ___ five years while attending the state university.",
       "options": {
-        "A": "Despite",
-        "B": "Although",
-        "C": "Because",
-        "D": "Since"
+        "A": "from",
+        "B": "for",
+        "C": "during",
+        "D": "since",
+        "E": "ago"
       },
-      "correctAnswer": "A",
-      "explanation": "'Despite' is a preposition meaning 'in spite of' and is followed by a noun phrase ('the fact'). Translation: Terlepas dari fakta bahwa dia lelah, dia menyelesaikan maraton tersebut. Penjelasan: 'Despite' adalah preposition yang berarti 'in spite of' dan diikuti oleh noun phrase."
+      "correctAnswer": "B",
+      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'for' to indicate a duration or period of time. Translation: Mereka telah tinggal di Jakarta selama lima tahun sambil menempuh pendidikan di universitas negeri. Penjelasan: Present perfect tense menggunakan 'for' untuk menunjukkan durasi atau periode waktu."
     },
     {
       "id": 8,
       "type": "mcq",
-      "question": "___! I stepped on a nail.",
-      "options": {
-        "A": "Wow",
-        "B": "Hey",
-        "C": "Alas",
-        "D": "Ouch"
-      },
-      "correctAnswer": "D",
-      "explanation": "The interjection 'Ouch' is used to express sudden pain. Translation: Aduh! Saya menginjak paku. Penjelasan: Interjection 'Ouch' digunakan untuk mengekspresikan rasa sakit yang tiba-tiba."
-    },
-    {
-      "id": 9,
-      "type": "mcq",
-      "question": "The teacher explained the lesson ___ so that everyone could understand.",
-      "options": {
-        "A": "clear",
-        "B": "clarity",
-        "C": "clearness",
-        "D": "clearly"
-      },
-      "correctAnswer": "D",
-      "explanation": "An adverb is needed to modify the verb 'explained'. The suffix '-ly' forms the adverb 'clearly'. Translation: Guru menjelaskan pelajaran dengan jelas sehingga semua orang bisa mengerti. Penjelasan: Adverb diperlukan untuk memodifikasi verb 'explained'. Sufiks '-ly' membentuk adverb 'clearly'."
-    },
-    {
-      "id": 10,
-      "type": "mcq",
-      "question": "___ of the applicants passed the rigorous physical test.",
-      "options": {
-        "A": "Any",
-        "B": "Little",
-        "C": "Much",
-        "D": "Few"
-      },
-      "correctAnswer": "D",
-      "explanation": "'Applicants' is a plural countable noun, so 'Few' is the correct quantifier to indicate a small number. Translation: Sedikit dari para pelamar yang lulus tes fisik yang ketat tersebut. Penjelasan: 'Applicants' adalah plural countable noun, jadi 'Few' adalah quantifier yang tepat untuk menunjukkan jumlah yang sedikit."
-    },
-    {
-      "id": 11,
-      "type": "mcq",
-      "question": "She speaks English ___ than her brother.",
-      "options": {
-        "A": "more fluently",
-        "B": "fluent",
-        "C": "more fluent",
-        "D": "fluently"
-      },
-      "correctAnswer": "A",
-      "explanation": "An adverb is needed to modify the verb 'speaks'. The comparative form of the adverb 'fluently' is 'more fluently'. Translation: Dia berbicara bahasa Inggris lebih lancar daripada kakaknya. Penjelasan: Adverb diperlukan untuk memodifikasi verb 'speaks'. Bentuk komparatif dari adverb 'fluently' adalah 'more fluently'."
-    },
-    {
-      "id": 12,
-      "type": "mcq",
-      "question": "The committee has ___ reached a decision about the new policy.",
-      "options": {
-        "A": "since",
-        "B": "for",
-        "C": "yet",
-        "D": "already"
-      },
-      "correctAnswer": "D",
-      "explanation": "The adverb 'already' is used in positive present perfect sentences to show an action completed sooner than expected. Translation: Komite telah mencapai keputusan tentang kebijakan baru tersebut. Penjelasan: Adverb 'already' digunakan dalam kalimat present perfect positif untuk menunjukkan aksi yang selesai lebih cepat dari dugaan."
-    },
-    {
-      "id": 13,
-      "type": "mcq",
-      "question": "I need to buy ___ eggs for the cake recipe.",
-      "options": {
-        "A": "a little",
-        "B": "a few",
-        "C": "any",
-        "D": "much"
-      },
-      "correctAnswer": "B",
-      "explanation": "'Eggs' is a plural countable noun, so it requires the quantifier 'a few' in positive sentences. Translation: Saya perlu membeli beberapa telur untuk resep kue tersebut. Penjelasan: 'Eggs' adalah plural countable noun, sehingga memerlukan quantifier 'a few' dalam kalimat positif."
-    },
-    {
-      "id": 14,
-      "type": "mcq",
-      "question": "The new regulations are ___ to all employees.",
-      "options": {
-        "A": "applying",
-        "B": "apply",
-        "C": "applicable",
-        "D": "application"
-      },
-      "correctAnswer": "C",
-      "explanation": "An adjective is needed after the linking verb 'are'. 'Applicable' means relevant or appropriate. Translation: Peraturan baru tersebut berlaku untuk semua karyawan. Penjelasan: Adjective diperlukan setelah linking verb 'are'. 'Applicable' berarti relevan atau sesuai."
-    },
-    {
-      "id": 15,
-      "type": "mcq",
-      "question": "This is the ___ building in the city.",
-      "options": {
-        "A": "high",
-        "B": "highest",
-        "C": "higher",
-        "D": "more high"
-      },
-      "correctAnswer": "B",
-      "explanation": "The superlative degree is used to compare one thing with a group. 'The' is followed by the superlative form 'highest'. Translation: Ini adalah gedung tertinggi di kota ini. Penjelasan: Superlative degree digunakan untuk membandingkan satu hal dengan sekelompok hal. 'The' diikuti oleh bentuk superlatif 'highest'."
-    },
-    {
-      "id": 16,
-      "type": "mcq",
-      "question": "We will go to the beach ___ it is sunny tomorrow.",
-      "options": {
-        "A": "unless",
-        "B": "although",
-        "C": "because",
-        "D": "if"
-      },
-      "correctAnswer": "D",
-      "explanation": "The conjunction 'if' is used to introduce a condition in a first conditional sentence. Translation: Kita akan pergi ke pantai jika besok cerah. Penjelasan: Konjungsi 'if' digunakan untuk memperkenalkan kondisi dalam kalimat conditional type 1."
-    },
-    {
-      "id": 17,
-      "type": "mcq",
-      "question": "My brother is ___ than me, but I am stronger than him.",
-      "options": {
-        "A": "tall",
-        "B": "tallest",
-        "C": "more tall",
-        "D": "taller"
-      },
-      "correctAnswer": "D",
-      "explanation": "The comparative degree is used to compare two people. The word 'than' indicates the comparative form 'taller'. Translation: Kakak saya lebih tinggi dari saya, tetapi saya lebih kuat darinya. Penjelasan: Comparative degree digunakan untuk membandingkan dua orang. Kata 'than' menunjukkan bentuk komparatif 'taller'."
-    },
-    {
-      "id": 18,
-      "type": "mcq",
-      "question": "The scientist made a significant ___ in the field of medicine.",
-      "options": {
-        "A": "discovering",
-        "B": "discovery",
-        "C": "discoverable",
-        "D": "discover"
-      },
-      "correctAnswer": "B",
-      "explanation": "The sentence requires a noun after the adjective 'significant'. The suffix '-y' turns the verb 'discover' into the noun 'discovery'. Translation: Ilmuwan tersebut membuat sebuah penemuan yang signifikan di bidang kedokteran. Penjelasan: Kalimat ini memerlukan noun setelah adjective 'significant'. Sufiks '-y' mengubah verb 'discover' menjadi noun 'discovery'."
-    },
-    {
-      "id": 19,
-      "type": "mcq",
-      "question": "This is the book ___ I borrowed from the library.",
-      "options": {
-        "A": "which",
-        "B": "who",
-        "C": "whose",
-        "D": "whom"
-      },
-      "correctAnswer": "A",
-      "explanation": "The relative pronoun 'which' is used to refer to things or objects, such as 'book'. Translation: Ini adalah buku yang saya pinjam dari perpustakaan. Penjelasan: Relative pronoun 'which' digunakan untuk merujuk pada benda atau objek, seperti 'book'."
-    },
-    {
-      "id": 20,
-      "type": "mcq",
-      "question": "We have ___ finished our homework, so we can watch TV now.",
-      "options": {
-        "A": "for",
-        "B": "just",
-        "C": "yet",
-        "D": "since"
-      },
-      "correctAnswer": "B",
-      "explanation": "The adverb 'just' is used in present perfect tense to indicate a recently completed action. Translation: Kami baru saja menyelesaikan pekerjaan rumah kami, jadi kami bisa menonton TV sekarang. Penjelasan: Adverb 'just' digunakan dalam present perfect tense untuk menunjukkan aksi yang baru saja selesai."
-    },
-    {
-      "id": 21,
-      "type": "mcq",
-      "question": "I have known my best friend ___ we were in elementary school.",
-      "options": {
-        "A": "during",
-        "B": "for",
-        "C": "since",
-        "D": "from"
-      },
-      "correctAnswer": "C",
-      "explanation": "The present perfect tense uses 'since' to refer to a specific point in the past when the action started. Translation: Saya telah mengenal sahabat saya sejak kami masih di sekolah dasar. Penjelasan: Present perfect tense menggunakan 'since' untuk merujuk pada titik tertentu di masa lalu ketika aksi dimulai."
-    },
-    {
-      "id": 22,
-      "type": "mcq",
-      "question": "The captain told the soldiers ___ their weapons immediately.",
-      "options": {
-        "A": "clean",
-        "B": "to clean",
-        "C": "cleaned",
-        "D": "cleaning"
-      },
-      "correctAnswer": "B",
-      "explanation": "The verb 'tell' is followed by an object and an infinitive ('to clean') to form an object complement structure. Translation: Komandan menyuruh para prajurit untuk membersihkan senjata mereka segera. Penjelasan: Verb 'tell' diikuti oleh object dan infinitive ('to clean') untuk membentuk struktur object complement."
-    },
-    {
-      "id": 23,
-      "type": "mcq",
-      "question": "The police officer always ___ his uniform before going to work.",
-      "options": {
-        "A": "washed",
-        "B": "washes",
-        "C": "wash",
-        "D": "washing"
-      },
-      "correctAnswer": "B",
-      "explanation": "The simple present tense is used for habitual actions. The singular subject 'officer' requires the verb form 'washes'. Translation: Petugas polisi selalu mencuci seragamnya sebelum pergi bekerja. Penjelasan: Simple present tense digunakan untuk kebiasaan. Subjek tunggal 'officer' memerlukan verb 'washes'."
-    },
-    {
-      "id": 24,
-      "type": "mcq",
-      "question": "The meeting will start ___ 9:00 AM sharp.",
-      "options": {
-        "A": "at",
-        "B": "by",
-        "C": "in",
-        "D": "on"
-      },
-      "correctAnswer": "A",
-      "explanation": "The preposition 'at' is used for specific times of the day. Translation: Rapat akan dimulai tepat pukul 9:00 pagi. Penjelasan: Preposition 'at' digunakan untuk waktu tertentu dalam sehari."
-    },
-    {
-      "id": 25,
-      "type": "mcq",
-      "question": "___ apple a day keeps the doctor away.",
-      "options": {
-        "A": "An",
-        "B": "Eat",
-        "C": "A",
-        "D": "The"
-      },
-      "correctAnswer": "A",
-      "explanation": "The indefinite article 'An' is used before a singular countable noun starting with a vowel sound. Translation: Satu apel sehari menjauhkan dari dokter. Penjelasan: Indefinite article 'An' digunakan sebelum singular countable noun yang dimulai dengan bunyi vokal."
-    },
-    {
-      "id": 26,
-      "type": "mcq",
-      "question": "The students submitted their ___ before the deadline.",
-      "options": {
-        "A": "assignable",
-        "B": "assigning",
-        "C": "assignment",
-        "D": "assign"
-      },
-      "correctAnswer": "C",
-      "explanation": "A noun is needed as the object of the verb 'submitted'. The suffix '-ment' forms the noun 'assignment'. Translation: Para siswa mengumpulkan tugas mereka sebelum tenggat waktu. Penjelasan: Noun diperlukan sebagai object dari verb 'submitted'. Sufiks '-ment' membentuk noun 'assignment'."
-    },
-    {
-      "id": 27,
-      "type": "mcq",
-      "question": "I have lived in this city ___ 2010.",
-      "options": {
-        "A": "for",
-        "B": "ago",
-        "C": "during",
-        "D": "since"
-      },
-      "correctAnswer": "D",
-      "explanation": "The present perfect tense uses 'since' to indicate a specific starting point in the past. Translation: Saya telah tinggal di kota ini sejak tahun 2010. Penjelasan: Present perfect tense menggunakan 'since' untuk menunjukkan titik awal tertentu di masa lalu."
-    },
-    {
-      "id": 28,
-      "type": "mcq",
-      "question": "The suspect was unable to provide a ___ alibi.",
-      "options": {
-        "A": "believable",
-        "B": "believing",
-        "C": "believe",
-        "D": "believer"
-      },
-      "correctAnswer": "A",
-      "explanation": "An adjective is needed to modify the noun 'alibi'. The suffix '-able' forms the adjective 'believable'. Translation: Tersangka tidak dapat memberikan alibi yang dapat dipercaya. Penjelasan: Adjective diperlukan untuk memodifikasi noun 'alibi'. Sufiks '-able' membentuk adjective 'believable'."
-    },
-    {
-      "id": 29,
-      "type": "mcq",
-      "question": "She is responsible ___ organizing the annual event.",
-      "options": {
-        "A": "in",
-        "B": "on",
-        "C": "at",
-        "D": "for"
-      },
-      "correctAnswer": "D",
-      "explanation": "The adjective 'responsible' is always followed by the preposition 'for'. Translation: Dia bertanggung jawab untuk mengorganisir acara tahunan tersebut. Penjelasan: Adjective 'responsible' selalu diikuti oleh preposition 'for'."
-    },
-    {
-      "id": 30,
-      "type": "mcq",
-      "question": "My sister is as ___ as a bee.",
-      "options": {
-        "A": "busier",
-        "B": "busily",
-        "C": "busy",
-        "D": "busiest"
-      },
-      "correctAnswer": "C",
-      "explanation": "The structure 'as...as' requires the base form of the adjective. 'Busy' is the correct base adjective. Translation: Kakak perempuan saya sibuk seperti lebah. Penjelasan: Struktur 'as...as' memerlukan bentuk dasar adjective. 'Busy' adalah adjective dasar yang tepat."
-    },
-    {
-      "id": 31,
-      "type": "mcq",
-      "question": "My father ___ to the office by car every day.",
-      "options": {
-        "A": "going",
-        "B": "gone",
-        "C": "go",
-        "D": "goes"
-      },
-      "correctAnswer": "D",
-      "explanation": "The simple present tense is used for daily routines. The third-person singular subject 'father' requires 'goes'. Translation: Ayah saya pergi ke kantor dengan mobil setiap hari. Penjelasan: Simple present tense digunakan untuk rutinitas harian. Subjek third-person singular 'father' memerlukan 'goes'."
-    },
-    {
-      "id": 32,
-      "type": "mcq",
-      "question": "He is not tall enough to reach the shelf, ___ he is very strong.",
-      "options": {
-        "A": "so",
-        "B": "because",
-        "C": "and",
-        "D": "but"
-      },
-      "correctAnswer": "D",
-      "explanation": "The conjunction 'but' is used to connect two contrasting ideas. Translation: Dia tidak cukup tinggi untuk mencapai rak tersebut, tetapi dia sangat kuat. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua ide yang bertentangan."
-    },
-    {
-      "id": 33,
-      "type": "mcq",
-      "question": "The police are investigating the ___ of the stolen vehicle.",
-      "options": {
-        "A": "disappearance",
-        "B": "appear",
-        "C": "disappearing",
-        "D": "appearance"
-      },
-      "correctAnswer": "A",
-      "explanation": "The prefix 'dis-' indicates negation or reversal. 'Disappearance' is the noun form meaning the act of vanishing. Translation: Polisi sedang menginvestigasi hilangnya kendaraan yang dicuri tersebut. Penjelasan: Prefix 'dis-' menunjukkan negasi atau pembalikan. 'Disappearance' adalah bentuk noun yang berarti tindakan menghilang."
-    },
-    {
-      "id": 34,
-      "type": "mcq",
-      "question": "___! That was a close call.",
-      "options": {
-        "A": "Alas",
-        "B": "Ouch",
-        "C": "Hey",
-        "D": "Wow"
-      },
-      "correctAnswer": "D",
-      "explanation": "The interjection 'Wow' is used to express surprise or relief. Translation: Wah! Itu tadi hampir saja terjadi. Penjelasan: Interjection 'Wow' digunakan untuk mengekspresikan kejutan atau kelegaan."
-    },
-    {
-      "id": 35,
-      "type": "mcq",
-      "question": "He gave ___ a helpful advice before the interview.",
-      "options": {
-        "A": "mine",
-        "B": "my",
-        "C": "I",
-        "D": "me"
-      },
-      "correctAnswer": "D",
-      "explanation": "The verb 'gave' requires an object pronoun. 'Me' is the correct object pronoun for the first person. Translation: Dia memberikan saya saran yang bermanfaat sebelum wawancara. Penjelasan: Verb 'gave' memerlukan object pronoun. 'Me' adalah object pronoun yang tepat untuk orang pertama."
-    },
-    {
-      "id": 36,
-      "type": "mcq",
-      "question": "___ the heavy rain, the football match continued.",
+      "question": "___ the fact that he was sick, he attended the crucial briefing for the new recruits.",
       "options": {
         "A": "Because",
         "B": "Although",
         "C": "Despite",
-        "D": "Since"
+        "D": "Since",
+        "E": "However"
       },
       "correctAnswer": "C",
-      "explanation": "'Despite' is a preposition used to show contrast and is followed by a noun phrase ('the heavy rain'). Translation: Meskipun hujan deras, pertandingan sepak bola tetap berlanjut. Penjelasan: 'Despite' adalah preposition yang digunakan untuk menunjukkan kontras dan diikuti oleh noun phrase."
+      "explanation": "Topic: Preposition of Contrast. 'Despite' is a preposition meaning 'in spite of' and is correctly followed by a noun phrase ('the fact'). Translation: Terlepas dari fakta bahwa dia sakit, dia menghadiri pengarahan penting untuk para rekrutan baru. Penjelasan: 'Despite' adalah preposisi yang berarti 'in spite of' dan dengan benar diikuti oleh frasa kata benda (noun phrase)."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "___! That was a very difficult mathematics question on the state university entrance exam.",
+      "options": {
+        "A": "Oops",
+        "B": "Hooray",
+        "C": "Ouch",
+        "D": "Alas",
+        "E": "Wow"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topic: Interjection. The interjection 'Wow' is used to express surprise or admiration, often regarding something impressive or difficult. Translation: Wah! Itu adalah pertanyaan matematika yang sangat sulit pada ujian masuk universitas negeri. Penjelasan: Interjection 'Wow' digunakan untuk mengekspresikan kejutan atau kekaguman, sering kali mengenai sesuatu yang mengesankan atau sulit."
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "The final interview for the military academy will begin ___ 8:00 AM tomorrow.",
+      "options": {
+        "A": "on",
+        "B": "by",
+        "C": "during",
+        "D": "at",
+        "E": "in"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Preposition of Time. The preposition 'at' is used for specific, exact times of the day. Translation: Wawancara akhir untuk akademi militer akan dimulai pukul 8:00 pagi besok. Penjelasan: Preposisi 'at' digunakan untuk waktu yang spesifik dan tepat dalam sehari."
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "question": "The scientist made a remarkable ___ in the field of renewable energy.",
+      "options": {
+        "A": "discover",
+        "B": "discovering",
+        "C": "discoverable",
+        "D": "discoverer",
+        "E": "discovery"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topic: Vocabulary (Suffix). The sentence requires a noun after the adjective 'remarkable'. The suffix '-y' turns the verb 'discover' into the noun 'discovery'. Translation: Ilmuwan tersebut membuat sebuah penemuan yang luar biasa di bidang energi terbarukan. Penjelasan: Kalimat ini memerlukan kata benda (noun) setelah kata sifat 'remarkable'. Sufiks '-y' mengubah kata kerja 'discover' menjadi kata benda 'discovery'."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "The witness provided a highly ___ testimony during the criminal trial.",
+      "options": {
+        "A": "belief",
+        "B": "believer",
+        "C": "believing",
+        "D": "believable",
+        "E": "believe"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Vocabulary (Suffix). An adjective is needed to modify the noun 'testimony'. The suffix '-able' forms the adjective 'believable', meaning capable of being believed. Translation: Saksi tersebut memberikan kesaksian yang sangat dapat dipercaya selama persidangan pidana. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'testimony'. Sufiks '-able' membentuk adjective 'believable', yang berarti dapat dipercaya."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "I have wanted to become a police officer ___ I was a young child.",
+      "options": {
+        "A": "ago",
+        "B": "since",
+        "C": "for",
+        "D": "from",
+        "E": "during"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'since' to refer to a specific starting point in the past ('I was a young child'). Translation: Saya telah ingin menjadi seorang petugas polisi sejak saya masih kecil. Penjelasan: Present perfect tense menggunakan 'since' untuk merujuk pada titik awal tertentu di masa lalu."
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "question": "The new regulation is applicable ___ all state school students without exception.",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "to",
+        "D": "in",
+        "E": "for"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Preposition. The adjective 'applicable' is always followed by the preposition 'to' to indicate relevance. Translation: Peraturan baru tersebut berlaku untuk semua siswa sekolah negeri tanpa terkecuali. Penjelasan: Kata sifat 'applicable' selalu diikuti oleh preposisi 'to' untuk menunjukkan keterkaitan atau keberlakuan."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "The unexpected ___ of the old documents made the historical research very difficult.",
+      "options": {
+        "A": "appearance",
+        "B": "disappearance",
+        "C": "disappearing",
+        "D": "appear",
+        "E": "disappear"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Vocabulary (Prefix and Suffix). The prefix 'dis-' indicates negation or reversal, and '-ance' forms a noun. 'Disappearance' means the act of vanishing. Translation: Hilangnya dokumen-dokumen lama secara tidak terduga membuat penelitian sejarah menjadi sangat sulit. Penjelasan: Prefix 'dis-' menunjukkan negasi atau pembalikan, dan '-ance' membentuk kata benda. 'Disappearance' berarti tindakan menghilang."
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "He is not tall enough to join the military police, ___ he has excellent leadership skills.",
+      "options": {
+        "A": "therefore",
+        "B": "and",
+        "C": "because",
+        "D": "but",
+        "E": "so"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two contrasting ideas: a physical limitation and a positive personal trait. Translation: Dia tidak cukup tinggi untuk bergabung dengan polisi militer, tetapi dia memiliki keterampilan kepemimpinan yang sangat baik. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua ide yang bertentangan: keterbatasan fisik dan sifat pribadi yang positif."
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "question": "The task was extremely difficult, ___ the students managed to finish it on time.",
+      "options": {
+        "A": "but",
+        "B": "so",
+        "C": "and",
+        "D": "therefore",
+        "E": "because"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two clauses that show a contrast between the difficulty of the task and the successful outcome. Translation: Tugas tersebut sangat sulit, tetapi para siswa berhasil menyelesaikannya tepat waktu. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua klausa yang menunjukkan kontras antara kesulitan tugas dan hasil yang berhasil."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "The university awarded ___ a full scholarship for her outstanding academic achievements.",
+      "options": {
+        "A": "she",
+        "B": "herself",
+        "C": "her",
+        "D": "hers",
+        "E": "they"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Pronoun (Indirect Object). The verb 'awarded' requires an object pronoun to act as the indirect object. 'Her' is the correct form for a female singular recipient. Translation: Universitas tersebut memberikannya beasiswa penuh atas pencapaian akademiknya yang luar biasa. Penjelasan: Kata kerja 'awarded' memerlukan object pronoun untuk bertindak sebagai indirect object. 'Her' adalah bentuk yang tepat untuk penerima tunggal perempuan."
+    },
+    {
+      "id": 19,
+      "type": "mcq",
+      "question": "She answers the interview questions ___ than her peers during the selection process.",
+      "options": {
+        "A": "confident",
+        "B": "more confidently",
+        "C": "confidently",
+        "D": "more confident",
+        "E": "most confidently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Degree of Comparison (Adverb). An adverb is needed to modify the verb 'answers'. The comparative form of the adverb 'confidently' is 'more confidently'. Translation: Dia menjawab pertanyaan wawancara dengan lebih percaya diri daripada rekan-rekannya selama proses seleksi. Penjelasan: Adverb diperlukan untuk memodifikasi kata kerja 'answers'. Bentuk komparatif dari adverb 'confidently' adalah 'more confidently'."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "This is the textbook ___ we use for our English grammar class this semester.",
+      "options": {
+        "A": "whose",
+        "B": "who",
+        "C": "which",
+        "D": "whom",
+        "E": "where"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Relative Pronoun. The relative pronoun 'which' is used to refer to things or objects, such as 'textbook'. Translation: Ini adalah buku teks yang kita gunakan untuk kelas tata bahasa Inggris kita semester ini. Penjelasan: Relative pronoun 'which' digunakan untuk merujuk pada benda atau objek, seperti 'textbook'."
+    },
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "This is the ___ military academy in the entire country.",
+      "options": {
+        "A": "prestigious",
+        "B": "prestigiously",
+        "C": "most prestigious",
+        "D": "more prestigious",
+        "E": "prestige"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form 'most prestigious' is used to compare one institution to all others in a group, indicated by 'in the entire country'. Translation: Ini adalah akademi militer yang paling bergengsi di seluruh negeri. Penjelasan: Bentuk superlatif 'most prestigious' digunakan untuk membandingkan satu institusi dengan semua institusi lain dalam sebuah kelompok, yang ditunjukkan oleh frasa 'in the entire country'."
+    },
+    {
+      "id": 22,
+      "type": "mcq",
+      "question": "___ the strict requirements, hundreds of students applied for the prestigious scholarship.",
+      "options": {
+        "A": "Despite",
+        "B": "Since",
+        "C": "However",
+        "D": "Because",
+        "E": "Although"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Preposition of Contrast. 'Despite' is a preposition used to show contrast and is followed by a noun phrase ('the strict requirements'). Translation: Meskipun persyaratan yang ketat, ratusan siswa melamar beasiswa bergengsi tersebut. Penjelasan: 'Despite' adalah preposisi yang digunakan untuk menunjukkan kontras dan diikuti oleh frasa kata benda (noun phrase)."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "There are not ___ chairs available in the examination hall for all the students.",
+      "options": {
+        "A": "much",
+        "B": "many",
+        "C": "no",
+        "D": "any",
+        "E": "a little"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Countable and Uncountable Noun. 'Chairs' is a plural countable noun, so it requires the quantifier 'many' in negative sentences. Translation: Tidak ada banyak kursi yang tersedia di ruang ujian untuk semua siswa. Penjelasan: 'Chairs' adalah plural countable noun, sehingga memerlukan quantifier 'many' dalam kalimat negatif."
+    },
+    {
+      "id": 24,
+      "type": "mcq",
+      "question": "The sun ___ in the east and sets in the west, which is a basic scientific fact.",
+      "options": {
+        "A": "has risen",
+        "B": "rises",
+        "C": "rise",
+        "D": "rose",
+        "E": "rising"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Simple Present Tense. The simple present tense is used for general scientific truths. The singular subject 'sun' requires the verb form 'rises'. Translation: Matahari terbit di timur dan terbenam di barat, yang merupakan fakta ilmiah dasar. Penjelasan: Simple present tense digunakan untuk kebenaran ilmiah umum. Subjek tunggal 'sun' memerlukan bentuk kata kerja 'rises'."
+    },
+    {
+      "id": 25,
+      "type": "mcq",
+      "question": "We will visit the historical museum ___ we have free time this weekend.",
+      "options": {
+        "A": "if",
+        "B": "unless",
+        "C": "although",
+        "D": "because",
+        "E": "despite"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Conjunction (Condition). The conjunction 'if' is used to introduce a condition in a first conditional sentence about a possible future event. Translation: Kita akan mengunjungi museum sejarah jika kita memiliki waktu luang akhir pekan ini. Penjelasan: Konjungsi 'if' digunakan untuk memperkenalkan kondisi dalam kalimat conditional type 1 tentang peristiwa masa depan yang mungkin terjadi."
+    },
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "The candidate ___ won the student council election is my next-door neighbor.",
+      "options": {
+        "A": "which",
+        "B": "whose",
+        "C": "where",
+        "D": "who",
+        "E": "whom"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Relative Pronoun. The relative pronoun 'who' is used to refer to people, acting as the subject of the relative clause 'won the student council election'. Translation: Kandidat yang memenangkan pemilihan osis tersebut adalah tetangga sebelah rumah saya. Penjelasan: Relative pronoun 'who' digunakan untuk merujuk pada orang, bertindak sebagai subjek dari relative clause 'won the student council election'."
+    },
+    {
+      "id": 27,
+      "type": "mcq",
+      "question": "The instructor spoke ___ so that all the recruits could hear the commands clearly.",
+      "options": {
+        "A": "louder",
+        "B": "loud",
+        "C": "loudly",
+        "D": "loudness",
+        "E": "loudest"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Adverb. An adverb of manner is needed to modify the verb 'spoke'. The suffix '-ly' forms the adverb 'loudly'. Translation: Instruktur tersebut berbicara dengan keras sehingga semua rekrutan dapat mendengar perintah dengan jelas. Penjelasan: Adverb of manner diperlukan untuk memodifikasi kata kerja 'spoke'. Sufiks '-ly' membentuk adverb 'loudly'."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "The explanation given by the professor during the lecture was incredibly ___.",
+      "options": {
+        "A": "helpful",
+        "B": "helpfully",
+        "C": "helper",
+        "D": "help",
+        "E": "helping"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Adjective. An adjective is needed after the linking verb 'was' to describe the noun 'explanation'. 'Helpful' is the correct adjective form. Translation: Penjelasan yang diberikan oleh profesor selama kuliah sangat membantu. Penjelasan: Kata sifat (adjective) diperlukan setelah linking verb 'was' untuk menjelaskan kata benda 'explanation'. 'Helpful' adalah bentuk adjective yang tepat."
+    },
+    {
+      "id": 29,
+      "type": "mcq",
+      "question": "The military cadets ___ currently marching in the main field under the hot sun.",
+      "options": {
+        "A": "is",
+        "B": "were",
+        "C": "has been",
+        "D": "are",
+        "E": "was"
+      },
+      "correctAnswer": "D",
+      "explanation": "Topic: Present Continuous Tense. The plural subject 'cadets' requires the auxiliary verb 'are' combined with the present participle 'marching' to show an action happening right now. Translation: Para kadet militer saat ini sedang berbaris di lapangan utama di bawah terik matahari. Penjelasan: Subjek jamak 'cadets' memerlukan kata kerja bantu 'are' yang digabungkan dengan present participle 'marching' untuk menunjukkan aksi yang sedang terjadi sekarang."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "I have ___ my physical training for the police entrance exam.",
+      "options": {
+        "A": "completed",
+        "B": "will complete",
+        "C": "complete",
+        "D": "completing",
+        "E": "completes"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'have' + past participle ('completed') to express an action that happened at an unspecified time before now. Translation: Saya telah menyelesaikan latihan fisik saya untuk ujian masuk polisi. Penjelasan: Present perfect tense menggunakan 'have' + past participle ('completed') untuk menyatakan aksi yang terjadi di waktu yang tidak spesifik sebelum sekarang."
+    },
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "___! We finally passed the academic entrance test for the state university.",
+      "options": {
+        "A": "Ouch",
+        "B": "Oops",
+        "C": "Hooray",
+        "D": "Alas",
+        "E": "Shh"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Interjection. The interjection 'Hooray' is used to express joy, approval, or celebration. Translation: Hore! Kita akhirnya lulus tes masuk akademik untuk universitas negeri. Penjelasan: Interjection 'Hooray' digunakan untuk mengekspresikan kegembiraan, persetujuan, atau perayaan."
+    },
+    {
+      "id": 32,
+      "type": "mcq",
+      "question": "He wanted to join the state university, ___ he did not pass the selection test.",
+      "options": {
+        "A": "and",
+        "B": "therefore",
+        "C": "but",
+        "D": "so",
+        "E": "because"
+      },
+      "correctAnswer": "C",
+      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two clauses that show a contrast or unexpected result. Translation: Dia ingin bergabung dengan universitas negeri, tetapi dia tidak lulus tes seleksi. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua klausa yang menunjukkan kontras atau hasil yang tidak terduga."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "I need to buy ___ new notebooks for the upcoming semester at the state university.",
+      "options": {
+        "A": "a few",
+        "B": "no",
+        "C": "any",
+        "D": "much",
+        "E": "a little"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Countable Noun Quantifier. 'Notebooks' is a plural countable noun, so it requires the quantifier 'a few' in positive sentences. Translation: Saya perlu membeli beberapa buku tulis baru untuk semester yang akan datang di universitas negeri. Penjelasan: 'Notebooks' adalah plural countable noun, sehingga memerlukan quantifier 'a few' dalam kalimat positif."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "The committee praised the debate team for their ___ performance in the national competition.",
+      "options": {
+        "A": "outstanding",
+        "B": "outstandingly",
+        "C": "outstand",
+        "D": "outstands",
+        "E": "outstood"
+      },
+      "correctAnswer": "A",
+      "explanation": "Topic: Adjective. An adjective is needed to modify the noun 'performance'. 'Outstanding' is the correct adjective form meaning exceptionally good. Translation: Komite memuji tim debat atas penampilan mereka yang luar biasa dalam kompetisi nasional. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'performance'. 'Outstanding' adalah bentuk adjective yang tepat yang berarti sangat baik."
+    },
+    {
+      "id": 35,
+      "type": "mcq",
+      "question": "Neither the commander nor the soldiers ___ aware of the sudden change in the schedule.",
+      "options": {
+        "A": "was",
+        "B": "is",
+        "C": "has been",
+        "D": "are",
+        "E": "were"
+      },
+      "correctAnswer": "E",
+      "explanation": "Topic: Subject-Verb Agreement. With 'neither/nor', the verb agrees with the subject closest to it. 'Soldiers' is plural, so the past tense plural verb 'were' is correct. Translation: Baik komandan maupun para prajurit tidak menyadari perubahan mendadak pada jadwal tersebut. Penjelasan: Dengan pola 'neither/nor', kata kerja sesuai dengan subjek yang paling dekat. 'Soldiers' adalah jamak, jadi kata kerja bentuk lampau jamak 'were' adalah benar."
+    },
+    {
+      "id": 36,
+      "type": "mcq",
+      "question": "We have ___ completed the registration process for the police academy.",
+      "options": {
+        "A": "for",
+        "B": "just",
+        "C": "yet",
+        "D": "since",
+        "E": "already"
+      },
+      "correctAnswer": "B",
+      "explanation": "Topic: Present Perfect Tense. The adverb 'just' is used in positive present perfect sentences to indicate an action completed a very short time ago. Translation: Kami baru saja menyelesaikan proses pendaftaran untuk akademi polisi. Penjelasan: Adverb 'just' digunakan dalam kalimat present perfect positif untuk menunjukkan aksi yang selesai dalam waktu yang sangat singkat."
     },
     {
       "id": 37,
       "type": "mcq",
-      "question": "He is the ___ candidate for the police academy.",
+      "question": "The government is implementing new ___ policies to protect the remaining forests in Indonesia.",
       "options": {
-        "A": "better",
-        "B": "best",
-        "C": "well",
-        "D": "good"
+        "A": "environment",
+        "B": "environments",
+        "C": "environmentalism",
+        "D": "environmental",
+        "E": "environmentally"
       },
-      "correctAnswer": "B",
-      "explanation": "The superlative form of the adjective 'good' is 'best', used to compare one person to a group. Translation: Dia adalah kandidat terbaik untuk akademi polisi. Penjelasan: Bentuk superlatif dari adjective 'good' adalah 'best', digunakan untuk membandingkan satu orang dengan sekelompok orang."
+      "correctAnswer": "D",
+      "explanation": "Topic: Adjective. An adjective is needed to modify the noun 'policies'. 'Environmental' is the correct adjective form relating to the natural world. Translation: Pemerintah sedang menerapkan kebijakan lingkungan baru untuk melindungi hutan-hutan yang tersisa di Indonesia. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'policies'. 'Environmental' adalah bentuk adjective yang tepat yang berkaitan dengan dunia alam."
     },
     {
       "id": 38,
       "type": "mcq",
-      "question": "She ___ her keys, so she cannot enter the house.",
+      "question": "My sister is as ___ as a bee when she is preparing for her final university exams.",
       "options": {
-        "A": "loses",
-        "B": "is losing",
-        "C": "lost",
-        "D": "has lost"
+        "A": "busily",
+        "B": "busiest",
+        "C": "busy",
+        "D": "business",
+        "E": "busier"
       },
-      "correctAnswer": "D",
-      "explanation": "The present perfect tense 'has lost' is used for a past action that has a result in the present (she cannot enter now). Translation: Dia telah kehilangan kuncinya, jadi dia tidak bisa masuk ke rumah. Penjelasan: Present perfect tense 'has lost' digunakan untuk aksi masa lalu yang memiliki hasil di masa kini."
+      "correctAnswer": "C",
+      "explanation": "Topic: Degree of Comparison (Equative). The structure 'as...as' requires the base form of the adjective. 'Busy' is the correct base adjective. Translation: Kakak perempuan saya sibuk seperti lebah ketika dia sedang mempersiapkan ujian akhir universitasnya. Penjelasan: Struktur 'as...as' memerlukan bentuk dasar kata sifat (adjective). 'Busy' adalah adjective dasar yang tepat."
     },
     {
       "id": 39,
       "type": "mcq",
-      "question": "She has given ___ a beautiful gift for his birthday.",
+      "question": "The headmaster is directly responsible ___ maintaining the school's discipline and order.",
       "options": {
-        "A": "him",
-        "B": "he",
-        "C": "his",
-        "D": "himself"
+        "A": "for",
+        "B": "on",
+        "C": "in",
+        "D": "with",
+        "E": "at"
       },
       "correctAnswer": "A",
-      "explanation": "The verb 'given' requires an object pronoun as the indirect object. 'Him' is the correct object pronoun. Translation: Dia telah memberikan dia sebuah hadiah yang indah untuk ulang tahunnya. Penjelasan: Kata kerja 'given' memerlukan object pronoun sebagai indirect object. 'Him' adalah object pronoun yang tepat."
+      "explanation": "Topic: Preposition. The adjective 'responsible' is always followed by the preposition 'for' when indicating the thing one is accountable for. Translation: Kepala sekolah bertanggung jawab secara langsung untuk menjaga disiplin dan ketertiban sekolah. Penjelasan: Kata sifat 'responsible' selalu diikuti oleh preposisi 'for' ketika menunjukkan hal yang menjadi tanggung jawab seseorang."
     },
     {
       "id": 40,
       "type": "mcq",
-      "question": "The information provided in the brochure is very ___.",
+      "question": "The applicants must submit their official ___ before the strict deadline.",
       "options": {
-        "A": "usefully",
-        "B": "use",
-        "C": "useful",
-        "D": "used"
+        "A": "applicable",
+        "B": "applicant",
+        "C": "application",
+        "D": "applying",
+        "E": "apply"
       },
       "correctAnswer": "C",
-      "explanation": "An adjective is needed after the linking verb 'is'. 'Useful' is the correct adjective form. Translation: Informasi yang disediakan dalam brosur tersebut sangat bermanfaat. Penjelasan: Adjective diperlukan setelah linking verb 'is'. 'Useful' adalah bentuk adjective yang tepat."
+      "explanation": "Topic: Vocabulary (Suffix). A noun is needed as the object of the verb 'submit'. The suffix '-ation' forms the noun 'application'. Translation: Para pelamar harus mengumpulkan lamaran resmi mereka sebelum tenggat waktu yang ketat. Penjelasan: Kata benda (noun) diperlukan sebagai objek dari kata kerja 'submit'. Sufiks '-ation' membentuk kata benda 'application'."
     },
     {
       "id": 41,
       "type": "mcq",
-      "question": "The children are playing ___ in the yard.",
+      "question": "The teacher gave ___ a special assignment to help improve his English writing skills.",
       "options": {
-        "A": "happier",
-        "B": "happily",
-        "C": "happy",
-        "D": "happiness"
+        "A": "himself",
+        "B": "him",
+        "C": "he",
+        "D": "they",
+        "E": "his"
       },
       "correctAnswer": "B",
-      "explanation": "An adverb of manner is needed to modify the verb 'playing'. 'Happily' is the correct adverb form. Translation: Anak-anak sedang bermain dengan gembira di halaman. Penjelasan: Adverb of manner diperlukan untuk memodifikasi verb 'playing'. 'Happily' adalah bentuk adverb yang tepat."
+      "explanation": "Topic: Pronoun (Indirect Object). The verb 'gave' requires an object pronoun to act as the indirect object. 'Him' is the correct form for a male singular recipient. Translation: Guru tersebut memberikan kepadanya tugas khusus untuk membantu meningkatkan keterampilan menulis bahasa Inggrisnya. Penjelasan: Kata kerja 'gave' memerlukan object pronoun untuk bertindak sebagai indirect object. 'Him' adalah bentuk yang tepat untuk penerima tunggal laki-laki."
     },
     {
       "id": 42,
       "type": "mcq",
-      "question": "The commander ordered the troops ___ forward.",
+      "question": "The instructions provided in the examination manual are very ___.",
       "options": {
-        "A": "advanced",
-        "B": "advancing",
-        "C": "advance",
-        "D": "to advance"
+        "A": "clearness",
+        "B": "cleared",
+        "C": "clear",
+        "D": "clearly",
+        "E": "clarity"
       },
-      "correctAnswer": "D",
-      "explanation": "The verb 'order' is followed by an object and an infinitive ('to advance') to form an object complement. Translation: Komandan memerintahkan pasukan untuk maju ke depan. Penjelasan: Verb 'order' diikuti oleh object dan infinitive ('to advance') untuk membentuk object complement."
+      "correctAnswer": "C",
+      "explanation": "Topic: Adjective. An adjective is needed after the linking verb 'are' to describe the noun 'instructions'. 'Clear' is the correct adjective form. Translation: Instruksi yang disediakan dalam manual ujian sangat jelas. Penjelasan: Kata sifat (adjective) diperlukan setelah linking verb 'are' untuk menjelaskan kata benda 'instructions'. 'Clear' adalah bentuk adjective yang tepat."
     },
     {
       "id": 43,
       "type": "mcq",
-      "question": "The manager praised the team for their ___ work on the project.",
+      "question": "She ___ her student ID card, so she cannot enter the examination room right now.",
       "options": {
-        "A": "excellent",
-        "B": "excel",
-        "C": "excellently",
-        "D": "excellence"
+        "A": "will lose",
+        "B": "is losing",
+        "C": "lost",
+        "D": "loses",
+        "E": "has lost"
       },
-      "correctAnswer": "A",
-      "explanation": "An adjective is needed to modify the noun 'work'. 'Excellent' is the correct adjective form. Translation: Manajer memuji tim atas kerja mereka yang sangat baik pada proyek tersebut. Penjelasan: Adjective diperlukan untuk memodifikasi noun 'work'. 'Excellent' adalah bentuk adjective yang tepat."
+      "correctAnswer": "E",
+      "explanation": "Topic: Present Perfect Tense. The present perfect tense 'has lost' is used for a past action that has a direct result in the present (she cannot enter now). Translation: Dia telah kehilangan kartu identitas pelajarnya, jadi dia tidak bisa masuk ke ruang ujian sekarang. Penjelasan: Present perfect tense 'has lost' digunakan untuk aksi masa lalu yang memiliki hasil langsung di masa kini."
     },
     {
       "id": 44,
       "type": "mcq",
-      "question": "He runs ___ than any other student in his class.",
+      "question": "The university applicant ___ his documents carefully before submitting them.",
       "options": {
-        "A": "fast",
-        "B": "more fast",
-        "C": "faster",
-        "D": "fastest"
+        "A": "check",
+        "B": "has checked",
+        "C": "checks",
+        "D": "checked",
+        "E": "checking"
       },
       "correctAnswer": "C",
-      "explanation": "The comparative degree 'faster' is used to compare his running speed with that of other students. Translation: Dia berlari lebih cepat daripada siswa lain di kelasnya. Penjelasan: Comparative degree 'faster' digunakan untuk membandingkan kecepatan larinya dengan siswa lain."
+      "explanation": "Topic: Simple Present Tense. The singular subject 'applicant' requires the verb form 'checks' for a habitual action. Translation: Pelamar universitas memeriksa dokumen-dokumennya dengan hati-hati sebelum mengumpulkannya. Penjelasan: Subjek tunggal 'applicant' memerlukan bentuk kata kerja 'checks' untuk tindakan yang menjadi kebiasaan."
     },
     {
       "id": 45,
       "type": "mcq",
-      "question": "She has been working here ___ five years.",
+      "question": "If the weather is bad tomorrow, the outdoor military drill ___ cancelled.",
       "options": {
-        "A": "since",
-        "B": "during",
-        "C": "for",
-        "D": "from"
+        "A": "is",
+        "B": "was",
+        "C": "will be",
+        "D": "has been",
+        "E": "would be"
       },
       "correctAnswer": "C",
-      "explanation": "The present perfect continuous tense uses 'for' to indicate a duration of time. Translation: Dia telah bekerja di sini selama lima tahun. Penjelasan: Present perfect continuous tense menggunakan 'for' untuk menunjukkan durasi waktu."
+      "explanation": "Topic: Simple Future Tense. In a first conditional sentence, the main clause uses the simple future tense ('will be') to describe a likely future result. Translation: Jika cuaca buruk besok, latihan militer di luar ruangan akan dibatalkan. Penjelasan: Dalam kalimat conditional type 1, main clause menggunakan simple future tense ('will be') untuk menggambarkan hasil di masa depan yang mungkin terjadi."
     },
     {
       "id": 46,
       "type": "mcq",
-      "question": "He wanted to join the military, ___ he failed the physical test.",
+      "question": "He is the ___ student in the entire military high school due to his perfect attendance.",
       "options": {
-        "A": "and",
-        "B": "because",
-        "C": "but",
-        "D": "so"
+        "A": "discipline",
+        "B": "most disciplined",
+        "C": "more disciplined",
+        "D": "disciplined",
+        "E": "disciplining"
       },
-      "correctAnswer": "C",
-      "explanation": "The conjunction 'but' is used to show contrast between two clauses. Translation: Dia ingin bergabung dengan militer, tetapi dia gagal dalam tes fisik. Penjelasan: Konjungsi 'but' digunakan untuk menunjukkan kontras antara dua klausa."
+      "correctAnswer": "B",
+      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form 'most disciplined' is used to compare one person to an entire group ('in the entire military high school'). Translation: Dia adalah siswa yang paling berdisiplin di seluruh sekolah menengah militer karena kehadirannya yang sempurna. Penjelasan: Bentuk superlatif 'most disciplined' digunakan untuk membandingkan satu orang dengan seluruh kelompok."
     },
     {
       "id": 47,
       "type": "mcq",
-      "question": "Neither the students nor the teacher ___ in the classroom right now.",
+      "question": "The mysterious ___ of the confidential files caused a major security breach at the office.",
       "options": {
-        "A": "have been",
-        "B": "are",
-        "C": "is",
-        "D": "were"
+        "A": "appear",
+        "B": "appearance",
+        "C": "disappearance",
+        "D": "disappear",
+        "E": "disappearing"
       },
       "correctAnswer": "C",
-      "explanation": "With 'neither/nor', the verb agrees with the subject closest to it. 'Teacher' is singular, so 'is' is correct. Translation: Baik para siswa maupun guru tidak ada di dalam kelas sekarang. Penjelasan: Dengan 'neither/nor', verb sesuai dengan subjek yang paling dekat. 'Teacher' adalah singular, jadi 'is' adalah benar."
+      "explanation": "Topic: Vocabulary (Prefix and Suffix). The prefix 'dis-' indicates reversal, and the suffix '-ance' forms a noun. 'Disappearance' means the act of vanishing. Translation: Hilangnya berkas-berkas rahasia secara misterius menyebabkan pelanggaran keamanan besar di kantor tersebut. Penjelasan: Prefix 'dis-' menunjukkan pembalikan, dan sufiks '-ance' membentuk kata benda. 'Disappearance' berarti tindakan menghilang."
     },
     {
       "id": 48,
       "type": "mcq",
-      "question": "Look! The students ___ for the university entrance exam right now.",
+      "question": "The judge handed ___ the final verdict after a long and careful deliberation.",
       "options": {
-        "A": "are studying",
-        "B": "study",
-        "C": "have studied",
-        "D": "studied"
+        "A": "his",
+        "B": "him",
+        "C": "he",
+        "D": "they",
+        "E": "himself"
       },
-      "correctAnswer": "A",
-      "explanation": "The present continuous tense is used for actions happening at the moment of speaking, indicated by 'Look!' and 'right now'. Translation: Lihat! Para siswa sedang belajar untuk ujian masuk universitas sekarang juga. Penjelasan: Present continuous tense digunakan untuk aksi yang terjadi saat bicara, ditandai dengan 'Look!' dan 'right now'."
+      "correctAnswer": "B",
+      "explanation": "Topic: Pronoun (Indirect Object). The verb 'handed' requires an object pronoun to act as the indirect object receiving the verdict. 'Him' is the correct form. Translation: Hakim menyerahkan kepadanya vonis akhir setelah musyawarah yang panjang dan hati-hati. Penjelasan: Kata kerja 'handed' memerlukan object pronoun untuk bertindak sebagai indirect object yang menerima vonis tersebut. 'Him' adalah bentuk yang tepat."
     },
     {
       "id": 49,
       "type": "mcq",
-      "question": "The doctor advised him to eat ___ vegetables and less sugar.",
+      "question": "My older brother ___ to the city library every weekend to prepare for his university exams.",
       "options": {
-        "A": "much",
-        "B": "many",
-        "C": "most",
-        "D": "more"
+        "A": "going",
+        "B": "went",
+        "C": "gone",
+        "D": "go",
+        "E": "goes"
       },
-      "correctAnswer": "D",
-      "explanation": "The comparative form 'more' is used to suggest an increase in quantity, contrasting with 'less'. Translation: Dokter menasihatinya untuk makan lebih banyak sayuran dan lebih sedikit gula. Penjelasan: Bentuk komparatif 'more' digunakan untuk menyarankan peningkatan jumlah, ber kontras dengan 'less'."
+      "correctAnswer": "E",
+      "explanation": "Topic: Simple Present Tense. The third-person singular subject 'brother' requires the verb form 'goes' for a habitual routine. Translation: Kakak laki-laki saya pergi ke perpustakaan kota setiap akhir pekan untuk mempersiapkan ujian universitasnya. Penjelasan: Subjek orang ketiga tunggal 'brother' memerlukan bentuk kata kerja 'goes' untuk rutinitas yang menjadi kebiasaan."
     },
     {
       "id": 50,
       "type": "mcq",
-      "question": "This is the man ___ car was stolen yesterday.",
+      "question": "This is the ___ opportunity you will ever get to study at a top state university.",
       "options": {
-        "A": "which",
-        "B": "whom",
-        "C": "who",
-        "D": "whose"
+        "A": "good",
+        "B": "well",
+        "C": "best",
+        "D": "bestest",
+        "E": "better"
       },
-      "correctAnswer": "D",
-      "explanation": "The relative pronoun 'whose' is used to show possession, indicating the car belongs to the man. Translation: Ini adalah pria yang mobilnya dicuri kemarin. Penjelasan: Relative pronoun 'whose' digunakan untuk menunjukkan kepemilikan, menunjukkan bahwa mobil tersebut milik pria itu."
+      "correctAnswer": "C",
+      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form of the adjective 'good' is 'best', used to indicate the highest quality among all possibilities. Translation: Ini adalah kesempatan terbaik yang akan pernah kamu dapatkan untuk belajar di universitas negeri terkemuka. Penjelasan: Bentuk superlatif dari kata sifat 'good' adalah 'best', digunakan untuk menunjukkan kualitas tertinggi di antara semua kemungkinan."
     }
   ]
 }
