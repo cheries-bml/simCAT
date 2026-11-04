@@ -27,7 +27,7 @@
       "type": "mcq",
       "question": "Currently, the candidates are studying harder than ever before to achieve the highest possible score on the entrance ___.",
       "options": {
-        "A": "exams",
+        "A": "example",
         "B": "examiner",
         "C": "exam",
         "D": "examined",
@@ -73,7 +73,7 @@
         "B": "exercising",
         "C": "exerciser",
         "D": "exercised",
-        "E": "exercise"
+        "E": "exercisely"
       },
       "correctAnswer": "A",
       "explanation": "Topik: Simple Future Tense, Adverb, Preposition. Terjemahan: Para rekrutan baru akan berbaris dengan berani ke pusat pelatihan besok pagi untuk memulai latihan fisik mereka yang ketat. Penjelasan: 'Will march' menunjukkan Simple Future Tense. 'Bravely' adalah adverb. 'Into' adalah preposition."
@@ -211,7 +211,7 @@
       "options": {
         "A": "alcoholic",
         "B": "alcoholism",
-        "C": "alcohols",
+        "C": "alcoholized",
         "D": "alcoholize",
         "E": "alcohol"
       },
@@ -279,7 +279,7 @@
       "type": "mcq",
       "question": "The team is currently focusing on the improvement of their defensive strategies for the next ___.",
       "options": {
-        "A": "matches",
+        "A": "to match",
         "B": "match",
         "C": "matchless",
         "D": "matching",
@@ -379,7 +379,7 @@
       "options": {
         "A": "earliness",
         "B": "early",
-        "C": "earlier",
+        "C": "more early",
         "D": "earliest",
         "E": "earl"
       },
@@ -519,7 +519,7 @@
       "options": {
         "A": "profitability",
         "B": "profiting",
-        "C": "profitable",
+        "C": "profitted",
         "D": "profit",
         "E": "unprofitable"
       },
@@ -577,7 +577,7 @@
         "B": "processed",
         "C": "processor",
         "D": "process",
-        "E": "processes"
+        "E": "to process"
       },
       "correctAnswer": "D",
       "explanation": "Topik: Simple Present Tense, Pronoun, Adjective. Terjemahan: Akademi kepolisian menerima kandidat-kandidatnya yang menunjukkan disiplin luar biasa selama proses seleksi. Penjelasan: 'Accepts' adalah Simple Present Tense untuk singular subject. 'Its' adalah possessive pronoun. 'Exceptional' adalah adjective."
@@ -702,7 +702,7 @@
         "A": "policing",
         "B": "policymaker",
         "C": "policemen",
-        "D": "policy",
+        "D": "police",
         "E": "policies"
       },
       "correctAnswer": "E",

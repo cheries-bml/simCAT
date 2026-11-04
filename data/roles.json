@@ -28,6 +28,7 @@
       "./questions/intermediate/english/grammar/**",
       "./questions/intermediate/english/tenses/**",
       "./questions/intermediate/english/reading/**",
+      "./questions/advanced/english/tryout/adv.tryout 01.json",
       "./questions/trivials/**"
     ],
     "filesAllowed":[
