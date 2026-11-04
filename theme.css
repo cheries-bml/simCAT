@@ -1,0 +1,27 @@
+/* theme.css - simCAT by Cheries - easy theming for GitPgs */
+:root{
+  --primary:#7c1d2b; --primary-strong:#5a1420;
+  --bg:#fdf8f5; --card:#ffffff; --border:#e7ddd9;
+  --text:#2b1a1d; --text-strong:#1a0f11; --text-muted:#8a6d72; --text-faint:#b89ca1;
+  --accent:#f8ecea;
+  --shadow:0 4px 20px rgba(124,29,43,0.08);
+  --shadow-md:0 8px 30px rgba(124,29,43,0.12);
+  --shadow-lg:0 16px 50px rgba(124,29,43,0.16);
+  --radius:16px;
+  --font-heading:'Plus Jakarta Sans', sans-serif;
+  --font-body:'Inter', sans-serif;
+  --font-mono:'JetBrains Mono', monospace;
+}
+[data-theme='black']{
+  --primary:#e85d4a; --primary-strong:#ff7a66;
+  --bg:#0a0a0a; --card:#171717; --border:#262626;
+  --text:#e5e5e5; --text-strong:#ffffff; --text-muted:#a3a3a3; --text-faint:#737373;
+  --accent:#1f1f1f;
+}
+[data-theme='light']{
+  --primary:#7c1d2b; --bg:#ffffff; --card:#ffffff; --border:#f0e6e2;
+}
+/* Example customizations - uncomment to use
+.heading{ letter-spacing:-0.02em; }
+button{ border-radius:12px; }
+*/
