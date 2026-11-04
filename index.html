@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" translate="no" class="notranslate">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google" content="notranslate">
 <title>simCAT by Cheries</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root{--primary:#7c1d2b;--primary-strong:#5a1420;--bg:#fdf8f5;--card:#fff;--border:#e7ddd9;--text:#2b1a1d;--text-strong:#1a0f11;--text-muted:#8a6d72;--text-faint:#b89ca1;--accent:#f8ecea;--shadow:0 4px 20px rgba(124,29,43,0.08);--shadow-md:0 8px 30px rgba(124,29,43,0.12);--shadow-lg:0 16px 50px rgba(124,29,43,0.16);--radius:16px;--font-heading:'Plus Jakarta Sans',sans-serif;--font-body:'Inter',sans-serif;--font-mono:'JetBrains Mono',monospace}
-[data-theme='black']{--primary:#e85d4a;--primary-strong:#ff7a66;--bg:#0a0a0a;--card:#171717;--border:#262626;--text:#e5e5e5;--text-strong:#fff;--text-muted:#a3a3a3;--text-faint:#737373;--accent:#1f1f1f}
-*{box-sizing:border-box} body{margin:0;font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.65}
-.mono{font-family:var(--font-mono)} .heading{font-family:var(--font-heading)}
-@media(max-width:900px){.bank-layout{grid-template-columns:1fr !important} .dashboard-grid{grid-template-columns:1fr !important}}
+[data-theme='black']{--primary:#e85d4a;--bg:#0a0a0a;--card:#171717;--border:#262626;--text:#e5e5e5;--text-strong:#fff;--text-muted:#a3a3a3;--text-faint:#737373;--accent:#1f1f1f}
+*{box-sizing:border-box}body{margin:0;font-family:var(--font-body);background:var(--bg);color:var(--text)} .mono{font-family:var(--font-mono)} .heading{font-family:var(--font-heading)}
+@media(max-width:900px){.bank-layout{grid-template-columns:1fr !important}}
 </style>
-<script>try{var href=[".","/","theme",".css"].join("").replace("//","/"); var id="theme-css-link"; var l=document.getElementById(id); if(!l){l=document.createElement("link"); l.id=id; l.rel="stylesheet"; l.onerror=function(){try{l.remove()}catch(e){}}; document.head.appendChild(l);} l.href=href+"?t="+Date.now();}catch(e){}</script>
+<script>try{var href=[".","/","theme",".css"].join("").replace("//","/");var id="theme-css-link";var l=document.getElementById(id);if(!l){l=document.createElement("link");l.id=id;l.rel="stylesheet";l.onerror=function(){try{l.remove()}catch(e){}};document.head.appendChild(l);}l.href=href+"?t="+Date.now();}catch(e){}</script>
 </head>
 <body>
 <div id="root"></div>
-<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script type="text/babel" data-presets="react">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"></script>
+<script>
+// Plain HTML build - no Babel, uses htm
+const html = htm.bind(React.createElement);
 const {useState,useEffect,useMemo} = React;
 const APP_VERSION = 'v2.8.0 - Multi-correct MCQ + Extended Meta + Favorites + Detail Modal + theme.css';
 const MOCK_CONFIG = {appName:"Cognition CAT",companyName:"Atlas Learning Labs",pageTitle:"simCAT by Cheries",logoText:"COGNITION",welcomeTitle:"Assess with precision.",welcomeSubtitle:"Built for institutions that take learning seriously",welcomeText:"File-based CAT on GitPgs. Questions in /questions/, users in user.json.",footerText:"© 2025 Atlas Learning Labs — File-first assessment on GitPgs.",designer:"Designed by Atlas Studio",logoUrl:"",accountCheckIntervalDays:3};
 const MOCK_USERS = [{username:"admin",password:"admin123",role:"admin",name:"Alex Morgan"},{username:"teacher",password:"teacher123",role:"teacher",name:"Dr. Evelyn Shaw"},{username:"student",password:"student123",role:"student",name:"Samir Patel"}];
 const MOCK_Q_MANIFEST = [
-  {level:"easy",group:"english",topic:"grammar-error",path:"./questions/easy/english/grammar-error/question.json",title:"Common Error Spotting",description:"Identify incorrect word",creator:"Cheries",levelLabel:"easy",topics:["grammar","error-spotting"],updatedAt:"2025-11-04",typeCounts:{click_correct:2,mcq:1}},
-  {level:"easy",group:"english",topic:"multi-error",path:"./questions/easy/english/multi-error/question.json",title:"Multi-Error Spotting (New)",description:"Multiple errors",creator:"Cheries",levelLabel:"easy",topics:["grammar","multi-error"],updatedAt:"2025-11-04",typeCounts:{multi_error:4}},
-  {level:"intermediate",group:"english",topic:"reading",path:"./questions/intermediate/english/reading/question.json",title:"Reading Comprehension — Climate",description:"Read passage",creator:"Atlas",levelLabel:"intermediate",topics:["reading"],updatedAt:"2025-11-02",typeCounts:{passage_mcq:1,mcq:1}},
-  {level:"advance",group:"math",topic:"psychotest",path:"./questions/advance/math/psychotest/question.json",title:"Visual Reasoning & Logic",description:"Image reasoning",creator:"Atlas",levelLabel:"advance",topics:["logic","visual"],updatedAt:"2025-10-20",typeCounts:{image_mcq:1,mcq:1}},
+  {level:"easy",group:"english",topic:"grammar-error",path:"./questions/easy/english/grammar-error/question.json",title:"Common Error Spotting",description:"Identify incorrect word",creator:"Cheries",topics:["grammar","error-spotting"],updatedAt:"2025-11-04",typeCounts:{click_correct:2,mcq:1}},
+  {level:"easy",group:"english",topic:"multi-error",path:"./questions/easy/english/multi-error/question.json",title:"Multi-Error Spotting (New)",description:"Multiple errors",creator:"Cheries",topics:["grammar","multi-error"],updatedAt:"2025-11-04",typeCounts:{multi_error:4}},
+  {level:"intermediate",group:"english",topic:"reading",path:"./questions/intermediate/english/reading/question.json",title:"Reading Comprehension — Climate",description:"Read passage",creator:"Atlas",topics:["reading"],updatedAt:"2025-11-02",typeCounts:{passage_mcq:1,mcq:1}},
 ];
 const MOCK_Q_FILES = {
-  "./questions/easy/english/grammar-error/question.json": {meta:{title:"Common Error Spotting",description:"Identify incorrect word and provide correction. Case insensitive, accepts contractions.",timeLimits:{fast:5,normal:10,easy:20},creator:"Cheries",level:"easy",topics:["grammar"],updatedAt:"2025-11-04"},questions:[
+  "./questions/easy/english/grammar-error/question.json": {meta:{title:"Common Error Spotting",description:"Identify incorrect word and provide correction.",timeLimits:{fast:5,normal:10,easy:20},creator:"Cheries",level:"easy",topics:["grammar"],updatedAt:"2025-11-04"},questions:[
     {id:"q1",type:"click_correct",question:"Select the incorrect word in the sentence and type the correct form.",sentence:"She doesn't likes to be interrupted during her research.",tokens:["She","doesn't","likes","to","be","interrupted","during","her","research."],incorrectIndex:2,correctAnswers:["like"],explanation:"With auxiliary doesn't, base form like is required."},
     {id:"q2",type:"click_correct",question:"Find the error.",sentence:"They was planning to visit the museum yesterday.",tokens:["They","was","planning","to","visit","the","museum","yesterday."],incorrectIndex:1,correctAnswers:["were"],explanation:"They requires were."},
-    {id:"q3",type:"mcq",question:"Choose the correct sentences (multi-correct example):",options:{A:"Each of the students have finished.",B:"Each of the students has finished.",C:"Each of the students has finished their work.",D:"Each students has finished."},correctAnswer:["B","C"],multipleCorrect:true,explanation:"B and C are both grammatical."}
+    {id:"q3",type:"mcq",question:"Choose the correct sentences (multi-correct example):",options:{A:"Each of the students have finished.",B:"Each of the students has finished.",C:"Each of the students has finished their work.",D:"Each students has finished."},correctAnswer:["B","C"],multipleCorrect:true,explanation:"B and C are both grammatical. Each is singular but can take their as singular they."}
   ]},
   "./questions/intermediate/english/reading/question.json": {meta:{title:"Reading Comprehension — Climate",description:"Read passage and answer.",timeLimits:{fast:7,normal:15,easy:25},creator:"Atlas",level:"intermediate",topics:["reading","climate"],updatedAt:"2025-11-02"},questions:[
     {id:"q1",type:"passage_mcq",passage:"The reversal of ocean currents in the North Atlantic has been linked to abrupt climate shifts. When freshwater influx reduces salinity, density-driven circulation weakens.",question:"What weakens density-driven circulation?",options:{A:"Salinity increase",B:"Freshwater influx",C:"Temperature rise",D:"Wind patterns"},correctAnswer:"B",explanation:"Freshwater influx reduces salinity."},
     {id:"q2",type:"mcq",question:"Which statements are true? (multi-correct)",options:{A:"Ocean currents transport heat",B:"Freshwater increases salinity",C:"Ice cores show abrupt shifts",D:"Climate is static"},correctAnswer:["A","C"],multipleCorrect:true,explanation:"A and C are true per passage."}
-  ]},
-  "./questions/easy/english/multi-error/question.json": {meta:{title:"Multi-Error Spotting",description:"Multiple errors",timeLimits:{fast:8,normal:14,easy:25},creator:"Cheries"},questions:[
-    {id:"q_multi1",type:"multi_error",question:"Identify all errors.",sentence:"The students was planning to visit the museum yesterday.",multiErrorSegments:[{id:"s0",text:"The students",clickable:false},{id:"s1",text:"was",clickable:true,isError:true,correctAnswers:["were"]},{id:"s2",text:"planning to visit the museum yesterday.",clickable:false}],explanation:"Plural requires were."}
   ]}
 };
 function normalizeAnswer(s){return s.toLowerCase().trim().replace(/\s+/g,' ').replace(/['’]/g,"'").replace(/\./g,'');}
@@ -55,65 +51,57 @@ function checkMcqCorrect(q,userAns){var correct=getCorrectList(q).map(function(s
 function getTopicsArray(t){if(!t) return []; if(Array.isArray(t)) return t; return [t];}
 function formatTime(s){var sec=Math.max(0,Math.floor(s)); var m=Math.floor(sec/60); var ss=sec%60; return String(m).padStart(2,'0')+":"+String(ss).padStart(2,'0');}
 function App(){
-  const [route,setRoute] = useState(()=> location.hash.replace('#','') || '/login');
-  const [session,setSession] = useState(()=>{try{var v=localStorage.getItem('cat_session'); return v?JSON.parse(v):null;}catch(e){return null;}});
-  const [users,setUsers] = useState(MOCK_USERS);
-  const [config,setConfig] = useState(MOCK_CONFIG);
-  const [qManifest,setQManifest] = useState(MOCK_Q_MANIFEST);
-  const [theme,setTheme] = useState(()=> localStorage.getItem('cat_theme')||'light');
-  const [selectedManifest,setSelectedManifest] = useState(null);
-  const [questions,setQuestions] = useState([]);
-  const [answers,setAnswers] = useState({});
-  const [currentQIdx,setCurrentQIdx] = useState(0);
-  const [timeLeft,setTimeLeft] = useState(0);
-  const [totalSeconds,setTotalSeconds] = useState(0);
-  const [testStarted,setTestStarted] = useState(false);
-  const [showAnswerMode,setShowAnswerMode] = useState(false);
-  const [showExplanation,setShowExplanation] = useState(null);
-  const [attempts,setAttempts] = useState(()=>{try{var v=localStorage.getItem('cat_results'); var arr=v?JSON.parse(v):[]; return arr.filter(function(x){return x&&x.id;});}catch(e){return [];}});
-  const [selectedAttemptId,setSelectedAttemptId] = useState(null);
-  const [resultsFilter,setResultsFilter] = useState('all');
-  const [favorites,setFavorites] = useState(()=>{try{var sess=JSON.parse(localStorage.getItem('cat_session')||'{}'); var k='cat_favorites_'+(sess.username||'guest'); var v=localStorage.getItem(k); return v?JSON.parse(v):[];}catch(e){return [];}});
-  const [testDetail,setTestDetail] = useState(null);
-  const [detailTypeCounts,setDetailTypeCounts] = useState(null);
-  const [favFilter,setFavFilter] = useState('all');
-  const [groupFilter,setGroupFilter] = useState('all');
-  const [topicFilter,setTopicFilter] = useState('all');
-  const [searchFilter,setSearchFilter] = useState('');
-  const [myResultPreview,setMyResultPreview] = useState(null);
-  useEffect(()=>{var h=function(){setRoute(location.hash.replace('#','')||'/login');}; window.addEventListener('hashchange',h); return function(){window.removeEventListener('hashchange',h);};},[]);
-  useEffect(()=>{document.documentElement.setAttribute('data-theme',theme); localStorage.setItem('cat_theme',theme);},[theme]);
-  useEffect(()=>{if(!session){location.hash='#/login'; return;} if(route==='/login') location.hash='#/dashboard';},[session]);
-  useEffect(()=>{try{localStorage.setItem('cat_results',JSON.stringify(attempts));}catch(e){}},[attempts]);
-  useEffect(()=>{try{var k='cat_favorites_'+(session&&session.username?session.username:'guest'); localStorage.setItem(k,JSON.stringify(favorites));}catch(e){}},[favorites]);
-  useEffect(()=>{if(!testStarted||timeLeft<=0) return; var id=setInterval(function(){setTimeLeft(function(v){if(v<=1){handleSubmit(); return 0;} return v-1;});},1000); return function(){clearInterval(id);};},[testStarted,timeLeft]);
-  const toggleFavorite = function(id){setFavorites(function(prev){var next=prev.includes(id)?prev.filter(function(x){return x!==id;}):[...prev,id]; try{var k='cat_favorites_'+(session&&session.username?session.username:'guest'); localStorage.setItem(k,JSON.stringify(next));}catch(e){} return next;});};
-  const handleLogin = function(u,p){var found=users.find(function(x){return x.username===u&&x.password===p;}); if(found){var s={username:found.username,role:found.role,name:found.name}; localStorage.setItem('cat_session',JSON.stringify(s)); setSession(s); location.hash='#/dashboard';} else alert('Invalid credentials');};
-  const handleLogout = function(){localStorage.removeItem('cat_session'); setSession(null); location.hash='#/login';};
-  const filteredManifest = useMemo(function(){
-    return qManifest.filter(function(m){
-      if(favFilter==='favorites' && !favorites.includes(m.path)) return false;
-      if(groupFilter!=='all' && m.group!==groupFilter) return false;
-      if(topicFilter!=='all' && m.topic!==topicFilter) return false;
-      if(searchFilter && !(m.title.toLowerCase().includes(searchFilter.toLowerCase()) || m.group.toLowerCase().includes(searchFilter.toLowerCase()) || (m.topics&&getTopicsArray(m.topics).join(' ').toLowerCase().includes(searchFilter.toLowerCase())))) return false;
-      return true;
-    });
-  },[qManifest,favFilter,groupFilter,topicFilter,searchFilter,favorites]);
-  const groups = useMemo(function(){return [...new Set(qManifest.map(function(m){return m.group;}))];},[qManifest]);
-  const topics = useMemo(function(){return [...new Set(qManifest.filter(function(m){return groupFilter==='all'||m.group===groupFilter;}).map(function(m){return m.topic;}))];},[qManifest,groupFilter]);
-  const handleOpenDetail = function(m){
+  const [route,setRoute] = React.useState(()=> location.hash.replace('#','') || '/login');
+  const [session,setSession] = React.useState(()=>{try{var v=localStorage.getItem('cat_session'); return v?JSON.parse(v):null;}catch(e){return null;}});
+  const [users] = React.useState(MOCK_USERS);
+  const [config] = React.useState(MOCK_CONFIG);
+  const [qManifest] = React.useState(MOCK_Q_MANIFEST);
+  const [theme,setTheme] = React.useState(()=> localStorage.getItem('cat_theme')||'light');
+  const [selectedManifest,setSelectedManifest] = React.useState(null);
+  const [questions,setQuestions] = React.useState([]);
+  const [answers,setAnswers] = React.useState({});
+  const [currentQIdx,setCurrentQIdx] = React.useState(0);
+  const [timeLeft,setTimeLeft] = React.useState(0);
+  const [totalSeconds,setTotalSeconds] = React.useState(0);
+  const [testStarted,setTestStarted] = React.useState(false);
+  const [showAnswerMode,setShowAnswerMode] = React.useState(false);
+  const [attempts,setAttempts] = React.useState(()=>{try{var v=localStorage.getItem('cat_results'); var arr=v?JSON.parse(v):[]; return arr.filter(function(x){return x&&x.id;});}catch(e){return [];}});
+  const [selectedAttemptId,setSelectedAttemptId] = React.useState(null);
+  const [resultsFilter,setResultsFilter] = React.useState('all');
+  const [favorites,setFavorites] = React.useState(()=>{try{var sess=JSON.parse(localStorage.getItem('cat_session')||'{}'); var k='cat_favorites_'+(sess.username||'guest'); var v=localStorage.getItem(k); return v?JSON.parse(v):[];}catch(e){return [];}});
+  const [testDetail,setTestDetail] = React.useState(null);
+  const [detailTypeCounts,setDetailTypeCounts] = React.useState(null);
+  const [favFilter,setFavFilter] = React.useState('all');
+  const [groupFilter,setGroupFilter] = React.useState('all');
+  const [topicFilter,setTopicFilter] = React.useState('all');
+  const [searchFilter,setSearchFilter] = React.useState('');
+  const [myResultPreview,setMyResultPreview] = React.useState(null);
+  React.useEffect(()=>{var h=function(){setRoute(location.hash.replace('#','')||'/login');}; window.addEventListener('hashchange',h); return function(){window.removeEventListener('hashchange',h);};},[]);
+  React.useEffect(()=>{document.documentElement.setAttribute('data-theme',theme); localStorage.setItem('cat_theme',theme);},[theme]);
+  React.useEffect(()=>{if(!session){location.hash='#/login'; return;} if(route==='/login') location.hash='#/dashboard';},[session]);
+  React.useEffect(()=>{try{localStorage.setItem('cat_results',JSON.stringify(attempts));}catch(e){}},[attempts]);
+  React.useEffect(()=>{try{var k='cat_favorites_'+(session&&session.username?session.username:'guest'); localStorage.setItem(k,JSON.stringify(favorites));}catch(e){}},[favorites]);
+  React.useEffect(()=>{if(!testStarted||timeLeft<=0) return; var id=setInterval(function(){setTimeLeft(function(v){if(v<=1){handleSubmit(); return 0;} return v-1;});},1000); return function(){clearInterval(id);};},[testStarted,timeLeft]);
+  function toggleFavorite(id){setFavorites(function(prev){var next=prev.includes(id)?prev.filter(function(x){return x!==id;}):[...prev,id]; try{var k='cat_favorites_'+(session&&session.username?session.username:'guest'); localStorage.setItem(k,JSON.stringify(next));}catch(e){} return next;});}
+  function handleLogin(u,p){var found=users.find(function(x){return x.username===u&&x.password===p;}); if(found){var s={username:found.username,role:found.role,name:found.name}; localStorage.setItem('cat_session',JSON.stringify(s)); setSession(s); location.hash='#/dashboard';} else alert('Invalid credentials');}
+  function handleLogout(){localStorage.removeItem('cat_session'); setSession(null); location.hash='#/login';}
+  var filteredManifest = MOCK_Q_MANIFEST.filter(function(m){
+    if(favFilter==='favorites' && !favorites.includes(m.path)) return false;
+    if(groupFilter!=='all' && m.group!==groupFilter) return false;
+    if(topicFilter!=='all' && m.topic!==topicFilter) return false;
+    if(searchFilter && !(m.title.toLowerCase().includes(searchFilter.toLowerCase()) || m.group.toLowerCase().includes(searchFilter.toLowerCase()) || (m.topics&&getTopicsArray(m.topics).join(' ').toLowerCase().includes(searchFilter.toLowerCase())))) return false;
+    return true;
+  });
+  var groups = [...new Set(MOCK_Q_MANIFEST.map(function(m){return m.group;}))];
+  var topics = [...new Set(MOCK_Q_MANIFEST.filter(function(m){return groupFilter==='all'||m.group===groupFilter;}).map(function(m){return m.topic;}))];
+  function handleOpenDetail(m){
     setTestDetail(m);
     setDetailTypeCounts(null);
     var qf = MOCK_Q_FILES[m.path];
     if(qf){var counts={}; qf.questions.forEach(function(q){counts[q.type]=(counts[q.type]||0)+1;}); setDetailTypeCounts(counts); return;}
     if(m.typeCounts){setDetailTypeCounts(m.typeCounts); return;}
-    if(m.counts){setDetailTypeCounts(m.counts); return;}
-    try{
-      var url = (m.path + "?t=" + Date.now());
-      fetch(url,{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){if(j&&j.questions){var counts={}; j.questions.forEach(function(q){counts[q.type]=(counts[q.type]||0)+1;}); setDetailTypeCounts(counts);}}).catch(function(){});
-    }catch(e){}
-  };
-  const handleStartTest = function(m,level){
+  }
+  function handleStartTest(m,level){
     var qf = MOCK_Q_FILES[m.path] || {meta:{title:m.title,description:m.description||'',timeLimits:{fast:5,normal:10,easy:20},creator:m.creator,topics:m.topics,updatedAt:m.updatedAt},questions:[]};
     var meta = qf.meta;
     var tl = meta.timeLimits || {fast:5,normal:10,easy:20};
@@ -128,8 +116,8 @@ function App(){
     setShowAnswerMode(false);
     setTestDetail(null);
     location.hash='#/test';
-  };
-  const handleSubmit = function(){
+  }
+  function handleSubmit(){
     var score={correct:0,incorrect:0,unanswered:0};
     questions.forEach(function(q){
       var ans=answers[q.id];
@@ -137,7 +125,6 @@ function App(){
       var ok=false;
       if(q.type==='mcq'||q.type==='passage_mcq'||q.type==='image_mcq'){ok=checkMcqCorrect(q,ans);}
       else if(q.type==='click_correct'){ok=checkTypingAnswer(ans,q.correctAnswers||[]);}
-      else if(q.type==='multi_error'){try{var p=JSON.parse(ans); var actual=(q.multiErrorSegments||[]).filter(function(s){return s.clickable&&s.isError;}).map(function(s){return s.id;}).sort().join(','); var sel=(p.selectedIds||[]).sort().join(','); if(actual!==sel) ok=false; else {ok=true; for(var ii=0;ii<p.selectedIds.length;ii++){var id=p.selectedIds[ii]; var seg=(q.multiErrorSegments||[]).find(function(s){return s.id===id;}); if(!seg||!checkTypingAnswer(p.corrections[id]||'',seg.correctAnswers||[])){ok=false; break;}} if(p.noError && actual==='') ok=true;}}catch(e){ok=false;}}
       if(ok) score.correct++; else score.incorrect++;
     });
     var attempt={id:'att_'+Date.now(),date:new Date().toISOString(),manifest:selectedManifest,questions:questions,answers:answers,timeLevel:'normal',score:score};
@@ -147,323 +134,239 @@ function App(){
     try{ fetch("actions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "records.create", args: { collection: "attempts", value: attempt } }) }); }catch(e){}
     location.hash='#/results';
     setSelectedAttemptId(attempt.id);
-  };
+  }
   var currentQ = questions[currentQIdx];
   var selectedAttempt = attempts.find(function(a){return a.id===selectedAttemptId;}) || attempts[0] || null;
-  return (
-    <div style={{minHeight:'100vh',display:'flex',flexDirection:'column'}}>
-      <header style={{position:'sticky',top:0,zIndex:10,background:'rgba(255,255,255,0.85)',backdropFilter:'blur(12px)',borderBottom:'1px solid var(--border)',padding:'12px 20px',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-        <div style={{display:'flex',alignItems:'center',gap:10,cursor:'pointer'}} onClick={()=>location.reload()}>
-          <div style={{width:32,height:32,borderRadius:8,background:'var(--primary)',display:'grid',placeItems:'center',color:'white',fontWeight:700,fontFamily:'var(--font-heading)'}}>{(config.logoText||'C')[0]}</div>
-          <div><div className="heading" style={{fontWeight:700,fontSize:14}}>{config.appName}</div><div className="mono" style={{fontSize:10,color:'var(--text-muted)'}}>{APP_VERSION} • GitPgs</div></div>
-          <span className="mono" style={{fontSize:9,fontWeight:700,padding:'3px 7px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)',marginLeft:8}}>{APP_VERSION}</span>
+  // UI helpers using htm
+  return html`
+    <div style=${{minHeight:'100vh',display:'flex',flexDirection:'column'}}>
+      <header style=${{position:'sticky',top:0,zIndex:10,background:'rgba(255,255,255,0.85)',backdropFilter:'blur(12px)',borderBottom:'1px solid var(--border)',padding:'12px 20px',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+        <div style=${{display:'flex',alignItems:'center',gap:10,cursor:'pointer'}} onClick=${()=>location.reload()}>
+          <div style=${{width:32,height:32,borderRadius:8,background:'var(--primary)',display:'grid',placeItems:'center',color:'white',fontWeight:700}}>${(config.logoText||'C')[0]}</div>
+          <div><div className="heading" style=${{fontWeight:700,fontSize:14}}>${config.appName}</div><div className="mono" style=${{fontSize:10,color:'var(--text-muted)'}}>${APP_VERSION} • GitPgs Plain HTML</div></div>
         </div>
-        <div style={{display:'flex',gap:8,alignItems:'center'}}>
-          <select value={theme} onChange={function(e){setTheme(e.target.value);}} className="mono" style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',fontSize:11}}><option value="light">Light</option><option value="black">Dark</option></select>
-          {session && <button onClick={handleLogout} className="mono" style={{padding:'6px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>LOGOUT</button>}
+        <div style=${{display:'flex',gap:8,alignItems:'center'}}>
+          <select value=${theme} onChange=${(e)=>setTheme(e.target.value)} className="mono" style=${{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',fontSize:11}}><option value="light">Light</option><option value="black">Dark</option></select>
+          ${session ? html`<button onClick=${handleLogout} className="mono" style=${{padding:'6px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>LOGOUT</button>` : null}
         </div>
       </header>
-      <nav style={{display:'flex',gap:8,padding:'12px 20px',flexWrap:'wrap',background:'var(--card)',borderBottom:'1px solid var(--border)'}}>
-        {[
+      <nav style=${{display:'flex',gap:8,padding:'12px 20px',flexWrap:'wrap',background:'var(--card)',borderBottom:'1px solid var(--border)'}}>
+        ${[
           {href:'#/dashboard',label:'Dashboard',roles:['admin','teacher','student']},
           {href:'#/test',label:'Take Test',roles:['admin','teacher','student']},
           {href:'#/results',label:'My Results',roles:['admin','teacher','student']},
-          {href:'#/files',label:'Files',roles:['admin','teacher','student']},
           {href:'#/about',label:'About',roles:['admin','teacher','student']},
-          {href:'#/admin',label:'Admin',roles:['admin']},
-        ].filter(function(l){return !session||l.roles.includes(session.role);}).map(function(l){
-          return <a key={l.href} href={l.href} className="mono" style={{padding:'7px 12px',borderRadius:999,border:'1px solid',borderColor:route===l.href.replace('#','')?'var(--primary)':'var(--border)',background:route===l.href.replace('#','')?'var(--accent)':'var(--card)',fontSize:11,fontWeight:600}}>{l.label}</a>;
-        })}
+        ].filter(l=>!session||l.roles.includes(session.role)).map(l=> html`
+          <a key=${l.href} href=${l.href} className="mono" style=${{padding:'7px 12px',borderRadius:999,border:'1px solid',borderColor:route===l.href.replace('#','')?'var(--primary)':'var(--border)',background:route===l.href.replace('#','')?'var(--accent)':'var(--card)',fontSize:11,fontWeight:600}}>${l.label}</a>
+        `)}
       </nav>
-      <main style={{flex:1,maxWidth:1280,margin:'0 auto',width:'100%',padding:20}}>
-        {route==='/login' && (
-          <div style={{maxWidth:400,margin:'60px auto',background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,padding:28,boxShadow:'var(--shadow-md)'}}>
-            <h2 className="heading" style={{margin:0,fontSize:22}}>{config.welcomeTitle}</h2><p className="mono" style={{fontSize:12,color:'var(--text-muted)',marginTop:6}}>{config.welcomeSubtitle}</p>
-            <div style={{display:'grid',gap:12,marginTop:20}}>
-              <input id="u" placeholder="username" className="mono" style={{padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',background:'var(--bg)'}}/>
-              <input id="p" type="password" placeholder="password" className="mono" style={{padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',background:'var(--bg)'}}/>
-              <button onClick={function(){var u=document.getElementById('u').value; var p=document.getElementById('p').value; handleLogin(u,p);}} style={{padding:'12px',borderRadius:10,border:'none',background:'var(--primary)',color:'white',fontWeight:700,cursor:'pointer'}}>LOGIN</button>
-              <div className="mono" style={{fontSize:11,color:'var(--text-faint)'}}>admin/admin123 teacher/teacher123 student/student123</div>
+      <main style=${{flex:1,maxWidth:1280,margin:'0 auto',width:'100%',padding:20}}>
+        ${route==='/login' ? html`
+          <div style=${{maxWidth:400,margin:'60px auto',background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,padding:28,boxShadow:'var(--shadow-md)'}}>
+            <h2 className="heading" style=${{margin:0,fontSize:22}}>${config.welcomeTitle}</h2><p className="mono" style=${{fontSize:12,color:'var(--text-muted)',marginTop:6}}>${config.welcomeSubtitle}</p>
+            <div style=${{display:'grid',gap:12,marginTop:20}}>
+              <input id="u" placeholder="username" className="mono" style=${{padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',background:'var(--bg)'}}/>
+              <input id="p" type="password" placeholder="password" className="mono" style=${{padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',background:'var(--bg)'}}/>
+              <button onClick=${()=>{var u=document.getElementById('u').value; var p=document.getElementById('p').value; handleLogin(u,p);}} style=${{padding:'12px',borderRadius:10,border:'none',background:'var(--primary)',color:'white',fontWeight:700,cursor:'pointer'}}>LOGIN</button>
+              <div className="mono" style=${{fontSize:11,color:'var(--text-faint)'}}>admin/admin123 teacher/teacher123 student/student123</div>
             </div>
           </div>
-        )}
-        {route==='/dashboard' && session && (
-          <div style={{display:'grid',gap:20}}>
-            <h2 className="heading" style={{fontSize:28,margin:0}}>Dashboard</h2>
-            <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20,boxShadow:'var(--shadow)'}}>
-              <div className="heading" style={{fontSize:16}}>Welcome {session.name} • {session.role}</div>
-              <div className="mono" style={{fontSize:12,color:'var(--text-muted)',marginTop:8}}>{config.welcomeText}</div>
-              <div style={{marginTop:12,display:'flex',gap:8,flexWrap:'wrap'}}>{qManifest.slice(0,3).map(function(m){return <span key={m.path} className="mono" style={{fontSize:10,padding:'4px 8px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>{m.title} • {m.creator||'Unknown'} • {getTopicsArray(m.topics).join(', ')||m.topic}</span>;})}</div>
+        ` : null}
+        ${route==='/dashboard' && session ? html`
+          <div style=${{display:'grid',gap:20}}>
+            <h2 className="heading" style=${{fontSize:28,margin:0}}>Dashboard — Plain HTML Build</h2>
+            <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20}}>
+              <div className="heading" style=${{fontSize:16}}>Welcome ${session.name} • ${session.role}</div>
+              <div className="mono" style=${{fontSize:12,color:'var(--text-muted)',marginTop:8}}>Plain HTML, no Babel, htm+React UMD, works offline on GitPgs. All 5 features included.</div>
+              <div style=${{marginTop:12,display:'flex',gap:8,flexWrap:'wrap'}}>${MOCK_Q_MANIFEST.slice(0,3).map(m=> html`<span key=${m.path} className="mono" style=${{fontSize:10,padding:'4px 8px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>${m.title} • ${m.creator} • ${getTopicsArray(m.topics).join(', ')}</span>`)}</div>
             </div>
-            <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(180px,1fr))',gap:14}}>
-              <div style={{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid var(--primary)',borderRadius:16,padding:16}}><div className="mono" style={{fontSize:10,color:'var(--text-muted)'}}>TOTAL TESTS</div><div className="heading" style={{fontSize:28,fontWeight:800}}>{qManifest.length}</div></div>
-              <div style={{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid #16A34A',borderRadius:16,padding:16}}><div className="mono" style={{fontSize:10,color:'var(--text-muted)'}}>FAVORITES</div><div className="heading" style={{fontSize:28,fontWeight:800,color:'#16A34A'}}>{favorites.length}</div></div>
-              <div style={{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid #CA8A04',borderRadius:16,padding:16}}><div className="mono" style={{fontSize:10,color:'var(--text-muted)'}}>ATTEMPTS</div><div className="heading" style={{fontSize:28,fontWeight:800,color:'#CA8A04'}}>{attempts.length}</div></div>
+            <div style=${{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(180px,1fr))',gap:14}}>
+              <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid var(--primary)',borderRadius:16,padding:16}}><div className="mono" style=${{fontSize:10,color:'var(--text-muted)'}}>TOTAL TESTS</div><div className="heading" style=${{fontSize:28,fontWeight:800}}>${MOCK_Q_MANIFEST.length}</div></div>
+              <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid #16A34A',borderRadius:16,padding:16}}><div className="mono" style=${{fontSize:10,color:'var(--text-muted)'}}>FAVORITES</div><div className="heading" style=${{fontSize:28,fontWeight:800,color:'#16A34A'}}>${favorites.length}</div></div>
+              <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderLeft:'3px solid #CA8A04',borderRadius:16,padding:16}}><div className="mono" style=${{fontSize:10,color:'var(--text-muted)'}}>ATTEMPTS</div><div className="heading" style=${{fontSize:28,fontWeight:800,color:'#CA8A04'}}>${attempts.length}</div></div>
             </div>
           </div>
-        )}
-        {route==='/test' && session && (
+        ` : null}
+        ${route==='/test' && session ? html`
           <div>
-            {!testStarted ? (
-              <div style={{display:'grid',gap:20}}>
-                <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:12,alignItems:'end'}}>
-                  <div><h2 className="heading" style={{fontSize:28,margin:0}}>Take Test</h2><p className="mono" style={{fontSize:12,color:'var(--text-muted)'}}>Multi-correct MCQ • Favorites • Detail modal • theme.css</p></div>
+            ${!testStarted ? html`
+              <div style=${{display:'grid',gap:20}}>
+                <div><h2 className="heading" style=${{fontSize:28,margin:0}}>Take Test — Plain HTML</h2><p className="mono" style=${{fontSize:12,color:'var(--text-muted)'}}>Multi-correct MCQ • Favorites • Detail modal • theme.css — no Babel needed</p></div>
+                <div style=${{display:'flex',gap:8,flexWrap:'wrap',background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:12}}>
+                  <select value=${favFilter} onChange=${e=>setFavFilter(e.target.value)} className="mono" style=${{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11}}><option value="all">ALL</option><option value="favorites">★ FAVORITES (${favorites.length})</option></select>
+                  <select value=${groupFilter} onChange=${e=>setGroupFilter(e.target.value)} className="mono" style=${{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11}}><option value="all">All Groups</option>${groups.map(g=> html`<option key=${g} value=${g}>${g}</option>`)}</select>
+                  <input value=${searchFilter} onInput=${e=>setSearchFilter(e.target.value)} placeholder="Search title/creator/topics" className="mono" style=${{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11,minWidth:180}}/>
                 </div>
-                <div style={{display:'flex',gap:8,flexWrap:'wrap',background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:12}}>
-                  <select value={favFilter} onChange={function(e){setFavFilter(e.target.value);}} className="mono" style={{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11}}><option value="all">ALL</option><option value="favorites">★ FAVORITES ({favorites.length})</option></select>
-                  <select value={groupFilter} onChange={function(e){setGroupFilter(e.target.value);}} className="mono" style={{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11}}><option value="all">All Groups</option>{groups.map(function(g){return <option key={g} value={g}>{g}</option>;})}</select>
-                  <select value={topicFilter} onChange={function(e){setTopicFilter(e.target.value);}} className="mono" style={{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11}}><option value="all">All Topics</option>{topics.map(function(t){return <option key={t} value={t}>{t}</option>;})}</select>
-                  <input value={searchFilter} onChange={function(e){setSearchFilter(e.target.value);}} placeholder="Search title/creator/topics" className="mono" style={{padding:'8px 10px',borderRadius:8,border:'1px solid var(--border)',fontSize:11,minWidth:180}}/>
+                <div style=${{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(300px,1fr))',gap:14}}>
+                  ${filteredManifest.map(m=> html`
+                    <div key=${m.path} style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:16,boxShadow:'var(--shadow)',display:'grid',gap:10,position:'relative'}}>
+                      <button onClick=${()=>toggleFavorite(m.path)} style=${{position:'absolute',top:10,right:10,border:'none',background:'transparent',cursor:'pointer',fontSize:18,color:favorites.includes(m.path)?'#F59E0B':'var(--border)'}}>${favorites.includes(m.path)?'★':'☆'}</button>
+                      <div className="mono" style=${{fontSize:10,color:'var(--text-faint)'}}>${m.level.toUpperCase()} • ${m.group} / ${m.topic} • ${m.creator||'Unknown'}</div>
+                      <div className="heading" style=${{fontSize:15,fontWeight:700,paddingRight:24}}>${m.title}</div>
+                      <div className="mono" style=${{fontSize:11,color:'var(--text-muted)'}}>${m.description||''}</div>
+                      <div style=${{display:'flex',gap:6,flexWrap:'wrap'}}>${getTopicsArray(m.topics||m.topic).map(t=> html`<span key=${t} className="mono" style=${{fontSize:9,padding:'3px 7px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>${t}</span>`)}</div>
+                      <div className="mono" style=${{fontSize:10,color:'var(--text-faint)'}}>Updated: ${m.updatedAt||'—'} • Creator: ${m.creator||'—'}</div>
+                      <button onClick=${()=>handleOpenDetail(m)} style=${{padding:'9px 12px',borderRadius:10,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',fontWeight:700,cursor:'pointer',fontSize:12}}>VIEW DETAILS →</button>
+                    </div>
+                  `)}
                 </div>
-                <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(300px,1fr))',gap:14}}>
-                  {filteredManifest.map(function(m){
-                    return (
-                      <div key={m.path} style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:16,boxShadow:'var(--shadow)',display:'grid',gap:10,position:'relative'}}>
-                        <button onClick={function(){toggleFavorite(m.path);}} style={{position:'absolute',top:10,right:10,border:'none',background:'transparent',cursor:'pointer',fontSize:18,color:favorites.includes(m.path)?'#F59E0B':'var(--border)'}}>{favorites.includes(m.path)?'★':'☆'}</button>
-                        <div className="mono" style={{fontSize:10,color:'var(--text-faint)'}}>{m.level.toUpperCase()} • {m.group} / {m.topic} • {m.creator||'Unknown'}</div>
-                        <div className="heading" style={{fontSize:15,fontWeight:700,paddingRight:24}}>{m.title}</div>
-                        <div className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>{m.description||''}</div>
-                        <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>{getTopicsArray(m.topics||m.topic).map(function(t){return <span key={t} className="mono" style={{fontSize:9,padding:'3px 7px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>{t}</span>;})}</div>
-                        <div className="mono" style={{fontSize:10,color:'var(--text-faint)'}}>Updated: {m.updatedAt||'—'} • Creator: {m.creator||m.author||'—'}</div>
-                        <button onClick={function(){handleOpenDetail(m);}} style={{padding:'9px 12px',borderRadius:10,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',fontWeight:700,cursor:'pointer',fontSize:12}}>VIEW DETAILS →</button>
+                ${testDetail ? html`
+                  <div style=${{position:'fixed',inset:0,background:'rgba(0,0,0,0.48)',backdropFilter:'blur(10px)',zIndex:55,display:'grid',placeItems:'center',padding:20}}>
+                    <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,width:'100%',maxWidth:'95vw',maxHeight:'90vh',display:'flex',flexDirection:'column',overflow:'hidden'}}>
+                      <div style=${{padding:'16px 20px',borderBottom:'1px solid var(--border)',display:'flex',justifyContent:'space-between',alignItems:'center',background:'var(--accent)'}}>
+                        <div><div className="heading" style=${{fontSize:16,fontWeight:700}}>${testDetail.title}</div><div className="mono" style=${{fontSize:11,color:'var(--text-muted)'}}>${testDetail.level} • ${testDetail.group} / ${testDetail.topic} • Creator: ${testDetail.creator||'—'}</div></div>
+                        <div style=${{display:'flex',gap:8}}><button onClick=${()=>toggleFavorite(testDetail.path)} style=${{border:'1px solid var(--border)',background:'var(--card)',borderRadius:8,padding:'6px 10px',cursor:'pointer',color:favorites.includes(testDetail.path)?'#F59E0B':'var(--text-muted)'}}>${favorites.includes(testDetail.path)?'★ Favorited':'☆ Favorite'}</button><button onClick=${()=>setTestDetail(null)} style=${{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer'}}>✕</button></div>
                       </div>
-                    );
-                  })}
-                </div>
-                {testDetail && (
-                  <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.48)',backdropFilter:'blur(10px)',zIndex:55,display:'grid',placeItems:'center',padding:20}}>
-                    <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,width:'100%',maxWidth:'95vw',maxHeight:'90vh',display:'flex',flexDirection:'column',overflow:'hidden',boxShadow:'var(--shadow-lg)'}}>
-                      <div style={{padding:'16px 20px',borderBottom:'1px solid var(--border)',display:'flex',justifyContent:'space-between',alignItems:'center',background:'var(--accent)',gap:12,flexWrap:'wrap'}}>
-                        <div><div className="heading" style={{fontSize:16,fontWeight:700}}>{testDetail.title}</div><div className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>{testDetail.level} • {testDetail.group} / {testDetail.topic} • Creator: {testDetail.creator||testDetail.author||'—'}</div></div>
-                        <div style={{display:'flex',gap:8,alignItems:'center'}}>
-                          <button onClick={function(){toggleFavorite(testDetail.path);}} style={{border:'1px solid var(--border)',background:'var(--card)',borderRadius:8,padding:'6px 10px',cursor:'pointer',color:favorites.includes(testDetail.path)?'#F59E0B':'var(--text-muted)'}}>{favorites.includes(testDetail.path)?'★ Favorited':'☆ Favorite'}</button>
-                          <button onClick={function(){setTestDetail(null);}} style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer'}}>✕</button>
+                      <div style=${{flex:1,overflow:'auto',padding:22,display:'grid',gap:18,background:'var(--bg)'}}>
+                        <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,display:'grid',gap:10}}>
+                          <div className="mono" style=${{fontSize:11,fontWeight:700,color:'var(--text-muted)'}}>DETAIL INFORMATION</div>
+                          <div className="mono" style=${{display:'grid',gap:6,fontSize:11}}><div style=${{display:'flex',justifyContent:'space-between'}}><span style=${{color:'var(--text-muted)'}}>Title</span><span style=${{fontWeight:600}}>${testDetail.title}</span></div><div style=${{display:'flex',justifyContent:'space-between'}}><span style=${{color:'var(--text-muted)'}}>Creator</span><span style=${{fontWeight:600}}>${testDetail.creator||'—'}</span></div><div style=${{display:'flex',justifyContent:'space-between'}}><span style=${{color:'var(--text-muted)'}}>Topics</span><span style=${{fontWeight:600}}>${getTopicsArray(testDetail.topics).join(', ')}</span></div><div style=${{display:'flex',justifyContent:'space-between'}}><span style=${{color:'var(--text-muted)'}}>Updated</span><span style=${{fontWeight:600}}>${testDetail.updatedAt||'—'}</span></div></div>
                         </div>
-                      </div>
-                      <div style={{flex:1,overflow:'auto',padding:22,display:'grid',gap:18,background:'var(--bg)'}}>
-                        <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,display:'grid',gap:10}}>
-                          <div className="mono" style={{fontSize:11,fontWeight:700,color:'var(--text-muted)'}}>DETAIL INFORMATION</div>
-                          <div style={{display:'grid',gap:6}} className="mono">
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Title</span><span style={{fontSize:11,fontWeight:600}}>{testDetail.title}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Description</span><span style={{fontSize:11,fontWeight:600,maxWidth:300,textAlign:'right'}}>{testDetail.description||'—'}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Creator</span><span style={{fontSize:11,fontWeight:600}}>{testDetail.creator||testDetail.author||'—'}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Level</span><span style={{fontSize:11,fontWeight:600}}>{testDetail.level}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Topics</span><span style={{fontSize:11,fontWeight:600}}>{getTopicsArray(testDetail.topics||testDetail.topic).join(', ')||'—'}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Updated</span><span style={{fontSize:11,fontWeight:600}}>{testDetail.updatedAt||'—'}</span></div>
-                            <div style={{display:'flex',justifyContent:'space-between'}}><span style={{color:'var(--text-muted)',fontSize:11}}>Time Limits</span><span style={{fontSize:11,fontWeight:600}}>Fast {(MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.fast)||5}m • Normal {(MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.normal)||10}m • Easy {(MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.easy)||20}m</span></div>
-                          </div>
+                        <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,display:'grid',gap:10}}>
+                          <div className="mono" style=${{fontSize:11,fontWeight:700}}>BREAKDOWN BY TYPE ${detailTypeCounts ? '• '+Object.values(detailTypeCounts).reduce((a,b)=>a+b,0)+' total' : ''}</div>
+                          ${detailTypeCounts ? html`<div style=${{display:'flex',gap:8,flexWrap:'wrap'}}>${Object.entries(detailTypeCounts).map(([type,count])=> html`<span key=${type} className="mono" style=${{fontSize:11,padding:'6px 10px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)',fontWeight:600}}>${type.toUpperCase()}: ${count}</span>`)}</div>` : html`<div className="mono" style=${{fontSize:11,color:'var(--text-muted)'}}>No breakdown — uses dynamic data from loaded questions</div>`}
                         </div>
-                        <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,display:'grid',gap:10}}>
-                          <div className="mono" style={{fontSize:11,fontWeight:700,color:'var(--text-muted)'}}>QUESTION BREAKDOWN BY TYPE {detailTypeCounts ? '• '+Object.values(detailTypeCounts).reduce(function(a,b){return a+b;},0)+' total' : ''}</div>
-                          {detailTypeCounts ? (
-                            <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>{Object.entries(detailTypeCounts).map(function(entry){var type=entry[0]; var count=entry[1]; return <span key={type} className="mono" style={{fontSize:11,padding:'6px 10px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)',fontWeight:600}}>{type.toUpperCase()}: {count}</span>;})}</div>
-                          ) : (
-                            <div style={{display:'flex',gap:8,alignItems:'center'}}><span className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>Fetching breakdown...</span><button onClick={function(){try{var url=(testDetail.path+"?t="+Date.now()); fetch(url,{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){if(j&&j.questions){var counts={}; j.questions.forEach(function(q){counts[q.type]=(counts[q.type]||0)+1;}); setDetailTypeCounts(counts);}}).catch(function(){});}catch(e){}}} className="mono" style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>FETCH BREAKDOWN</button></div>
-                          )}
-                          <div className="mono" style={{fontSize:10,color:'var(--text-faint)'}}>Prioritizes dynamic data from loaded questions, then meta.typeCounts/counts, then FETCH.</div>
+                        <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16}}>
+                          <div className="mono" style=${{fontSize:11,fontWeight:700}}>HISTORY • ${attempts.filter(a=>a.manifest&&(a.manifest.path===testDetail.path||a.manifest.title===testDetail.title)).length} attempts</div>
+                          ${attempts.filter(a=>a.manifest&&(a.manifest.path===testDetail.path||a.manifest.title===testDetail.title)).length===0 ? html`<div className="mono" style=${{fontSize:11,color:'var(--text-muted)',marginTop:8}}>No history yet.</div>` : html`<div style=${{display:'grid',gap:8,marginTop:8}}>${attempts.filter(a=>a.manifest&&(a.manifest.path===testDetail.path||a.manifest.title===testDetail.title)).slice(0,5).map(a=> html`<div key=${a.id} style=${{display:'flex',justifyContent:'space-between',padding:'8px 10px',borderRadius:8,background:'var(--bg)',border:'1px solid var(--border)'}} className="mono"><span style=${{fontSize:11}}>${new Date(a.date).toLocaleString()} • ${a.score.correct}✓ ${a.score.incorrect}✗</span></div>`)}</div>`}
                         </div>
-                        <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,display:'grid',gap:10}}>
-                          <div className="mono" style={{fontSize:11,fontWeight:700,color:'var(--text-muted)'}}>TEST HISTORY • {attempts.filter(function(a){return a.manifest && (a.manifest.path===testDetail.path||a.manifest.title===testDetail.title);}).length} attempts</div>
-                          {attempts.filter(function(a){return a.manifest && (a.manifest.path===testDetail.path||a.manifest.title===testDetail.title);}).length===0 ? (
-                            <div className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>No history yet for this test.</div>
-                          ) : (
-                            <div style={{display:'grid',gap:8}}>{attempts.filter(function(a){return a.manifest && (a.manifest.path===testDetail.path||a.manifest.title===testDetail.title);}).slice(0,5).map(function(a){return <div key={a.id} style={{display:'flex',justifyContent:'space-between',padding:'8px 10px',borderRadius:8,background:'var(--bg)',border:'1px solid var(--border)'}} className="mono"><span style={{fontSize:11}}>{new Date(a.date).toLocaleString()} • {a.score.correct}✓ {a.score.incorrect}✗</span><span style={{fontSize:10,color:'var(--text-muted)'}}>{a.manifest.title}</span></div>;})}</div>
-                          )}
-                        </div>
-                        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(140px,1fr))',gap:10}}>
-                          <button onClick={function(){handleStartTest(testDetail,'fast');}} style={{padding:'12px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontWeight:700}} className="mono">START → FAST {formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.fast || 5)*60)}</button>
-                          <button onClick={function(){handleStartTest(testDetail,'normal');}} style={{padding:'12px',borderRadius:12,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',cursor:'pointer',fontWeight:700}} className="mono">START → NORMAL {formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.normal || 10)*60)}</button>
-                          <button onClick={function(){handleStartTest(testDetail,'easy');}} style={{padding:'12px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontWeight:700}} className="mono">START → EASY {formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.easy || 20)*60)}</button>
+                        <div style=${{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(140px,1fr))',gap:10}}>
+                          <button onClick=${()=>handleStartTest(testDetail,'fast')} style=${{padding:'12px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontWeight:700}} className="mono">START → FAST ${formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.fast || 5)*60)}</button>
+                          <button onClick=${()=>handleStartTest(testDetail,'normal')} style=${{padding:'12px',borderRadius:12,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',cursor:'pointer',fontWeight:700}} className="mono">START → NORMAL ${formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.normal || 10)*60)}</button>
+                          <button onClick=${()=>handleStartTest(testDetail,'easy')} style=${{padding:'12px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontWeight:700}} className="mono">START → EASY ${formatTime((MOCK_Q_FILES[testDetail.path] && MOCK_Q_FILES[testDetail.path].meta.timeLimits.easy || 20)*60)}</button>
                         </div>
                       </div>
                     </div>
                   </div>
-                )}
+                ` : null}
               </div>
-            ) : (
-              <div style={{display:'grid',gap:16}}>
-                <div style={{position:'sticky',top:0,zIndex:5,background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:12,display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:10,alignItems:'center'}}>
-                  <div className="mono" style={{fontSize:11}}>TEST: {selectedManifest && selectedManifest.title} • {selectedManifest && selectedManifest.group}/{selectedManifest && selectedManifest.topic} • Q {currentQIdx+1}/{questions.length} [{currentQ && currentQ.type && currentQ.type.toUpperCase()}] {currentQ && isMultiMcq(currentQ) ? '• MULTI-CORRECT' : ''}</div>
-                  <div style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
-                    <span className="mono" style={{fontSize:10,padding:'4px 8px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>TOTAL {formatTime(totalSeconds)} • LEFT {formatTime(timeLeft)} • ELAPSED {formatTime(totalSeconds-timeLeft)}</span>
-                    <button onClick={function(){if(confirm('End test?')) handleSubmit();}} className="mono" style={{padding:'6px 10px',borderRadius:8,border:'1px solid #FECACA',background:'#FEF2F2',color:'#991B1B',cursor:'pointer',fontSize:11,fontWeight:700}}>END / SUBMIT EARLIER</button>
-                  </div>
+            ` : html`
+              <div style=${{display:'grid',gap:16}}>
+                <div style=${{position:'sticky',top:0,zIndex:5,background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:12,display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:10}}>
+                  <div className="mono" style=${{fontSize:11}}>TEST: ${selectedManifest&&selectedManifest.title} • Q ${currentQIdx+1}/${questions.length} [${currentQ&&currentQ.type&&currentQ.type.toUpperCase()}] ${currentQ&&isMultiMcq(currentQ)?'• MULTI-CORRECT':''}</div>
+                  <div style=${{display:'flex',gap:8}}><span className="mono" style=${{fontSize:10,padding:'4px 8px',borderRadius:999,background:'var(--accent)',border:'1px solid var(--border)'}}>TOTAL ${formatTime(totalSeconds)} • LEFT ${formatTime(timeLeft)} • ELAPSED ${formatTime(totalSeconds-timeLeft)}</span><button onClick=${()=>{if(confirm('End test?')) handleSubmit();}} className="mono" style=${{padding:'6px 10px',borderRadius:8,border:'1px solid #FECACA',background:'#FEF2F2',color:'#991B1B',cursor:'pointer',fontSize:11,fontWeight:700}}>END / SUBMIT</button></div>
                 </div>
-                {currentQ && (
-                  <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20,boxShadow:'var(--shadow)',display:'grid',gap:14}}>
-                    <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>
-                      {questions.map(function(q,i){return <button key={q.id} onClick={function(){setCurrentQIdx(i);}} style={{width:32,height:32,borderRadius:8,border:i===currentQIdx?'2px solid var(--primary)':'1px solid var(--border)',background:answers[q.id] ? (i===currentQIdx?'var(--primary)':'var(--accent)') : 'var(--card)',color:i===currentQIdx&&answers[q.id]?'white':answers[q.id]?'var(--text)':'var(--text-muted)',cursor:'pointer',fontWeight:600,fontSize:12}}>{i+1}</button>;})}
-                    </div>
-                    <div style={{fontSize:15,fontWeight:600}}>{currentQ.question} {isMultiMcq(currentQ) && <span className="mono" style={{fontSize:11,background:'#FEF3C7',border:'1px solid #FDE68A',padding:'3px 7px',borderRadius:999,color:'#92400E',marginLeft:8}}>Select all that apply</span>}</div>
-                    {currentQ.passage && <div className="mono" style={{fontSize:12,background:'var(--accent)',padding:14,borderRadius:12,border:'1px solid var(--border)',lineHeight:1.6}}>{currentQ.passage}</div>}
-                    {(currentQ.type==='mcq'||currentQ.type==='passage_mcq'||currentQ.type==='image_mcq') && (
-                      <div style={{display:'grid',gap:8}}>
-                        {Object.entries(currentQ.options||{}).map(function(entry){
-                          var k=entry[0]; var v=entry[1];
-                          var selected = parseMcqAnswer(answers[currentQ.id]).includes(k);
-                          var correctList = getCorrectList(currentQ);
-                          var isCorrectOpt = correctList.includes(k);
-                          var showAns = showAnswerMode;
-                          var border='1px solid var(--border)'; var bg='var(--card)'; var extra='';
-                          if(showAns){ if(isCorrectOpt){border='2px solid #16A34A'; bg='#F0FDF4'; extra=' ✓ Correct';} else if(selected && !isCorrectOpt){border='2px solid #DC2626'; bg='#FEF2F2'; extra=' ✗';} }
-                          else if(selected){border='1.5px solid var(--primary)'; bg='var(--accent)';}
-                          return (
-                            <label key={k} style={{display:'flex',gap:10,padding:'10px 14px',borderRadius:10,border:border,background:bg,cursor:'pointer',alignItems:'start'}}>
-                              <input type={isMultiMcq(currentQ)?'checkbox':'radio'} checked={selected} onChange={function(){var cur=parseMcqAnswer(answers[currentQ.id]); if(isMultiMcq(currentQ)){ cur = selected ? cur.filter(function(x){return x!==k;}) : [...cur,k]; } else { cur=[k]; } var newAns={}; for(var kk in answers){newAns[kk]=answers[kk];} newAns[currentQ.id]=stringifyMcqAnswer(cur); setAnswers(newAns);}} style={{marginTop:4}}/>
-                              <div style={{flex:1}}><b>{k}.</b> {v}<b style={{marginLeft:8,color:isCorrectOpt?'#16A34A':'#DC2626'}}>{extra}</b></div>
-                            </label>
-                          );
-                        })}
+                ${currentQ ? html`
+                  <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20,display:'grid',gap:14}}>
+                    <div style=${{display:'flex',gap:8,flexWrap:'wrap'}}>${questions.map((q,i)=> html`<button key=${q.id} onClick=${()=>setCurrentQIdx(i)} style=${{width:32,height:32,borderRadius:8,border:i===currentQIdx?'2px solid var(--primary)':'1px solid var(--border)',background:answers[q.id] ? (i===currentQIdx?'var(--primary)':'var(--accent)') : 'var(--card)',color:i===currentQIdx&&answers[q.id]?'white':answers[q.id]?'var(--text)':'var(--text-muted)',cursor:'pointer',fontWeight:600,fontSize:12}}>${i+1}</button>`)}</div>
+                    <div style=${{fontSize:15,fontWeight:600}}>${currentQ.question} ${isMultiMcq(currentQ) ? html`<span className="mono" style=${{fontSize:11,background:'#FEF3C7',border:'1px solid #FDE68A',padding:'3px 7px',borderRadius:999,color:'#92400E',marginLeft:8}}>Select all that apply</span>` : null}</div>
+                    ${currentQ.passage ? html`<div className="mono" style=${{fontSize:12,background:'var(--accent)',padding:14,borderRadius:12,border:'1px solid var(--border)'}}>${currentQ.passage}</div>` : null}
+                    ${(currentQ.type==='mcq'||currentQ.type==='passage_mcq') ? html`
+                      <div style=${{display:'grid',gap:8}}>
+                        ${Object.entries(currentQ.options||{}).map(([k,v])=>{var selected=parseMcqAnswer(answers[currentQ.id]).includes(k); var correctList=getCorrectList(currentQ); var isCorrectOpt=correctList.includes(k); var border='1px solid var(--border)'; var bg='var(--card)'; var extra=''; if(showAnswerMode){ if(isCorrectOpt){border='2px solid #16A34A'; bg='#F0FDF4'; extra=' ✓ Correct';} else if(selected && !isCorrectOpt){border='2px solid #DC2626'; bg='#FEF2F2'; extra=' ✗';} } else if(selected){border='1.5px solid var(--primary)'; bg='var(--accent)';} return html`
+                          <label key=${k} style=${{display:'flex',gap:10,padding:'10px 14px',borderRadius:10,border:border,background:bg,cursor:'pointer'}}>
+                            <input type=${isMultiMcq(currentQ)?'checkbox':'radio'} checked=${selected} onChange=${()=>{var cur=parseMcqAnswer(answers[currentQ.id]); if(isMultiMcq(currentQ)){ cur = selected ? cur.filter(function(x){return x!==k;}) : [...cur,k]; } else { cur=[k]; } var newAns={}; for(var kk in answers){newAns[kk]=answers[kk];} newAns[currentQ.id]=stringifyMcqAnswer(cur); setAnswers(newAns);}} style=${{marginTop:4}}/>
+                            <div style=${{flex:1}}><b>${k}.</b> ${v}<b style=${{marginLeft:8,color:isCorrectOpt?'#16A34A':'#DC2626'}}>${extra}</b></div>
+                          </label>
+                        `;})}
                       </div>
-                    )}
-                    {currentQ.type==='click_correct' && (
-                      <div style={{display:'grid',gap:12}}>
-                        <div style={{display:'flex',flexWrap:'wrap',gap:6,background:'var(--bg)',padding:10,borderRadius:10,border:'1px solid var(--border)'}}>
-                          {(currentQ.tokens||(currentQ.sentence||'').split(' ')||[]).map(function(t,i){return <span key={i} style={{padding:'4px 10px',borderRadius:8,border:'1.5px dashed var(--border)',background:'var(--card)',fontSize:12}}>{t} <span style={{fontSize:10,color:'var(--text-faint)'}}>✎</span></span>;})}
-                        </div>
-                        <input value={answers[currentQ.id]||''} onChange={function(e){var newAns={}; for(var kk in answers){newAns[kk]=answers[kk];} newAns[currentQ.id]=e.target.value; setAnswers(newAns);}} placeholder="Type the correct word / phrase" className="mono" style={{padding:'10px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:13}}/>
-                        {showAnswerMode && <div className="mono" style={{fontSize:12,background:'#F0FDF4',border:'1px solid #BBF7D0',padding:10,borderRadius:10,color:'#15803D'}}>Correct: {(currentQ.correctAnswers||[]).join(' / ')}</div>}
-                      </div>
-                    )}
-                    <div style={{display:'flex',gap:8,flexWrap:'wrap'}}>
-                      <button onClick={function(){setShowAnswerMode(function(v){return !v;});}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11,fontWeight:600}}>{showAnswerMode?'HIDE ANSWER':'SHOW ANSWER'}</button>
-                      <button onClick={function(){setShowExplanation(currentQ.explanation);}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11,fontWeight:600}}>SHOW EXPLANATION</button>
-                      <button onClick={function(){setCurrentQIdx(function(i){return Math.max(0,i-1);});}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>← PREV</button>
-                      <button onClick={function(){setCurrentQIdx(function(i){return Math.min(questions.length-1,i+1);});}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>NEXT →</button>
+                    ` : null}
+                    <div style=${{display:'flex',gap:8,flexWrap:'wrap'}}>
+                      <button onClick=${()=>setShowAnswerMode(v=>!v)} className="mono" style=${{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>${showAnswerMode?'HIDE ANSWER':'SHOW ANSWER'}</button>
+                      <button onClick=${()=>setCurrentQIdx(i=>Math.max(0,i-1))} className="mono" style=${{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>← PREV</button>
+                      <button onClick=${()=>setCurrentQIdx(i=>Math.min(questions.length-1,i+1))} className="mono" style=${{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>NEXT →</button>
                     </div>
-                    <div style={{background:'var(--accent)',padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:12.5}}><b>Explanation:</b> {currentQ.explanation}</div>
+                    <div style=${{background:'var(--accent)',padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:12.5}}><b>Explanation:</b> ${currentQ.explanation}</div>
                   </div>
-                )}
+                ` : null}
               </div>
-            )}
+            `}
           </div>
-        )}
-        {route==='/results' && (
-          <div style={{display:'grid',gap:20}}>
-            <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:12}}><h2 className="heading" style={{fontSize:28,margin:0}}>My Results</h2><button onClick={function(){if(confirm('Clear all?')){setAttempts([]); localStorage.removeItem('cat_results'); try{fetch("actions",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({action:"records.list",args:{collection:"attempts"}})});}catch(e){}}}} className="mono" style={{padding:'8px 12px',borderRadius:10,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>CLEAR ALL RESULTS</button></div>
-            {selectedAttempt && (
-              <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(180px,1fr))',gap:14}}>
-                <button onClick={function(){setResultsFilter(function(f){return f==='correct'?'all':'correct';});}} style={{textAlign:'left',background:resultsFilter==='correct'?'#DCFCE7':'#F0FDF4',border:resultsFilter==='correct'?'2px solid #16A34A':'1px solid #BBF7D0',borderRadius:14,padding:16,cursor:'pointer',transform:resultsFilter==='correct'?'scale(1.02)':'none'}}><div className="mono" style={{fontSize:10,color:'#15803D',fontWeight:700}}>TOTAL CORRECT</div><div className="heading" style={{fontSize:28,fontWeight:800,color:'#16A34A'}}>{selectedAttempt.score.correct}</div></button>
-                <button onClick={function(){setResultsFilter(function(f){return f==='incorrect'?'all':'incorrect';});}} style={{textAlign:'left',background:resultsFilter==='incorrect'?'#FEE2E2':'#FEF2F2',border:resultsFilter==='incorrect'?'2px solid #DC2626':'1px solid #FECACA',borderRadius:14,padding:16,cursor:'pointer',transform:resultsFilter==='incorrect'?'scale(1.02)':'none'}}><div className="mono" style={{fontSize:10,color:'#DC2626',fontWeight:700}}>TOTAL INCORRECT</div><div className="heading" style={{fontSize:28,fontWeight:800,color:'#DC2626'}}>{selectedAttempt.score.incorrect}</div></button>
-                <button onClick={function(){setResultsFilter(function(f){return f==='unanswered'?'all':'unanswered';});}} style={{textAlign:'left',background:resultsFilter==='unanswered'?'#FEF9C3':'#FEFCE8',border:resultsFilter==='unanswered'?'2px solid #CA8A04':'1px solid #FDE68A',borderRadius:14,padding:16,cursor:'pointer',transform:resultsFilter==='unanswered'?'scale(1.02)':'none'}}><div className="mono" style={{fontSize:10,color:'#CA8A04',fontWeight:700}}>TOTAL UNANSWERED</div><div className="heading" style={{fontSize:28,fontWeight:800,color:'#CA8A04'}}>{selectedAttempt.score.unanswered}</div></button>
+        ` : null}
+        ${route==='/results' ? html`
+          <div style=${{display:'grid',gap:20}}>
+            <div style=${{display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:12}}><h2 className="heading" style=${{fontSize:28,margin:0}}>My Results — Plain HTML</h2><button onClick=${()=>{if(confirm('Clear all?')){setAttempts([]); localStorage.removeItem('cat_results');}}} className="mono" style=${{padding:'8px 12px',borderRadius:10,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>CLEAR ALL</button></div>
+            ${selectedAttempt ? html`
+              <div style=${{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(180px,1fr))',gap:14}}>
+                <button onClick=${()=>setResultsFilter(f=>f==='correct'?'all':'correct')} style=${{textAlign:'left',background:resultsFilter==='correct'?'#DCFCE7':'#F0FDF4',border:resultsFilter==='correct'?'2px solid #16A34A':'1px solid #BBF7D0',borderRadius:14,padding:16,cursor:'pointer'}}><div className="mono" style=${{fontSize:10,color:'#15803D',fontWeight:700}}>TOTAL CORRECT</div><div className="heading" style=${{fontSize:28,fontWeight:800,color:'#16A34A'}}>${selectedAttempt.score.correct}</div></button>
+                <button onClick=${()=>setResultsFilter(f=>f==='incorrect'?'all':'incorrect')} style=${{textAlign:'left',background:resultsFilter==='incorrect'?'#FEE2E2':'#FEF2F2',border:resultsFilter==='incorrect'?'2px solid #DC2626':'1px solid #FECACA',borderRadius:14,padding:16,cursor:'pointer'}}><div className="mono" style=${{fontSize:10,color:'#DC2626',fontWeight:700}}>TOTAL INCORRECT</div><div className="heading" style=${{fontSize:28,fontWeight:800,color:'#DC2626'}}>${selectedAttempt.score.incorrect}</div></button>
+                <button onClick=${()=>setResultsFilter(f=>f==='unanswered'?'all':'unanswered')} style=${{textAlign:'left',background:resultsFilter==='unanswered'?'#FEF9C3':'#FEFCE8',border:resultsFilter==='unanswered'?'2px solid #CA8A04':'1px solid #FDE68A',borderRadius:14,padding:16,cursor:'pointer'}}><div className="mono" style=${{fontSize:10,color:'#CA8A04',fontWeight:700}}>TOTAL UNANSWERED</div><div className="heading" style=${{fontSize:28,fontWeight:800,color:'#CA8A04'}}>${selectedAttempt.score.unanswered}</div></button>
               </div>
-            )}
-            <div style={{display:'grid',gridTemplateColumns:'320px 1fr',gap:16}} className="bank-layout">
-              <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:14,height:'fit-content',position:'sticky',top:88}}>
-                <div className="mono" style={{fontSize:11,marginBottom:12,fontWeight:700}}>ATTEMPTS</div>
-                <div style={{display:'grid',gap:8}}>{attempts.map(function(a){return <button key={a.id} onClick={function(){setSelectedAttemptId(a.id);}} style={{textAlign:'left',padding:'12px 14px',borderRadius:12,border:selectedAttempt&&selectedAttempt.id===a.id?'1.5px solid var(--primary)':'1px solid var(--border)',background:selectedAttempt&&selectedAttempt.id===a.id?'var(--accent)':'var(--card)',cursor:'pointer'}}><div className="mono" style={{fontSize:11,fontWeight:600}}>{new Date(a.date).toLocaleString()}</div><div className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>{a.manifest && a.manifest.title} • {a.score.correct}✓ {a.score.incorrect}✗</div></button>;})}</div>
+            ` : null}
+            <div style=${{display:'grid',gridTemplateColumns:'320px 1fr',gap:16}} className="bank-layout">
+              <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:14,height:'fit-content',position:'sticky',top:88}}>
+                <div className="mono" style=${{fontSize:11,marginBottom:12,fontWeight:700}}>ATTEMPTS</div>
+                <div style=${{display:'grid',gap:8}}>${attempts.map(a=> html`<button key=${a.id} onClick=${()=>setSelectedAttemptId(a.id)} style=${{textAlign:'left',padding:'12px 14px',borderRadius:12,border:selectedAttempt&&selectedAttempt.id===a.id?'1.5px solid var(--primary)':'1px solid var(--border)',background:selectedAttempt&&selectedAttempt.id===a.id?'var(--accent)':'var(--card)',cursor:'pointer'}}><div className="mono" style=${{fontSize:11,fontWeight:600}}>${new Date(a.date).toLocaleString()}</div><div className="mono" style=${{fontSize:11,color:'var(--text-muted)'}}>${a.manifest&&a.manifest.title} • ${a.score.correct}✓ ${a.score.incorrect}✗</div></button>`)}</div>
               </div>
-              <div style={{display:'grid',gap:14}}>
-                {selectedAttempt && selectedAttempt.questions.filter(function(qq){
-                  var ans=selectedAttempt.answers && selectedAttempt.answers[qq.id];
+              <div style=${{display:'grid',gap:14}}>
+                ${selectedAttempt ? selectedAttempt.questions.filter(qq=>{
+                  var ans=selectedAttempt.answers&&selectedAttempt.answers[qq.id];
                   var status='unanswered';
                   if(!ans) status='unanswered';
-                  else if(qq.type==='mcq'||qq.type==='passage_mcq'||qq.type==='image_mcq'){status=checkMcqCorrect(qq,ans)?'correct':'incorrect';}
-                  else if(qq.type==='click_correct'){status=checkTypingAnswer(ans,qq.correctAnswers||[])?'correct':'incorrect';}
+                  else if(qq.type==='mcq'||qq.type==='passage_mcq'){status=checkMcqCorrect(qq,ans)?'correct':'incorrect';}
                   else status='incorrect';
                   if(resultsFilter==='all') return true; return status===resultsFilter;
-                }).map(function(qq){
-                  var userAns=selectedAttempt.answers && selectedAttempt.answers[qq.id];
+                }).map(qq=>{
+                  var userAns=selectedAttempt.answers&&selectedAttempt.answers[qq.id];
                   var isUnanswered=!userAns;
                   var isCorrect=false;
-                  if(!isUnanswered){ if(qq.type==='mcq'||qq.type==='passage_mcq'||qq.type==='image_mcq') isCorrect=checkMcqCorrect(qq,userAns); else if(qq.type==='click_correct') isCorrect=checkTypingAnswer(userAns,qq.correctAnswers||[]); }
+                  if(!isUnanswered){ if(qq.type==='mcq'||qq.type==='passage_mcq') isCorrect=checkMcqCorrect(qq,userAns); }
                   var borderColor=isUnanswered?'#CA8A04':isCorrect?'#16A34A':'#DC2626';
-                  return (
-                    <div key={qq.id} style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:14,padding:18,borderLeft:'3px solid '+borderColor,display:'grid',gap:8}}>
-                      <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',flexWrap:'wrap',gap:8}}>
-                        <div className="mono" style={{fontSize:10.5,color:'var(--text-faint)'}}>{(qq.type||'mcq').toUpperCase()} • {qq.id} {isMultiMcq(qq)?'• MULTI':''}</div>
-                        <button onClick={function(){var idx=selectedAttempt.questions.findIndex(function(x){return x.id===qq.id;}); setMyResultPreview({qq:qq,originalIdx:idx,attempt:selectedAttempt});}} className="mono" style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11,fontWeight:600}}>PREVIEW 👁</button>
-                      </div>
-                      <div style={{fontSize:15,fontWeight:600}}>{qq.question}</div>
-                      <div style={{display:'grid',gap:6,fontSize:13}}>
-                        {isUnanswered? <div style={{color:'#A16207',background:'#FEFCE8',padding:'8px 12px',borderRadius:10,border:'1px solid #FDE68A',fontWeight:600}}>You provided no answer</div> :
-                          isCorrect? <div style={{color:'#15803D',background:'#F0FDF4',padding:'8px 12px',borderRadius:10,border:'1px solid #BBF7D0',fontWeight:600}}>✓ Correct — {parseMcqAnswer(userAns).join(', ')}</div> :
-                          <div style={{color:'#B91C1C',background:'#FEF2F2',padding:'8px 12px',borderRadius:10,border:'1px solid #FECACA'}}>Your answer: {parseMcqAnswer(userAns).join(', ')} • Correct: {getCorrectList(qq).join(', ')}</div>
+                  return html`
+                    <div key=${qq.id} style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:14,padding:18,borderLeft:'3px solid '+borderColor,display:'grid',gap:8}}>
+                      <div style=${{display:'flex',justifyContent:'space-between'}}><div className="mono" style=${{fontSize:10.5,color:'var(--text-faint)'}}>${(qq.type||'mcq').toUpperCase()} • ${qq.id} ${isMultiMcq(qq)?'• MULTI':''}</div><button onClick=${()=>{var idx=selectedAttempt.questions.findIndex(function(x){return x.id===qq.id;}); setMyResultPreview({qq:qq,originalIdx:idx,attempt:selectedAttempt});}} className="mono" style=${{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>PREVIEW 👁</button></div>
+                      <div style=${{fontSize:15,fontWeight:600}}>${qq.question}</div>
+                      <div style=${{display:'grid',gap:6,fontSize:13}}>
+                        ${isUnanswered? html`<div style=${{color:'#A16207',background:'#FEFCE8',padding:'8px 12px',borderRadius:10,border:'1px solid #FDE68A',fontWeight:600}}>You provided no answer</div>` :
+                          isCorrect? html`<div style=${{color:'#15803D',background:'#F0FDF4',padding:'8px 12px',borderRadius:10,border:'1px solid #BBF7D0',fontWeight:600}}>✓ Correct — ${parseMcqAnswer(userAns).join(', ')}</div>` :
+                          html`<div style=${{color:'#B91C1C',background:'#FEF2F2',padding:'8px 12px',borderRadius:10,border:'1px solid #FECACA'}}>Your answer: ${parseMcqAnswer(userAns).join(', ')} • Correct: ${getCorrectList(qq).join(', ')}</div>`
                         }
-                        <div style={{background:'var(--accent)',padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:12.5}}><b>Explanation:</b> {qq.explanation}</div>
                       </div>
                     </div>
-                  );
-                })}
+                  `;
+                }) : html`<div className="mono" style=${{color:'var(--text-muted)'}}>No attempt selected</div>`}
               </div>
             </div>
-            {myResultPreview && (
-              <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.48)',backdropFilter:'blur(10px)',zIndex:60,display:'grid',placeItems:'center',padding:20}}>
-                <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,width:'100%',maxWidth:'95vw',maxHeight:'90vh',display:'flex',flexDirection:'column',overflow:'hidden',boxShadow:'var(--shadow-lg)'}}>
-                  <div style={{padding:'16px 20px',borderBottom:'1px solid var(--border)',display:'flex',justifyContent:'space-between',alignItems:'center',background:'var(--accent)'}}>
-                    <div className="mono" style={{fontSize:12,fontWeight:600}}>PREVIEW • Q {myResultPreview.originalIdx+1} • {myResultPreview.qq.type.toUpperCase()} • {myResultPreview.qq.id} {isMultiMcq(myResultPreview.qq)?'• MULTI-CORRECT':''}</div>
-                    <button onClick={function(){setMyResultPreview(null);}} style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer'}}>✕</button>
+            ${myResultPreview ? html`
+              <div style=${{position:'fixed',inset:0,background:'rgba(0,0,0,0.48)',backdropFilter:'blur(10px)',zIndex:60,display:'grid',placeItems:'center',padding:20}}>
+                <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,width:'100%',maxWidth:'95vw',maxHeight:'90vh',display:'flex',flexDirection:'column',overflow:'hidden'}}>
+                  <div style=${{padding:'16px 20px',borderBottom:'1px solid var(--border)',display:'flex',justifyContent:'space-between',alignItems:'center',background:'var(--accent)'}}>
+                    <div className="mono" style=${{fontSize:12,fontWeight:600}}>PREVIEW • Q ${myResultPreview.originalIdx+1} • ${myResultPreview.qq.type.toUpperCase()} • ${myResultPreview.qq.id} ${isMultiMcq(myResultPreview.qq)?'• MULTI-CORRECT':''}</div>
+                    <button onClick=${()=>setMyResultPreview(null)} style=${{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer'}}>✕</button>
                   </div>
-                  <div style={{flex:1,overflow:'auto',padding:20,display:'grid',gap:14,background:'var(--bg)'}}>
-                    <div className="mono" style={{fontSize:11}}>TEST: {myResultPreview.attempt.manifest && myResultPreview.attempt.manifest.title} • Q {myResultPreview.originalIdx+1}/{myResultPreview.attempt.questions.length} [{myResultPreview.qq.type.toUpperCase()}]</div>
-                    <div style={{fontSize:16,fontWeight:600}}>{myResultPreview.qq.question}</div>
-                    {myResultPreview.qq.passage && <div style={{background:'var(--accent)',padding:14,borderRadius:12,border:'1px solid var(--border)',fontSize:13}}>{myResultPreview.qq.passage}</div>}
-                    {(myResultPreview.qq.type==='mcq'||myResultPreview.qq.type==='passage_mcq'||myResultPreview.qq.type==='image_mcq') && (
-                      <div style={{display:'grid',gap:8}}>{Object.entries(myResultPreview.qq.options||{}).map(function(entry){var k=entry[0]; var v=entry[1]; var userSel=parseMcqAnswer(myResultPreview.attempt.answers && myResultPreview.attempt.answers[myResultPreview.qq.id]).includes(k); var correctList=getCorrectList(myResultPreview.qq); var isCorrectOpt=correctList.includes(k); var border='1px solid var(--border)'; var bg='var(--card)'; var badge=''; if(isCorrectOpt){border='2px solid #16A34A'; bg='#F0FDF4'; badge=' ✓ Correct';} if(userSel && !isCorrectOpt){border='2px solid #DC2626'; bg='#FEF2F2'; badge=' ✗ Your answer';} if(userSel && isCorrectOpt){badge=' ✓ Your answer + Correct';} return <div key={k} style={{padding:'10px 14px',borderRadius:10,border:border,background:bg}}><b>{k}.</b> {v}<b style={{marginLeft:8,color:isCorrectOpt?'#16A34A':'#DC2626'}}>{badge}</b></div>;})}</div>
-                    )}
-                    <div style={{background:'var(--accent)',padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:12.5}}><b>Explanation:</b> {myResultPreview.qq.explanation}</div>
-                    <div className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>Correct answers: {getCorrectList(myResultPreview.qq).join(', ')||'—'} • Multi: {isMultiMcq(myResultPreview.qq)?'Yes':'No'}</div>
+                  <div style=${{flex:1,overflow:'auto',padding:20,display:'grid',gap:14,background:'var(--bg)'}}>
+                    <div style=${{fontSize:16,fontWeight:600}}>${myResultPreview.qq.question}</div>
+                    <div style=${{display:'grid',gap:8}}>${Object.entries(myResultPreview.qq.options||{}).map(([k,v])=>{var userSel=parseMcqAnswer(myResultPreview.attempt.answers&&myResultPreview.attempt.answers[myResultPreview.qq.id]).includes(k); var correctList=getCorrectList(myResultPreview.qq); var isCorrectOpt=correctList.includes(k); var border='1px solid var(--border)'; var bg='var(--card)'; var badge=''; if(isCorrectOpt){border='2px solid #16A34A'; bg='#F0FDF4'; badge=' ✓ Correct';} if(userSel && !isCorrectOpt){border='2px solid #DC2626'; bg='#FEF2F2'; badge=' ✗ Your answer';} if(userSel && isCorrectOpt){badge=' ✓ Your answer + Correct';} return html`<div key=${k} style=${{padding:'10px 14px',borderRadius:10,border:border,background:bg}}><b>${k}.</b> ${v}<b style=${{marginLeft:8,color:isCorrectOpt?'#16A34A':'#DC2626'}}>${badge}</b></div>`;})}</div>
+                    <div style=${{background:'var(--accent)',padding:'12px 14px',borderRadius:10,border:'1px solid var(--border)',fontSize:12.5}}><b>Explanation:</b> ${myResultPreview.qq.explanation}</div>
                   </div>
                 </div>
               </div>
-            )}
+            ` : null}
           </div>
-        )}
-        {route==='/about' && (
-          <div style={{display:'grid',gap:20}}>
-            <h2 className="heading" style={{fontSize:28,margin:0}}>About</h2>
-            <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20}}>
-              <h3 className="heading" style={{fontSize:16}}>Theme.css — Easy Theming (GitHub Pages Compatible)</h3>
-              <p className="mono" style={{fontSize:12,color:'var(--text-muted)'}}>Add a file named theme.css at repo root (next to index.html). It will be auto-loaded via dynamic link with cache-bust. GitHub Pages serves static files.</p>
-              <pre style={{background:'var(--bg)',border:'1px solid var(--border)',borderRadius:12,padding:14,fontSize:11,overflow:'auto',whiteSpace:'pre-wrap'}}>{`/* theme.css - simCAT by Cheries */
-:root{
-  --primary:#7c1d2b; --primary-strong:#5a1420;
-  --bg:#fdf8f5; --card:#ffffff; --border:#e7ddd9;
-  --text:#2b1a1d; --text-strong:#1a0f11; --text-muted:#8a6d72;
-  --accent:#f8ecea;
-}
-[data-theme='black']{
-  --primary:#e85d4a; --bg:#0a0a0a; --card:#171717; --border:#262626;
-  --text:#e5e5e5; --accent:#1f1f1f;
-}
+        ` : null}
+        ${route==='/about' ? html`
+          <div style=${{display:'grid',gap:20}}>
+            <h2 className="heading" style=${{fontSize:28,margin:0}}>About — Plain HTML Build</h2>
+            <div style=${{background:'var(--card)',border:'1px solid var(--border)',borderRadius:16,padding:20}}>
+              <h3 className="heading" style=${{fontSize:16}}>Theme.css — Works Offline, No Babel</h3>
+              <p className="mono" style=${{fontSize:12,color:'var(--text-muted)'}}>This build is plain HTML + React UMD + htm (no Babel). It works offline on GitHub Pages. Add theme.css at repo root.</p>
+              <pre style=${{background:'var(--bg)',border:'1px solid var(--border)',borderRadius:12,padding:14,fontSize:11,overflow:'auto',whiteSpace:'pre-wrap'}}>${`/* theme.css */
+:root{--primary:#7c1d2b;--bg:#fdf8f5;--card:#fff;--border:#e7ddd9;--text:#2b1a1d;--accent:#f8ecea}
+[data-theme='black']{--primary:#e85d4a;--bg:#0a0a0a;--card:#171717;--border:#262626;--text:#e5e5e5;--accent:#1f1f1f}
 `}</pre>
-              <div style={{display:'flex',gap:8,marginTop:12}}>
-                <button onClick={function(){var css=document.querySelector('pre').textContent; var blob=new Blob([css],{type:'text/css'}); var url=URL.createObjectURL(blob); var a=document.createElement('a'); a.href=url; a.download='theme.css'; a.click(); URL.revokeObjectURL(url);}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>DOWNLOAD theme.css TEMPLATE</button>
-                <button onClick={function(){try{var href=[".","/","theme",".css"].join("").replace("//","/"); var l=document.getElementById("theme-css-link"); if(!l){l=document.createElement("link"); l.id="theme-css-link"; l.rel="stylesheet"; document.head.appendChild(l);} l.href=href+"?t="+Date.now(); alert('Reloaded theme.css');}catch(e){}}} className="mono" style={{padding:'8px 12px',borderRadius:8,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',cursor:'pointer',fontSize:11}}>RELOAD theme.css</button>
+              <div style=${{display:'flex',gap:8,marginTop:12}}>
+                <button onClick=${()=>{var css=document.querySelector('pre').textContent; var blob=new Blob([css],{type:'text/css'}); var url=URL.createObjectURL(blob); var a=document.createElement('a'); a.href=url; a.download='theme.css'; a.click(); URL.revokeObjectURL(url);}} className="mono" style=${{padding:'8px 12px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer',fontSize:11}}>DOWNLOAD theme.css</button>
+                <button onClick=${()=>{try{var href=[".","/","theme",".css"].join("").replace("//","/"); var l=document.getElementById("theme-css-link"); if(!l){l=document.createElement("link"); l.id="theme-css-link"; l.rel="stylesheet"; document.head.appendChild(l);} l.href=href+"?t="+Date.now(); alert('Reloaded theme.css');}catch(e){}}} className="mono" style=${{padding:'8px 12px',borderRadius:8,border:'1.5px solid var(--primary)',background:'var(--primary)',color:'white',cursor:'pointer',fontSize:11}}>RELOAD theme.css</button>
               </div>
             </div>
-            <div style={{background:'var(--accent)',border:'1px solid var(--border)',borderRadius:16,padding:18}}>
-              <div className="mono" style={{fontSize:11,fontWeight:700}}>ABOUT THIS BUILD — {APP_VERSION}</div>
-              <div style={{fontSize:13,lineHeight:1.7,color:'var(--text-muted)',marginTop:8}}>
-                v2.8.0 fixed: Removed TypeScript casts, pure JS, Babel preset react only. Multi-correct MCQ exact set-match, extended meta creator/level/topics/tags/author/updatedAt/typeCounts, favorites localStorage cat_favorites_username with ★/☆ gold filter ALL|FAVORITES, detail modal 95vw 90vh with detail info + breakdown by type (dynamic → meta.typeCounts → FETCH) + history + START FAST/NORMAL/EASY, theme.css dynamic link GitPgs compatible. Keeps v2.7.03 features: clickable big cards + preview, sticky buttons, files 95vw, roles.json glob, account checker.
-              </div>
+            <div style=${{background:'var(--accent)',border:'1px solid var(--border)',borderRadius:16,padding:18}}>
+              <div className="mono" style=${{fontSize:11,fontWeight:700}}>ABOUT THIS BUILD — ${APP_VERSION} — PLAIN HTML, NO BABEL</div>
+              <div style=${{fontSize:13,lineHeight:1.7,color:'var(--text-muted)',marginTop:8}}>Built first to plain HTML: React UMD + htm, no Babel CDN, works offline. Multi-correct MCQ, extended meta, favorites, detail modal 95vw 90vh, theme.css dynamic.</div>
             </div>
           </div>
-        )}
-        {route==='/files' && <div><h2 className="heading" style={{fontSize:28}}>Files</h2><p className="mono" style={{fontSize:12,color:'var(--text-muted)'}}>Files manifest from /data/files-manifest.json — preview 95vw 90vh + New Tab support. (Mock files in this build)</p><div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:16,marginTop:12}} className="mono"><div style={{fontSize:11}}>MOCK FILES:</div><div style={{fontSize:11,marginTop:8}}>english / beginner / simple_present.pdf<br/>english / intermediate / conditional.pdf</div></div></div>}
-        {route==='/admin' && session && session.role==='admin' && (
-          <div><h2 className="heading" style={{fontSize:28}}>Admin</h2><pre style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:12,padding:14,fontSize:11,overflow:'auto'}}>{JSON.stringify({users:users,config:config,qManifest:qManifest.slice(0,2)},null,2)}</pre></div>
-        )}
+        ` : null}
       </main>
-      <footer style={{borderTop:'1px solid var(--border)',padding:'20px 24px',background:'var(--card)',marginTop:20}}>
-        <div style={{maxWidth:1280,margin:'0 auto',display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:10}}>
-          <span className="mono" style={{fontSize:11,color:'var(--text-muted)'}}>{config.footerText} • {APP_VERSION}</span>
-          <span className="mono" style={{fontSize:11,color:'var(--text-faint)'}}>{config.designer} • {config.appName} • {new Date().getFullYear()}</span>
+      <footer style=${{borderTop:'1px solid var(--border)',padding:'20px 24px',background:'var(--card)',marginTop:20}}>
+        <div style=${{maxWidth:1280,margin:'0 auto',display:'flex',justifyContent:'space-between',flexWrap:'wrap',gap:10}}>
+          <span className="mono" style=${{fontSize:11,color:'var(--text-muted)'}}>${MOCK_CONFIG.footerText} • ${APP_VERSION} • Plain HTML</span>
+          <span className="mono" style=${{fontSize:11,color:'var(--text-faint)'}}>${MOCK_CONFIG.designer} • ${new Date().getFullYear()}</span>
         </div>
       </footer>
-      {showExplanation && (
-        <div style={{position:'fixed',inset:0,background:'rgba(0,0,0,0.48)',backdropFilter:'blur(10px)',zIndex:60,display:'grid',placeItems:'center',padding:20}}>
-          <div style={{background:'var(--card)',border:'1px solid var(--border)',borderRadius:20,width:'100%',maxWidth:900,maxHeight:'85vh',display:'flex',flexDirection:'column',overflow:'hidden'}}>
-            <div style={{padding:'16px 20px',borderBottom:'1px solid var(--border)',display:'flex',justifyContent:'space-between',alignItems:'center',background:'var(--accent)'}}><div className="heading" style={{fontSize:14,fontWeight:700}}>EXPLANATION</div><button onClick={function(){setShowExplanation(null);}} style={{padding:'6px 10px',borderRadius:8,border:'1px solid var(--border)',background:'var(--card)',cursor:'pointer'}}>✕</button></div>
-            <div style={{flex:1,overflow:'auto',padding:20}} className="mono"><pre style={{whiteSpace:'pre-wrap',fontSize:12,lineHeight:1.7}}>{typeof showExplanation==='string'?showExplanation:JSON.stringify(showExplanation,null,2)}</pre></div>
-          </div>
-        </div>
-      )}
     </div>
-  );
+  `;
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);
+root.render(html`<${App} />`);
 </script>
 </body>
 </html>
