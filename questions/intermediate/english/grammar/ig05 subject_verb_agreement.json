@@ -2,9 +2,9 @@
   "meta": {
     "title": "English Subject-Verb Agreement Test (50 Questions)",
     "timeLimits": {
-      "fast": 40,
-      "normal": 60,
-      "easy": 90
+      "fast": 45,
+      "normal": 70,
+      "easy": 100
     }
   },
   "questions": [
@@ -15,8 +15,8 @@
       "options": {
         "A": "have",
         "B": "has",
-        "C": "are",
-        "D": "were"
+        "C": "had",
+        "D": "have had"
       },
       "correctAnswer": "B",
       "explanation": "The head noun of the subject is 'bouquet' (singular). 'Of roses' is a prepositional phrase, so the verb must be 'has'.",
@@ -104,12 +104,12 @@
       "type": "mcq",
       "question": "Every one of the participants ___ a certificate at the end of the workshop.",
       "options": {
-        "A": "receive",
-        "B": "receives",
-        "C": "are receiving",
-        "D": "have received"
+        "A": "receives",
+        "B": "receive",
+        "C": "received",
+        "D": "are receiving"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "explanation": "'Every one' is a singular indefinite pronoun, so the verb must be 'receives'.",
       "explanationDetails": {
         "id": "SVA-1002",
@@ -288,10 +288,10 @@
       "options": {
         "A": "were",
         "B": "are",
-        "C": "was",
-        "D": "have been"
+        "C": "have been",
+        "D": "was"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "In formal English, 'neither of' is treated as singular, so the verb is 'was'.",
       "explanationDetails": {
         "id": "SVA-1004",
@@ -469,12 +469,12 @@
       "type": "mcq",
       "question": "The herd of cattle ___ grazing in the field when the storm began.",
       "options": {
-        "A": "were",
-        "B": "are",
-        "C": "was",
-        "D": "have been"
+        "A": "was",
+        "B": "were",
+        "C": "is",
+        "D": "are"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "A",
       "explanation": "The head noun is 'herd' (singular). 'Of cattle' is a prepositional phrase, so the verb is 'was'.",
       "explanationDetails": {
         "id": "SVA-1006",
@@ -652,11 +652,11 @@
       "question": "The scissors ___ on the table a moment ago.",
       "options": {
         "A": "was",
-        "B": "were",
-        "C": "is",
-        "D": "has been"
+        "B": "is",
+        "C": "has been",
+        "D": "were"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "D",
       "explanation": "'Scissors' is a plural-only noun and always takes a plural verb, so 'were' is correct.",
       "explanationDetails": {
         "id": "SVA-1008",
@@ -743,11 +743,11 @@
       "question": "Neither the manager nor the employees ___ willing to work overtime.",
       "options": {
         "A": "was",
-        "B": "is",
-        "C": "were",
+        "B": "were",
+        "C": "is",
         "D": "has been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "With 'neither ... nor', the verb agrees with the nearer subject. 'The employees' is plural, so 'were' is correct.",
       "explanationDetails": {
         "id": "SVA-1009",
@@ -833,12 +833,12 @@
       "type": "mcq",
       "question": "The number of tourists visiting Bali ___ increasing every year.",
       "options": {
-        "A": "are",
-        "B": "is",
+        "A": "is",
+        "B": "are",
         "C": "were",
         "D": "have been"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "explanation": "'The number of' is a singular subject, so the verb must be 'is'.",
       "explanationDetails": {
         "id": "SVA-1010",
@@ -925,11 +925,11 @@
       "question": "Each of the rooms ___ its own air conditioner.",
       "options": {
         "A": "have",
-        "B": "has",
-        "C": "are",
-        "D": "were"
+        "B": "are having",
+        "C": "has",
+        "D": "had"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "C",
       "explanation": "'Each' is singular, so the verb must be 'has'.",
       "explanationDetails": {
         "id": "SVA-1011",
@@ -1017,10 +1017,10 @@
       "options": {
         "A": "was",
         "B": "is",
-        "C": "were",
-        "D": "has been"
+        "C": "has been",
+        "D": "were"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "The pronoun 'their' shows that the jury members are acting individually, so the plural verb 'were' is correct.",
       "explanationDetails": {
         "id": "SVA-1012",
@@ -1108,11 +1108,11 @@
       "question": "Neither the students nor the teacher ___ present when the bell rang.",
       "options": {
         "A": "were",
-        "B": "are",
-        "C": "was",
+        "B": "was",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "With 'neither ... nor', the verb agrees with the nearer subject. 'The teacher' is singular, so 'was' is correct.",
       "explanationDetails": {
         "id": "SVA-1013",
@@ -1198,12 +1198,12 @@
       "type": "mcq",
       "question": "The information you provided ___ very helpful.",
       "options": {
-        "A": "were",
-        "B": "are",
-        "C": "was",
+        "A": "was",
+        "B": "were",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "A",
       "explanation": "'Information' is an uncountable singular noun, so the verb must be 'was'.",
       "explanationDetails": {
         "id": "SVA-1014",
@@ -1290,11 +1290,11 @@
       "question": "One of the boys ___ a broken leg after the accident.",
       "options": {
         "A": "have",
-        "B": "has",
-        "C": "are",
-        "D": "were"
+        "B": "are having",
+        "C": "has",
+        "D": "had"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "C",
       "explanation": "'One of' is the singular head of the subject, so the verb is 'has'.",
       "explanationDetails": {
         "id": "SVA-1015",
@@ -1383,10 +1383,10 @@
       "options": {
         "A": "are",
         "B": "were",
-        "C": "is",
-        "D": "have been"
+        "C": "have been",
+        "D": "is"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "The head noun is 'quality' (singular), so the verb must be 'is'.",
       "explanationDetails": {
         "id": "SVA-1016",
@@ -1565,12 +1565,12 @@
       "type": "mcq",
       "question": "Most of the furniture in the old house ___ damaged by the flood.",
       "options": {
-        "A": "were",
-        "B": "are",
-        "C": "was",
+        "A": "was",
+        "B": "were",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "A",
       "explanation": "'Furniture' is an uncountable singular noun, so the verb after 'most of' must be 'was'.",
       "explanationDetails": {
         "id": "SVA-1018",
@@ -1749,10 +1749,10 @@
       "options": {
         "A": "is",
         "B": "was",
-        "C": "are",
-        "D": "has been"
+        "C": "has been",
+        "D": "are"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "The head noun is 'keys' (plural), so the verb must be 'are'.",
       "explanationDetails": {
         "id": "SVA-1020",
@@ -1839,11 +1839,11 @@
       "question": "Everybody in the audience ___ clapping after the performance.",
       "options": {
         "A": "were",
-        "B": "are",
-        "C": "was",
+        "B": "was",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "'Everybody' is a singular indefinite pronoun, so the verb must be 'was'.",
       "explanationDetails": {
         "id": "SVA-1021",
@@ -1929,12 +1929,12 @@
       "type": "mcq",
       "question": "A number of issues ___ raised during the meeting.",
       "options": {
-        "A": "was",
-        "B": "were",
+        "A": "were",
+        "B": "was",
         "C": "is",
         "D": "has been"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "explanation": "'A number of' means 'several', so it takes a plural verb: 'were'.",
       "explanationDetails": {
         "id": "SVA-1022",
@@ -2018,14 +2018,14 @@
     {
       "id": 23,
       "type": "mcq",
-      "question": "The committee ___ its final report yesterday.",
+      "question": "The committee ___ its final report.",
       "options": {
         "A": "have submitted",
-        "B": "has submitted",
-        "C": "are submitting",
-        "D": "were submitting"
+        "B": "are submitting",
+        "C": "has submitted",
+        "D": "is submitting"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "C",
       "explanation": "The pronoun 'its' shows that the committee is treated as one unit, so the singular verb 'has submitted' is correct.",
       "explanationDetails": {
         "id": "SVA-1023",
@@ -2047,8 +2047,8 @@
         },
         "wrong_correct": [
           {
-            "wrong": "The committee have submitted its final report yesterday.",
-            "correct": "The committee has submitted its final report yesterday.",
+            "wrong": "The committee have submitted its final report.",
+            "correct": "The committee has submitted its final report.",
             "explanation": {
               "en": "The singular pronoun 'its' requires a singular verb, so 'has submitted' is correct.",
               "id": "Kata ganti tunggal 'its' memerlukan kata kerja tunggal, sehingga 'has submitted' yang benar."
@@ -2113,10 +2113,10 @@
       "options": {
         "A": "was",
         "B": "is",
-        "C": "were",
-        "D": "has been"
+        "C": "has been",
+        "D": "were"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "'Few of' refers to a plural countable noun ('students'), so the verb must be 'were'.",
       "explanationDetails": {
         "id": "SVA-1024",
@@ -2203,11 +2203,11 @@
       "question": "Every student and every teacher ___ required to wear an identification badge.",
       "options": {
         "A": "are",
-        "B": "were",
-        "C": "is",
+        "B": "is",
+        "C": "were",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "When 'every' is repeated before each noun joined by 'and', the subject is singular, so the verb is 'is'.",
       "explanationDetails": {
         "id": "SVA-1025",
@@ -2478,10 +2478,10 @@
       "options": {
         "A": "were",
         "B": "are",
-        "C": "was",
-        "D": "have been"
+        "C": "have been",
+        "D": "was"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "explanation": "'News' is an uncountable singular noun, so the verb must be 'was'.",
       "explanationDetails": {
         "id": "SVA-1028",
@@ -2568,11 +2568,11 @@
       "question": "Neither of the two proposals ___ acceptable to the board.",
       "options": {
         "A": "were",
-        "B": "are",
-        "C": "was",
+        "B": "was",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "In formal English, 'neither of' is singular, so the verb is 'was'.",
       "explanationDetails": {
         "id": "SVA-1029",
@@ -2660,9 +2660,9 @@
       "question": "The flock of sheep ___ moving slowly across the road.",
       "options": {
         "A": "were",
-        "B": "are",
+        "B": "is",
         "C": "was",
-        "D": "have been"
+        "D": "are"
       },
       "correctAnswer": "C",
       "explanation": "The head noun is 'flock' (singular), so the verb is 'was'.",
@@ -2748,7 +2748,7 @@
     {
       "id": 31,
       "type": "mcq",
-      "question": "Half of the students in the class ___ absent today.",
+      "question": "Half of the students in the class ___ absent yesterday.",
       "options": {
         "A": "was",
         "B": "is",
@@ -2777,8 +2777,8 @@
         },
         "wrong_correct": [
           {
-            "wrong": "Half of the students in the class was absent today.",
-            "correct": "Half of the students in the class were absent today.",
+            "wrong": "Half of the students in the class was absent yesterday.",
+            "correct": "Half of the students in the class were absent yesterday.",
             "explanation": {
               "en": "'Students' is plural, so the plural verb 'were' is needed. The phrase 'in the class' is only a modifier.",
               "id": "'Students' bersifat jamak, sehingga kata kerja jamak 'were' diperlukan. Frasa 'in the class' hanya pewatas."
@@ -2842,9 +2842,9 @@
       "question": "None of the equipment in the laboratory ___ working properly.",
       "options": {
         "A": "were",
-        "B": "are",
+        "B": "is",
         "C": "was",
-        "D": "have been"
+        "D": "are"
       },
       "correctAnswer": "C",
       "explanation": "'Equipment' is an uncountable singular noun, so the verb after 'none of' must be 'was'.",
@@ -4067,11 +4067,11 @@
       "question": "Everybody in the group ___ responsible for completing the assignment on time.",
       "options": {
         "A": "are",
-        "B": "were",
-        "C": "is",
+        "B": "is",
+        "C": "were",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "'Everybody' is a singular indefinite pronoun, so the verb must be 'is'.",
       "explanationDetails": {
         "id": "SVA-1045",
@@ -4157,12 +4157,12 @@
       "type": "mcq",
       "question": "The pair of earrings ___ lost during the trip.",
       "options": {
-        "A": "were",
-        "B": "are",
-        "C": "was",
+        "A": "was",
+        "B": "were",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "A",
       "explanation": "The head noun is 'pair' (singular), so the verb is 'was'.",
       "explanationDetails": {
         "id": "SVA-1046",
@@ -4341,11 +4341,11 @@
       "question": "Either of the two roads ___ to the beach.",
       "options": {
         "A": "lead",
-        "B": "leads",
-        "C": "are leading",
-        "D": "have led"
+        "B": "are leading",
+        "C": "have led",
+        "D": "leads"
       },
-      "correctAnswer": "B",
+      "correctAnswer": "D",
       "explanation": "'Either of' is singular in formal English, so the verb must be 'leads'.",
       "explanationDetails": {
         "id": "SVA-1048",
@@ -4433,11 +4433,11 @@
       "question": "The staff at the hospital ___ working overtime during the emergency.",
       "options": {
         "A": "was",
-        "B": "is",
-        "C": "were",
+        "B": "were",
+        "C": "is",
         "D": "has been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "B",
       "explanation": "In British English, 'staff' is often treated as plural when the members are considered individually, so 'were' is appropriate.",
       "explanationDetails": {
         "id": "SVA-1049",
@@ -4523,12 +4523,12 @@
       "type": "mcq",
       "question": "The news about the accident ___ shocking to the whole community.",
       "options": {
-        "A": "were",
-        "B": "are",
-        "C": "was",
+        "A": "was",
+        "B": "were",
+        "C": "are",
         "D": "have been"
       },
-      "correctAnswer": "C",
+      "correctAnswer": "A",
       "explanation": "'News' is an uncountable singular noun, so the verb must be 'was'.",
       "explanationDetails": {
         "id": "SVA-1050",
