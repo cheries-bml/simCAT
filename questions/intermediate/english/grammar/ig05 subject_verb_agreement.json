@@ -1,0 +1,832 @@
+{
+  "meta": {
+    "title": "Subject-Verb Agreement Mastery Test",
+    "timeLimits": {
+      "fast": 40,
+      "normal": 60,
+      "easy": 80
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "The quality of these products ___ outstanding.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "have"
+      },
+      "correctAnswer": "C",
+      "explanation": "The subject of the sentence is 'quality', which is singular, not 'products'.",
+      "explanationDetails": {
+        "id": "GRAM-1001",
+        "slug": "singular-subject-with-prepositional-phrase",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Singular Subject with Prepositional Phrase",
+            "id": "Subjek Tunggal dengan Frasa Preposisional"
+          },
+          "description": {
+            "en": "The subject of the sentence is 'quality', which is singular, not 'products'.",
+            "id": "Subjek kalimatnya adalah 'quality', yang merupakan tunggal, bukan 'products'."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The quality of these products are outstanding.",
+            "correct": "The quality of these products is outstanding.",
+            "explanation": {
+              "en": "Do not let the plural noun in the prepositional phrase ('products') distract you from the true singular subject ('quality').",
+              "id": "Jangan biarkan kata benda jamak dalam frasa preposisional ('products') mengalihkan perhatian Anda dari subjek tunggal yang sebenarnya ('quality')."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "The subject of the sentence is 'quality', which is singular, not 'products'.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "When a singular subject is followed by a prepositional phrase containing a plural noun, the verb must agree with the singular subject.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "The quality of these products are outstanding.",
+                "correct": "The quality of these products is outstanding.",
+                "reason": "Do not let the plural noun in the prepositional phrase ('products') distract you from the true singular subject ('quality')."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: The quality of these products is outstanding.",
+            "translation": "Contoh: Kualitas produk-produk ini luar biasa.",
+            "explanation": {
+              "en": "This follows the rule of singular subject with prepositional phrase.",
+              "id": "Ini mengikuti aturan subjek tunggal dengan frasa preposisional."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Neither of the candidates ___ suitable for the position.",
+      "options": {
+        "A": "were",
+        "B": "is",
+        "C": "have",
+        "D": "are"
+      },
+      "correctAnswer": "B",
+      "explanation": "'Neither' is a singular indefinite pronoun and always takes a singular verb in formal English.",
+      "explanationDetails": {
+        "id": "GRAM-1002",
+        "slug": "indefinite-pronouns-as-singular-subjects",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Indefinite Pronouns as Singular Subjects",
+            "id": "Kata Ganti Tak Tentu sebagai Subjek Tunggal"
+          },
+          "description": {
+            "en": "'Neither' is a singular indefinite pronoun and always takes a singular verb in formal English.",
+            "id": "'Neither' adalah kata ganti tak tentu tunggal dan selalu menggunakan kata kerja tunggal dalam bahasa Inggris formal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Neither of the candidates are suitable.",
+            "correct": "Neither of the candidates is suitable.",
+            "explanation": {
+              "en": "Although 'candidates' is plural, the subject is 'Neither', which is singular.",
+              "id": "Meskipun 'candidates' jamak, subjeknya adalah 'Neither', yang merupakan tunggal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "'Neither' is a singular indefinite pronoun and always takes a singular verb in formal English.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Words like 'neither', 'either', 'each', and 'everyone' are grammatically singular and require singular verbs.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "Neither of the candidates are suitable.",
+                "correct": "Neither of the candidates is suitable.",
+                "reason": "Although 'candidates' is plural, the subject is 'Neither', which is singular."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: Neither of the candidates is suitable.",
+            "translation": "Contoh: Tidak satu pun dari kandidat tersebut cocok untuk posisi ini.",
+            "explanation": {
+              "en": "This follows the rule of indefinite pronouns as singular subjects.",
+              "id": "Ini mengikuti aturan kata ganti tak tentu sebagai subjek tunggal."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "The news about the economy ___ encouraging.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "were",
+        "D": "seem"
+      },
+      "correctAnswer": "B",
+      "explanation": "'News' is an uncountable noun that ends in 's' but is grammatically singular.",
+      "explanationDetails": {
+        "id": "GRAM-1003",
+        "slug": "uncountable-nouns-ending-in-s",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Uncountable Nouns Ending in 's'",
+            "id": "Kata Benda Tidak Dapat Dihitung yang Berakhiran 's'"
+          },
+          "description": {
+            "en": "'News' is an uncountable noun that ends in 's' but is grammatically singular.",
+            "id": "'News' adalah kata benda yang tidak dapat dihitung yang berakhiran 's' tetapi secara tata bahasa adalah tunggal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The news about the economy are encouraging.",
+            "correct": "The news about the economy is encouraging.",
+            "explanation": {
+              "en": "Do not assume a word is plural just because it ends in 's'. 'News' is always singular.",
+              "id": "Jangan berasumsi kata itu jamak hanya karena berakhiran 's'. 'News' selalu tunggal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "'News' is an uncountable noun that ends in 's' but is grammatically singular.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Certain nouns ending in 's' (e.g., news, mathematics, physics, measles) are singular and take singular verbs.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "The news about the economy are encouraging.",
+                "correct": "The news about the economy is encouraging.",
+                "reason": "Do not assume a word is plural just because it ends in 's'. 'News' is always singular."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: The news about the economy is encouraging.",
+            "translation": "Contoh: Berita tentang ekonomi itu menggembirakan.",
+            "explanation": {
+              "en": "This follows the rule of uncountable nouns ending in 's'.",
+              "id": "Ini mengikuti aturan kata benda tidak dapat dihitung yang berakhiran 's'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Physics ___ a challenging subject for many students.",
+      "options": {
+        "A": "were",
+        "B": "have",
+        "C": "are",
+        "D": "is"
+      },
+      "correctAnswer": "D",
+      "explanation": "Names of academic subjects ending in 's' are treated as singular nouns.",
+      "explanationDetails": {
+        "id": "GRAM-1004",
+        "slug": "names-of-subjects-ending-in-s",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Names of Subjects Ending in 's'",
+            "id": "Nama Mata Pelajaran yang Berakhiran 's'"
+          },
+          "description": {
+            "en": "Names of academic subjects ending in 's' are treated as singular nouns.",
+            "id": "Nama mata pelajaran akademik yang berakhiran 's' diperlakukan sebagai kata benda tunggal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Physics are a challenging subject.",
+            "correct": "Physics is a challenging subject.",
+            "explanation": {
+              "en": "The field of study is a single entity, so it requires a singular verb.",
+              "id": "Bidang studi adalah satu entitas, sehingga memerlukan kata kerja tunggal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Names of academic subjects ending in 's' are treated as singular nouns.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Academic subjects like physics, mathematics, economics, and linguistics take singular verbs.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "Physics are a challenging subject.",
+                "correct": "Physics is a challenging subject.",
+                "reason": "The field of study is a single entity, so it requires a singular verb."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: Physics is a challenging subject.",
+            "translation": "Contoh: Fisika adalah mata pelajaran yang menantang.",
+            "explanation": {
+              "en": "This follows the rule of names of subjects ending in 's'.",
+              "id": "Ini mengikuti aturan nama mata pelajaran yang berakhiran 's'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "question": "The police ___ investigating the incident thoroughly.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "has"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Police' is a plural noun and always takes a plural verb.",
+      "explanationDetails": {
+        "id": "GRAM-1005",
+        "slug": "plural-only-nouns",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Plural-Only Nouns",
+            "id": "Kata Benda yang Hanya Jamak"
+          },
+          "description": {
+            "en": "'Police' is a plural noun and always takes a plural verb.",
+            "id": "'Police' adalah kata benda jamak dan selalu menggunakan kata kerja jamak."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The police is investigating the incident.",
+            "correct": "The police are investigating the incident.",
+            "explanation": {
+              "en": "'Police' refers to multiple officers, so it must be paired with a plural verb.",
+              "id": "'Police' merujuk pada beberapa petugas, sehingga harus dipasangkan dengan kata kerja jamak."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "'Police' is a plural noun and always takes a plural verb.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Certain collective nouns like 'police', 'people', and 'cattle' are grammatically plural and require plural verbs.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "The police is investigating the incident.",
+                "correct": "The police are investigating the incident.",
+                "reason": "'Police' refers to multiple officers, so it must be paired with a plural verb."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: The police are investigating the incident.",
+            "translation": "Contoh: Polisi sedang menyelidiki insiden tersebut secara menyeluruh.",
+            "explanation": {
+              "en": "This follows the rule of plural-only nouns.",
+              "id": "Ini mengikuti aturan kata benda yang hanya jamak."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Ten dollars ___ a reasonable price for this book.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "seem",
+        "D": "is"
+      },
+      "correctAnswer": "D",
+      "explanation": "Amounts of money, when considered as a single unit, take a singular verb.",
+      "explanationDetails": {
+        "id": "GRAM-1006",
+        "slug": "amounts-and-measurements",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Amounts and Measurements",
+            "id": "Jumlah dan Pengukuran"
+          },
+          "description": {
+            "en": "Amounts of money, when considered as a single unit, take a singular verb.",
+            "id": "Jumlah uang, ketika dianggap sebagai satu unit, menggunakan kata kerja tunggal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Ten dollars are a reasonable price.",
+            "correct": "Ten dollars is a reasonable price.",
+            "explanation": {
+              "en": "The amount 'ten dollars' is viewed as a single sum, not ten individual dollar bills.",
+              "id": "Jumlah 'ten dollars' dipandang sebagai satu jumlah total, bukan sepuluh lembar uang satu dolar."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Amounts of money, when considered as a single unit, take a singular verb.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Expressions of time, money, distance, and weight are treated as singular when they represent a total amount.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "Ten dollars are a reasonable price.",
+                "correct": "Ten dollars is a reasonable price.",
+                "reason": "The amount 'ten dollars' is viewed as a single sum, not ten individual dollar bills."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: Ten dollars is a reasonable price.",
+            "translation": "Contoh: Sepuluh dolar adalah harga yang wajar untuk buku ini.",
+            "explanation": {
+              "en": "This follows the rule of amounts and measurements.",
+              "id": "Ini mengikuti aturan jumlah dan pengukuran."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "The scissors ___ on the table.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "has"
+      },
+      "correctAnswer": "C",
+      "explanation": "'Scissors' is a plural noun (pluralia tantum) and requires a plural verb.",
+      "explanationDetails": {
+        "id": "GRAM-1007",
+        "slug": "pluralia-tantum-plural-only-nouns",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Pluralia Tantum (Plural-Only Nouns)",
+            "id": "Pluralia Tantum (Kata Benda yang Hanya Jamak)"
+          },
+          "description": {
+            "en": "'Scissors' is a plural noun (pluralia tantum) and requires a plural verb.",
+            "id": "'Scissors' adalah kata benda jamak (pluralia tantum) dan memerlukan kata kerja jamak."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The scissors is on the table.",
+            "correct": "The scissors are on the table.",
+            "explanation": {
+              "en": "Do not treat tools with two symmetrical parts as singular. Use 'a pair of scissors is' if you need a singular subject.",
+              "id": "Jangan perlakukan alat dengan dua bagian simetris sebagai tunggal. Gunakan 'a pair of scissors is' jika Anda memerlukan subjek tunggal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "'Scissors' is a plural noun (pluralia tantum) and requires a plural verb.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Nouns that consist of two parts, such as scissors, glasses, pants, and tweezers, are plural.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "The scissors is on the table.",
+                "correct": "The scissors are on the table.",
+                "reason": "Do not treat tools with two symmetrical parts as singular. Use 'a pair of scissors is' if you need a singular subject."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: The scissors are on the table.",
+            "translation": "Contoh: Gunting itu ada di atas meja.",
+            "explanation": {
+              "en": "This follows the rule of pluralia tantum (plural-only nouns).",
+              "id": "Ini mengikuti aturan pluralia tantum (kata benda yang hanya jamak)."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "Measles ___ a highly contagious disease.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "have",
+        "D": "is"
+      },
+      "correctAnswer": "D",
+      "explanation": "Names of diseases ending in 's', like measles or mumps, are singular.",
+      "explanationDetails": {
+        "id": "GRAM-1008",
+        "slug": "diseases-ending-in-s",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Diseases Ending in 's'",
+            "id": "Penyakit yang Berakhiran 's'"
+          },
+          "description": {
+            "en": "Names of diseases ending in 's', like measles or mumps, are singular.",
+            "id": "Nama penyakit yang berakhiran 's', seperti measles atau mumps, adalah tunggal."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Measles are a highly contagious disease.",
+            "correct": "Measles is a highly contagious disease.",
+            "explanation": {
+              "en": "Despite the 's' ending, 'measles' refers to a single disease entity.",
+              "id": "Meskipun berakhiran 's', 'measles' merujuk pada satu entitas penyakit."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "Names of diseases ending in 's', like measles or mumps, are singular.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Disease names ending in 's' are treated as singular nouns and take singular verbs.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "Measles are a highly contagious disease.",
+                "correct": "Measles is a highly contagious disease.",
+                "reason": "Despite the 's' ending, 'measles' refers to a single disease entity."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: Measles is a highly contagious disease.",
+            "translation": "Contoh: Campak adalah penyakit yang sangat menular.",
+            "explanation": {
+              "en": "This follows the rule of diseases ending in 's'.",
+              "id": "Ini mengikuti aturan penyakit yang berakhiran 's'."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "The data ___ inconclusive at this stage of the research.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "has"
+      },
+      "correctAnswer": "C",
+      "explanation": "In formal and academic English, 'data' is the plural of 'datum' and takes a plural verb.",
+      "explanationDetails": {
+        "id": "GRAM-1009",
+        "slug": "latin-plurals-data",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Latin Plurals (Data)",
+            "id": "Bentuk Jamak Latin (Data)"
+          },
+          "description": {
+            "en": "In formal and academic English, 'data' is the plural of 'datum' and takes a plural verb.",
+            "id": "Dalam bahasa Inggris formal dan akademik, 'data' adalah bentuk jamak dari 'datum' dan menggunakan kata kerja jamak."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "The data is inconclusive.",
+            "correct": "The data are inconclusive.",
+            "explanation": {
+              "en": "In academic testing, 'data' is strictly plural. Use 'are' to match the plural subject.",
+              "id": "Dalam pengujian akademik, 'data' secara ketat adalah jamak. Gunakan 'are' untuk mencocokkan subjek jamak."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "In formal and academic English, 'data' is the plural of 'datum' and takes a plural verb.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "While 'data' is sometimes used as a singular mass noun in informal contexts, formal writing requires it to be treated as plural.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "The data is inconclusive.",
+                "correct": "The data are inconclusive.",
+                "reason": "In academic testing, 'data' is strictly plural. Use 'are' to match the plural subject."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: The data are inconclusive.",
+            "translation": "Contoh: Data tersebut tidak konklusif pada tahap penelitian ini.",
+            "explanation": {
+              "en": "This follows the rule of latin plurals (data).",
+              "id": "Ini mengikuti aturan bentuk jamak latin (data)."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "question": "Everyone in the rooms ___ ready to leave.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "have",
+        "D": "is"
+      },
+      "correctAnswer": "D",
+      "explanation": "The subject is 'Everyone', which is a singular indefinite pronoun, regardless of the plural noun in the prepositional phrase.",
+      "explanationDetails": {
+        "id": "GRAM-1010",
+        "slug": "indefinite-pronouns-with-prepositional-phrases",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement",
+            "id": "Kesesuaian Subjek dan Kata Kerja"
+          },
+          "category": "Grammar",
+          "subtopic": {
+            "en": "Indefinite Pronouns with Prepositional Phrases",
+            "id": "Kata Ganti Tak Tentu dengan Frasa Preposisional"
+          },
+          "description": {
+            "en": "The subject is 'Everyone', which is a singular indefinite pronoun, regardless of the plural noun in the prepositional phrase.",
+            "id": "Subjeknya adalah 'Everyone', yang merupakan kata ganti tak tentu tunggal, terlepas dari kata benda jamak dalam frasa preposisional."
+          }
+        },
+        "wrong_correct": [
+          {
+            "wrong": "Everyone in the rooms are ready to leave.",
+            "correct": "Everyone in the rooms is ready to leave.",
+            "explanation": {
+              "en": "Do not be distracted by the plural object of the preposition ('rooms'). The subject 'Everyone' dictates the singular verb.",
+              "id": "Jangan teralihkan oleh objek preposisi jamak ('rooms'). Subjek 'Everyone' yang menentukan kata kerja tunggal."
+            }
+          }
+        ],
+        "details_explanation": {
+          "en": {
+            "introduction": "The subject is 'Everyone', which is a singular indefinite pronoun, regardless of the plural noun in the prepositional phrase.",
+            "rules": [
+              {
+                "title": "Core Rule",
+                "explanation": "Indefinite pronouns like everyone, everybody, someone, and nobody are always singular.",
+                "structure": "Subject + Verb",
+                "notes": [
+                  "Pay close attention to the true subject, not the nouns in interrupting phrases or prepositional phrases."
+                ]
+              }
+            ],
+            "common_mistakes": [
+              {
+                "wrong": "Everyone in the rooms are ready to leave.",
+                "correct": "Everyone in the rooms is ready to leave.",
+                "reason": "Do not be distracted by the plural object of the preposition ('rooms'). The subject 'Everyone' dictates the singular verb."
+              }
+            ]
+          }
+        },
+        "other_examples": [
+          {
+            "sentence": "Example: Everyone in the rooms is ready to leave.",
+            "translation": "Contoh: Semua orang di ruangan itu siap untuk pergi.",
+            "explanation": {
+              "en": "This follows the rule of indefinite pronouns with prepositional phrases.",
+              "id": "Ini mengikuti aturan kata ganti tak tentu dengan frasa preposisional."
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
+    }
+  ]
+}
