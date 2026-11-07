@@ -17,7 +17,7 @@
         "B": "Kopi susu gula aren",
         "C": "Kopi luwak"
       },
-      "correctAnswer": "A",
+      "correctAnswer": ["A", "B"],
       "explanation": "Tidak ada yang lebih bikin melek dan sadar diri daripada diingatkan sama tagihan utang.",
       "passage": "Di sebuah kafe, seorang barista bertanya, 'Mau kopi apa?'. Pelanggan menjawab, 'Yang bikin melek dan sadar diri'."
     },
@@ -32,7 +32,7 @@
         "D": "Karena lupa pakai bensin",
         "E": "Karena capek"
       },
-      "correctAnswer": "E",
+      "correctAnswer": ["E","B"],
       "explanation": "Motor juga makhluk hidup yang punya perasaan, apalagi kalau tanjakannya curam."
     },
     {
