@@ -27,10 +27,10 @@
         "slug": "inversion-negative-adverbials",
         "details_explanation": {
           "en": {
-            "introduction": "Inversion adds formal emphasis. The auxiliary verb comes before the subject.",
+            "introduction": "Negative adverbials at the beginning of a sentence require subject-auxiliary inversion.",
             "rules": [
               { "title": "1. Basic Structure", "explanation": "Negative adverb + auxiliary + subject + main verb.", "structure": "Rarely + have/has/did + subject + V3/V1", "notes": ["Negative adverbials at the beginning of a sentence require subject-auxiliary inversion."] },
-              { "title": "2. Applies to", "structure": "Applies to: rarely, seldom, never, hardly, scarcely, no sooner"}
+              { "title": "2. Applies to", "structure": "rarely, seldom, never, hardly, scarcely, no sooner, etc"}
             ],
             "common_mistakes": [
               { "wrong": "Never I will forget this.", "correct": "Never will I forget this.", "reason": "Missing inversion after negative adverb." }
@@ -38,9 +38,9 @@
           }
         },
         "other_examples": [
-          { "sentence": "1. Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } },
-          { "sentence": "2. Little did I know that she was lying", "translation": "Sedikit saya tahu bahwa dia berbohong.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } },
-          { "sentence": "3. Hardly ever does he arrive late.", "translation": "Hampir tidak pernah dia datang terlambat.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } }
+          { "sentence": "1. Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini."},
+          { "sentence": "2. Little did I know that she was lying", "translation": "Sedikit saya tahu bahwa dia berbohong."},
+          { "sentence": "3. Hardly ever does he arrive late.", "translation": "Hampir tidak pernah dia datang terlambat."}
         ],
         "references": [
           { "title": "Inversion", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/inversion", "type": "grammar_reference" }

@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "Test title",
+    "timeLimits": {
+      "fast": 20,
+      "normal": 35,
+      "easy": 50
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "She ___ to the gym every morning.",
+      "options": {
+        "A": "going",
+        "B": "gone",
+        "C": "goes",
+        "D": "go"
+      },
+      "correctAnswer": "C",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "topic": {
+          "name": {
+            "en": "Simple Present Tense",
+            "id": "Simple Present Tense (Kala Kini Sederhana)"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "Third person singular subject 'She' requires the verb form 'goes' in the simple present tense.",
+          "introduction": "The sentence describes a regular routine: going to the gym every morning. The simple present is used for repeated actions and habits. Because the subject is 'she', the verb must use the third-person singular form 'goes'.",
+          "rules": [
+            {
+              "title": "1. When to Use the Simple Present",
+              "explanation": "Use the simple present for habits, routines, repeated actions, and general facts. Time expressions such as 'every morning', 'every day', and 'usually' often indicate a routine.",
+              "structure": "Subject + simple-present verb (+ other information).",
+              "notes": [
+                "The phrase 'every morning' shows that the action happens regularly.",
+                "The simple present describes the routine, not an action happening only at this moment."
+              ]
+            },
+            {
+              "title": "2. Third-Person Singular in Affirmative Sentences",
+              "explanation": "With he, she, it, or a singular noun, add the appropriate third-person singular ending to the main verb in an affirmative simple-present sentence.",
+              "structure": "He/She/It + verb-s/-es; I/You/We/They + base verb.",
+              "notes": [
+                "Most verbs take -s: work → works.",
+                "Some verbs take -es: watch → watches; go → goes.",
+                "The verb 'go' changes to 'goes' with 'she'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The subject is 'She', so the correct verb form is 'goes'. The other options do not fit this affirmative simple-present sentence: 'going' normally needs a form of 'be', 'gone' is a past participle, and 'go' is the base form used here with other subjects such as I, you, we, and they.",
+              "structure": "She + goes + to the gym + every morning.",
+              "notes": [
+                "Correct answer: C — goes.",
+                "The verb 'goes' is the third-person singular form of 'go'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She go to the gym every morning.",
+              "correct": "She goes to the gym every morning.",
+              "reason": "Do not leave the main verb in its base form with a third-person singular subject in an affirmative simple-present sentence."
+            },
+            {
+              "wrong": "She is go to the gym every morning.",
+              "correct": "She goes to the gym every morning.",
+              "reason": "Do not combine 'is' directly with the base verb 'go'. Use the simple present for a routine, or use 'is going' for an action in progress or a temporary arrangement."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "My brother goes to school by bus every day.",
+            "translation": "Saudara laki-laki saya pergi ke sekolah naik bus setiap hari.",
+            "explanation": {
+              "en": "'My brother' is a singular third-person subject, so 'go' becomes 'goes'. 'Every day' indicates a regular routine.",
+              "id": "'My brother' adalah subjek orang ketiga tunggal, sehingga 'go' berubah menjadi 'goes'. 'Every day' menunjukkan rutinitas."
+            }
+          },
+          {
+            "sentence": "They go to the gym every morning.",
+            "translation": "Mereka pergi ke pusat kebugaran setiap pagi.",
+            "explanation": {
+              "en": "'They' is plural, so the main verb stays in its base form: 'go', not 'goes'.",
+              "id": "'They' adalah subjek jamak, sehingga kata kerja tetap dalam bentuk dasar, yaitu 'go', bukan 'goes'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "type": "click_correct",
+      "question": "Click the incorrect word and correct it",
+      "sentence": "The man who sits behind don't knows the answer to the question.",
+      "tokens": [
+        "The man who sits behind",
+        "don't knows",
+        "the answer",
+        "to",
+        "the question."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": [
+        "doesn't know",
+        "does not know"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "passage_mcq",
+      "passage": "Maria is a teacher. She wakes up at 6:00 AM every day. She drinks a cup of coffee and reads the newspaper. Her classes start at 8:00 AM. She teaches English to young students. They always listen carefully and ask many questions.",
+      "question": "What time do Maria's classes start?",
+      "options": {
+        "A": "6:00 AM",
+        "B": "7:00 AM",
+        "C": "8:00 AM",
+        "D": "9:00 AM"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 4,
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "If", "clickable": false },
+        { "id": "s2", "text": "I would have studied", "clickable": true, "isError": true, "correctAnswers": ["I had studied", "I had studied harder"] },
+        { "id": "s3", "text": "harder,", "clickable": false },
+        { "id": "s4", "text": "I would have passed", "clickable": false },
+        { "id": "s5", "text": "the exam.", "clickable": false }
+      ]
+    }
+  ]
+}
