@@ -21,12 +21,11 @@
         { "id": "s4", "text": "demonstration of skill ", "clickable": true, "isError": false },
         { "id": "s5", "text": "in recent years.", "clickable": false }
       ],
-      "explanation": "Negative adverbials at the beginning of a sentence require subject-auxiliary inversion.",
       "explanationDetails": {
         "id": "GRAM-0101",
         "slug": "inversion-negative-adverbials",
         "details_explanation": {
-          "en": {
+            "explanation": "Negative adverbials at the beginning of a sentence require subject-auxiliary inversion.",
             "introduction": "Negative adverbials at the beginning of a sentence require subject-auxiliary inversion.",
             "rules": [
               { "title": "1. Basic Structure", "explanation": "Negative adverb + auxiliary + subject + main verb.", "structure": "Rarely + have/has/did + subject + V3/V1", "notes": ["Negative adverbials at the beginning of a sentence require subject-auxiliary inversion."] },
@@ -35,7 +34,6 @@
             "common_mistakes": [
               { "wrong": "Never I will forget this.", "correct": "Never will I forget this.", "reason": "Missing inversion after negative adverb." }
             ]
-          }
         },
         "other_examples": [
           { "sentence": "1. Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini."},
