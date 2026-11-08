@@ -25,20 +25,12 @@
       "explanationDetails": {
         "id": "GRAM-0101",
         "slug": "inversion-negative-adverbials",
-        "topic": {
-          "name": { "en": "Inversion", "id": "Inversi" },
-          "category": "Advanced Syntax",
-          "subtopic": { "en": "Negative Adverbial Inversion", "id": "Inversi Adverbial Negatif" },
-          "description": { "en": "When a negative adverbial is placed at the beginning of a sentence for emphasis, the subject and auxiliary verb must be inverted.", "id": "Ketika adverbial negatif diletakkan di awal kalimat untuk penekanan, subjek dan kata kerja bantu harus dibalik." }
-        },
-        "wrong_correct": [
-          { "wrong": "Rarely we have seen such talent.", "correct": "Rarely have we seen such talent.", "explanation": { "en": "Inversion is required after 'Rarely'.", "id": "Inversi diperlukan setelah 'Rarely'." } }
-        ],
         "details_explanation": {
           "en": {
             "introduction": "Inversion adds formal emphasis. The auxiliary verb comes before the subject.",
             "rules": [
-              { "title": "1. Basic Structure", "explanation": "Negative adverb + auxiliary + subject + main verb.", "structure": "Rarely + have/has/did + subject + V3/V1", "notes": ["Applies to: rarely, seldom, never, hardly, scarcely, no sooner"] }
+              { "title": "1. Basic Structure", "explanation": "Negative adverb + auxiliary + subject + main verb.", "structure": "Rarely + have/has/did + subject + V3/V1", "notes": ["Negative adverbials at the beginning of a sentence require subject-auxiliary inversion."] },
+              { "title": "2. Applies to", "structure": "Applies to: rarely, seldom, never, hardly, scarcely, no sooner"}
             ],
             "common_mistakes": [
               { "wrong": "Never I will forget this.", "correct": "Never will I forget this.", "reason": "Missing inversion after negative adverb." }
