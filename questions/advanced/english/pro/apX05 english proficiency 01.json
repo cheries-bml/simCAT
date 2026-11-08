@@ -46,7 +46,9 @@
           }
         },
         "other_examples": [
-          { "sentence": "Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } }
+          { "sentence": "1. Seldom has the company faced such a crisis.", "translation": "Jarang sekali perusahaan menghadapi krisis seperti ini.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } },
+          { "sentence": "2. Little did I know that she was lying", "translation": "Sedikit saya tahu bahwa dia berbohong.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } },
+          { "sentence": "3. Hardly ever does he arrive late.", "translation": "Hampir tidak pernah dia datang terlambat.", "explanation": { "en": "Emphasizes the rarity of the crisis.", "id": "Menekankan jarangnya krisis tersebut." } }
         ],
         "references": [
           { "title": "Inversion", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/inversion", "type": "grammar_reference" }
