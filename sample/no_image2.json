@@ -111,69 +111,79 @@
         "doesn't know",
         "does not know"
       ],
-      "details_explanation": {
-        "explanation": "The subject 'The man' is third-person singular, so the negative simple present requires 'doesn't' and the base verb 'know', not 'don't knows'.",
-        "introduction": "The sentence contains a relative clause ('who sits behind') that describes 'The man'. The main verb is negative and must agree with the singular subject 'The man'. In the simple present, negative sentences use do/does + not + base verb.",
-        "rules": [
+      "explanationDetails": {
+        "id": "GRAM-0002",
+        "topic": {
+          "name": {
+            "en": "Simple Present Tense — Negative Forms",
+            "id": "Simple Present Tense — Bentuk Negatif (Kala Kini Sederhana)"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "The subject 'The man' is third-person singular, so the negative simple present requires 'doesn't' and the base verb 'know', not 'don't knows'.",
+          "introduction": "The sentence contains a relative clause ('who sits behind') that describes 'The man'. The main verb is negative and must agree with the singular subject 'The man'. In the simple present, negative sentences use do/does + not + base verb.",
+          "rules": [
+            {
+              "title": "1. Subject-Verb Agreement with a Singular Subject",
+              "explanation": "A singular third-person subject such as 'The man', 'he', 'she', or 'it' takes 'does' in questions and negatives in the simple present. The relative clause does not change the number of the main subject.",
+              "structure": "Singular third-person subject + does/doesn't + base verb.",
+              "notes": [
+                "'The man who sits behind' is still singular because the head noun is 'The man'.",
+                "'Who sits behind' is a relative clause modifying 'The man'."
+              ]
+            },
+            {
+              "title": "2. Negative Simple Present Structure",
+              "explanation": "Use 'do not' or 'don't' with I, you, we, they, and plural subjects. Use 'does not' or 'doesn't' with he, she, it, and singular subjects. The main verb after the auxiliary is always the base form.",
+              "structure": "Subject + don't/doesn't + base verb.",
+              "notes": [
+                "Correct: The man doesn't know.",
+                "Incorrect: The man don't knows."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The incorrect segment is 'don't knows'. Replace it with 'doesn't know' or 'does not know'. The auxiliary 'doesn't' agrees with 'The man', and 'know' is the base verb.",
+              "structure": "The man who sits behind doesn't know the answer to the question.",
+              "notes": [
+                "Correct answers: 'doesn't know' and 'does not know'.",
+                "'don't knows' has two problems: wrong auxiliary and wrong verb form."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The man who sits behind don't know the answer.",
+              "correct": "The man who sits behind doesn't know the answer.",
+              "reason": "'The man' is singular, so use 'doesn't', not 'don't'."
+            },
+            {
+              "wrong": "The man who sits behind doesn't knows the answer.",
+              "correct": "The man who sits behind doesn't know the answer.",
+              "reason": "After 'doesn't', use the base verb 'know', not 'knows'."
+            }
+          ]
+        },
+        "other_examples": [
           {
-            "title": "1. Subject-Verb Agreement with a Singular Subject",
-            "explanation": "A singular third-person subject such as 'The man', 'he', 'she', or 'it' takes 'does' in questions and negatives in the simple present. The relative clause does not change the number of the main subject.",
-            "structure": "Singular third-person subject + does/doesn't + base verb.",
-            "notes": [
-              "'The man who sits behind' is still singular because the head noun is 'The man'.",
-              "'Who sits behind' is a relative clause modifying 'The man'."
-            ]
+            "sentence": "The student who sits in front doesn't understand the question.",
+            "translation": "Siswa yang duduk di depan tidak memahami pertanyaan itu.",
+            "explanation": {
+              "en": "'The student' is singular, so the negative uses 'doesn't' + base verb 'understand'.",
+              "id": "'The student' adalah subjek tunggal, sehingga bentuk negatif menggunakan 'doesn't' + kata kerja dasar 'understand'."
+            }
           },
           {
-            "title": "2. Negative Simple Present Structure",
-            "explanation": "Use 'do not' or 'don't' with I, you, we, they, and plural subjects. Use 'does not' or 'doesn't' with he, she, it, and singular subjects. The main verb after the auxiliary is always the base form.",
-            "structure": "Subject + don't/doesn't + base verb.",
-            "notes": [
-              "Correct: The man doesn't know.",
-              "Incorrect: The man don't knows."
-            ]
-          },
-          {
-            "title": "3. Applying the Rule to This Question",
-            "explanation": "The incorrect segment is 'don't knows'. Replace it with 'doesn't know' or 'does not know'. The auxiliary 'doesn't' agrees with 'The man', and 'know' is the base verb.",
-            "structure": "The man who sits behind doesn't know the answer to the question.",
-            "notes": [
-              "Correct answers: 'doesn't know' and 'does not know'.",
-              "'don't knows' has two problems: wrong auxiliary and wrong verb form."
-            ]
-          }
-        ],
-        "common_mistakes": [
-          {
-            "wrong": "The man who sits behind don't know the answer.",
-            "correct": "The man who sits behind doesn't know the answer.",
-            "reason": "'The man' is singular, so use 'doesn't', not 'don't'."
-          },
-          {
-            "wrong": "The man who sits behind doesn't knows the answer.",
-            "correct": "The man who sits behind doesn't know the answer.",
-            "reason": "After 'doesn't', use the base verb 'know', not 'knows'."
+            "sentence": "The students who sit behind don't know the answer.",
+            "translation": "Para siswa yang duduk di belakang tidak mengetahui jawabannya.",
+            "explanation": {
+              "en": "'The students' is plural, so the negative uses 'don't' + base verb 'know'.",
+              "id": "'The students' adalah subjek jamak, sehingga bentuk negatif menggunakan 'don't' + kata kerja dasar 'know'."
+            }
           }
         ]
-      },
-      "other_examples": [
-        {
-          "sentence": "The student who sits in front doesn't understand the question.",
-          "translation": "Siswa yang duduk di depan tidak memahami pertanyaan itu.",
-          "explanation": {
-            "en": "'The student' is singular, so the negative uses 'doesn't' + base verb 'understand'.",
-            "id": "'The student' adalah subjek tunggal, sehingga bentuk negatif menggunakan 'doesn't' + kata kerja dasar 'understand'."
-          }
-        },
-        {
-          "sentence": "The students who sit behind don't know the answer.",
-          "translation": "Para siswa yang duduk di belakang tidak mengetahui jawabannya.",
-          "explanation": {
-            "en": "'The students' is plural, so the negative uses 'don't' + base verb 'know'.",
-            "id": "'The students' adalah subjek jamak, sehingga bentuk negatif menggunakan 'don't' + kata kerja dasar 'know'."
-          }
-        }
-      ]
+      }
     },
     {
       "id": 3,
@@ -187,69 +197,79 @@
         "D": "9:00 AM"
       },
       "correctAnswer": "C",
-      "details_explanation": {
-        "explanation": "The passage says, 'Her classes start at 8:00 AM.' Therefore, the correct answer is C — 8:00 AM.",
-        "introduction": "This is a reading comprehension question that asks for a specific detail from the passage. The passage gives several times: Maria wakes up at 6:00 AM, and her classes start at 8:00 AM.",
-        "rules": [
+      "explanationDetails": {
+        "id": "READ-0001",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Detail Questions",
+            "id": "Pemahaman Bacaan — Pertanyaan Detail"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "The passage says, 'Her classes start at 8:00 AM.' Therefore, the correct answer is C — 8:00 AM.",
+          "introduction": "This is a reading comprehension question that asks for a specific detail from the passage. The passage gives several times: Maria wakes up at 6:00 AM, and her classes start at 8:00 AM.",
+          "rules": [
+            {
+              "title": "1. Scan for the Key Words in the Question",
+              "explanation": "The question asks about 'Maria's classes' and 'start'. Look for the sentence in the passage that contains 'classes' and 'start'.",
+              "structure": "Question keyword: classes start → Passage sentence: Her classes start at 8:00 AM.",
+              "notes": [
+                "The relevant sentence directly states the time.",
+                "Do not confuse other times in the passage with the class start time."
+              ]
+            },
+            {
+              "title": "2. Distinguish Different Times in the Passage",
+              "explanation": "The passage mentions 6:00 AM for waking up and 8:00 AM for classes starting. The question asks specifically about classes, so use the time connected to 'classes start'.",
+              "structure": "6:00 AM = wakes up; 8:00 AM = classes start.",
+              "notes": [
+                "Option A (6:00 AM) is Maria's wake-up time.",
+                "Options B (7:00 AM) and D (9:00 AM) are not mentioned."
+              ]
+            },
+            {
+              "title": "3. Match the Detail to the Options",
+              "explanation": "The sentence 'Her classes start at 8:00 AM' matches option C exactly.",
+              "structure": "Her classes start at 8:00 AM → Option C.",
+              "notes": [
+                "Correct answer: C — 8:00 AM.",
+                "The answer must come from the passage, not from general knowledge."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing 6:00 AM because it is the first time mentioned.",
+              "correct": "Choose 8:00 AM because the question asks when the classes start.",
+              "reason": "6:00 AM is when Maria wakes up, not when her classes start."
+            },
+            {
+              "wrong": "Choosing a time that is not stated in the passage.",
+              "correct": "Use the time explicitly connected to 'classes start' in the passage.",
+              "reason": "Reading comprehension answers must be supported by the text."
+            }
+          ]
+        },
+        "other_examples": [
           {
-            "title": "1. Scan for the Key Words in the Question",
-            "explanation": "The question asks about 'Maria's classes' and 'start'. Look for the sentence in the passage that contains 'classes' and 'start'.",
-            "structure": "Question keyword: classes start → Passage sentence: Her classes start at 8:00 AM.",
-            "notes": [
-              "The relevant sentence directly states the time.",
-              "Do not confuse other times in the passage with the class start time."
-            ]
+            "sentence": "Passage: Tom gets up at 5:30 AM. He leaves for work at 7:00 AM. Question: What time does Tom leave for work?",
+            "translation": "Bacaan: Tom bangun pukul 5.30 pagi. Ia berangkat kerja pukul 7.00 pagi. Pertanyaan: Pukul berapa Tom berangkat kerja?",
+            "explanation": {
+              "en": "The passage directly says he leaves for work at 7:00 AM, so the answer is 7:00 AM.",
+              "id": "Bacaan secara langsung menyatakan ia berangkat kerja pukul 7.00 pagi, jadi jawabannya 7.00 pagi."
+            }
           },
           {
-            "title": "2. Distinguish Different Times in the Passage",
-            "explanation": "The passage mentions 6:00 AM for waking up and 8:00 AM for classes starting. The question asks specifically about classes, so use the time connected to 'classes start'.",
-            "structure": "6:00 AM = wakes up; 8:00 AM = classes start.",
-            "notes": [
-              "Option A (6:00 AM) is Maria's wake-up time.",
-              "Options B (7:00 AM) and D (9:00 AM) are not mentioned."
-            ]
-          },
-          {
-            "title": "3. Match the Detail to the Options",
-            "explanation": "The sentence 'Her classes start at 8:00 AM' matches option C exactly.",
-            "structure": "Her classes start at 8:00 AM → Option C.",
-            "notes": [
-              "Correct answer: C — 8:00 AM.",
-              "The answer must come from the passage, not from general knowledge."
-            ]
-          }
-        ],
-        "common_mistakes": [
-          {
-            "wrong": "Choosing 6:00 AM because it is the first time mentioned.",
-            "correct": "Choose 8:00 AM because the question asks when the classes start.",
-            "reason": "6:00 AM is when Maria wakes up, not when her classes start."
-          },
-          {
-            "wrong": "Choosing a time that is not stated in the passage.",
-            "correct": "Use the time explicitly connected to 'classes start' in the passage.",
-            "reason": "Reading comprehension answers must be supported by the text."
+            "sentence": "Passage: The store opens at 9:00 AM and closes at 6:00 PM. Question: What time does the store open?",
+            "translation": "Bacaan: Toko buka pukul 9.00 pagi dan tutup pukul 6.00 sore. Pertanyaan: Pukul berapa toko buka?",
+            "explanation": {
+              "en": "The opening time is explicitly stated as 9:00 AM.",
+              "id": "Waktu buka dinyatakan secara eksplisit sebagai pukul 9.00 pagi."
+            }
           }
         ]
-      },
-      "other_examples": [
-        {
-          "sentence": "Passage: Tom gets up at 5:30 AM. He leaves for work at 7:00 AM. Question: What time does Tom leave for work?",
-          "translation": "Bacaan: Tom bangun pukul 5.30 pagi. Ia berangkat kerja pukul 7.00 pagi. Pertanyaan: Pukul berapa Tom berangkat kerja?",
-          "explanation": {
-            "en": "The passage directly says he leaves for work at 7:00 AM, so the answer is 7:00 AM.",
-            "id": "Bacaan secara langsung menyatakan ia berangkat kerja pukul 7.00 pagi, jadi jawabannya 7.00 pagi."
-          }
-        },
-        {
-          "sentence": "Passage: The store opens at 9:00 AM and closes at 6:00 PM. Question: What time does the store open?",
-          "translation": "Bacaan: Toko buka pukul 9.00 pagi dan tutup pukul 6.00 sore. Pertanyaan: Pukul berapa toko buka?",
-          "explanation": {
-            "en": "The opening time is explicitly stated as 9:00 AM.",
-            "id": "Waktu buka dinyatakan secara eksplisit sebagai pukul 9.00 pagi."
-          }
-        }
-      ]
+      }
     },
     {
       "id": 4,
@@ -287,69 +307,79 @@
           "clickable": false
         }
       ],
-      "details_explanation": {
-        "explanation": "The sentence is a third conditional. The if-clause must use the past perfect ('had studied'), not 'would have studied'. The correct sentence is: 'If I had studied harder, I would have passed the exam.'",
-        "introduction": "This question tests the third conditional, which describes an unreal situation in the past and its imagined result. The error is in the if-clause: 'I would have studied' should be 'I had studied'.",
-        "rules": [
+      "explanationDetails": {
+        "id": "GRAM-0003",
+        "topic": {
+          "name": {
+            "en": "Third Conditional",
+            "id": "Kondisional Tipe Ketiga"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "The sentence is a third conditional. The if-clause must use the past perfect ('had studied'), not 'would have studied'. The correct sentence is: 'If I had studied harder, I would have passed the exam.'",
+          "introduction": "This question tests the third conditional, which describes an unreal situation in the past and its imagined result. The error is in the if-clause: 'I would have studied' should be 'I had studied'.",
+          "rules": [
+            {
+              "title": "1. Third Conditional Structure",
+              "explanation": "The third conditional uses: If + past perfect, subject + would have + past participle. It describes a past condition that did not happen and its unreal past result.",
+              "structure": "If + had + past participle, subject + would have + past participle.",
+              "notes": [
+                "Example: If I had studied harder, I would have passed the exam.",
+                "The if-clause does not use 'would have'."
+              ]
+            },
+            {
+              "title": "2. Do Not Use 'Would Have' in the If-Clause",
+              "explanation": "In standard English, 'would have' appears in the result clause, not in the if-clause. The if-clause uses the past perfect 'had + past participle'.",
+              "structure": "Correct: If I had studied... Incorrect: If I would have studied...",
+              "notes": [
+                "The error segment is 'I would have studied'.",
+                "Replace it with 'I had studied'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The sentence has 'If I would have studied harder' and 'I would have passed the exam'. The result clause is already correct. Change the if-clause to 'If I had studied harder'.",
+              "structure": "If I had studied harder, I would have passed the exam.",
+              "notes": [
+                "Correct answer segment: 'I had studied' or 'I had studied harder' depending on the segment boundaries.",
+                "The clicked error is 'I would have studied'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "If I would have studied harder, I would have passed the exam.",
+              "correct": "If I had studied harder, I would have passed the exam.",
+              "reason": "Use the past perfect 'had studied' in the if-clause of a third conditional, not 'would have studied'."
+            },
+            {
+              "wrong": "If I studied harder, I would have passed the exam.",
+              "correct": "If I had studied harder, I would have passed the exam.",
+              "reason": "'Studied' (simple past) does not match the third conditional meaning; use 'had studied' for an unreal past condition."
+            }
+          ]
+        },
+        "other_examples": [
           {
-            "title": "1. Third Conditional Structure",
-            "explanation": "The third conditional uses: If + past perfect, subject + would have + past participle. It describes a past condition that did not happen and its unreal past result.",
-            "structure": "If + had + past participle, subject + would have + past participle.",
-            "notes": [
-              "Example: If I had studied harder, I would have passed the exam.",
-              "The if-clause does not use 'would have'."
-            ]
+            "sentence": "If she had left earlier, she would have caught the train.",
+            "translation": "Jika saja dia berangkat lebih awal, dia akan telah menangkap kereta itu.",
+            "explanation": {
+              "en": "Third conditional: if-clause uses 'had left' (past perfect), result uses 'would have caught'.",
+              "id": "Kondisional tipe ketiga: klausa if menggunakan 'had left' (past perfect), hasil menggunakan 'would have caught'."
+            }
           },
           {
-            "title": "2. Do Not Use 'Would Have' in the If-Clause",
-            "explanation": "In standard English, 'would have' appears in the result clause, not in the if-clause. The if-clause uses the past perfect 'had + past participle'.",
-            "structure": "Correct: If I had studied... Incorrect: If I would have studied...",
-            "notes": [
-              "The error segment is 'I would have studied'.",
-              "Replace it with 'I had studied'."
-            ]
-          },
-          {
-            "title": "3. Applying the Rule to This Question",
-            "explanation": "The sentence has 'If I would have studied harder' and 'I would have passed the exam'. The result clause is already correct. Change the if-clause to 'If I had studied harder'.",
-            "structure": "If I had studied harder, I would have passed the exam.",
-            "notes": [
-              "Correct answer segment: 'I had studied' or 'I had studied harder' depending on the segment boundaries.",
-              "The clicked error is 'I would have studied'."
-            ]
-          }
-        ],
-        "common_mistakes": [
-          {
-            "wrong": "If I would have studied harder, I would have passed the exam.",
-            "correct": "If I had studied harder, I would have passed the exam.",
-            "reason": "Use the past perfect 'had studied' in the if-clause of a third conditional, not 'would have studied'."
-          },
-          {
-            "wrong": "If I studied harder, I would have passed the exam.",
-            "correct": "If I had studied harder, I would have passed the exam.",
-            "reason": "'Studied' (simple past) does not match the third conditional meaning; use 'had studied' for an unreal past condition."
+            "sentence": "If they had known about the problem, they would have helped.",
+            "translation": "Jika saja mereka tahu tentang masalah itu, mereka akan telah membantu.",
+            "explanation": {
+              "en": "'Had known' is the correct past perfect form in the if-clause; 'would have helped' is the result.",
+              "id": "'Had known' adalah bentuk past perfect yang benar dalam klausa if; 'would have helped' adalah hasilnya."
+            }
           }
         ]
-      },
-      "other_examples": [
-        {
-          "sentence": "If she had left earlier, she would have caught the train.",
-          "translation": "Jika saja dia berangkat lebih awal, dia akan telah menangkap kereta itu.",
-          "explanation": {
-            "en": "Third conditional: if-clause uses 'had left' (past perfect), result uses 'would have caught'.",
-            "id": "Kondisional tipe ketiga: klausa if menggunakan 'had left' (past perfect), hasil menggunakan 'would have caught'."
-          }
-        },
-        {
-          "sentence": "If they had known about the problem, they would have helped.",
-          "translation": "Jika saja mereka tahu tentang masalah itu, mereka akan telah membantu.",
-          "explanation": {
-            "en": "'Had known' is the correct past perfect form in the if-clause; 'would have helped' is the result.",
-            "id": "'Had known' adalah bentuk past perfect yang benar dalam klausa if; 'would have helped' adalah hasilnya."
-          }
-        }
-      ]
+      }
     },
     {
       "id": 5,
@@ -367,7 +397,7 @@
         "E"
       ],
       "explanationDetails": {
-        "id": "GRAM-0001",
+        "id": "GRAM-0005",
         "topic": {
           "name": {
             "en": "Simple Present and Simple Past",
@@ -479,69 +509,79 @@
           "clickable": false
         }
       ],
-      "details_explanation": {
-        "explanation": "The sentence is a third conditional. The if-clause must use the past perfect ('had studied'), not 'would have studied'. The correct sentence is: 'If I had studied harder, I would have passed the exam.'",
-        "introduction": "This question tests the third conditional, which describes an unreal situation in the past and its imagined result. The error is in the if-clause: 'I would have studied' should be 'I had studied'.",
-        "rules": [
+      "explanationDetails": {
+        "id": "GRAM-0006",
+        "topic": {
+          "name": {
+            "en": "Third Conditional",
+            "id": "Kondisional Tipe Ketiga"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "The sentence is a third conditional. The if-clause requires the past perfect 'had studied', and the result clause requires 'would have passed'. The correct sentence is: 'If I had studied harder, I would have passed the exam.'",
+          "introduction": "This question tests both parts of the third conditional. The segments '__(study)__' and '__(pass)__' are placeholders that must be changed to the correct verb forms. The sentence describes an unreal past condition and its imagined past result.",
+          "rules": [
+            {
+              "title": "1. Third Conditional Structure",
+              "explanation": "The third conditional uses: If + past perfect, subject + would have + past participle. It describes a past condition that did not happen and its unreal past result.",
+              "structure": "If + had + past participle, subject + would have + past participle.",
+              "notes": [
+                "Correct: If I had studied harder, I would have passed the exam.",
+                "The if-clause uses the past perfect; the result clause uses 'would have' + past participle."
+              ]
+            },
+            {
+              "title": "2. Correct Form for the If-Clause",
+              "explanation": "The placeholder '__(study)__' is in the if-clause after 'If I'. It must become the past perfect 'had studied'. Do not use 'would have studied' in the if-clause.",
+              "structure": "If I + had studied + harder...",
+              "notes": [
+                "Correct answer for s2: 'had studied'.",
+                "The verb 'study' becomes 'studied' in the past participle."
+              ]
+            },
+            {
+              "title": "3. Correct Form for the Result Clause",
+              "explanation": "The placeholder '__(pass)__' is in the result clause after 'I'. It must become 'would have passed'. The past participle of 'pass' is 'passed'.",
+              "structure": "...I + would have passed + the exam.",
+              "notes": [
+                "Correct answer for s4: 'would have passed'.",
+                "Do not use the simple past 'passed' alone in the result clause."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "If I would have studied harder, I would have passed the exam.",
+              "correct": "If I had studied harder, I would have passed the exam.",
+              "reason": "Use the past perfect 'had studied' in the if-clause, not 'would have studied'."
+            },
+            {
+              "wrong": "If I had studied harder, I passed the exam.",
+              "correct": "If I had studied harder, I would have passed the exam.",
+              "reason": "The result clause of a third conditional needs 'would have' + past participle, not the simple past."
+            }
+          ]
+        },
+        "other_examples": [
           {
-            "title": "1. Third Conditional Structure",
-            "explanation": "The third conditional uses: If + past perfect, subject + would have + past participle. It describes a past condition that did not happen and its unreal past result.",
-            "structure": "If + had + past participle, subject + would have + past participle.",
-            "notes": [
-              "Example: If I had studied harder, I would have passed the exam.",
-              "The if-clause does not use 'would have'."
-            ]
+            "sentence": "If he had practiced more, he would have won the match.",
+            "translation": "Jika saja dia berlatih lebih banyak, dia akan telah memenangkan pertandingan itu.",
+            "explanation": {
+              "en": "Third conditional: if-clause uses 'had practiced' (past perfect), result uses 'would have won'.",
+              "id": "Kondisional tipe ketiga: klausa if menggunakan 'had practiced' (past perfect), hasil menggunakan 'would have won'."
+            }
           },
           {
-            "title": "2. Do Not Use 'Would Have' in the If-Clause",
-            "explanation": "In standard English, 'would have' appears in the result clause, not in the if-clause. The if-clause uses the past perfect 'had + past participle'.",
-            "structure": "Correct: If I had studied... Incorrect: If I would have studied...",
-            "notes": [
-              "The error segment is 'I would have studied'.",
-              "Replace it with 'I had studied'."
-            ]
-          },
-          {
-            "title": "3. Applying the Rule to This Question",
-            "explanation": "The sentence has 'If I would have studied harder' and 'I would have passed the exam'. The result clause is already correct. Change the if-clause to 'If I had studied harder'.",
-            "structure": "If I had studied harder, I would have passed the exam.",
-            "notes": [
-              "Correct answer segment: 'I had studied' or 'I had studied harder' depending on the segment boundaries.",
-              "The clicked error is 'I would have studied'."
-            ]
-          }
-        ],
-        "common_mistakes": [
-          {
-            "wrong": "If I would have studied harder, I would have passed the exam.",
-            "correct": "If I had studied harder, I would have passed the exam.",
-            "reason": "Use the past perfect 'had studied' in the if-clause of a third conditional, not 'would have studied'."
-          },
-          {
-            "wrong": "If I studied harder, I would have passed the exam.",
-            "correct": "If I had studied harder, I would have passed the exam.",
-            "reason": "'Studied' (simple past) does not match the third conditional meaning; use 'had studied' for an unreal past condition."
+            "sentence": "If we had taken a taxi, we would have arrived on time.",
+            "translation": "Jika saja kami naik taksi, kami akan telah tiba tepat waktu.",
+            "explanation": {
+              "en": "'Had taken' is the correct past perfect form in the if-clause; 'would have arrived' is the result.",
+              "id": "'Had taken' adalah bentuk past perfect yang benar dalam klausa if; 'would have arrived' adalah hasilnya."
+            }
           }
         ]
-      },
-      "other_examples": [
-        {
-          "sentence": "If she had left earlier, she would have caught the train.",
-          "translation": "Jika saja dia berangkat lebih awal, dia akan telah menangkap kereta itu.",
-          "explanation": {
-            "en": "Third conditional: if-clause uses 'had left' (past perfect), result uses 'would have caught'.",
-            "id": "Kondisional tipe ketiga: klausa if menggunakan 'had left' (past perfect), hasil menggunakan 'would have caught'."
-          }
-        },
-        {
-          "sentence": "If they had known about the problem, they would have helped.",
-          "translation": "Jika saja mereka tahu tentang masalah itu, mereka akan telah membantu.",
-          "explanation": {
-            "en": "'Had known' is the correct past perfect form in the if-clause; 'would have helped' is the result.",
-            "id": "'Had known' adalah bentuk past perfect yang benar dalam klausa if; 'would have helped' adalah hasilnya."
-          }
-        }
-      ]
+      }
     }
   ]
 }
