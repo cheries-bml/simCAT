@@ -3,9 +3,9 @@
     "title": "English Grammar & Reading Test — B1 to C2 (for Indonesian Students)",
     "description": "40 mixed-type questions covering tenses, conditionals, relative clauses, passives, reported speech, reading comprehension, and error correction. Difficulty: B1–C2.",
     "timeLimits": {
-      "fast": 600,
-      "normal": 900,
-      "easy": 1200
+      "fast": 30,
+      "normal": 50,
+      "easy": 80
     },
     "notes": [
       "The field 'difficulty' is added to each question for reference (CEFR level).",
