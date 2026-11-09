@@ -1,0 +1,4249 @@
+{
+  "meta": {
+    "title": "English Grammar & Reading Test — B1 to C2 (for Indonesian Students)",
+    "description": "40 mixed-type questions covering tenses, conditionals, relative clauses, passives, reported speech, reading comprehension, and error correction. Difficulty: B1–C2.",
+    "timeLimits": {
+      "fast": 600,
+      "normal": 900,
+      "easy": 1200
+    },
+    "notes": [
+      "The field 'difficulty' is added to each question for reference (CEFR level).",
+      "Some mcq and passage_mcq items have MORE THAN ONE correct answer. Read the question carefully.",
+      "For click_correct and multi_error, some clickable segments are correct — do not click them."
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "My brother ___ coffee every morning before going to work.",
+      "options": {
+        "A": "drink",
+        "B": "drinks",
+        "C": "is drink",
+        "D": "drinking"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "topic": {
+          "name": {
+            "en": "Simple Present Tense — Third-Person Singular",
+            "id": "Simple Present Tense — Orang Ketiga Tunggal"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "'My brother' is a singular third-person subject, so the verb 'drink' takes -s and becomes 'drinks'.",
+          "introduction": "The sentence describes a habit: drinking coffee every morning. The phrase 'every morning' signals the simple present tense. Because the subject 'My brother' equals 'he', the verb needs the third-person singular ending.",
+          "rules": [
+            {
+              "title": "1. When to Use the Simple Present",
+              "explanation": "Use the simple present for habits, routines, and general facts. Time markers like 'every morning', 'every day', 'usually', and 'always' often appear.",
+              "structure": "Subject + simple-present verb (+ other information).",
+              "notes": [
+                "'Every morning' shows a repeated action, not an action happening right now."
+              ]
+            },
+            {
+              "title": "2. Third-Person Singular Ending",
+              "explanation": "With he, she, it, or a singular noun, add -s or -es to the base verb in affirmative sentences.",
+              "structure": "He/She/It + verb-s/-es; I/You/We/They + base verb.",
+              "notes": [
+                "Most verbs take -s: drink → drinks.",
+                "Verbs ending in -ch, -sh, -ss, -o take -es: watch → watches, go → goes."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'My brother' = 'he', so the correct form is 'drinks'. 'Drink' is the base form, 'is drink' is not grammatical, and 'drinking' needs a form of 'be' (is drinking).",
+              "structure": "My brother + drinks + coffee + every morning.",
+              "notes": [
+                "Correct answer: B — drinks."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "My brother drink coffee every morning.",
+              "correct": "My brother drinks coffee every morning.",
+              "reason": "A singular third-person subject needs the -s form in the affirmative simple present."
+            },
+            {
+              "wrong": "My brother is drink coffee every morning.",
+              "correct": "My brother drinks coffee every morning.",
+              "reason": "Do not put 'is' before a base verb. Use the simple present for a routine."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "My father drinks tea every evening.",
+              "translation": "Ayah saya minum teh setiap malam.",
+              "explanation": {
+                "en": "'My father' is singular third person, so 'drink' becomes 'drinks'.",
+                "id": "'My father' adalah orang ketiga tunggal, sehingga 'drink' menjadi 'drinks'."
+              }
+            },
+            {
+              "sentence": "They drink coffee every morning.",
+              "translation": "Mereka minum kopi setiap pagi.",
+              "explanation": {
+                "en": "'They' is plural, so the base verb 'drink' is used.",
+                "id": "'They' adalah jamak, sehingga kata kerja dasar 'drink' digunakan."
+              }
+            },
+            {
+              "sentence": "Siti goes to the office by motorcycle.",
+              "translation": "Siti pergi ke kantor naik sepeda motor.",
+              "explanation": {
+                "en": "'Siti' is singular, so 'go' becomes 'goes'.",
+                "id": "'Siti' adalah tunggal, sehingga 'go' menjadi 'goes'."
+              }
+            },
+            {
+              "sentence": "The students study English twice a week.",
+              "translation": "Para siswa belajar bahasa Inggris dua kali seminggu.",
+              "explanation": {
+                "en": "'The students' is plural, so the base verb 'study' is correct.",
+                "id": "'The students' adalah jamak, sehingga kata kerja dasar 'study' benar."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "Rina has been learning English ___ she was in primary school.",
+      "options": {
+        "A": "for",
+        "B": "since",
+        "C": "during",
+        "D": "from"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0002",
+        "topic": {
+          "name": {
+            "en": "Present Perfect Continuous with 'since' and 'for'",
+            "id": "Present Perfect Continuous dengan 'since' dan 'for'"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "'Since' is used with a starting point in time (a clause or a point), and here the starting point is 'she was in primary school'.",
+          "introduction": "The present perfect continuous describes an action that started in the past and continues now. We use 'since' + starting point and 'for' + length of time.",
+          "rules": [
+            {
+              "title": "1. 'Since' vs 'For'",
+              "explanation": "'Since' introduces the point when something started. 'For' introduces the duration.",
+              "structure": "since + starting point (2019, Monday, she was young) / for + period (three years, two months).",
+              "notes": [
+                "Correct: since 2019, since last week, since she was a child.",
+                "Correct: for three years, for two hours."
+              ]
+            },
+            {
+              "title": "2. Present Perfect Continuous Form",
+              "explanation": "Use have/has + been + verb-ing for actions continuing up to now.",
+              "structure": "Subject + have/has + been + V-ing.",
+              "notes": [
+                "Rina has been learning English since 2018."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The clause after the gap is 'she was in primary school', which is a starting point, not a duration. Therefore 'since' is correct. 'For' would need a period like 'for ten years'.",
+              "structure": "Rina has been learning English + since + she was in primary school.",
+              "notes": [
+                "Correct answer: B — since.",
+                "'During' and 'from' do not fit with the present perfect continuous in this structure."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Rina has been learning English for she was in primary school.",
+              "correct": "Rina has been learning English since she was in primary school.",
+              "reason": "'For' needs a length of time, not a clause describing a starting point."
+            },
+            {
+              "wrong": "Rina is learning English since primary school.",
+              "correct": "Rina has been learning English since primary school.",
+              "reason": "An action continuing from the past to now needs the present perfect (continuous), not the present continuous."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "I have lived in Surabaya since 2015.",
+              "translation": "Saya telah tinggal di Surabaya sejak 2015.",
+              "explanation": {
+                "en": "'2015' is a starting point, so 'since' is used.",
+                "id": "'2015' adalah titik awal, sehingga 'since' digunakan."
+              }
+            },
+            {
+              "sentence": "We have waited for two hours.",
+              "translation": "Kami telah menunggu selama dua jam.",
+              "explanation": {
+                "en": "'Two hours' is a duration, so 'for' is used.",
+                "id": "'Dua jam' adalah durasi, sehingga 'for' digunakan."
+              }
+            },
+            {
+              "sentence": "He has been working here since he graduated.",
+              "translation": "Dia telah bekerja di sini sejak lulus.",
+              "explanation": {
+                "en": "A clause describing the starting point follows 'since'.",
+                "id": "Klausa yang menunjukkan titik awal mengikuti 'since'."
+              }
+            },
+            {
+              "sentence": "They have known each other for ten years.",
+              "translation": "Mereka telah saling mengenal selama sepuluh tahun.",
+              "explanation": {
+                "en": "'Ten years' is a period of time, so 'for' is correct.",
+                "id": "'Sepuluh tahun' adalah periode waktu, sehingga 'for' benar."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "I ___ in Bandung since 2015. (Choose ALL correct answers.)",
+      "options": {
+        "A": "have lived",
+        "B": "have been living",
+        "C": "lived",
+        "D": "live",
+        "E": "am living"
+      },
+      "correctAnswer": ["A", "B"],
+      "explanationDetails": {
+        "id": "GRAM-0003",
+        "topic": {
+          "name": {
+            "en": "Present Perfect vs Present Perfect Continuous",
+            "id": "Present Perfect vs Present Perfect Continuous"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "With 'since 2015', both the present perfect ('have lived') and the present perfect continuous ('have been living') are correct because the situation started in the past and continues now.",
+          "introduction": "Both forms are used for actions or states that began in the past and are still true. 'Since' marks the starting point, so a perfect form is required — not the simple past, simple present, or present continuous.",
+          "rules": [
+            {
+              "title": "1. Present Perfect for States",
+              "explanation": "The present perfect (have/has + past participle) is used with state verbs and with situations that started in the past and continue.",
+              "structure": "I have lived in Bandung since 2015.",
+              "notes": [
+                "'Live' can be used in both the simple and continuous perfect forms."
+              ]
+            },
+            {
+              "title": "2. Present Perfect Continuous for Ongoing Situations",
+              "explanation": "The present perfect continuous (have/has been + V-ing) emphasises the continuation of the action up to now.",
+              "structure": "I have been living in Bandung since 2015.",
+              "notes": [
+                "Both sentences are grammatically correct and natural."
+              ]
+            },
+            {
+              "title": "3. Why the Other Options Are Wrong",
+              "explanation": "'Lived' (simple past) cannot be used with 'since' for a situation continuing now. 'Live' and 'am living' do not express the connection from the past to now.",
+              "structure": "Correct: have lived / have been living. Incorrect: lived / live / am living.",
+              "notes": [
+                "Correct answers: A and B."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I live in Bandung since 2015.",
+              "correct": "I have lived in Bandung since 2015.",
+              "reason": "'Since' with a situation continuing to the present needs a perfect tense."
+            },
+            {
+              "wrong": "I lived in Bandung since 2015.",
+              "correct": "I have lived in Bandung since 2015.",
+              "reason": "'Lived' suggests the situation is finished; 'since 2015' means it continues."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "She has worked at that bank since 2019.",
+              "translation": "Dia telah bekerja di bank itu sejak 2019.",
+              "explanation": {
+                "en": "Present perfect with 'since' for a situation that continues.",
+                "id": "Present perfect dengan 'since' untuk situasi yang berlanjut."
+              }
+            },
+            {
+              "sentence": "She has been working at that bank since 2019.",
+              "translation": "Dia telah bekerja di bank itu sejak 2019.",
+              "explanation": {
+                "en": "Present perfect continuous is also correct here, with a focus on duration.",
+                "id": "Present perfect continuous juga benar di sini, dengan penekanan pada durasi."
+              }
+            },
+            {
+              "sentence": "We have known each other since we were children.",
+              "translation": "Kami telah saling mengenal sejak kami kecil.",
+              "explanation": {
+                "en": "'Know' is a state verb, so the simple perfect form is used.",
+                "id": "'Know' adalah kata kerja keadaan, sehingga bentuk perfect sederhana yang digunakan."
+              }
+            },
+            {
+              "sentence": "He has been studying Japanese for three years.",
+              "translation": "Dia telah belajar bahasa Jepang selama tiga tahun.",
+              "explanation": {
+                "en": "With a duration ('three years'), 'for' is used with the perfect continuous.",
+                "id": "Dengan durasi ('tiga tahun'), 'for' digunakan bersama perfect continuous."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "The new library is ___ than the old one.",
+      "options": {
+        "A": "more modern",
+        "B": "most modern",
+        "C": "moderner",
+        "D": "as modern"
+      },
+      "correctAnswer": "A",
+      "explanationDetails": {
+        "id": "GRAM-0004",
+        "topic": {
+          "name": {
+            "en": "Comparative Adjectives",
+            "id": "Kata Sifat Perbandingan (Comparative)"
+          },
+          "category": "Adjectives"
+        },
+        "details_explanation": {
+          "explanation": "'Modern' is a longer adjective, so the comparative is formed with 'more': 'more modern than'.",
+          "introduction": "The word 'than' signals a comparison between two things, so we need the comparative form, not the superlative or the base form.",
+          "rules": [
+            {
+              "title": "1. Short vs Long Adjectives",
+              "explanation": "Short adjectives take -er (taller, faster). Longer adjectives (two syllables or more, like 'modern', 'interesting', 'expensive') take 'more'.",
+              "structure": "more + long adjective + than",
+              "notes": [
+                "Correct: more modern than.",
+                "Incorrect: moderner than."
+              ]
+            },
+            {
+              "title": "2. Comparison Signal 'than'",
+              "explanation": "'Than' is used only with comparatives. 'The most' belongs to superlatives, and 'as ... as' shows equality.",
+              "structure": "A is more modern than B. / A is the most modern. / A is as modern as B.",
+              "notes": [
+                "'Than' in the sentence requires a comparative."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Only 'more modern' fits the comparative structure with 'than'. 'Most modern' is superlative, 'moderner' is not a word, and 'as modern' needs 'as', not 'than'.",
+              "structure": "The new library is more modern than the old one.",
+              "notes": [
+                "Correct answer: A — more modern."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The new library is more moderner than the old one.",
+              "correct": "The new library is more modern than the old one.",
+              "reason": "Do not use 'more' and -er together."
+            },
+            {
+              "wrong": "The new library is most modern than the old one.",
+              "correct": "The new library is more modern than the old one.",
+              "reason": "'Most' is for superlatives; 'than' needs a comparative."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "This book is more interesting than that one.",
+              "translation": "Buku ini lebih menarik daripada buku itu.",
+              "explanation": {
+                "en": "A long adjective takes 'more' in the comparative.",
+                "id": "Kata sifat panjang memakai 'more' dalam bentuk comparative."
+              }
+            },
+            {
+              "sentence": "My bag is heavier than yours.",
+              "translation": "Tasku lebih berat daripada tasku.",
+              "explanation": {
+                "en": "A short adjective takes -er: heavy → heavier.",
+                "id": "Kata sifat pendek memakai -er: heavy → heavier."
+              }
+            },
+            {
+              "sentence": "This is the most expensive restaurant in town.",
+              "translation": "Ini restoran termahal di kota.",
+              "explanation": {
+                "en": "No comparison with 'than', so the superlative is used.",
+                "id": "Tidak ada perbandingan dengan 'than', jadi bentuk superlatif digunakan."
+              }
+            },
+            {
+              "sentence": "Her house is as big as mine.",
+              "translation": "Rumahnya sebesar rumahku.",
+              "explanation": {
+                "en": "'As ... as' shows equality, not comparison.",
+                "id": "'As ... as' menunjukkan kesetaraan, bukan perbandingan."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "difficulty": "C1",
+      "question": "Had I known about the meeting, I ___ my presentation earlier.",
+      "options": {
+        "A": "would finish",
+        "B": "would have finished",
+        "C": "had finished",
+        "D": "will finish"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0005",
+        "topic": {
+          "name": {
+            "en": "Inverted Third Conditional",
+            "id": "Kondisional Tipe Ketiga dengan Inversi"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "'Had I known' = 'If I had known' (third conditional). The result clause must be 'would have + past participle': 'would have finished'.",
+          "introduction": "In formal English, the if-clause of the third conditional can drop 'if' and invert: 'Had I known...'. The result clause still uses 'would have + past participle'.",
+          "rules": [
+            {
+              "title": "1. Third Conditional Structure",
+              "explanation": "The third conditional describes an unreal past situation and its imagined result.",
+              "structure": "If + had + past participle, subject + would have + past participle.",
+              "notes": [
+                "If I had known, I would have finished earlier."
+              ]
+            },
+            {
+              "title": "2. Inversion Instead of 'If'",
+              "explanation": "When 'if' is omitted, the auxiliary 'had' moves to the front of the clause.",
+              "structure": "Had + subject + past participle, subject + would have + past participle.",
+              "notes": [
+                "Had I known = If I had known."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The result clause refers to an unreal past, so it needs 'would have finished'. 'Would finish' is second conditional, 'had finished' is past perfect, and 'will finish' is future.",
+              "structure": "Had I known about the meeting, I would have finished my presentation earlier.",
+              "notes": [
+                "Correct answer: B — would have finished."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Had I known about the meeting, I would finish my presentation earlier.",
+              "correct": "Had I known about the meeting, I would have finished my presentation earlier.",
+              "reason": "An unreal past result needs 'would have + past participle'."
+            },
+            {
+              "wrong": "Had I knew about the meeting, I would have finished earlier.",
+              "correct": "Had I known about the meeting, I would have finished earlier.",
+              "reason": "After inversion, use the past participle 'known', not the past form 'knew'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Had she left earlier, she would have caught the train.",
+              "translation": "Seandainya dia berangkat lebih awal, dia akan menangkap kereta itu.",
+              "explanation": {
+                "en": "Inverted third conditional with 'would have caught'.",
+                "id": "Kondisional tipe ketiga terbalik dengan 'would have caught'."
+              }
+            },
+            {
+              "sentence": "Had we taken a taxi, we would not have been late.",
+              "translation": "Seandainya kami naik taksi, kami tidak akan terlambat.",
+              "explanation": {
+                "en": "Negative result clause: would not have + past participle.",
+                "id": "Klausa hasil negatif: would not have + past participle."
+              }
+            },
+            {
+              "sentence": "If they had known the truth, they would have told us.",
+              "translation": "Jika mereka tahu kebenarannya, mereka akan memberi tahu kami.",
+              "explanation": {
+                "en": "The same meaning without inversion.",
+                "id": "Makna yang sama tanpa inversi."
+              }
+            },
+            {
+              "sentence": "Had I studied harder, I would have passed the exam.",
+              "translation": "Seandainya saya belajar lebih giat, saya akan lulus ujian itu.",
+              "explanation": {
+                "en": "Both clauses show unreal past: 'had studied' + 'would have passed'.",
+                "id": "Kedua klausa menunjukkan masa lalu tidak nyata: 'had studied' + 'would have passed'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "Dewi said that she ___ that movie the night before.",
+      "options": {
+        "A": "has seen",
+        "B": "had seen",
+        "C": "sees",
+        "D": "will see"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0006",
+        "topic": {
+          "name": {
+            "en": "Reported Speech — Tense Backshift",
+            "id": "Kalimat Tak Langsung — Pergeseran Tenses"
+          },
+          "category": "Reported Speech"
+        },
+        "details_explanation": {
+          "explanation": "After 'said that', the verb shifts one step back. 'Saw' (simple past) becomes 'had seen' (past perfect).",
+          "introduction": "When the reporting verb is in the past ('said'), the reported verb usually moves one tense back. The time expression 'the night before' also shows that the earlier action happened before the reporting.",
+          "rules": [
+            {
+              "title": "1. Backshift Rule",
+              "explanation": "Present → past, past → past perfect, will → would.",
+              "structure": "Direct: 'I saw it.' → Reported: She said she had seen it.",
+              "notes": [
+                "Simple past becomes past perfect."
+              ]
+            },
+            {
+              "title": "2. Time Expressions Change Too",
+              "explanation": "'Last night' becomes 'the night before', 'now' becomes 'then', 'tomorrow' becomes 'the next day'.",
+              "structure": "last night → the night before",
+              "notes": [
+                "The phrase 'the night before' in the sentence confirms a past-perfect context."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The original would be 'I saw that movie last night.' Reported with a past reporting verb, it becomes 'she had seen that movie the night before'.",
+              "structure": "Dewi said that she had seen that movie the night before.",
+              "notes": [
+                "Correct answer: B — had seen."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Dewi said that she has seen that movie the night before.",
+              "correct": "Dewi said that she had seen that movie the night before.",
+              "reason": "The reported verb must shift back when the reporting verb is past."
+            },
+            {
+              "wrong": "Dewi said that she seen that movie the night before.",
+              "correct": "Dewi said that she had seen that movie the night before.",
+              "reason": "The past perfect needs the auxiliary 'had'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "He said he was tired.",
+              "translation": "Dia berkata bahwa dia lelah.",
+              "explanation": {
+                "en": "Present 'am' shifts back to 'was'.",
+                "id": "'Am' berubah menjadi 'was'."
+              }
+            },
+            {
+              "sentence": "She told me she would call me the next day.",
+              "translation": "Dia memberitahuku bahwa dia akan meneleponku keesokan harinya.",
+              "explanation": {
+                "en": "'Will' shifts back to 'would'.",
+                "id": "'Will' berubah menjadi 'would'."
+              }
+            },
+            {
+              "sentence": "They said they had finished the project the week before.",
+              "translation": "Mereka berkata bahwa mereka telah menyelesaikan proyek itu minggu sebelumnya.",
+              "explanation": {
+                "en": "Past simple shifts back to past perfect.",
+                "id": "Simple past berubah menjadi past perfect."
+              }
+            },
+            {
+              "sentence": "My teacher said that water boils at 100 degrees.",
+              "translation": "Guru saya berkata bahwa air mendidih pada 100 derajat.",
+              "explanation": {
+                "en": "General truths do not need backshift.",
+                "id": "Kebenaran umum tidak perlu pergeseran tenses."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "The woman ___ lives next door is a doctor. (Choose ALL correct answers.)",
+      "options": {
+        "A": "who",
+        "B": "which",
+        "C": "that",
+        "D": "whom",
+        "E": "whose"
+      },
+      "correctAnswer": ["A", "C"],
+      "explanationDetails": {
+        "id": "GRAM-0007",
+        "topic": {
+          "name": {
+            "en": "Relative Pronouns — Defining Relative Clauses",
+            "id": "Kata Ganti Relatif — Klausa Relatif Penentu"
+          },
+          "category": "Relative Clauses"
+        },
+        "details_explanation": {
+          "explanation": "The relative pronoun is the subject of 'lives', and the antecedent is a person ('the woman'). Both 'who' and 'that' are correct.",
+          "introduction": "In a defining relative clause about a person, we use 'who' or 'that' as the subject. 'Which' is for things, 'whom' is for objects, and 'whose' shows possession.",
+          "rules": [
+            {
+              "title": "1. Subject Relative Pronouns",
+              "explanation": "Use 'who' or 'that' for people when the relative pronoun is the subject of the clause.",
+              "structure": "The woman who/that lives next door...",
+              "notes": [
+                "Do not use 'whom' as a subject."
+              ]
+            },
+            {
+              "title": "2. Which / Whose / Whom",
+              "explanation": "'Which' refers to things or animals. 'Whose' means 'of whom'. 'Whom' is used as an object, not as a subject.",
+              "structure": "The book which/that is on the table... / The man whose car was stolen...",
+              "notes": [
+                "'Whom' cannot be followed by a verb like 'lives'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Since 'the woman' is a person and the relative pronoun is the subject of 'lives', both 'who' and 'that' are grammatically correct.",
+              "structure": "The woman who/that lives next door is a doctor.",
+              "notes": [
+                "Correct answers: A and C."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The woman which lives next door is a doctor.",
+              "correct": "The woman who lives next door is a doctor.",
+              "reason": "'Which' cannot refer to a person."
+            },
+            {
+              "wrong": "The woman whom lives next door is a doctor.",
+              "correct": "The woman who lives next door is a doctor.",
+              "reason": "'Whom' is an object pronoun and cannot be the subject of 'lives'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The man who/that teaches us is very patient.",
+              "translation": "Pria yang mengajar kami sangat sabar.",
+              "explanation": {
+                "en": "Both 'who' and 'that' work as subject pronouns for people.",
+                "id": "Baik 'who' maupun 'that' berfungsi sebagai subjek untuk orang."
+              }
+            },
+            {
+              "sentence": "The laptop which/that I bought is very fast.",
+              "translation": "Laptop yang saya beli sangat cepat.",
+              "explanation": {
+                "en": "'Which' and 'that' refer to things.",
+                "id": "'Which' dan 'that' merujuk pada benda."
+              }
+            },
+            {
+              "sentence": "The student whose essay won the prize is my cousin.",
+              "translation": "Siswa yang esainya memenangkan hadiah adalah sepupuku.",
+              "explanation": {
+                "en": "'Whose' shows possession.",
+                "id": "'Whose' menunjukkan kepemilikan."
+              }
+            },
+            {
+              "sentence": "The teacher whom we met yesterday is from Bandung.",
+              "translation": "Guru yang kami temui kemarin berasal dari Bandung.",
+              "explanation": {
+                "en": "'Whom' is the object of 'met'.",
+                "id": "'Whom' adalah objek dari 'met'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "She has ___ finished her homework, so she can go out now. (Choose ALL correct answers.)",
+      "options": {
+        "A": "already",
+        "B": "yet",
+        "C": "just",
+        "D": "ever",
+        "E": "since"
+      },
+      "correctAnswer": ["A", "C"],
+      "explanationDetails": {
+        "id": "GRAM-0008",
+        "topic": {
+          "name": {
+            "en": "Present Perfect with 'already' and 'just'",
+            "id": "Present Perfect dengan 'already' dan 'just'"
+          },
+          "category": "Adverbs"
+        },
+        "details_explanation": {
+          "explanation": "In an affirmative present perfect sentence, 'already' and 'just' both fit: 'has already finished' and 'has just finished'.",
+          "introduction": "'Already' shows something happened earlier than expected. 'Just' shows it happened a very short time ago. 'Yet' is used in negatives and questions, 'ever' in questions about experience, and 'since' needs a starting point.",
+          "rules": [
+            {
+              "title": "1. Position of 'already' and 'just'",
+              "explanation": "Both go between the auxiliary 'has/have' and the past participle.",
+              "structure": "Subject + have/has + already/just + past participle.",
+              "notes": [
+                "She has already finished. / She has just finished."
+              ]
+            },
+            {
+              "title": "2. 'Yet', 'ever', 'since'",
+              "explanation": "'Yet' is used in negatives and questions. 'Ever' is used mainly in questions. 'Since' introduces a starting point, not a completed action.",
+              "structure": "Have you finished yet? / Have you ever been to Bali? / since 2019",
+              "notes": [
+                "'She has yet finished' is incorrect in standard English."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The sentence is affirmative and describes a completed action with a present result, so both 'already' and 'just' are correct.",
+              "structure": "She has already/just finished her homework.",
+              "notes": [
+                "Correct answers: A and C."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She has finished her homework yet.",
+              "correct": "She has already finished her homework.",
+              "reason": "'Yet' is normally used in negatives and questions."
+            },
+            {
+              "wrong": "She has ever finished her homework.",
+              "correct": "She has already finished her homework.",
+              "reason": "'Ever' is used mainly in questions about experience."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "I have already eaten, thank you.",
+              "translation": "Saya sudah makan, terima kasih.",
+              "explanation": {
+                "en": "'Already' shows the action happened earlier than expected.",
+                "id": "'Already' menunjukkan tindakan terjadi lebih awal dari yang diperkirakan."
+              }
+            },
+            {
+              "sentence": "They have just arrived at the airport.",
+              "translation": "Mereka baru saja tiba di bandara.",
+              "explanation": {
+                "en": "'Just' shows a very recent action.",
+                "id": "'Just' menunjukkan tindakan yang baru saja terjadi."
+              }
+            },
+            {
+              "sentence": "Have you finished your report yet?",
+              "translation": "Apakah kamu sudah menyelesaikan laporanmu?",
+              "explanation": {
+                "en": "'Yet' is used in questions.",
+                "id": "'Yet' digunakan dalam pertanyaan."
+              }
+            },
+            {
+              "sentence": "She hasn't called me yet.",
+              "translation": "Dia belum menelepon saya.",
+              "explanation": {
+                "en": "'Yet' is used in negative sentences.",
+                "id": "'Yet' digunakan dalam kalimat negatif."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "Which words can complete this polite request for permission? (Choose ALL correct answers.) ___ I use your phone for a moment, please?",
+      "options": {
+        "A": "May",
+        "B": "Can",
+        "C": "Could",
+        "D": "Must",
+        "E": "Need"
+      },
+      "correctAnswer": ["A", "B", "C"],
+      "explanationDetails": {
+        "id": "GRAM-0009",
+        "topic": {
+          "name": {
+            "en": "Modal Verbs for Permission",
+            "id": "Kata Kerja Modal untuk Meminta Izin"
+          },
+          "category": "Modal Verbs"
+        },
+        "details_explanation": {
+          "explanation": "'May', 'Can', and 'Could' can all be used to ask for permission. 'May' and 'Could' are more formal and polite; 'Can' is common in everyday speech.",
+          "introduction": "To ask for permission in English we commonly use May I...?, Can I...?, and Could I...? 'Must' asks about obligation and 'Need' asks about necessity, so they do not express a polite request for permission.",
+          "rules": [
+            {
+              "title": "1. Permission Modals",
+              "explanation": "Use may/can/could + base verb to ask for permission.",
+              "structure": "May/Can/Could + I + base verb?",
+              "notes": [
+                "May I use your phone? (formal)",
+                "Could I use your phone? (polite)",
+                "Can I use your phone? (neutral, everyday)"
+              ]
+            },
+            {
+              "title": "2. Obligation and Necessity Modals",
+              "explanation": "'Must' expresses strong obligation or a logical conclusion. 'Need' asks about necessity. Neither is used to ask politely for permission.",
+              "structure": "Must I...? / Need I...?",
+              "notes": [
+                "'Must I use your phone?' would ask whether there is an obligation to use the phone, which is not a permission request."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The sentence is a polite request with 'please', so A, B, and C all fit correctly.",
+              "structure": "May/Can/Could I use your phone for a moment, please?",
+              "notes": [
+                "Correct answers: A, B, and C."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Must I use your phone, please?",
+              "correct": "May I use your phone, please?",
+              "reason": "'Must' asks about obligation, not permission."
+            },
+            {
+              "wrong": "May I to use your phone?",
+              "correct": "May I use your phone?",
+              "reason": "Modals are followed by the base verb without 'to'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "May I come in?",
+              "translation": "Bolehkah saya masuk?",
+              "explanation": {
+                "en": "A formal way to ask for permission.",
+                "id": "Cara formal untuk meminta izin."
+              }
+            },
+            {
+              "sentence": "Can I borrow your pen?",
+              "translation": "Bolehkah saya meminjam pulpenmu?",
+              "explanation": {
+                "en": "An everyday, neutral way to ask for permission.",
+                "id": "Cara sehari-hari yang netral untuk meminta izin."
+              }
+            },
+            {
+              "sentence": "Could I ask you a question, please?",
+              "translation": "Bolehkah saya bertanya sesuatu?",
+              "explanation": {
+                "en": "'Could' makes the request more polite.",
+                "id": "'Could' membuat permintaan lebih sopan."
+              }
+            },
+            {
+              "sentence": "You must wear a helmet here.",
+              "translation": "Kamu wajib memakai helm di sini.",
+              "explanation": {
+                "en": "'Must' expresses obligation, not permission.",
+                "id": "'Must' menyatakan kewajiban, bukan izin."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "mcq",
+      "difficulty": "C1",
+      "question": "The suspect denied ___ the money from the safe. (Choose ALL correct answers.)",
+      "options": {
+        "A": "to take",
+        "B": "taking",
+        "C": "having taken",
+        "D": "take",
+        "E": "took"
+      },
+      "correctAnswer": ["B", "C"],
+      "explanationDetails": {
+        "id": "GRAM-0010",
+        "topic": {
+          "name": {
+            "en": "Gerunds after 'deny' (Verb Patterns)",
+            "id": "Gerund setelah 'deny' (Pola Kata Kerja)"
+          },
+          "category": "Gerunds and Infinitives"
+        },
+        "details_explanation": {
+          "explanation": "'Deny' is followed by a gerund: 'denied taking' or, for an earlier action, 'denied having taken'.",
+          "introduction": "Some verbs are followed only by a gerund (-ing form). 'Deny' is one of them. The perfect gerund 'having + past participle' is used when the action clearly happened before the denying.",
+          "rules": [
+            {
+              "title": "1. Verbs Followed by Gerunds",
+              "explanation": "Verbs such as deny, admit, suggest, enjoy, avoid, and mind take a gerund, not an infinitive.",
+              "structure": "deny + V-ing",
+              "notes": [
+                "He denied stealing the money.",
+                "He suggested going by taxi."
+              ]
+            },
+            {
+              "title": "2. Perfect Gerund for Earlier Actions",
+              "explanation": "When the gerund action happened before the main verb, use 'having + past participle'.",
+              "structure": "deny + having + past participle",
+              "notes": [
+                "She denied having seen the letter."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Both 'taking' and 'having taken' are correct after 'denied'. 'To take', 'take', and 'took' do not fit the verb pattern of 'deny'.",
+              "structure": "The suspect denied taking/having taken the money from the safe.",
+              "notes": [
+                "Correct answers: B and C."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The suspect denied to take the money.",
+              "correct": "The suspect denied taking the money.",
+              "reason": "'Deny' is followed by a gerund, not an infinitive."
+            },
+            {
+              "wrong": "The suspect denied take the money.",
+              "correct": "The suspect denied taking the money.",
+              "reason": "A base verb cannot follow 'deny' directly."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "He admitted breaking the window.",
+              "translation": "Dia mengakui telah memecahkan jendela.",
+              "explanation": {
+                "en": "'Admit' also takes a gerund.",
+                "id": "'Admit' juga diikuti gerund."
+              }
+            },
+            {
+              "sentence": "She denied having met him before.",
+              "translation": "Dia membantah pernah bertemu dengannya sebelumnya.",
+              "explanation": {
+                "en": "The perfect gerund shows an earlier action.",
+                "id": "Perfect gerund menunjukkan tindakan yang lebih awal."
+              }
+            },
+            {
+              "sentence": "They suggested postponing the meeting.",
+              "translation": "Mereka menyarankan menunda pertemuan.",
+              "explanation": {
+                "en": "'Suggest' is followed by a gerund.",
+                "id": "'Suggest' diikuti gerund."
+              }
+            },
+            {
+              "sentence": "I enjoy reading Indonesian novels.",
+              "translation": "Saya menikmati membaca novel Indonesia.",
+              "explanation": {
+                "en": "'Enjoy' is followed by a gerund.",
+                "id": "'Enjoy' diikuti gerund."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "The new bridge ___ next year.",
+      "options": {
+        "A": "will be built",
+        "B": "will build",
+        "C": "is building",
+        "D": "will been built"
+      },
+      "correctAnswer": "A",
+      "explanationDetails": {
+        "id": "GRAM-0011",
+        "topic": {
+          "name": {
+            "en": "Future Simple Passive",
+            "id": "Pasif Bentuk Akan Datang"
+          },
+          "category": "Passive Voice"
+        },
+        "details_explanation": {
+          "explanation": "The bridge receives the action, so a passive form is needed: 'will be + past participle' → 'will be built'.",
+          "introduction": "In the passive voice, the object of the action becomes the subject. The future passive is formed with 'will be' + past participle.",
+          "rules": [
+            {
+              "title": "1. Active vs Passive",
+              "explanation": "Active: The government will build the bridge. Passive: The bridge will be built (by the government).",
+              "structure": "Object + will be + past participle (+ by + agent).",
+              "notes": [
+                "The agent is often omitted when it is unknown or unimportant."
+              ]
+            },
+            {
+              "title": "2. Passive Forms by Tense",
+              "explanation": "The passive changes with the tense of 'be'.",
+              "structure": "is built (present) / was built (past) / will be built (future) / has been built (present perfect).",
+              "notes": [
+                "'Will been built' is never correct; 'been' needs 'have/has/had'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The bridge cannot build itself, so 'will build' and 'is building' are wrong. 'Will been built' is ungrammatical. Only 'will be built' is correct.",
+              "structure": "The new bridge will be built next year.",
+              "notes": [
+                "Correct answer: A — will be built."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The new bridge will build next year.",
+              "correct": "The new bridge will be built next year.",
+              "reason": "The subject receives the action, so the passive is required."
+            },
+            {
+              "wrong": "The new bridge will been built next year.",
+              "correct": "The new bridge will be built next year.",
+              "reason": "Use 'be' after 'will', not 'been'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The road is repaired every year.",
+              "translation": "Jalan itu diperbaiki setiap tahun.",
+              "explanation": {
+                "en": "Present simple passive: is + past participle.",
+                "id": "Pasif present simple: is + past participle."
+              }
+            },
+            {
+              "sentence": "The letter was sent yesterday.",
+              "translation": "Surat itu dikirim kemarin.",
+              "explanation": {
+                "en": "Past simple passive: was + past participle.",
+                "id": "Pasif past simple: was + past participle."
+              }
+            },
+            {
+              "sentence": "The results have been announced.",
+              "translation": "Hasilnya telah diumumkan.",
+              "explanation": {
+                "en": "Present perfect passive: have/has been + past participle.",
+                "id": "Pasif present perfect: have/has been + past participle."
+              }
+            },
+            {
+              "sentence": "A new hospital will be opened in 2026.",
+              "translation": "Rumah sakit baru akan dibuka pada 2026.",
+              "explanation": {
+                "en": "Future passive: will be + past participle.",
+                "id": "Pasif masa depan: will be + past participle."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "She is ___ honest person who always keeps her promises.",
+      "options": {
+        "A": "a",
+        "B": "an",
+        "C": "the",
+        "D": "no article"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0012",
+        "topic": {
+          "name": {
+            "en": "Articles — 'a' vs 'an'",
+            "id": "Artikel — 'a' vs 'an'"
+          },
+          "category": "Articles"
+        },
+        "details_explanation": {
+          "explanation": "'Honest' begins with a vowel sound (/ɒ/), so 'an' is used: 'an honest person'.",
+          "introduction": "The choice between 'a' and 'an' depends on the SOUND of the next word, not the spelling. 'Honest' starts with a silent 'h', so the first sound is a vowel.",
+          "rules": [
+            {
+              "title": "1. A vs An",
+              "explanation": "Use 'a' before consonant sounds and 'an' before vowel sounds.",
+              "structure": "a + consonant sound / an + vowel sound",
+              "notes": [
+                "a university (yoo sound), a European country",
+                "an honest man, an hour, an MBA"
+              ]
+            },
+            {
+              "title": "2. Indefinite Article with Singular Countable Nouns",
+              "explanation": "We use a/an when introducing a singular countable noun that is not specific.",
+              "structure": "She is a teacher. He is an engineer.",
+              "notes": [
+                "'Person' is singular and countable, so an article is needed."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'Honest' has a silent h and starts with a vowel sound, so 'an' is correct. 'The' would suggest a specific person already known, and no article is not possible with a singular countable noun.",
+              "structure": "She is an honest person.",
+              "notes": [
+                "Correct answer: B — an."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She is a honest person.",
+              "correct": "She is an honest person.",
+              "reason": "'Honest' begins with a vowel sound because the 'h' is silent."
+            },
+            {
+              "wrong": "She is honest person.",
+              "correct": "She is an honest person.",
+              "reason": "A singular countable noun needs an article."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "He waited for an hour.",
+              "translation": "Dia menunggu selama satu jam.",
+              "explanation": {
+                "en": "'Hour' begins with a vowel sound (silent h).",
+                "id": "'Hour' dimulai dengan bunyi vokal (h tidak dibaca)."
+              }
+            },
+            {
+              "sentence": "She studies at a university in Jakarta.",
+              "translation": "Dia belajar di sebuah universitas di Jakarta.",
+              "explanation": {
+                "en": "'University' begins with a /juː/ consonant sound.",
+                "id": "'University' dimulai dengan bunyi konsonan /juː/."
+              }
+            },
+            {
+              "sentence": "My father is a doctor.",
+              "translation": "Ayah saya seorang dokter.",
+              "explanation": {
+                "en": "Professions take a/an.",
+                "id": "Profesi menggunakan a/an."
+              }
+            },
+            {
+              "sentence": "It was an unforgettable experience.",
+              "translation": "Itu adalah pengalaman yang tak terlupakan.",
+              "explanation": {
+                "en": "'Unforgettable' begins with a vowel sound.",
+                "id": "'Unforgettable' dimulai dengan bunyi vokal."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "difficulty": "C1",
+      "question": "I wish I ___ more attention in class yesterday.",
+      "options": {
+        "A": "paid",
+        "B": "had paid",
+        "C": "would pay",
+        "D": "pay"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0013",
+        "topic": {
+          "name": {
+            "en": "'wish' + Past Perfect (Regret about the Past)",
+            "id": "'wish' + Past Perfect (Penyesalan Masa Lalu)"
+          },
+          "category": "Subjunctive and Wishes"
+        },
+        "details_explanation": {
+          "explanation": "A regret about the past is expressed with 'wish + had + past participle': 'I wish I had paid more attention'.",
+          "introduction": "'Wish' changes meaning depending on the tense that follows. Past simple = present regret, past perfect = past regret, 'would' = wish for a change in someone's behaviour.",
+          "rules": [
+            {
+              "title": "1. Wish + Past Simple",
+              "explanation": "Used for an unreal present situation.",
+              "structure": "I wish I had more money. (= but I don't)",
+              "notes": [
+                "Refers to the present, not the past."
+              ]
+            },
+            {
+              "title": "2. Wish + Past Perfect",
+              "explanation": "Used for regrets about the past.",
+              "structure": "I wish I had studied harder.",
+              "notes": [
+                "The time marker 'yesterday' in this question shows the regret is about the past."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Because 'yesterday' is in the past, 'had paid' is needed. 'Paid' would refer to the present, 'would pay' does not fit 'I wish I...', and 'pay' is the base form.",
+              "structure": "I wish I had paid more attention in class yesterday.",
+              "notes": [
+                "Correct answer: B — had paid."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I wish I paid more attention in class yesterday.",
+              "correct": "I wish I had paid more attention in class yesterday.",
+              "reason": "A past regret needs the past perfect after 'wish'."
+            },
+            {
+              "wrong": "I wish I would have paid more attention.",
+              "correct": "I wish I had paid more attention.",
+              "reason": "Do not use 'would have' after 'I wish I...' for a personal regret."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "I wish I had studied harder for the exam.",
+              "translation": "Saya berharap tadi saya belajar lebih giat untuk ujian.",
+              "explanation": {
+                "en": "Past regret with 'had studied'.",
+                "id": "Penyesalan masa lalu dengan 'had studied'."
+              }
+            },
+            {
+              "sentence": "I wish I spoke Japanese fluently.",
+              "translation": "Saya berharap saya bisa berbahasa Jepang dengan lancar.",
+              "explanation": {
+                "en": "Present unreal situation with the past simple.",
+                "id": "Situasi sekarang yang tidak nyata dengan past simple."
+              }
+            },
+            {
+              "sentence": "I wish you would stop interrupting me.",
+              "translation": "Saya harap kamu berhenti memotong pembicaraan saya.",
+              "explanation": {
+                "en": "'Wish + would' expresses annoyance and a desire for change.",
+                "id": "'Wish + would' menyatakan kejengkelan dan harapan akan perubahan."
+              }
+            },
+            {
+              "sentence": "She wishes she hadn't said that.",
+              "translation": "Dia berharap tadi tidak mengatakan itu.",
+              "explanation": {
+                "en": "Negative past regret: wish + hadn't + past participle.",
+                "id": "Penyesalan masa lalu negatif: wish + hadn't + past participle."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "Are you interested ___ joining our study group?",
+      "options": {
+        "A": "on",
+        "B": "in",
+        "C": "at",
+        "D": "about"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0014",
+        "topic": {
+          "name": {
+            "en": "Adjective + Preposition Collocations",
+            "id": "Pasangan Kata Sifat + Preposisi"
+          },
+          "category": "Prepositions"
+        },
+        "details_explanation": {
+          "explanation": "The adjective 'interested' is always followed by the preposition 'in': 'interested in + noun/V-ing'.",
+          "introduction": "Many adjectives are followed by a fixed preposition. These collocations must be memorised: interested in, good at, afraid of, proud of, worried about.",
+          "rules": [
+            {
+              "title": "1. Common Adjective + Preposition Pairs",
+              "explanation": "Learn the pairs as fixed units.",
+              "structure": "interested in / good at / afraid of / proud of / worried about / famous for",
+              "notes": [
+                "Interested in music, interested in learning English."
+              ]
+            },
+            {
+              "title": "2. Preposition + Gerund",
+              "explanation": "When a verb follows a preposition, it takes the -ing form.",
+              "structure": "interested in + V-ing",
+              "notes": [
+                "Interested in joining (not 'to join')."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Only 'in' combines with 'interested'. 'On', 'at', and 'about' do not form this collocation.",
+              "structure": "Are you interested in joining our study group?",
+              "notes": [
+                "Correct answer: B — in."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Are you interested on joining our study group?",
+              "correct": "Are you interested in joining our study group?",
+              "reason": "'Interested' is followed by 'in', not 'on'."
+            },
+            {
+              "wrong": "Are you interested in join our study group?",
+              "correct": "Are you interested in joining our study group?",
+              "reason": "A verb after a preposition must be in the -ing form."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "She is good at mathematics.",
+              "translation": "Dia pandai matematika.",
+              "explanation": {
+                "en": "'Good at' is a fixed collocation.",
+                "id": "'Good at' adalah pasangan tetap."
+              }
+            },
+            {
+              "sentence": "He is afraid of spiders.",
+              "translation": "Dia takut laba-laba.",
+              "explanation": {
+                "en": "'Afraid of' is a fixed collocation.",
+                "id": "'Afraid of' adalah pasangan tetap."
+              }
+            },
+            {
+              "sentence": "My parents are proud of my achievements.",
+              "translation": "Orang tua saya bangga pada pencapaian saya.",
+              "explanation": {
+                "en": "'Proud of' is a fixed collocation.",
+                "id": "'Proud of' adalah pasangan tetap."
+              }
+            },
+            {
+              "sentence": "I am interested in learning traditional dance.",
+              "translation": "Saya tertarik mempelajari tari tradisional.",
+              "explanation": {
+                "en": "Preposition + gerund after 'interested in'.",
+                "id": "Preposisi + gerund setelah 'interested in'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "difficulty": "C2",
+      "question": "Not until she arrived home ___ that she had left her keys at the office.",
+      "options": {
+        "A": "she realized",
+        "B": "did she realize",
+        "C": "she did realize",
+        "D": "realized she"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0015",
+        "topic": {
+          "name": {
+            "en": "Inversion after Negative Adverbials",
+            "id": "Inversi setelah Keterangan Negatif"
+          },
+          "category": "Word Order / Inversion"
+        },
+        "details_explanation": {
+          "explanation": "When a sentence begins with a negative adverbial such as 'Not until...', the main clause takes question-word order: 'did she realize'.",
+          "introduction": "Negative or restrictive adverbials placed at the beginning of a sentence trigger inversion of the subject and auxiliary in the main clause.",
+          "rules": [
+            {
+              "title": "1. Negative Adverbials that Trigger Inversion",
+              "explanation": "Not until, never, seldom, rarely, hardly, no sooner, and not only cause inversion when they start the sentence.",
+              "structure": "Negative adverbial + auxiliary + subject + main verb",
+              "notes": [
+                "Never have I seen such a sight.",
+                "No sooner had he arrived than it started to rain."
+              ]
+            },
+            {
+              "title": "2. Inversion with the Simple Past",
+              "explanation": "If there is no auxiliary, use do/does/did + subject + base verb.",
+              "structure": "Not until she arrived home did she realize...",
+              "notes": [
+                "'Did' carries the past tense; the main verb stays in the base form."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The sentence starts with 'Not until', so the main clause must invert: 'did she realize'. The other options use normal word order and are incorrect after this opening.",
+              "structure": "Not until she arrived home did she realize that she had left her keys at the office.",
+              "notes": [
+                "Correct answer: B — did she realize."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not until she arrived home she realized that she had left her keys.",
+              "correct": "Not until she arrived home did she realize that she had left her keys.",
+              "reason": "The fronted negative adverbial requires inversion."
+            },
+            {
+              "wrong": "Not until she arrived home she did realized.",
+              "correct": "Not until she arrived home did she realize.",
+              "reason": "After 'did', use the base verb 'realize'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Never have I seen such a beautiful beach.",
+              "translation": "Belum pernah saya melihat pantai seindah ini.",
+              "explanation": {
+                "en": "'Never' at the start triggers inversion.",
+                "id": "'Never' di awal memicu inversi."
+              }
+            },
+            {
+              "sentence": "Rarely does he complain about his work.",
+              "translation": "Jarang sekali dia mengeluh tentang pekerjaannya.",
+              "explanation": {
+                "en": "Present simple inversion with 'does'.",
+                "id": "Inversi present simple dengan 'does'."
+              }
+            },
+            {
+              "sentence": "No sooner had the bell rung than the students left.",
+              "translation": "Baru saja bel berbunyi, para siswa pun keluar.",
+              "explanation": {
+                "en": "'No sooner' triggers inversion with 'had'.",
+                "id": "'No sooner' memicu inversi dengan 'had'."
+              }
+            },
+            {
+              "sentence": "Not only did she finish first, but she also broke the record.",
+              "translation": "Tidak hanya dia finis pertama, tetapi dia juga memecahkan rekor.",
+              "explanation": {
+                "en": "'Not only' at the start requires inversion.",
+                "id": "'Not only' di awal memerlukan inversi."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "type": "mcq",
+      "difficulty": "B2",
+      "question": "If I ___ you, I would apologize to her immediately.",
+      "options": {
+        "A": "am",
+        "B": "were",
+        "C": "had been",
+        "D": "will be"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0016",
+        "topic": {
+          "name": {
+            "en": "Second Conditional — 'If I were you'",
+            "id": "Kondisional Tipe Kedua — 'If I were you'"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "The second conditional uses 'if + past simple' and 'would + base verb'. With 'be', the fixed expression is 'If I were you'.",
+          "introduction": "The second conditional describes an unreal or hypothetical present situation. 'If I were you' is a fixed formula used to give advice.",
+          "rules": [
+            {
+              "title": "1. Second Conditional Structure",
+              "explanation": "Use past simple in the if-clause and 'would + base verb' in the result clause.",
+              "structure": "If + past simple, subject + would + base verb.",
+              "notes": [
+                "If I had more money, I would travel."
+              ]
+            },
+            {
+              "title": "2. 'Were' with All Subjects",
+              "explanation": "In the second conditional, 'were' is used with all subjects, especially in the fixed phrase 'If I were you'.",
+              "structure": "If I/he/she/it were...",
+              "notes": [
+                "'If I were you' is the standard advice formula."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The result clause 'would apologize' shows a second conditional, so the if-clause needs 'were'. 'Am', 'had been', and 'will be' do not fit this pattern.",
+              "structure": "If I were you, I would apologize to her immediately.",
+              "notes": [
+                "Correct answer: B — were."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "If I am you, I would apologize.",
+              "correct": "If I were you, I would apologize.",
+              "reason": "The second conditional uses the past form 'were', not the present 'am'."
+            },
+            {
+              "wrong": "If I were you, I will apologize.",
+              "correct": "If I were you, I would apologize.",
+              "reason": "The result clause of the second conditional uses 'would'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "If I were rich, I would buy a house in Bali.",
+              "translation": "Jika saya kaya, saya akan membeli rumah di Bali.",
+              "explanation": {
+                "en": "An unreal present situation with 'would buy'.",
+                "id": "Situasi sekarang yang tidak nyata dengan 'would buy'."
+              }
+            },
+            {
+              "sentence": "If she studied harder, she would pass the test.",
+              "translation": "Jika dia belajar lebih giat, dia akan lulus ujian.",
+              "explanation": {
+                "en": "Past simple + would in the second conditional.",
+                "id": "Past simple + would dalam kondisional tipe kedua."
+              }
+            },
+            {
+              "sentence": "If I were you, I would accept the offer.",
+              "translation": "Kalau saya jadi kamu, saya akan menerima tawaran itu.",
+              "explanation": {
+                "en": "'If I were you' is used to give advice.",
+                "id": "'If I were you' digunakan untuk memberi nasihat."
+              }
+            },
+            {
+              "sentence": "If we had a car, we would drive to Bandung.",
+              "translation": "Jika kami punya mobil, kami akan berkendara ke Bandung.",
+              "explanation": {
+                "en": "Hypothetical present with 'had' and 'would drive'.",
+                "id": "Hipotesis sekarang dengan 'had' dan 'would drive'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "type": "mcq",
+      "difficulty": "C1",
+      "question": "It was ___ a difficult exam that most students failed it.",
+      "options": {
+        "A": "so",
+        "B": "such",
+        "C": "too",
+        "D": "very"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "GRAM-0017",
+        "topic": {
+          "name": {
+            "en": "'so' vs 'such' — Result Clauses",
+            "id": "'so' vs 'such' — Klausa Akibat"
+          },
+          "category": "Adverbs and Intensifiers"
+        },
+        "details_explanation": {
+          "explanation": "Before 'a + adjective + noun', use 'such': 'such a difficult exam'. 'So' is used before an adjective without a noun: 'so difficult'.",
+          "introduction": "Both 'so' and 'such' can introduce a result clause with 'that', but their grammatical patterns are different.",
+          "rules": [
+            {
+              "title": "1. 'so' + adjective/adverb",
+              "explanation": "'So' is followed directly by an adjective or adverb.",
+              "structure": "so + adjective + that ...",
+              "notes": [
+                "The exam was so difficult that most students failed it."
+              ]
+            },
+            {
+              "title": "2. 'such' + (a/an) + adjective + noun",
+              "explanation": "'Such' is followed by a noun phrase.",
+              "structure": "such + a/an + adjective + singular noun + that ... / such + adjective + plural noun + that ...",
+              "notes": [
+                "It was such a difficult exam that...",
+                "They were such difficult questions that..."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The phrase after the gap is 'a difficult exam', a noun phrase, so 'such' is needed. 'So' would require 'so difficult an exam' or 'the exam was so difficult'. 'Too' and 'very' do not fit the 'that' result structure here.",
+              "structure": "It was such a difficult exam that most students failed it.",
+              "notes": [
+                "Correct answer: B — such."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It was so a difficult exam that most students failed it.",
+              "correct": "It was such a difficult exam that most students failed it.",
+              "reason": "'So' cannot be followed by 'a + adjective + noun'."
+            },
+            {
+              "wrong": "It was such difficult exam that most students failed it.",
+              "correct": "It was such a difficult exam that most students failed it.",
+              "reason": "A singular countable noun needs 'a' after 'such'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "She is such a kind person that everyone loves her.",
+              "translation": "Dia orang yang begitu baik sehingga semua orang menyukainya.",
+              "explanation": {
+                "en": "'Such a + adjective + singular noun'.",
+                "id": "'Such a + kata sifat + kata benda tunggal'."
+              }
+            },
+            {
+              "sentence": "The weather was so hot that we stayed inside.",
+              "translation": "Cuacanya begitu panas sehingga kami tetap di dalam.",
+              "explanation": {
+                "en": "'So + adjective' without a noun.",
+                "id": "'So + kata sifat' tanpa kata benda."
+              }
+            },
+            {
+              "sentence": "They were such interesting books that I read them twice.",
+              "translation": "Buku-buku itu begitu menarik sehingga saya membacanya dua kali.",
+              "explanation": {
+                "en": "'Such + adjective + plural noun'.",
+                "id": "'Such + kata sifat + kata benda jamak'."
+              }
+            },
+            {
+              "sentence": "He spoke so quickly that nobody understood him.",
+              "translation": "Dia berbicara begitu cepat sehingga tidak ada yang memahaminya.",
+              "explanation": {
+                "en": "'So + adverb'.",
+                "id": "'So + kata keterangan'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "difficulty": "B1",
+      "question": "You have finished your assignment, ___?",
+      "options": {
+        "A": "haven't you",
+        "B": "have you",
+        "C": "don't you",
+        "D": "didn't you"
+      },
+      "correctAnswer": "A",
+      "explanationDetails": {
+        "id": "GRAM-0018",
+        "topic": {
+          "name": {
+            "en": "Question Tags with the Present Perfect",
+            "id": "Question Tag dengan Present Perfect"
+          },
+          "category": "Question Tags"
+        },
+        "details_explanation": {
+          "explanation": "The statement is affirmative and uses 'have', so the tag must be negative and use the same auxiliary: 'haven't you'.",
+          "introduction": "A question tag repeats the auxiliary of the main clause and reverses the polarity: positive statement → negative tag.",
+          "rules": [
+            {
+              "title": "1. Polarity Rule",
+              "explanation": "Positive statement → negative tag; negative statement → positive tag.",
+              "structure": "You have finished, haven't you? / You haven't finished, have you?",
+              "notes": [
+                "The subject in the tag is always a pronoun."
+              ]
+            },
+            {
+              "title": "2. Repeating the Auxiliary",
+              "explanation": "Use the same auxiliary as the main clause. In the present perfect, that is have/has.",
+              "structure": "have/has + pronoun (+ not)",
+              "notes": [
+                "'Don't you' would require a present simple statement."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The statement 'You have finished your assignment' is positive and uses 'have', so the correct tag is 'haven't you'.",
+              "structure": "You have finished your assignment, haven't you?",
+              "notes": [
+                "Correct answer: A — haven't you."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "You have finished your assignment, have you?",
+              "correct": "You have finished your assignment, haven't you?",
+              "reason": "A positive statement takes a negative tag."
+            },
+            {
+              "wrong": "You have finished your assignment, don't you?",
+              "correct": "You have finished your assignment, haven't you?",
+              "reason": "The tag must repeat the auxiliary 'have'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "She is a teacher, isn't she?",
+              "translation": "Dia seorang guru, bukan?",
+              "explanation": {
+                "en": "The tag repeats 'is' and is negative.",
+                "id": "Tag mengulang 'is' dan berbentuk negatif."
+              }
+            },
+            {
+              "sentence": "They didn't come, did they?",
+              "translation": "Mereka tidak datang, kan?",
+              "explanation": {
+                "en": "A negative statement takes a positive tag.",
+                "id": "Pernyataan negatif memakai tag positif."
+              }
+            },
+            {
+              "sentence": "You can swim, can't you?",
+              "translation": "Kamu bisa berenang, bukan?",
+              "explanation": {
+                "en": "The tag repeats the modal 'can'.",
+                "id": "Tag mengulang modal 'can'."
+              }
+            },
+            {
+              "sentence": "He has been to Bali, hasn't he?",
+              "translation": "Dia pernah ke Bali, bukan?",
+              "explanation": {
+                "en": "The tag repeats the auxiliary 'has'.",
+                "id": "Tag mengulang kata bantu 'has'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "type": "passage_mcq",
+      "difficulty": "B1",
+      "passage": "Siti is a student from Surabaya. She studies at a vocational school. Every day, she takes the bus to school at 6:30 a.m. Her classes begin at 7:15 a.m. and finish at 2 p.m. After school, she helps her mother in their small shop.",
+      "question": "What time do Siti's classes begin?",
+      "options": {
+        "A": "6:30 a.m.",
+        "B": "7:15 a.m.",
+        "C": "2 p.m.",
+        "D": "6 a.m."
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "READ-0001",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Detail Questions",
+            "id": "Pemahaman Bacaan — Pertanyaan Detail"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "The passage states: 'Her classes begin at 7:15 a.m.' Therefore the answer is B.",
+          "introduction": "A detail question asks for a specific piece of information stated directly in the text. Scan the passage for the keywords in the question: 'classes' and 'begin'.",
+          "rules": [
+            {
+              "title": "1. Find the Keywords",
+              "explanation": "Look for the exact words or synonyms from the question in the passage.",
+              "structure": "Question: classes begin → Passage: Her classes begin at 7:15 a.m.",
+              "notes": [
+                "The answer is stated directly; no inference is needed."
+              ]
+            },
+            {
+              "title": "2. Distinguish Similar Details",
+              "explanation": "The passage contains several times. Match each time to the correct action.",
+              "structure": "6:30 a.m. = takes the bus; 7:15 a.m. = classes begin; 2 p.m. = classes finish.",
+              "notes": [
+                "Option A (6:30 a.m.) is when she takes the bus, not when classes start."
+              ]
+            },
+            {
+              "title": "3. Match the Detail to the Options",
+              "explanation": "'Her classes begin at 7:15 a.m.' matches option B exactly.",
+              "structure": "7:15 a.m. → Option B.",
+              "notes": [
+                "Correct answer: B — 7:15 a.m."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing 6:30 a.m. because it is the first time mentioned.",
+              "correct": "Choose 7:15 a.m. because the question asks when classes begin.",
+              "reason": "6:30 a.m. is when Siti takes the bus."
+            },
+            {
+              "wrong": "Choosing 2 p.m. because it is also in the passage.",
+              "correct": "Choose 7:15 a.m., the stated start time.",
+              "reason": "2 p.m. is when her classes finish."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Passage: Tom gets up at 5:30 a.m. He leaves for work at 7 a.m. Question: What time does Tom leave for work?",
+              "translation": "Bacaan: Tom bangun pukul 5.30 pagi. Ia berangkat kerja pukul 7.00 pagi. Pertanyaan: Pukul berapa Tom berangkat kerja?",
+              "explanation": {
+                "en": "The passage states he leaves for work at 7 a.m.",
+                "id": "Bacaan menyatakan ia berangkat kerja pukul 7.00 pagi."
+              }
+            },
+            {
+              "sentence": "Passage: The shop opens at 9 a.m. and closes at 6 p.m. Question: What time does the shop open?",
+              "translation": "Bacaan: Toko buka pukul 9.00 pagi dan tutup pukul 6.00 sore. Pertanyaan: Pukul berapa toko buka?",
+              "explanation": {
+                "en": "The opening time is stated as 9 a.m.",
+                "id": "Waktu buka dinyatakan pukul 9.00 pagi."
+              }
+            },
+            {
+              "sentence": "Passage: The meeting starts at 10 a.m. in Room 3. Question: Where is the meeting?",
+              "translation": "Bacaan: Rapat dimulai pukul 10.00 di Ruang 3. Pertanyaan: Di mana rapatnya?",
+              "explanation": {
+                "en": "The place is stated as Room 3.",
+                "id": "Tempatnya dinyatakan sebagai Ruang 3."
+              }
+            },
+            {
+              "sentence": "Passage: Ana's birthday is on 17 August. Question: When is Ana's birthday?",
+              "translation": "Bacaan: Ulang tahun Ana pada 17 Agustus. Pertanyaan: Kapan ulang tahun Ana?",
+              "explanation": {
+                "en": "The date is stated directly in the passage.",
+                "id": "Tanggalnya dinyatakan langsung dalam bacaan."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "type": "passage_mcq",
+      "difficulty": "B2",
+      "passage": "Budi had saved money for months to buy a new bicycle. However, when he heard that his friend's house had been damaged by a flood, he gave the money to help his friend's family. He now walks to school, but he says he has never regretted his decision.",
+      "question": "What can we infer about Budi?",
+      "options": {
+        "A": "He bought a new bicycle.",
+        "B": "He regrets giving his money away.",
+        "C": "He values helping others more than buying things for himself.",
+        "D": "He no longer goes to school."
+      },
+      "correctAnswer": "C",
+      "explanationDetails": {
+        "id": "READ-0002",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Inference Questions",
+            "id": "Pemahaman Bacaan — Pertanyaan Simpulan"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "Budi gave up his savings to help a friend and never regretted it. This shows he values helping others more than buying something for himself.",
+          "introduction": "An inference question asks you to draw a conclusion that is supported by the text but not stated directly.",
+          "rules": [
+            {
+              "title": "1. Inference vs Detail",
+              "explanation": "A detail is stated word for word; an inference must be logically supported by several details.",
+              "structure": "Detail: he gave the money. Inference: he values helping others.",
+              "notes": [
+                "The correct inference must be supported by the whole passage."
+              ]
+            },
+            {
+              "title": "2. Eliminate Options Contradicted by the Text",
+              "explanation": "Check each option against the passage.",
+              "structure": "A is false (he did not buy the bicycle); B is false (he never regretted); D is false (he walks to school).",
+              "notes": [
+                "Only C is supported."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "He sacrificed his own plan to help a friend and did not regret it, so C is the best inference.",
+              "structure": "Passage evidence → Option C.",
+              "notes": [
+                "Correct answer: C."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing A because a bicycle is mentioned in the passage.",
+              "correct": "Choose C, which reflects his actions and attitude.",
+              "reason": "The bicycle is mentioned as a plan he did not carry out."
+            },
+            {
+              "wrong": "Choosing B because he now walks to school.",
+              "correct": "Choose C, because the passage says he has never regretted his decision.",
+              "reason": "Walking to school is a consequence, not a regret."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Passage: Rani practises the piano for two hours every day and has won several competitions. Inference: She is dedicated.",
+              "translation": "Bacaan: Rani berlatih piano dua jam setiap hari dan telah memenangkan beberapa kompetisi. Simpulan: Dia berdedikasi.",
+              "explanation": {
+                "en": "Daily practice and wins support the inference of dedication.",
+                "id": "Latihan harian dan kemenangan mendukung simpulan tentang dedikasi."
+              }
+            },
+            {
+              "sentence": "Passage: The room was dark and the door was locked. Inference: Nobody was inside.",
+              "translation": "Bacaan: Ruangan gelap dan pintunya terkunci. Simpulan: Tidak ada orang di dalam.",
+              "explanation": {
+                "en": "The details logically suggest the room was empty.",
+                "id": "Detail-detail itu secara logis menunjukkan ruangan kosong."
+              }
+            },
+            {
+              "sentence": "Passage: Dito arrives at the library before it opens every day. Inference: He is very eager to study.",
+              "translation": "Bacaan: Dito tiba di perpustakaan sebelum buka setiap hari. Simpulan: Dia sangat bersemangat belajar.",
+              "explanation": {
+                "en": "Arriving early repeatedly supports the inference.",
+                "id": "Datang lebih awal berulang kali mendukung simpulan tersebut."
+              }
+            },
+            {
+              "sentence": "Passage: The plants in the office died within a week. Inference: They were not watered.",
+              "translation": "Bacaan: Tanaman di kantor mati dalam seminggu. Simpulan: Tanaman itu tidak disiram.",
+              "explanation": {
+                "en": "The quick death of plants logically suggests a lack of water.",
+                "id": "Kematian cepat tanaman secara logis menunjukkan kurangnya air."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "type": "passage_mcq",
+      "difficulty": "B2",
+      "passage": "Last month, SMA Harapan opened a new reading corner in its library. The corner provides more than 500 new books, including novels, comics and science magazines. Students can borrow up to three books at a time for two weeks. The school plans to add computers and free Wi-Fi next year so that students can access digital resources. According to the librarian, visits to the library have increased by 40 percent since the reading corner opened.",
+      "question": "Which TWO statements are true according to the passage?",
+      "options": {
+        "A": "Students may borrow three books for two weeks.",
+        "B": "The reading corner already has computers and free Wi-Fi.",
+        "C": "Library visits have increased by 40 percent.",
+        "D": "The library only provides science magazines.",
+        "E": "The school will close the library next year."
+      },
+      "correctAnswer": ["A", "C"],
+      "explanationDetails": {
+        "id": "READ-0003",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Multiple True Statements",
+            "id": "Pemahaman Bacaan — Beberapa Pernyataan Benar"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "The passage says students can borrow up to three books for two weeks (A) and that visits increased by 40 percent (C). Computers and Wi-Fi are planned for next year, not available now; the library has novels, comics and magazines; and the school is adding facilities, not closing the library.",
+          "introduction": "This is a multiple-answer reading question. Each option must be checked individually against the passage.",
+          "rules": [
+            {
+              "title": "1. Check Each Option Separately",
+              "explanation": "Do not stop at the first true option. Read all five options and verify each one.",
+              "structure": "A ✓ / B ✗ / C ✓ / D ✗ / E ✗",
+              "notes": [
+                "The question asks for TWO statements."
+              ]
+            },
+            {
+              "title": "2. Watch for Tense and Time Markers",
+              "explanation": "Option B is a distractor because computers and Wi-Fi are planned for next year, not present now.",
+              "structure": "plans to add ... next year ≠ already has",
+              "notes": [
+                "Small words like 'next year' change the truth value of an option."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'Up to three books ... for two weeks' matches A, and 'increased by 40 percent' matches C.",
+              "structure": "Correct answers: A and C.",
+              "notes": [
+                "Option D is false because the corner provides novels, comics and science magazines."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing B because computers and Wi-Fi are mentioned.",
+              "correct": "Do not choose B; they will be added next year.",
+              "reason": "The passage describes a future plan, not a current facility."
+            },
+            {
+              "wrong": "Choosing only one answer.",
+              "correct": "Choose both A and C.",
+              "reason": "The question explicitly asks for TWO true statements."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Passage: The club meets every Friday. Members must bring their own rackets. Which is true? A) The club meets weekly. B) Rackets are provided.",
+              "translation": "Bacaan: Klub bertemu setiap Jumat. Anggota harus membawa raket sendiri. Mana yang benar? A) Klub bertemu setiap minggu. B) Raket disediakan.",
+              "explanation": {
+                "en": "A is true; B contradicts the passage.",
+                "id": "A benar; B bertentangan dengan bacaan."
+              }
+            },
+            {
+              "sentence": "Passage: The workshop is free but limited to 20 participants. Which is true? A) You must pay. B) Only 20 people can join.",
+              "translation": "Bacaan: Lokakarya gratis tetapi terbatas untuk 20 peserta. Mana yang benar? A) Kamu harus membayar. B) Hanya 20 orang bisa ikut.",
+              "explanation": {
+                "en": "B is true; A contradicts 'free'.",
+                "id": "B benar; A bertentangan dengan 'gratis'."
+              }
+            },
+            {
+              "sentence": "Passage: The train departs at 6 a.m. and arrives at 9 a.m. Which is true? A) The journey takes three hours. B) The train leaves at 9 a.m.",
+              "translation": "Bacaan: Kereta berangkat pukul 6 pagi dan tiba pukul 9 pagi. Mana yang benar? A) Perjalanan memakan waktu tiga jam. B) Kereta berangkat pukul 9 pagi.",
+              "explanation": {
+                "en": "A is true; B reverses departure and arrival.",
+                "id": "A benar; B membalik keberangkatan dan kedatangan."
+              }
+            },
+            {
+              "sentence": "Passage: The museum is closed on Mondays. Which is true? A) You can visit on Monday. B) You cannot visit on Monday.",
+              "translation": "Bacaan: Museum tutup pada hari Senin. Mana yang benar? A) Kamu bisa berkunjung hari Senin. B) Kamu tidak bisa berkunjung hari Senin.",
+              "explanation": {
+                "en": "B is true; A contradicts the passage.",
+                "id": "B benar; A bertentangan dengan bacaan."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "type": "passage_mcq",
+      "difficulty": "C1",
+      "passage": "The traditional market in our town has undergone a remarkable transformation. Once crowded and poorly organized, it is now a clean and well-managed place. The local government, however, insists that the changes are not merely cosmetic; they reflect a deeper commitment to improving the livelihoods of small traders.",
+      "question": "The word 'cosmetic' in the passage is closest in meaning to ___",
+      "options": {
+        "A": "related to beauty products",
+        "B": "superficial",
+        "C": "expensive",
+        "D": "permanent"
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "READ-0004",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Vocabulary in Context",
+            "id": "Pemahaman Bacaan — Kosakata dalam Konteks"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "In this context, 'cosmetic' means 'only on the surface' or 'superficial', because the government says the changes are more than appearance only.",
+          "introduction": "Vocabulary-in-context questions test the meaning of a word as it is used in the passage, not its most common dictionary meaning. The contrast with 'a deeper commitment' signals that 'cosmetic' means superficial.",
+          "rules": [
+            {
+              "title": "1. Use the Surrounding Words",
+              "explanation": "Look at the contrast markers near the word. Here 'not merely cosmetic; ... a deeper commitment' shows a contrast between surface and depth.",
+              "structure": "not merely cosmetic = not only for appearance",
+              "notes": [
+                "Contrast words like 'however' and 'deeper' guide the meaning."
+              ]
+            },
+            {
+              "title": "2. Beware the Literal Meaning",
+              "explanation": "'Cosmetic' literally relates to beauty products, but that meaning does not fit here.",
+              "structure": "Context meaning > dictionary meaning",
+              "notes": [
+                "Option A is the trap answer."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'Superficial' matches the contrast with 'a deeper commitment'. 'Expensive' and 'permanent' do not fit the contrast at all.",
+              "structure": "cosmetic ≈ superficial → Option B.",
+              "notes": [
+                "Correct answer: B — superficial."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing A because 'cosmetic' usually refers to beauty products.",
+              "correct": "Choose B because the context contrasts surface appearance with real depth.",
+              "reason": "The question asks for the meaning in this passage, not the most common meaning."
+            },
+            {
+              "wrong": "Choosing D because the changes are described positively.",
+              "correct": "Choose B; the sentence says the changes are NOT merely cosmetic.",
+              "reason": "'Permanent' is not supported by the contrast in the sentence."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "His apology was purely cosmetic; nothing actually changed.",
+              "translation": "Permintaan maafnya hanya di permukaan; tidak ada yang benar-benar berubah.",
+              "explanation": {
+                "en": "'Cosmetic' means superficial here.",
+                "id": "'Cosmetic' berarti hanya di permukaan di sini."
+              }
+            },
+            {
+              "sentence": "The reform was not cosmetic but structural.",
+              "translation": "Reformasi itu bukan sekadar permukaan tetapi struktural.",
+              "explanation": {
+                "en": "The contrast with 'structural' shows 'cosmetic' means superficial.",
+                "id": "Kontras dengan 'structural' menunjukkan 'cosmetic' berarti dangkal."
+              }
+            },
+            {
+              "sentence": "She made only cosmetic changes to the essay.",
+              "translation": "Dia hanya membuat perubahan kecil di permukaan pada esai itu.",
+              "explanation": {
+                "en": "'Cosmetic changes' are small changes to appearance, not content.",
+                "id": "'Cosmetic changes' adalah perubahan kecil pada tampilan, bukan isi."
+              }
+            },
+            {
+              "sentence": "The damage to the car was cosmetic, not mechanical.",
+              "translation": "Kerusakan mobil itu hanya pada bagian luar, bukan mesin.",
+              "explanation": {
+                "en": "Here 'cosmetic' refers to appearance only.",
+                "id": "Di sini 'cosmetic' merujuk pada tampilan luar saja."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "type": "passage_mcq",
+      "difficulty": "C1",
+      "passage": "Research has consistently shown that sleep plays a crucial role in learning. During deep sleep, the brain consolidates information gathered during the day, transferring it from short-term to long-term memory. Students who sacrifice sleep to study longer often perform worse than those who keep a regular sleep schedule. In short, a good night's sleep is not a luxury but a necessary part of effective study.",
+      "question": "What is the main idea of the passage?",
+      "options": {
+        "A": "Students should study longer at night.",
+        "B": "Sleep is essential for effective learning and memory.",
+        "C": "Deep sleep is not important for teenagers.",
+        "D": "Good students never stay up late."
+      },
+      "correctAnswer": "B",
+      "explanationDetails": {
+        "id": "READ-0005",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Main Idea",
+            "id": "Pemahaman Bacaan — Ide Pokok"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "The whole passage explains that sleep helps the brain consolidate information and that cutting sleep harms study results. The main idea is that sleep is essential for effective learning and memory.",
+          "introduction": "A main-idea question asks for the overall point of the passage, not a single detail. The final sentence often summarises the main idea.",
+          "rules": [
+            {
+              "title": "1. Look for the Topic Sentence and Conclusion",
+              "explanation": "The first and last sentences often state the main idea.",
+              "structure": "First sentence: sleep is crucial in learning. Last sentence: sleep is a necessary part of effective study.",
+              "notes": [
+                "Both point to the same main idea."
+              ]
+            },
+            {
+              "title": "2. Reject Details and Distortions",
+              "explanation": "Options that mention only one detail or that contradict the passage are wrong.",
+              "structure": "A and C contradict the passage; D is an extreme statement not made in the text.",
+              "notes": [
+                "Be careful with absolute words like 'never' and 'always'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Option B summarises the entire passage: sleep supports learning and memory.",
+              "structure": "Main idea → Option B.",
+              "notes": [
+                "Correct answer: B."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing a true detail such as 'deep sleep consolidates information' as the main idea.",
+              "correct": "Choose the statement that covers the whole passage.",
+              "reason": "A main idea must be broad enough to include the whole text."
+            },
+            {
+              "wrong": "Choosing an extreme statement like 'Good students never stay up late.'",
+              "correct": "Choose B, which reflects the passage without exaggeration.",
+              "reason": "The passage does not use absolute language."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Passage: Recycling reduces waste, saves energy, and protects natural resources. Main idea: Recycling benefits the environment.",
+              "translation": "Bacaan: Daur ulang mengurangi sampah, menghemat energi, dan melindungi sumber daya alam. Ide pokok: Daur ulang bermanfaat bagi lingkungan.",
+              "explanation": {
+                "en": "The main idea summarises all three benefits.",
+                "id": "Ide pokok merangkum ketiga manfaat tersebut."
+              }
+            },
+            {
+              "sentence": "Passage: Regular exercise improves heart health, mood, and sleep quality. Main idea: Exercise has many health benefits.",
+              "translation": "Bacaan: Olahraga teratur meningkatkan kesehatan jantung, suasana hati, dan kualitas tidur. Ide pokok: Olahraga memiliki banyak manfaat kesehatan.",
+              "explanation": {
+                "en": "The main idea covers the listed benefits.",
+                "id": "Ide pokok mencakup manfaat-manfaat yang disebutkan."
+              }
+            },
+            {
+              "sentence": "Passage: The village's new road cut travel time to the city and helped farmers sell their crops. Main idea: The new road improved the village economy.",
+              "translation": "Bacaan: Jalan baru desa itu memangkas waktu perjalanan ke kota dan membantu petani menjual hasil panen. Ide pokok: Jalan baru meningkatkan perekonomian desa.",
+              "explanation": {
+                "en": "The idea links both details to one overall point.",
+                "id": "Ide tersebut menghubungkan kedua detail menjadi satu pokok."
+              }
+            },
+            {
+              "sentence": "Passage: Reading aloud helps children build vocabulary and confidence. Main idea: Reading aloud supports children's development.",
+              "translation": "Bacaan: Membaca nyaring membantu anak membangun kosakata dan kepercayaan diri. Ide pokok: Membaca nyaring mendukung perkembangan anak.",
+              "explanation": {
+                "en": "The main idea is broader than either single detail.",
+                "id": "Ide pokok lebih luas daripada masing-masing detail."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "type": "passage_mcq",
+      "difficulty": "C2",
+      "passage": "When the company first allowed employees to work from home three days a week, many managers feared a drop in productivity. Six months later, however, the data told a different story: output had risen by twelve percent, and sick leave had fallen sharply. Employees reported feeling more focused, largely because they no longer faced two hours of commuting each day. Still, some managers argue that remote work weakens team spirit, and the company has responded by organising monthly face-to-face meetings.",
+      "question": "Which TWO statements are supported by the passage?",
+      "options": {
+        "A": "Productivity fell after the policy was introduced.",
+        "B": "Output increased by twelve percent.",
+        "C": "Before the policy, employees spent two hours commuting each day.",
+        "D": "Sick leave increased significantly.",
+        "E": "The company stopped holding face-to-face meetings."
+      },
+      "correctAnswer": ["B", "C"],
+      "explanationDetails": {
+        "id": "READ-0006",
+        "topic": {
+          "name": {
+            "en": "Reading Comprehension — Supported Statements",
+            "id": "Pemahaman Bacaan — Pernyataan yang Didukung"
+          },
+          "category": "Reading"
+        },
+        "details_explanation": {
+          "explanation": "The passage states output rose by twelve percent (B) and that employees no longer faced two hours of commuting each day, which means they did commute two hours before the policy (C).",
+          "introduction": "This question asks which statements the passage supports. Each option must be checked against the text, including the logical implication in option C.",
+          "rules": [
+            {
+              "title": "1. Verify Direct Statements",
+              "explanation": "Option B is stated directly: 'output had risen by twelve percent'.",
+              "structure": "output had risen by twelve percent → B ✓",
+              "notes": [
+                "Direct statements are the easiest to confirm."
+              ]
+            },
+            {
+              "title": "2. Verify Logical Implications",
+              "explanation": "Option C is not worded identically, but 'no longer faced two hours of commuting' logically means they used to commute two hours.",
+              "structure": "no longer + two hours of commuting → previously two hours",
+              "notes": [
+                "Implications must be certain, not merely possible."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "A is false (output rose, not fell), D is false (sick leave fell), and E is false (monthly face-to-face meetings are organised).",
+              "structure": "Correct answers: B and C.",
+              "notes": [
+                "Only B and C are supported by the passage."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Choosing A because managers feared a drop in productivity.",
+              "correct": "Choose B; the fear did not become reality.",
+              "reason": "The fear is reported, but the data showed the opposite."
+            },
+            {
+              "wrong": "Ignoring C because it is not worded exactly like the passage.",
+              "correct": "Choose C; 'no longer commute two hours' implies they did before.",
+              "reason": "Some correct options are paraphrased or implied."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Passage: Since the new manager arrived, staff turnover has fallen by half. Supported: Staff used to leave more often.",
+              "translation": "Bacaan: Sejak manajer baru datang, pergantian staf turun setengahnya. Didukung: Dulu staf lebih sering keluar.",
+              "explanation": {
+                "en": "The reduction implies a higher previous rate.",
+                "id": "Penurunan itu menyiratkan tingkat sebelumnya lebih tinggi."
+              }
+            },
+            {
+              "sentence": "Passage: The café no longer opens on Sundays. Supported: The café used to open on Sundays.",
+              "translation": "Bacaan: Kafe itu tidak lagi buka pada hari Minggu. Didukung: Kafe itu dulu buka pada hari Minggu.",
+              "explanation": {
+                "en": "'No longer' implies a past state.",
+                "id": "'No longer' menyiratkan keadaan masa lalu."
+              }
+            },
+            {
+              "sentence": "Passage: Sales rose by 20 percent after the campaign. Supported: The campaign was followed by higher sales.",
+              "translation": "Bacaan: Penjualan naik 20 persen setelah kampanye. Didukung: Kampanye diikuti kenaikan penjualan.",
+              "explanation": {
+                "en": "The figure directly supports the statement.",
+                "id": "Angka itu langsung mendukung pernyataan tersebut."
+              }
+            },
+            {
+              "sentence": "Passage: The library extended its opening hours, and visits doubled. Supported: Longer hours were followed by more visits.",
+              "translation": "Bacaan: Perpustakaan memperpanjang jam buka, dan kunjungan menjadi dua kali lipat. Didukung: Jam buka yang lebih panjang diikuti lebih banyak kunjungan.",
+              "explanation": {
+                "en": "Two facts in the passage support the statement.",
+                "id": "Dua fakta dalam bacaan mendukung pernyataan itu."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "type": "click_correct",
+      "difficulty": "B1",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "My sister don't like spicy food.",
+      "tokens": [
+        "My sister",
+        "don't like",
+        "spicy",
+        "food."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": ["doesn't like", "does not like"],
+      "explanationDetails": {
+        "id": "GRAM-0019",
+        "topic": {
+          "name": {
+            "en": "Negative Simple Present — Third-Person Singular",
+            "id": "Simple Present Negatif — Orang Ketiga Tunggal"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "'My sister' is third-person singular, so the negative auxiliary must be 'doesn't' and the main verb stays in the base form: 'doesn't like'.",
+          "introduction": "Negative simple present sentences use do/does + not + base verb. The auxiliary agrees with the subject; the main verb never takes -s.",
+          "rules": [
+            {
+              "title": "1. Choose the Right Auxiliary",
+              "explanation": "Use 'don't' with I/you/we/they and plural subjects. Use 'doesn't' with he/she/it and singular subjects.",
+              "structure": "Singular third person + doesn't + base verb.",
+              "notes": [
+                "'My sister' = 'she', so 'doesn't' is needed."
+              ]
+            },
+            {
+              "title": "2. Base Verb after the Auxiliary",
+              "explanation": "After do/does/don't/doesn't, always use the base verb, never the -s form.",
+              "structure": "doesn't + like (not 'likes')",
+              "notes": [
+                "The -s ending is carried by the auxiliary 'does'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'don't like' must become 'doesn't like' or 'does not like'.",
+              "structure": "My sister doesn't like spicy food.",
+              "notes": [
+                "Correct answers: 'doesn't like', 'does not like'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "My sister don't like spicy food.",
+              "correct": "My sister doesn't like spicy food.",
+              "reason": "A singular subject requires 'doesn't'."
+            },
+            {
+              "wrong": "My sister doesn't likes spicy food.",
+              "correct": "My sister doesn't like spicy food.",
+              "reason": "After 'doesn't', use the base verb."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "My brother doesn't eat meat.",
+              "translation": "Kakak saya tidak makan daging.",
+              "explanation": {
+                "en": "Singular subject + doesn't + base verb.",
+                "id": "Subjek tunggal + doesn't + kata kerja dasar."
+              }
+            },
+            {
+              "sentence": "They don't live in Jakarta.",
+              "translation": "Mereka tidak tinggal di Jakarta.",
+              "explanation": {
+                "en": "Plural subject + don't + base verb.",
+                "id": "Subjek jamak + don't + kata kerja dasar."
+              }
+            },
+            {
+              "sentence": "She doesn't understand the question.",
+              "translation": "Dia tidak memahami pertanyaannya.",
+              "explanation": {
+                "en": "'She' takes 'doesn't'.",
+                "id": "'She' memakai 'doesn't'."
+              }
+            },
+            {
+              "sentence": "We don't watch television in the morning.",
+              "translation": "Kami tidak menonton televisi pada pagi hari.",
+              "explanation": {
+                "en": "'We' takes 'don't'.",
+                "id": "'We' memakai 'don't'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "type": "click_correct",
+      "difficulty": "B2",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "The news about the earthquake are very shocking to everyone.",
+      "tokens": [
+        "The news",
+        "about the earthquake",
+        "are",
+        "very shocking",
+        "to everyone."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": ["is"],
+      "explanationDetails": {
+        "id": "GRAM-0020",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement — Uncountable Nouns",
+            "id": "Kesesuaian Subjek-Kata Kerja — Kata Benda Tak Terhitung"
+          },
+          "category": "Subject-Verb Agreement"
+        },
+        "details_explanation": {
+          "explanation": "'News' is an uncountable noun and takes a singular verb: 'The news ... is very shocking'.",
+          "introduction": "Some nouns ending in -s are actually singular and uncountable: news, mathematics, physics, economics. They take singular verbs.",
+          "rules": [
+            {
+              "title": "1. Singular Uncountable Nouns Ending in -s",
+              "explanation": "Words like news, mathematics, and physics look plural but are treated as singular.",
+              "structure": "The news is ... / Mathematics is ...",
+              "notes": [
+                "The prepositional phrase 'about the earthquake' does not change the subject."
+              ]
+            },
+            {
+              "title": "2. Ignore Prepositional Phrases",
+              "explanation": "The verb agrees with the head noun of the subject, not with a noun inside a prepositional phrase.",
+              "structure": "The news (about the earthquake) + is",
+              "notes": [
+                "'Earthquake' is singular but it is not the subject."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The subject is 'The news', so 'are' must be changed to 'is'.",
+              "structure": "The news about the earthquake is very shocking to everyone.",
+              "notes": [
+                "Correct answer: is."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The news are bad today.",
+              "correct": "The news is bad today.",
+              "reason": "'News' is singular and uncountable."
+            },
+            {
+              "wrong": "Mathematics are my favourite subject.",
+              "correct": "Mathematics is my favourite subject.",
+              "reason": "Academic subjects ending in -s take a singular verb."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The news is better than we expected.",
+              "translation": "Beritanya lebih baik dari yang kami harapkan.",
+              "explanation": {
+                "en": "'News' takes a singular verb.",
+                "id": "'News' memakai kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "Physics is a difficult subject for many students.",
+              "translation": "Fisika adalah mata pelajaran sulit bagi banyak siswa.",
+              "explanation": {
+                "en": "Subject names ending in -s take singular verbs.",
+                "id": "Nama mata pelajaran berakhiran -s memakai kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "The information about the flights was useful.",
+              "translation": "Informasi tentang penerbangan itu bermanfaat.",
+              "explanation": {
+                "en": "'Information' is uncountable and takes a singular verb.",
+                "id": "'Information' tidak terhitung dan memakai kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "The furniture in the office is new.",
+              "translation": "Perabot di kantor itu baru.",
+              "explanation": {
+                "en": "Uncountable nouns like 'furniture' take singular verbs.",
+                "id": "Kata benda tak terhitung seperti 'furniture' memakai kata kerja tunggal."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "type": "click_correct",
+      "difficulty": "B2",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "She has went to the market to buy some vegetables.",
+      "tokens": [
+        "She",
+        "has went",
+        "to the market",
+        "to buy",
+        "some vegetables."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": ["has gone"],
+      "explanationDetails": {
+        "id": "GRAM-0021",
+        "topic": {
+          "name": {
+            "en": "Present Perfect — Past Participle Forms",
+            "id": "Present Perfect — Bentuk Past Participle"
+          },
+          "category": "Verb Tenses"
+        },
+        "details_explanation": {
+          "explanation": "The present perfect uses have/has + past participle. The past participle of 'go' is 'gone', not 'went'.",
+          "introduction": "'Go' has two different forms in the past: 'went' (simple past) and 'gone' (past participle). Only the past participle can follow have/has.",
+          "rules": [
+            {
+              "title": "1. Present Perfect Form",
+              "explanation": "Use have/has + past participle for actions with a present result or indefinite past time.",
+              "structure": "She has gone / They have gone",
+              "notes": [
+                "'Went' is used only in the simple past: She went yesterday."
+              ]
+            },
+            {
+              "title": "2. Irregular Past Participles",
+              "explanation": "Many common verbs have different simple past and past participle forms.",
+              "structure": "go–went–gone / do–did–done / see–saw–seen / write–wrote–written",
+              "notes": [
+                "Check a verb list if you are unsure."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'has went' must become 'has gone'.",
+              "structure": "She has gone to the market to buy some vegetables.",
+              "notes": [
+                "Correct answer: has gone."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She has went to the market.",
+              "correct": "She has gone to the market.",
+              "reason": "'Went' is the simple past, not the past participle."
+            },
+            {
+              "wrong": "She have gone to the market.",
+              "correct": "She has gone to the market.",
+              "reason": "'She' takes 'has', not 'have'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "They have done their homework.",
+              "translation": "Mereka telah mengerjakan PR mereka.",
+              "explanation": {
+                "en": "The past participle of 'do' is 'done'.",
+                "id": "Past participle dari 'do' adalah 'done'."
+              }
+            },
+            {
+              "sentence": "I have seen that film twice.",
+              "translation": "Saya telah menonton film itu dua kali.",
+              "explanation": {
+                "en": "The past participle of 'see' is 'seen'.",
+                "id": "Past participle dari 'see' adalah 'seen'."
+              }
+            },
+            {
+              "sentence": "He has written three letters.",
+              "translation": "Dia telah menulis tiga surat.",
+              "explanation": {
+                "en": "The past participle of 'write' is 'written'.",
+                "id": "Past participle dari 'write' adalah 'written'."
+              }
+            },
+            {
+              "sentence": "She went to Bali last year.",
+              "translation": "Dia pergi ke Bali tahun lalu.",
+              "explanation": {
+                "en": "In the simple past, 'went' is correct.",
+                "id": "Dalam simple past, 'went' benar."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "type": "click_correct",
+      "difficulty": "C1",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "The report which was written by the manager were submitted late.",
+      "tokens": [
+        "The report",
+        "which was written",
+        "by the manager",
+        "were submitted",
+        "late."
+      ],
+      "incorrectIndex": 3,
+      "correctAnswers": ["was submitted", "had been submitted"],
+      "explanationDetails": {
+        "id": "GRAM-0022",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement with Relative Clauses",
+            "id": "Kesesuaian Subjek-Kata Kerja dengan Klausa Relatif"
+          },
+          "category": "Subject-Verb Agreement"
+        },
+        "details_explanation": {
+          "explanation": "The main subject is 'The report' (singular). The relative clause 'which was written by the manager' only describes it, so the main verb must be singular: 'was submitted'.",
+          "introduction": "In a sentence with a relative clause, the main verb agrees with the head noun of the subject, not with the noun inside the relative clause.",
+          "rules": [
+            {
+              "title": "1. Find the Head Noun",
+              "explanation": "Remove the relative clause and check the remaining subject.",
+              "structure": "The report (which was written by the manager) + main verb",
+              "notes": [
+                "The head noun is 'The report' — singular."
+              ]
+            },
+            {
+              "title": "2. Do Not Agree with the Nearest Noun",
+              "explanation": "The noun closest to the verb ('the manager') is not the subject.",
+              "structure": "The report ... was submitted (not 'were')",
+              "notes": [
+                "This is a common trap in academic writing."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'were submitted' must become 'was submitted'. 'Had been submitted' is also acceptable if the sentence refers to an earlier past event.",
+              "structure": "The report which was written by the manager was submitted late.",
+              "notes": [
+                "Correct answers: 'was submitted', 'had been submitted'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The report which was written by the manager were submitted late.",
+              "correct": "The report which was written by the manager was submitted late.",
+              "reason": "The subject 'the report' is singular."
+            },
+            {
+              "wrong": "The reports which was written by the manager was submitted late.",
+              "correct": "The reports which were written by the manager were submitted late.",
+              "reason": "If the head noun is plural, both verbs become plural."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The book that I borrowed from the library was due yesterday.",
+              "translation": "Buku yang saya pinjam dari perpustakaan jatuh tempo kemarin.",
+              "explanation": {
+                "en": "The head noun 'the book' is singular.",
+                "id": "Inti subjek 'the book' adalah tunggal."
+              }
+            },
+            {
+              "sentence": "The students who live near the school walk every day.",
+              "translation": "Para siswa yang tinggal dekat sekolah berjalan kaki setiap hari.",
+              "explanation": {
+                "en": "The head noun 'the students' is plural.",
+                "id": "Inti subjek 'the students' adalah jamak."
+              }
+            },
+            {
+              "sentence": "The car which belongs to my uncle is very old.",
+              "translation": "Mobil yang dimiliki paman saya sangat tua.",
+              "explanation": {
+                "en": "Singular head noun + singular main verb.",
+                "id": "Inti subjek tunggal + kata kerja utama tunggal."
+              }
+            },
+            {
+              "sentence": "The letters that were sent last week have arrived.",
+              "translation": "Surat-surat yang dikirim minggu lalu telah tiba.",
+              "explanation": {
+                "en": "Plural head noun + plural verbs.",
+                "id": "Inti subjek jamak + kata kerja jamak."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "type": "click_correct",
+      "difficulty": "B2",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "I look forward to hear from you soon.",
+      "tokens": [
+        "I",
+        "look forward",
+        "to hear",
+        "from you",
+        "soon."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": ["to hearing"],
+      "explanationDetails": {
+        "id": "GRAM-0023",
+        "topic": {
+          "name": {
+            "en": "Preposition + Gerund ('look forward to')",
+            "id": "Preposisi + Gerund ('look forward to')"
+          },
+          "category": "Gerunds and Infinitives"
+        },
+        "details_explanation": {
+          "explanation": "In 'look forward to', 'to' is a preposition, so the verb after it must be a gerund: 'to hearing'.",
+          "introduction": "Students often confuse the preposition 'to' with the infinitive 'to'. After the preposition 'to' in expressions like 'look forward to', 'be used to', and 'object to', we use the -ing form.",
+          "rules": [
+            {
+              "title": "1. Prepositional 'to' vs Infinitive 'to'",
+              "explanation": "In 'look forward to', 'to' is a preposition, not part of an infinitive.",
+              "structure": "look forward to + noun/V-ing",
+              "notes": [
+                "I look forward to the holiday. / I look forward to meeting you."
+              ]
+            },
+            {
+              "title": "2. Other Fixed Expressions",
+              "explanation": "The same rule applies to 'be used to', 'object to', 'in addition to', and 'devote oneself to'.",
+              "structure": "be used to + V-ing / object to + V-ing",
+              "notes": [
+                "She is used to working late."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'to hear' must become 'to hearing'.",
+              "structure": "I look forward to hearing from you soon.",
+              "notes": [
+                "Correct answer: to hearing."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I look forward to hear from you.",
+              "correct": "I look forward to hearing from you.",
+              "reason": "'To' here is a preposition, so a gerund is required."
+            },
+            {
+              "wrong": "I am used to work late.",
+              "correct": "I am used to working late.",
+              "reason": "'Be used to' is followed by a gerund."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "We look forward to seeing you next week.",
+              "translation": "Kami menantikan bertemu denganmu minggu depan.",
+              "explanation": {
+                "en": "'Look forward to' + gerund.",
+                "id": "'Look forward to' + gerund."
+              }
+            },
+            {
+              "sentence": "She is used to working under pressure.",
+              "translation": "Dia terbiasa bekerja di bawah tekanan.",
+              "explanation": {
+                "en": "'Be used to' + gerund.",
+                "id": "'Be used to' + gerund."
+              }
+            },
+            {
+              "sentence": "I object to being treated like a child.",
+              "translation": "Saya keberatan diperlakukan seperti anak kecil.",
+              "explanation": {
+                "en": "'Object to' + gerund.",
+                "id": "'Object to' + gerund."
+              }
+            },
+            {
+              "sentence": "In addition to teaching, she writes novels.",
+              "translation": "Selain mengajar, dia menulis novel.",
+              "explanation": {
+                "en": "'In addition to' + gerund.",
+                "id": "'In addition to' + gerund."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "type": "click_correct",
+      "difficulty": "C1",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "Neither of the two candidates have submitted their documents on time.",
+      "tokens": [
+        "Neither of",
+        "the two candidates",
+        "have submitted",
+        "their documents",
+        "on time."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": ["has submitted"],
+      "explanationDetails": {
+        "id": "GRAM-0024",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement with 'Neither of'",
+            "id": "Kesesuaian Subjek-Kata Kerja dengan 'Neither of'"
+          },
+          "category": "Subject-Verb Agreement"
+        },
+        "details_explanation": {
+          "explanation": "'Neither of + plural noun' takes a singular verb in formal English: 'Neither of the two candidates has submitted'.",
+          "introduction": "'Neither of' means 'not one of', so it is treated as singular in formal writing, even though it is followed by a plural noun.",
+          "rules": [
+            {
+              "title": "1. 'Neither of' is Singular",
+              "explanation": "In formal English, 'neither of' takes a singular verb.",
+              "structure": "Neither of + plural noun + singular verb",
+              "notes": [
+                "Neither of the boys is here."
+              ]
+            },
+            {
+              "title": "2. Compare with 'Both of'",
+              "explanation": "'Both of' takes a plural verb; 'neither of' does not.",
+              "structure": "Both of them are here. / Neither of them is here.",
+              "notes": [
+                "Do not copy the plural verb from 'both'."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'have submitted' must become 'has submitted'.",
+              "structure": "Neither of the two candidates has submitted their documents on time.",
+              "notes": [
+                "Correct answer: has submitted."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Neither of the two candidates have submitted their documents.",
+              "correct": "Neither of the two candidates has submitted their documents.",
+              "reason": "'Neither of' is treated as singular in formal English."
+            },
+            {
+              "wrong": "Neither of the student has submitted the form.",
+              "correct": "Neither of the students has submitted the form.",
+              "reason": "'Neither of' must be followed by a plural noun."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Neither of the answers is correct.",
+              "translation": "Tidak ada dari kedua jawaban itu yang benar.",
+              "explanation": {
+                "en": "'Neither of' + singular verb.",
+                "id": "'Neither of' + kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "Both of the answers are correct.",
+              "translation": "Kedua jawaban itu benar.",
+              "explanation": {
+                "en": "'Both of' takes a plural verb.",
+                "id": "'Both of' memakai kata kerja jamak."
+              }
+            },
+            {
+              "sentence": "Either of the two options is acceptable.",
+              "translation": "Salah satu dari kedua pilihan itu dapat diterima.",
+              "explanation": {
+                "en": "'Either of' is also singular in formal usage.",
+                "id": "'Either of' juga tunggal dalam penggunaan formal."
+              }
+            },
+            {
+              "sentence": "Neither of my brothers lives in Surabaya.",
+              "translation": "Tidak ada dari kedua saudara laki-laki saya yang tinggal di Surabaya.",
+              "explanation": {
+                "en": "Singular verb 'lives' after 'neither of'.",
+                "id": "Kata kerja tunggal 'lives' setelah 'neither of'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "type": "click_correct",
+      "difficulty": "B1",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "She is more taller than her sister.",
+      "tokens": [
+        "She",
+        "is",
+        "more taller",
+        "than",
+        "her sister."
+      ],
+      "incorrectIndex": 2,
+      "correctAnswers": ["taller"],
+      "explanationDetails": {
+        "id": "GRAM-0025",
+        "topic": {
+          "name": {
+            "en": "Double Comparatives",
+            "id": "Comparative Ganda"
+          },
+          "category": "Adjectives"
+        },
+        "details_explanation": {
+          "explanation": "A short adjective takes either -er OR 'more', never both. 'Tall' → 'taller', not 'more taller'.",
+          "introduction": "Short adjectives form the comparative with -er. Using 'more' together with -er is a double comparative and is always wrong.",
+          "rules": [
+            {
+              "title": "1. Short Adjectives: -er",
+              "explanation": "One-syllable adjectives usually take -er.",
+              "structure": "tall → taller, big → bigger, fast → faster",
+              "notes": [
+                "Do not add 'more' to these forms."
+              ]
+            },
+            {
+              "title": "2. Long Adjectives: more",
+              "explanation": "Longer adjectives use 'more' without -er.",
+              "structure": "modern → more modern, interesting → more interesting",
+              "notes": [
+                "Incorrect: more moderner."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'More taller' must become 'taller'.",
+              "structure": "She is taller than her sister.",
+              "notes": [
+                "Correct answer: taller."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She is more taller than her sister.",
+              "correct": "She is taller than her sister.",
+              "reason": "Never use 'more' with the -er form."
+            },
+            {
+              "wrong": "She is more tall than her sister.",
+              "correct": "She is taller than her sister.",
+              "reason": "'Tall' is a short adjective and takes -er."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "My bag is heavier than yours.",
+              "translation": "Tasku lebih berat daripada tasku.",
+              "explanation": {
+                "en": "Short adjective + -er.",
+                "id": "Kata sifat pendek + -er."
+              }
+            },
+            {
+              "sentence": "This test is more difficult than the last one.",
+              "translation": "Ujian ini lebih sulit daripada yang sebelumnya.",
+              "explanation": {
+                "en": "Long adjective uses 'more'.",
+                "id": "Kata sifat panjang memakai 'more'."
+              }
+            },
+            {
+              "sentence": "Jakarta is busier than Bandung.",
+              "translation": "Jakarta lebih sibuk daripada Bandung.",
+              "explanation": {
+                "en": "busy → busier (y changes to i).",
+                "id": "busy → busier (y berubah menjadi i)."
+              }
+            },
+            {
+              "sentence": "This question is easier than I thought.",
+              "translation": "Pertanyaan ini lebih mudah daripada yang saya kira.",
+              "explanation": {
+                "en": "easy → easier.",
+                "id": "easy → easier."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 32,
+      "type": "click_correct",
+      "difficulty": "C2",
+      "question": "Click the incorrect part and type the correct form.",
+      "sentence": "Had I knew the answer, I would have raised my hand immediately.",
+      "tokens": [
+        "Had I",
+        "knew",
+        "the answer,",
+        "I would have",
+        "raised my hand immediately."
+      ],
+      "incorrectIndex": 1,
+      "correctAnswers": ["known"],
+      "explanationDetails": {
+        "id": "GRAM-0026",
+        "topic": {
+          "name": {
+            "en": "Inverted Third Conditional — Past Participle",
+            "id": "Kondisional Tipe Ketiga Terbalik — Past Participle"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "After inverted 'Had I...', the past participle 'known' is required, not the simple past 'knew'.",
+          "introduction": "In the inverted third conditional, the auxiliary 'had' comes before the subject, and the main verb must be the past participle.",
+          "rules": [
+            {
+              "title": "1. Inversion Structure",
+              "explanation": "Had + subject + past participle, subject + would have + past participle.",
+              "structure": "Had I known..., I would have raised...",
+              "notes": [
+                "The auxiliary 'had' carries the tense; the main verb is a participle."
+              ]
+            },
+            {
+              "title": "2. Know–Knew–Known",
+              "explanation": "'Knew' is the simple past; 'known' is the past participle used after 'had'.",
+              "structure": "I knew (past) / I had known (past perfect)",
+              "notes": [
+                "The same pattern applies to see–saw–seen, go–went–gone."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "The segment 'knew' must become 'known'.",
+              "structure": "Had I known the answer, I would have raised my hand immediately.",
+              "notes": [
+                "Correct answer: known."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Had I knew the answer, I would have raised my hand.",
+              "correct": "Had I known the answer, I would have raised my hand.",
+              "reason": "After 'had', use the past participle."
+            },
+            {
+              "wrong": "If I had knew the answer, I would have raised my hand.",
+              "correct": "If I had known the answer, I would have raised my hand.",
+              "reason": "The past perfect is 'had + past participle'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Had I seen the sign, I would have stopped.",
+              "translation": "Seandainya saya melihat rambu itu, saya akan berhenti.",
+              "explanation": {
+                "en": "'Seen' is the past participle of 'see'.",
+                "id": "'Seen' adalah past participle dari 'see'."
+              }
+            },
+            {
+              "sentence": "Had she gone earlier, she would have avoided the traffic.",
+              "translation": "Seandainya dia berangkat lebih awal, dia akan menghindari kemacetan.",
+              "explanation": {
+                "en": "'Gone' is the past participle of 'go'.",
+                "id": "'Gone' adalah past participle dari 'go'."
+              }
+            },
+            {
+              "sentence": "Had they taken the train, they would have arrived on time.",
+              "translation": "Seandainya mereka naik kereta, mereka akan tiba tepat waktu.",
+              "explanation": {
+                "en": "'Taken' is the past participle of 'take'.",
+                "id": "'Taken' adalah past participle dari 'take'."
+              }
+            },
+            {
+              "sentence": "If I had written it down, I would have remembered.",
+              "translation": "Jika saya menuliskannya, saya akan ingat.",
+              "explanation": {
+                "en": "Non-inverted version with the same past perfect structure.",
+                "id": "Versi tanpa inversi dengan struktur past perfect yang sama."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 33,
+      "type": "multi_error",
+      "difficulty": "B2",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "The students",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "was given",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["were given"]
+        },
+        {
+          "id": "s3",
+          "text": "a lot of homework",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "by the teacher",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "yesterday.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0027",
+        "topic": {
+          "name": {
+            "en": "Passive Voice — Plural Subject Agreement",
+            "id": "Kalimat Pasif — Kesesuaian Subjek Jamak"
+          },
+          "category": "Passive Voice"
+        },
+        "details_explanation": {
+          "explanation": "'The students' is plural, so the passive verb must be plural: 'were given', not 'was given'.",
+          "introduction": "In the passive voice, the verb 'be' agrees with the subject. A plural subject requires 'were' in the past simple passive.",
+          "rules": [
+            {
+              "title": "1. Passive Agreement",
+              "explanation": "The form of 'be' agrees with the subject of the passive sentence.",
+              "structure": "The student was given... / The students were given...",
+              "notes": [
+                "Only one word changes: was → were."
+              ]
+            },
+            {
+              "title": "2. Singular vs Plural Subjects",
+              "explanation": "Check whether the subject is singular or plural before choosing was/were.",
+              "structure": "was + singular / were + plural",
+              "notes": [
+                "'The students' is plural."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Change 'was given' to 'were given'. The other segments are correct.",
+              "structure": "The students were given a lot of homework by the teacher yesterday.",
+              "notes": [
+                "Correct answer segment: 'was given' → 'were given'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The students was given a lot of homework.",
+              "correct": "The students were given a lot of homework.",
+              "reason": "A plural subject needs 'were'."
+            },
+            {
+              "wrong": "The student were given a lot of homework.",
+              "correct": "The student was given a lot of homework.",
+              "reason": "A singular subject needs 'was'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The letters were sent yesterday.",
+              "translation": "Surat-surat itu dikirim kemarin.",
+              "explanation": {
+                "en": "Plural subject + were.",
+                "id": "Subjek jamak + were."
+              }
+            },
+            {
+              "sentence": "The letter was sent yesterday.",
+              "translation": "Surat itu dikirim kemarin.",
+              "explanation": {
+                "en": "Singular subject + was.",
+                "id": "Subjek tunggal + was."
+              }
+            },
+            {
+              "sentence": "The classrooms are cleaned every morning.",
+              "translation": "Ruang-ruang kelas dibersihkan setiap pagi.",
+              "explanation": {
+                "en": "Plural subject + are.",
+                "id": "Subjek jamak + are."
+              }
+            },
+            {
+              "sentence": "The classroom is cleaned every morning.",
+              "translation": "Ruang kelas itu dibersihkan setiap pagi.",
+              "explanation": {
+                "en": "Singular subject + is.",
+                "id": "Subjek tunggal + is."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 34,
+      "type": "multi_error",
+      "difficulty": "C1",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "If she",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "would have studied",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["had studied"]
+        },
+        {
+          "id": "s3",
+          "text": "harder last semester,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "she will pass",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["she would have passed"]
+        },
+        {
+          "id": "s5",
+          "text": "the final exam.",
+          "clickable": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0028",
+        "topic": {
+          "name": {
+            "en": "Third Conditional",
+            "id": "Kondisional Tipe Ketiga"
+          },
+          "category": "Conditionals"
+        },
+        "details_explanation": {
+          "explanation": "The third conditional needs the past perfect in the if-clause ('had studied') and 'would have + past participle' in the result clause ('would have passed').",
+          "introduction": "The third conditional describes an unreal situation in the past and its imagined result. Both clauses refer to the past, so neither 'would have' in the if-clause nor 'will' in the result clause is correct.",
+          "rules": [
+            {
+              "title": "1. If-Clause Uses the Past Perfect",
+              "explanation": "Never use 'would have' in the if-clause.",
+              "structure": "If + subject + had + past participle",
+              "notes": [
+                "Correct: If she had studied...",
+                "Incorrect: If she would have studied..."
+              ]
+            },
+            {
+              "title": "2. Result Clause Uses 'would have'",
+              "explanation": "The result of an unreal past condition is 'would have + past participle'.",
+              "structure": "subject + would have + past participle",
+              "notes": [
+                "Correct: she would have passed.",
+                "'She will pass' is a real future, which does not match the past unreal meaning."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Two errors: 'would have studied' → 'had studied', and 'she will pass' → 'she would have passed'.",
+              "structure": "If she had studied harder last semester, she would have passed the final exam.",
+              "notes": [
+                "Correct answers: 'had studied' and 'she would have passed'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "If she would have studied harder, she would have passed.",
+              "correct": "If she had studied harder, she would have passed.",
+              "reason": "'Would have' cannot appear in the if-clause."
+            },
+            {
+              "wrong": "If she had studied harder, she will pass.",
+              "correct": "If she had studied harder, she would have passed.",
+              "reason": "An unreal past result needs 'would have + past participle'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "If they had left earlier, they would have caught the bus.",
+              "translation": "Jika mereka berangkat lebih awal, mereka akan menangkap bus itu.",
+              "explanation": {
+                "en": "Past perfect + would have + past participle.",
+                "id": "Past perfect + would have + past participle."
+              }
+            },
+            {
+              "sentence": "If I had known, I would have told you.",
+              "translation": "Jika saya tahu, saya akan memberitahumu.",
+              "explanation": {
+                "en": "Standard third conditional.",
+                "id": "Kondisional tipe ketiga standar."
+              }
+            },
+            {
+              "sentence": "If he had trained harder, he would have won the match.",
+              "translation": "Jika dia berlatih lebih giat, dia akan memenangkan pertandingan itu.",
+              "explanation": {
+                "en": "Both clauses refer to an unreal past.",
+                "id": "Kedua klausa merujuk pada masa lalu yang tidak nyata."
+              }
+            },
+            {
+              "sentence": "We would have arrived on time if we had taken a taxi.",
+              "translation": "Kami akan tiba tepat waktu jika kami naik taksi.",
+              "explanation": {
+                "en": "The result clause can come first.",
+                "id": "Klausa hasil bisa diletakkan di depan."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 35,
+      "type": "multi_error",
+      "difficulty": "B2",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "The teacher",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "which",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["who", "that"]
+        },
+        {
+          "id": "s3",
+          "text": "teaches us English",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "always gives",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "us a lots of homework.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["us a lot of homework", "us lots of homework"]
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0029",
+        "topic": {
+          "name": {
+            "en": "Relative Pronouns and Quantifiers",
+            "id": "Kata Ganti Relatif dan Kuantifier"
+          },
+          "category": "Relative Clauses"
+        },
+        "details_explanation": {
+          "explanation": "Two errors: 'which' refers to a person, so it must be 'who' or 'that'; and 'a lots of' is incorrect — use 'a lot of' or 'lots of'.",
+          "introduction": "Relative pronouns depend on the noun they describe: 'who/that' for people, 'which/that' for things. Quantifiers also have fixed forms: 'a lot of' or 'lots of', never 'a lots of'.",
+          "rules": [
+            {
+              "title": "1. Relative Pronouns for People",
+              "explanation": "Use 'who' or 'that' when the antecedent is a person.",
+              "structure": "The teacher who/that teaches us...",
+              "notes": [
+                "'Which' cannot describe a person."
+              ]
+            },
+            {
+              "title": "2. Quantifier Forms",
+              "explanation": "'A lot of' and 'lots of' are correct; 'a lots of' does not exist.",
+              "structure": "a lot of + noun / lots of + noun",
+              "notes": [
+                "Both are used with countable and uncountable nouns."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Change 'which' to 'who' or 'that', and 'a lots of' to 'a lot of' or 'lots of'.",
+              "structure": "The teacher who teaches us English always gives us a lot of homework.",
+              "notes": [
+                "Correct answers: 'who'/'that' and 'a lot of'/'lots of'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The teacher which teaches us English is kind.",
+              "correct": "The teacher who teaches us English is kind.",
+              "reason": "'Which' is for things, not people."
+            },
+            {
+              "wrong": "She has a lots of friends.",
+              "correct": "She has a lot of friends.",
+              "reason": "'A lots of' is never correct."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "The man who works next door is a mechanic.",
+              "translation": "Pria yang bekerja di sebelah adalah seorang montir.",
+              "explanation": {
+                "en": "'Who' refers to a person.",
+                "id": "'Who' merujuk pada orang."
+              }
+            },
+            {
+              "sentence": "The book that I bought is very heavy.",
+              "translation": "Buku yang saya beli sangat berat.",
+              "explanation": {
+                "en": "'That' can refer to a thing.",
+                "id": "'That' dapat merujuk pada benda."
+              }
+            },
+            {
+              "sentence": "We have lots of time before the train leaves.",
+              "translation": "Kami punya banyak waktu sebelum kereta berangkat.",
+              "explanation": {
+                "en": "'Lots of' is a correct quantifier.",
+                "id": "'Lots of' adalah kuantifier yang benar."
+              }
+            },
+            {
+              "sentence": "There are a lot of students in the hall.",
+              "translation": "Ada banyak siswa di aula.",
+              "explanation": {
+                "en": "'A lot of' with a plural countable noun.",
+                "id": "'A lot of' dengan kata benda jamak terhitung."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 36,
+      "type": "multi_error",
+      "difficulty": "C1",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "Despite of",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["Despite", "In spite of"]
+        },
+        {
+          "id": "s2",
+          "text": "the heavy rain,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "the football match",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "was continued",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "by the referee.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0030",
+        "topic": {
+          "name": {
+            "en": "Concession — 'despite' vs 'in spite of'",
+            "id": "Konsesi — 'despite' vs 'in spite of'"
+          },
+          "category": "Prepositions and Conjunctions"
+        },
+        "details_explanation": {
+          "explanation": "'Despite' is used alone; 'in spite of' is the other correct form. 'Despite of' does not exist in standard English.",
+          "introduction": "Both 'despite' and 'in spite of' mean 'although', and both are followed by a noun phrase or a gerund. They cannot be mixed into 'despite of'.",
+          "rules": [
+            {
+              "title": "1. Correct Forms",
+              "explanation": "Use either 'despite + noun' or 'in spite of + noun'.",
+              "structure": "Despite the rain... / In spite of the rain...",
+              "notes": [
+                "'Despite of' is never correct."
+              ]
+            },
+            {
+              "title": "2. Followed by a Gerund",
+              "explanation": "When a verb follows, use the -ing form.",
+              "structure": "Despite being tired, she kept working.",
+              "notes": [
+                "Do not use 'although' with a noun phrase: 'Although the rain...' is incorrect."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Only 'Despite of' is wrong. Replace it with 'Despite' or 'In spite of'. The rest of the sentence is correct.",
+              "structure": "Despite the heavy rain, the football match was continued by the referee.",
+              "notes": [
+                "Correct answers: 'Despite', 'In spite of'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Despite of the rain, the match continued.",
+              "correct": "Despite the rain, the match continued.",
+              "reason": "'Despite' does not take 'of'."
+            },
+            {
+              "wrong": "In spite the rain, the match continued.",
+              "correct": "In spite of the rain, the match continued.",
+              "reason": "'In spite' requires 'of'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Despite the traffic, we arrived on time.",
+              "translation": "Meskipun macet, kami tiba tepat waktu.",
+              "explanation": {
+                "en": "'Despite' + noun phrase.",
+                "id": "'Despite' + frasa nomina."
+              }
+            },
+            {
+              "sentence": "In spite of the noise, I fell asleep.",
+              "translation": "Meskipun bising, saya tertidur.",
+              "explanation": {
+                "en": "'In spite of' + noun phrase.",
+                "id": "'In spite of' + frasa nomina."
+              }
+            },
+            {
+              "sentence": "Despite being ill, he attended the meeting.",
+              "translation": "Meskipun sakit, dia menghadiri rapat.",
+              "explanation": {
+                "en": "'Despite' + gerund.",
+                "id": "'Despite' + gerund."
+              }
+            },
+            {
+              "sentence": "Although it rained heavily, the match continued.",
+              "translation": "Walaupun hujan deras, pertandingan berlanjut.",
+              "explanation": {
+                "en": "'Although' is followed by a full clause.",
+                "id": "'Although' diikuti klausa lengkap."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 37,
+      "type": "multi_error",
+      "difficulty": "C2",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "Not only he was",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["Not only was he"]
+        },
+        {
+          "id": "s2",
+          "text": "late,",
+          "clickable": false
+        },
+        {
+          "id": "s3",
+          "text": "but he also",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "forgot to bring",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "the documents",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s6",
+          "text": "what were required.",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["that were required", "which were required"]
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0031",
+        "topic": {
+          "name": {
+            "en": "Inversion with 'Not only' and Relative Pronouns",
+            "id": "Inversi dengan 'Not only' dan Kata Ganti Relatif"
+          },
+          "category": "Word Order / Inversion"
+        },
+        "details_explanation": {
+          "explanation": "Two errors: after 'Not only' the subject and auxiliary must be inverted ('Not only was he'), and 'what' cannot be used as a relative pronoun here — use 'that' or 'which'.",
+          "introduction": "'Not only' at the beginning of a clause triggers inversion. Separately, relative clauses about things use 'that' or 'which', never 'what'.",
+          "rules": [
+            {
+              "title": "1. Inversion after 'Not only'",
+              "explanation": "Move the auxiliary before the subject.",
+              "structure": "Not only + auxiliary + subject + main verb",
+              "notes": [
+                "Not only was he late, but he also forgot..."
+              ]
+            },
+            {
+              "title": "2. Relative Pronouns for Things",
+              "explanation": "'That' and 'which' introduce relative clauses about things. 'What' means 'the thing that' and cannot follow a noun.",
+              "structure": "the documents that/which were required",
+              "notes": [
+                "'The documents what were required' is incorrect."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Change 'Not only he was' to 'Not only was he', and 'what were required' to 'that were required' or 'which were required'.",
+              "structure": "Not only was he late, but he also forgot to bring the documents that were required.",
+              "notes": [
+                "Correct answers: 'Not only was he' and 'that/which were required'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not only he was late, but he also forgot the documents.",
+              "correct": "Not only was he late, but he also forgot the documents.",
+              "reason": "Fronted 'Not only' requires inversion."
+            },
+            {
+              "wrong": "The documents what were required are missing.",
+              "correct": "The documents that were required are missing.",
+              "reason": "'What' cannot act as a relative pronoun after a noun."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Not only did she win the race, but she also broke the record.",
+              "translation": "Tidak hanya dia memenangkan lomba, tetapi dia juga memecahkan rekor.",
+              "explanation": {
+                "en": "Inversion after 'Not only'.",
+                "id": "Inversi setelah 'Not only'."
+              }
+            },
+            {
+              "sentence": "The book that you lent me was excellent.",
+              "translation": "Buku yang kamu pinjamkan kepada saya sangat bagus.",
+              "explanation": {
+                "en": "'That' introduces the relative clause.",
+                "id": "'That' memperkenalkan klausa relatif."
+              }
+            },
+            {
+              "sentence": "The forms which were submitted late were rejected.",
+              "translation": "Formulir yang dikirim terlambat ditolak.",
+              "explanation": {
+                "en": "'Which' refers to things.",
+                "id": "'Which' merujuk pada benda."
+              }
+            },
+            {
+              "sentence": "What he said surprised everyone.",
+              "translation": "Apa yang dia katakan mengejutkan semua orang.",
+              "explanation": {
+                "en": "'What' is correct only when it means 'the thing that' and has no preceding noun.",
+                "id": "'What' benar hanya bila berarti 'hal yang' dan tidak didahului kata benda."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 38,
+      "type": "multi_error",
+      "difficulty": "C1",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "He suggested",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "me to apply",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["applying"]
+        },
+        {
+          "id": "s3",
+          "text": "for the scholarship,",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "and I decided",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "to following",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["to follow"]
+        },
+        {
+          "id": "s6",
+          "text": "his advice.",
+          "clickable": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0032",
+        "topic": {
+          "name": {
+            "en": "Verb Patterns — 'suggest' and 'decide'",
+            "id": "Pola Kata Kerja — 'suggest' dan 'decide'"
+          },
+          "category": "Gerunds and Infinitives"
+        },
+        "details_explanation": {
+          "explanation": "Two errors: 'suggest' is followed by a gerund ('suggested applying'), and 'decide' is followed by a full infinitive ('decided to follow').",
+          "introduction": "Different verbs take different patterns. 'Suggest' takes a gerund (or 'that + clause'), while 'decide' takes 'to + base verb'. Using the wrong pattern produces errors like 'suggested me to apply' and 'decided to following'.",
+          "rules": [
+            {
+              "title": "1. 'Suggest' + Gerund",
+              "explanation": "'Suggest' is never followed by an object + infinitive.",
+              "structure": "suggest + V-ing / suggest + that + subject + verb",
+              "notes": [
+                "Correct: He suggested applying for the scholarship.",
+                "Incorrect: He suggested me to apply."
+              ]
+            },
+            {
+              "title": "2. 'Decide' + Full Infinitive",
+              "explanation": "'Decide' takes 'to + base verb'.",
+              "structure": "decide + to + base verb",
+              "notes": [
+                "Correct: I decided to follow his advice.",
+                "Incorrect: I decided to following."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Change 'me to apply' to 'applying' and 'to following' to 'to follow'.",
+              "structure": "He suggested applying for the scholarship, and I decided to follow his advice.",
+              "notes": [
+                "Correct answers: 'applying' and 'to follow'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "He suggested me to apply for the scholarship.",
+              "correct": "He suggested applying for the scholarship.",
+              "reason": "'Suggest' takes a gerund, not an object + infinitive."
+            },
+            {
+              "wrong": "I decided to following his advice.",
+              "correct": "I decided to follow his advice.",
+              "reason": "After the infinitive marker 'to', use the base verb."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "She suggested going to the beach.",
+              "translation": "Dia menyarankan pergi ke pantai.",
+              "explanation": {
+                "en": "'Suggest' + gerund.",
+                "id": "'Suggest' + gerund."
+              }
+            },
+            {
+              "sentence": "They decided to move to Yogyakarta.",
+              "translation": "Mereka memutuskan pindah ke Yogyakarta.",
+              "explanation": {
+                "en": "'Decide' + full infinitive.",
+                "id": "'Decide' + infinitive penuh."
+              }
+            },
+            {
+              "sentence": "He suggested that we should leave early.",
+              "translation": "Dia menyarankan agar kami berangkat lebih awal.",
+              "explanation": {
+                "en": "'Suggest' can also take a that-clause.",
+                "id": "'Suggest' juga bisa diikuti klausa that."
+              }
+            },
+            {
+              "sentence": "I hope to see you again soon.",
+              "translation": "Saya harap segera bertemu kamu lagi.",
+              "explanation": {
+                "en": "'Hope' + full infinitive, like 'decide'.",
+                "id": "'Hope' + infinitive penuh, seperti 'decide'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 39,
+      "type": "multi_error",
+      "difficulty": "B2",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "Each of the students",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "in my class",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s3",
+          "text": "have to submit",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["has to submit"]
+        },
+        {
+          "id": "s4",
+          "text": "their assignment",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "before the deadline.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0033",
+        "topic": {
+          "name": {
+            "en": "Subject-Verb Agreement with 'Each of'",
+            "id": "Kesesuaian Subjek-Kata Kerja dengan 'Each of'"
+          },
+          "category": "Subject-Verb Agreement"
+        },
+        "details_explanation": {
+          "explanation": "'Each of + plural noun' is grammatically singular, so the verb must be 'has to submit', not 'have to submit'.",
+          "introduction": "'Each' focuses on individuals one by one, so it is singular even when it is followed by a plural noun phrase.",
+          "rules": [
+            {
+              "title": "1. 'Each of' is Singular",
+              "explanation": "The verb agrees with 'each', not with the plural noun after 'of'.",
+              "structure": "Each of + plural noun + singular verb",
+              "notes": [
+                "Each of the students has a locker."
+              ]
+            },
+            {
+              "title": "2. Compare with 'All of'",
+              "explanation": "'All of' takes a plural verb; 'each of' does not.",
+              "structure": "All of the students have lockers. / Each of the students has a locker.",
+              "notes": [
+                "Notice the different verb forms."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "'Have to submit' must become 'has to submit'. The pronoun 'their' is acceptable here as a neutral reference and is not an error.",
+              "structure": "Each of the students in my class has to submit their assignment before the deadline.",
+              "notes": [
+                "Correct answer: 'has to submit'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Each of the students have to submit the form.",
+              "correct": "Each of the students has to submit the form.",
+              "reason": "'Each of' is singular."
+            },
+            {
+              "wrong": "Each of the student has to submit the form.",
+              "correct": "Each of the students has to submit the form.",
+              "reason": "'Each of' must be followed by a plural noun."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "Each of the rooms has a balcony.",
+              "translation": "Setiap kamar memiliki balkon.",
+              "explanation": {
+                "en": "'Each of' + plural noun + singular verb.",
+                "id": "'Each of' + kata benda jamak + kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "All of the rooms have balconies.",
+              "translation": "Semua kamar memiliki balkon.",
+              "explanation": {
+                "en": "'All of' takes a plural verb.",
+                "id": "'All of' memakai kata kerja jamak."
+              }
+            },
+            {
+              "sentence": "Every student has a locker.",
+              "translation": "Setiap siswa memiliki loker.",
+              "explanation": {
+                "en": "'Every' + singular noun + singular verb.",
+                "id": "'Every' + kata benda tunggal + kata kerja tunggal."
+              }
+            },
+            {
+              "sentence": "Each of my brothers works in Jakarta.",
+              "translation": "Masing-masing saudara laki-laki saya bekerja di Jakarta.",
+              "explanation": {
+                "en": "Singular verb 'works' after 'each of'.",
+                "id": "Kata kerja tunggal 'works' setelah 'each of'."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 40,
+      "type": "multi_error",
+      "difficulty": "C2",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If there is no error, choose No Error.",
+      "multiErrorSegments": [
+        {
+          "id": "s1",
+          "text": "No sooner",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s2",
+          "text": "I had arrived",
+          "clickable": true,
+          "isError": true,
+          "correctAnswers": ["had I arrived"]
+        },
+        {
+          "id": "s3",
+          "text": "at the station",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s4",
+          "text": "than the train",
+          "clickable": true,
+          "isError": false
+        },
+        {
+          "id": "s5",
+          "text": "left.",
+          "clickable": true,
+          "isError": false
+        }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0034",
+        "topic": {
+          "name": {
+            "en": "Inversion after 'No sooner'",
+            "id": "Inversi setelah 'No sooner'"
+          },
+          "category": "Word Order / Inversion"
+        },
+        "details_explanation": {
+          "explanation": "'No sooner' at the beginning of a sentence requires inversion: 'No sooner had I arrived ... than ...'.",
+          "introduction": "'No sooner ... than' is a fixed structure meaning 'immediately after'. When it begins the sentence, the subject and auxiliary are inverted.",
+          "rules": [
+            {
+              "title": "1. Inversion after 'No sooner'",
+              "explanation": "Place the auxiliary 'had' before the subject.",
+              "structure": "No sooner + had + subject + past participle + than + clause",
+              "notes": [
+                "No sooner had I arrived than the train left."
+              ]
+            },
+            {
+              "title": "2. 'than', not 'when'",
+              "explanation": "'No sooner' is always followed by 'than'. 'Hardly/Scarcely ... when' is a different structure.",
+              "structure": "No sooner ... than / Hardly ... when",
+              "notes": [
+                "The sentence already uses 'than' correctly."
+              ]
+            },
+            {
+              "title": "3. Applying the Rule to This Question",
+              "explanation": "Change 'I had arrived' to 'had I arrived'. All other segments are correct.",
+              "structure": "No sooner had I arrived at the station than the train left.",
+              "notes": [
+                "Correct answer: 'had I arrived'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "No sooner I had arrived than the train left.",
+              "correct": "No sooner had I arrived than the train left.",
+              "reason": "'No sooner' at the start requires inversion."
+            },
+            {
+              "wrong": "No sooner had I arrived when the train left.",
+              "correct": "No sooner had I arrived than the train left.",
+              "reason": "'No sooner' is followed by 'than', not 'when'."
+            }
+          ],
+          "other_examples": [
+            {
+              "sentence": "No sooner had she sat down than the phone rang.",
+              "translation": "Baru saja dia duduk, telepon pun berbunyi.",
+              "explanation": {
+                "en": "Inversion with 'No sooner ... than'.",
+                "id": "Inversi dengan 'No sooner ... than'."
+              }
+            },
+            {
+              "sentence": "Hardly had he entered the room when the lights went out.",
+              "translation": "Baru saja dia masuk ruangan, lampu pun padam.",
+              "explanation": {
+                "en": "'Hardly ... when' is a parallel structure.",
+                "id": "'Hardly ... when' adalah struktur yang setara."
+              }
+            },
+            {
+              "sentence": "Never had we seen such a beautiful sunset.",
+              "translation": "Belum pernah kami melihat matahari terbenam seindah itu.",
+              "explanation": {
+                "en": "'Never' at the start also triggers inversion.",
+                "id": "'Never' di awal juga memicu inversi."
+              }
+            },
+            {
+              "sentence": "Seldom does she complain about her workload.",
+              "translation": "Jarang sekali dia mengeluh tentang beban kerjanya.",
+              "explanation": {
+                "en": "'Seldom' triggers inversion with 'does'.",
+                "id": "'Seldom' memicu inversi dengan 'does'."
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
