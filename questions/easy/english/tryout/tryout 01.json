@@ -3,6 +3,7 @@
     "title": "Tryout Test 01",
     "show_answer": true,
     "show_explanation": true,
+    "no_timer": true,
     "timeLimits": {
       "fast": 45,
       "normal": 60,
