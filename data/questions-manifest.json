@@ -34,7 +34,7 @@
   {"level":"advanced","group":"english","topic":"pro","path":"questions/advanced/english/pro/apX05 english proficiency 01.json","title":"APX05 Advanced English Proficiency (Pro APX05)"},
   {"level":"advanced","group":"english","topic":"mixed","path":"questions/advanced/english/mixed/aeMix01 grammar mixed 01.json","title":"AEMIX01 English Grammar (Mixed B1,B2,C1)"},
   {"level":"advanced","group":"english","topic":"mixed","path":"questions/advanced/english/mixed/aeMix11 grammar mixed 11.json","title":"AEMIX11 English Grammar (Mixed B2,C1,C2)"},
-  {"level":"advanced","group":"english","topic":"tryout","path":"questions/advanced/english/tryout/adv.tryout 01.json","title":"ADV Tryout 01"},
+  {"level":"advanced","group":"english","topic":"tryout","path":"questions/advanced/english/tryout/adv.tryout 01.json","title":"ADV Tryout 01 (Kisi-Kisi)"},
   {"level":"easy","group":"math","topic":"algebra","path":"questions/easy/math/algebra/question.json","title":"Algebra Basics"},
   {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/sample.json","title":"🏠Sample 01"},
   {"level":"trivials","group":"rumah_binlat","topic":"quizz","path":"questions/trivials/rumah_binlat/quizz 01.json","title":"🏠Funny Quizz 01"}
