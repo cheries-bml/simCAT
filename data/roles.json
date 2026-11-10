@@ -24,6 +24,7 @@
       "./questions/easy/english/grammar/**",
       "./questions/easy/english/tenses/**",
       "./questions/easy/english/reading/**",
+      "./questions/easy/english/tryout/tryout 01.json",
       "./questions/intermediate/english/vocabulary/**",
       "./questions/intermediate/english/grammar/**",
       "./questions/intermediate/english/tenses/**",
