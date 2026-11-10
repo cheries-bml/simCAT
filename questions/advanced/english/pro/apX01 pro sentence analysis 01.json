@@ -21,7 +21,21 @@
         {"id": "s3", "text": "have reached a consensus", "clickable": true, "isError": true, "correctAnswers": ["has reached a consensus"]},
         {"id": "s4", "text": "regarding the new curriculum.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'."
+      "explanationDetails": {
+        "id": "q1",
+        "slug": "advanced-vocabulary-subject-verb-agreement",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'.",
+          "introduction": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "comprising of experts", "correct": "comprising experts / composed of experts", "reason": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'."},
+            {"wrong": "have reached a consensus", "correct": "has reached a consensus", "reason": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q2",
@@ -36,7 +50,20 @@
         {"id": "s4", "text": "the current traffic congestion in major cities", "clickable": true, "isError": false},
         {"id": "s5", "text": "would have been significantly reduced.", "clickable": true, "isError": true, "correctAnswers": ["would be significantly reduced."]}
       ],
-      "explanation": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been')."
+      "explanationDetails": {
+        "id": "q2",
+        "slug": "mixed-conditionals",
+        "details_explanation": {
+          "explanation": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been').",
+          "introduction": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "would have been significantly reduced.", "correct": "would be significantly reduced.", "reason": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q3",
@@ -52,7 +79,20 @@
         {"id": "s5", "text": "increased the operational costs", "clickable": true, "isError": false},
         {"id": "s6", "text": "for local small businesses.", "clickable": false}
       ],
-      "explanation": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail')."
+      "explanationDetails": {
+        "id": "q3",
+        "slug": "negative-inversion",
+        "details_explanation": {
+          "explanation": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail').",
+          "introduction": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "the new environmental regulations failed", "correct": "did the new environmental regulations fail", "reason": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q4",
@@ -66,7 +106,20 @@
         {"id": "s3", "text": "before the annual general meeting", "clickable": false},
         {"id": "s4", "text": "in Surabaya.", "clickable": false}
       ],
-      "explanation": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'."
+      "explanationDetails": {
+        "id": "q4",
+        "slug": "subjunctive-mood",
+        "details_explanation": {
+          "explanation": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'.",
+          "introduction": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "that the board of directors reviews", "correct": "that the board of directors review", "reason": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q5",
@@ -80,7 +133,20 @@
         {"id": "s3", "text": "of traditional Javanese flavors", "clickable": true, "isError": false},
         {"id": "s4", "text": "and modern gastronomic techniques.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate."
+      "explanationDetails": {
+        "id": "q5",
+        "slug": "advanced-cleft-sentences-subject-verb-agreement",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate.",
+          "introduction": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "in Yogyakarta so unique are", "correct": "in Yogyakarta so unique is", "reason": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q6",
@@ -94,7 +160,20 @@
         {"id": "s3", "text": "the local labor laws", "clickable": true, "isError": false},
         {"id": "s4", "text": "and environmental regulations.", "clickable": false}
       ],
-      "explanation": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'."
+      "explanationDetails": {
+        "id": "q6",
+        "slug": "nuanced-prepositions",
+        "details_explanation": {
+          "explanation": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'.",
+          "introduction": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "must strictly comply to", "correct": "must strictly comply with", "reason": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q7",
@@ -108,7 +187,21 @@
         {"id": "s3", "text": "to improve the methodology", "clickable": true, "isError": false},
         {"id": "s4", "text": "of the study.", "clickable": false}
       ],
-      "explanation": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'."
+      "explanationDetails": {
+        "id": "q7",
+        "slug": "uncountable-nouns",
+        "details_explanation": {
+          "explanation": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'.",
+          "introduction": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "several valuable advices", "correct": "valuable advice / several valuable pieces of advice", "reason": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'."},
+            {"wrong": "and informations", "correct": "and information", "reason": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q8",
@@ -122,7 +215,20 @@
         {"id": "s3", "text": "but also enhancing", "clickable": true, "isError": true, "correctAnswers": ["but also to enhance"]},
         {"id": "s4", "text": "financial inclusion in rural areas.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'."
+      "explanationDetails": {
+        "id": "q8",
+        "slug": "advanced-parallelism",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'.",
+          "introduction": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "but also enhancing", "correct": "but also to enhance", "reason": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q9",
@@ -135,7 +241,20 @@
         {"id": "s2", "text": "is projected to be higher", "clickable": true, "isError": false},
         {"id": "s3", "text": "than the previous year.", "clickable": true, "isError": true, "correctAnswers": ["than that of the previous year.", "than in the previous year."]}
       ],
-      "explanation": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'."
+      "explanationDetails": {
+        "id": "q9",
+        "slug": "illogical-comparisons",
+        "details_explanation": {
+          "explanation": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'.",
+          "introduction": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "than the previous year.", "correct": "than that of the previous year. / than in the previous year.", "reason": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q10",
@@ -149,7 +268,20 @@
         {"id": "s3", "text": "was introduced by the central bank", "clickable": true, "isError": false},
         {"id": "s4", "text": "last month.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'."
+      "explanationDetails": {
+        "id": "q10",
+        "slug": "advanced-relative-clauses",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'.",
+          "introduction": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "in which", "correct": "with which", "reason": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q11",
@@ -162,7 +294,18 @@
         {"id": "s2", "text": "the renewable energy initiative", "clickable": true, "isError": false},
         {"id": "s3", "text": "for over fifteen years.", "clickable": false}
       ],
-      "explanation": "Topic: Future Perfect Continuous. This tense is correctly used to emphasize the duration of an action that will be ongoing up to a specific point in the future ('By the end of this decade')."
+      "explanationDetails": {
+        "id": "q11",
+        "slug": "future-perfect-continuous",
+        "details_explanation": {
+          "explanation": "Topic: Future Perfect Continuous. This tense is correctly used to emphasize the duration of an action that will be ongoing up to a specific point in the future ('By the end of this decade').",
+          "introduction": "Topic: Future Perfect Continuous. This tense is correctly used to emphasize the duration of an action that will be ongoing up to a specific point in the future ('By the end of this decade').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Future Perfect Continuous. This tense is correctly used to emphasize the duration of an action that will be ongoing up to a specific point in the future ('By the end of this decade').", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q12",
@@ -175,7 +318,18 @@
         {"id": "s2", "text": "the terms of the agreement", "clickable": true, "isError": false},
         {"id": "s3", "text": "for more than a year.", "clickable": false}
       ],
-      "explanation": "Topic: Past Perfect Continuous. No error. The sentence correctly uses the past perfect continuous to describe an action that was ongoing up until another past event ('was finalized')."
+      "explanationDetails": {
+        "id": "q12",
+        "slug": "past-perfect-continuous",
+        "details_explanation": {
+          "explanation": "Topic: Past Perfect Continuous. No error. The sentence correctly uses the past perfect continuous to describe an action that was ongoing up until another past event ('was finalized').",
+          "introduction": "Topic: Past Perfect Continuous. No error. The sentence correctly uses the past perfect continuous to describe an action that was ongoing up until another past event ('was finalized').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Past Perfect Continuous. No error. The sentence correctly uses the past perfect continuous to describe an action that was ongoing up until another past event ('was finalized').", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q13",
@@ -189,7 +343,18 @@
         {"id": "s3", "text": "but the transition has been", "clickable": true, "isError": false},
         {"id": "s4", "text": "slower than anticipated.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Phrasal Verbs. No error. 'Phase out' correctly means to gradually stop using something, which fits the context of eliminating single-use plastics."
+      "explanationDetails": {
+        "id": "q13",
+        "slug": "advanced-phrasal-verbs",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Phrasal Verbs. No error. 'Phase out' correctly means to gradually stop using something, which fits the context of eliminating single-use plastics.",
+          "introduction": "Topic: Advanced Phrasal Verbs. No error. 'Phase out' correctly means to gradually stop using something, which fits the context of eliminating single-use plastics.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Phrasal Verbs. No error. 'Phase out' correctly means to gradually stop using something, which fits the context of eliminating single-use plastics.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q14",
@@ -202,7 +367,18 @@
         {"id": "s2", "text": "or exacerbate environmental degradation", "clickable": true, "isError": false},
         {"id": "s3", "text": "remains to be seen.", "clickable": false}
       ],
-      "explanation": "Topic: Noun Clauses as Subjects. No error. The entire 'Whether... or...' clause acts as the singular subject of the sentence, correctly taking the singular verb 'remains'."
+      "explanationDetails": {
+        "id": "q14",
+        "slug": "noun-clauses-as-subjects",
+        "details_explanation": {
+          "explanation": "Topic: Noun Clauses as Subjects. No error. The entire 'Whether... or...' clause acts as the singular subject of the sentence, correctly taking the singular verb 'remains'.",
+          "introduction": "Topic: Noun Clauses as Subjects. No error. The entire 'Whether... or...' clause acts as the singular subject of the sentence, correctly taking the singular verb 'remains'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Noun Clauses as Subjects. No error. The entire 'Whether... or...' clause acts as the singular subject of the sentence, correctly taking the singular verb 'remains'.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q15",
@@ -216,7 +392,20 @@
         {"id": "s3", "text": "the economic growth of the archipelago", "clickable": true, "isError": false},
         {"id": "s4", "text": "becomes.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative."
+      "explanationDetails": {
+        "id": "q15",
+        "slug": "advanced-comparatives",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative.",
+          "introduction": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "the more faster", "correct": "the faster", "reason": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q16",
@@ -230,7 +419,20 @@
         {"id": "s3", "text": "when the severe tropical storm", "clickable": false},
         {"id": "s4", "text": "began to disrupt the schedule.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived')."
+      "explanationDetails": {
+        "id": "q16",
+        "slug": "inversion-with-hardly-when",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived').",
+          "introduction": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "the delegation had arrived", "correct": "had the delegation arrived", "reason": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q17",
@@ -244,7 +446,18 @@
         {"id": "s3", "text": "given the profound understanding", "clickable": false},
         {"id": "s4", "text": "of Old Javanese it demonstrates.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Modals of Deduction. No error. 'Must have been translated' correctly expresses a logical deduction about a past action based on present evidence."
+      "explanationDetails": {
+        "id": "q17",
+        "slug": "modals-of-deduction",
+        "details_explanation": {
+          "explanation": "Topic: Modals of Deduction. No error. 'Must have been translated' correctly expresses a logical deduction about a past action based on present evidence.",
+          "introduction": "Topic: Modals of Deduction. No error. 'Must have been translated' correctly expresses a logical deduction about a past action based on present evidence.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Modals of Deduction. No error. 'Must have been translated' correctly expresses a logical deduction about a past action based on present evidence.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q18",
@@ -258,7 +471,20 @@
         {"id": "s3", "text": "but I regret saying", "clickable": true, "isError": true, "correctAnswers": ["but I regret having to say", "but I regret to say"]},
         {"id": "s4", "text": "that the decision was not easy.", "clickable": false}
       ],
-      "explanation": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here."
+      "explanationDetails": {
+        "id": "q18",
+        "slug": "gerund-vs-infinitive-with-meaning-change",
+        "details_explanation": {
+          "explanation": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here.",
+          "introduction": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "but I regret saying", "correct": "but I regret having to say / but I regret to say", "reason": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q19",
@@ -271,7 +497,18 @@
         {"id": "s2", "text": "with the outdoor cultural festival", "clickable": false},
         {"id": "s3", "text": "in Yogyakarta as planned.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Absolute Phrases. No error. 'The weather being favorable' is a grammatically correct absolute phrase (noun + participle) that modifies the entire main clause."
+      "explanationDetails": {
+        "id": "q19",
+        "slug": "absolute-phrases",
+        "details_explanation": {
+          "explanation": "Topic: Absolute Phrases. No error. 'The weather being favorable' is a grammatically correct absolute phrase (noun + participle) that modifies the entire main clause.",
+          "introduction": "Topic: Absolute Phrases. No error. 'The weather being favorable' is a grammatically correct absolute phrase (noun + participle) that modifies the entire main clause.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Absolute Phrases. No error. 'The weather being favorable' is a grammatically correct absolute phrase (noun + participle) that modifies the entire main clause.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q20",
@@ -284,7 +521,18 @@
         {"id": "s2", "text": "the impoverished and the elderly", "clickable": true, "isError": false},
         {"id": "s3", "text": "in remote areas.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Article Usage. No error. 'The + adjective' (the impoverished, the elderly) correctly functions as a plural noun to refer to a group of people."
+      "explanationDetails": {
+        "id": "q20",
+        "slug": "advanced-article-usage",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Article Usage. No error. 'The + adjective' (the impoverished, the elderly) correctly functions as a plural noun to refer to a group of people.",
+          "introduction": "Topic: Advanced Article Usage. No error. 'The + adjective' (the impoverished, the elderly) correctly functions as a plural noun to refer to a group of people.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Article Usage. No error. 'The + adjective' (the impoverished, the elderly) correctly functions as a plural noun to refer to a group of people.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q21",
@@ -297,7 +545,20 @@
         {"id": "s2", "text": "were sent", "clickable": true, "isError": true, "correctAnswers": ["was sent"]},
         {"id": "s3", "text": "to all applicants yesterday.", "clickable": false}
       ],
-      "explanation": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was')."
+      "explanationDetails": {
+        "id": "q21",
+        "slug": "complex-subject-verb-agreement",
+        "details_explanation": {
+          "explanation": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was').",
+          "introduction": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "were sent", "correct": "was sent", "reason": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q22",
@@ -310,7 +571,18 @@
         {"id": "s2", "text": "than originally anticipated", "clickable": true, "isError": false},
         {"id": "s3", "text": "by the stakeholders.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Conjunctions. No error. 'Albeit' is a formal conjunction meaning 'although', and it is correctly used here to introduce a concessive phrase."
+      "explanationDetails": {
+        "id": "q22",
+        "slug": "advanced-conjunctions",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Conjunctions. No error. 'Albeit' is a formal conjunction meaning 'although', and it is correctly used here to introduce a concessive phrase.",
+          "introduction": "Topic: Advanced Conjunctions. No error. 'Albeit' is a formal conjunction meaning 'although', and it is correctly used here to introduce a concessive phrase.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Conjunctions. No error. 'Albeit' is a formal conjunction meaning 'although', and it is correctly used here to introduce a concessive phrase.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q23",
@@ -323,7 +595,18 @@
         {"id": "s2", "text": "by a specialized IT firm", "clickable": true, "isError": false},
         {"id": "s3", "text": "in Jakarta to improve data security.", "clickable": false}
       ],
-      "explanation": "Topic: Causative Structures. No error. 'Have + object + past participle' correctly indicates that someone else performed the action (renovated) for the subject."
+      "explanationDetails": {
+        "id": "q23",
+        "slug": "causative-structures",
+        "details_explanation": {
+          "explanation": "Topic: Causative Structures. No error. 'Have + object + past participle' correctly indicates that someone else performed the action (renovated) for the subject.",
+          "introduction": "Topic: Causative Structures. No error. 'Have + object + past participle' correctly indicates that someone else performed the action (renovated) for the subject.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Causative Structures. No error. 'Have + object + past participle' correctly indicates that someone else performed the action (renovated) for the subject.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q24",
@@ -337,7 +620,20 @@
         {"id": "s3", "text": "for over five years", "clickable": false},
         {"id": "s4", "text": "in his Bali studio.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'."
+      "explanationDetails": {
+        "id": "q24",
+        "slug": "advanced-passive-voice",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'.",
+          "introduction": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "that he has been working", "correct": "to have been working", "reason": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q25",
@@ -350,7 +646,20 @@
         {"id": "s2", "text": "for the sudden delay", "clickable": true, "isError": false},
         {"id": "s3", "text": "in the infrastructure project.", "clickable": false}
       ],
-      "explanation": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason')."
+      "explanationDetails": {
+        "id": "q25",
+        "slug": "indirect-question-word-order",
+        "details_explanation": {
+          "explanation": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason').",
+          "introduction": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "to know what is the primary reason", "correct": "to know what the primary reason is", "reason": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q26",
@@ -364,7 +673,18 @@
         {"id": "s3", "text": "making it more intuitive", "clickable": true, "isError": false},
         {"id": "s4", "text": "for elderly users.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Adverb Placement & Participles. No error. The mid-position adverb 'significantly' is correctly placed between the auxiliary 'has' and the main verb 'improved'."
+      "explanationDetails": {
+        "id": "q26",
+        "slug": "advanced-adverb-placement-participles",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Adverb Placement & Participles. No error. The mid-position adverb 'significantly' is correctly placed between the auxiliary 'has' and the main verb 'improved'.",
+          "introduction": "Topic: Advanced Adverb Placement & Participles. No error. The mid-position adverb 'significantly' is correctly placed between the auxiliary 'has' and the main verb 'improved'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Adverb Placement & Participles. No error. The mid-position adverb 'significantly' is correctly placed between the auxiliary 'has' and the main verb 'improved'.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q27",
@@ -377,7 +697,20 @@
         {"id": "s2", "text": "is significantly lower", "clickable": true, "isError": false},
         {"id": "s3", "text": "than Jakarta.", "clickable": true, "isError": true, "correctAnswers": ["than that of Jakarta.", "than in Jakarta."]}
       ],
-      "explanation": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'."
+      "explanationDetails": {
+        "id": "q27",
+        "slug": "illogical-comparisons",
+        "details_explanation": {
+          "explanation": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'.",
+          "introduction": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "than Jakarta.", "correct": "than that of Jakarta. / than in Jakarta.", "reason": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q28",
@@ -391,7 +724,20 @@
         {"id": "s3", "text": "that the company will be downsizing", "clickable": true, "isError": false},
         {"id": "s4", "text": "its workforce soon.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct."
+      "explanationDetails": {
+        "id": "q28",
+        "slug": "advanced-vocabulary-imply-vs-infer",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct.",
+          "introduction": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "we can imply", "correct": "we can infer", "reason": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q29",
@@ -404,7 +750,20 @@
         {"id": "s2", "text": "with the updated project proposal", "clickable": false},
         {"id": "s3", "text": "and the revised budget.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'."
+      "explanationDetails": {
+        "id": "q29",
+        "slug": "redundancy-and-pleonasm",
+        "details_explanation": {
+          "explanation": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'.",
+          "introduction": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "Please revert back", "correct": "Please revert / Please get back", "reason": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q30",
@@ -418,7 +777,20 @@
         {"id": "s3", "text": "are struggling to compete", "clickable": true, "isError": false},
         {"id": "s4", "text": "with mass-produced goods.", "clickable": false}
       ],
-      "explanation": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'."
+      "explanationDetails": {
+        "id": "q30",
+        "slug": "restrictive-vs-non-restrictive-relative-clauses",
+        "details_explanation": {
+          "explanation": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'.",
+          "introduction": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "which have been practicing", "correct": "who have been practicing", "reason": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q31",
@@ -431,7 +803,18 @@
         {"id": "s2", "text": "did they realize", "clickable": true, "isError": false},
         {"id": "s3", "text": "the extent of the discrepancies.", "clickable": false}
       ],
-      "explanation": "Topic: Inversion with 'Only after'. No error. When a sentence begins with 'Only after' + clause, the main clause requires subject-auxiliary inversion ('did they realize')."
+      "explanationDetails": {
+        "id": "q31",
+        "slug": "inversion-with-only-after",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with 'Only after'. No error. When a sentence begins with 'Only after' + clause, the main clause requires subject-auxiliary inversion ('did they realize').",
+          "introduction": "Topic: Inversion with 'Only after'. No error. When a sentence begins with 'Only after' + clause, the main clause requires subject-auxiliary inversion ('did they realize').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with 'Only after'. No error. When a sentence begins with 'Only after' + clause, the main clause requires subject-auxiliary inversion ('did they realize').", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q32",
@@ -444,7 +827,18 @@
         {"id": "s2", "text": "they would have routed", "clickable": true, "isError": false},
         {"id": "s3", "text": "the shipment through a different harbor.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Conditional Inversion. No error. 'Had the logistics team known' is a correct and formal inversion of 'If the logistics team had known' (Third Conditional)."
+      "explanationDetails": {
+        "id": "q32",
+        "slug": "conditional-inversion",
+        "details_explanation": {
+          "explanation": "Topic: Conditional Inversion. No error. 'Had the logistics team known' is a correct and formal inversion of 'If the logistics team had known' (Third Conditional).",
+          "introduction": "Topic: Conditional Inversion. No error. 'Had the logistics team known' is a correct and formal inversion of 'If the logistics team had known' (Third Conditional).",
+          "rules": [{"title": "Rule", "explanation": "Topic: Conditional Inversion. No error. 'Had the logistics team known' is a correct and formal inversion of 'If the logistics team had known' (Third Conditional).", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q33",
@@ -458,7 +852,18 @@
         {"id": "s3", "text": "bringing a great deal of innovation", "clickable": true, "isError": false},
         {"id": "s4", "text": "to the market.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Quantifiers. No error. 'A large number of' correctly modifies the countable noun 'startups' (taking a plural verb), and 'a great deal of' correctly modifies the uncountable noun 'innovation'."
+      "explanationDetails": {
+        "id": "q33",
+        "slug": "advanced-quantifiers",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Quantifiers. No error. 'A large number of' correctly modifies the countable noun 'startups' (taking a plural verb), and 'a great deal of' correctly modifies the uncountable noun 'innovation'.",
+          "introduction": "Topic: Advanced Quantifiers. No error. 'A large number of' correctly modifies the countable noun 'startups' (taking a plural verb), and 'a great deal of' correctly modifies the uncountable noun 'innovation'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Quantifiers. No error. 'A large number of' correctly modifies the countable noun 'startups' (taking a plural verb), and 'a great deal of' correctly modifies the uncountable noun 'innovation'.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q34",
@@ -472,7 +877,20 @@
         {"id": "s3", "text": "the worsening air pollution", "clickable": false},
         {"id": "s4", "text": "in the city.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes')."
+      "explanationDetails": {
+        "id": "q34",
+        "slug": "subjunctive-in-it-is-high-time",
+        "details_explanation": {
+          "explanation": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes').",
+          "introduction": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "that the local government takes", "correct": "that the local government took", "reason": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q35",
@@ -485,7 +903,18 @@
         {"id": "s2", "text": "will be presenting", "clickable": true, "isError": false},
         {"id": "s3", "text": "the quarterly results tomorrow morning.", "clickable": false}
       ],
-      "explanation": "Topic: Prepositional Phrases as Adjectives. No error. 'In charge of the regional sales division' correctly functions as an adjectival phrase modifying 'The manager'."
+      "explanationDetails": {
+        "id": "q35",
+        "slug": "prepositional-phrases-as-adjectives",
+        "details_explanation": {
+          "explanation": "Topic: Prepositional Phrases as Adjectives. No error. 'In charge of the regional sales division' correctly functions as an adjectival phrase modifying 'The manager'.",
+          "introduction": "Topic: Prepositional Phrases as Adjectives. No error. 'In charge of the regional sales division' correctly functions as an adjectival phrase modifying 'The manager'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Prepositional Phrases as Adjectives. No error. 'In charge of the regional sales division' correctly functions as an adjectival phrase modifying 'The manager'.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q36",
@@ -498,7 +927,20 @@
         {"id": "s2", "text": "who have been with the company", "clickable": true, "isError": false},
         {"id": "s3", "text": "for less than two years.", "clickable": false}
       ],
-      "explanation": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected."
+      "explanationDetails": {
+        "id": "q36",
+        "slug": "misplaced-modifiers",
+        "details_explanation": {
+          "explanation": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected.",
+          "introduction": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "only affect employees", "correct": "affect only employees", "reason": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q37",
@@ -512,7 +954,20 @@
         {"id": "s3", "text": "the previously accepted timeline", "clickable": false},
         {"id": "s4", "text": "of the Majapahit Empire.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'."
+      "explanationDetails": {
+        "id": "q37",
+        "slug": "advanced-collocations-irregular-verbs",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'.",
+          "introduction": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "in East Java has casted", "correct": "in East Java has cast", "reason": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q38",
@@ -525,7 +980,18 @@
         {"id": "s2", "text": "power outage, not by", "clickable": true, "isError": false},
         {"id": "s3", "text": "a software malfunction.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Noun Adjuncts. No error. 'System' and 'software' correctly function as noun adjuncts (nouns modifying other nouns) to specify the type of failure and malfunction."
+      "explanationDetails": {
+        "id": "q38",
+        "slug": "noun-adjuncts",
+        "details_explanation": {
+          "explanation": "Topic: Noun Adjuncts. No error. 'System' and 'software' correctly function as noun adjuncts (nouns modifying other nouns) to specify the type of failure and malfunction.",
+          "introduction": "Topic: Noun Adjuncts. No error. 'System' and 'software' correctly function as noun adjuncts (nouns modifying other nouns) to specify the type of failure and malfunction.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Noun Adjuncts. No error. 'System' and 'software' correctly function as noun adjuncts (nouns modifying other nouns) to specify the type of failure and malfunction.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q39",
@@ -538,7 +1004,18 @@
         {"id": "s2", "text": "failed to replicate", "clickable": true, "isError": false},
         {"id": "s3", "text": "the same level of efficiency.", "clickable": false}
       ],
-      "explanation": "Topic: Conjunctive Adverb Punctuation. No error. The semicolon before 'however' and the comma after it are correctly used to join two independent clauses with a conjunctive adverb."
+      "explanationDetails": {
+        "id": "q39",
+        "slug": "conjunctive-adverb-punctuation",
+        "details_explanation": {
+          "explanation": "Topic: Conjunctive Adverb Punctuation. No error. The semicolon before 'however' and the comma after it are correctly used to join two independent clauses with a conjunctive adverb.",
+          "introduction": "Topic: Conjunctive Adverb Punctuation. No error. The semicolon before 'however' and the comma after it are correctly used to join two independent clauses with a conjunctive adverb.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Conjunctive Adverb Punctuation. No error. The semicolon before 'however' and the comma after it are correctly used to join two independent clauses with a conjunctive adverb.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q40",
@@ -552,7 +1029,20 @@
         {"id": "s3", "text": "to keep the interest rates", "clickable": false},
         {"id": "s4", "text": "unchanged this quarter.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form."
+      "explanationDetails": {
+        "id": "q40",
+        "slug": "advanced-use-of-as",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form.",
+          "introduction": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "As it was expected", "correct": "As was expected", "reason": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q41",
@@ -566,7 +1056,18 @@
         {"id": "s3", "text": "had to temporarily halt", "clickable": true, "isError": false},
         {"id": "s4", "text": "their operations.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced 'Such... that' Structures. No error. Inverting the sentence to 'Such was the impact... that...' is a correct and highly formal way to emphasize the degree of the impact."
+      "explanationDetails": {
+        "id": "q41",
+        "slug": "advanced-such-that-structures",
+        "details_explanation": {
+          "explanation": "Topic: Advanced 'Such... that' Structures. No error. Inverting the sentence to 'Such was the impact... that...' is a correct and highly formal way to emphasize the degree of the impact.",
+          "introduction": "Topic: Advanced 'Such... that' Structures. No error. Inverting the sentence to 'Such was the impact... that...' is a correct and highly formal way to emphasize the degree of the impact.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced 'Such... that' Structures. No error. Inverting the sentence to 'Such was the impact... that...' is a correct and highly formal way to emphasize the degree of the impact.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q42",
@@ -579,7 +1080,20 @@
         {"id": "s2", "text": "lest an accident occurs", "clickable": true, "isError": true, "correctAnswers": ["lest an accident occur"]},
         {"id": "s3", "text": "during the factory inspection.", "clickable": false}
       ],
-      "explanation": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs')."
+      "explanationDetails": {
+        "id": "q42",
+        "slug": "lest-constructions",
+        "details_explanation": {
+          "explanation": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs').",
+          "introduction": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs').",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "lest an accident occurs", "correct": "lest an accident occur", "reason": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q43",
@@ -593,7 +1107,20 @@
         {"id": "s3", "text": "five years ago,", "clickable": false},
         {"id": "s4", "text": "I would be financially secure now.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect."
+      "explanationDetails": {
+        "id": "q43",
+        "slug": "if-only-for-past-regrets",
+        "details_explanation": {
+          "explanation": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect.",
+          "introduction": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "have invested", "correct": "had invested", "reason": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q44",
@@ -606,7 +1133,18 @@
         {"id": "s2", "text": "the confidential merger details", "clickable": true, "isError": false},
         {"id": "s3", "text": "to anyone outside the executive team.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced 'Would rather'. When 'would rather' is followed by a different subject ('you'), the verb must be in the past subjunctive ('did not disclose') to refer to a present or future preference."
+      "explanationDetails": {
+        "id": "q44",
+        "slug": "advanced-would-rather",
+        "details_explanation": {
+          "explanation": "Topic: Advanced 'Would rather'. When 'would rather' is followed by a different subject ('you'), the verb must be in the past subjunctive ('did not disclose') to refer to a present or future preference.",
+          "introduction": "Topic: Advanced 'Would rather'. When 'would rather' is followed by a different subject ('you'), the verb must be in the past subjunctive ('did not disclose') to refer to a present or future preference.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced 'Would rather'. When 'would rather' is followed by a different subject ('you'), the verb must be in the past subjunctive ('did not disclose') to refer to a present or future preference.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q45",
@@ -619,7 +1157,18 @@
         {"id": "s2", "text": "the agricultural committee", "clickable": false},
         {"id": "s3", "text": "will declare a state of emergency.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'Supposing' Conditionals. No error. 'Supposing' functions identically to 'if' in conditional sentences and is correctly followed by the present simple tense for a real future possibility."
+      "explanationDetails": {
+        "id": "q45",
+        "slug": "supposing-conditionals",
+        "details_explanation": {
+          "explanation": "Topic: 'Supposing' Conditionals. No error. 'Supposing' functions identically to 'if' in conditional sentences and is correctly followed by the present simple tense for a real future possibility.",
+          "introduction": "Topic: 'Supposing' Conditionals. No error. 'Supposing' functions identically to 'if' in conditional sentences and is correctly followed by the present simple tense for a real future possibility.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Supposing' Conditionals. No error. 'Supposing' functions identically to 'if' in conditional sentences and is correctly followed by the present simple tense for a real future possibility.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q46",
@@ -632,7 +1181,20 @@
         {"id": "s2", "text": "in Sumatra proceeded", "clickable": true, "isError": false},
         {"id": "s3", "text": "according to schedule.", "clickable": false}
       ],
-      "explanation": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used."
+      "explanationDetails": {
+        "id": "q46",
+        "slug": "despite-vs-although",
+        "details_explanation": {
+          "explanation": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used.",
+          "introduction": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "Although the heavy monsoon rains,", "correct": "Despite the heavy monsoon rains, / Although there were heavy monsoon rains,", "reason": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q47",
@@ -645,7 +1207,18 @@
         {"id": "s2", "text": "she is finally getting used to", "clickable": true, "isError": false},
         {"id": "s3", "text": "the fast-paced lifestyle and the humid weather.", "clickable": false}
       ],
-      "explanation": "Topic: 'Get used to'. No error. 'Getting used to' correctly describes the process of becoming accustomed to something, and it is properly followed by noun phrases."
+      "explanationDetails": {
+        "id": "q47",
+        "slug": "get-used-to",
+        "details_explanation": {
+          "explanation": "Topic: 'Get used to'. No error. 'Getting used to' correctly describes the process of becoming accustomed to something, and it is properly followed by noun phrases.",
+          "introduction": "Topic: 'Get used to'. No error. 'Getting used to' correctly describes the process of becoming accustomed to something, and it is properly followed by noun phrases.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Get used to'. No error. 'Getting used to' correctly describes the process of becoming accustomed to something, and it is properly followed by noun phrases.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q48",
@@ -658,7 +1231,20 @@
         {"id": "s2", "text": "before we can proceed", "clickable": true, "isError": false},
         {"id": "s3", "text": "with the hiring process?", "clickable": false}
       ],
-      "explanation": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form."
+      "explanationDetails": {
+        "id": "q48",
+        "slug": "need-as-a-main-verb-vs-semi-modal",
+        "details_explanation": {
+          "explanation": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form.",
+          "introduction": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "Need the board of directors", "correct": "Does the board of directors need", "reason": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q49",
@@ -671,7 +1257,20 @@
         {"id": "s2", "text": "rather than to continue", "clickable": true, "isError": true, "correctAnswers": ["rather than continue"]},
         {"id": "s3", "text": "relying on fossil fuels.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue')."
+      "explanationDetails": {
+        "id": "q49",
+        "slug": "rather-than-parallelism",
+        "details_explanation": {
+          "explanation": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue').",
+          "introduction": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue').",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "rather than to continue", "correct": "rather than continue", "reason": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q50",
@@ -684,7 +1283,18 @@
         {"id": "s2", "text": "a historian who had dedicated", "clickable": true, "isError": false},
         {"id": "s3", "text": "his entire life to the subject.", "clickable": false}
       ],
-      "explanation": "Topic: 'As if' Subjunctive. No error. 'As if he were' correctly uses the past subjunctive to describe a hypothetical or unreal comparison in the present."
+      "explanationDetails": {
+        "id": "q50",
+        "slug": "as-if-subjunctive",
+        "details_explanation": {
+          "explanation": "Topic: 'As if' Subjunctive. No error. 'As if he were' correctly uses the past subjunctive to describe a hypothetical or unreal comparison in the present.",
+          "introduction": "Topic: 'As if' Subjunctive. No error. 'As if he were' correctly uses the past subjunctive to describe a hypothetical or unreal comparison in the present.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'As if' Subjunctive. No error. 'As if he were' correctly uses the past subjunctive to describe a hypothetical or unreal comparison in the present.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q51",
@@ -697,7 +1307,18 @@
         {"id": "s2", "text": "the construction of the new eco-resort", "clickable": false},
         {"id": "s3", "text": "will commence next month.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'Provided that' Conditionals. No error. 'Provided that' is a formal conjunction meaning 'on the condition that', and it is correctly followed by a present tense verb in a first conditional structure."
+      "explanationDetails": {
+        "id": "q51",
+        "slug": "provided-that-conditionals",
+        "details_explanation": {
+          "explanation": "Topic: 'Provided that' Conditionals. No error. 'Provided that' is a formal conjunction meaning 'on the condition that', and it is correctly followed by a present tense verb in a first conditional structure.",
+          "introduction": "Topic: 'Provided that' Conditionals. No error. 'Provided that' is a formal conjunction meaning 'on the condition that', and it is correctly followed by a present tense verb in a first conditional structure.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Provided that' Conditionals. No error. 'Provided that' is a formal conjunction meaning 'on the condition that', and it is correctly followed by a present tense verb in a first conditional structure.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q52",
@@ -710,7 +1331,20 @@
         {"id": "s2", "text": "than the journalists began", "clickable": true, "isError": false},
         {"id": "s3", "text": "asking the CEO about the sudden resignation.", "clickable": false}
       ],
-      "explanation": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded')."
+      "explanationDetails": {
+        "id": "q52",
+        "slug": "no-sooner-than-inversion",
+        "details_explanation": {
+          "explanation": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded').",
+          "introduction": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded').",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "the meeting had concluded", "correct": "had the meeting concluded", "reason": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q53",
@@ -723,7 +1357,18 @@
         {"id": "s2", "text": "did the researchers fully understand", "clickable": true, "isError": false},
         {"id": "s3", "text": "the implications of their findings.", "clickable": false}
       ],
-      "explanation": "Topic: 'Not until' Inversion. No error. The sentence correctly uses inversion in the main clause ('did the researchers fully understand') after a fronted 'Not until' phrase."
+      "explanationDetails": {
+        "id": "q53",
+        "slug": "not-until-inversion",
+        "details_explanation": {
+          "explanation": "Topic: 'Not until' Inversion. No error. The sentence correctly uses inversion in the main clause ('did the researchers fully understand') after a fronted 'Not until' phrase.",
+          "introduction": "Topic: 'Not until' Inversion. No error. The sentence correctly uses inversion in the main clause ('did the researchers fully understand') after a fronted 'Not until' phrase.",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Not until' Inversion. No error. The sentence correctly uses inversion in the main clause ('did the researchers fully understand') after a fronted 'Not until' phrase.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q54",
@@ -737,7 +1382,20 @@
         {"id": "s3", "text": "and professionalism from the volunteer team", "clickable": false},
         {"id": "s4", "text": "in rural areas.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see')."
+      "explanationDetails": {
+        "id": "q54",
+        "slug": "inversion-with-negative-adverbs",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see').",
+          "introduction": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "we see", "correct": "do we see", "reason": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q55",
@@ -750,7 +1408,20 @@
         {"id": "s2", "text": "shared with external parties", "clickable": true, "isError": false},
         {"id": "s3", "text": "without explicit written consent.", "clickable": false}
       ],
-      "explanation": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be')."
+      "explanationDetails": {
+        "id": "q55",
+        "slug": "inversion-with-under-no-circumstances",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be').",
+          "introduction": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be').",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "the confidential client data should be", "correct": "should the confidential client data be", "reason": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q56",
@@ -763,7 +1434,18 @@
         {"id": "s2", "text": "to enter the restricted archaeological zone", "clickable": true, "isError": false},
         {"id": "s3", "text": "without an authorized guide.", "clickable": false}
       ],
-      "explanation": "Topic: Inversion with 'On no account'. No error. The sentence correctly applies subject-auxiliary inversion ('are visitors') after the fronted negative phrase 'On no account'."
+      "explanationDetails": {
+        "id": "q56",
+        "slug": "inversion-with-on-no-account",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with 'On no account'. No error. The sentence correctly applies subject-auxiliary inversion ('are visitors') after the fronted negative phrase 'On no account'.",
+          "introduction": "Topic: Inversion with 'On no account'. No error. The sentence correctly applies subject-auxiliary inversion ('are visitors') after the fronted negative phrase 'On no account'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with 'On no account'. No error. The sentence correctly applies subject-auxiliary inversion ('are visitors') after the fronted negative phrase 'On no account'.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q57",
@@ -776,7 +1458,18 @@
         {"id": "s2", "text": "would eventually become a unicorn", "clickable": true, "isError": false},
         {"id": "s3", "text": "in the Southeast Asian market.", "clickable": false}
       ],
-      "explanation": "Topic: Inversion with 'Little'. No error. 'Little did [subject] know' is a correct and idiomatic inverted structure used to emphasize that someone was completely unaware of something."
+      "explanationDetails": {
+        "id": "q57",
+        "slug": "inversion-with-little",
+        "details_explanation": {
+          "explanation": "Topic: Inversion with 'Little'. No error. 'Little did [subject] know' is a correct and idiomatic inverted structure used to emphasize that someone was completely unaware of something.",
+          "introduction": "Topic: Inversion with 'Little'. No error. 'Little did [subject] know' is a correct and idiomatic inverted structure used to emphasize that someone was completely unaware of something.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Inversion with 'Little'. No error. 'Little did [subject] know' is a correct and idiomatic inverted structure used to emphasize that someone was completely unaware of something.", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q58",
@@ -790,7 +1483,20 @@
         {"id": "s3", "text": "please notify the logistics team", "clickable": false},
         {"id": "s4", "text": "immediately.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets')."
+      "explanationDetails": {
+        "id": "q58",
+        "slug": "should-in-conditional-clauses",
+        "details_explanation": {
+          "explanation": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets').",
+          "introduction": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets').",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets').", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "should gets delayed", "correct": "should get delayed", "reason": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets')."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q59",
@@ -803,7 +1509,18 @@
         {"id": "s2", "text": "it would create the largest", "clickable": false},
         {"id": "s3", "text": "telecommunications company in the region.", "clickable": true, "isError": false}
       ],
-      "explanation": "Topic: 'Were' in Conditional Clauses. No error. 'Were [subject] to [verb]' is a correct and highly formal inversion of 'If [subject] were to [verb]' (Second Conditional)."
+      "explanationDetails": {
+        "id": "q59",
+        "slug": "were-in-conditional-clauses",
+        "details_explanation": {
+          "explanation": "Topic: 'Were' in Conditional Clauses. No error. 'Were [subject] to [verb]' is a correct and highly formal inversion of 'If [subject] were to [verb]' (Second Conditional).",
+          "introduction": "Topic: 'Were' in Conditional Clauses. No error. 'Were [subject] to [verb]' is a correct and highly formal inversion of 'If [subject] were to [verb]' (Second Conditional).",
+          "rules": [{"title": "Rule", "explanation": "Topic: 'Were' in Conditional Clauses. No error. 'Were [subject] to [verb]' is a correct and highly formal inversion of 'If [subject] were to [verb]' (Second Conditional).", "structure": "", "notes": []}],
+          "common_mistakes": []
+        },
+        "other_examples": [],
+        "references": []
+      }
     },
     {
       "id": "q60",
@@ -816,7 +1533,20 @@
         {"id": "s2", "text": "independent from", "clickable": true, "isError": true, "correctAnswers": ["independent of"]},
         {"id": "s3", "text": "the global economic fluctuations.", "clickable": false}
       ],
-      "explanation": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'."
+      "explanationDetails": {
+        "id": "q60",
+        "slug": "advanced-prepositional-collocations",
+        "details_explanation": {
+          "explanation": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'.",
+          "introduction": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'.",
+          "rules": [{"title": "Rule", "explanation": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'.", "structure": "", "notes": []}],
+          "common_mistakes": [
+            {"wrong": "independent from", "correct": "independent of", "reason": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'."}
+          ]
+        },
+        "other_examples": [],
+        "references": []
+      }
     }
   ]
 }

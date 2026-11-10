@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "title": "01.Sentence Analysis - Advanced (C1-C2)",
+    "description": "A 60-question advanced error identification test featuring complex sentence structures, nuanced vocabulary, and contexts relatable to Indonesian professionals and academics.",
+    "timeLimits": {
+      "fast": 60,
+      "normal": 90,
+      "easy": 120
+    }
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The committee, comprising of experts from various universities across Java, have reached a consensus regarding the new curriculum.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The committee,", "clickable": false},
+        {"id": "s1", "text": "comprising of experts", "clickable": true, "isError": true, "correctAnswers": ["comprising experts", "composed of experts"]},
+        {"id": "s2", "text": "from various universities across Java,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "have reached a consensus", "clickable": true, "isError": true, "correctAnswers": ["has reached a consensus"]},
+        {"id": "s4", "text": "regarding the new curriculum.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Vocabulary & Subject-Verb Agreement. 'Comprise' does not take 'of' (use 'comprising' or 'composed of'). Additionally, 'committee' is a collective noun acting as a single unit here, requiring the singular verb 'has'."
+    },
+    {
+      "id": "q2",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "If the Indonesian government had allocated more funds to public transportation a decade ago, the current traffic congestion in major cities would have been significantly reduced.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If the Indonesian government", "clickable": false},
+        {"id": "s1", "text": "had allocated more funds", "clickable": true, "isError": false},
+        {"id": "s2", "text": "to public transportation", "clickable": true, "isError": false},
+        {"id": "s3", "text": "a decade ago,", "clickable": false},
+        {"id": "s4", "text": "the current traffic congestion in major cities", "clickable": true, "isError": false},
+        {"id": "s5", "text": "would have been significantly reduced.", "clickable": true, "isError": true, "correctAnswers": ["would be significantly reduced."]}
+      ],
+      "explanation": "Topic: Mixed Conditionals. The sentence describes a past condition ('had allocated') with a present result ('current traffic congestion'). Therefore, the main clause requires the present conditional ('would be'), not the past conditional ('would have been')."
+    },
+    {
+      "id": "q3",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Not only the new environmental regulations failed to reduce carbon emissions in Jakarta, but they also inadvertently increased the operational costs for local small businesses.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Not only", "clickable": false},
+        {"id": "s1", "text": "the new environmental regulations failed", "clickable": true, "isError": true, "correctAnswers": ["did the new environmental regulations fail"]},
+        {"id": "s2", "text": "to reduce carbon emissions", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in Jakarta,", "clickable": false},
+        {"id": "s4", "text": "but they also inadvertently", "clickable": true, "isError": false},
+        {"id": "s5", "text": "increased the operational costs", "clickable": true, "isError": false},
+        {"id": "s6", "text": "for local small businesses.", "clickable": false}
+      ],
+      "explanation": "Topic: Negative Inversion. When a sentence begins with a negative adverbial like 'Not only', the subject and auxiliary verb must be inverted (e.g., 'did the regulations fail')."
+    },
+    {
+      "id": "q4",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "It is absolutely essential that the board of directors reviews the financial statements before the annual general meeting in Surabaya.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "It is absolutely essential", "clickable": false},
+        {"id": "s1", "text": "that the board of directors reviews", "clickable": true, "isError": true, "correctAnswers": ["that the board of directors review"]},
+        {"id": "s2", "text": "the financial statements", "clickable": true, "isError": false},
+        {"id": "s3", "text": "before the annual general meeting", "clickable": false},
+        {"id": "s4", "text": "in Surabaya.", "clickable": false}
+      ],
+      "explanation": "Topic: Subjunctive Mood. After expressions of necessity like 'it is essential that', the verb in the subordinate clause must be in the base form (subjunctive), so 'review' is correct, not 'reviews'."
+    },
+    {
+      "id": "q5",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "What makes the culinary scene in Yogyakarta so unique are the seamless blend of traditional Javanese flavors and modern gastronomic techniques.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "What makes the culinary scene", "clickable": false},
+        {"id": "s1", "text": "in Yogyakarta so unique are", "clickable": true, "isError": true, "correctAnswers": ["in Yogyakarta so unique is"]},
+        {"id": "s2", "text": "the seamless blend", "clickable": true, "isError": false},
+        {"id": "s3", "text": "of traditional Javanese flavors", "clickable": true, "isError": false},
+        {"id": "s4", "text": "and modern gastronomic techniques.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Cleft Sentences & Subject-Verb Agreement. The subject of the main clause is the singular noun phrase 'the seamless blend', so the verb must be singular ('is'), despite the plural elements in the predicate."
+    },
+    {
+      "id": "q6",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "All multinational corporations operating in Indonesia must strictly comply to the local labor laws and environmental regulations.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "All multinational corporations", "clickable": false},
+        {"id": "s1", "text": "operating in Indonesia", "clickable": true, "isError": false},
+        {"id": "s2", "text": "must strictly comply to", "clickable": true, "isError": true, "correctAnswers": ["must strictly comply with"]},
+        {"id": "s3", "text": "the local labor laws", "clickable": true, "isError": false},
+        {"id": "s4", "text": "and environmental regulations.", "clickable": false}
+      ],
+      "explanation": "Topic: Nuanced Prepositions. The verb 'comply' is always followed by the preposition 'with', not 'to'."
+    },
+    {
+      "id": "q7",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The researcher provided several valuable advices and informations to improve the methodology of the study.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The researcher provided", "clickable": false},
+        {"id": "s1", "text": "several valuable advices", "clickable": true, "isError": true, "correctAnswers": ["valuable advice", "several valuable pieces of advice"]},
+        {"id": "s2", "text": "and informations", "clickable": true, "isError": true, "correctAnswers": ["and information"]},
+        {"id": "s3", "text": "to improve the methodology", "clickable": true, "isError": false},
+        {"id": "s4", "text": "of the study.", "clickable": false}
+      ],
+      "explanation": "Topic: Uncountable Nouns. Both 'advice' and 'information' are strictly uncountable nouns in English and cannot be pluralized with an 's'."
+    },
+    {
+      "id": "q8",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The new digital payment platform is designed not only to streamline transactions for small merchants but also enhancing financial inclusion in rural areas.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new digital payment platform", "clickable": false},
+        {"id": "s1", "text": "is designed not only to streamline", "clickable": true, "isError": false},
+        {"id": "s2", "text": "transactions for small merchants", "clickable": true, "isError": false},
+        {"id": "s3", "text": "but also enhancing", "clickable": true, "isError": true, "correctAnswers": ["but also to enhance"]},
+        {"id": "s4", "text": "financial inclusion in rural areas.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Parallelism. Correlative conjunctions like 'not only... but also' must connect grammatically parallel structures. Since 'to streamline' is an infinitive, 'enhancing' must be changed to 'to enhance'."
+    },
+    {
+      "id": "q9",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The annual revenue of the tech startup in Bandung this year is projected to be higher than the previous year.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The annual revenue of the tech startup", "clickable": false},
+        {"id": "s1", "text": "in Bandung this year", "clickable": true, "isError": false},
+        {"id": "s2", "text": "is projected to be higher", "clickable": true, "isError": false},
+        {"id": "s3", "text": "than the previous year.", "clickable": true, "isError": true, "correctAnswers": ["than that of the previous year.", "than in the previous year."]}
+      ],
+      "explanation": "Topic: Illogical Comparisons. You must compare 'revenue' to 'revenue', not 'revenue' to 'a year'. Use 'that of' to refer back to the singular noun 'revenue'."
+    },
+    {
+      "id": "q10",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The new regulatory framework, in which the financial institutions must strictly comply, was introduced by the central bank last month.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new regulatory framework,", "clickable": false},
+        {"id": "s1", "text": "in which", "clickable": true, "isError": true, "correctAnswers": ["with which"]},
+        {"id": "s2", "text": "the financial institutions must strictly comply,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "was introduced by the central bank", "clickable": true, "isError": false},
+        {"id": "s4", "text": "last month.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Relative Clauses. The verb 'comply' takes the preposition 'with'. Therefore, the correct relative pronoun phrase is 'with which', not 'in which'."
+    },
+    {
+      "id": "q11",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "By the end of this decade, the government will have been implementing the renewable energy initiative for over fifteen years.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "By the end of this decade,", "clickable": false},
+        {"id": "s1", "text": "the government will have been implementing", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the renewable energy initiative", "clickable": true, "isError": false},
+        {"id": "s3", "text": "for over fifteen years.", "clickable": false}
+      ],
+      "explanation": "Topic: Future Perfect Continuous. This tense is correctly used to emphasize the duration of an action that will be ongoing up to a specific point in the future ('By the end of this decade')."
+    },
+    {
+      "id": "q12",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Before the merger was finalized, the two companies had been negotiating the terms of the agreement for more than a year.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Before the merger was finalized,", "clickable": false},
+        {"id": "s1", "text": "the two companies had been negotiating", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the terms of the agreement", "clickable": true, "isError": false},
+        {"id": "s3", "text": "for more than a year.", "clickable": false}
+      ],
+      "explanation": "Topic: Past Perfect Continuous. No error. The sentence correctly uses the past perfect continuous to describe an action that was ongoing up until another past event ('was finalized')."
+    },
+    {
+      "id": "q13",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The ministry plans to phase out the use of single-use plastics in major cities, but the transition has been slower than anticipated.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The ministry plans to phase out", "clickable": true, "isError": false},
+        {"id": "s1", "text": "the use of single-use plastics", "clickable": true, "isError": false},
+        {"id": "s2", "text": "in major cities,", "clickable": false},
+        {"id": "s3", "text": "but the transition has been", "clickable": true, "isError": false},
+        {"id": "s4", "text": "slower than anticipated.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Phrasal Verbs. No error. 'Phase out' correctly means to gradually stop using something, which fits the context of eliminating single-use plastics."
+    },
+    {
+      "id": "q14",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Whether the new tourism policy will boost the local economy or exacerbate environmental degradation remains to be seen.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Whether the new tourism policy", "clickable": false},
+        {"id": "s1", "text": "will boost the local economy", "clickable": true, "isError": false},
+        {"id": "s2", "text": "or exacerbate environmental degradation", "clickable": true, "isError": false},
+        {"id": "s3", "text": "remains to be seen.", "clickable": false}
+      ],
+      "explanation": "Topic: Noun Clauses as Subjects. No error. The entire 'Whether... or...' clause acts as the singular subject of the sentence, correctly taking the singular verb 'remains'."
+    },
+    {
+      "id": "q15",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The more the government invests in digital infrastructure, the more faster the economic growth of the archipelago becomes.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The more the government invests", "clickable": false},
+        {"id": "s1", "text": "in digital infrastructure,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the more faster", "clickable": true, "isError": true, "correctAnswers": ["the faster"]},
+        {"id": "s3", "text": "the economic growth of the archipelago", "clickable": true, "isError": false},
+        {"id": "s4", "text": "becomes.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Comparatives. The structure is 'the + comparative, the + comparative'. 'Faster' is already comparative; adding 'more' creates an incorrect double comparative."
+    },
+    {
+      "id": "q16",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Hardly the delegation had arrived at the conference in Bali when the severe tropical storm began to disrupt the schedule.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Hardly", "clickable": false},
+        {"id": "s1", "text": "the delegation had arrived", "clickable": true, "isError": true, "correctAnswers": ["had the delegation arrived"]},
+        {"id": "s2", "text": "at the conference in Bali", "clickable": true, "isError": false},
+        {"id": "s3", "text": "when the severe tropical storm", "clickable": false},
+        {"id": "s4", "text": "began to disrupt the schedule.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Inversion with 'Hardly... when'. When a sentence starts with 'Hardly', the subject and auxiliary verb must be inverted ('had the delegation arrived')."
+    },
+    {
+      "id": "q17",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The ancient manuscript must have been translated by a team of experts, given the profound understanding of Old Javanese it demonstrates.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The ancient manuscript", "clickable": false},
+        {"id": "s1", "text": "must have been translated", "clickable": true, "isError": false},
+        {"id": "s2", "text": "by a team of experts,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "given the profound understanding", "clickable": false},
+        {"id": "s4", "text": "of Old Javanese it demonstrates.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Modals of Deduction. No error. 'Must have been translated' correctly expresses a logical deduction about a past action based on present evidence."
+    },
+    {
+      "id": "q18",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "I regret to inform you that your application for the research grant has been unsuccessful, but I regret saying that the decision was not easy.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I regret to inform you", "clickable": true, "isError": false},
+        {"id": "s1", "text": "that your application for the research grant", "clickable": false},
+        {"id": "s2", "text": "has been unsuccessful,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "but I regret saying", "clickable": true, "isError": true, "correctAnswers": ["but I regret having to say", "but I regret to say"]},
+        {"id": "s4", "text": "that the decision was not easy.", "clickable": false}
+      ],
+      "explanation": "Topic: Gerund vs. Infinitive with Meaning Change. 'Regret + infinitive' is used for bad news (regret to inform). 'Regret + gerund' is for past actions. However, 'regret to say' is the standard fixed phrase for expressing sorrow about a statement, making 'regret saying' awkward and incorrect here."
+    },
+    {
+      "id": "q19",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The weather being favorable, the organizers decided to proceed with the outdoor cultural festival in Yogyakarta as planned.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The weather being favorable,", "clickable": true, "isError": false},
+        {"id": "s1", "text": "the organizers decided to proceed", "clickable": true, "isError": false},
+        {"id": "s2", "text": "with the outdoor cultural festival", "clickable": false},
+        {"id": "s3", "text": "in Yogyakarta as planned.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Absolute Phrases. No error. 'The weather being favorable' is a grammatically correct absolute phrase (noun + participle) that modifies the entire main clause."
+    },
+    {
+      "id": "q20",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The new policy aims to provide better healthcare access for the impoverished and the elderly in remote areas.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new policy aims to provide", "clickable": false},
+        {"id": "s1", "text": "better healthcare access for", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the impoverished and the elderly", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in remote areas.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Article Usage. No error. 'The + adjective' (the impoverished, the elderly) correctly functions as a plural noun to refer to a group of people."
+    },
+    {
+      "id": "q21",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The comprehensive list of required documents, along with the detailed submission guidelines, were sent to all applicants yesterday.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The comprehensive list of required documents,", "clickable": true, "isError": false},
+        {"id": "s1", "text": "along with the detailed submission guidelines,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "were sent", "clickable": true, "isError": true, "correctAnswers": ["was sent"]},
+        {"id": "s3", "text": "to all applicants yesterday.", "clickable": false}
+      ],
+      "explanation": "Topic: Complex Subject-Verb Agreement. The true subject is the singular 'list'. Intervening phrases like 'along with' do not make the subject plural, so the verb must be singular ('was')."
+    },
+    {
+      "id": "q22",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The project was completed on time, albeit with a slightly higher budget than originally anticipated by the stakeholders.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The project was completed on time,", "clickable": false},
+        {"id": "s1", "text": "albeit with a slightly higher budget", "clickable": true, "isError": false},
+        {"id": "s2", "text": "than originally anticipated", "clickable": true, "isError": false},
+        {"id": "s3", "text": "by the stakeholders.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Conjunctions. No error. 'Albeit' is a formal conjunction meaning 'although', and it is correctly used here to introduce a concessive phrase."
+    },
+    {
+      "id": "q23",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "We had the old server room completely renovated by a specialized IT firm in Jakarta to improve data security.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "We had the old server room", "clickable": false},
+        {"id": "s1", "text": "completely renovated", "clickable": true, "isError": false},
+        {"id": "s2", "text": "by a specialized IT firm", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in Jakarta to improve data security.", "clickable": false}
+      ],
+      "explanation": "Topic: Causative Structures. No error. 'Have + object + past participle' correctly indicates that someone else performed the action (renovated) for the subject."
+    },
+    {
+      "id": "q24",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The legendary artist is said that he has been working on a new masterpiece for over five years in his Bali studio.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The legendary artist is said", "clickable": false},
+        {"id": "s1", "text": "that he has been working", "clickable": true, "isError": true, "correctAnswers": ["to have been working"]},
+        {"id": "s2", "text": "on a new masterpiece", "clickable": true, "isError": false},
+        {"id": "s3", "text": "for over five years", "clickable": false},
+        {"id": "s4", "text": "in his Bali studio.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Advanced Passive Voice. The structure 'Subject + is said + to-infinitive' is required here. 'That he has been working' is incorrect; it must be 'to have been working'."
+    },
+    {
+      "id": "q25",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The investors are eagerly waiting to know what is the primary reason for the sudden delay in the infrastructure project.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The investors are eagerly waiting", "clickable": false},
+        {"id": "s1", "text": "to know what is the primary reason", "clickable": true, "isError": true, "correctAnswers": ["to know what the primary reason is"]},
+        {"id": "s2", "text": "for the sudden delay", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in the infrastructure project.", "clickable": false}
+      ],
+      "explanation": "Topic: Indirect Question Word Order. In an embedded or indirect question, the word order must be subject + verb ('what the primary reason is'), not verb + subject ('what is the primary reason')."
+    },
+    {
+      "id": "q26",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The new software update has significantly improved the user interface, making it more intuitive for elderly users.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new software update", "clickable": false},
+        {"id": "s1", "text": "has significantly improved", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the user interface,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "making it more intuitive", "clickable": true, "isError": false},
+        {"id": "s4", "text": "for elderly users.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Adverb Placement & Participles. No error. The mid-position adverb 'significantly' is correctly placed between the auxiliary 'has' and the main verb 'improved'."
+    },
+    {
+      "id": "q27",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The average temperature in Bandung during the rainy season is significantly lower than Jakarta.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The average temperature in Bandung", "clickable": false},
+        {"id": "s1", "text": "during the rainy season", "clickable": true, "isError": false},
+        {"id": "s2", "text": "is significantly lower", "clickable": true, "isError": false},
+        {"id": "s3", "text": "than Jakarta.", "clickable": true, "isError": true, "correctAnswers": ["than that of Jakarta.", "than in Jakarta."]}
+      ],
+      "explanation": "Topic: Illogical Comparisons. You must compare 'temperature' to 'temperature', not 'temperature' to a city. Use 'that of' to refer back to the singular noun 'temperature'."
+    },
+    {
+      "id": "q28",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Based on the manager's vague statements during the meeting, we can imply that the company will be downsizing its workforce soon.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Based on the manager's vague statements", "clickable": false},
+        {"id": "s1", "text": "during the meeting,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "we can imply", "clickable": true, "isError": true, "correctAnswers": ["we can infer"]},
+        {"id": "s3", "text": "that the company will be downsizing", "clickable": true, "isError": false},
+        {"id": "s4", "text": "its workforce soon.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Vocabulary (Imply vs. Infer). Speakers or writers 'imply' (suggest), while listeners or readers 'infer' (deduce). Since 'we' are the listeners, 'infer' is correct."
+    },
+    {
+      "id": "q29",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Please revert back to the client as soon as possible with the updated project proposal and the revised budget.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Please revert back", "clickable": true, "isError": true, "correctAnswers": ["Please revert", "Please get back"]},
+        {"id": "s1", "text": "to the client as soon as possible", "clickable": true, "isError": false},
+        {"id": "s2", "text": "with the updated project proposal", "clickable": false},
+        {"id": "s3", "text": "and the revised budget.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Redundancy and Pleonasm. 'Revert' already means 'to go back' or 'to reply'. Adding 'back' is redundant. Use 'revert to' or 'get back to'."
+    },
+    {
+      "id": "q30",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The local artisans, which have been practicing their craft for generations, are struggling to compete with mass-produced goods.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The local artisans,", "clickable": false},
+        {"id": "s1", "text": "which have been practicing", "clickable": true, "isError": true, "correctAnswers": ["who have been practicing"]},
+        {"id": "s2", "text": "their craft for generations,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "are struggling to compete", "clickable": true, "isError": false},
+        {"id": "s4", "text": "with mass-produced goods.", "clickable": false}
+      ],
+      "explanation": "Topic: Restrictive vs. Non-restrictive Relative Clauses. When referring to people ('artisans'), the relative pronoun 'who' must be used, not 'which'."
+    },
+    {
+      "id": "q31",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Only after the board of directors reviewed the financial audit did they realize the extent of the discrepancies.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Only after the board of directors", "clickable": false},
+        {"id": "s1", "text": "reviewed the financial audit", "clickable": true, "isError": false},
+        {"id": "s2", "text": "did they realize", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the extent of the discrepancies.", "clickable": false}
+      ],
+      "explanation": "Topic: Inversion with 'Only after'. No error. When a sentence begins with 'Only after' + clause, the main clause requires subject-auxiliary inversion ('did they realize')."
+    },
+    {
+      "id": "q32",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Had the logistics team known about the port strike, they would have routed the shipment through a different harbor.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Had the logistics team known", "clickable": true, "isError": false},
+        {"id": "s1", "text": "about the port strike,", "clickable": false},
+        {"id": "s2", "text": "they would have routed", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the shipment through a different harbor.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Conditional Inversion. No error. 'Had the logistics team known' is a correct and formal inversion of 'If the logistics team had known' (Third Conditional)."
+    },
+    {
+      "id": "q33",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Despite the economic downturn, a large number of new startups have emerged in Jakarta, bringing a great deal of innovation to the market.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Despite the economic downturn,", "clickable": false},
+        {"id": "s1", "text": "a large number of new startups", "clickable": true, "isError": false},
+        {"id": "s2", "text": "have emerged in Jakarta,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "bringing a great deal of innovation", "clickable": true, "isError": false},
+        {"id": "s4", "text": "to the market.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Quantifiers. No error. 'A large number of' correctly modifies the countable noun 'startups' (taking a plural verb), and 'a great deal of' correctly modifies the uncountable noun 'innovation'."
+    },
+    {
+      "id": "q34",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "It is high time that the local government takes decisive action to address the worsening air pollution in the city.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "It is high time", "clickable": false},
+        {"id": "s1", "text": "that the local government takes", "clickable": true, "isError": true, "correctAnswers": ["that the local government took"]},
+        {"id": "s2", "text": "decisive action to address", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the worsening air pollution", "clickable": false},
+        {"id": "s4", "text": "in the city.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Subjunctive in 'It is high time'. This expression is always followed by a past simple verb to indicate that something should have been done already ('took', not 'takes')."
+    },
+    {
+      "id": "q35",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The manager in charge of the regional sales division will be presenting the quarterly results tomorrow morning.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The manager in charge", "clickable": true, "isError": false},
+        {"id": "s1", "text": "of the regional sales division", "clickable": true, "isError": false},
+        {"id": "s2", "text": "will be presenting", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the quarterly results tomorrow morning.", "clickable": false}
+      ],
+      "explanation": "Topic: Prepositional Phrases as Adjectives. No error. 'In charge of the regional sales division' correctly functions as an adjectival phrase modifying 'The manager'."
+    },
+    {
+      "id": "q36",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The new policy will only affect employees who have been with the company for less than two years.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The new policy will", "clickable": false},
+        {"id": "s1", "text": "only affect employees", "clickable": true, "isError": true, "correctAnswers": ["affect only employees"]},
+        {"id": "s2", "text": "who have been with the company", "clickable": true, "isError": false},
+        {"id": "s3", "text": "for less than two years.", "clickable": false}
+      ],
+      "explanation": "Topic: Misplaced Modifiers. The adverb 'only' should be placed immediately before the word or phrase it modifies. Placing it before 'affect' suggests the policy will do nothing else but affect them, whereas 'affect only employees' correctly limits the scope of who is affected."
+    },
+    {
+      "id": "q37",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The recent archaeological discovery in East Java has casted serious doubt on the previously accepted timeline of the Majapahit Empire.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The recent archaeological discovery", "clickable": false},
+        {"id": "s1", "text": "in East Java has casted", "clickable": true, "isError": true, "correctAnswers": ["in East Java has cast"]},
+        {"id": "s2", "text": "serious doubt on", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the previously accepted timeline", "clickable": false},
+        {"id": "s4", "text": "of the Majapahit Empire.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Advanced Collocations & Irregular Verbs. The past participle of 'cast' is 'cast', not 'casted'. The correct collocation is 'cast doubt on'."
+    },
+    {
+      "id": "q38",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "The system failure was caused by a sudden power outage, not by a software malfunction.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The system failure", "clickable": true, "isError": false},
+        {"id": "s1", "text": "was caused by a sudden", "clickable": false},
+        {"id": "s2", "text": "power outage, not by", "clickable": true, "isError": false},
+        {"id": "s3", "text": "a software malfunction.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Noun Adjuncts. No error. 'System' and 'software' correctly function as noun adjuncts (nouns modifying other nouns) to specify the type of failure and malfunction."
+    },
+    {
+      "id": "q39",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The initial test results were promising; however, the subsequent trials failed to replicate the same level of efficiency.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The initial test results were promising;", "clickable": true, "isError": false},
+        {"id": "s1", "text": "however, the subsequent trials", "clickable": true, "isError": false},
+        {"id": "s2", "text": "failed to replicate", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the same level of efficiency.", "clickable": false}
+      ],
+      "explanation": "Topic: Conjunctive Adverb Punctuation. No error. The semicolon before 'however' and the comma after it are correctly used to join two independent clauses with a conjunctive adverb."
+    },
+    {
+      "id": "q40",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "As it was expected by the market analysts, the central bank decided to keep the interest rates unchanged this quarter.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "As it was expected", "clickable": true, "isError": true, "correctAnswers": ["As was expected"]},
+        {"id": "s1", "text": "by the market analysts,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the central bank decided", "clickable": true, "isError": false},
+        {"id": "s3", "text": "to keep the interest rates", "clickable": false},
+        {"id": "s4", "text": "unchanged this quarter.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Advanced Use of 'As'. In this formal construction, 'As' acts as a relative pronoun referring to the entire main clause. The dummy subject 'it' is unnecessary and incorrect; 'As was expected' is the standard form."
+    },
+    {
+      "id": "q41",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Such was the impact of the new e-commerce regulation that several small vendors had to temporarily halt their operations.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Such was the impact", "clickable": true, "isError": false},
+        {"id": "s1", "text": "of the new e-commerce regulation", "clickable": false},
+        {"id": "s2", "text": "that several small vendors", "clickable": true, "isError": false},
+        {"id": "s3", "text": "had to temporarily halt", "clickable": true, "isError": false},
+        {"id": "s4", "text": "their operations.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced 'Such... that' Structures. No error. Inverting the sentence to 'Such was the impact... that...' is a correct and highly formal way to emphasize the degree of the impact."
+    },
+    {
+      "id": "q42",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The safety officer emphasized the strict protocols lest an accident occurs during the factory inspection.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The safety officer emphasized", "clickable": false},
+        {"id": "s1", "text": "the strict protocols", "clickable": true, "isError": false},
+        {"id": "s2", "text": "lest an accident occurs", "clickable": true, "isError": true, "correctAnswers": ["lest an accident occur"]},
+        {"id": "s3", "text": "during the factory inspection.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Lest' Constructions. The conjunction 'lest' (meaning 'for fear that') is always followed by the subjunctive mood, which uses the base form of the verb ('occur'), not the third-person singular ('occurs')."
+    },
+    {
+      "id": "q43",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If only I have invested in that property in South Jakarta five years ago, I would be financially secure now.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If only I", "clickable": false},
+        {"id": "s1", "text": "have invested", "clickable": true, "isError": true, "correctAnswers": ["had invested"]},
+        {"id": "s2", "text": "in that property in South Jakarta", "clickable": true, "isError": false},
+        {"id": "s3", "text": "five years ago,", "clickable": false},
+        {"id": "s4", "text": "I would be financially secure now.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'If only' for Past Regrets. To express regret about a past situation, 'if only' must be followed by the past perfect tense ('had invested'), not the present perfect."
+    },
+    {
+      "id": "q44",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "I would rather you did not disclose the confidential merger details to anyone outside the executive team.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "I would rather", "clickable": false},
+        {"id": "s1", "text": "you did not disclose", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the confidential merger details", "clickable": true, "isError": false},
+        {"id": "s3", "text": "to anyone outside the executive team.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced 'Would rather'. When 'would rather' is followed by a different subject ('you'), the verb must be in the past subjunctive ('did not disclose') to refer to a present or future preference."
+    },
+    {
+      "id": "q45",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Supposing the heavy rainfall continues throughout the week, the agricultural committee will declare a state of emergency.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Supposing the heavy rainfall", "clickable": true, "isError": false},
+        {"id": "s1", "text": "continues throughout the week,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the agricultural committee", "clickable": false},
+        {"id": "s3", "text": "will declare a state of emergency.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'Supposing' Conditionals. No error. 'Supposing' functions identically to 'if' in conditional sentences and is correctly followed by the present simple tense for a real future possibility."
+    },
+    {
+      "id": "q46",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Although the heavy monsoon rains, the construction of the new toll road in Sumatra proceeded according to schedule.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Although the heavy monsoon rains,", "clickable": true, "isError": true, "correctAnswers": ["Despite the heavy monsoon rains,", "Although there were heavy monsoon rains,"]},
+        {"id": "s1", "text": "the construction of the new toll road", "clickable": true, "isError": false},
+        {"id": "s2", "text": "in Sumatra proceeded", "clickable": true, "isError": false},
+        {"id": "s3", "text": "according to schedule.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Despite' vs. 'Although'. 'Although' is a conjunction and must be followed by a clause (subject + verb). Since 'the heavy monsoon rains' is a noun phrase, the preposition 'Despite' must be used."
+    },
+    {
+      "id": "q47",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "After living in Singapore for three months, she is finally getting used to the fast-paced lifestyle and the humid weather.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "After living in Singapore", "clickable": false},
+        {"id": "s1", "text": "for three months,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "she is finally getting used to", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the fast-paced lifestyle and the humid weather.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Get used to'. No error. 'Getting used to' correctly describes the process of becoming accustomed to something, and it is properly followed by noun phrases."
+    },
+    {
+      "id": "q48",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Need the board of directors to approve the budget before we can proceed with the hiring process?",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Need the board of directors", "clickable": true, "isError": true, "correctAnswers": ["Does the board of directors need"]},
+        {"id": "s1", "text": "to approve the budget", "clickable": true, "isError": false},
+        {"id": "s2", "text": "before we can proceed", "clickable": true, "isError": false},
+        {"id": "s3", "text": "with the hiring process?", "clickable": false}
+      ],
+      "explanation": "Topic: 'Need' as a Main Verb vs. Semi-modal. In modern English, 'need' is rarely used as a semi-modal in affirmative or standard interrogative sentences without 'do' support. 'Does... need' is the correct standard interrogative form."
+    },
+    {
+      "id": "q49",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "The committee decided to invest in renewable energy sources rather than to continue relying on fossil fuels.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The committee decided", "clickable": false},
+        {"id": "s1", "text": "to invest in renewable energy sources", "clickable": true, "isError": false},
+        {"id": "s2", "text": "rather than to continue", "clickable": true, "isError": true, "correctAnswers": ["rather than continue"]},
+        {"id": "s3", "text": "relying on fossil fuels.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'Rather than' Parallelism. When 'rather than' is used to contrast two infinitive actions, the 'to' is typically omitted in the second part to maintain smooth parallelism ('to invest... rather than continue')."
+    },
+    {
+      "id": "q50",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "He speaks about the ancient maritime trade routes as if he were a historian who had dedicated his entire life to the subject.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "He speaks about the ancient maritime trade routes", "clickable": false},
+        {"id": "s1", "text": "as if he were", "clickable": true, "isError": false},
+        {"id": "s2", "text": "a historian who had dedicated", "clickable": true, "isError": false},
+        {"id": "s3", "text": "his entire life to the subject.", "clickable": false}
+      ],
+      "explanation": "Topic: 'As if' Subjunctive. No error. 'As if he were' correctly uses the past subjunctive to describe a hypothetical or unreal comparison in the present."
+    },
+    {
+      "id": "q51",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Provided that the necessary permits are obtained, the construction of the new eco-resort will commence next month.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Provided that the necessary permits", "clickable": true, "isError": false},
+        {"id": "s1", "text": "are obtained,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "the construction of the new eco-resort", "clickable": false},
+        {"id": "s3", "text": "will commence next month.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'Provided that' Conditionals. No error. 'Provided that' is a formal conjunction meaning 'on the condition that', and it is correctly followed by a present tense verb in a first conditional structure."
+    },
+    {
+      "id": "q52",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "No sooner the meeting had concluded than the journalists began asking the CEO about the sudden resignation.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "No sooner", "clickable": false},
+        {"id": "s1", "text": "the meeting had concluded", "clickable": true, "isError": true, "correctAnswers": ["had the meeting concluded"]},
+        {"id": "s2", "text": "than the journalists began", "clickable": true, "isError": false},
+        {"id": "s3", "text": "asking the CEO about the sudden resignation.", "clickable": false}
+      ],
+      "explanation": "Topic: 'No sooner... than' Inversion. When a sentence begins with 'No sooner', the subject and auxiliary verb must be inverted ('had the meeting concluded')."
+    },
+    {
+      "id": "q53",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Not until the final data analysis was completed did the researchers fully understand the implications of their findings.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Not until the final data analysis", "clickable": false},
+        {"id": "s1", "text": "was completed", "clickable": true, "isError": false},
+        {"id": "s2", "text": "did the researchers fully understand", "clickable": true, "isError": false},
+        {"id": "s3", "text": "the implications of their findings.", "clickable": false}
+      ],
+      "explanation": "Topic: 'Not until' Inversion. No error. The sentence correctly uses inversion in the main clause ('did the researchers fully understand') after a fronted 'Not until' phrase."
+    },
+    {
+      "id": "q54",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Seldom we see such a high level of dedication and professionalism from the volunteer team in rural areas.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Seldom", "clickable": false},
+        {"id": "s1", "text": "we see", "clickable": true, "isError": true, "correctAnswers": ["do we see"]},
+        {"id": "s2", "text": "such a high level of dedication", "clickable": true, "isError": false},
+        {"id": "s3", "text": "and professionalism from the volunteer team", "clickable": false},
+        {"id": "s4", "text": "in rural areas.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: Inversion with Negative Adverbs. Fronted negative or restrictive adverbs like 'Seldom' require subject-auxiliary inversion in the main clause ('do we see')."
+    },
+    {
+      "id": "q55",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "Under no circumstances the confidential client data should be shared with external parties without explicit written consent.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Under no circumstances", "clickable": false},
+        {"id": "s1", "text": "the confidential client data should be", "clickable": true, "isError": true, "correctAnswers": ["should the confidential client data be"]},
+        {"id": "s2", "text": "shared with external parties", "clickable": true, "isError": false},
+        {"id": "s3", "text": "without explicit written consent.", "clickable": false}
+      ],
+      "explanation": "Topic: Inversion with 'Under no circumstances'. This negative phrase at the beginning of a sentence mandates subject-auxiliary inversion ('should the data be')."
+    },
+    {
+      "id": "q56",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "On no account are visitors permitted to enter the restricted archaeological zone without an authorized guide.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "On no account", "clickable": false},
+        {"id": "s1", "text": "are visitors permitted", "clickable": true, "isError": false},
+        {"id": "s2", "text": "to enter the restricted archaeological zone", "clickable": true, "isError": false},
+        {"id": "s3", "text": "without an authorized guide.", "clickable": false}
+      ],
+      "explanation": "Topic: Inversion with 'On no account'. No error. The sentence correctly applies subject-auxiliary inversion ('are visitors') after the fronted negative phrase 'On no account'."
+    },
+    {
+      "id": "q57",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "Little did the early investors know that the small startup would eventually become a unicorn in the Southeast Asian market.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Little did the early investors know", "clickable": true, "isError": false},
+        {"id": "s1", "text": "that the small startup", "clickable": true, "isError": false},
+        {"id": "s2", "text": "would eventually become a unicorn", "clickable": true, "isError": false},
+        {"id": "s3", "text": "in the Southeast Asian market.", "clickable": false}
+      ],
+      "explanation": "Topic: Inversion with 'Little'. No error. 'Little did [subject] know' is a correct and idiomatic inverted structure used to emphasize that someone was completely unaware of something."
+    },
+    {
+      "id": "q58",
+      "type": "multi_error",
+      "question": "Identify all errors (word, phrase, or clause).",
+      "sentence": "If the shipment should gets delayed due to the typhoon, please notify the logistics team immediately.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "If the shipment", "clickable": false},
+        {"id": "s1", "text": "should gets delayed", "clickable": true, "isError": true, "correctAnswers": ["should get delayed"]},
+        {"id": "s2", "text": "due to the typhoon,", "clickable": true, "isError": false},
+        {"id": "s3", "text": "please notify the logistics team", "clickable": false},
+        {"id": "s4", "text": "immediately.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'Should' in Conditional Clauses. After the modal verb 'should', the base form of the verb must be used ('get'), not the third-person singular ('gets')."
+    },
+    {
+      "id": "q59",
+      "type": "multi_error",
+      "question": "Check for errors.",
+      "sentence": "Were the proposed merger to be approved by the regulatory body, it would create the largest telecommunications company in the region.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "Were the proposed merger", "clickable": true, "isError": false},
+        {"id": "s1", "text": "to be approved by the regulatory body,", "clickable": true, "isError": false},
+        {"id": "s2", "text": "it would create the largest", "clickable": false},
+        {"id": "s3", "text": "telecommunications company in the region.", "clickable": true, "isError": false}
+      ],
+      "explanation": "Topic: 'Were' in Conditional Clauses. No error. 'Were [subject] to [verb]' is a correct and highly formal inversion of 'If [subject] were to [verb]' (Second Conditional)."
+    },
+    {
+      "id": "q60",
+      "type": "multi_error",
+      "question": "Click on error(s) and type correction.",
+      "sentence": "The success of the new fintech startup in Jakarta is largely independent from the global economic fluctuations.",
+      "multiErrorSegments": [
+        {"id": "s0", "text": "The success of the new fintech startup", "clickable": false},
+        {"id": "s1", "text": "in Jakarta is largely", "clickable": true, "isError": false},
+        {"id": "s2", "text": "independent from", "clickable": true, "isError": true, "correctAnswers": ["independent of"]},
+        {"id": "s3", "text": "the global economic fluctuations.", "clickable": false}
+      ],
+      "explanation": "Topic: Advanced Prepositional Collocations. The adjective 'independent' is correctly followed by the preposition 'of', not 'from'."
+    }
+  ]
+}
