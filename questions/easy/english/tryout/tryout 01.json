@@ -22,7 +22,49 @@
         "E": "Shh"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Interjection. The interjection 'Oops' is used to express a mild apology or realization of a small mistake or accident. Translation: Ups! Saya benar-benar lupa membawa tiket masuk saya ke pusat pengujian. Penjelasan: Interjection 'Oops' digunakan untuk mengekspresikan permintaan maaf yang ringan atau kesadaran akan kesalahan atau kecelakaan kecil."
+      "explanationDetails": {
+        "id": "GRAM-0101",
+        "slug": "interjection-oops-mild-mistake",
+        "details_explanation": {
+          "explanation": "English: 'Oops' expresses a mild apology or realization of a small mistake. Bahasa Indonesia: 'Oops' digunakan untuk menyatakan permintaan maaf ringan atau kesadaran akan kesalahan kecil.",
+          "introduction": "Interjections express sudden emotion or reaction. 'Oops' is used after a minor mistake or accident.",
+          "rules": [
+            {
+              "title": "1. Use of Oops",
+              "explanation": "Use 'Oops' when you realize you made a small mistake or forgot something.",
+              "structure": "Oops! + sentence about the mistake",
+              "notes": [
+                "ID: Gunakan 'Oops' saat menyadari kesalahan kecil atau lupa sesuatu."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Ouch! I forgot my ticket.",
+              "correct": "Oops! I forgot my ticket.",
+              "reason": "English: 'Ouch' expresses pain, not a minor mistake. Bahasa Indonesia: 'Ouch' menyatakan rasa sakit, bukan kesalahan kecil."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Oops! I dropped my pen.",
+            "translation": "Ups! Saya menjatuhkan pena saya."
+          },
+          {
+            "sentence": "2. Oops! I called the wrong number.",
+            "translation": "Ups! Saya menelepon nomor yang salah."
+          }
+        ],
+        "references": [
+          {
+            "title": "Interjections",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/interjections",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 2,
@@ -36,7 +78,49 @@
         "E": "polishes"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Object Complement. The verb 'order' is followed by an object and an infinitive ('to polish') to form an object complement structure. Translation: Sersan memerintahkan para rekrutan untuk mengilapkan sepatu bot mereka segera sebelum inspeksi. Penjelasan: Kata kerja 'order' diikuti oleh objek dan infinitive ('to polish') untuk membentuk struktur object complement."
+      "explanationDetails": {
+        "id": "GRAM-0102",
+        "slug": "object-complement-order-to-infinitive",
+        "details_explanation": {
+          "explanation": "English: 'Order' can take an object + to-infinitive: order someone to do something. Bahasa Indonesia: 'Order' dapat diikuti objek + to-infinitive: memerintahkan seseorang untuk melakukan sesuatu.",
+          "introduction": "Verbs such as order, tell, ask, and advise commonly use the pattern verb + object + to-infinitive.",
+          "rules": [
+            {
+              "title": "1. Object + To-Infinitive",
+              "explanation": "After 'order', use the object followed by 'to + base verb'.",
+              "structure": "order + object + to + V1",
+              "notes": [
+                "ID: Setelah 'order', gunakan objek lalu 'to + kata kerja dasar'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The sergeant ordered the recruits polish their boots.",
+              "correct": "The sergeant ordered the recruits to polish their boots.",
+              "reason": "English: The object complement after 'order' needs a to-infinitive. Bahasa Indonesia: Object complement setelah 'order' memerlukan to-infinitive."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The teacher ordered the students to be quiet.",
+            "translation": "Guru memerintahkan para siswa untuk diam."
+          },
+          {
+            "sentence": "2. The officer ordered them to stop.",
+            "translation": "Petugas memerintahkan mereka untuk berhenti."
+          }
+        ],
+        "references": [
+          {
+            "title": "Verb + object + to-infinitive",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/verb-patterns-verb-object-infinitive",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -50,7 +134,49 @@
         "E": "iron"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Simple Present Tense. The third-person singular subject 'cadet' requires the verb form 'irons' for a daily habitual action. Translation: Kadet tersebut menyetrika seragamnya dengan rapi sebelum inspeksi pagi setiap hari. Penjelasan: Subjek orang ketiga tunggal 'cadet' memerlukan bentuk kata kerja 'irons' untuk tindakan kebiasaan harian."
+      "explanationDetails": {
+        "id": "GRAM-0103",
+        "slug": "simple-present-third-person-singular-habit",
+        "details_explanation": {
+          "explanation": "English: The singular subject 'cadet' takes 'irons' in the simple present for a daily habit. Bahasa Indonesia: Subjek tunggal 'cadet' memakai 'irons' dalam simple present untuk kebiasaan harian.",
+          "introduction": "The simple present describes habits, routines, and general facts.",
+          "rules": [
+            {
+              "title": "1. Third-Person Singular",
+              "explanation": "Add -s or -es to the base verb with he, she, it, or a singular noun.",
+              "structure": "Singular subject + V1(-s/-es)",
+              "notes": [
+                "ID: Tambahkan -s/-es pada kata kerja dasar dengan subjek tunggal orang ketiga."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The cadet iron his uniform every day.",
+              "correct": "The cadet irons his uniform every day.",
+              "reason": "English: The third-person singular subject requires 'irons'. Bahasa Indonesia: Subjek tunggal orang ketiga memerlukan 'irons'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She cleans her room every morning.",
+            "translation": "Dia membersihkan kamarnya setiap pagi."
+          },
+          {
+            "sentence": "2. The soldier checks his equipment daily.",
+            "translation": "Prajurit itu memeriksa perlengkapannya setiap hari."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 4,
@@ -64,7 +190,49 @@
         "E": "Are"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'Have' with 'ever' to ask about general life experiences up to the present. Translation: Apakah kamu pernah mengikuti tes kemampuan bahasa Inggris yang terstandarisasi sebelum mendaftar ke universitas? Penjelasan: Present perfect tense menggunakan 'Have' dengan 'ever' untuk menanyakan tentang pengalaman hidup secara umum hingga saat ini."
+      "explanationDetails": {
+        "id": "GRAM-0104",
+        "slug": "present-perfect-have-ever-experience",
+        "details_explanation": {
+          "explanation": "English: Use 'Have' with 'you' in the present perfect to ask about life experience with 'ever'. Bahasa Indonesia: Gunakan 'Have' dengan 'you' dalam present perfect untuk menanyakan pengalaman hidup dengan 'ever'.",
+          "introduction": "The present perfect with 'ever' asks whether an experience has happened at any time before now.",
+          "rules": [
+            {
+              "title": "1. Have/Has + Ever + Past Participle",
+              "explanation": "Use 'Have' with I/you/we/they and 'Has' with he/she/it.",
+              "structure": "Have/Has + subject + ever + V3?",
+              "notes": [
+                "ID: Gunakan 'Have' untuk I/you/we/they dan 'Has' untuk he/she/it."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Did you ever taken the test?",
+              "correct": "Have you ever taken the test?",
+              "reason": "English: 'Ever' with experience uses the present perfect, not 'did + past participle'. Bahasa Indonesia: 'Ever' untuk pengalaman memakai present perfect, bukan 'did + past participle'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Have you ever visited Bali?",
+            "translation": "Apakah kamu pernah mengunjungi Bali?"
+          },
+          {
+            "sentence": "2. Has she ever failed an exam?",
+            "translation": "Apakah dia pernah gagal ujian?"
+          }
+        ],
+        "references": [
+          {
+            "title": "Present perfect",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 5,
@@ -78,7 +246,49 @@
         "E": "anxiously"
       },
       "correctAnswer": "E",
-      "explanation": "Topic: Adverb of Manner. An adverb is needed to modify the verb 'waiting', describing how the action is performed. 'Anxiously' is the correct form. Translation: Anak-anak sedang menunggu dengan cemas hasil ujian mereka untuk diumumkan oleh sekolah. Penjelasan: Adverb of manner diperlukan untuk memodifikasi kata kerja 'waiting', menjelaskan bagaimana aksi tersebut dilakukan. 'Anxiously' adalah bentuk yang tepat."
+      "explanationDetails": {
+        "id": "GRAM-0105",
+        "slug": "adverb-of-manner-anxiously",
+        "details_explanation": {
+          "explanation": "English: An adverb is needed to modify the verb 'are waiting'; 'anxiously' describes how they wait. Bahasa Indonesia: Kata keterangan diperlukan untuk memodifikasi kata kerja 'are waiting'; 'anxiously' menjelaskan cara mereka menunggu.",
+          "introduction": "Adverbs of manner describe how an action is performed.",
+          "rules": [
+            {
+              "title": "1. Adverb Modifies Verb",
+              "explanation": "Use an adverb of manner after the verb or after the object to describe how the action happens.",
+              "structure": "Subject + verb + adverb",
+              "notes": [
+                "ID: Gunakan adverb of manner untuk menjelaskan bagaimana aksi dilakukan."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The children are waiting anxious.",
+              "correct": "The children are waiting anxiously.",
+              "reason": "English: 'Anxious' is an adjective; 'anxiously' is the adverb modifying 'waiting'. Bahasa Indonesia: 'Anxious' adalah adjective; 'anxiously' adalah adverb yang memodifikasi 'waiting'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She spoke quietly during the meeting.",
+            "translation": "Dia berbicara dengan tenang selama rapat."
+          },
+          {
+            "sentence": "2. They waited patiently for the announcement.",
+            "translation": "Mereka menunggu dengan sabar untuk pengumuman itu."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adverbs",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 6,
@@ -92,7 +302,49 @@
         "E": "they"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Pronoun (Object). The verb 'gave' requires an object pronoun to receive the action. 'Them' is the correct object pronoun for the third person plural. Translation: Kepala sekolah memberikan mereka peringatan tentang peraturan sekolah yang ketat kemarin. Penjelasan: Kata kerja 'gave' memerlukan object pronoun untuk menerima aksi tersebut. 'Them' adalah object pronoun yang tepat untuk orang ketiga jamak."
+      "explanationDetails": {
+        "id": "GRAM-0106",
+        "slug": "object-pronoun-them",
+        "details_explanation": {
+          "explanation": "English: The verb 'gave' needs an object pronoun; 'them' is the object form for a plural recipient. Bahasa Indonesia: Kata kerja 'gave' memerlukan object pronoun; 'them' adalah bentuk objek untuk penerima jamak.",
+          "introduction": "Object pronouns receive the action of a verb.",
+          "rules": [
+            {
+              "title": "1. Object Pronoun",
+              "explanation": "Use me, you, him, her, it, us, or them after a verb or preposition.",
+              "structure": "Verb + object pronoun",
+              "notes": [
+                "ID: Gunakan me, you, him, her, it, us, atau them setelah kata kerja atau preposisi."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The principal gave they a warning.",
+              "correct": "The principal gave them a warning.",
+              "reason": "English: 'They' is a subject pronoun; 'them' is the object pronoun. Bahasa Indonesia: 'They' adalah subject pronoun; 'them' adalah object pronoun."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. I saw them at the library.",
+            "translation": "Saya melihat mereka di perpustakaan."
+          },
+          {
+            "sentence": "2. She called us yesterday.",
+            "translation": "Dia menelepon kami kemarin."
+          }
+        ],
+        "references": [
+          {
+            "title": "Pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 7,
@@ -106,7 +358,49 @@
         "E": "ago"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'for' to indicate a duration or period of time. Translation: Mereka telah tinggal di Jakarta selama lima tahun sambil menempuh pendidikan di universitas negeri. Penjelasan: Present perfect tense menggunakan 'for' untuk menunjukkan durasi atau periode waktu."
+      "explanationDetails": {
+        "id": "GRAM-0107",
+        "slug": "present-perfect-for-duration",
+        "details_explanation": {
+          "explanation": "English: Use 'for' with a length of time in the present perfect. Bahasa Indonesia: Gunakan 'for' dengan durasi waktu dalam present perfect.",
+          "introduction": "The present perfect uses 'for' for a period of time and 'since' for a starting point.",
+          "rules": [
+            {
+              "title": "1. For + Duration",
+              "explanation": "Use 'for' before expressions like five years, two months, or a long time.",
+              "structure": "have/has + V3 + for + duration",
+              "notes": [
+                "ID: Gunakan 'for' sebelum durasi seperti five years, two months, atau a long time."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "They have lived in Jakarta since five years.",
+              "correct": "They have lived in Jakarta for five years.",
+              "reason": "English: 'Since' needs a starting point, not a duration. Bahasa Indonesia: 'Since' memerlukan titik awal, bukan durasi."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. I have studied English for three years.",
+            "translation": "Saya telah belajar bahasa Inggris selama tiga tahun."
+          },
+          {
+            "sentence": "2. She has worked here for six months.",
+            "translation": "Dia telah bekerja di sini selama enam bulan."
+          }
+        ],
+        "references": [
+          {
+            "title": "For and since",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/for-and-since",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 8,
@@ -120,7 +414,49 @@
         "E": "However"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Preposition of Contrast. 'Despite' is a preposition meaning 'in spite of' and is correctly followed by a noun phrase ('the fact'). Translation: Terlepas dari fakta bahwa dia sakit, dia menghadiri pengarahan penting untuk para rekrutan baru. Penjelasan: 'Despite' adalah preposisi yang berarti 'in spite of' dan dengan benar diikuti oleh frasa kata benda (noun phrase)."
+      "explanationDetails": {
+        "id": "GRAM-0108",
+        "slug": "preposition-contrast-despite-noun-phrase",
+        "details_explanation": {
+          "explanation": "English: 'Despite' is a preposition meaning 'in spite of' and is followed by a noun phrase. Bahasa Indonesia: 'Despite' adalah preposisi yang berarti 'meskipun' dan diikuti frasa kata benda.",
+          "introduction": "Despite and in spite of are prepositions used before nouns or noun phrases to show contrast.",
+          "rules": [
+            {
+              "title": "1. Despite + Noun Phrase",
+              "explanation": "Use 'Despite' before a noun, pronoun, or noun phrase such as 'the fact that...'.",
+              "structure": "Despite + noun phrase + clause",
+              "notes": [
+                "ID: Gunakan 'Despite' sebelum kata benda, pronoun, atau frasa kata benda."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Although the fact that he was sick, he attended.",
+              "correct": "Despite the fact that he was sick, he attended.",
+              "reason": "English: 'Although' is followed by a clause, not a noun phrase. Bahasa Indonesia: 'Although' diikuti klausa, bukan frasa kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Despite the rain, they continued the march.",
+            "translation": "Meskipun hujan, mereka melanjutkan pawai."
+          },
+          {
+            "sentence": "2. Despite his age, he passed the physical test.",
+            "translation": "Meskipun usianya, dia lulus tes fisik."
+          }
+        ],
+        "references": [
+          {
+            "title": "Despite and in spite of",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/despite-and-in-spite-of",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 9,
@@ -134,7 +470,49 @@
         "E": "Wow"
       },
       "correctAnswer": "E",
-      "explanation": "Topic: Interjection. The interjection 'Wow' is used to express surprise or admiration, often regarding something impressive or difficult. Translation: Wah! Itu adalah pertanyaan matematika yang sangat sulit pada ujian masuk universitas negeri. Penjelasan: Interjection 'Wow' digunakan untuk mengekspresikan kejutan atau kekaguman, sering kali mengenai sesuatu yang mengesankan atau sulit."
+      "explanationDetails": {
+        "id": "GRAM-0109",
+        "slug": "interjection-wow-surprise",
+        "details_explanation": {
+          "explanation": "English: 'Wow' expresses surprise or admiration. Bahasa Indonesia: 'Wow' mengekspresikan kejutan atau kekaguman.",
+          "introduction": "Interjections such as 'Wow' express strong reaction to something impressive or surprising.",
+          "rules": [
+            {
+              "title": "1. Wow for Surprise",
+              "explanation": "Use 'Wow' when reacting to something surprising, impressive, or difficult.",
+              "structure": "Wow! + comment",
+              "notes": [
+                "ID: Gunakan 'Wow' saat bereaksi terhadap sesuatu yang mengejutkan, mengesankan, atau sulit."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Ouch! That was a difficult question.",
+              "correct": "Wow! That was a difficult question.",
+              "reason": "English: 'Ouch' shows pain, not surprise or admiration. Bahasa Indonesia: 'Ouch' menunjukkan rasa sakit, bukan kejutan atau kekaguman."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Wow! You finished the exam so quickly.",
+            "translation": "Wah! Kamu menyelesaikan ujiannya begitu cepat."
+          },
+          {
+            "sentence": "2. Wow! That was an amazing performance.",
+            "translation": "Wah! Itu adalah penampilan yang luar biasa."
+          }
+        ],
+        "references": [
+          {
+            "title": "Interjections",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/interjections",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 10,
@@ -148,7 +526,49 @@
         "E": "in"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Preposition of Time. The preposition 'at' is used for specific, exact times of the day. Translation: Wawancara akhir untuk akademi militer akan dimulai pukul 8:00 pagi besok. Penjelasan: Preposisi 'at' digunakan untuk waktu yang spesifik dan tepat dalam sehari."
+      "explanationDetails": {
+        "id": "GRAM-0110",
+        "slug": "preposition-time-at-exact-time",
+        "details_explanation": {
+          "explanation": "English: 'At' is used with exact clock times. Bahasa Indonesia: 'At' digunakan dengan waktu jam yang tepat.",
+          "introduction": "Prepositions of time include at for exact times, on for days/dates, and in for months/years/long periods.",
+          "rules": [
+            {
+              "title": "1. At + Exact Time",
+              "explanation": "Use 'at' before clock times such as 8:00 AM, noon, or midnight.",
+              "structure": "at + clock time",
+              "notes": [
+                "ID: Gunakan 'at' sebelum waktu jam seperti 8:00 AM, noon, atau midnight."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The interview will begin in 8:00 AM.",
+              "correct": "The interview will begin at 8:00 AM.",
+              "reason": "English: 'In' is not used with an exact clock time. Bahasa Indonesia: 'In' tidak digunakan dengan waktu jam yang tepat."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The ceremony starts at 7:30 AM.",
+            "translation": "Upacara dimulai pukul 7:30 pagi."
+          },
+          {
+            "sentence": "2. We will meet at noon.",
+            "translation": "Kita akan bertemu pada tengah hari."
+          }
+        ],
+        "references": [
+          {
+            "title": "Prepositions of time",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions-of-time",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 11,
@@ -162,7 +582,49 @@
         "E": "discovery"
       },
       "correctAnswer": "E",
-      "explanation": "Topic: Vocabulary (Suffix). The sentence requires a noun after the adjective 'remarkable'. The suffix '-y' turns the verb 'discover' into the noun 'discovery'. Translation: Ilmuwan tersebut membuat sebuah penemuan yang luar biasa di bidang energi terbarukan. Penjelasan: Kalimat ini memerlukan kata benda (noun) setelah kata sifat 'remarkable'. Sufiks '-y' mengubah kata kerja 'discover' menjadi kata benda 'discovery'."
+      "explanationDetails": {
+        "id": "GRAM-0111",
+        "slug": "noun-suffix-discovery",
+        "details_explanation": {
+          "explanation": "English: A noun is needed after the adjective 'remarkable'; 'discovery' is the noun form. Bahasa Indonesia: Kata benda diperlukan setelah adjective 'remarkable'; 'discovery' adalah bentuk kata bendanya.",
+          "introduction": "Suffixes such as -y, -ance, -ation, -ment, and -ness can form nouns.",
+          "rules": [
+            {
+              "title": "1. Noun after Adjective",
+              "explanation": "Use a noun after an adjective such as 'remarkable'.",
+              "structure": "adjective + noun",
+              "notes": [
+                "ID: Gunakan kata benda setelah adjective seperti 'remarkable'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The scientist made a remarkable discover.",
+              "correct": "The scientist made a remarkable discovery.",
+              "reason": "English: 'Discover' is a verb; 'discovery' is the noun. Bahasa Indonesia: 'Discover' adalah kata kerja; 'discovery' adalah kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The discovery changed modern medicine.",
+            "translation": "Penemuan itu mengubah kedokteran modern."
+          },
+          {
+            "sentence": "2. They announced a major discovery in physics.",
+            "translation": "Mereka mengumumkan penemuan besar dalam fisika."
+          }
+        ],
+        "references": [
+          {
+            "title": "Suffixes",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 12,
@@ -176,7 +638,49 @@
         "E": "believe"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Vocabulary (Suffix). An adjective is needed to modify the noun 'testimony'. The suffix '-able' forms the adjective 'believable', meaning capable of being believed. Translation: Saksi tersebut memberikan kesaksian yang sangat dapat dipercaya selama persidangan pidana. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'testimony'. Sufiks '-able' membentuk adjective 'believable', yang berarti dapat dipercaya."
+      "explanationDetails": {
+        "id": "GRAM-0112",
+        "slug": "adjective-suffix-believable",
+        "details_explanation": {
+          "explanation": "English: An adjective is needed to modify 'testimony'; 'believable' means able to be believed. Bahasa Indonesia: Adjective diperlukan untuk memodifikasi 'testimony'; 'believable' berarti dapat dipercaya.",
+          "introduction": "The suffix -able forms adjectives meaning 'can be' or 'capable of being'.",
+          "rules": [
+            {
+              "title": "1. Adjective before Noun",
+              "explanation": "Use an adjective before the noun it describes.",
+              "structure": "adjective + noun",
+              "notes": [
+                "ID: Gunakan adjective sebelum kata benda yang dijelaskannya."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The witness provided a highly belief testimony.",
+              "correct": "The witness provided a highly believable testimony.",
+              "reason": "English: 'Belief' is a noun; 'believable' is the adjective. Bahasa Indonesia: 'Belief' adalah kata benda; 'believable' adalah adjective."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Her story was believable.",
+            "translation": "Ceritanya dapat dipercaya."
+          },
+          {
+            "sentence": "2. He gave a believable explanation.",
+            "translation": "Dia memberikan penjelasan yang dapat dipercaya."
+          }
+        ],
+        "references": [
+          {
+            "title": "Suffixes",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 13,
@@ -190,7 +694,49 @@
         "E": "during"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'since' to refer to a specific starting point in the past ('I was a young child'). Translation: Saya telah ingin menjadi seorang petugas polisi sejak saya masih kecil. Penjelasan: Present perfect tense menggunakan 'since' untuk merujuk pada titik awal tertentu di masa lalu."
+      "explanationDetails": {
+        "id": "GRAM-0113",
+        "slug": "present-perfect-since-starting-point",
+        "details_explanation": {
+          "explanation": "English: 'Since' is used with a specific starting point in the past in the present perfect. Bahasa Indonesia: 'Since' digunakan dengan titik awal tertentu di masa lalu dalam present perfect.",
+          "introduction": "The present perfect uses 'since' before a point in time and 'for' before a duration.",
+          "rules": [
+            {
+              "title": "1. Since + Starting Point",
+              "explanation": "Use 'since' before a clause or time expression showing when something began.",
+              "structure": "have/has + V3 + since + starting point",
+              "notes": [
+                "ID: Gunakan 'since' sebelum klausa atau ekspresi waktu yang menunjukkan kapan sesuatu dimulai."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I have wanted to become a police officer for I was a child.",
+              "correct": "I have wanted to become a police officer since I was a child.",
+              "reason": "English: 'For' is used with a duration, not a starting clause. Bahasa Indonesia: 'For' digunakan dengan durasi, bukan klausa titik awal."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She has lived here since 2019.",
+            "translation": "Dia telah tinggal di sini sejak 2019."
+          },
+          {
+            "sentence": "2. I have known him since we were children.",
+            "translation": "Saya telah mengenalnya sejak kami masih anak-anak."
+          }
+        ],
+        "references": [
+          {
+            "title": "For and since",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/for-and-since",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 14,
@@ -204,7 +750,49 @@
         "E": "for"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Preposition. The adjective 'applicable' is always followed by the preposition 'to' to indicate relevance. Translation: Peraturan baru tersebut berlaku untuk semua siswa sekolah negeri tanpa terkecuali. Penjelasan: Kata sifat 'applicable' selalu diikuti oleh preposisi 'to' untuk menunjukkan keterkaitan atau keberlakuan."
+      "explanationDetails": {
+        "id": "GRAM-0114",
+        "slug": "preposition-applicable-to",
+        "details_explanation": {
+          "explanation": "English: The adjective 'applicable' is followed by the preposition 'to'. Bahasa Indonesia: Adjective 'applicable' diikuti preposisi 'to'.",
+          "introduction": "Some adjectives have fixed prepositions, such as applicable to, responsible for, and interested in.",
+          "rules": [
+            {
+              "title": "1. Applicable To",
+              "explanation": "Use 'applicable to' to mean relevant to or affecting someone/something.",
+              "structure": "applicable + to + noun/pronoun",
+              "notes": [
+                "ID: Gunakan 'applicable to' untuk berarti berlaku bagi seseorang/sesuatu."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The rule is applicable for all students.",
+              "correct": "The rule is applicable to all students.",
+              "reason": "English: The fixed preposition after 'applicable' is 'to'. Bahasa Indonesia: Preposisi tetap setelah 'applicable' adalah 'to'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. This rule is applicable to all employees.",
+            "translation": "Peraturan ini berlaku untuk semua karyawan."
+          },
+          {
+            "sentence": "2. The discount is applicable to new members.",
+            "translation": "Diskon tersebut berlaku untuk anggota baru."
+          }
+        ],
+        "references": [
+          {
+            "title": "Prepositions",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 15,
@@ -218,7 +806,49 @@
         "E": "disappear"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Vocabulary (Prefix and Suffix). The prefix 'dis-' indicates negation or reversal, and '-ance' forms a noun. 'Disappearance' means the act of vanishing. Translation: Hilangnya dokumen-dokumen lama secara tidak terduga membuat penelitian sejarah menjadi sangat sulit. Penjelasan: Prefix 'dis-' menunjukkan negasi atau pembalikan, dan '-ance' membentuk kata benda. 'Disappearance' berarti tindakan menghilang."
+      "explanationDetails": {
+        "id": "GRAM-0115",
+        "slug": "noun-prefix-suffix-disappearance",
+        "details_explanation": {
+          "explanation": "English: 'Disappearance' is the noun formed with dis- and -ance, meaning the act of vanishing. Bahasa Indonesia: 'Disappearance' adalah kata benda dengan dis- dan -ance, berarti tindakan menghilang.",
+          "introduction": "Prefixes change meaning, and suffixes can change word class.",
+          "rules": [
+            {
+              "title": "1. Noun after Adjective",
+              "explanation": "The adjective 'unexpected' modifies a noun, so use 'disappearance'.",
+              "structure": "adjective + noun + of + noun",
+              "notes": [
+                "ID: Adjective 'unexpected' memodifikasi kata benda, jadi gunakan 'disappearance'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The unexpected disappear of the documents...",
+              "correct": "The unexpected disappearance of the documents...",
+              "reason": "English: 'Disappear' is a verb; 'disappearance' is the noun. Bahasa Indonesia: 'Disappear' adalah kata kerja; 'disappearance' adalah kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The disappearance of the files shocked everyone.",
+            "translation": "Hilangnya berkas-berkas itu mengejutkan semua orang."
+          },
+          {
+            "sentence": "2. Police investigated the sudden disappearance of the witness.",
+            "translation": "Polisi menyelidiki hilangnya saksi secara mendadak."
+          }
+        ],
+        "references": [
+          {
+            "title": "Prefixes and suffixes",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 16,
@@ -232,7 +862,49 @@
         "E": "so"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two contrasting ideas: a physical limitation and a positive personal trait. Translation: Dia tidak cukup tinggi untuk bergabung dengan polisi militer, tetapi dia memiliki keterampilan kepemimpinan yang sangat baik. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua ide yang bertentangan: keterbatasan fisik dan sifat pribadi yang positif."
+      "explanationDetails": {
+        "id": "GRAM-0116",
+        "slug": "conjunction-contrast-but",
+        "details_explanation": {
+          "explanation": "English: 'But' connects two contrasting ideas. Bahasa Indonesia: 'But' menghubungkan dua ide yang bertentangan.",
+          "introduction": "Coordinating conjunctions include and, but, or, so, and yet.",
+          "rules": [
+            {
+              "title": "1. But for Contrast",
+              "explanation": "Use 'but' to show a contrast between two clauses.",
+              "structure": "Clause 1 + but + Clause 2",
+              "notes": [
+                "ID: Gunakan 'but' untuk menunjukkan kontras antara dua klausa."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "He is not tall, therefore he has leadership skills.",
+              "correct": "He is not tall, but he has leadership skills.",
+              "reason": "English: 'Therefore' shows result, not contrast. Bahasa Indonesia: 'Therefore' menunjukkan hasil, bukan kontras."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The test was hard, but she passed.",
+            "translation": "Ujian itu sulit, tetapi dia lulus."
+          },
+          {
+            "sentence": "2. He is young, but he is very experienced.",
+            "translation": "Dia muda, tetapi dia sangat berpengalaman."
+          }
+        ],
+        "references": [
+          {
+            "title": "Conjunctions",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/conjunctions",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 17,
@@ -246,7 +918,49 @@
         "E": "because"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two clauses that show a contrast between the difficulty of the task and the successful outcome. Translation: Tugas tersebut sangat sulit, tetapi para siswa berhasil menyelesaikannya tepat waktu. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua klausa yang menunjukkan kontras antara kesulitan tugas dan hasil yang berhasil."
+      "explanationDetails": {
+        "id": "GRAM-0117",
+        "slug": "conjunction-contrast-but-2",
+        "details_explanation": {
+          "explanation": "English: 'But' shows contrast between difficulty and successful completion. Bahasa Indonesia: 'But' menunjukkan kontras antara kesulitan dan keberhasilan menyelesaikan.",
+          "introduction": "Use 'but' to connect a surprising or contrasting result.",
+          "rules": [
+            {
+              "title": "1. But for Unexpected Result",
+              "explanation": "Use 'but' when the second clause contrasts with the first.",
+              "structure": "Clause 1 + but + Clause 2",
+              "notes": [
+                "ID: Gunakan 'but' ketika klausa kedua bertentangan dengan klausa pertama."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The task was difficult, so the students managed to finish it.",
+              "correct": "The task was difficult, but the students managed to finish it.",
+              "reason": "English: 'So' shows result, not contrast. Bahasa Indonesia: 'So' menunjukkan hasil, bukan kontras."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. It was raining, but they continued the match.",
+            "translation": "Hujan turun, tetapi mereka melanjutkan pertandingan."
+          },
+          {
+            "sentence": "2. The road was long, but we arrived on time.",
+            "translation": "Jalannya panjang, tetapi kami tiba tepat waktu."
+          }
+        ],
+        "references": [
+          {
+            "title": "Conjunctions",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/conjunctions",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 18,
@@ -260,7 +974,49 @@
         "E": "they"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Pronoun (Indirect Object). The verb 'awarded' requires an object pronoun to act as the indirect object. 'Her' is the correct form for a female singular recipient. Translation: Universitas tersebut memberikannya beasiswa penuh atas pencapaian akademiknya yang luar biasa. Penjelasan: Kata kerja 'awarded' memerlukan object pronoun untuk bertindak sebagai indirect object. 'Her' adalah bentuk yang tepat untuk penerima tunggal perempuan."
+      "explanationDetails": {
+        "id": "GRAM-0118",
+        "slug": "object-pronoun-her-indirect-object",
+        "details_explanation": {
+          "explanation": "English: 'Awarded' needs an indirect object pronoun; 'her' is the correct object form. Bahasa Indonesia: 'Awarded' memerlukan indirect object pronoun; 'her' adalah bentuk objek yang tepat.",
+          "introduction": "Indirect objects often receive something in verbs like give, award, send, and hand.",
+          "rules": [
+            {
+              "title": "1. Indirect Object Pronoun",
+              "explanation": "Use object pronouns after verbs that take an indirect object.",
+              "structure": "verb + indirect object + direct object",
+              "notes": [
+                "ID: Gunakan object pronoun setelah kata kerja yang memerlukan indirect object."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The university awarded she a scholarship.",
+              "correct": "The university awarded her a scholarship.",
+              "reason": "English: 'She' is a subject pronoun; 'her' is the object pronoun. Bahasa Indonesia: 'She' adalah subject pronoun; 'her' adalah object pronoun."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. They gave her a prize.",
+            "translation": "Mereka memberinya hadiah."
+          },
+          {
+            "sentence": "2. The school sent him a letter.",
+            "translation": "Sekolah mengiriminya surat."
+          }
+        ],
+        "references": [
+          {
+            "title": "Pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 19,
@@ -274,7 +1030,49 @@
         "E": "most confidently"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Degree of Comparison (Adverb). An adverb is needed to modify the verb 'answers'. The comparative form of the adverb 'confidently' is 'more confidently'. Translation: Dia menjawab pertanyaan wawancara dengan lebih percaya diri daripada rekan-rekannya selama proses seleksi. Penjelasan: Adverb diperlukan untuk memodifikasi kata kerja 'answers'. Bentuk komparatif dari adverb 'confidently' adalah 'more confidently'."
+      "explanationDetails": {
+        "id": "GRAM-0119",
+        "slug": "comparative-adverb-more-confidently",
+        "details_explanation": {
+          "explanation": "English: The comparative adverb 'more confidently' modifies 'answers' and compares her with her peers. Bahasa Indonesia: Adverb komparatif 'more confidently' memodifikasi 'answers' dan membandingkannya dengan rekan-rekannya.",
+          "introduction": "Adverbs of manner form the comparative with 'more' + adverb, especially adverbs ending in -ly.",
+          "rules": [
+            {
+              "title": "1. Comparative Adverb",
+              "explanation": "Use 'more + adverb' for comparison with -ly adverbs.",
+              "structure": "verb + more + adverb + than",
+              "notes": [
+                "ID: Gunakan 'more + adverb' untuk perbandingan pada adverb berakhiran -ly."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She answers more confident than her peers.",
+              "correct": "She answers more confidently than her peers.",
+              "reason": "English: 'Confident' is an adjective; the verb needs the adverb 'confidently'. Bahasa Indonesia: 'Confident' adalah adjective; kata kerja memerlukan adverb 'confidently'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. He speaks more clearly than before.",
+            "translation": "Dia berbicara lebih jelas daripada sebelumnya."
+          },
+          {
+            "sentence": "2. They work more efficiently than the other team.",
+            "translation": "Mereka bekerja lebih efisien daripada tim lain."
+          }
+        ],
+        "references": [
+          {
+            "title": "Comparative adverbs",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adverbs",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 20,
@@ -288,7 +1086,49 @@
         "E": "where"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Relative Pronoun. The relative pronoun 'which' is used to refer to things or objects, such as 'textbook'. Translation: Ini adalah buku teks yang kita gunakan untuk kelas tata bahasa Inggris kita semester ini. Penjelasan: Relative pronoun 'which' digunakan untuk merujuk pada benda atau objek, seperti 'textbook'."
+      "explanationDetails": {
+        "id": "GRAM-0120",
+        "slug": "relative-pronoun-which-things",
+        "details_explanation": {
+          "explanation": "English: 'Which' refers to things such as a textbook. Bahasa Indonesia: 'Which' merujuk pada benda seperti buku teks.",
+          "introduction": "Relative pronouns introduce adjective clauses: who for people, which for things, where for places.",
+          "rules": [
+            {
+              "title": "1. Which for Things",
+              "explanation": "Use 'which' to refer to an object or thing in a relative clause.",
+              "structure": "noun (thing) + which + clause",
+              "notes": [
+                "ID: Gunakan 'which' untuk merujuk benda dalam relative clause."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "This is the textbook who we use.",
+              "correct": "This is the textbook which we use.",
+              "reason": "English: 'Who' refers to people, not things. Bahasa Indonesia: 'Who' merujuk orang, bukan benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The book which I bought is interesting.",
+            "translation": "Buku yang saya beli itu menarik."
+          },
+          {
+            "sentence": "2. This is the phone which he lost.",
+            "translation": "Ini adalah ponsel yang dia hilangkan."
+          }
+        ],
+        "references": [
+          {
+            "title": "Relative pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/relative-pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 21,
@@ -302,7 +1142,49 @@
         "E": "prestige"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form 'most prestigious' is used to compare one institution to all others in a group, indicated by 'in the entire country'. Translation: Ini adalah akademi militer yang paling bergengsi di seluruh negeri. Penjelasan: Bentuk superlatif 'most prestigious' digunakan untuk membandingkan satu institusi dengan semua institusi lain dalam sebuah kelompok, yang ditunjukkan oleh frasa 'in the entire country'."
+      "explanationDetails": {
+        "id": "GRAM-0121",
+        "slug": "superlative-most-prestigious",
+        "details_explanation": {
+          "explanation": "English: 'Most prestigious' is the superlative form comparing one academy with all others. Bahasa Indonesia: 'Most prestigious' adalah bentuk superlatif yang membandingkan satu akademi dengan semua yang lain.",
+          "introduction": "Superlatives compare one member of a group with the whole group.",
+          "rules": [
+            {
+              "title": "1. Superlative Adjective",
+              "explanation": "Use 'the most + adjective' for long adjectives in superlative comparisons.",
+              "structure": "the most + adjective + noun + in/of + group",
+              "notes": [
+                "ID: Gunakan 'the most + adjective' untuk adjective panjang dalam perbandingan superlatif."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "This is the more prestigious academy in the country.",
+              "correct": "This is the most prestigious academy in the country.",
+              "reason": "English: 'More' is comparative; 'most' is superlative. Bahasa Indonesia: 'More' adalah komparatif; 'most' adalah superlatif."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She is the most talented student in the class.",
+            "translation": "Dia adalah siswa paling berbakat di kelas."
+          },
+          {
+            "sentence": "2. This is the most expensive hotel in the city.",
+            "translation": "Ini adalah hotel paling mahal di kota."
+          }
+        ],
+        "references": [
+          {
+            "title": "Comparatives and superlatives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 22,
@@ -316,7 +1198,49 @@
         "E": "Although"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Preposition of Contrast. 'Despite' is a preposition used to show contrast and is followed by a noun phrase ('the strict requirements'). Translation: Meskipun persyaratan yang ketat, ratusan siswa melamar beasiswa bergengsi tersebut. Penjelasan: 'Despite' adalah preposisi yang digunakan untuk menunjukkan kontras dan diikuti oleh frasa kata benda (noun phrase)."
+      "explanationDetails": {
+        "id": "GRAM-0122",
+        "slug": "preposition-contrast-despite",
+        "details_explanation": {
+          "explanation": "English: 'Despite' introduces a contrast and is followed by a noun phrase. Bahasa Indonesia: 'Despite' memperkenalkan kontras dan diikuti frasa kata benda.",
+          "introduction": "Despite and in spite of are prepositions of contrast.",
+          "rules": [
+            {
+              "title": "1. Despite + Noun Phrase",
+              "explanation": "Use 'Despite' before a noun phrase, not before a full clause.",
+              "structure": "Despite + noun phrase + main clause",
+              "notes": [
+                "ID: Gunakan 'Despite' sebelum frasa kata benda, bukan sebelum klausa lengkap."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Although the strict requirements, hundreds applied.",
+              "correct": "Despite the strict requirements, hundreds applied.",
+              "reason": "English: 'Although' needs a clause; 'Despite' can take a noun phrase. Bahasa Indonesia: 'Although' memerlukan klausa; 'Despite' dapat diikuti frasa kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Despite the noise, he continued studying.",
+            "translation": "Meskipun ada kebisingan, dia terus belajar."
+          },
+          {
+            "sentence": "2. Despite her injury, she finished the race.",
+            "translation": "Meskipun cedera, dia menyelesaikan balapan."
+          }
+        ],
+        "references": [
+          {
+            "title": "Despite and in spite of",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/despite-and-in-spite-of",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 23,
@@ -330,7 +1254,49 @@
         "E": "a little"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Countable and Uncountable Noun. 'Chairs' is a plural countable noun, so it requires the quantifier 'many' in negative sentences. Translation: Tidak ada banyak kursi yang tersedia di ruang ujian untuk semua siswa. Penjelasan: 'Chairs' adalah plural countable noun, sehingga memerlukan quantifier 'many' dalam kalimat negatif."
+      "explanationDetails": {
+        "id": "GRAM-0123",
+        "slug": "quantifier-many-countable-negative",
+        "details_explanation": {
+          "explanation": "English: 'Many' is used with plural countable nouns such as 'chairs' in negative sentences. Bahasa Indonesia: 'Many' digunakan dengan kata benda jamak yang dapat dihitung seperti 'chairs' dalam kalimat negatif.",
+          "introduction": "Countable and uncountable nouns take different quantifiers.",
+          "rules": [
+            {
+              "title": "1. Many + Plural Countable Noun",
+              "explanation": "Use 'many' with plural countable nouns in questions and negatives.",
+              "structure": "not + many + plural noun",
+              "notes": [
+                "ID: Gunakan 'many' dengan kata benda jamak yang dapat dihitung dalam pertanyaan dan kalimat negatif."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "There are not much chairs.",
+              "correct": "There are not many chairs.",
+              "reason": "English: 'Much' is used with uncountable nouns, not plural countable nouns. Bahasa Indonesia: 'Much' digunakan dengan kata benda tak dapat dihitung, bukan kata benda jamak yang dapat dihitung."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. There are not many books on the shelf.",
+            "translation": "Tidak banyak buku di rak."
+          },
+          {
+            "sentence": "2. We do not have many options.",
+            "translation": "Kami tidak memiliki banyak pilihan."
+          }
+        ],
+        "references": [
+          {
+            "title": "Much and many",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/much-and-many",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 24,
@@ -344,7 +1310,49 @@
         "E": "rising"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Simple Present Tense. The simple present tense is used for general scientific truths. The singular subject 'sun' requires the verb form 'rises'. Translation: Matahari terbit di timur dan terbenam di barat, yang merupakan fakta ilmiah dasar. Penjelasan: Simple present tense digunakan untuk kebenaran ilmiah umum. Subjek tunggal 'sun' memerlukan bentuk kata kerja 'rises'."
+      "explanationDetails": {
+        "id": "GRAM-0124",
+        "slug": "simple-present-scientific-fact",
+        "details_explanation": {
+          "explanation": "English: The simple present 'rises' is used for general scientific truths, with singular subject 'sun'. Bahasa Indonesia: Simple present 'rises' digunakan untuk kebenaran ilmiah umum, dengan subjek tunggal 'sun'.",
+          "introduction": "The simple present expresses facts that are generally true.",
+          "rules": [
+            {
+              "title": "1. Simple Present for Facts",
+              "explanation": "Use the simple present for scientific facts and general truths.",
+              "structure": "singular subject + V1(-s/-es)",
+              "notes": [
+                "ID: Gunakan simple present untuk fakta ilmiah dan kebenaran umum."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The sun rise in the east.",
+              "correct": "The sun rises in the east.",
+              "reason": "English: The singular subject 'sun' requires 'rises'. Bahasa Indonesia: Subjek tunggal 'sun' memerlukan 'rises'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Water boils at 100 degrees Celsius.",
+            "translation": "Air mendidih pada 100 derajat Celsius."
+          },
+          {
+            "sentence": "2. The earth revolves around the sun.",
+            "translation": "Bumi berputar mengelilingi matahari."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 25,
@@ -358,7 +1366,49 @@
         "E": "despite"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Conjunction (Condition). The conjunction 'if' is used to introduce a condition in a first conditional sentence about a possible future event. Translation: Kita akan mengunjungi museum sejarah jika kita memiliki waktu luang akhir pekan ini. Penjelasan: Konjungsi 'if' digunakan untuk memperkenalkan kondisi dalam kalimat conditional type 1 tentang peristiwa masa depan yang mungkin terjadi."
+      "explanationDetails": {
+        "id": "GRAM-0125",
+        "slug": "first-conditional-if",
+        "details_explanation": {
+          "explanation": "English: 'If' introduces a condition for a possible future event. Bahasa Indonesia: 'If' memperkenalkan kondisi untuk peristiwa masa depan yang mungkin terjadi.",
+          "introduction": "First conditional: if + present simple, will + base verb.",
+          "rules": [
+            {
+              "title": "1. If-Clause Condition",
+              "explanation": "Use 'if' to introduce a condition that must happen for the result to occur.",
+              "structure": "If + present simple, will + V1",
+              "notes": [
+                "ID: Gunakan 'if' untuk memperkenalkan kondisi yang harus terjadi agar hasilnya tercapai."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "We will visit if we will have free time.",
+              "correct": "We will visit if we have free time.",
+              "reason": "English: The if-clause uses the present simple, not 'will'. Bahasa Indonesia: Klausa if menggunakan present simple, bukan 'will'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. If it rains, we will stay at home.",
+            "translation": "Jika hujan, kita akan tinggal di rumah."
+          },
+          {
+            "sentence": "2. She will pass if she studies hard.",
+            "translation": "Dia akan lulus jika dia belajar keras."
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 26,
@@ -372,7 +1422,49 @@
         "E": "whom"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Relative Pronoun. The relative pronoun 'who' is used to refer to people, acting as the subject of the relative clause 'won the student council election'. Translation: Kandidat yang memenangkan pemilihan osis tersebut adalah tetangga sebelah rumah saya. Penjelasan: Relative pronoun 'who' digunakan untuk merujuk pada orang, bertindak sebagai subjek dari relative clause 'won the student council election'."
+      "explanationDetails": {
+        "id": "GRAM-0126",
+        "slug": "relative-pronoun-who-people-subject",
+        "details_explanation": {
+          "explanation": "English: 'Who' refers to a person and acts as the subject of the relative clause. Bahasa Indonesia: 'Who' merujuk pada orang dan berfungsi sebagai subjek relative clause.",
+          "introduction": "Use 'who' for people, 'which' for things, and 'where' for places.",
+          "rules": [
+            {
+              "title": "1. Who as Subject",
+              "explanation": "Use 'who' when the relative pronoun is the subject referring to a person.",
+              "structure": "person + who + verb + ...",
+              "notes": [
+                "ID: Gunakan 'who' ketika relative pronoun adalah subjek yang merujuk pada orang."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The candidate which won the election is my neighbor.",
+              "correct": "The candidate who won the election is my neighbor.",
+              "reason": "English: 'Which' refers to things, not people. Bahasa Indonesia: 'Which' merujuk benda, bukan orang."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The man who called you is my uncle.",
+            "translation": "Pria yang meneleponmu adalah pamanku."
+          },
+          {
+            "sentence": "2. The student who won the prize is here.",
+            "translation": "Siswa yang memenangkan hadiah itu ada di sini."
+          }
+        ],
+        "references": [
+          {
+            "title": "Relative pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/relative-pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 27,
@@ -386,7 +1478,49 @@
         "E": "loudest"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Adverb. An adverb of manner is needed to modify the verb 'spoke'. The suffix '-ly' forms the adverb 'loudly'. Translation: Instruktur tersebut berbicara dengan keras sehingga semua rekrutan dapat mendengar perintah dengan jelas. Penjelasan: Adverb of manner diperlukan untuk memodifikasi kata kerja 'spoke'. Sufiks '-ly' membentuk adverb 'loudly'."
+      "explanationDetails": {
+        "id": "GRAM-0127",
+        "slug": "adverb-manner-loudly",
+        "details_explanation": {
+          "explanation": "English: 'Loudly' is an adverb of manner modifying 'spoke'. Bahasa Indonesia: 'Loudly' adalah adverb of manner yang memodifikasi 'spoke'.",
+          "introduction": "Adverbs of manner describe how an action is done.",
+          "rules": [
+            {
+              "title": "1. Adverb after Verb",
+              "explanation": "Use an adverb to modify the verb 'spoke'.",
+              "structure": "verb + adverb",
+              "notes": [
+                "ID: Gunakan adverb untuk memodifikasi kata kerja 'spoke'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The instructor spoke loud.",
+              "correct": "The instructor spoke loudly.",
+              "reason": "English: 'Loud' can be an adjective; the verb needs the adverb 'loudly'. Bahasa Indonesia: 'Loud' dapat berupa adjective; kata kerja memerlukan adverb 'loudly'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She sang beautifully at the ceremony.",
+            "translation": "Dia bernyanyi dengan indah di upacara."
+          },
+          {
+            "sentence": "2. He answered the question correctly.",
+            "translation": "Dia menjawab pertanyaan itu dengan benar."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adverbs",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 28,
@@ -400,7 +1534,49 @@
         "E": "helping"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Adjective. An adjective is needed after the linking verb 'was' to describe the noun 'explanation'. 'Helpful' is the correct adjective form. Translation: Penjelasan yang diberikan oleh profesor selama kuliah sangat membantu. Penjelasan: Kata sifat (adjective) diperlukan setelah linking verb 'was' untuk menjelaskan kata benda 'explanation'. 'Helpful' adalah bentuk adjective yang tepat."
+      "explanationDetails": {
+        "id": "GRAM-0128",
+        "slug": "adjective-after-linking-verb-helpful",
+        "details_explanation": {
+          "explanation": "English: After the linking verb 'was', an adjective is needed to describe 'explanation'; 'helpful' is correct. Bahasa Indonesia: Setelah linking verb 'was', adjective diperlukan untuk menjelaskan 'explanation'; 'helpful' adalah bentuk yang tepat.",
+          "introduction": "Linking verbs such as be, seem, and become are followed by adjectives, not adverbs.",
+          "rules": [
+            {
+              "title": "1. Adjective after Linking Verb",
+              "explanation": "Use an adjective after a linking verb to describe the subject.",
+              "structure": "subject + linking verb + adjective",
+              "notes": [
+                "ID: Gunakan adjective setelah linking verb untuk menjelaskan subjek."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The explanation was incredibly helpfully.",
+              "correct": "The explanation was incredibly helpful.",
+              "reason": "English: A linking verb takes an adjective, not an adverb. Bahasa Indonesia: Linking verb diikuti adjective, bukan adverb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The lecture was very helpful.",
+            "translation": "Kuliah itu sangat membantu."
+          },
+          {
+            "sentence": "2. Her advice seems useful.",
+            "translation": "Sarannya tampak berguna."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adjectives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 29,
@@ -414,7 +1590,49 @@
         "E": "was"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Present Continuous Tense. The plural subject 'cadets' requires the auxiliary verb 'are' combined with the present participle 'marching' to show an action happening right now. Translation: Para kadet militer saat ini sedang berbaris di lapangan utama di bawah terik matahari. Penjelasan: Subjek jamak 'cadets' memerlukan kata kerja bantu 'are' yang digabungkan dengan present participle 'marching' untuk menunjukkan aksi yang sedang terjadi sekarang."
+      "explanationDetails": {
+        "id": "GRAM-0129",
+        "slug": "present-continuous-are-marching",
+        "details_explanation": {
+          "explanation": "English: The plural subject 'cadets' takes 'are' in the present continuous for an action happening now. Bahasa Indonesia: Subjek jamak 'cadets' memakai 'are' dalam present continuous untuk aksi yang sedang terjadi sekarang.",
+          "introduction": "Present continuous: am/is/are + present participle.",
+          "rules": [
+            {
+              "title": "1. Plural Subject in Present Continuous",
+              "explanation": "Use 'are' with plural subjects in the present continuous.",
+              "structure": "plural subject + are + V-ing",
+              "notes": [
+                "ID: Gunakan 'are' dengan subjek jamak dalam present continuous."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The cadets is marching now.",
+              "correct": "The cadets are marching now.",
+              "reason": "English: Plural 'cadets' requires 'are'. Bahasa Indonesia: 'Cadets' jamak memerlukan 'are'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The students are studying in the library.",
+            "translation": "Para siswa sedang belajar di perpustakaan."
+          },
+          {
+            "sentence": "2. They are training for the competition.",
+            "translation": "Mereka sedang berlatih untuk kompetisi."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present continuous",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-continuous",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 30,
@@ -428,7 +1646,49 @@
         "E": "completes"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Present Perfect Tense. The present perfect tense uses 'have' + past participle ('completed') to express an action that happened at an unspecified time before now. Translation: Saya telah menyelesaikan latihan fisik saya untuk ujian masuk polisi. Penjelasan: Present perfect tense menggunakan 'have' + past participle ('completed') untuk menyatakan aksi yang terjadi di waktu yang tidak spesifik sebelum sekarang."
+      "explanationDetails": {
+        "id": "GRAM-0130",
+        "slug": "present-perfect-completed",
+        "details_explanation": {
+          "explanation": "English: The present perfect uses 'have + past participle'; 'completed' is the correct past participle. Bahasa Indonesia: Present perfect menggunakan 'have + past participle'; 'completed' adalah past participle yang tepat.",
+          "introduction": "Present perfect: have/has + past participle.",
+          "rules": [
+            {
+              "title": "1. Have + Past Participle",
+              "explanation": "Use the past participle after 'have' to describe a completed action with present relevance.",
+              "structure": "have/has + V3",
+              "notes": [
+                "ID: Gunakan past participle setelah 'have' untuk menyatakan aksi selesai yang relevan dengan sekarang."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I have complete my training.",
+              "correct": "I have completed my training.",
+              "reason": "English: The present perfect needs the past participle 'completed'. Bahasa Indonesia: Present perfect memerlukan past participle 'completed'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She has finished her homework.",
+            "translation": "Dia telah menyelesaikan pekerjaan rumahnya."
+          },
+          {
+            "sentence": "2. They have submitted the forms.",
+            "translation": "Mereka telah mengumpulkan formulirnya."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present perfect",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 31,
@@ -442,7 +1702,49 @@
         "E": "Shh"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Interjection. The interjection 'Hooray' is used to express joy, approval, or celebration. Translation: Hore! Kita akhirnya lulus tes masuk akademik untuk universitas negeri. Penjelasan: Interjection 'Hooray' digunakan untuk mengekspresikan kegembiraan, persetujuan, atau perayaan."
+      "explanationDetails": {
+        "id": "GRAM-0131",
+        "slug": "interjection-hooray-celebration",
+        "details_explanation": {
+          "explanation": "English: 'Hooray' expresses joy, approval, or celebration. Bahasa Indonesia: 'Hooray' mengekspresikan kegembiraan, persetujuan, atau perayaan.",
+          "introduction": "Interjections can express celebration and positive emotion.",
+          "rules": [
+            {
+              "title": "1. Hooray for Celebration",
+              "explanation": "Use 'Hooray' to celebrate success or good news.",
+              "structure": "Hooray! + clause",
+              "notes": [
+                "ID: Gunakan 'Hooray' untuk merayakan keberhasilan atau kabar baik."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Alas! We passed the test.",
+              "correct": "Hooray! We passed the test.",
+              "reason": "English: 'Alas' expresses sorrow, not celebration. Bahasa Indonesia: 'Alas' mengekspresikan kesedihan, bukan perayaan."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Hooray! We won the match.",
+            "translation": "Hore! Kami memenangkan pertandingan."
+          },
+          {
+            "sentence": "2. Hooray! The exams are over.",
+            "translation": "Hore! Ujiannya sudah selesai."
+          }
+        ],
+        "references": [
+          {
+            "title": "Interjections",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/interjections",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 32,
@@ -456,7 +1758,49 @@
         "E": "because"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Conjunction. The conjunction 'but' is used to connect two clauses that show a contrast or unexpected result. Translation: Dia ingin bergabung dengan universitas negeri, tetapi dia tidak lulus tes seleksi. Penjelasan: Konjungsi 'but' digunakan untuk menghubungkan dua klausa yang menunjukkan kontras atau hasil yang tidak terduga."
+      "explanationDetails": {
+        "id": "GRAM-0132",
+        "slug": "conjunction-contrast-but-3",
+        "details_explanation": {
+          "explanation": "English: 'But' connects a desire with an unexpected negative result. Bahasa Indonesia: 'But' menghubungkan keinginan dengan hasil negatif yang tidak terduga.",
+          "introduction": "Use 'but' to show contrast between two clauses.",
+          "rules": [
+            {
+              "title": "1. But for Contrast",
+              "explanation": "Use 'but' when the second clause contrasts with the first.",
+              "structure": "Clause 1 + but + Clause 2",
+              "notes": [
+                "ID: Gunakan 'but' ketika klausa kedua bertentangan dengan klausa pertama."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "He wanted to join, so he did not pass.",
+              "correct": "He wanted to join, but he did not pass.",
+              "reason": "English: 'So' shows result, not contrast. Bahasa Indonesia: 'So' menunjukkan hasil, bukan kontras."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She wanted to go, but she was too tired.",
+            "translation": "Dia ingin pergi, tetapi dia terlalu lelah."
+          },
+          {
+            "sentence": "2. He studied hard, but he failed the test.",
+            "translation": "Dia belajar keras, tetapi dia gagal ujian."
+          }
+        ],
+        "references": [
+          {
+            "title": "Conjunctions",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/conjunctions",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 33,
@@ -470,7 +1814,49 @@
         "E": "a little"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Countable Noun Quantifier. 'Notebooks' is a plural countable noun, so it requires the quantifier 'a few' in positive sentences. Translation: Saya perlu membeli beberapa buku tulis baru untuk semester yang akan datang di universitas negeri. Penjelasan: 'Notebooks' adalah plural countable noun, sehingga memerlukan quantifier 'a few' dalam kalimat positif."
+      "explanationDetails": {
+        "id": "GRAM-0133",
+        "slug": "quantifier-a-few-countable-positive",
+        "details_explanation": {
+          "explanation": "English: 'A few' is used with plural countable nouns in positive sentences. Bahasa Indonesia: 'A few' digunakan dengan kata benda jamak yang dapat dihitung dalam kalimat positif.",
+          "introduction": "Quantifiers show quantity; a few is for countable nouns, a little for uncountable nouns.",
+          "rules": [
+            {
+              "title": "1. A Few + Plural Countable Noun",
+              "explanation": "Use 'a few' before plural countable nouns to mean a small number.",
+              "structure": "a few + plural noun",
+              "notes": [
+                "ID: Gunakan 'a few' sebelum kata benda jamak yang dapat dihitung untuk berarti sejumlah kecil."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I need to buy a little notebooks.",
+              "correct": "I need to buy a few notebooks.",
+              "reason": "English: 'A little' is for uncountable nouns; 'notebooks' is countable plural. Bahasa Indonesia: 'A little' untuk kata benda tak dapat dihitung; 'notebooks' adalah jamak yang dapat dihitung."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She bought a few apples.",
+            "translation": "Dia membeli beberapa apel."
+          },
+          {
+            "sentence": "2. We need a few chairs for the meeting.",
+            "translation": "Kami memerlukan beberapa kursi untuk rapat."
+          }
+        ],
+        "references": [
+          {
+            "title": "Quantifiers",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/quantifiers",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 34,
@@ -484,7 +1870,49 @@
         "E": "outstood"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Adjective. An adjective is needed to modify the noun 'performance'. 'Outstanding' is the correct adjective form meaning exceptionally good. Translation: Komite memuji tim debat atas penampilan mereka yang luar biasa dalam kompetisi nasional. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'performance'. 'Outstanding' adalah bentuk adjective yang tepat yang berarti sangat baik."
+      "explanationDetails": {
+        "id": "GRAM-0134",
+        "slug": "adjective-outstanding",
+        "details_explanation": {
+          "explanation": "English: An adjective is needed to modify the noun 'performance'; 'outstanding' is correct. Bahasa Indonesia: Adjective diperlukan untuk memodifikasi kata benda 'performance'; 'outstanding' adalah bentuk yang tepat.",
+          "introduction": "Adjectives describe nouns and usually come before the noun.",
+          "rules": [
+            {
+              "title": "1. Adjective before Noun",
+              "explanation": "Use an adjective before the noun it describes.",
+              "structure": "adjective + noun",
+              "notes": [
+                "ID: Gunakan adjective sebelum kata benda yang dijelaskannya."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Their outstandingly performance was praised.",
+              "correct": "Their outstanding performance was praised.",
+              "reason": "English: 'Outstandingly' is an adverb; the noun needs the adjective 'outstanding'. Bahasa Indonesia: 'Outstandingly' adalah adverb; kata benda memerlukan adjective 'outstanding'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She gave an outstanding presentation.",
+            "translation": "Dia memberikan presentasi yang luar biasa."
+          },
+          {
+            "sentence": "2. The team showed outstanding courage.",
+            "translation": "Tim itu menunjukkan keberanian yang luar biasa."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adjectives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 35,
@@ -498,7 +1926,49 @@
         "E": "have"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Subject-Verb Agreement. With 'neither/nor', the verb agrees with the subject closest to it. 'Soldiers' is plural, so the past tense plural verb 'are' is correct. Translation: Baik komandan maupun para prajurit tidak menyadari perubahan mendadak pada jadwal tersebut. Penjelasan: Dengan pola 'neither/nor', kata kerja sesuai dengan subjek yang paling dekat. 'Soldiers' adalah jamak, jadi kata kerja bentuk lampau jamak 'are' adalah benar."
+      "explanationDetails": {
+        "id": "GRAM-0135",
+        "slug": "subject-verb-agreement-neither-nor",
+        "details_explanation": {
+          "explanation": "English: With 'neither...nor', the verb agrees with the nearer subject; 'soldiers' is plural, so 'are' is correct. Bahasa Indonesia: Dengan 'neither...nor', kata kerja sesuai dengan subjek terdekat; 'soldiers' jamak, jadi 'are' tepat.",
+          "introduction": "Neither...nor follows the proximity rule for subject-verb agreement.",
+          "rules": [
+            {
+              "title": "1. Proximity Rule",
+              "explanation": "The verb agrees with the subject closest to it after 'nor'.",
+              "structure": "Neither + subject 1 + nor + subject 2 + verb",
+              "notes": [
+                "ID: Kata kerja sesuai dengan subjek yang paling dekat setelah 'nor'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Neither the commander nor the soldiers is aware.",
+              "correct": "Neither the commander nor the soldiers are aware.",
+              "reason": "English: The nearer subject 'soldiers' is plural, requiring 'are'. Bahasa Indonesia: Subjek terdekat 'soldiers' jamak, memerlukan 'are'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Neither the teacher nor the students are ready.",
+            "translation": "Baik guru maupun para siswa belum siap."
+          },
+          {
+            "sentence": "2. Neither the boys nor the girl is here.",
+            "translation": "Baik anak laki-laki maupun anak perempuan itu tidak ada di sini."
+          }
+        ],
+        "references": [
+          {
+            "title": "Subject-verb agreement",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 36,
@@ -512,7 +1982,49 @@
         "E": "will"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Present Perfect Tense. The adverb 'just' is used in positive present perfect sentences to indicate an action completed a very short time ago. Translation: Kami baru saja menyelesaikan proses pendaftaran untuk akademi polisi. Penjelasan: Adverb 'just' digunakan dalam kalimat present perfect positif untuk menunjukkan aksi yang selesai dalam waktu yang sangat singkat."
+      "explanationDetails": {
+        "id": "GRAM-0136",
+        "slug": "present-perfect-just",
+        "details_explanation": {
+          "explanation": "English: 'Just' is used in positive present perfect sentences for an action completed a very short time ago. Bahasa Indonesia: 'Just' digunakan dalam kalimat present perfect positif untuk aksi yang selesai sangat baru-baru ini.",
+          "introduction": "Just, already, and yet are common present perfect adverbs.",
+          "rules": [
+            {
+              "title": "1. Just + Past Participle",
+              "explanation": "Place 'just' between 'have/has' and the past participle.",
+              "structure": "have/has + just + V3",
+              "notes": [
+                "ID: Letakkan 'just' di antara 'have/has' dan past participle."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "We have yet completed the process.",
+              "correct": "We have just completed the process.",
+              "reason": "English: 'Yet' is usually used in negatives/questions; 'just' fits this positive sentence. Bahasa Indonesia: 'Yet' biasanya untuk negatif/pertanyaan; 'just' cocok untuk kalimat positif ini."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She has just arrived.",
+            "translation": "Dia baru saja tiba."
+          },
+          {
+            "sentence": "2. They have just finished the exam.",
+            "translation": "Mereka baru saja menyelesaikan ujian."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present perfect",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 37,
@@ -526,7 +2038,49 @@
         "E": "environmentally"
       },
       "correctAnswer": "D",
-      "explanation": "Topic: Adjective. An adjective is needed to modify the noun 'policies'. 'Environmental' is the correct adjective form relating to the natural world. Translation: Pemerintah sedang menerapkan kebijakan lingkungan baru untuk melindungi hutan-hutan yang tersisa di Indonesia. Penjelasan: Kata sifat (adjective) diperlukan untuk memodifikasi kata benda 'policies'. 'Environmental' adalah bentuk adjective yang tepat yang berkaitan dengan dunia alam."
+      "explanationDetails": {
+        "id": "GRAM-0137",
+        "slug": "adjective-environmental",
+        "details_explanation": {
+          "explanation": "English: An adjective is needed to modify 'policies'; 'environmental' is the correct adjective. Bahasa Indonesia: Adjective diperlukan untuk memodifikasi 'policies'; 'environmental' adalah adjective yang tepat.",
+          "introduction": "Adjectives describe nouns and can be formed with suffixes such as -al.",
+          "rules": [
+            {
+              "title": "1. Adjective before Noun",
+              "explanation": "Use an adjective before the noun it modifies.",
+              "structure": "adjective + noun",
+              "notes": [
+                "ID: Gunakan adjective sebelum kata benda yang dimodifikasinya."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The government is implementing new environment policies.",
+              "correct": "The government is implementing new environmental policies.",
+              "reason": "English: 'Environment' is a noun; 'environmental' is the adjective. Bahasa Indonesia: 'Environment' adalah kata benda; 'environmental' adalah adjective."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Environmental issues are important.",
+            "translation": "Masalah lingkungan itu penting."
+          },
+          {
+            "sentence": "2. They support environmental protection.",
+            "translation": "Mereka mendukung perlindungan lingkungan."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adjectives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 38,
@@ -540,7 +2094,49 @@
         "E": "busier"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Degree of Comparison (Equative). The structure 'as...as' requires the base form of the adjective. 'Busy' is the correct base adjective. Translation: Kakak perempuan saya sibuk seperti lebah ketika dia sedang mempersiapkan ujian akhir universitasnya. Penjelasan: Struktur 'as...as' memerlukan bentuk dasar kata sifat (adjective). 'Busy' adalah adjective dasar yang tepat."
+      "explanationDetails": {
+        "id": "GRAM-0138",
+        "slug": "equative-as-busy-as",
+        "details_explanation": {
+          "explanation": "English: The equative structure 'as ... as' uses the base adjective; 'busy' is correct. Bahasa Indonesia: Struktur equative 'as ... as' menggunakan adjective dasar; 'busy' adalah bentuk yang tepat.",
+          "introduction": "Equative comparisons use as + adjective + as.",
+          "rules": [
+            {
+              "title": "1. As + Adjective + As",
+              "explanation": "Use the base form of the adjective between 'as ... as'.",
+              "structure": "as + base adjective + as",
+              "notes": [
+                "ID: Gunakan bentuk dasar adjective di antara 'as ... as'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She is as busier as a bee.",
+              "correct": "She is as busy as a bee.",
+              "reason": "English: The equative uses the base adjective, not the comparative. Bahasa Indonesia: Equative menggunakan adjective dasar, bukan bentuk komparatif."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. He is as tall as his father.",
+            "translation": "Dia setinggi ayahnya."
+          },
+          {
+            "sentence": "2. This room is as clean as that one.",
+            "translation": "Ruangan ini sebersih ruangan itu."
+          }
+        ],
+        "references": [
+          {
+            "title": "Comparatives and superlatives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 39,
@@ -554,7 +2150,49 @@
         "E": "at"
       },
       "correctAnswer": "A",
-      "explanation": "Topic: Preposition. The adjective 'responsible' is always followed by the preposition 'for' when indicating the thing one is accountable for. Translation: Kepala sekolah bertanggung jawab secara langsung untuk menjaga disiplin dan ketertiban sekolah. Penjelasan: Kata sifat 'responsible' selalu diikuti oleh preposisi 'for' ketika menunjukkan hal yang menjadi tanggung jawab seseorang."
+      "explanationDetails": {
+        "id": "GRAM-0139",
+        "slug": "preposition-responsible-for",
+        "details_explanation": {
+          "explanation": "English: The adjective 'responsible' is followed by 'for' to show accountability. Bahasa Indonesia: Adjective 'responsible' diikuti 'for' untuk menunjukkan tanggung jawab.",
+          "introduction": "Some adjectives have fixed prepositions, such as responsible for and interested in.",
+          "rules": [
+            {
+              "title": "1. Responsible For",
+              "explanation": "Use 'responsible for' before a noun or gerund showing what someone is accountable for.",
+              "structure": "responsible + for + noun/V-ing",
+              "notes": [
+                "ID: Gunakan 'responsible for' sebelum kata benda atau gerund yang menunjukkan tanggung jawab."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She is responsible on maintaining discipline.",
+              "correct": "She is responsible for maintaining discipline.",
+              "reason": "English: The fixed preposition after 'responsible' is 'for'. Bahasa Indonesia: Preposisi tetap setelah 'responsible' adalah 'for'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The manager is responsible for the team.",
+            "translation": "Manajer bertanggung jawab atas tim itu."
+          },
+          {
+            "sentence": "2. Parents are responsible for their children's safety.",
+            "translation": "Orang tua bertanggung jawab atas keselamatan anak-anak mereka."
+          }
+        ],
+        "references": [
+          {
+            "title": "Prepositions",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/prepositions",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 40,
@@ -568,7 +2206,49 @@
         "E": "apply"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Vocabulary (Suffix). A noun is needed as the object of the verb 'submit'. The suffix '-ation' forms the noun 'application'. Translation: Para pelamar harus mengumpulkan lamaran resmi mereka sebelum tenggat waktu yang ketat. Penjelasan: Kata benda (noun) diperlukan sebagai objek dari kata kerja 'submit'. Sufiks '-ation' membentuk kata benda 'application'."
+      "explanationDetails": {
+        "id": "GRAM-0140",
+        "slug": "noun-suffix-application",
+        "details_explanation": {
+          "explanation": "English: A noun is needed as the object of 'submit'; 'application' is the noun form. Bahasa Indonesia: Kata benda diperlukan sebagai objek dari 'submit'; 'application' adalah bentuk kata bendanya.",
+          "introduction": "The suffix -ation can form nouns from verbs.",
+          "rules": [
+            {
+              "title": "1. Noun as Object",
+              "explanation": "Use a noun after the verb 'submit'.",
+              "structure": "submit + noun",
+              "notes": [
+                "ID: Gunakan kata benda setelah kata kerja 'submit'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The applicants must submit their apply.",
+              "correct": "The applicants must submit their application.",
+              "reason": "English: 'Apply' is a verb; 'application' is the noun. Bahasa Indonesia: 'Apply' adalah kata kerja; 'application' adalah kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. Please submit your application by Friday.",
+            "translation": "Silakan kumpulkan lamaran Anda sebelum Jumat."
+          },
+          {
+            "sentence": "2. The application was accepted.",
+            "translation": "Lamaran itu diterima."
+          }
+        ],
+        "references": [
+          {
+            "title": "Suffixes",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 41,
@@ -582,7 +2262,49 @@
         "E": "his"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Pronoun (Indirect Object). The verb 'gave' requires an object pronoun to act as the indirect object. 'Him' is the correct form for a male singular recipient. Translation: Guru tersebut memberikan kepadanya tugas khusus untuk membantu meningkatkan keterampilan menulis bahasa Inggrisnya. Penjelasan: Kata kerja 'gave' memerlukan object pronoun untuk bertindak sebagai indirect object. 'Him' adalah bentuk yang tepat untuk penerima tunggal laki-laki."
+      "explanationDetails": {
+        "id": "GRAM-0141",
+        "slug": "object-pronoun-him-indirect-object",
+        "details_explanation": {
+          "explanation": "English: 'Gave' needs an indirect object pronoun; 'him' is the correct object form. Bahasa Indonesia: 'Gave' memerlukan indirect object pronoun; 'him' adalah bentuk objek yang tepat.",
+          "introduction": "Indirect object pronouns receive the thing being given.",
+          "rules": [
+            {
+              "title": "1. Him as Indirect Object",
+              "explanation": "Use 'him' for a male singular indirect object.",
+              "structure": "verb + him + direct object",
+              "notes": [
+                "ID: Gunakan 'him' untuk indirect object tunggal laki-laki."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The teacher gave he an assignment.",
+              "correct": "The teacher gave him an assignment.",
+              "reason": "English: 'He' is a subject pronoun; 'him' is the object pronoun. Bahasa Indonesia: 'He' adalah subject pronoun; 'him' adalah object pronoun."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She gave him a book.",
+            "translation": "Dia memberinya sebuah buku."
+          },
+          {
+            "sentence": "2. We sent him the documents.",
+            "translation": "Kami mengiriminya dokumen-dokumen itu."
+          }
+        ],
+        "references": [
+          {
+            "title": "Pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 42,
@@ -596,7 +2318,49 @@
         "E": "clarity"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Adjective. An adjective is needed after the linking verb 'are' to describe the noun 'instructions'. 'Clear' is the correct adjective form. Translation: Instruksi yang disediakan dalam manual ujian sangat jelas. Penjelasan: Kata sifat (adjective) diperlukan setelah linking verb 'are' untuk menjelaskan kata benda 'instructions'. 'Clear' adalah bentuk adjective yang tepat."
+      "explanationDetails": {
+        "id": "GRAM-0142",
+        "slug": "adjective-after-linking-verb-clear",
+        "details_explanation": {
+          "explanation": "English: After the linking verb 'are', an adjective is needed; 'clear' is correct. Bahasa Indonesia: Setelah linking verb 'are', adjective diperlukan; 'clear' adalah bentuk yang tepat.",
+          "introduction": "Linking verbs are followed by adjectives that describe the subject.",
+          "rules": [
+            {
+              "title": "1. Adjective after Are",
+              "explanation": "Use an adjective after 'are' to describe 'instructions'.",
+              "structure": "subject + are + adjective",
+              "notes": [
+                "ID: Gunakan adjective setelah 'are' untuk menjelaskan 'instructions'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The instructions are very clearly.",
+              "correct": "The instructions are very clear.",
+              "reason": "English: A linking verb takes an adjective, not an adverb. Bahasa Indonesia: Linking verb diikuti adjective, bukan adverb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The rules are clear.",
+            "translation": "Peraturannya jelas."
+          },
+          {
+            "sentence": "2. Her explanation was very clear.",
+            "translation": "Penjelasannya sangat jelas."
+          }
+        ],
+        "references": [
+          {
+            "title": "Adjectives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 43,
@@ -610,7 +2374,49 @@
         "E": "has lost"
       },
       "correctAnswer": "E",
-      "explanation": "Topic: Present Perfect Tense. The present perfect tense 'has lost' is used for a past action that has a direct result in the present (she cannot enter now). Translation: Dia telah kehilangan kartu identitas pelajarnya, jadi dia tidak bisa masuk ke ruang ujian sekarang. Penjelasan: Present perfect tense 'has lost' digunakan untuk aksi masa lalu yang memiliki hasil langsung di masa kini."
+      "explanationDetails": {
+        "id": "GRAM-0143",
+        "slug": "present-perfect-has-lost-result",
+        "details_explanation": {
+          "explanation": "English: The present perfect 'has lost' shows a past action with a present result: she cannot enter now. Bahasa Indonesia: Present perfect 'has lost' menunjukkan aksi masa lalu dengan hasil sekarang: dia tidak bisa masuk sekarang.",
+          "introduction": "The present perfect connects a past action to a present result.",
+          "rules": [
+            {
+              "title": "1. Present Result",
+              "explanation": "Use the present perfect when the result of a past action affects the present.",
+              "structure": "has/have + V3 + result in present",
+              "notes": [
+                "ID: Gunakan present perfect ketika hasil aksi masa lalu memengaruhi masa kini."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She lost her card, so she cannot enter now.",
+              "correct": "She has lost her card, so she cannot enter now.",
+              "reason": "English: The present perfect better emphasizes the present result. Bahasa Indonesia: Present perfect lebih menekankan hasil saat ini."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. He has broken his leg, so he cannot walk.",
+            "translation": "Dia telah mematahkan kakinya, jadi dia tidak bisa berjalan."
+          },
+          {
+            "sentence": "2. They have missed the bus, so they are late.",
+            "translation": "Mereka telah ketinggalan bus, jadi mereka terlambat."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present perfect",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-perfect",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 44,
@@ -624,7 +2430,49 @@
         "E": "checking"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Simple Present Tense. The singular subject 'applicant' requires the verb form 'checks' for a habitual action. Translation: Pelamar universitas memeriksa dokumen-dokumennya dengan hati-hati sebelum mengumpulkannya. Penjelasan: Subjek tunggal 'applicant' memerlukan bentuk kata kerja 'checks' untuk tindakan yang menjadi kebiasaan."
+      "explanationDetails": {
+        "id": "GRAM-0144",
+        "slug": "simple-present-checks-habitual",
+        "details_explanation": {
+          "explanation": "English: The singular subject 'applicant' takes 'checks' in the simple present for a habitual action. Bahasa Indonesia: Subjek tunggal 'applicant' memakai 'checks' dalam simple present untuk tindakan kebiasaan.",
+          "introduction": "The simple present describes habits and routines.",
+          "rules": [
+            {
+              "title": "1. Third-Person Singular -s",
+              "explanation": "Add -s to the base verb with a singular third-person subject.",
+              "structure": "singular subject + V1(-s)",
+              "notes": [
+                "ID: Tambahkan -s pada kata kerja dasar dengan subjek tunggal orang ketiga."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The applicant check his documents.",
+              "correct": "The applicant checks his documents.",
+              "reason": "English: The singular subject requires 'checks'. Bahasa Indonesia: Subjek tunggal memerlukan 'checks'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The student checks his answers before submitting.",
+            "translation": "Siswa itu memeriksa jawabannya sebelum mengumpulkan."
+          },
+          {
+            "sentence": "2. She reads the instructions carefully.",
+            "translation": "Dia membaca instruksinya dengan hati-hati."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 45,
@@ -638,7 +2486,49 @@
         "E": "would be"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Simple Future Tense. In a first conditional sentence, the main clause uses the simple future tense ('will be') to describe a likely future result. Translation: Jika cuaca buruk besok, latihan militer di luar ruangan akan dibatalkan. Penjelasan: Dalam kalimat conditional type 1, main clause menggunakan simple future tense ('will be') untuk menggambarkan hasil di masa depan yang mungkin terjadi."
+      "explanationDetails": {
+        "id": "GRAM-0145",
+        "slug": "first-conditional-will-be",
+        "details_explanation": {
+          "explanation": "English: In a first conditional, the main clause uses 'will + base verb' for a likely future result. Bahasa Indonesia: Dalam first conditional, main clause menggunakan 'will + kata kerja dasar' untuk hasil masa depan yang mungkin terjadi.",
+          "introduction": "First conditional: if + present simple, will + base verb.",
+          "rules": [
+            {
+              "title": "1. Will in Main Clause",
+              "explanation": "Use 'will be' in the result clause of a first conditional.",
+              "structure": "If + present simple, will + V1",
+              "notes": [
+                "ID: Gunakan 'will be' dalam klausa hasil pada first conditional."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "If the weather is bad, the drill would be cancelled.",
+              "correct": "If the weather is bad, the drill will be cancelled.",
+              "reason": "English: 'Would' is for second conditional; first conditional uses 'will'. Bahasa Indonesia: 'Would' untuk second conditional; first conditional menggunakan 'will'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. If it rains, the event will be postponed.",
+            "translation": "Jika hujan, acara akan ditunda."
+          },
+          {
+            "sentence": "2. If you study hard, you will pass.",
+            "translation": "Jika kamu belajar keras, kamu akan lulus."
+          }
+        ],
+        "references": [
+          {
+            "title": "Conditionals",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 46,
@@ -652,7 +2542,49 @@
         "E": "disciplining"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form 'most disciplined' is used to compare one person to an entire group ('in the entire military high school'). Translation: Dia adalah siswa yang paling berdisiplin di seluruh sekolah menengah militer karena kehadirannya yang sempurna. Penjelasan: Bentuk superlatif 'most disciplined' digunakan untuk membandingkan satu orang dengan seluruh kelompok."
+      "explanationDetails": {
+        "id": "GRAM-0146",
+        "slug": "superlative-most-disciplined",
+        "details_explanation": {
+          "explanation": "English: 'Most disciplined' is the superlative form comparing one student with the whole school. Bahasa Indonesia: 'Most disciplined' adalah bentuk superlatif yang membandingkan satu siswa dengan seluruh sekolah.",
+          "introduction": "Superlatives compare one person or thing with a whole group.",
+          "rules": [
+            {
+              "title": "1. The Most + Adjective",
+              "explanation": "Use 'the most + adjective' for superlative comparisons with longer adjectives.",
+              "structure": "the most + adjective + noun + in + group",
+              "notes": [
+                "ID: Gunakan 'the most + adjective' untuk perbandingan superlatif dengan adjective yang lebih panjang."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "He is the more disciplined student in the school.",
+              "correct": "He is the most disciplined student in the school.",
+              "reason": "English: 'More' is comparative; 'most' is superlative. Bahasa Indonesia: 'More' adalah komparatif; 'most' adalah superlatif."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. She is the most disciplined member of the team.",
+            "translation": "Dia adalah anggota tim yang paling disiplin."
+          },
+          {
+            "sentence": "2. This is the most difficult exam.",
+            "translation": "Ini adalah ujian yang paling sulit."
+          }
+        ],
+        "references": [
+          {
+            "title": "Comparatives and superlatives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 47,
@@ -666,7 +2598,49 @@
         "E": "disappearing"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Vocabulary (Prefix and Suffix). The prefix 'dis-' indicates reversal, and the suffix '-ance' forms a noun. 'Disappearance' means the act of vanishing. Translation: Hilangnya berkas-berkas rahasia secara misterius menyebabkan pelanggaran keamanan besar di kantor tersebut. Penjelasan: Prefix 'dis-' menunjukkan pembalikan, dan sufiks '-ance' membentuk kata benda. 'Disappearance' berarti tindakan menghilang."
+      "explanationDetails": {
+        "id": "GRAM-0147",
+        "slug": "noun-disappearance-2",
+        "details_explanation": {
+          "explanation": "English: 'Disappearance' is the noun meaning the act of vanishing; it fits after the adjective 'mysterious'. Bahasa Indonesia: 'Disappearance' adalah kata benda yang berarti tindakan menghilang; cocok setelah adjective 'mysterious'.",
+          "introduction": "A noun is needed after an adjective and before 'of'.",
+          "rules": [
+            {
+              "title": "1. Noun + Of",
+              "explanation": "Use a noun before 'of' to name the event or thing involved.",
+              "structure": "adjective + noun + of + noun",
+              "notes": [
+                "ID: Gunakan kata benda sebelum 'of' untuk menyebut peristiwa atau hal yang terlibat."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The mysterious disappear of the files...",
+              "correct": "The mysterious disappearance of the files...",
+              "reason": "English: 'Disappear' is a verb; 'disappearance' is the noun. Bahasa Indonesia: 'Disappear' adalah kata kerja; 'disappearance' adalah kata benda."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The disappearance of the money is still a mystery.",
+            "translation": "Hilangnya uang itu masih menjadi misteri."
+          },
+          {
+            "sentence": "2. They reported the disappearance of the documents.",
+            "translation": "Mereka melaporkan hilangnya dokumen-dokumen itu."
+          }
+        ],
+        "references": [
+          {
+            "title": "Prefixes and suffixes",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 48,
@@ -680,7 +2654,49 @@
         "E": "himself"
       },
       "correctAnswer": "B",
-      "explanation": "Topic: Pronoun (Indirect Object). The verb 'handed' requires an object pronoun to act as the indirect object receiving the verdict. 'Him' is the correct form. Translation: Hakim menyerahkan kepadanya vonis akhir setelah musyawarah yang panjang dan hati-hati. Penjelasan: Kata kerja 'handed' memerlukan object pronoun untuk bertindak sebagai indirect object yang menerima vonis tersebut. 'Him' adalah bentuk yang tepat."
+      "explanationDetails": {
+        "id": "GRAM-0148",
+        "slug": "object-pronoun-him-indirect-object-2",
+        "details_explanation": {
+          "explanation": "English: 'Handed' needs an indirect object pronoun; 'him' is the correct object form. Bahasa Indonesia: 'Handed' memerlukan indirect object pronoun; 'him' adalah bentuk objek yang tepat.",
+          "introduction": "Verbs like hand, give, and send can take an indirect object pronoun.",
+          "rules": [
+            {
+              "title": "1. Indirect Object Pronoun",
+              "explanation": "Use an object pronoun to show the recipient of the verdict.",
+              "structure": "verb + indirect object + direct object",
+              "notes": [
+                "ID: Gunakan object pronoun untuk menunjukkan penerima vonis."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The judge handed he the verdict.",
+              "correct": "The judge handed him the verdict.",
+              "reason": "English: 'He' is a subject pronoun; 'him' is the object pronoun. Bahasa Indonesia: 'He' adalah subject pronoun; 'him' adalah object pronoun."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. The clerk handed him the form.",
+            "translation": "Petugas menyerahkan formulir itu kepadanya."
+          },
+          {
+            "sentence": "2. She handed me the key.",
+            "translation": "Dia menyerahkan kunci itu kepada saya."
+          }
+        ],
+        "references": [
+          {
+            "title": "Pronouns",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/pronouns",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 49,
@@ -694,7 +2710,49 @@
         "E": "goes"
       },
       "correctAnswer": "E",
-      "explanation": "Topic: Simple Present Tense. The third-person singular subject 'brother' requires the verb form 'goes' for a habitual routine. Translation: Kakak laki-laki saya pergi ke perpustakaan kota setiap akhir pekan untuk mempersiapkan ujian universitasnya. Penjelasan: Subjek orang ketiga tunggal 'brother' memerlukan bentuk kata kerja 'goes' untuk rutinitas yang menjadi kebiasaan."
+      "explanationDetails": {
+        "id": "GRAM-0149",
+        "slug": "simple-present-goes-third-person",
+        "details_explanation": {
+          "explanation": "English: The third-person singular subject 'brother' requires 'goes' in the simple present for a routine. Bahasa Indonesia: Subjek tunggal orang ketiga 'brother' memerlukan 'goes' dalam simple present untuk rutinitas.",
+          "introduction": "The simple present is used for regular routines and habits.",
+          "rules": [
+            {
+              "title": "1. Go → Goes",
+              "explanation": "Add -es to 'go' with he, she, it, or a singular noun.",
+              "structure": "singular subject + goes + to + place",
+              "notes": [
+                "ID: Tambahkan -es pada 'go' dengan he, she, it, atau kata benda tunggal."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "My older brother go to the library every weekend.",
+              "correct": "My older brother goes to the library every weekend.",
+              "reason": "English: The singular subject requires 'goes'. Bahasa Indonesia: Subjek tunggal memerlukan 'goes'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. He goes to school by bus.",
+            "translation": "Dia pergi ke sekolah dengan bus."
+          },
+          {
+            "sentence": "2. She goes to the gym every morning.",
+            "translation": "Dia pergi ke gym setiap pagi."
+          }
+        ],
+        "references": [
+          {
+            "title": "Present simple",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     },
     {
       "id": 50,
@@ -708,7 +2766,49 @@
         "E": "better"
       },
       "correctAnswer": "C",
-      "explanation": "Topic: Degree of Comparison (Superlative). The superlative form of the adjective 'good' is 'best', used to indicate the highest quality among all possibilities. Translation: Ini adalah kesempatan terbaik yang akan pernah kamu dapatkan untuk belajar di universitas negeri terkemuka. Penjelasan: Bentuk superlatif dari kata sifat 'good' adalah 'best', digunakan untuk menunjukkan kualitas tertinggi di antara semua kemungkinan."
+      "explanationDetails": {
+        "id": "GRAM-0150",
+        "slug": "superlative-best",
+        "details_explanation": {
+          "explanation": "English: The superlative form of 'good' is 'best', showing the highest quality among all possibilities. Bahasa Indonesia: Bentuk superlatif dari 'good' adalah 'best', menunjukkan kualitas tertinggi di antara semua kemungkinan.",
+          "introduction": "Irregular adjectives have special comparative and superlative forms: good → better → best.",
+          "rules": [
+            {
+              "title": "1. Good → Best",
+              "explanation": "Use 'best' as the superlative form of 'good'.",
+              "structure": "the best + noun",
+              "notes": [
+                "ID: Gunakan 'best' sebagai bentuk superlatif dari 'good'."
+              ]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "This is the bestest opportunity.",
+              "correct": "This is the best opportunity.",
+              "reason": "English: 'Best' is already superlative; 'bestest' is nonstandard. Bahasa Indonesia: 'Best' sudah superlatif; 'bestest' tidak baku."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "1. This is the best solution.",
+            "translation": "Ini adalah solusi terbaik."
+          },
+          {
+            "sentence": "2. She is the best student in the class.",
+            "translation": "Dia adalah siswa terbaik di kelas."
+          }
+        ],
+        "references": [
+          {
+            "title": "Comparatives and superlatives",
+            "author": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives",
+            "type": "grammar_reference"
+          }
+        ]
+      }
     }
   ]
 }
