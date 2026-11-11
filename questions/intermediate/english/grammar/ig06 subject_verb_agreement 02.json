@@ -1,0 +1,1576 @@
+{
+  "meta": {
+    "title": "Subject-Verb Agreement Test",
+    "show_answer": false,
+    "show_explanation": false,
+    "no_timer": false,
+    "description": "A comprehensive 30-question test covering singular/plural subject-verb agreement, compound subjects (and, or, nor), indefinite pronouns, collective nouns, and subjects with intervening phrases.",
+    "timeLimits": { "fast": 20, "normal": 30, "easy": 45 },
+    "updatedAt": "November 11, 2026 14:30:00"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The number of students", "clickable": false },
+        { "id": "s2", "text": "in the class", "clickable": false },
+        { "id": "s3", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s4", "text": "increasing every year.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0001",
+        "slug": "subject-verb-agreement-the-number-of",
+        "details_explanation": {
+          "explanation": "The phrase 'the number of' takes a singular verb because 'number' is the head noun, not the plural noun that follows it.",
+          "introduction": "Subject-verb agreement requires the verb to match the subject in number. Certain phrases like 'the number of' and 'a number of' follow different rules.",
+          "rules": [
+            {
+              "title": "1. 'The number of' + plural noun",
+              "explanation": "When 'the number of' is followed by a plural noun, the subject is 'number' (singular), so the verb must be singular.",
+              "structure": "The number of + plural noun + singular verb",
+              "notes": ["'The number of students is increasing' — 'is' agrees with 'number'.", "Do not confuse with 'a number of' which takes a plural verb."]
+            },
+            {
+              "title": "2. 'A number of' + plural noun",
+              "explanation": "When 'a number of' is followed by a plural noun, the subject is the plural noun, so the verb must be plural.",
+              "structure": "A number of + plural noun + plural verb",
+              "notes": ["'A number of students are absent' — 'are' agrees with 'students'."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The number of cars on the road are increasing.",
+              "correct": "The number of cars on the road is increasing.",
+              "reason": "The subject is 'number' (singular), not 'cars'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The number of applicants has increased significantly.",
+            "translation": "Jumlah pelamar telah meningkat secara signifikan."
+          },
+          {
+            "sentence": "A number of issues remain unresolved.",
+            "translation": "Sejumlah masalah masih belum terselesaikan."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Each of the participants", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "received a certificate.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0002",
+        "slug": "subject-verb-agreement-each-of",
+        "details_explanation": {
+          "explanation": "The indefinite pronoun 'each' is always singular, even when followed by a plural noun phrase. Therefore, it requires a singular verb.",
+          "introduction": "Indefinite pronouns such as 'each', 'everyone', 'everybody', 'someone', 'nobody', etc., are grammatically singular and take singular verbs.",
+          "rules": [
+            {
+              "title": "1. Indefinite pronouns ending in -one, -body, -thing",
+              "explanation": "Pronouns like 'everyone', 'someone', 'nobody', and 'everything' are singular and require singular verbs.",
+              "structure": "Everyone/Someone/Nobody + singular verb",
+              "notes": ["'Everyone is here' — not 'Everyone are here'.", "These pronouns do not take plural verbs even when referring to multiple people."]
+            },
+            {
+              "title": "2. 'Each' and 'Every' as determiners",
+              "explanation": "When 'each' or 'every' modifies a singular noun, the subject is singular.",
+              "structure": "Each/Every + singular noun + singular verb",
+              "notes": ["'Each student has a book' — 'has' is singular.", "With 'each of + plural noun', the verb remains singular: 'Each of the boys is here'."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Each of the students have a laptop.",
+              "correct": "Each of the students has a laptop.",
+              "reason": "'Each' is singular, so the verb must be 'has'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Everyone in the room was silent.",
+            "translation": "Semua orang di ruangan itu diam."
+          },
+          {
+            "sentence": "Nobody knows the answer.",
+            "translation": "Tidak ada yang tahu jawabannya."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns", "author": "Grammarly", "url": "https://www.grammarly.com/blog/indefinite-pronouns/", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The committee", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "decided to postpone the meeting.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0003",
+        "slug": "subject-verb-agreement-collective-noun",
+        "details_explanation": {
+          "explanation": "Collective nouns like 'committee', 'team', 'family', and 'government' are treated as singular when the group acts as a single unit. In this case, 'has' is correct.",
+          "introduction": "Collective nouns refer to groups of people or things. In American English, they typically take singular verbs when acting as one unit.",
+          "rules": [
+            {
+              "title": "1. Collective nouns as singular",
+              "explanation": "When a collective noun refers to the group as a single entity, use a singular verb.",
+              "structure": "Collective noun (acting as one) + singular verb",
+              "notes": ["'The team is winning' — the team acts as one unit.", "Common collective nouns: team, family, committee, government, audience, staff."]
+            },
+            {
+              "title": "2. Collective nouns as plural",
+              "explanation": "When the members of the group act individually, the collective noun can take a plural verb (more common in British English).",
+              "structure": "Collective noun (acting individually) + plural verb",
+              "notes": ["'The team are arguing among themselves' — members act individually.", "In American English, singular verb is preferred unless emphasizing individual actions."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The committee have made their decision.",
+              "correct": "The committee has made its decision.",
+              "reason": "The committee acts as one unit, so use singular verb and pronoun."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The family is going on vacation.",
+            "translation": "Keluarga itu akan pergi berlibur."
+          },
+          {
+            "sentence": "The staff is required to attend the training.",
+            "translation": "Staf diwajibkan menghadiri pelatihan."
+          }
+        ],
+        "references": [
+          { "title": "Collective Nouns", "author": "Merriam-Webster", "url": "https://www.merriam-webster.com/words-at-play/collective-nouns", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Neither the manager", "clickable": false },
+        { "id": "s2", "text": "nor the employees", "clickable": false },
+        { "id": "s3", "text": "was", "clickable": true, "isError": true, "correctAnswers": ["were"] },
+        { "id": "s4", "text": "available for comment.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0004",
+        "slug": "subject-verb-agreement-neither-nor",
+        "details_explanation": {
+          "explanation": "With 'neither...nor', the verb agrees with the subject closer to it. Here, 'employees' is plural and closer to the verb, so 'were' is correct.",
+          "introduction": "When subjects are joined by 'or', 'nor', 'either...or', or 'neither...nor', the verb agrees with the nearest subject (the principle of proximity).",
+          "rules": [
+            {
+              "title": "1. Proximity rule for or/nor",
+              "explanation": "The verb agrees with the subject that is closest to it in the sentence.",
+              "structure": "Either S1 or S2 + verb (agrees with S2)",
+              "notes": ["'Neither the students nor the teacher is here' — 'teacher' is closer, so 'is'.", "'Neither the teacher nor the students are here' — 'students' is closer, so 'are'."]
+            },
+            {
+              "title": "2. Compound subjects with 'and'",
+              "explanation": "Subjects joined by 'and' are plural and take a plural verb.",
+              "structure": "S1 and S2 + plural verb",
+              "notes": ["'The cat and the dog are playing' — both subjects combine to form a plural subject.", "Exception: If the two nouns refer to the same person/thing, use singular: 'The bread and butter is delicious'."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Neither the players nor the coach were satisfied.",
+              "correct": "Neither the players nor the coach was satisfied.",
+              "reason": "'Coach' is the nearer subject and is singular, so 'was'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Either the twins or their mother is coming.",
+            "translation": "Entah si kembar atau ibu mereka yang datang."
+          },
+          {
+            "sentence": "Neither the food nor the drinks were provided.",
+            "translation": "Baik makanan maupun minuman tidak disediakan."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement with Compound Subjects", "author": "Towson University", "url": "https://www.towson.edu/ows/moduleSVAGR.htm", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The bouquet of roses", "clickable": false },
+        { "id": "s2", "text": "were", "clickable": true, "isError": true, "correctAnswers": ["was"] },
+        { "id": "s3", "text": "beautiful.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0005",
+        "slug": "subject-verb-agreement-intervening-phrase",
+        "details_explanation": {
+          "explanation": "The subject is 'bouquet' (singular), not 'roses'. Prepositional phrases like 'of roses' do not affect the number of the subject.",
+          "introduction": "When a subject is followed by a prepositional phrase or other intervening phrase, the verb must still agree with the actual subject, not the object of the preposition.",
+          "rules": [
+            {
+              "title": "1. Ignore intervening phrases",
+              "explanation": "Phrases between the subject and verb do not change the subject's number.",
+              "structure": "Subject + (prepositional phrase) + verb",
+              "notes": ["'The box of chocolates is on the table' — 'box' is the subject.", "'The students in the library are studying' — 'students' is the subject."]
+            },
+            {
+              "title": "2. Common intervening phrases",
+              "explanation": "Phrases beginning with 'of', 'with', 'along with', 'together with', 'as well as', 'including', and 'in addition to' do not change the subject number.",
+              "structure": "Subject + as well as/together with/along with + noun + verb (agrees with subject)",
+              "notes": ["'The teacher, along with the students, is going on a trip.' — subject is 'teacher' (singular).", "'The CEO, as well as the managers, was present.' — subject is 'CEO' (singular)."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The list of items are on the desk.",
+              "correct": "The list of items is on the desk.",
+              "reason": "'List' is singular; 'items' is part of the prepositional phrase and does not affect the verb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The quality of the products has improved.",
+            "translation": "Kualitas produk-produk tersebut telah meningkat."
+          },
+          {
+            "sentence": "The players on the team are very talented.",
+            "translation": "Para pemain di tim itu sangat berbakat."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement: Intervening Phrases", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Everyone", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "finished their homework.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0006",
+        "slug": "subject-verb-agreement-everyone",
+        "details_explanation": {
+          "explanation": "The indefinite pronoun 'everyone' is always singular and takes a singular verb, even though it refers to many people.",
+          "introduction": "Indefinite pronouns such as 'everyone', 'everybody', 'someone', 'somebody', 'anyone', 'anybody', 'no one', and 'nobody' are grammatically singular.",
+          "rules": [
+            {
+              "title": "1. Everyone/Everybody + singular verb",
+              "explanation": "These pronouns are treated as singular subjects.",
+              "structure": "Everyone/Everybody + singular verb",
+              "notes": ["'Everyone is invited' — not 'Everyone are invited'.", "Even though 'everyone' means 'all people', the grammar is singular."]
+            },
+            {
+              "title": "2. Pronoun agreement with indefinite pronouns",
+              "explanation": "Traditional grammar uses singular pronouns (his/her), but modern usage often accepts 'their' as a gender-neutral pronoun.",
+              "structure": "Everyone + singular verb + their/his or her",
+              "notes": ["'Everyone has their own opinion' is widely accepted in modern English.", "In formal writing, 'his or her' may be preferred."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Everyone were happy at the party.",
+              "correct": "Everyone was happy at the party.",
+              "reason": "'Everyone' is singular, so use 'was', not 'were'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Somebody has left a message.",
+            "translation": "Seseorang telah meninggalkan pesan."
+          },
+          {
+            "sentence": "Nobody knows the truth.",
+            "translation": "Tidak ada yang tahu kebenarannya."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns and Agreement", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The teacher, along with the students,", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "attending the conference.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0007",
+        "slug": "subject-verb-agreement-along-with",
+        "details_explanation": {
+          "explanation": "The phrase 'along with the students' is an intervening phrase and does not change the number of the subject. The subject is 'teacher' (singular), so the verb must be 'is'.",
+          "introduction": "Phrases like 'along with', 'together with', 'as well as', 'in addition to', and 'accompanied by' introduce additional information but do not make a singular subject plural.",
+          "rules": [
+            {
+              "title": "1. 'Along with' / 'Together with' do not compound the subject",
+              "explanation": "These phrases are parenthetical and do not affect subject-verb agreement.",
+              "structure": "Singular subject + along with/together with + noun + singular verb",
+              "notes": ["'The president, along with his advisors, is speaking.' — subject is 'president'.", "'The cat, together with the kittens, is sleeping.' — subject is 'cat'."]
+            },
+            {
+              "title": "2. Difference from 'and'",
+              "explanation": "'And' joins two subjects into a compound subject (plural), while 'along with' does not.",
+              "structure": "S1 and S2 + plural verb vs. S1 along with S2 + singular verb",
+              "notes": ["'The teacher and the student are here' (plural).", "'The teacher along with the student is here' (singular)."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The CEO, as well as the directors, were present.",
+              "correct": "The CEO, as well as the directors, was present.",
+              "reason": "'As well as' does not make the subject plural; the subject is 'CEO'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The mother, together with her children, is going to the park.",
+            "translation": "Ibu itu, bersama dengan anak-anaknya, pergi ke taman."
+          },
+          {
+            "sentence": "The manager, in addition to the staff, has agreed to the proposal.",
+            "translation": "Manajer itu, selain staf, telah menyetujui proposal tersebut."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement with Intervening Phrases", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Some of the cake", "clickable": false },
+        { "id": "s2", "text": "were", "clickable": true, "isError": true, "correctAnswers": ["was"] },
+        { "id": "s3", "text": "eaten.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0008",
+        "slug": "subject-verb-agreement-some-of",
+        "details_explanation": {
+          "explanation": "The indefinite pronoun 'some' can be singular or plural depending on the noun it refers to. Here, 'cake' is uncountable/singular, so the verb is 'was'.",
+          "introduction": "Indefinite pronouns like 'some', 'all', 'most', 'none', 'any', and 'more' can be singular or plural depending on the noun they refer to.",
+          "rules": [
+            {
+              "title": "1. 'Some of' + uncountable/singular noun",
+              "explanation": "When 'some of' refers to an uncountable or singular noun, the verb is singular.",
+              "structure": "Some of + singular/uncountable noun + singular verb",
+              "notes": ["'Some of the water is dirty.'", "'Some of the cake was eaten.'"]
+            },
+            {
+              "title": "2. 'Some of' + plural noun",
+              "explanation": "When 'some of' refers to a plural noun, the verb is plural.",
+              "structure": "Some of + plural noun + plural verb",
+              "notes": ["'Some of the students are absent.'", "'Some of the books were damaged.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Some of the information were incorrect.",
+              "correct": "Some of the information was incorrect.",
+              "reason": "'Information' is uncountable/singular, so use 'was'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Most of the work is done.",
+            "translation": "Sebagian besar pekerjaan sudah selesai."
+          },
+          {
+            "sentence": "Most of the workers are tired.",
+            "translation": "Sebagian besar pekerja lelah."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns: Some, All, Most", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/indefinite-pronouns", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "My brother and sister", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "coming to visit.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0009",
+        "slug": "subject-verb-agreement-compound-and",
+        "details_explanation": {
+          "explanation": "Two subjects joined by 'and' form a compound subject, which is plural and requires a plural verb.",
+          "introduction": "When two or more subjects are connected by 'and', they form a compound subject that takes a plural verb.",
+          "rules": [
+            {
+              "title": "1. Compound subjects with 'and'",
+              "explanation": "Subjects joined by 'and' are treated as plural.",
+              "structure": "S1 and S2 + plural verb",
+              "notes": ["'The dog and the cat are playing.'", "'John and Mary are married.'"]
+            },
+            {
+              "title": "2. Exception: Same person or thing",
+              "explanation": "If the two nouns joined by 'and' refer to the same person or a single idea, the verb is singular.",
+              "structure": "S1 and S2 (same entity) + singular verb",
+              "notes": ["'The bread and butter is delicious.' (one item)", "'My friend and colleague is here.' (one person)"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The teacher and the student was talking.",
+              "correct": "The teacher and the student were talking.",
+              "reason": "Two subjects joined by 'and' require a plural verb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The sun and the moon are both visible today.",
+            "translation": "Matahari dan bulan keduanya terlihat hari ini."
+          },
+          {
+            "sentence": "Rice and beans is a popular dish in many cultures.",
+            "translation": "Nasi dan kacang adalah hidangan populer di banyak budaya."
+          }
+        ],
+        "references": [
+          { "title": "Compound Subjects", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Neither of the answers", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "correct.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0010",
+        "slug": "subject-verb-agreement-neither-of",
+        "details_explanation": {
+          "explanation": "The pronoun 'neither' is singular and takes a singular verb, even when followed by 'of + plural noun'.",
+          "introduction": "Indefinite pronouns 'neither' and 'either' are singular and require singular verbs.",
+          "rules": [
+            {
+              "title": "1. 'Neither of' + plural noun",
+              "explanation": "Despite the plural noun after 'of', 'neither' is the subject and is singular.",
+              "structure": "Neither of + plural noun + singular verb",
+              "notes": ["'Neither of the boys is here.'", "'Neither of the options seems good.'"]
+            },
+            {
+              "title": "2. 'Either of' + plural noun",
+              "explanation": "Similarly, 'either' is singular.",
+              "structure": "Either of + plural noun + singular verb",
+              "notes": ["'Either of the answers is acceptable.'", "'Either of the candidates has a chance.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Neither of the students have finished.",
+              "correct": "Neither of the students has finished.",
+              "reason": "'Neither' is singular and takes 'has'."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Neither of the twins likes broccoli.",
+            "translation": "Tidak ada dari si kembar yang menyukai brokoli."
+          },
+          {
+            "sentence": "Either of the movies is fine with me.",
+            "translation": "Salah satu dari film-film itu baik-baik saja bagiku."
+          }
+        ],
+        "references": [
+          { "title": "Neither, Either, and Subject-Verb Agreement", "author": "Merriam-Webster", "url": "https://www.merriam-webster.com/words-at-play/neither-either-grammar", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The police", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "investigating the case.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0011",
+        "slug": "subject-verb-agreement-police",
+        "details_explanation": {
+          "explanation": "The noun 'police' is always plural in English and requires a plural verb.",
+          "introduction": "Some nouns are always plural and take plural verbs, even though they look singular. These include 'police', 'people', 'cattle', and 'clergy'.",
+          "rules": [
+            {
+              "title": "1. Nouns always plural",
+              "explanation": "Certain nouns refer to groups of people or animals and are always treated as plural.",
+              "structure": "Plural-only noun + plural verb",
+              "notes": ["'The police are coming.'", "'People are waiting.'", "'Cattle are grazing.'"]
+            },
+            {
+              "title": "2. Collective nouns that are always plural",
+              "explanation": "Unlike collective nouns like 'team' which can be singular or plural, these nouns are always plural.",
+              "structure": "Always-plural noun + plural verb",
+              "notes": ["'The clergy are divided on the issue.'", "Do not use 'police is' or 'people is'."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The police is looking for the suspect.",
+              "correct": "The police are looking for the suspect.",
+              "reason": "'Police' is always plural in English."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The people are protesting in the streets.",
+            "translation": "Orang-orang sedang protes di jalanan."
+          },
+          {
+            "sentence": "The cattle are grazing in the field.",
+            "translation": "Sapi-sapi sedang merumput di ladang."
+          }
+        ],
+        "references": [
+          { "title": "Nouns with Special Agreement Rules", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/subject-verb-agreement", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The book, including all its illustrations,", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "quite expensive.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0012",
+        "slug": "subject-verb-agreement-including",
+        "details_explanation": {
+          "explanation": "The subject is 'book' (singular). The phrase 'including all its illustrations' is an intervening phrase and does not affect the verb.",
+          "introduction": "Phrases beginning with 'including', 'such as', 'like', 'especially', and 'particularly' provide additional information but do not change the subject's number.",
+          "rules": [
+            {
+              "title": "1. 'Including' introduces extra information",
+              "explanation": "The verb must agree with the main subject, not the items listed after 'including'.",
+              "structure": "Singular subject + including + noun(s) + singular verb",
+              "notes": ["'The team, including its coach, is ready.'", "'The house, including the gardens, is for sale.'"]
+            },
+            {
+              "title": "2. Identifying the true subject",
+              "explanation": "To find the subject, remove the intervening phrase and check the verb agreement.",
+              "structure": "Remove the phrase and verify: Subject + verb",
+              "notes": ["'The book is quite expensive' — correct.", "'The books, including the red one, are on the shelf.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The student, including his friends, were late.",
+              "correct": "The student, including his friends, was late.",
+              "reason": "The subject is 'student' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The meal, including dessert, was delicious.",
+            "translation": "Makanan itu, termasuk makanan penutup, lezat."
+          },
+          {
+            "sentence": "The players, including the captain, are practicing.",
+            "translation": "Para pemain, termasuk kapten, sedang berlatih."
+          }
+        ],
+        "references": [
+          { "title": "Intervening Phrases and Subject-Verb Agreement", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Everybody in the class", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "submitted their assignments.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0013",
+        "slug": "subject-verb-agreement-everybody",
+        "details_explanation": {
+          "explanation": "The pronoun 'everybody' is grammatically singular and takes a singular verb, even though it refers to multiple people.",
+          "introduction": "Indefinite pronouns ending in '-body' (everybody, somebody, anybody, nobody) are always singular.",
+          "rules": [
+            {
+              "title": "1. Everybody/Somebody/Nobody + singular verb",
+              "explanation": "These pronouns are treated as singular subjects regardless of the context.",
+              "structure": "Everybody/Somebody/Nobody + singular verb",
+              "notes": ["'Everybody is welcome.'", "'Somebody has called you.'", "'Nobody was home.'"]
+            },
+            {
+              "title": "2. Pronoun reference",
+              "explanation": "Modern English often uses 'their' as a gender-neutral pronoun with these subjects, but the verb remains singular.",
+              "structure": "Everybody + singular verb + their/his or her",
+              "notes": ["'Everybody has their own way.' — 'has' is singular, 'their' is gender-neutral.", "In formal writing, use 'his or her'."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Everybody were excited about the trip.",
+              "correct": "Everybody was excited about the trip.",
+              "reason": "'Everybody' is singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Somebody is knocking at the door.",
+            "translation": "Seseorang mengetuk pintu."
+          },
+          {
+            "sentence": "Nobody has seen the movie yet.",
+            "translation": "Belum ada yang melihat film itu."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns", "author": "Grammarly", "url": "https://www.grammarly.com/blog/indefinite-pronouns/", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The government", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "announced new policies.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0014",
+        "slug": "subject-verb-agreement-government",
+        "details_explanation": {
+          "explanation": "The collective noun 'government' is treated as singular in American English when acting as a single unit, so it takes 'has'.",
+          "introduction": "Collective nouns like 'government', 'team', 'committee', and 'family' are singular when the group acts as one entity.",
+          "rules": [
+            {
+              "title": "1. Collective nouns in American English",
+              "explanation": "In American English, collective nouns take singular verbs.",
+              "structure": "Collective noun + singular verb (American English)",
+              "notes": ["'The government has decided.'", "'The team is winning.'", "'The family is eating dinner.'"]
+            },
+            {
+              "title": "2. Collective nouns in British English",
+              "explanation": "In British English, collective nouns can take plural verbs when members act individually.",
+              "structure": "Collective noun + plural verb (British English, individual action)",
+              "notes": ["'The government are divided.' (British English)", "'The team are playing well.' (British English)"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The government have made a decision.",
+              "correct": "The government has made a decision. (American English)",
+              "reason": "In American English, collective nouns are singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The team has won the championship.",
+            "translation": "Tim itu telah memenangkan kejuaraan."
+          },
+          {
+            "sentence": "The audience was captivated by the performance.",
+            "translation": "Penonton terpesona oleh pertunjukan itu."
+          }
+        ],
+        "references": [
+          { "title": "Collective Nouns and Agreement", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Either the cat or the dogs", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "making noise.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0015",
+        "slug": "subject-verb-agreement-either-or",
+        "details_explanation": {
+          "explanation": "With 'either...or', the verb agrees with the nearer subject. 'Dogs' is plural and closer to the verb, so 'are' is correct.",
+          "introduction": "When two subjects are joined by 'or', 'nor', 'either...or', or 'neither...nor', the verb agrees with the subject closest to it.",
+          "rules": [
+            {
+              "title": "1. Proximity rule",
+              "explanation": "The verb agrees with the nearest subject.",
+              "structure": "Either S1 or S2 + verb (agrees with S2)",
+              "notes": ["'Either the students or the teacher is here.' — 'teacher' is closer.", "'Either the teacher or the students are here.' — 'students' is closer."]
+            },
+            {
+              "title": "2. Maintaining parallel structure",
+              "explanation": "For clarity, place the plural subject closer to the verb or rephrase the sentence.",
+              "structure": "Either + singular + or + plural + plural verb",
+              "notes": ["'Either the manager or the employees are responsible.'", "Avoid mixing singular and plural subjects when possible."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Either the boys or the girl are coming.",
+              "correct": "Either the boys or the girl is coming.",
+              "reason": "'Girl' is closer to the verb and is singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Either the pen or the pencils are on the desk.",
+            "translation": "Entah pulpen atau pensil-pensil ada di meja."
+          },
+          {
+            "sentence": "Either the manager or the assistant is going to attend.",
+            "translation": "Entah manajer atau asisten yang akan hadir."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement with Or/Nor", "author": "Towson University", "url": "https://www.towson.edu/ows/moduleSVAGR.htm", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The news", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "very disturbing.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0016",
+        "slug": "subject-verb-agreement-news",
+        "details_explanation": {
+          "explanation": "The word 'news' is uncountable and grammatically singular, even though it ends in -s. It takes a singular verb.",
+          "introduction": "Some nouns ending in -s are actually singular. These include 'news', 'mathematics', 'physics', 'economics', and 'politics'.",
+          "rules": [
+            {
+              "title": "1. Nouns ending in -s that are singular",
+              "explanation": "Certain nouns ending in -s are treated as singular because they represent a single concept or field of study.",
+              "structure": "Singular noun ending in -s + singular verb",
+              "notes": ["'The news is good.'", "'Mathematics is difficult.'", "'Physics is fascinating.'"]
+            },
+            {
+              "title": "2. Distinguishing from plural nouns",
+              "explanation": "Unlike 'scissors' or 'pants' which are plural, 'news' and academic subjects are singular.",
+              "structure": "Check meaning: single concept = singular verb",
+              "notes": ["'Economics is a complex subject.'", "'Politics is often controversial.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The news are bad today.",
+              "correct": "The news is bad today.",
+              "reason": "'News' is singular despite ending in -s."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Mathematics is my favorite subject.",
+            "translation": "Matematika adalah mata pelajaran favorit saya."
+          },
+          {
+            "sentence": "The news was shocking to everyone.",
+            "translation": "Berita itu mengejutkan semua orang."
+          }
+        ],
+        "references": [
+          { "title": "Nouns with Unusual Plural Forms", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-singular-and-plural", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The students, as well as the teacher,", "clickable": false },
+        { "id": "s2", "text": "was", "clickable": true, "isError": true, "correctAnswers": ["were"] },
+        { "id": "s3", "text": "surprised by the announcement.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0017",
+        "slug": "subject-verb-agreement-as-well-as",
+        "details_explanation": {
+          "explanation": "The subject is 'students' (plural). The phrase 'as well as the teacher' is an intervening phrase and does not change the number of the subject.",
+          "introduction": "Phrases like 'as well as', 'along with', 'together with', and 'in addition to' add information but do not change the subject's number.",
+          "rules": [
+            {
+              "title": "1. 'As well as' does not compound the subject",
+              "explanation": "The verb agrees with the first subject only.",
+              "structure": "Subject + as well as + noun + verb (agrees with subject)",
+              "notes": ["'The students as well as the teacher were surprised.'", "'The teacher as well as the students was surprised.'"]
+            },
+            {
+              "title": "2. Difference from 'and'",
+              "explanation": "'And' creates a compound subject (plural), while 'as well as' does not.",
+              "structure": "S1 and S2 = plural; S1 as well as S2 = agrees with S1",
+              "notes": ["'The CEO and the staff are here' (plural).", "'The CEO as well as the staff is here' (singular subject)."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The teacher, as well as the students, were late.",
+              "correct": "The teacher, as well as the students, was late.",
+              "reason": "The subject is 'teacher' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The manager, as well as the employees, is attending the meeting.",
+            "translation": "Manajer, serta para karyawan, menghadiri rapat."
+          },
+          {
+            "sentence": "The children, as well as their parents, are excited.",
+            "translation": "Anak-anak, serta orang tua mereka, bersemangat."
+          }
+        ],
+        "references": [
+          { "title": "Subjects with Intervening Phrases", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "One of the students", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "won the competition.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0018",
+        "slug": "subject-verb-agreement-one-of",
+        "details_explanation": {
+          "explanation": "The subject is 'one' (singular). The phrase 'of the students' is a prepositional phrase and does not change the subject.",
+          "introduction": "In phrases like 'one of the + plural noun', the subject is 'one', which is singular.",
+          "rules": [
+            {
+              "title": "1. 'One of the' + plural noun",
+              "explanation": "The verb agrees with 'one', not the plural noun that follows.",
+              "structure": "One of the + plural noun + singular verb",
+              "notes": ["'One of the boys is here.'", "'One of the problems was solved.'"]
+            },
+            {
+              "title": "2. 'Each of the' + plural noun",
+              "explanation": "Similarly, 'each of the' takes a singular verb.",
+              "structure": "Each of the + plural noun + singular verb",
+              "notes": ["'Each of the students has a book.'", "'Each of the rooms is clean.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "One of my friends are a doctor.",
+              "correct": "One of my friends is a doctor.",
+              "reason": "The subject is 'one' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "One of the cars was stolen.",
+            "translation": "Salah satu mobil dicuri."
+          },
+          {
+            "sentence": "One of the answers is incorrect.",
+            "translation": "Salah satu jawaban salah."
+          }
+        ],
+        "references": [
+          { "title": "One of the: Subject-Verb Agreement", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The flock of birds", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "flying south for the winter.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0019",
+        "slug": "subject-verb-agreement-flock",
+        "details_explanation": {
+          "explanation": "The subject is 'flock' (singular collective noun). The phrase 'of birds' does not change the subject's number.",
+          "introduction": "Collective nouns like 'flock', 'herd', 'pack', 'school', and 'swarm' refer to groups and are singular.",
+          "rules": [
+            {
+              "title": "1. Collective nouns for animals",
+              "explanation": "These nouns treat the group as a single unit and take singular verbs.",
+              "structure": "Collective noun + singular verb",
+              "notes": ["'A flock of sheep is grazing.'", "'A herd of elephants is migrating.'", "'A pack of wolves is hunting.'"]
+            },
+            {
+              "title": "2. Subject is the collective noun",
+              "explanation": "The prepositional phrase 'of + plural noun' does not affect the verb.",
+              "structure": "Collective noun + of + plural noun + singular verb",
+              "notes": ["'The flock of geese is flying.'", "'The school of fish is swimming.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The herd of cattle are moving.",
+              "correct": "The herd of cattle is moving.",
+              "reason": "The subject is 'herd' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "A pack of wolves is approaching.",
+            "translation": "Sekawanan serigala mendekat."
+          },
+          {
+            "sentence": "The swarm of bees is dangerous.",
+            "translation": "Kawanan lebah itu berbahaya."
+          }
+        ],
+        "references": [
+          { "title": "Collective Nouns", "author": "Merriam-Webster", "url": "https://www.merriam-webster.com/words-at-play/collective-nouns", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Both the teacher and the principal", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "attending the ceremony.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0020",
+        "slug": "subject-verb-agreement-both-and",
+        "details_explanation": {
+          "explanation": "The subject is compound ('the teacher and the principal'), joined by 'and', so it requires a plural verb.",
+          "introduction": "When subjects are joined by 'and', they form a compound subject and take a plural verb, unless they refer to the same entity.",
+          "rules": [
+            {
+              "title": "1. 'Both...and' emphasizes plurality",
+              "explanation": "The construction 'both...and' always creates a plural subject.",
+              "structure": "Both S1 and S2 + plural verb",
+              "notes": ["'Both the students and the teacher are here.'", "'Both the cat and the dog are sleeping.'"]
+            },
+            {
+              "title": "2. Compound subjects with 'and'",
+              "explanation": "Two distinct subjects joined by 'and' require a plural verb.",
+              "structure": "S1 and S2 + plural verb",
+              "notes": ["'The manager and the assistant are working.'", "'The sun and the moon are visible.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Both the mother and the father was present.",
+              "correct": "Both the mother and the father were present.",
+              "reason": "Two subjects joined by 'and' require a plural verb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Both the CEO and the CFO are attending the meeting.",
+            "translation": "Baik CEO maupun CFO menghadiri rapat."
+          },
+          {
+            "sentence": "Both the apples and the oranges are fresh.",
+            "translation": "Baik apel maupun jeruk segar."
+          }
+        ],
+        "references": [
+          { "title": "Compound Subjects with And", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Neither the president nor the ministers", "clickable": false },
+        { "id": "s2", "text": "has", "clickable": true, "isError": true, "correctAnswers": ["have"] },
+        { "id": "s3", "text": "responded to the crisis.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0021",
+        "slug": "subject-verb-agreement-neither-nor-plural",
+        "details_explanation": {
+          "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'Ministers' is plural and closer to the verb, so 'have' is correct.",
+          "introduction": "In 'neither...nor' constructions, the verb agrees with the subject closest to it.",
+          "rules": [
+            {
+              "title": "1. Proximity rule with 'neither...nor'",
+              "explanation": "The verb matches the number of the nearest subject.",
+              "structure": "Neither S1 nor S2 + verb (agrees with S2)",
+              "notes": ["'Neither the teacher nor the students are here.' — 'students' is closer.", "'Neither the students nor the teacher is here.' — 'teacher' is closer."]
+            },
+            {
+              "title": "2. Practice tip",
+              "explanation": "Mentally remove the first subject to check the verb agreement with the second.",
+              "structure": "Remove S1: Nor S2 + verb",
+              "notes": ["'Nor the ministers have responded' — correct.", "'Nor the minister has responded' — correct."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Neither the cat nor the dogs is outside.",
+              "correct": "Neither the cat nor the dogs are outside.",
+              "reason": "'Dogs' is closer and is plural."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Neither the players nor the coach was satisfied.",
+            "translation": "Baik para pemain maupun pelatih tidak puas."
+          },
+          {
+            "sentence": "Neither the manager nor the employees were aware of the change.",
+            "translation": "Baik manajer maupun karyawan tidak menyadari perubahan itu."
+          }
+        ],
+        "references": [
+          { "title": "Subject-Verb Agreement with Neither/Nor", "author": "Towson University", "url": "https://www.towson.edu/ows/moduleSVAGR.htm", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The scissors", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "on the table.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0022",
+        "slug": "subject-verb-agreement-scissors",
+        "details_explanation": {
+          "explanation": "The noun 'scissors' is always plural and takes a plural verb.",
+          "introduction": "Some nouns are always plural because they refer to objects with two parts. These include 'scissors', 'pants', 'trousers', 'glasses' (eyewear), and 'pliers'.",
+          "rules": [
+            {
+              "title": "1. Always-plural nouns (two-part objects)",
+              "explanation": "These nouns are grammatically plural and require plural verbs.",
+              "structure": "Plural-only noun + plural verb",
+              "notes": ["'The scissors are sharp.'", "'My glasses are broken.'", "'The pants are too long.'"]
+            },
+            {
+              "title": "2. 'A pair of' changes the number",
+              "explanation": "When preceded by 'a pair of', the subject becomes singular.",
+              "structure": "A pair of + plural noun + singular verb",
+              "notes": ["'A pair of scissors is on the table.'", "'A pair of pants was bought.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The scissors is in the drawer.",
+              "correct": "The scissors are in the drawer.",
+              "reason": "'Scissors' is always plural."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "My glasses are dirty.",
+            "translation": "Kacamata saya kotor."
+          },
+          {
+            "sentence": "The pliers are in the toolbox.",
+            "translation": "Tang itu ada di kotak perkakas."
+          }
+        ],
+        "references": [
+          { "title": "Plural-Only Nouns", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-singular-and-plural", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The quality of the products", "clickable": false },
+        { "id": "s2", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s3", "text": "improved significantly.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0023",
+        "slug": "subject-verb-agreement-quality-of",
+        "details_explanation": {
+          "explanation": "The subject is 'quality' (singular). The phrase 'of the products' is a prepositional phrase and does not affect the verb.",
+          "introduction": "When the subject is followed by a prepositional phrase, the verb agrees with the subject, not the object of the preposition.",
+          "rules": [
+            {
+              "title": "1. Identify the true subject",
+              "explanation": "The subject is the noun before the prepositional phrase.",
+              "structure": "Subject + of + noun + verb (agrees with subject)",
+              "notes": ["'The quality of the products has improved.' — subject is 'quality'.", "'The color of the flowers is beautiful.' — subject is 'color'."]
+            },
+            {
+              "title": "2. Common prepositional phrases",
+              "explanation": "Phrases beginning with 'of', 'in', 'on', 'at', 'from', 'with', etc., do not affect subject-verb agreement.",
+              "structure": "Subject + prepositional phrase + verb",
+              "notes": ["'The box of chocolates is on the table.'", "'The students in the classroom are quiet.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The price of the shoes were too high.",
+              "correct": "The price of the shoes was too high.",
+              "reason": "The subject is 'price' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The condition of the roads is poor.",
+            "translation": "Kondisi jalan-jalan buruk."
+          },
+          {
+            "sentence": "The taste of these apples is sweet.",
+            "translation": "Rasa apel-apel ini manis."
+          }
+        ],
+        "references": [
+          { "title": "Prepositional Phrases and Subject-Verb Agreement", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "All of the information", "clickable": false },
+        { "id": "s2", "text": "were", "clickable": true, "isError": true, "correctAnswers": ["was"] },
+        { "id": "s3", "text": "accurate.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0024",
+        "slug": "subject-verb-agreement-all-of",
+        "details_explanation": {
+          "explanation": "The pronoun 'all' can be singular or plural depending on the noun it refers to. 'Information' is uncountable/singular, so the verb is 'was'.",
+          "introduction": "Indefinite pronouns like 'all', 'some', 'most', 'none', 'any', and 'more' can be singular or plural depending on the noun they refer to.",
+          "rules": [
+            {
+              "title": "1. 'All of' + uncountable/singular noun",
+              "explanation": "When 'all of' refers to an uncountable noun, use a singular verb.",
+              "structure": "All of + uncountable noun + singular verb",
+              "notes": ["'All of the water is gone.'", "'All of the information was accurate.'"]
+            },
+            {
+              "title": "2. 'All of' + plural noun",
+              "explanation": "When 'all of' refers to a plural noun, use a plural verb.",
+              "structure": "All of + plural noun + plural verb",
+              "notes": ["'All of the students are present.'", "'All of the books were sold.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "All of the furniture were expensive.",
+              "correct": "All of the furniture was expensive.",
+              "reason": "'Furniture' is uncountable/singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "All of the milk was spilled.",
+            "translation": "Semua susu tumpah."
+          },
+          {
+            "sentence": "All of the employees are working.",
+            "translation": "Semua karyawan sedang bekerja."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns: All, Some, Most", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/indefinite-pronouns", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The family", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "going on vacation together.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0025",
+        "slug": "subject-verb-agreement-family",
+        "details_explanation": {
+          "explanation": "The collective noun 'family' is treated as singular when acting as a single unit. The word 'together' reinforces this unity.",
+          "introduction": "Collective nouns like 'family', 'team', 'committee', and 'audience' are singular when the group acts as one.",
+          "rules": [
+            {
+              "title": "1. Collective nouns as single units",
+              "explanation": "When the group acts as one, use a singular verb.",
+              "structure": "Collective noun (acting as one) + singular verb",
+              "notes": ["'The family is eating dinner.'", "'The team is winning.'", "'The committee has decided.'"]
+            },
+            {
+              "title": "2. Words indicating unity",
+              "explanation": "Words like 'together', 'as one', and 'united' indicate the group acts as a unit, requiring a singular verb.",
+              "structure": "Collective noun + together/as one + singular verb",
+              "notes": ["'The family is going together.'", "'The team is united in its decision.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The family are going on vacation.",
+              "correct": "The family is going on vacation. (American English)",
+              "reason": "In American English, 'family' as a single unit takes a singular verb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The audience is applauding the performance.",
+            "translation": "Penonton bertepuk tangan untuk pertunjukan itu."
+          },
+          {
+            "sentence": "The committee is meeting to discuss the issue.",
+            "translation": "Komite sedang rapat untuk membahas masalah itu."
+          }
+        ],
+        "references": [
+          { "title": "Collective Nouns and Subject-Verb Agreement", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Either of the options", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": true, "isError": true, "correctAnswers": ["is"] },
+        { "id": "s3", "text": "acceptable.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0026",
+        "slug": "subject-verb-agreement-either-of",
+        "details_explanation": {
+          "explanation": "The pronoun 'either' is singular and takes a singular verb, even when followed by 'of + plural noun'.",
+          "introduction": "Indefinite pronouns 'either' and 'neither' are singular and require singular verbs.",
+          "rules": [
+            {
+              "title": "1. 'Either of' + plural noun",
+              "explanation": "'Either' is the subject and is singular.",
+              "structure": "Either of + plural noun + singular verb",
+              "notes": ["'Either of the answers is correct.'", "'Either of the candidates has a chance.'"]
+            },
+            {
+              "title": "2. 'Neither of' + plural noun",
+              "explanation": "Similarly, 'neither' is singular.",
+              "structure": "Neither of + plural noun + singular verb",
+              "notes": ["'Neither of the options seems good.'", "'Neither of the boys is here.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Either of the cars are fine.",
+              "correct": "Either of the cars is fine.",
+              "reason": "'Either' is singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Either of the solutions is acceptable.",
+            "translation": "Salah satu dari solusi itu dapat diterima."
+          },
+          {
+            "sentence": "Either of the girls has the key.",
+            "translation": "Salah satu dari gadis-gadis itu memiliki kuncinya."
+          }
+        ],
+        "references": [
+          { "title": "Either and Neither: Subject-Verb Agreement", "author": "Merriam-Webster", "url": "https://www.merriam-webster.com/words-at-play/neither-either-grammar", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Tom and Jerry", "clickable": false },
+        { "id": "s2", "text": "is", "clickable": true, "isError": true, "correctAnswers": ["are"] },
+        { "id": "s3", "text": "my favorite cartoon characters.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0027",
+        "slug": "subject-verb-agreement-two-subjects-and",
+        "details_explanation": {
+          "explanation": "Two subjects joined by 'and' form a compound subject and take a plural verb.",
+          "introduction": "When two distinct subjects are connected by 'and', the verb must be plural.",
+          "rules": [
+            {
+              "title": "1. Compound subjects with 'and'",
+              "explanation": "Two separate entities joined by 'and' are plural.",
+              "structure": "S1 and S2 + plural verb",
+              "notes": ["'Tom and Jerry are friends.'", "'The cat and the dog are playing.'"]
+            },
+            {
+              "title": "2. Identifying compound subjects",
+              "explanation": "Look for the conjunction 'and' connecting two subjects.",
+              "structure": "Subject 1 + and + Subject 2 + plural verb",
+              "notes": ["'The teacher and the student are talking.'", "'The sun and the moon are bright.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "John and Mary is coming to dinner.",
+              "correct": "John and Mary are coming to dinner.",
+              "reason": "Two subjects joined by 'and' require a plural verb."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The manager and the assistant are working late.",
+            "translation": "Manajer dan asisten bekerja lembur."
+          },
+          {
+            "sentence": "The boys and the girls are playing together.",
+            "translation": "Anak laki-laki dan perempuan bermain bersama."
+          }
+        ],
+        "references": [
+          { "title": "Compound Subjects", "author": "Purdue OWL", "url": "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The number of people", "clickable": false },
+        { "id": "s2", "text": "attending the event", "clickable": false },
+        { "id": "s3", "text": "have", "clickable": true, "isError": true, "correctAnswers": ["has"] },
+        { "id": "s4", "text": "increased.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0028",
+        "slug": "subject-verb-agreement-the-number-of-people",
+        "details_explanation": {
+          "explanation": "The subject is 'the number' (singular), not 'people'. The phrase 'of people attending the event' modifies 'number' but does not change its grammatical number.",
+          "introduction": "'The number of' is always followed by a singular verb, while 'a number of' is followed by a plural verb.",
+          "rules": [
+            {
+              "title": "1. 'The number of' + plural noun + singular verb",
+              "explanation": "'The number' is the subject and is singular.",
+              "structure": "The number of + plural noun + singular verb",
+              "notes": ["'The number of students is increasing.'", "'The number of cars on the road has doubled.'"]
+            },
+            {
+              "title": "2. 'A number of' + plural noun + plural verb",
+              "explanation": "'A number of' means 'several' and takes a plural verb.",
+              "structure": "A number of + plural noun + plural verb",
+              "notes": ["'A number of students are absent.'", "'A number of issues have arisen.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The number of visitors have increased.",
+              "correct": "The number of visitors has increased.",
+              "reason": "The subject is 'number' (singular)."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The number of accidents has decreased this year.",
+            "translation": "Jumlah kecelakaan telah menurun tahun ini."
+          },
+          {
+            "sentence": "A number of factors have contributed to the problem.",
+            "translation": "Sejumlah faktor telah berkontribusi terhadap masalah tersebut."
+          }
+        ],
+        "references": [
+          { "title": "The Number vs. A Number", "author": "GrammarBook.com", "url": "https://www.grammarbook.com/grammar/subjectVerbAgree.asp", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Anyone who wants to participate", "clickable": false },
+        { "id": "s2", "text": "need", "clickable": true, "isError": true, "correctAnswers": ["needs"] },
+        { "id": "s3", "text": "to sign up by Friday.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0029",
+        "slug": "subject-verb-agreement-anyone",
+        "details_explanation": {
+          "explanation": "The indefinite pronoun 'anyone' is singular and takes a singular verb.",
+          "introduction": "Indefinite pronouns ending in '-one' (anyone, everyone, someone, no one) are grammatically singular.",
+          "rules": [
+            {
+              "title": "1. Anyone/Everyone/Someone + singular verb",
+              "explanation": "These pronouns are treated as singular subjects.",
+              "structure": "Anyone/Everyone/Someone + singular verb",
+              "notes": ["'Anyone is welcome to join.'", "'Everyone needs a break sometimes.'"]
+            },
+            {
+              "title": "2. Compound structures with indefinite pronouns",
+              "explanation": "Even with a relative clause, the main verb agrees with the singular pronoun.",
+              "structure": "Anyone who + verb (in relative clause) + singular verb (main clause)",
+              "notes": ["'Anyone who wants to come is invited.'", "'Everyone who has finished may leave.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Anyone are allowed to enter.",
+              "correct": "Anyone is allowed to enter.",
+              "reason": "'Anyone' is singular."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "Anyone can learn to swim.",
+            "translation": "Siapa pun bisa belajar berenang."
+          },
+          {
+            "sentence": "Someone has left their umbrella.",
+            "translation": "Seseorang telah meninggalkan payungnya."
+          }
+        ],
+        "references": [
+          { "title": "Indefinite Pronouns", "author": "Grammarly", "url": "https://www.grammarly.com/blog/indefinite-pronouns/", "type": "Grammar Guide" }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The staff", "clickable": false },
+        { "id": "s2", "text": "are", "clickable": false },
+        { "id": "s3", "text": "attending the meeting.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-SVA-0030",
+        "slug": "subject-verb-agreement-staff-british",
+        "details_explanation": {
+          "explanation": "No error. In British English, collective nouns like 'staff' can take a plural verb when members act individually. In American English, 'staff' is typically singular: 'The staff is attending.' Both forms can be acceptable depending on context and regional convention.",
+          "introduction": "Collective nouns can take singular or plural verbs depending on whether the group is viewed as a unit or as individuals.",
+          "rules": [
+            {
+              "title": "1. American English: Collective nouns as singular",
+              "explanation": "In American English, collective nouns take singular verbs.",
+              "structure": "Collective noun + singular verb (American English)",
+              "notes": ["'The staff is attending the meeting.'", "'The team is practicing.'"]
+            },
+            {
+              "title": "2. British English: Collective nouns as plural",
+              "explanation": "In British English, collective nouns often take plural verbs, especially when emphasizing individual members.",
+              "structure": "Collective noun + plural verb (British English)",
+              "notes": ["'The staff are attending the meeting.'", "'The team are practicing.'"]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The staff is attending (in British English context where plural is expected).",
+              "correct": "The staff are attending (British English) or The staff is attending (American English).",
+              "reason": "Regional differences affect collective noun agreement."
+            }
+          ]
+        },
+        "other_examples": [
+          {
+            "sentence": "The staff are demanding better working conditions. (British English)",
+            "translation": "Staf menuntut kondisi kerja yang lebih baik."
+          },
+          {
+            "sentence": "The staff is dedicated to the company. (American English)",
+            "translation": "Staf berdedikasi kepada perusahaan."
+          }
+        ],
+        "references": [
+          { "title": "Collective Nouns in British and American English", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/collective-nouns", "type": "Grammar Guide" }
+        ]
+      }
+    }
+  ]
+}
