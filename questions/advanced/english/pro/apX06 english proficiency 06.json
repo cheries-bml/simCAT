@@ -19,41 +19,28 @@
         { "id": "s3", "text": "that had been issued", "clickable": true, "isError": false },
         { "id": "s4", "text": "for the region,", "clickable": true, "isError": false },
         { "id": "s5", "text": "I would never have set out", "clickable": true, "isError": false },
-        { "id": "s6", "text": "on the mountain trail.", "clickable": false }
+        { "id": "s6", "text": "on the mountain trail,", "clickable": true, "isError": false },
+        { "id": "s7", "text": "especially given how unpredictable conditions can become at that altitude.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0001",
         "slug": "third-conditional-inversion-past-perfect",
+        "topic": "Third conditional, inverted conditionals, past perfect",
+        "sample": "Had I known about the risks, I would never have agreed.",
+        "sample_translation_id": "Seandainya saya tahu tentang risikonya, saya tidak akan pernah menyetujui.",
         "details_explanation": {
-          "topic": "Third conditional, inverted conditionals, past perfect",
-          "sample": "Had I known about the risks, I would never have agreed to the plan.",
-          "id": "Seandainya saya tahu tentang risikonya, saya tidak akan pernah menyetujui rencana itu.",
-          "explanation": "The if-clause of a third conditional uses the past perfect ('had known'), never 'would have known'. Inversion ('Had I known') is an acceptable formal alternative that omits 'if'. 'If I had been aware' and 'Had I been aware' are also acceptable paraphrases.",
-          "introduction": "Third conditionals describe unreal past situations. The if-clause takes the past perfect; the main clause takes 'would have + past participle'. Inversion can replace 'if' in formal registers.",
+          "explanation": "The if-clause of a third conditional requires the past perfect ('had known'), never 'would have known'. Inversion ('Had I known') is a formal alternative that omits 'if'. 'If I had been aware' and 'Had I been aware' are acceptable paraphrases.",
+          "introduction": "Third conditionals describe unreal past situations. The if-clause takes the past perfect; the main clause takes 'would have + past participle'.",
           "rules": [
-            {
-              "title": "1. Standard third conditional",
-              "explanation": "Use past perfect in the if-clause and 'would have + past participle' in the main clause.",
-              "structure": "If + past perfect, subject + would have + past participle",
-              "notes": ["If I had known, I would have acted differently.", "Never 'If I would have known'."]
-            },
-            {
-              "title": "2. Inverted conditional",
-              "explanation": "Drop 'if' and invert auxiliary and subject for a formal alternative.",
-              "structure": "Had + subject + past participle, subject + would have + past participle",
-              "notes": ["Had I known, I would have acted differently.", "Had she been aware, she would have objected."]
-            }
+            { "title": "1. Standard third conditional", "explanation": "Use past perfect in the if-clause and 'would have + past participle' in the main clause.", "structure": "If + past perfect, subject + would have + past participle", "notes": ["If I had known, I would have acted.", "Never 'If I would have known'."] },
+            { "title": "2. Inverted conditional", "explanation": "Drop 'if' and invert auxiliary and subject.", "structure": "Had + subject + past participle, subject + would have + past participle", "notes": ["Had I known, I would have acted.", "Had she been aware, she would have objected."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "If I would have known, I would have helped.",
-              "correct": "If I had known, I would have helped.",
-              "reason": "Do not use 'would have' in the if-clause."
-            }
+            { "wrong": "If I would have known, I would have helped.", "correct": "If I had known, I would have helped.", "reason": "Do not use 'would have' in the if-clause." }
           ]
         },
         "other_examples": [
-          { "sentence": "Had the warning been issued earlier, the evacuation would have been smoother.", "translation": "Seandainya peringatan dikeluarkan lebih awal, evakuasi akan berjalan lebih lancar." },
+          { "sentence": "Had the warning been issued earlier, the evacuation would have been smoother.", "translation": "Seandainya peringatan dikeluarkan lebih awal, evakuasi akan lebih lancar." },
           { "sentence": "If they had realized the danger, they would not have proceeded.", "translation": "Jika mereka menyadari bahayanya, mereka tidak akan melanjutkan." }
         ],
         "references": [
@@ -71,38 +58,24 @@
         { "id": "s3", "text": "in the early twentieth century", "clickable": true, "isError": false },
         { "id": "s4", "text": "and has been designated", "clickable": true, "isError": false },
         { "id": "s5", "text": "a national monument,", "clickable": true, "isError": false },
-        { "id": "s6", "text": "needs to being restored", "clickable": true, "isError": true, "correctAnswers": ["needs to be restored", "needs restoring", "requires restoring", "requires to be restored"] },
+        { "id": "s6", "text": "needs to being restored", "clickable": true, "isError": true, "correctAnswers": ["needs to be restored", "needs restoring", "requires restoring", "requires to be restored", "must be restored"] },
         { "id": "s7", "text": "before the centenary celebrations.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0002",
-        "slug": "passive-gerund-infinitive-relative-clause",
+        "slug": "passive-gerund-infinitive-need",
+        "topic": "Passive voice, gerund vs. infinitive after 'need/require', non-defining relative clauses",
+        "sample": "The old theatre needs to be renovated before it reopens.",
+        "sample_translation_id": "Teater tua itu perlu direnovasi sebelum dibuka kembali.",
         "details_explanation": {
-          "topic": "Passive voice, gerund vs. infinitive after 'need/require', non-defining relative clauses",
-          "sample": "The old theatre needs to be renovated before it can reopen.",
-          "id": "Teater tua itu perlu direnovasi sebelum dapat dibuka kembali.",
-          "explanation": "After 'need' and 'require', use either 'to be + past participle' or the gerund. 'Needs to being restored' is ungrammatical because 'to' must be followed by the base form. Acceptable: 'needs to be restored', 'needs restoring', 'requires restoring', 'requires to be restored'.",
+          "explanation": "After 'need' and 'require', use either 'to be + past participle' or the gerund. 'Needs to being restored' is ungrammatical because 'to' must be followed by the base form. Acceptable: 'needs to be restored', 'needs restoring', 'requires restoring', 'requires to be restored', 'must be restored'.",
           "introduction": "'Need' and 'require' can take a passive infinitive or a gerund with passive meaning.",
           "rules": [
-            {
-              "title": "1. need/require + to be + past participle",
-              "explanation": "Passive infinitive after 'need/require'.",
-              "structure": "need/require + to be + past participle",
-              "notes": ["The bridge needs to be restored.", "The report requires to be checked."]
-            },
-            {
-              "title": "2. need/require + gerund",
-              "explanation": "Gerund with passive meaning.",
-              "structure": "need/require + verb-ing",
-              "notes": ["The bridge needs restoring.", "The report requires checking."]
-            }
+            { "title": "1. need/require + to be + past participle", "explanation": "Passive infinitive after 'need/require'.", "structure": "need/require + to be + past participle", "notes": ["The bridge needs to be restored.", "The report requires to be checked."] },
+            { "title": "2. need/require + gerund", "explanation": "Gerund with passive meaning.", "structure": "need/require + verb-ing", "notes": ["The bridge needs restoring.", "The report requires checking."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The bridge needs to being restored.",
-              "correct": "The bridge needs to be restored.",
-              "reason": "'To' must be followed by the base form 'be'."
-            }
+            { "wrong": "The bridge needs to being restored.", "correct": "The bridge needs to be restored.", "reason": "'To' must be followed by the base form 'be'." }
           ]
         },
         "other_examples": [
@@ -121,7 +94,7 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The board of directors", "clickable": true, "isError": false },
         { "id": "s2", "text": "insisted that the CEO", "clickable": true, "isError": false },
-        { "id": "s3", "text": "submits his resignation", "clickable": true, "isError": true, "correctAnswers": ["submit his resignation", "should submit his resignation", "must submit his resignation", "was to submit his resignation"] },
+        { "id": "s3", "text": "submits his resignation", "clickable": true, "isError": true, "correctAnswers": ["submit his resignation", "should submit his resignation", "must submit his resignation", "resign", "should resign"] },
         { "id": "s4", "text": "immediately,", "clickable": true, "isError": false },
         { "id": "s5", "text": "and not until he had done so", "clickable": true, "isError": false },
         { "id": "s6", "text": "would the company be able to move forward.", "clickable": false }
@@ -129,32 +102,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0003",
         "slug": "subjunctive-reported-speech-inversion",
+        "topic": "Subjunctive mood after 'insist', reported speech, inversion after 'not until'",
+        "sample": "The committee insisted that he resign immediately.",
+        "sample_translation_id": "Komite menuntut agar dia segera mengundurkan diri.",
         "details_explanation": {
-          "topic": "Subjunctive mood after 'insist', reported speech, inversion after 'not until'",
-          "sample": "The committee insisted that he resign immediately.",
-          "id": "Komite menuntut agar dia segera mengundurkan diri.",
-          "explanation": "After verbs of demand such as 'insist', 'demand', 'request', 'suggest', the that-clause takes the base form (subjunctive) in formal English. 'Submits' must become 'submit' (or 'should submit', 'must submit', 'was to submit' as acceptable paraphrases). The passage also illustrates inversion after 'not until', which is correctly formed.",
-          "introduction": "The subjunctive is used after verbs expressing demand, suggestion, or request. It uses the base form of the verb regardless of the subject.",
+          "explanation": "After verbs of demand such as 'insist', 'demand', 'request', and 'suggest', the that-clause takes the base form (subjunctive) in formal English. 'Submits' must become 'submit' (or 'should submit', 'must submit', 'resign', 'should resign'). The passage also correctly illustrates inversion after 'not until'.",
+          "introduction": "The subjunctive is used after verbs expressing demand, suggestion, or request. It uses the base form regardless of the subject.",
           "rules": [
-            {
-              "title": "1. Subjunctive after 'insist'",
-              "explanation": "Use the base form in the that-clause.",
-              "structure": "insist that + subject + base verb",
-              "notes": ["They insisted that he leave.", "She insisted that the report be submitted."]
-            },
-            {
-              "title": "2. Inversion after 'not until'",
-              "explanation": "When 'not until' begins a clause, the main clause is inverted.",
-              "structure": "Not until + clause + auxiliary + subject + verb",
-              "notes": ["Not until he apologized did she speak to him.", "Not until then did we realize the danger."]
-            }
+            { "title": "1. Subjunctive after 'insist'", "explanation": "Use the base form in the that-clause.", "structure": "insist that + subject + base verb", "notes": ["They insisted that he leave.", "She insisted that the report be submitted."] },
+            { "title": "2. Inversion after 'not until'", "explanation": "When 'not until' begins a clause, the main clause is inverted.", "structure": "Not until + clause + auxiliary + subject + verb", "notes": ["Not until he apologized did she speak to him.", "Not until then did we realize the danger."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "They insisted that he leaves.",
-              "correct": "They insisted that he leave.",
-              "reason": "The subjunctive uses the base form."
-            }
+            { "wrong": "They insisted that he leaves.", "correct": "They insisted that he leave.", "reason": "The subjunctive uses the base form." }
           ]
         },
         "other_examples": [
@@ -174,39 +133,25 @@
         { "id": "s1", "text": "The number of applicants", "clickable": true, "isError": false },
         { "id": "s2", "text": "who has submitted", "clickable": true, "isError": true, "correctAnswers": ["who have submitted", "that have submitted", "who submitted", "that submitted", "who had submitted"] },
         { "id": "s3", "text": "the required documents", "clickable": true, "isError": false },
-        { "id": "s4", "text": "have increased dramatically", "clickable": true, "isError": false },
+        { "id": "s4", "text": "has increased dramatically", "clickable": true, "isError": false },
         { "id": "s5", "text": "this year,", "clickable": true, "isError": false },
         { "id": "s6", "text": "prompting the admissions office to reconsider.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0004",
         "slug": "relative-clause-agreement-number-of",
+        "topic": "Relative clauses, subject-verb agreement with 'the number of', present perfect vs. past simple",
+        "sample": "The number of students who have registered has risen sharply.",
+        "sample_translation_id": "Jumlah siswa yang telah mendaftar telah meningkat tajam.",
         "details_explanation": {
-          "topic": "Relative clauses, subject-verb agreement with 'the number of', present perfect vs. past simple",
-          "sample": "The number of students who have registered has risen sharply.",
-          "id": "Jumlah siswa yang telah mendaftar telah meningkat tajam.",
-          "explanation": "The relative pronoun 'who' refers to 'applicants' (plural), so the relative-clause verb must be plural: 'who have submitted' (or 'that have submitted', 'who submitted', 'that submitted', 'who had submitted'). Note that the main verb 'have increased' is also wrong—it should be 'has increased' because the main subject is 'the number' (singular). Only the relative-clause error is clickable here; however, in a full correction both must be fixed.",
+          "explanation": "The relative pronoun 'who' refers to 'applicants' (plural), so the relative-clause verb must be plural: 'who have submitted' (or 'that have submitted', 'who submitted', 'that submitted', 'who had submitted'). The main verb 'has increased' correctly agrees with 'the number' (singular).",
           "introduction": "Relative clauses agree with their antecedent. 'The number of' takes a singular main verb, while the relative pronoun inside the phrase agrees with the plural noun it modifies.",
           "rules": [
-            {
-              "title": "1. Relative clause agreement",
-              "explanation": "The verb in the relative clause agrees with the antecedent.",
-              "structure": "The number of + plural noun + who/that + plural verb",
-              "notes": ["The number of students who have applied is rising.", "The number of cars that were sold has doubled."]
-            },
-            {
-              "title": "2. Main verb agreement",
-              "explanation": "The main subject is 'the number', which is singular.",
-              "structure": "The number of + plural noun + singular main verb",
-              "notes": ["The number of applicants has increased.", "The number of issues is growing."]
-            }
+            { "title": "1. Relative clause agreement", "explanation": "The verb in the relative clause agrees with the antecedent.", "structure": "The number of + plural noun + who/that + plural verb", "notes": ["The number of students who have applied is rising.", "The number of cars that were sold has doubled."] },
+            { "title": "2. Main verb agreement", "explanation": "The main subject is 'the number', which is singular.", "structure": "The number of + plural noun + singular main verb", "notes": ["The number of applicants has increased.", "The number of issues is growing."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The number of applicants who has submitted have increased.",
-              "correct": "The number of applicants who have submitted has increased.",
-              "reason": "Relative verb agrees with 'applicants'; main verb agrees with 'number'."
-            }
+            { "wrong": "The number of applicants who has submitted has increased.", "correct": "The number of applicants who have submitted has increased.", "reason": "The relative verb agrees with 'applicants'." }
           ]
         },
         "other_examples": [
@@ -224,7 +169,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "The consultant", "clickable": true, "isError": false },
-        { "id": "s2", "text": "should have went", "clickable": true, "isError": true, "correctAnswers": ["should have gone", "ought to have gone", "should have left", "ought to have left", "must have gone"] },
+        { "id": "s2", "text": "should have went", "clickable": true, "isError": true, "correctAnswers": ["should have gone", "ought to have gone", "should have reviewed", "ought to have reviewed", "should have examined"] },
         { "id": "s3", "text": "over the figures", "clickable": true, "isError": false },
         { "id": "s4", "text": "before submitting the report,", "clickable": true, "isError": false },
         { "id": "s5", "text": "which would have prevented", "clickable": true, "isError": false },
@@ -233,32 +178,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0005",
         "slug": "modal-perfect-past-participle",
+        "topic": "Modal perfect, past participle forms, third conditional implications",
+        "sample": "You should have gone over the figures before submitting.",
+        "sample_translation_id": "Anda seharusnya memeriksa angka-angka itu sebelum menyerahkan.",
         "details_explanation": {
-          "topic": "Modal perfect, past participle forms, third conditional implications",
-          "sample": "You should have gone over the figures before submitting.",
-          "id": "Anda seharusnya memeriksa angka-angka itu sebelum menyerahkan.",
-          "explanation": "After a modal perfect ('should have', 'ought to have', 'must have'), the main verb must be a past participle, not the past simple. 'Went' is the past simple of 'go'; the correct past participle is 'gone'. Acceptable corrections include 'should have gone', 'ought to have gone', 'should have left', 'ought to have left', 'must have gone' (depending on the intended nuance).",
+          "explanation": "After a modal perfect ('should have', 'ought to have'), the main verb must be a past participle, not the past simple. 'Went' is the past simple of 'go'; the correct past participle is 'gone'. Acceptable: 'should have gone', 'ought to have gone', 'should have reviewed', 'ought to have reviewed', 'should have examined'.",
           "introduction": "Modal perfects express speculation, regret, or obligation about the past. They are formed with modal + have + past participle.",
           "rules": [
-            {
-              "title": "1. Modal + have + past participle",
-              "explanation": "Never use the past simple after 'have' in a modal perfect.",
-              "structure": "modal + have + past participle",
-              "notes": ["She should have gone.", "They must have left."]
-            },
-            {
-              "title": "2. Past participle vs. past simple",
-              "explanation": "Irregular verbs distinguish these forms.",
-              "structure": "go–went–gone; see–saw–seen; take–took–taken",
-              "notes": ["He should have seen it.", "They ought to have taken action."]
-            }
+            { "title": "1. Modal + have + past participle", "explanation": "Never use the past simple after 'have' in a modal perfect.", "structure": "modal + have + past participle", "notes": ["She should have gone.", "They must have left."] },
+            { "title": "2. Past participle vs. past simple", "explanation": "Irregular verbs distinguish these forms.", "structure": "go–went–gone; see–saw–seen; take–took–taken", "notes": ["He should have seen it.", "They ought to have taken action."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "She should have went.",
-              "correct": "She should have gone.",
-              "reason": "Use the past participle after 'have'."
-            }
+            { "wrong": "She should have went.", "correct": "She should have gone.", "reason": "Use the past participle after 'have'." }
           ]
         },
         "other_examples": [
@@ -276,7 +207,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "I look forward", "clickable": true, "isError": false },
-        { "id": "s2", "text": "to meet you", "clickable": true, "isError": true, "correctAnswers": ["to meeting you", "to meeting with you", "to seeing you", "to meeting up with you"] },
+        { "id": "s2", "text": "to meet you", "clickable": true, "isError": true, "correctAnswers": ["to meeting you", "to meeting with you", "to seeing you", "to meeting up with you", "to making your acquaintance"] },
         { "id": "s3", "text": "at the conference next week,", "clickable": true, "isError": false },
         { "id": "s4", "text": "and I hope", "clickable": true, "isError": false },
         { "id": "s5", "text": "we will have the opportunity", "clickable": true, "isError": false },
@@ -285,32 +216,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0006",
         "slug": "gerund-after-preposition-look-forward-to",
+        "topic": "Gerund after preposition, phrasal verbs with 'to', future forms",
+        "sample": "I look forward to hearing from you.",
+        "sample_translation_id": "Saya menantikan kabar dari Anda.",
         "details_explanation": {
-          "topic": "Gerund after preposition, phrasal verbs with 'to', future forms",
-          "sample": "I look forward to hearing from you.",
-          "id": "Saya menantikan kabar dari Anda.",
-          "explanation": "In 'look forward to', 'to' is a preposition, not an infinitive marker, so it must be followed by a gerund (-ing form). 'To meet' is therefore wrong. Acceptable: 'to meeting you', 'to meeting with you', 'to seeing you', 'to meeting up with you'.",
+          "explanation": "In 'look forward to', 'to' is a preposition, not an infinitive marker, so it must be followed by a gerund (-ing form). 'To meet' is therefore wrong. Acceptable: 'to meeting you', 'to meeting with you', 'to seeing you', 'to meeting up with you', 'to making your acquaintance'.",
           "introduction": "Some expressions ending in 'to' contain a preposition, not an infinitive. These include 'look forward to', 'be used to', 'object to', 'in addition to', and 'devote oneself to'.",
           "rules": [
-            {
-              "title": "1. Preposition 'to' + gerund",
-              "explanation": "When 'to' is a preposition, use the -ing form.",
-              "structure": "look forward to + verb-ing",
-              "notes": ["I look forward to meeting you.", "She is used to working late."]
-            },
-            {
-              "title": "2. Infinitive 'to' + base verb",
-              "explanation": "When 'to' is an infinitive marker, use the base form.",
-              "structure": "want/need/hope + to + base verb",
-              "notes": ["I want to meet you.", "She hopes to work late."]
-            }
+            { "title": "1. Preposition 'to' + gerund", "explanation": "When 'to' is a preposition, use the -ing form.", "structure": "look forward to + verb-ing", "notes": ["I look forward to meeting you.", "She is used to working late."] },
+            { "title": "2. Infinitive 'to' + base verb", "explanation": "When 'to' is an infinitive marker, use the base form.", "structure": "want/need/hope + to + base verb", "notes": ["I want to meet you.", "She hopes to work late."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "I look forward to meet you.",
-              "correct": "I look forward to meeting you.",
-              "reason": "'To' is a preposition here."
-            }
+            { "wrong": "I look forward to meet you.", "correct": "I look forward to meeting you.", "reason": "'To' is a preposition here." }
           ]
         },
         "other_examples": [
@@ -328,7 +245,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "Not only", "clickable": true, "isError": false },
-        { "id": "s2", "text": "he was late", "clickable": true, "isError": true, "correctAnswers": ["was he late", "had he been late", "did he arrive late", "was he delayed"] },
+        { "id": "s2", "text": "he was late", "clickable": true, "isError": true, "correctAnswers": ["was he late", "had he been late", "did he arrive late", "was he delayed", "had he arrived late"] },
         { "id": "s3", "text": "for the meeting,", "clickable": true, "isError": false },
         { "id": "s4", "text": "but he also forgot", "clickable": true, "isError": false },
         { "id": "s5", "text": "to bring the documents", "clickable": true, "isError": false },
@@ -337,32 +254,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0007",
         "slug": "inversion-not-only-but-also",
+        "topic": "Inversion after 'not only', correlative conjunctions, past perfect passive",
+        "sample": "Not only was he late, but he also forgot the documents.",
+        "sample_translation_id": "Bukan hanya dia terlambat, tetapi dia juga lupa dokumen-dokumen itu.",
         "details_explanation": {
-          "topic": "Inversion after 'not only', correlative conjunctions, past perfect passive",
-          "sample": "Not only was he late, but he also forgot the documents.",
-          "id": "Bukan hanya dia terlambat, tetapi dia juga lupa dokumen-dokumen itu.",
-          "explanation": "When a sentence begins with 'not only', the subject and auxiliary in the first clause must be inverted. 'He was late' therefore becomes 'was he late'. Acceptable: 'was he late', 'had he been late', 'did he arrive late', 'was he delayed'.",
+          "explanation": "When a sentence begins with 'not only', the subject and auxiliary in the first clause must be inverted. 'He was late' therefore becomes 'was he late'. Acceptable: 'was he late', 'had he been late', 'did he arrive late', 'was he delayed', 'had he arrived late'.",
           "introduction": "Negative adverbials at the start of a clause trigger subject–auxiliary inversion.",
           "rules": [
-            {
-              "title": "1. Inversion after 'not only'",
-              "explanation": "Place the auxiliary before the subject.",
-              "structure": "Not only + auxiliary + subject + main verb",
-              "notes": ["Not only did she win, but she also broke the record.", "Not only was he late, but he also forgot."]
-            },
-            {
-              "title": "2. Other negative adverbials",
-              "explanation": "The same rule applies to 'never', 'rarely', 'seldom', 'hardly', 'no sooner', and 'not until'.",
-              "structure": "Negative adverbial + auxiliary + subject + verb",
-              "notes": ["Never have I seen such a thing.", "Rarely does he complain."]
-            }
+            { "title": "1. Inversion after 'not only'", "explanation": "Place the auxiliary before the subject.", "structure": "Not only + auxiliary + subject + main verb", "notes": ["Not only did she win, but she also broke the record.", "Not only was he late, but he also forgot."] },
+            { "title": "2. Other negative adverbials", "explanation": "The same rule applies to 'never', 'rarely', 'seldom', 'hardly', 'no sooner', and 'not until'.", "structure": "Negative adverbial + auxiliary + subject + verb", "notes": ["Never have I seen such a thing.", "Rarely does he complain."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Not only he was late, but he also forgot.",
-              "correct": "Not only was he late, but he also forgot.",
-              "reason": "Invert subject and auxiliary after 'not only'."
-            }
+            { "wrong": "Not only he was late, but he also forgot.", "correct": "Not only was he late, but he also forgot.", "reason": "Invert subject and auxiliary after 'not only'." }
           ]
         },
         "other_examples": [
@@ -381,39 +284,25 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The professor", "clickable": true, "isError": false },
         { "id": "s2", "text": "recommended that the thesis", "clickable": true, "isError": false },
-        { "id": "s3", "text": "is revised", "clickable": true, "isError": true, "correctAnswers": ["be revised", "should be revised", "was revised", "gets revised"] },
+        { "id": "s3", "text": "is revised", "clickable": true, "isError": true, "correctAnswers": ["be revised", "should be revised", "was revised", "gets revised", "must be revised"] },
         { "id": "s4", "text": "before it is submitted", "clickable": true, "isError": false },
-        { "id": "s5", "text": "to the examination committee.", "clickable": true, "isError": false }
+        { "id": "s5", "text": "to the examination committee.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0008",
         "slug": "subjunctive-passive-recommend",
+        "topic": "Subjunctive mood after 'recommend', passive voice, time clauses",
+        "sample": "The professor recommended that the thesis be revised before submission.",
+        "sample_translation_id": "Profesor merekomendasikan agar tesis itu direvisi sebelum diserahkan.",
         "details_explanation": {
-          "topic": "Subjunctive mood after 'recommend', passive voice, time clauses",
-          "sample": "The professor recommended that the thesis be revised before submission.",
-          "id": "Profesor merekomendasikan agar tesis itu direvisi sebelum diserahkan.",
-          "explanation": "After 'recommend' (like 'suggest', 'insist', 'demand'), the that-clause takes the base form of the verb. In the passive this becomes 'be + past participle'. Acceptable: 'be revised', 'should be revised', 'was revised' (informal), 'gets revised' (informal).",
+          "explanation": "After 'recommend' (like 'suggest', 'insist', 'demand'), the that-clause takes the base form of the verb. In the passive this becomes 'be + past participle'. Acceptable: 'be revised', 'should be revised', 'was revised' (informal), 'gets revised' (informal), 'must be revised'.",
           "introduction": "The subjunctive is used after verbs of suggestion and recommendation, especially in formal English.",
           "rules": [
-            {
-              "title": "1. Active subjunctive",
-              "explanation": "Use the base form regardless of subject.",
-              "structure": "recommend that + subject + base verb",
-              "notes": ["She recommended that he apply.", "They suggested that we wait."]
-            },
-            {
-              "title": "2. Passive subjunctive",
-              "explanation": "Use 'be + past participle'.",
-              "structure": "recommend that + subject + be + past participle",
-              "notes": ["She recommended that the report be revised.", "They suggested that the policy be reviewed."]
-            }
+            { "title": "1. Active subjunctive", "explanation": "Use the base form regardless of subject.", "structure": "recommend that + subject + base verb", "notes": ["She recommended that he apply.", "They suggested that we wait."] },
+            { "title": "2. Passive subjunctive", "explanation": "Use 'be + past participle'.", "structure": "recommend that + subject + be + past participle", "notes": ["She recommended that the report be revised.", "They suggested that the policy be reviewed."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The professor recommended that the thesis is revised.",
-              "correct": "The professor recommended that the thesis be revised.",
-              "reason": "The subjunctive uses the base form."
-            }
+            { "wrong": "The professor recommended that the thesis is revised.", "correct": "The professor recommended that the thesis be revised.", "reason": "The subjunctive uses the base form." }
           ]
         },
         "other_examples": [
@@ -436,38 +325,24 @@
         { "id": "s4", "text": "would have been able", "clickable": true, "isError": false },
         { "id": "s5", "text": "to evacuate", "clickable": true, "isError": false },
         { "id": "s6", "text": "the area safely,", "clickable": true, "isError": false },
-        { "id": "s7", "text": "which they couldn't do", "clickable": true, "isError": true, "correctAnswers": ["which they were unable to do", "which they had not been able to do", "which was not possible", "which proved impossible"] },
+        { "id": "s7", "text": "which they couldn't do", "clickable": true, "isError": true, "correctAnswers": ["which they were unable to do", "which they had not been able to do", "which was not possible", "which proved impossible", "which they failed to do"] },
         { "id": "s8", "text": "in time.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0009",
         "slug": "mixed-conditional-inversion-ability",
+        "topic": "Third conditional, inversion, modal substitutes ('be able to', 'could'), non-defining relative clauses",
+        "sample": "Had the warning been issued earlier, they would have been able to evacuate.",
+        "sample_translation_id": "Seandainya peringatan dikeluarkan lebih awal, mereka akan mampu mengungsi.",
         "details_explanation": {
-          "topic": "Third conditional, inversion, modal substitutes ('be able to', 'could'), non-defining relative clauses",
-          "sample": "Had the warning been issued earlier, they would have been able to evacuate.",
-          "id": "Seandainya peringatan dikeluarkan lebih awal, mereka akan mampu mengungsi.",
-          "explanation": "The first part is a correct inverted third conditional. The error lies in the relative clause: 'couldn't do' is vague and stylistically weak. Acceptable refinements include 'which they were unable to do', 'which they had not been able to do', 'which was not possible', 'which proved impossible'.",
+          "explanation": "The first part is a correct inverted third conditional. The error lies in the relative clause: 'couldn't do' is vague and stylistically weak. Acceptable refinements include 'which they were unable to do', 'which they had not been able to do', 'which was not possible', 'which proved impossible', 'which they failed to do'.",
           "introduction": "Third conditionals can be inverted with 'Had'. 'Be able to' is a common substitute for 'can/could' in perfect and future contexts.",
           "rules": [
-            {
-              "title": "1. Inverted third conditional",
-              "explanation": "Drop 'if' and invert.",
-              "structure": "Had + subject + past participle, subject + would have + past participle",
-              "notes": ["Had they known, they would have acted.", "Had the warning been issued, they would have evacuated."]
-            },
-            {
-              "title": "2. Ability in the past perfect",
-              "explanation": "'Could' has no perfect form; use 'had been able to' or 'were unable to'.",
-              "structure": "had been able to / were unable to + verb",
-              "notes": ["They had been able to evacuate.", "They were unable to evacuate."]
-            }
+            { "title": "1. Inverted third conditional", "explanation": "Drop 'if' and invert.", "structure": "Had + subject + past participle, subject + would have + past participle", "notes": ["Had they known, they would have acted.", "Had the warning been issued, they would have evacuated."] },
+            { "title": "2. Ability in the past perfect", "explanation": "'Could' has no perfect form; use 'had been able to' or 'were unable to'.", "structure": "had been able to / were unable to + verb", "notes": ["They had been able to evacuate.", "They were unable to evacuate."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "They couldn't have been able to evacuate.",
-              "correct": "They had not been able to evacuate.",
-              "reason": "Avoid double modals; use 'be able to'."
-            }
+            { "wrong": "They couldn't have been able to evacuate.", "correct": "They had not been able to evacuate.", "reason": "Avoid double modals; use 'be able to'." }
           ]
         },
         "other_examples": [
@@ -488,38 +363,24 @@
         { "id": "s2", "text": "has been debating", "clickable": true, "isError": false },
         { "id": "s3", "text": "the proposal for months,", "clickable": true, "isError": false },
         { "id": "s4", "text": "and it is high time", "clickable": true, "isError": false },
-        { "id": "s5", "text": "they make", "clickable": true, "isError": true, "correctAnswers": ["they made", "they should make", "they were to make", "a decision was made"] },
+        { "id": "s5", "text": "they make", "clickable": true, "isError": true, "correctAnswers": ["they made", "they should make", "they were to make", "a decision was made", "they had made"] },
         { "id": "s6", "text": "a decision.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0010",
         "slug": "it-is-high-time-past-subjunctive",
+        "topic": "Past subjunctive after 'it is high time', present perfect continuous, collective nouns",
+        "sample": "It is high time they made a decision.",
+        "sample_translation_id": "Sudah waktunya mereka mengambil keputusan.",
         "details_explanation": {
-          "topic": "Past subjunctive after 'it is high time', present perfect continuous, collective nouns",
-          "sample": "It is high time they made a decision.",
-          "id": "Sudah waktunya mereka mengambil keputusan.",
-          "explanation": "After 'it is high time', the following clause uses the past simple (or 'should + base verb') to express urgency. 'They make' is therefore wrong. Acceptable: 'they made', 'they should make', 'they were to make', 'a decision was made'.",
+          "explanation": "After 'it is high time', the following clause uses the past simple (or 'should + base verb') to express urgency. 'They make' is therefore wrong. Acceptable: 'they made', 'they should make', 'they were to make', 'a decision was made', 'they had made'.",
           "introduction": "'It is high time', 'it is about time', and 'it is time' are followed by the past subjunctive or 'should + base verb'.",
           "rules": [
-            {
-              "title": "1. It is high time + past simple",
-              "explanation": "The past form signals urgency or criticism.",
-              "structure": "It is high time + subject + past simple",
-              "notes": ["It is high time you left.", "It is high time we took action."]
-            },
-            {
-              "title": "2. It is high time + should + base verb",
-              "explanation": "A formal alternative.",
-              "structure": "It is high time + subject + should + base verb",
-              "notes": ["It is high time you should leave.", "It is high time we should act."]
-            }
+            { "title": "1. It is high time + past simple", "explanation": "The past form signals urgency or criticism.", "structure": "It is high time + subject + past simple", "notes": ["It is high time you left.", "It is high time we took action."] },
+            { "title": "2. It is high time + should + base verb", "explanation": "A formal alternative.", "structure": "It is high time + subject + should + base verb", "notes": ["It is high time you should leave.", "It is high time we should act."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "It is high time they make a decision.",
-              "correct": "It is high time they made a decision.",
-              "reason": "Use the past simple after 'it is high time'."
-            }
+            { "wrong": "It is high time they make a decision.", "correct": "It is high time they made a decision.", "reason": "Use the past simple after 'it is high time'." }
           ]
         },
         "other_examples": [
@@ -541,38 +402,24 @@
         { "id": "s3", "text": "to have been submitted", "clickable": true, "isError": false },
         { "id": "s4", "text": "by Friday,", "clickable": true, "isError": false },
         { "id": "s5", "text": "still has not been completed,", "clickable": true, "isError": false },
-        { "id": "s6", "text": "what has caused", "clickable": true, "isError": true, "correctAnswers": ["which has caused", "which caused", "and this has caused", "thereby causing"] },
+        { "id": "s6", "text": "what has caused", "clickable": true, "isError": true, "correctAnswers": ["which has caused", "which caused", "and this has caused", "thereby causing", "a fact that has caused"] },
         { "id": "s7", "text": "considerable frustration among the board members.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0011",
         "slug": "relative-clause-connector-what-which",
+        "topic": "Relative clauses ('which' vs. 'what'), non-defining clauses, result connectors",
+        "sample": "The report is incomplete, which has caused frustration.",
+        "sample_translation_id": "Laporan itu belum selesai, yang telah menimbulkan frustrasi.",
         "details_explanation": {
-          "topic": "Relative clauses ('which' vs. 'what'), non-defining clauses, result connectors",
-          "sample": "The report is incomplete, which has caused frustration.",
-          "id": "Laporan itu belum selesai, yang telah menimbulkan frustrasi.",
-          "explanation": "'What' cannot be used as a relative pronoun referring back to a whole clause. The correct connector is 'which' (non-defining relative), or a coordinating/result connector such as 'and this', 'thereby', etc. Acceptable: 'which has caused', 'which caused', 'and this has caused', 'thereby causing'.",
+          "explanation": "'What' cannot be used as a relative pronoun referring back to a whole clause. The correct connector is 'which' (non-defining relative), or a coordinating/result connector such as 'and this', 'thereby', etc. Acceptable: 'which has caused', 'which caused', 'and this has caused', 'thereby causing', 'a fact that has caused'.",
           "introduction": "'Which' can refer to a whole previous clause in non-defining relative clauses; 'what' cannot.",
           "rules": [
-            {
-              "title": "1. 'Which' referring to a clause",
-              "explanation": "Use 'which' to comment on the whole preceding clause.",
-              "structure": "..., which + verb ...",
-              "notes": ["He arrived late, which annoyed everyone.", "The report is late, which is unacceptable."]
-            },
-            {
-              "title": "2. 'What' as a fused relative",
-              "explanation": "'What' means 'the thing that' and cannot refer back to a clause.",
-              "structure": "What + clause + verb",
-              "notes": ["What he said was true.", "What happened next surprised us."]
-            }
+            { "title": "1. 'Which' referring to a clause", "explanation": "Use 'which' to comment on the whole preceding clause.", "structure": "..., which + verb ...", "notes": ["He arrived late, which annoyed everyone.", "The report is late, which is unacceptable."] },
+            { "title": "2. 'What' as a fused relative", "explanation": "'What' means 'the thing that' and cannot refer back to a clause.", "structure": "What + clause + verb", "notes": ["What he said was true.", "What happened next surprised us."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "He was late, what annoyed everyone.",
-              "correct": "He was late, which annoyed everyone.",
-              "reason": "Use 'which', not 'what', to refer to a clause."
-            }
+            { "wrong": "He was late, what annoyed everyone.", "correct": "He was late, which annoyed everyone.", "reason": "Use 'which', not 'what', to refer to a clause." }
           ]
         },
         "other_examples": [
@@ -591,7 +438,7 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "Neither the CEO", "clickable": true, "isError": false },
         { "id": "s2", "text": "nor the board members", "clickable": true, "isError": false },
-        { "id": "s3", "text": "was willing", "clickable": true, "isError": true, "correctAnswers": ["were willing", "were prepared", "were ready", "were inclined"] },
+        { "id": "s3", "text": "was willing", "clickable": true, "isError": true, "correctAnswers": ["were willing", "were prepared", "were ready", "were inclined", "were amenable"] },
         { "id": "s4", "text": "to compromise", "clickable": true, "isError": false },
         { "id": "s5", "text": "on the issue,", "clickable": true, "isError": false },
         { "id": "s6", "text": "which ultimately led to the breakdown of negotiations.", "clickable": false }
@@ -599,32 +446,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0012",
         "slug": "neither-nor-proximity-collective",
+        "topic": "Neither…nor (proximity rule), collective nouns, result clauses",
+        "sample": "Neither the CEO nor the board members were willing to compromise.",
+        "sample_translation_id": "Baik CEO maupun anggota dewan tidak bersedia berkompromi.",
         "details_explanation": {
-          "topic": "Neither…nor (proximity rule), collective nouns, result clauses",
-          "sample": "Neither the CEO nor the board members were willing to compromise.",
-          "id": "Baik CEO maupun anggota dewan tidak bersedia berkompromi.",
-          "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Board members' is plural and closer, so 'was willing' must be 'were willing'. Acceptable: 'were willing', 'were prepared', 'were ready', 'were inclined'.",
+          "explanation": "With 'neither … nor', the verb agrees with the nearer subject. 'Board members' is plural and closer, so 'was willing' must be 'were willing'. Acceptable: 'were willing', 'were prepared', 'were ready', 'were inclined', 'were amenable'.",
           "introduction": "In 'neither … nor' constructions, the verb follows the proximity rule and agrees with the closest subject.",
           "rules": [
-            {
-              "title": "1. Proximity rule",
-              "explanation": "Verb agrees with the nearer subject.",
-              "structure": "Neither S1 nor S2 + verb (agrees with S2)",
-              "notes": ["Neither the manager nor the employees were present.", "Neither the employees nor the manager was present."]
-            },
-            {
-              "title": "2. Collective noun caution",
-              "explanation": "If one subject is a collective noun, its number depends on whether it acts as a unit.",
-              "structure": "Collective noun + singular/plural verb depending on context",
-              "notes": ["The board was united.", "The board were divided."]
-            }
+            { "title": "1. Proximity rule", "explanation": "Verb agrees with the nearer subject.", "structure": "Neither S1 nor S2 + verb (agrees with S2)", "notes": ["Neither the manager nor the employees were present.", "Neither the employees nor the manager was present."] },
+            { "title": "2. Collective noun caution", "explanation": "If one subject is a collective noun, its number depends on whether it acts as a unit.", "structure": "Collective noun + singular/plural verb depending on context", "notes": ["The board was united.", "The board were divided."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Neither the CEO nor the board members was willing.",
-              "correct": "Neither the CEO nor the board members were willing.",
-              "reason": "'Board members' is nearer and plural."
-            }
+            { "wrong": "Neither the CEO nor the board members was willing.", "correct": "Neither the CEO nor the board members were willing.", "reason": "'Board members' is nearer and plural." }
           ]
         },
         "other_examples": [
@@ -644,39 +477,25 @@
         { "id": "s1", "text": "The data", "clickable": true, "isError": false },
         { "id": "s2", "text": "collected from the survey", "clickable": true, "isError": false },
         { "id": "s3", "text": "suggest", "clickable": true, "isError": false },
-        { "id": "s4", "text": "that there is", "clickable": true, "isError": true, "correctAnswers": ["there are", "there were", "there exist", "there remain"] },
+        { "id": "s4", "text": "that there is", "clickable": true, "isError": true, "correctAnswers": ["there are", "there were", "there exist", "there remain", "there have been"] },
         { "id": "s5", "text": "significant discrepancies", "clickable": true, "isError": false },
         { "id": "s6", "text": "between the two reports.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0013",
         "slug": "existential-there-plural-data",
+        "topic": "Existential 'there', subject–verb agreement with plural nouns, 'data' as plural, reported speech",
+        "sample": "The data suggest that there are significant discrepancies.",
+        "sample_translation_id": "Data tersebut menunjukkan bahwa ada perbedaan signifikan.",
         "details_explanation": {
-          "topic": "Existential 'there', subject–verb agreement with plural nouns, 'data' as plural, reported speech",
-          "sample": "The data suggest that there are significant discrepancies.",
-          "id": "Data tersebut menunjukkan bahwa ada perbedaan signifikan.",
-          "explanation": "In the existential construction 'there is/are', the verb agrees with the noun phrase following it. 'Significant discrepancies' is plural, so 'is' must become 'are'. Acceptable: 'there are', 'there were', 'there exist', 'there remain'. Note that 'data' is treated as plural in formal academic English, so 'suggest' is correct.",
+          "explanation": "In the existential construction 'there is/are', the verb agrees with the noun phrase following it. 'Significant discrepancies' is plural, so 'is' must become 'are'. Acceptable: 'there are', 'there were', 'there exist', 'there remain', 'there have been'. Note that 'data' is treated as plural in formal academic English, so 'suggest' is correct.",
           "introduction": "Existential 'there' is not the grammatical subject; agreement follows the notional subject.",
           "rules": [
-            {
-              "title": "1. There is + singular / There are + plural",
-              "explanation": "Agreement follows the noun phrase.",
-              "structure": "There is + singular; There are + plural",
-              "notes": ["There is a problem.", "There are several problems."]
-            },
-            {
-              "title": "2. Data as plural in academic register",
-              "explanation": "In formal writing, 'data' is plural.",
-              "structure": "The data + plural verb",
-              "notes": ["The data suggest a trend.", "The data are conclusive."]
-            }
+            { "title": "1. There is + singular / There are + plural", "explanation": "Agreement follows the noun phrase.", "structure": "There is + singular; There are + plural", "notes": ["There is a problem.", "There are several problems."] },
+            { "title": "2. Data as plural in academic register", "explanation": "In formal writing, 'data' is plural.", "structure": "The data + plural verb", "notes": ["The data suggest a trend.", "The data are conclusive."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The data suggests that there is discrepancies.",
-              "correct": "The data suggest that there are discrepancies.",
-              "reason": "'Data' is plural in formal English; 'discrepancies' is plural."
-            }
+            { "wrong": "The data suggests that there is discrepancies.", "correct": "The data suggest that there are discrepancies.", "reason": "'Data' is plural in formal English; 'discrepancies' is plural." }
           ]
         },
         "other_examples": [
@@ -699,38 +518,24 @@
         { "id": "s4", "text": "by Friday,", "clickable": true, "isError": false },
         { "id": "s5", "text": "but the team", "clickable": true, "isError": false },
         { "id": "s6", "text": "was not able to finish it on time", "clickable": true, "isError": false },
-        { "id": "s7", "text": "despite they had worked", "clickable": true, "isError": true, "correctAnswers": ["despite having worked", "despite the fact that they had worked", "although they had worked", "even though they had worked"] },
+        { "id": "s7", "text": "despite they had worked", "clickable": true, "isError": true, "correctAnswers": ["despite having worked", "despite the fact that they had worked", "although they had worked", "even though they had worked", "even after working"] },
         { "id": "s8", "text": "overtime for weeks.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0014",
         "slug": "despite-although-gerund-clause",
+        "topic": "Concession clauses ('despite' vs. 'although'), gerund after preposition, past perfect",
+        "sample": "Despite having worked overtime, they could not finish.",
+        "sample_translation_id": "Meskipun telah bekerja lembur, mereka tidak dapat menyelesaikannya.",
         "details_explanation": {
-          "topic": "Concession clauses ('despite' vs. 'although'), gerund after preposition, past perfect",
-          "sample": "Despite having worked overtime, they could not finish.",
-          "id": "Meskipun telah bekerja lembur, mereka tidak dapat menyelesaikannya.",
-          "explanation": "'Despite' is a preposition and must be followed by a noun, pronoun, or gerund—not by a full clause. 'Despite they had worked' is therefore ungrammatical. Acceptable: 'despite having worked', 'despite the fact that they had worked', 'although they had worked', 'even though they had worked'.",
+          "explanation": "'Despite' is a preposition and must be followed by a noun, pronoun, or gerund—not by a full clause. 'Despite they had worked' is therefore ungrammatical. Acceptable: 'despite having worked', 'despite the fact that they had worked', 'although they had worked', 'even though they had worked', 'even after working'.",
           "introduction": "'Despite/In spite of' take a noun or gerund; 'although/even though' take a clause.",
           "rules": [
-            {
-              "title": "1. Despite + noun/gerund",
-              "explanation": "Prepositional use.",
-              "structure": "despite + noun/-ing",
-              "notes": ["Despite the rain, we went out.", "Despite having worked hard, he failed."]
-            },
-            {
-              "title": "2. Although + clause",
-              "explanation": "Conjunctional use.",
-              "structure": "although + subject + verb",
-              "notes": ["Although it rained, we went out.", "Although he had worked hard, he failed."]
-            }
+            { "title": "1. Despite + noun/gerund", "explanation": "Prepositional use.", "structure": "despite + noun/-ing", "notes": ["Despite the rain, we went out.", "Despite having worked hard, he failed."] },
+            { "title": "2. Although + clause", "explanation": "Conjunctional use.", "structure": "although + subject + verb", "notes": ["Although it rained, we went out.", "Although he had worked hard, he failed."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Despite he worked hard, he failed.",
-              "correct": "Despite working hard, he failed. / Although he worked hard, he failed.",
-              "reason": "'Despite' cannot introduce a clause."
-            }
+            { "wrong": "Despite he worked hard, he failed.", "correct": "Despite working hard, he failed. / Although he worked hard, he failed.", "reason": "'Despite' cannot introduce a clause." }
           ]
         },
         "other_examples": [
@@ -753,38 +558,23 @@
         { "id": "s4", "text": "went off,", "clickable": true, "isError": false },
         { "id": "s5", "text": "forcing everyone", "clickable": true, "isError": false },
         { "id": "s6", "text": "to evacuate the building", "clickable": true, "isError": false },
-        { "id": "s7", "text": "in a orderly manner.", "clickable": true, "isError": true, "correctAnswers": ["in an orderly manner", "in an orderly fashion", "in an organized manner", "in an organized fashion"] },
-        { "id": "s8", "text": "", "clickable": false }
+        { "id": "s7", "text": "in a orderly manner.", "clickable": true, "isError": true, "correctAnswers": ["in an orderly manner", "in an orderly fashion", "in an organized manner", "in an organized fashion", "in a well-organized manner"] }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0015",
         "slug": "article-an-before-vowel-sound-inversion",
+        "topic": "Articles ('a' vs. 'an'), inversion after 'scarcely', participle clauses",
+        "sample": "They evacuated the building in an orderly manner.",
+        "sample_translation_id": "Mereka mengevakuasi gedung itu secara tertib.",
         "details_explanation": {
-          "topic": "Articles ('a' vs. 'an'), inversion after 'scarcely', participle clauses",
-          "sample": "They evacuated the building in an orderly manner.",
-          "id": "Mereka mengevakuasi gedung itu secara tertib.",
-          "explanation": "The article 'an' is required before a vowel sound. 'Orderly' begins with a vowel sound /ɔː/, so 'a orderly' is wrong. Acceptable: 'in an orderly manner', 'in an orderly fashion', 'in an organized manner', 'in an organized fashion'. Note the passage also correctly uses inversion after 'scarcely'.",
+          "explanation": "The article 'an' is required before a vowel sound. 'Orderly' begins with a vowel sound /ɔː/, so 'a orderly' is wrong. Acceptable: 'in an orderly manner', 'in an orderly fashion', 'in an organized manner', 'in an organized fashion', 'in a well-organized manner'. Note the passage also correctly uses inversion after 'scarcely'.",
           "introduction": "'A' is used before consonant sounds, 'an' before vowel sounds.",
           "rules": [
-            {
-              "title": "1. A vs. An",
-              "explanation": "Base the choice on the sound, not the letter.",
-              "structure": "a + consonant sound; an + vowel sound",
-              "notes": ["a university (consonant sound /juː/)", "an hour (silent h)", "an orderly manner"]
-            },
-            {
-              "title": "2. Inversion after 'scarcely'",
-              "explanation": "'Scarcely … when' requires inversion in the first clause.",
-              "structure": "Scarcely + auxiliary + subject + past participle + when …",
-              "notes": ["Scarcely had he arrived when the phone rang.", "Scarcely had we sat down when the show began."]
-            }
+            { "title": "1. A vs. An", "explanation": "Base the choice on the sound, not the letter.", "structure": "a + consonant sound; an + vowel sound", "notes": ["a university (consonant sound /juː/)", "an hour (silent h)", "an orderly manner"] },
+            { "title": "2. Inversion after 'scarcely'", "explanation": "'Scarcely … when' requires inversion in the first clause.", "structure": "Scarcely + auxiliary + subject + past participle + when …", "notes": ["Scarcely had he arrived when the phone rang.", "Scarcely had we sat down when the show began."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "in a orderly manner",
-              "correct": "in an orderly manner",
-              "reason": "'Orderly' begins with a vowel sound."
-            }
+            { "wrong": "in a orderly manner", "correct": "in an orderly manner", "reason": "'Orderly' begins with a vowel sound." }
           ]
         },
         "other_examples": [
@@ -805,38 +595,24 @@
         { "id": "s2", "text": "which take effect", "clickable": true, "isError": false },
         { "id": "s3", "text": "next month,", "clickable": true, "isError": false },
         { "id": "s4", "text": "will require that all employees", "clickable": true, "isError": false },
-        { "id": "s5", "text": "completes", "clickable": true, "isError": true, "correctAnswers": ["complete", "should complete", "must complete", "are to complete"] },
+        { "id": "s5", "text": "completes", "clickable": true, "isError": true, "correctAnswers": ["complete", "should complete", "must complete", "are to complete", "need to complete"] },
         { "id": "s6", "text": "a mandatory training course.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0016",
         "slug": "subjunctive-require-that",
+        "topic": "Subjunctive after 'require that', non-defining relative clauses, future time clauses",
+        "sample": "The rules require that every employee complete the training.",
+        "sample_translation_id": "Aturan-aturan itu mewajibkan setiap karyawan menyelesaikan pelatihan.",
         "details_explanation": {
-          "topic": "Subjunctive after 'require that', non-defining relative clauses, future time clauses",
-          "sample": "The rules require that every employee complete the training.",
-          "id": "Aturan-aturan itu mewajibkan setiap karyawan menyelesaikan pelatihan.",
-          "explanation": "'Require that' takes the subjunctive: the verb in the that-clause appears in its base form. 'Completes' should therefore be 'complete'. Acceptable: 'complete', 'should complete', 'must complete', 'are to complete'.",
+          "explanation": "'Require that' takes the subjunctive: the verb in the that-clause appears in its base form. 'Completes' should therefore be 'complete'. Acceptable: 'complete', 'should complete', 'must complete', 'are to complete', 'need to complete'.",
           "introduction": "Verbs such as 'require', 'request', 'demand', 'insist', 'suggest', and 'recommend' can take a subjunctive that-clause.",
           "rules": [
-            {
-              "title": "1. Subjunctive after 'require'",
-              "explanation": "Use the base form regardless of subject.",
-              "structure": "require that + subject + base verb",
-              "notes": ["They require that he be present.", "The law requires that everyone register."]
-            },
-            {
-              "title": "2. Formal alternatives",
-              "explanation": "'Should' or modal paraphrases also occur, especially in British English.",
-              "structure": "require that + subject + should + base verb",
-              "notes": ["They require that he should be present.", "The law requires that everyone should register."]
-            }
+            { "title": "1. Subjunctive after 'require'", "explanation": "Use the base form regardless of subject.", "structure": "require that + subject + base verb", "notes": ["They require that he be present.", "The law requires that everyone register."] },
+            { "title": "2. Formal alternatives", "explanation": "'Should' or modal paraphrases also occur, especially in British English.", "structure": "require that + subject + should + base verb", "notes": ["They require that he should be present.", "The law requires that everyone should register."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The rules require that every employee completes the training.",
-              "correct": "The rules require that every employee complete the training.",
-              "reason": "Subjunctive uses the base form."
-            }
+            { "wrong": "The rules require that every employee completes the training.", "correct": "The rules require that every employee complete the training.", "reason": "Subjunctive uses the base form." }
           ]
         },
         "other_examples": [
@@ -859,38 +635,24 @@
         { "id": "s4", "text": "has been working", "clickable": true, "isError": false },
         { "id": "s5", "text": "tirelessly,", "clickable": true, "isError": false },
         { "id": "s6", "text": "but none of the members", "clickable": true, "isError": false },
-        { "id": "s7", "text": "have received", "clickable": true, "isError": true, "correctAnswers": ["has received", "had received", "has been given", "had been given"] },
+        { "id": "s7", "text": "have received", "clickable": true, "isError": true, "correctAnswers": ["has received", "had received", "has been given", "had been given", "was given"] },
         { "id": "s8", "text": "recognition for their efforts.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0017",
-        "slug": "none-of-singular-plural-collective",
+        "slug": "none-of-singular-collective",
+        "topic": "None of + plural noun, collective nouns, present perfect",
+        "sample": "None of the members has received recognition.",
+        "sample_translation_id": "Tidak ada anggota yang telah menerima pengakuan.",
         "details_explanation": {
-          "topic": "None of + plural noun, collective nouns, present perfect",
-          "sample": "None of the members has received recognition.",
-          "id": "Tidak ada anggota yang telah menerima pengakuan.",
-          "explanation": "Traditionally, 'none of + plural noun' takes a singular verb, especially in formal English. 'Have received' should therefore be 'has received' (or 'had received', 'has been given', 'had been given').",
+          "explanation": "Traditionally, 'none of + plural noun' takes a singular verb, especially in formal English. 'Have received' should therefore be 'has received' (or 'had received', 'has been given', 'had been given', 'was given').",
           "introduction": "With 'none of + plural noun', formal style prefers the singular verb; informal usage permits plural.",
           "rules": [
-            {
-              "title": "1. Formal: none of + plural noun + singular verb",
-              "explanation": "Traditional rule: 'none' = 'not one'.",
-              "structure": "None of + plural noun + singular verb",
-              "notes": ["None of the members has complained.", "None of the students was absent."]
-            },
-            {
-              "title": "2. Informal: plural verb acceptable",
-              "explanation": "Informally, plural verbs are widely used.",
-              "structure": "None of + plural noun + plural verb",
-              "notes": ["None of the members have complained.", "None of the students were absent."]
-            }
+            { "title": "1. Formal: none of + plural noun + singular verb", "explanation": "Traditional rule: 'none' = 'not one'.", "structure": "None of + plural noun + singular verb", "notes": ["None of the members has complained.", "None of the students was absent."] },
+            { "title": "2. Informal: plural verb acceptable", "explanation": "Informally, plural verbs are widely used.", "structure": "None of + plural noun + plural verb", "notes": ["None of the members have complained.", "None of the students were absent."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "None of the members have received recognition.",
-              "correct": "None of the members has received recognition. (formal)",
-              "reason": "Formal writing prefers singular."
-            }
+            { "wrong": "None of the members have received recognition.", "correct": "None of the members has received recognition. (formal)", "reason": "Formal writing prefers singular." }
           ]
         },
         "other_examples": [
@@ -913,38 +675,24 @@
         { "id": "s4", "text": "extremely patient,", "clickable": true, "isError": false },
         { "id": "s5", "text": "which made her", "clickable": true, "isError": false },
         { "id": "s6", "text": "one of the most popular professors", "clickable": true, "isError": false },
-        { "id": "s7", "text": "who has ever taught", "clickable": true, "isError": true, "correctAnswers": ["who have ever taught", "who had ever taught", "that have ever taught", "that had ever taught"] },
+        { "id": "s7", "text": "who has ever taught", "clickable": true, "isError": true, "correctAnswers": ["who have ever taught", "who had ever taught", "that have ever taught", "that had ever taught", "who taught"] },
         { "id": "s8", "text": "at the university.", "clickable": false }
-      },
+      ],
       "explanationDetails": {
         "id": "GRAM-ADV-0018",
         "slug": "superlative-relative-clause-plural",
+        "topic": "Superlative + relative clause, subject–verb agreement in relative clauses, present perfect",
+        "sample": "She is one of the most popular professors who have ever taught here.",
+        "sample_translation_id": "Dia adalah salah satu profesor paling populer yang pernah mengajar di sini.",
         "details_explanation": {
-          "topic": "Superlative + relative clause, subject–verb agreement in relative clauses, present perfect",
-          "sample": "She is one of the most popular professors who have ever taught here.",
-          "id": "Dia adalah salah satu profesor paling populer yang pernah mengajar di sini.",
-          "explanation": "In 'one of the most popular professors who …', 'who' refers to 'professors' (plural), so the verb should be plural: 'who have ever taught' (or 'who had ever taught', 'that have ever taught', 'that had ever taught').",
+          "explanation": "In 'one of the most popular professors who …', 'who' refers to 'professors' (plural), so the verb should be plural: 'who have ever taught' (or 'who had ever taught', 'that have ever taught', 'that had ever taught', 'who taught').",
           "introduction": "In 'one of the + superlative + plural noun + who …', the relative pronoun refers to the plural noun, so the relative verb is plural.",
           "rules": [
-            {
-              "title": "1. Relative pronoun refers to plural noun",
-              "explanation": "Agreement follows the antecedent, not 'one'.",
-              "structure": "one of the + plural noun + who + plural verb",
-              "notes": ["She is one of the best players who have ever played.", "He is one of the few people who know the truth."]
-            },
-            {
-              "title": "2. Main verb agrees with 'one'",
-              "explanation": "The main clause verb agrees with 'one'.",
-              "structure": "One of the + plural noun + singular main verb",
-              "notes": ["One of the players is injured.", "One of the books was missing."]
-            }
+            { "title": "1. Relative pronoun refers to plural noun", "explanation": "Agreement follows the antecedent, not 'one'.", "structure": "one of the + plural noun + who + plural verb", "notes": ["She is one of the best players who have ever played.", "He is one of the few people who know the truth."] },
+            { "title": "2. Main verb agrees with 'one'", "explanation": "The main clause verb agrees with 'one'.", "structure": "One of the + plural noun + singular main verb", "notes": ["One of the players is injured.", "One of the books was missing."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "She is one of the best professors who has ever taught here.",
-              "correct": "She is one of the best professors who have ever taught here.",
-              "reason": "'Who' refers to 'professors'."
-            }
+            { "wrong": "She is one of the best professors who has ever taught here.", "correct": "She is one of the best professors who have ever taught here.", "reason": "'Who' refers to 'professors'." }
           ]
         },
         "other_examples": [
@@ -965,41 +713,26 @@
         { "id": "s2", "text": "was so convoluted", "clickable": true, "isError": false },
         { "id": "s3", "text": "that few people", "clickable": true, "isError": false },
         { "id": "s4", "text": "could make sense", "clickable": true, "isError": false },
-        { "id": "s5", "text": "of what", "clickable": true, "isError": false },
-        { "id": "s6", "text": "he was trying to say,", "clickable": true, "isError": false },
-        { "id": "s7", "text": "and even fewer", "clickable": true, "isError": false },
-        { "id": "s8", "text": "was convinced", "clickable": true, "isError": true, "correctAnswers": ["were convinced", "were persuaded", "were swayed", "were impressed"] },
-        { "id": "s9", "text": "by his arguments.", "clickable": false }
-      },
+        { "id": "s5", "text": "of what he was trying to say,", "clickable": true, "isError": false },
+        { "id": "s6", "text": "and even fewer", "clickable": true, "isError": false },
+        { "id": "s7", "text": "was convinced", "clickable": true, "isError": true, "correctAnswers": ["were convinced", "were persuaded", "were swayed", "were impressed", "were won over"] },
+        { "id": "s8", "text": "by his arguments.", "clickable": false }
+      ],
       "explanationDetails": {
         "id": "GRAM-ADV-0019",
         "slug": "few-fewer-plural-quantifier",
+        "topic": "Quantifiers 'few/fewer', result clauses, passive voice",
+        "sample": "Few people understood, and even fewer were convinced.",
+        "sample_translation_id": "Sedikit orang yang mengerti, dan bahkan lebih sedikit yang yakin.",
         "details_explanation": {
-          "topic": "Quantifiers 'few/fewer', result clauses, passive voice",
-          "sample": "Few people understood, and even fewer were convinced.",
-          "id": "Sedikit orang yang mengerti, dan bahkan lebih sedikit yang yakin.",
-          "explanation": "'Fewer' refers to a plural count noun ('people'), so the verb must be plural. 'Was convinced' should be 'were convinced'. Acceptable: 'were convinced', 'were persuaded', 'were swayed', 'were impressed'.",
+          "explanation": "'Fewer' refers to a plural count noun ('people'), so the verb must be plural. 'Was convinced' should be 'were convinced'. Acceptable: 'were convinced', 'were persuaded', 'were swayed', 'were impressed', 'were won over'.",
           "introduction": "'Few' and 'fewer' modify plural count nouns. The corresponding verbs must be plural.",
           "rules": [
-            {
-              "title": "1. Few/fewer + plural noun + plural verb",
-              "explanation": "Countability and agreement.",
-              "structure": "few/fewer + plural noun + plural verb",
-              "notes": ["Few people were convinced.", "Fewer students are attending."]
-            },
-            {
-              "title": "2. Little/less + uncountable noun + singular verb",
-              "explanation": "Uncountable agreement.",
-              "structure": "little/less + uncountable noun + singular verb",
-              "notes": ["Little information was available.", "Less water is needed."]
-            }
+            { "title": "1. Few/fewer + plural noun + plural verb", "explanation": "Countability and agreement.", "structure": "few/fewer + plural noun + plural verb", "notes": ["Few people were convinced.", "Fewer students are attending."] },
+            { "title": "2. Little/less + uncountable noun + singular verb", "explanation": "Uncountable agreement.", "structure": "little/less + uncountable noun + singular verb", "notes": ["Little information was available.", "Less water is needed."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Fewer people was convinced.",
-              "correct": "Fewer people were convinced.",
-              "reason": "'Fewer' refers to a plural count noun."
-            }
+            { "wrong": "Fewer people was convinced.", "correct": "Fewer people were convinced.", "reason": "'Fewer' refers to a plural count noun." }
           ]
         },
         "other_examples": [
@@ -1016,44 +749,28 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "It was", "clickable": true, "isError": false },
-        { "id": "s2", "text": "the board of directors", "clickable": true, "isError": false },
-        { "id": "s3", "text": "that was responsible", "clickable": true, "isError": false },
-        { "id": "s4", "text": "for the decision,", "clickable": true, "isError": false },
-        { "id": "s5", "text": "not the CEO,", "clickable": true, "isError": false },
-        { "id": "s6", "text": "which was announced", "clickable": true, "isError": false },
-        { "id": "s7", "text": "at the press conference", "clickable": true, "isError": false },
-        { "id": "s8", "text": "yesterday.", "clickable": false }
+        { "id": "s1", "text": "It was the board of directors", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that were responsible", "clickable": true, "isError": true, "correctAnswers": ["that was responsible", "who was responsible", "that was to blame", "that bore responsibility", "that took responsibility"] },
+        { "id": "s3", "text": "for the decision,", "clickable": true, "isError": false },
+        { "id": "s4", "text": "not the CEO,", "clickable": true, "isError": false },
+        { "id": "s5", "text": "which was announced", "clickable": true, "isError": false },
+        { "id": "s6", "text": "at the press conference yesterday.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0020",
-        "slug": "cleft-sentence-no-error",
+        "slug": "cleft-sentence-collective-agreement",
+        "topic": "Cleft sentences, collective nouns, non-defining relative clauses",
+        "sample": "It was the board that was responsible, not the CEO.",
+        "sample_translation_id": "Dewan itulah yang bertanggung jawab, bukan CEO.",
         "details_explanation": {
-          "topic": "Cleft sentences, collective nouns, non-defining relative clauses",
-          "sample": "It was the board that was responsible, not the CEO.",
-          "id": "Dewan itulah yang bertanggung jawab, bukan CEO.",
-          "explanation": "No error. The cleft sentence 'It was the board … that was responsible' is correctly formed: 'the board' is treated as singular, so 'was responsible' is correct. The relative clause 'which was announced' correctly refers to 'the decision'.",
+          "explanation": "In the cleft sentence 'It was the board … that was responsible', 'the board' is a collective noun treated as singular, so 'was responsible' is correct. 'That were responsible' is therefore wrong. Acceptable: 'that was responsible', 'who was responsible', 'that was to blame', 'that bore responsibility', 'that took responsibility'.",
           "introduction": "Cleft sentences split a sentence into two clauses to emphasize a particular element: 'It + be + focus + that/who + rest'.",
           "rules": [
-            {
-              "title": "1. It-cleft",
-              "explanation": "Emphasize a noun phrase with 'It is/was … that/who …'.",
-              "structure": "It + be + focus + that/who + clause",
-              "notes": ["It was John who broke the vase.", "It is the manager that decides."]
-            },
-            {
-              "title": "2. Agreement inside the cleft",
-              "explanation": "The verb in the cleft clause agrees with the focused noun.",
-              "structure": "It was + singular focus + that + singular verb",
-              "notes": ["It was the board that was responsible.", "It was the members who were responsible."]
-            }
+            { "title": "1. It-cleft", "explanation": "Emphasize a noun phrase with 'It is/was … that/who …'.", "structure": "It + be + focus + that/who + clause", "notes": ["It was John who broke the vase.", "It is the manager that decides."] },
+            { "title": "2. Agreement inside the cleft", "explanation": "The verb in the cleft clause agrees with the focused noun.", "structure": "It was + singular focus + that + singular verb", "notes": ["It was the board that was responsible.", "It was the members who were responsible."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "It was the board that were responsible.",
-              "correct": "It was the board that was responsible.",
-              "reason": "Collective noun treated as singular."
-            }
+            { "wrong": "It was the board that were responsible.", "correct": "It was the board that was responsible.", "reason": "Collective noun treated as singular." }
           ]
         },
         "other_examples": [
@@ -1077,38 +794,23 @@
         { "id": "s5", "text": "would have escalated", "clickable": true, "isError": false },
         { "id": "s6", "text": "beyond control,", "clickable": true, "isError": false },
         { "id": "s7", "text": "and the consequences", "clickable": true, "isError": false },
-        { "id": "s8", "text": "would be catastrophic.", "clickable": true, "isError": true, "correctAnswers": ["would have been catastrophic", "could have been catastrophic", "might have been catastrophic", "would prove catastrophic"] },
-        { "id": "s9", "text": "", "clickable": false }
-      },
+        { "id": "s8", "text": "would be catastrophic.", "clickable": true, "isError": true, "correctAnswers": ["would have been catastrophic", "could have been catastrophic", "might have been catastrophic", "would have proven catastrophic", "would have turned out catastrophic"] }
+      ],
       "explanationDetails": {
         "id": "GRAM-ADV-0021",
         "slug": "mixed-conditional-third-past",
+        "topic": "Inverted third conditional, mixed conditionals, modal perfect",
+        "sample": "Had it not been for their intervention, the consequences would have been catastrophic.",
+        "sample_translation_id": "Seandainya bukan karena intervensi mereka, konsekuensinya akan sangat buruk.",
         "details_explanation": {
-          "topic": "Inverted third conditional, mixed conditionals, modal perfect",
-          "sample": "Had it not been for their intervention, the consequences would have been catastrophic.",
-          "id": "Seandainya bukan karena intervensi mereka, konsekuensinya akan sangat buruk.",
-          "explanation": "The sentence is a counterfactual about the past, so the result clause must use 'would have + past participle'. 'Would be' is a present/future form and is inconsistent with the past unreal condition. Acceptable: 'would have been catastrophic', 'could have been catastrophic', 'might have been catastrophic', 'would prove catastrophic' (marginally acceptable in literary style).",
+          "explanation": "The sentence is a counterfactual about the past, so the result clause must use 'would have + past participle'. 'Would be' is a present/future form and is inconsistent with the past unreal condition. Acceptable: 'would have been catastrophic', 'could have been catastrophic', 'might have been catastrophic', 'would have proven catastrophic', 'would have turned out catastrophic'.",
           "introduction": "Third conditionals refer to unreal past events: 'If … had …, … would have …'.",
           "rules": [
-            {
-              "title": "1. Third conditional result",
-              "explanation": "The result clause uses 'would have + past participle'.",
-              "structure": "If + past perfect, subject + would have + past participle",
-              "notes": ["If they had acted, disaster would have been avoided.", "Had they known, they would have prevented it."]
-            },
-            {
-              "title": "2. Inverted form",
-              "explanation": "Drop 'if' and invert auxiliary and subject.",
-              "structure": "Had + subject + past participle, …",
-              "notes": ["Had it not been for you, I would have failed.", "Had they arrived earlier, they would have seen the show."]
-            }
+            { "title": "1. Third conditional result", "explanation": "The result clause uses 'would have + past participle'.", "structure": "If + past perfect, subject + would have + past participle", "notes": ["If they had acted, disaster would have been avoided.", "Had they known, they would have prevented it."] },
+            { "title": "2. Inverted form", "explanation": "Drop 'if' and invert auxiliary and subject.", "structure": "Had + subject + past participle, …", "notes": ["Had it not been for you, I would have failed.", "Had they arrived earlier, they would have seen the show."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Had it not been for them, the situation would be catastrophic.",
-              "correct": "Had it not been for them, the situation would have been catastrophic.",
-              "reason": "Use the past unreal form."
-            }
+            { "wrong": "Had it not been for them, the situation would be catastrophic.", "correct": "Had it not been for them, the situation would have been catastrophic.", "reason": "Use the past unreal form." }
           ]
         },
         "other_examples": [
@@ -1127,7 +829,7 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The professor,", "clickable": true, "isError": false },
         { "id": "s2", "text": "along with his research assistants,", "clickable": true, "isError": false },
-        { "id": "s3", "text": "have been invited", "clickable": true, "isError": true, "correctAnswers": ["has been invited", "was invited", "is invited", "has been asked"] },
+        { "id": "s3", "text": "have been invited", "clickable": true, "isError": true, "correctAnswers": ["has been invited", "was invited", "is invited", "has been asked", "has received an invitation"] },
         { "id": "s4", "text": "to present", "clickable": true, "isError": false },
         { "id": "s5", "text": "their findings", "clickable": true, "isError": false },
         { "id": "s6", "text": "at the international symposium.", "clickable": false }
@@ -1135,32 +837,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0022",
         "slug": "along-with-intervening-phrase-singular",
+        "topic": "Intervening phrases ('along with'), subject–verb agreement, present perfect passive",
+        "sample": "The professor, along with his assistants, has been invited.",
+        "sample_translation_id": "Profesor itu, bersama asisten-asistennya, telah diundang.",
         "details_explanation": {
-          "topic": "Intervening phrases ('along with'), subject–verb agreement, present perfect passive",
-          "sample": "The professor, along with his assistants, has been invited.",
-          "id": "Profesor itu, bersama asisten-asistennya, telah diundang.",
-          "explanation": "The subject is 'The professor' (singular). 'Along with his research assistants' is an intervening phrase that does not change the number of the subject. 'Have been invited' must become 'has been invited' (or 'was invited', 'is invited', 'has been asked').",
+          "explanation": "The subject is 'The professor' (singular). 'Along with his research assistants' is an intervening phrase that does not change the number of the subject. 'Have been invited' must become 'has been invited' (or 'was invited', 'is invited', 'has been asked', 'has received an invitation').",
           "introduction": "Phrases like 'along with', 'together with', 'as well as', and 'in addition to' do not compound the subject.",
           "rules": [
-            {
-              "title": "1. Subject + along with + noun + singular verb",
-              "explanation": "The verb agrees with the first subject.",
-              "structure": "Singular subject + along with + noun + singular verb",
-              "notes": ["The CEO, along with the directors, has agreed.", "The teacher, along with the students, is attending."]
-            },
-            {
-              "title": "2. Difference from 'and'",
-              "explanation": "'And' creates a plural compound subject; 'along with' does not.",
-              "structure": "S1 and S2 = plural; S1 along with S2 = agrees with S1",
-              "notes": ["The professor and his assistants have been invited.", "The professor, along with his assistants, has been invited."]
-            }
+            { "title": "1. Subject + along with + noun + singular verb", "explanation": "The verb agrees with the first subject.", "structure": "Singular subject + along with + noun + singular verb", "notes": ["The CEO, along with the directors, has agreed.", "The teacher, along with the students, is attending."] },
+            { "title": "2. Difference from 'and'", "explanation": "'And' creates a plural compound subject; 'along with' does not.", "structure": "S1 and S2 = plural; S1 along with S2 = agrees with S1", "notes": ["The professor and his assistants have been invited.", "The professor, along with his assistants, has been invited."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The professor, along with his assistants, have been invited.",
-              "correct": "The professor, along with his assistants, has been invited.",
-              "reason": "The subject is 'the professor'."
-            }
+            { "wrong": "The professor, along with his assistants, have been invited.", "correct": "The professor, along with his assistants, has been invited.", "reason": "The subject is 'the professor'." }
           ]
         },
         "other_examples": [
@@ -1180,39 +868,25 @@
         { "id": "s1", "text": "By the time", "clickable": true, "isError": false },
         { "id": "s2", "text": "the guests arrived,", "clickable": true, "isError": false },
         { "id": "s3", "text": "the caterers", "clickable": true, "isError": false },
-        { "id": "s4", "text": "have already set up", "clickable": true, "isError": true, "correctAnswers": ["had already set up", "had already prepared", "had already arranged", "had already laid out"] },
+        { "id": "s4", "text": "have already set up", "clickable": true, "isError": true, "correctAnswers": ["had already set up", "had already prepared", "had already arranged", "had already laid out", "had already organized"] },
         { "id": "s5", "text": "the entire banquet hall,", "clickable": true, "isError": false },
         { "id": "s6", "text": "which impressed everyone.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0023",
         "slug": "past-perfect-by-the-time",
+        "topic": "Past perfect with 'by the time', result clauses, phrasal verbs",
+        "sample": "By the time the guests arrived, the caterers had already set up the hall.",
+        "sample_translation_id": "Pada saat para tamu tiba, katering sudah menata aula.",
         "details_explanation": {
-          "topic": "Past perfect with 'by the time', result clauses, phrasal verbs",
-          "sample": "By the time the guests arrived, the caterers had already set up the hall.",
-          "id": "Pada saat para tamu tiba, katering sudah menata aula.",
-          "explanation": "When 'by the time' introduces a past event, the earlier event must be in the past perfect. 'Have already set up' must become 'had already set up'. Acceptable: 'had already set up', 'had already prepared', 'had already arranged', 'had already laid out'.",
+          "explanation": "When 'by the time' introduces a past event, the earlier event must be in the past perfect. 'Have already set up' must become 'had already set up'. Acceptable: 'had already set up', 'had already prepared', 'had already arranged', 'had already laid out', 'had already organized'.",
           "introduction": "'By the time' + past simple is typically paired with the past perfect in the main clause.",
           "rules": [
-            {
-              "title": "1. By the time + past simple, past perfect",
-              "explanation": "The earlier action takes the past perfect.",
-              "structure": "By the time + subject + past simple, subject + had + past participle",
-              "notes": ["By the time we arrived, the film had started.", "By the time she called, I had finished."]
-            },
-            {
-              "title": "2. By the time + present simple, future perfect",
-              "explanation": "Future perfect for future earlier actions.",
-              "structure": "By the time + present simple, subject + will have + past participle",
-              "notes": ["By the time you arrive, I will have finished.", "By the time they get here, we will have eaten."]
-            }
+            { "title": "1. By the time + past simple, past perfect", "explanation": "The earlier action takes the past perfect.", "structure": "By the time + subject + past simple, subject + had + past participle", "notes": ["By the time we arrived, the film had started.", "By the time she called, I had finished."] },
+            { "title": "2. By the time + present simple, future perfect", "explanation": "Future perfect for future earlier actions.", "structure": "By the time + present simple, subject + will have + past participle", "notes": ["By the time you arrive, I will have finished.", "By the time they get here, we will have eaten."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "By the time the guests arrived, the caterers have set up the hall.",
-              "correct": "By the time the guests arrived, the caterers had set up the hall.",
-              "reason": "The earlier event requires the past perfect."
-            }
+            { "wrong": "By the time the guests arrived, the caterers have set up the hall.", "correct": "By the time the guests arrived, the caterers had set up the hall.", "reason": "The earlier event requires the past perfect." }
           ]
         },
         "other_examples": [
@@ -1231,7 +905,7 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The consultant", "clickable": true, "isError": false },
         { "id": "s2", "text": "advised that the company", "clickable": true, "isError": false },
-        { "id": "s3", "text": "diversifies", "clickable": true, "isError": true, "correctAnswers": ["diversify", "should diversify", "must diversify", "was to diversify"] },
+        { "id": "s3", "text": "diversifies", "clickable": true, "isError": true, "correctAnswers": ["diversify", "should diversify", "must diversify", "was to diversify", "needed to diversify"] },
         { "id": "s4", "text": "its investments", "clickable": true, "isError": false },
         { "id": "s5", "text": "to reduce risk,", "clickable": true, "isError": false },
         { "id": "s6", "text": "a recommendation", "clickable": true, "isError": false },
@@ -1240,32 +914,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0024",
         "slug": "subjunctive-advise-diversify",
+        "topic": "Subjunctive after 'advise', infinitive of purpose, non-defining appositive clauses",
+        "sample": "The consultant advised that the company diversify its investments.",
+        "sample_translation_id": "Konsultan menyarankan agar perusahaan mendiversifikasi investasinya.",
         "details_explanation": {
-          "topic": "Subjunctive after 'advise', infinitive of purpose, non-defining appositive clauses",
-          "sample": "The consultant advised that the company diversify its investments.",
-          "id": "Konsultan menyarankan agar perusahaan mendiversifikasi investasinya.",
-          "explanation": "After 'advise that', the that-clause takes the subjunctive (base form). 'Diversifies' must become 'diversify'. Acceptable: 'diversify', 'should diversify', 'must diversify', 'was to diversify'.",
+          "explanation": "After 'advise that', the that-clause takes the subjunctive (base form). 'Diversifies' must become 'diversify'. Acceptable: 'diversify', 'should diversify', 'must diversify', 'was to diversify', 'needed to diversify'.",
           "introduction": "Verbs of advice such as 'advise', 'recommend', 'suggest', and 'urge' can take a subjunctive that-clause.",
           "rules": [
-            {
-              "title": "1. Subjunctive after 'advise'",
-              "explanation": "Base form regardless of subject.",
-              "structure": "advise that + subject + base verb",
-              "notes": ["He advised that she wait.", "They advised that the plan be reconsidered."]
-            },
-            {
-              "title": "2. Alternative: should + base verb",
-              "explanation": "Common in British English.",
-              "structure": "advise that + subject + should + base verb",
-              "notes": ["He advised that she should wait.", "They advised that the plan should be reconsidered."]
-            }
+            { "title": "1. Subjunctive after 'advise'", "explanation": "Base form regardless of subject.", "structure": "advise that + subject + base verb", "notes": ["He advised that she wait.", "They advised that the plan be reconsidered."] },
+            { "title": "2. Alternative: should + base verb", "explanation": "Common in British English.", "structure": "advise that + subject + should + base verb", "notes": ["He advised that she should wait.", "They advised that the plan should be reconsidered."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "He advised that she waits.",
-              "correct": "He advised that she wait.",
-              "reason": "The subjunctive uses the base form."
-            }
+            { "wrong": "He advised that she waits.", "correct": "He advised that she wait.", "reason": "The subjunctive uses the base form." }
           ]
         },
         "other_examples": [
@@ -1288,38 +948,24 @@
         { "id": "s4", "text": "began to express", "clickable": true, "isError": false },
         { "id": "s5", "text": "their concerns,", "clickable": true, "isError": false },
         { "id": "s6", "text": "many of whom", "clickable": true, "isError": false },
-        { "id": "s7", "text": "was worried", "clickable": true, "isError": true, "correctAnswers": ["were worried", "were concerned", "were anxious", "felt anxious"] },
+        { "id": "s7", "text": "was worried", "clickable": true, "isError": true, "correctAnswers": ["were worried", "were concerned", "were anxious", "felt anxious", "were uneasy"] },
         { "id": "s8", "text": "about job security.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0025",
         "slug": "no-sooner-inversion-many-of-whom",
+        "topic": "Inversion after 'no sooner', non-defining relative clause with quantifier ('many of whom'), subject–verb agreement",
+        "sample": "Many of the employees were worried about job security.",
+        "sample_translation_id": "Banyak karyawan merasa khawatir tentang keamanan kerja.",
         "details_explanation": {
-          "topic": "Inversion after 'no sooner', non-defining relative clause with quantifier ('many of whom'), subject–verb agreement",
-          "sample": "Many of the employees were worried about job security.",
-          "id": "Banyak karyawan merasa khawatir tentang keamanan kerja.",
-          "explanation": "'Many of whom' refers to 'employees' (plural), so the verb must be plural: 'were worried'. Acceptable: 'were worried', 'were concerned', 'were anxious', 'felt anxious'. The inversion 'No sooner had … than …' is correctly formed.",
+          "explanation": "'Many of whom' refers to 'employees' (plural), so the verb must be plural: 'were worried'. Acceptable: 'were worried', 'were concerned', 'were anxious', 'felt anxious', 'were uneasy'. The inversion 'No sooner had … than …' is correctly formed.",
           "introduction": "Quantifier + 'of whom/which' in non-defining relative clauses agrees with the antecedent.",
           "rules": [
-            {
-              "title": "1. Many of whom + plural verb",
-              "explanation": "The quantifier refers to a plural antecedent.",
-              "structure": "plural antecedent, many of whom + plural verb",
-              "notes": ["The students, many of whom were absent, missed the lecture.", "The employees, many of whom were worried, attended the meeting."]
-            },
-            {
-              "title": "2. Inversion after 'no sooner'",
-              "explanation": "'No sooner … than' triggers inversion in the first clause.",
-              "structure": "No sooner + auxiliary + subject + past participle + than …",
-              "notes": ["No sooner had he arrived than the meeting began.", "No sooner had they left than it started raining."]
-            }
+            { "title": "1. Many of whom + plural verb", "explanation": "The quantifier refers to a plural antecedent.", "structure": "plural antecedent, many of whom + plural verb", "notes": ["The students, many of whom were absent, missed the lecture.", "The employees, many of whom were worried, attended the meeting."] },
+            { "title": "2. Inversion after 'no sooner'", "explanation": "'No sooner … than' triggers inversion in the first clause.", "structure": "No sooner + auxiliary + subject + past participle + than …", "notes": ["No sooner had he arrived than the meeting began.", "No sooner had they left than it started raining."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Many of whom was worried.",
-              "correct": "Many of whom were worried.",
-              "reason": "The antecedent is plural."
-            }
+            { "wrong": "Many of whom was worried.", "correct": "Many of whom were worried.", "reason": "The antecedent is plural." }
           ]
         },
         "other_examples": [
@@ -1345,32 +991,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0026",
         "slug": "the-number-of-has-declined",
+        "topic": "Subject–verb agreement with 'the number of', present perfect, time clauses",
+        "sample": "The number of tourists has declined significantly.",
+        "sample_translation_id": "Jumlah wisatawan telah menurun secara signifikan.",
         "details_explanation": {
-          "topic": "Subject–verb agreement with 'the number of', present perfect, time clauses",
-          "sample": "The number of tourists has declined significantly.",
-          "id": "Jumlah wisatawan telah menurun secara signifikan.",
           "explanation": "The subject is 'The number' (singular), not 'tourists'. The verb must therefore be singular: 'has declined' or 'has decreased'.",
           "introduction": "'The number of' is followed by a singular verb; 'a number of' by a plural verb.",
           "rules": [
-            {
-              "title": "1. The number of + plural noun + singular verb",
-              "explanation": "The head noun is 'number'.",
-              "structure": "The number of + plural noun + singular verb",
-              "notes": ["The number of tourists has declined.", "The number of accidents is falling."]
-            },
-            {
-              "title": "2. A number of + plural noun + plural verb",
-              "explanation": "'A number of' means 'several'.",
-              "structure": "A number of + plural noun + plural verb",
-              "notes": ["A number of tourists have complained.", "A number of accidents have occurred."]
-            }
+            { "title": "1. The number of + plural noun + singular verb", "explanation": "The head noun is 'number'.", "structure": "The number of + plural noun + singular verb", "notes": ["The number of tourists has declined.", "The number of accidents is falling."] },
+            { "title": "2. A number of + plural noun + plural verb", "explanation": "'A number of' means 'several'.", "structure": "A number of + plural noun + plural verb", "notes": ["A number of tourists have complained.", "A number of accidents have occurred."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The number of tourists have declined.",
-              "correct": "The number of tourists has declined.",
-              "reason": "The subject is 'the number'."
-            }
+            { "wrong": "The number of tourists have declined.", "correct": "The number of tourists has declined.", "reason": "The subject is 'the number'." }
           ]
         },
         "other_examples": [
@@ -1397,32 +1029,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0027",
         "slug": "as-well-as-singular-main-subject",
+        "topic": "Intervening phrases ('as well as'), subject–verb agreement, passive voice",
+        "sample": "The minister, as well as his advisors, was criticized.",
+        "sample_translation_id": "Menteri itu, serta para penasihatnya, dikritik.",
         "details_explanation": {
-          "topic": "Intervening phrases ('as well as'), subject–verb agreement, passive voice",
-          "sample": "The minister, as well as his advisors, was criticized.",
-          "id": "Menteri itu, serta para penasihatnya, dikritik.",
           "explanation": "The subject is 'The minister' (singular). 'As well as his advisors' is an intervening phrase and does not change the subject's number. 'Were criticized' should be 'was criticized' or 'was condemned'.",
           "introduction": "'As well as' introduces parenthetical information and does not compound the subject.",
           "rules": [
-            {
-              "title": "1. As well as does not create a plural subject",
-              "explanation": "The verb agrees with the first subject.",
-              "structure": "Singular subject + as well as + noun + singular verb",
-              "notes": ["The minister, as well as his advisors, was criticized.", "The CEO, as well as the directors, has agreed."]
-            },
-            {
-              "title": "2. Difference from 'and'",
-              "explanation": "'And' makes the subject plural; 'as well as' does not.",
-              "structure": "S1 and S2 = plural; S1 as well as S2 = agrees with S1",
-              "notes": ["The minister and his advisors were criticized.", "The minister, as well as his advisors, was criticized."]
-            }
+            { "title": "1. As well as does not create a plural subject", "explanation": "The verb agrees with the first subject.", "structure": "Singular subject + as well as + noun + singular verb", "notes": ["The minister, as well as his advisors, was criticized.", "The CEO, as well as the directors, has agreed."] },
+            { "title": "2. Difference from 'and'", "explanation": "'And' makes the subject plural; 'as well as' does not.", "structure": "S1 and S2 = plural; S1 as well as S2 = agrees with S1", "notes": ["The minister and his advisors were criticized.", "The minister, as well as his advisors, was criticized."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The minister as well as his advisors were criticized.",
-              "correct": "The minister as well as his advisors was criticized.",
-              "reason": "The subject is 'the minister'."
-            }
+            { "wrong": "The minister as well as his advisors were criticized.", "correct": "The minister as well as his advisors was criticized.", "reason": "The subject is 'the minister'." }
           ]
         },
         "other_examples": [
@@ -1449,32 +1067,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0028",
         "slug": "either-or-proximity-plural",
+        "topic": "Either…or (proximity rule), subject–verb agreement, passive adjectives",
+        "sample": "Either the manuscript or the photocopies are acceptable.",
+        "sample_translation_id": "Entah naskah asli atau fotokopi yang disahkan dapat diterima.",
         "details_explanation": {
-          "topic": "Either…or (proximity rule), subject–verb agreement, passive adjectives",
-          "sample": "Either the manuscript or the photocopies are acceptable.",
-          "id": "Entah naskah asli atau fotokopi yang disahkan dapat diterima.",
           "explanation": "With 'either … or', the verb agrees with the nearest subject. 'The certified photocopies' is plural and closer, so the verb must be 'are acceptable' or 'will be acceptable'.",
           "introduction": "In 'either … or', the verb follows the proximity rule.",
           "rules": [
-            {
-              "title": "1. Proximity rule",
-              "explanation": "Verb agrees with the nearer subject.",
-              "structure": "Either S1 or S2 + verb (agrees with S2)",
-              "notes": ["Either the manuscript or the photocopies are acceptable.", "Either the photocopies or the manuscript is acceptable."]
-            },
-            {
-              "title": "2. Parallel structure",
-              "explanation": "Keep the two options grammatically parallel.",
-              "structure": "Either + noun + or + noun",
-              "notes": ["Either the original or the copy is fine.", "Either the originals or the copies are fine."]
-            }
+            { "title": "1. Proximity rule", "explanation": "Verb agrees with the nearer subject.", "structure": "Either S1 or S2 + verb (agrees with S2)", "notes": ["Either the manuscript or the photocopies are acceptable.", "Either the photocopies or the manuscript is acceptable."] },
+            { "title": "2. Parallel structure", "explanation": "Keep the two options grammatically parallel.", "structure": "Either + noun + or + noun", "notes": ["Either the original or the copy is fine.", "Either the originals or the copies are fine."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Either the manuscript or the photocopies is acceptable.",
-              "correct": "Either the manuscript or the photocopies are acceptable.",
-              "reason": "'Photocopies' is nearer and plural."
-            }
+            { "wrong": "Either the manuscript or the photocopies is acceptable.", "correct": "Either the manuscript or the photocopies are acceptable.", "reason": "'Photocopies' is nearer and plural." }
           ]
         },
         "other_examples": [
@@ -1501,32 +1105,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0029",
         "slug": "police-plural-have-confirmed",
+        "topic": "Plural-only nouns ('police'), passive voice, time clauses",
+        "sample": "The police have confirmed the arrest.",
+        "sample_translation_id": "Polisi telah mengonfirmasi penangkapan itu.",
         "details_explanation": {
-          "topic": "Plural-only nouns ('police'), passive voice, time clauses",
-          "sample": "The police have confirmed the arrest.",
-          "id": "Polisi telah mengonfirmasi penangkapan itu.",
           "explanation": "'Police' is always plural in English and requires a plural verb. 'Has confirmed' should be 'have confirmed' or 'confirmed'.",
           "introduction": "Nouns like 'police', 'people', 'cattle', and 'clergy' are always plural.",
           "rules": [
-            {
-              "title": "1. Police + plural verb",
-              "explanation": "Always plural.",
-              "structure": "The police + plural verb",
-              "notes": ["The police have arrived.", "The police are investigating."]
-            },
-            {
-              "title": "2. People + plural verb",
-              "explanation": "Always plural.",
-              "structure": "People + plural verb",
-              "notes": ["People are waiting.", "People have complained."]
-            }
+            { "title": "1. Police + plural verb", "explanation": "Always plural.", "structure": "The police + plural verb", "notes": ["The police have arrived.", "The police are investigating."] },
+            { "title": "2. People + plural verb", "explanation": "Always plural.", "structure": "People + plural verb", "notes": ["People are waiting.", "People have complained."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The police has confirmed the arrest.",
-              "correct": "The police have confirmed the arrest.",
-              "reason": "'Police' is plural."
-            }
+            { "wrong": "The police has confirmed the arrest.", "correct": "The police have confirmed the arrest.", "reason": "'Police' is plural." }
           ]
         },
         "other_examples": [
@@ -1554,32 +1144,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0030",
         "slug": "which-refers-to-clause-singular",
+        "topic": "Non-defining relative clause referring to a whole clause, collective nouns, present perfect",
+        "sample": "The board postponed the launch, which has disappointed shareholders.",
+        "sample_translation_id": "Dewan menunda peluncuran, yang telah mengecewakan para pemegang saham.",
         "details_explanation": {
-          "topic": "Non-defining relative clause referring to a whole clause, collective nouns, present perfect",
-          "sample": "The board postponed the launch, which has disappointed shareholders.",
-          "id": "Dewan menunda peluncuran, yang telah mengecewakan para pemegang saham.",
           "explanation": "When 'which' refers to an entire preceding clause (the fact that the launch was postponed), it is singular and takes a singular verb. 'Have disappointed' should be 'has disappointed' or 'disappointed'.",
           "introduction": "A non-defining 'which' can refer to the whole preceding clause; it is then singular.",
           "rules": [
-            {
-              "title": "1. Which referring to a clause = singular",
-              "explanation": "Use a singular verb.",
-              "structure": "…, which + singular verb",
-              "notes": ["He arrived late, which annoyed everyone.", "The board postponed the launch, which has disappointed shareholders."]
-            },
-            {
-              "title": "2. Which referring to a plural noun",
-              "explanation": "Use a plural verb when it refers to a plural noun.",
-              "structure": "plural noun, which + plural verb",
-              "notes": ["The documents, which were signed, are on the desk.", "The proposals, which have been approved, are being implemented."]
-            }
+            { "title": "1. Which referring to a clause = singular", "explanation": "Use a singular verb.", "structure": "…, which + singular verb", "notes": ["He arrived late, which annoyed everyone.", "The board postponed the launch, which has disappointed shareholders."] },
+            { "title": "2. Which referring to a plural noun", "explanation": "Use a plural verb when it refers to a plural noun.", "structure": "plural noun, which + plural verb", "notes": ["The documents, which were signed, are on the desk.", "The proposals, which have been approved, are being implemented."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The board postponed the launch, which have disappointed shareholders.",
-              "correct": "The board postponed the launch, which has disappointed shareholders.",
-              "reason": "'Which' refers to the whole clause, treated as singular."
-            }
+            { "wrong": "The board postponed the launch, which have disappointed shareholders.", "correct": "The board postponed the launch, which has disappointed shareholders.", "reason": "'Which' refers to the whole clause, treated as singular." }
           ]
         },
         "other_examples": [
@@ -1607,32 +1183,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0031",
         "slug": "which-refers-to-clause-has-pleased",
+        "topic": "Non-defining 'which' referring to a clause, subject–verb agreement, prepositional phrases",
+        "sample": "The quality has improved, which has pleased the customers.",
+        "sample_translation_id": "Kualitasnya telah meningkat, yang telah menyenangkan para pelanggan.",
         "details_explanation": {
-          "topic": "Non-defining 'which' referring to a clause, subject–verb agreement, prepositional phrases",
-          "sample": "The quality has improved, which has pleased the customers.",
-          "id": "Kualitasnya telah meningkat, yang telah menyenangkan para pelanggan.",
           "explanation": "'Which' refers to the entire preceding clause, so it is singular: 'which has pleased' or the participle 'pleasing'.",
           "introduction": "When 'which' comments on a whole clause, it takes a singular verb.",
           "rules": [
-            {
-              "title": "1. Clause-referring 'which'",
-              "explanation": "Singular verb.",
-              "structure": "…, which + singular verb",
-              "notes": ["Prices rose, which worried consumers.", "Quality improved, which has pleased customers."]
-            },
-            {
-              "title": "2. Participle alternative",
-              "explanation": "A participle clause can replace the relative clause.",
-              "structure": "…, pleasing/annoying/surprising + object",
-              "notes": ["Quality improved, pleasing the customers.", "He arrived late, annoying everyone."]
-            }
+            { "title": "1. Clause-referring 'which'", "explanation": "Singular verb.", "structure": "…, which + singular verb", "notes": ["Prices rose, which worried consumers.", "Quality improved, which has pleased customers."] },
+            { "title": "2. Participle alternative", "explanation": "A participle clause can replace the relative clause.", "structure": "…, pleasing/annoying/surprising + object", "notes": ["Quality improved, pleasing the customers.", "He arrived late, annoying everyone."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Quality improved, which have pleased customers.",
-              "correct": "Quality improved, which has pleased customers.",
-              "reason": "Clause-referring 'which' is singular."
-            }
+            { "wrong": "Quality improved, which have pleased customers.", "correct": "Quality improved, which has pleased customers.", "reason": "Clause-referring 'which' is singular." }
           ]
         },
         "other_examples": [
@@ -1649,50 +1211,36 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The committee", "clickable": true, "isError": false },
-        { "id": "s2", "text": "has been unable", "clickable": true, "isError": false },
-        { "id": "s3", "text": "to reach a consensus,", "clickable": true, "isError": false },
-        { "id": "s4", "text": "and it is high time", "clickable": true, "isError": false },
-        { "id": "s5", "text": "they make", "clickable": true, "isError": true, "correctAnswers": ["they made", "they should make"] },
-        { "id": "s6", "text": "a decision.", "clickable": false }
+        { "id": "s1", "text": "In spite of", "clickable": true, "isError": false },
+        { "id": "s2", "text": "they had worked", "clickable": true, "isError": true, "correctAnswers": ["having worked", "the fact that they had worked"] },
+        { "id": "s3", "text": "overtime for weeks,", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the team", "clickable": true, "isError": false },
+        { "id": "s5", "text": "was not able to finish", "clickable": true, "isError": false },
+        { "id": "s6", "text": "the project on time.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0032",
-        "slug": "it-is-high-time-made",
+        "slug": "in-spite-of-clause-gerund",
+        "topic": "Concession clauses ('in spite of' vs. 'although'), gerund after preposition, past perfect",
+        "sample": "In spite of having worked overtime, the team could not finish.",
+        "sample_translation_id": "Meskipun telah bekerja lembur, tim tidak dapat menyelesaikannya.",
         "details_explanation": {
-          "topic": "Past subjunctive after 'it is high time', collective nouns, present perfect",
-          "sample": "It is high time they made a decision.",
-          "id": "Sudah waktunya mereka mengambil keputusan.",
-          "explanation": "After 'it is high time', the following clause uses the past simple (or 'should + base verb'). 'They make' must become 'they made' or 'they should make'.",
-          "introduction": "'It is high time' triggers the past subjunctive or 'should + base verb'.",
+          "explanation": "'In spite of' is a preposition and cannot introduce a full clause. It must be followed by a noun, pronoun, or gerund, or by 'the fact that' + clause. The error spans 'they had worked', which should become 'having worked' or 'the fact that they had worked'.",
+          "introduction": "'In spite of/Despite' take a noun or gerund; 'although/even though' take a clause.",
           "rules": [
-            {
-              "title": "1. Past simple after 'it is high time'",
-              "explanation": "Expresses urgency.",
-              "structure": "It is high time + subject + past simple",
-              "notes": ["It is high time you left.", "It is high time they made a decision."]
-            },
-            {
-              "title": "2. Should + base verb",
-              "explanation": "Formal alternative.",
-              "structure": "It is high time + subject + should + base verb",
-              "notes": ["It is high time you should leave.", "It is high time they should make a decision."]
-            }
+            { "title": "1. In spite of + gerund", "explanation": "Prepositional use.", "structure": "in spite of + verb-ing", "notes": ["In spite of working hard, he failed.", "In spite of having worked overtime, they could not finish."] },
+            { "title": "2. In spite of the fact that + clause", "explanation": "Introduce a clause with 'the fact that'.", "structure": "in spite of the fact that + subject + verb", "notes": ["In spite of the fact that they had worked hard, they failed.", "In spite of the fact that it rained, we went out."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "It is high time they make a decision.",
-              "correct": "It is high time they made a decision.",
-              "reason": "Past simple is used after 'it is high time'."
-            }
+            { "wrong": "In spite of they worked hard, they failed.", "correct": "In spite of working hard, they failed.", "reason": "'In spite of' cannot introduce a clause directly." }
           ]
         },
         "other_examples": [
-          { "sentence": "It is high time we addressed the issue.", "translation": "Sudah waktunya kita menangani masalah itu." },
-          { "sentence": "It is high time she apologized.", "translation": "Sudah waktunya dia meminta maaf." }
+          { "sentence": "In spite of being exhausted, she finished the race.", "translation": "Meskipun kelelahan, dia menyelesaikan perlombaan." },
+          { "sentence": "In spite of the fact that they had prepared thoroughly, they lost.", "translation": "Meskipun mereka telah mempersiapkan diri dengan matang, mereka kalah." }
         ],
         "references": [
-          { "title": "It Is High Time", "author": "Cambridge Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/it-is-high-time", "type": "Grammar Guide" }
+          { "title": "In Spite Of vs. Although", "author": "Cambridge Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/despite-and-in-spite-of", "type": "Grammar Guide" }
         ]
       }
     },
@@ -1710,32 +1258,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0033",
         "slug": "a-number-of-issues-have",
+        "topic": "'A number of' + plural noun + plural verb, passive voice, present perfect",
+        "sample": "A number of issues have been raised.",
+        "sample_translation_id": "Sejumlah masalah telah diangkat.",
         "details_explanation": {
-          "topic": "'A number of' + plural noun + plural verb, passive voice, present perfect",
-          "sample": "A number of issues have been raised.",
-          "id": "Sejumlah masalah telah diangkat.",
           "explanation": "'A number of' means 'several' and is followed by a plural noun and plural verb. 'Has been raised' must become 'have been raised' or 'were raised'.",
           "introduction": "'A number of' is plural in meaning; 'the number of' is singular.",
           "rules": [
-            {
-              "title": "1. A number of + plural noun + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "A number of + plural noun + plural verb",
-              "notes": ["A number of issues have been raised.", "A number of students are absent."]
-            },
-            {
-              "title": "2. The number of + plural noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "The number of + plural noun + singular verb",
-              "notes": ["The number of issues has increased.", "The number of students is rising."]
-            }
+            { "title": "1. A number of + plural noun + plural verb", "explanation": "Plural agreement.", "structure": "A number of + plural noun + plural verb", "notes": ["A number of issues have been raised.", "A number of students are absent."] },
+            { "title": "2. The number of + plural noun + singular verb", "explanation": "Singular agreement.", "structure": "The number of + plural noun + singular verb", "notes": ["The number of issues has increased.", "The number of students is rising."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "A number of issues has been raised.",
-              "correct": "A number of issues have been raised.",
-              "reason": "'A number of' is plural."
-            }
+            { "wrong": "A number of issues has been raised.", "correct": "A number of issues have been raised.", "reason": "'A number of' is plural." }
           ]
         },
         "other_examples": [
@@ -1761,32 +1295,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0034",
         "slug": "majority-of-evidence-supports",
+        "topic": "'The majority of' + uncountable noun + singular verb, subject–verb agreement",
+        "sample": "The majority of the evidence supports the claim.",
+        "sample_translation_id": "Sebagian besar bukti mendukung klaim itu.",
         "details_explanation": {
-          "topic": "'The majority of' + uncountable noun + singular verb, subject–verb agreement",
-          "sample": "The majority of the evidence supports the claim.",
-          "id": "Sebagian besar bukti mendukung klaim itu.",
           "explanation": "'The majority of' can be singular or plural depending on the noun after 'of'. 'Evidence' is uncountable, so the verb must be singular: 'supports' or 'has supported'.",
           "introduction": "'The majority of' agrees with the noun that follows 'of'.",
           "rules": [
-            {
-              "title": "1. Majority of + uncountable noun + singular verb",
-              "explanation": "Uncountable agreement.",
-              "structure": "The majority of + uncountable noun + singular verb",
-              "notes": ["The majority of the evidence supports the theory.", "The majority of the water is clean."]
-            },
-            {
-              "title": "2. Majority of + plural noun + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "The majority of + plural noun + plural verb",
-              "notes": ["The majority of voters support the plan.", "The majority of students are present."]
-            }
+            { "title": "1. Majority of + uncountable noun + singular verb", "explanation": "Uncountable agreement.", "structure": "The majority of + uncountable noun + singular verb", "notes": ["The majority of the evidence supports the theory.", "The majority of the water is clean."] },
+            { "title": "2. Majority of + plural noun + plural verb", "explanation": "Plural agreement.", "structure": "The majority of + plural noun + plural verb", "notes": ["The majority of voters support the plan.", "The majority of students are present."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The majority of the evidence support the claim.",
-              "correct": "The majority of the evidence supports the claim.",
-              "reason": "'Evidence' is uncountable."
-            }
+            { "wrong": "The majority of the evidence support the claim.", "correct": "The majority of the evidence supports the claim.", "reason": "'Evidence' is uncountable." }
           ]
         },
         "other_examples": [
@@ -1805,39 +1325,25 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The criteria", "clickable": true, "isError": false },
         { "id": "s2", "text": "for selection", "clickable": true, "isError": false },
-        { "id": "s3", "text": "was revised", "clickable": true, "isError": true, "correctAnswers": ["were revised", "have been revised"] },
-        { "id": "s4", "text": "last month", "clickable": true, "isError": false },
-        { "id": "s5", "text": "by the admissions committee.", "clickable": false }
+        { "id": "s3", "text": "has been revised", "clickable": true, "isError": true, "correctAnswers": ["have been revised", "were revised"] },
+        { "id": "s4", "text": "several times", "clickable": true, "isError": false },
+        { "id": "s5", "text": "over the past decade.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0035",
-        "slug": "criteria-plural-were-revised",
+        "slug": "criteria-plural-have-been-revised",
+        "topic": "Irregular Latin plurals ('criteria'), subject–verb agreement, present perfect passive",
+        "sample": "The criteria have been revised several times.",
+        "sample_translation_id": "Kriteria tersebut telah direvisi beberapa kali.",
         "details_explanation": {
-          "topic": "Irregular Latin plurals ('criteria'), subject–verb agreement, passive voice",
-          "sample": "The criteria were revised last month.",
-          "id": "Kriteria tersebut direvisi bulan lalu.",
-          "explanation": "'Criteria' is the plural of 'criterion'. It takes a plural verb: 'were revised' or 'have been revised'. 'Was revised' is incorrect.",
+          "explanation": "'Criteria' is the plural of 'criterion'. It takes a plural verb: 'have been revised' or 'were revised'. 'Has been revised' is incorrect.",
           "introduction": "Latin/Greek plurals such as 'criteria', 'phenomena', and 'analyses' are plural and require plural verbs.",
           "rules": [
-            {
-              "title": "1. Criteria (plural) + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "Criteria + plural verb",
-              "notes": ["The criteria were revised.", "The criteria have changed."]
-            },
-            {
-              "title": "2. Criterion (singular) + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Criterion + singular verb",
-              "notes": ["The criterion was revised.", "One criterion is essential."]
-            }
+            { "title": "1. Criteria (plural) + plural verb", "explanation": "Plural agreement.", "structure": "Criteria + plural verb", "notes": ["The criteria were revised.", "The criteria have changed."] },
+            { "title": "2. Criterion (singular) + singular verb", "explanation": "Singular agreement.", "structure": "Criterion + singular verb", "notes": ["The criterion was revised.", "One criterion is essential."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The criteria was revised.",
-              "correct": "The criteria were revised.",
-              "reason": "'Criteria' is plural."
-            }
+            { "wrong": "The criteria has been revised.", "correct": "The criteria have been revised.", "reason": "'Criteria' is plural." }
           ]
         },
         "other_examples": [
@@ -1863,32 +1369,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0036",
         "slug": "news-singular-has-surprised",
+        "topic": "Singular nouns ending in -s ('news'), subject–verb agreement, present perfect",
+        "sample": "The news has surprised investors.",
+        "sample_translation_id": "Berita itu telah mengejutkan para investor.",
         "details_explanation": {
-          "topic": "Singular nouns ending in -s ('news'), subject–verb agreement, present perfect",
-          "sample": "The news has surprised investors.",
-          "id": "Berita itu telah mengejutkan para investor.",
           "explanation": "'News' is grammatically singular despite ending in -s. The verb must be 'has surprised' or 'surprised'.",
           "introduction": "Some nouns ending in -s are singular, such as 'news', 'mathematics', 'physics', and 'economics'.",
           "rules": [
-            {
-              "title": "1. News is singular",
-              "explanation": "Use a singular verb.",
-              "structure": "The news + singular verb",
-              "notes": ["The news is good.", "The news has surprised everyone."]
-            },
-            {
-              "title": "2. Academic subjects ending in -s",
-              "explanation": "Singular agreement.",
-              "structure": "Mathematics/physics/economics + singular verb",
-              "notes": ["Mathematics is challenging.", "Physics is fascinating."]
-            }
+            { "title": "1. News is singular", "explanation": "Use a singular verb.", "structure": "The news + singular verb", "notes": ["The news is good.", "The news has surprised everyone."] },
+            { "title": "2. Academic subjects ending in -s", "explanation": "Singular agreement.", "structure": "Mathematics/physics/economics + singular verb", "notes": ["Mathematics is challenging.", "Physics is fascinating."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The news are surprising.",
-              "correct": "The news is surprising.",
-              "reason": "'News' is singular."
-            }
+            { "wrong": "The news are surprising.", "correct": "The news is surprising.", "reason": "'News' is singular." }
           ]
         },
         "other_examples": [
@@ -1905,50 +1397,35 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The pair", "clickable": true, "isError": false },
-        { "id": "s2", "text": "of scissors", "clickable": true, "isError": false },
-        { "id": "s3", "text": "that were left", "clickable": true, "isError": false },
-        { "id": "s4", "text": "on the desk", "clickable": true, "isError": false },
-        { "id": "s5", "text": "belong", "clickable": true, "isError": true, "correctAnswers": ["belongs", "should belong"] },
-        { "id": "s6", "text": "to the laboratory.", "clickable": false }
+        { "id": "s1", "text": "The pair of scissors", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that was left", "clickable": true, "isError": true, "correctAnswers": ["that were left", "which were left"] },
+        { "id": "s3", "text": "on the desk", "clickable": true, "isError": false },
+        { "id": "s4", "text": "belongs", "clickable": true, "isError": false },
+        { "id": "s5", "text": "to the laboratory.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0037",
-        "slug": "pair-of-scissors-belongs",
+        "slug": "pair-of-scissors-relative-agreement",
+        "topic": "'A pair of' + plural noun, relative clause agreement, two-part nouns",
+        "sample": "The pair of scissors that were left on the desk belongs to the laboratory.",
+        "sample_translation_id": "Sepasang gunting yang tertinggal di meja itu milik laboratorium.",
         "details_explanation": {
-          "topic": "'A pair of' + plural noun + singular verb, relative clause agreement, two-part nouns",
-          "sample": "The pair of scissors belongs to the laboratory.",
-          "id": "Sepasang gunting itu milik laboratorium.",
-          "explanation": "The subject is 'The pair' (singular), so the main verb must be 'belongs' or 'should belong'. The relative clause 'that were left' agrees with 'scissors' (plural), which is correct inside the relative clause.",
-          "introduction": "'A pair of' makes a plural noun singular for agreement in the main clause.",
+          "explanation": "The main subject is 'The pair' (singular), so the main verb 'belongs' is correct. However, the relative clause 'that was left' refers to 'scissors' (plural), so it must be 'that were left' or 'which were left'.",
+          "introduction": "In relative clauses after 'a pair of + plural noun', the relative pronoun usually refers to the plural noun, so the relative verb is plural.",
           "rules": [
-            {
-              "title": "1. A pair of + plural noun + singular verb",
-              "explanation": "The main subject is 'pair'.",
-              "structure": "A pair of + plural noun + singular verb",
-              "notes": ["A pair of scissors is on the table.", "The pair of shoes belongs to me."]
-            },
-            {
-              "title": "2. Two-part nouns without 'pair'",
-              "explanation": "Plural agreement.",
-              "structure": "scissors/pants/glasses + plural verb",
-              "notes": ["The scissors are sharp.", "My glasses are broken."]
-            }
+            { "title": "1. Relative clause refers to the plural noun", "explanation": "Agreement inside the relative clause follows the nearest plural noun.", "structure": "A pair of + plural noun + that/which + plural verb", "notes": ["The pair of scissors that were left on the desk belongs to the lab.", "A pair of shoes that were bought yesterday is missing."] },
+            { "title": "2. Main verb agrees with 'pair'", "explanation": "The main verb is singular.", "structure": "The pair of + plural noun + singular main verb", "notes": ["The pair of scissors belongs to me.", "A pair of glasses is on the table."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The pair of scissors belong to me.",
-              "correct": "The pair of scissors belongs to me.",
-              "reason": "The subject is 'pair'."
-            }
+            { "wrong": "The pair of scissors that was left on the desk belongs to me.", "correct": "The pair of scissors that were left on the desk belongs to me.", "reason": "'That' refers to 'scissors' (plural)." }
           ]
         },
         "other_examples": [
-          { "sentence": "A pair of glasses is missing.", "translation": "Sepasang kacamata hilang." },
-          { "sentence": "The scissors are in the drawer.", "translation": "Gunting ada di laci." }
+          { "sentence": "The pair of shoes that were bought yesterday is missing.", "translation": "Sepasang sepatu yang dibeli kemarin hilang." },
+          { "sentence": "A pair of glasses that were prescribed last year is broken.", "translation": "Sepasang kacamata yang diresepkan tahun lalu rusak." }
         ],
         "references": [
-          { "title": "Pair Nouns", "author": "Cambridge Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-singular-and-plural", "type": "Grammar Guide" }
+          { "title": "Pair Nouns and Agreement", "author": "Cambridge Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/nouns-singular-and-plural", "type": "Grammar Guide" }
         ]
       }
     },
@@ -1957,47 +1434,31 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The staff", "clickable": true, "isError": false },
-        { "id": "s2", "text": "was informed", "clickable": true, "isError": false },
-        { "id": "s3", "text": "of the changes,", "clickable": true, "isError": false },
-        { "id": "s4", "text": "but none of them", "clickable": true, "isError": false },
-        { "id": "s5", "text": "were consulted", "clickable": true, "isError": true, "correctAnswers": ["was consulted", "had been consulted"] },
-        { "id": "s6", "text": "before the decision was made.", "clickable": false }
+        { "id": "s1", "text": "None of the evidence", "clickable": true, "isError": false },
+        { "id": "s2", "text": "presented by the prosecution", "clickable": true, "isError": false },
+        { "id": "s3", "text": "were sufficient", "clickable": true, "isError": true, "correctAnswers": ["was sufficient", "proved sufficient"] },
+        { "id": "s4", "text": "to convince the jury.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
         "id": "GRAM-ADV-0038",
-        "slug": "none-of-them-was-consulted",
+        "slug": "none-of-uncountable-evidence",
+        "topic": "'None of' + uncountable noun, subject–verb agreement, passive/participial constructions",
+        "sample": "None of the evidence was sufficient to convince the jury.",
+        "sample_translation_id": "Tidak ada bukti yang cukup untuk meyakinkan juri.",
         "details_explanation": {
-          "topic": "Collective nouns ('staff'), 'none of them' + verb, past perfect passive",
-          "sample": "None of them was consulted before the decision.",
-          "id": "Tidak ada dari mereka yang dikonsultasikan sebelum keputusan itu.",
-          "explanation": "In formal English, 'none of + pronoun' takes a singular verb: 'was consulted' (or 'had been consulted'). 'Were consulted' is acceptable informally, but the formal correction is singular.",
-          "introduction": "Formal style prefers 'none of' + singular verb; informal usage allows plural.",
+          "explanation": "'None of' with an uncountable noun ('evidence') takes a singular verb. 'Were sufficient' must become 'was sufficient' or 'proved sufficient'.",
+          "introduction": "'None of' + uncountable noun always takes a singular verb. With plural count nouns, singular is preferred in formal English.",
           "rules": [
-            {
-              "title": "1. Formal: none + singular verb",
-              "explanation": "Traditional rule.",
-              "structure": "None of + plural noun/pronoun + singular verb",
-              "notes": ["None of them was consulted.", "None of the members has complained."]
-            },
-            {
-              "title": "2. Informal: none + plural verb",
-              "explanation": "Widely used.",
-              "structure": "None of + plural noun/pronoun + plural verb",
-              "notes": ["None of them were consulted.", "None of the members have complained."]
-            }
+            { "title": "1. None of + uncountable noun + singular verb", "explanation": "Uncountable nouns are singular.", "structure": "None of + uncountable noun + singular verb", "notes": ["None of the evidence was convincing.", "None of the information was accurate."] },
+            { "title": "2. None of + plural noun", "explanation": "Formal style prefers singular; informal allows plural.", "structure": "None of + plural noun + singular/plural verb", "notes": ["None of the members was present. (formal)", "None of the members were present. (informal)"] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "None of them were consulted (formal context).",
-              "correct": "None of them was consulted.",
-              "reason": "Formal style prefers singular."
-            }
+            { "wrong": "None of the evidence were sufficient.", "correct": "None of the evidence was sufficient.", "reason": "'Evidence' is uncountable." }
           ]
         },
         "other_examples": [
-          { "sentence": "None of the information was accurate.", "translation": "Tidak ada informasi yang akurat." },
-          { "sentence": "None of the candidates was qualified.", "translation": "Tidak ada kandidat yang memenuhi syarat." }
+          { "sentence": "None of the equipment was damaged.", "translation": "Tidak ada peralatan yang rusak." },
+          { "sentence": "None of the furniture was delivered.", "translation": "Tidak ada furnitur yang dikirim." }
         ],
         "references": [
           { "title": "None: Singular or Plural", "author": "Cambridge Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/none", "type": "Grammar Guide" }
@@ -2018,32 +1479,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0039",
         "slug": "distance-singular-is",
+        "topic": "Measurements (distance) treated as singular, subject–verb agreement",
+        "sample": "Twenty miles is a long distance to walk.",
+        "sample_translation_id": "Dua puluh mil adalah jarak yang jauh untuk ditempuh.",
         "details_explanation": {
-          "topic": "Measurements (distance) treated as singular, subject–verb agreement",
-          "sample": "Twenty miles is a long distance to walk.",
-          "id": "Dua puluh mil adalah jarak yang jauh untuk ditempuh.",
           "explanation": "Distances, amounts of money, and periods of time are treated as singular units. 'Twenty miles' therefore takes 'is' or 'was'.",
           "introduction": "Measurements representing a single quantity take singular verbs.",
           "rules": [
-            {
-              "title": "1. Distance + singular verb",
-              "explanation": "Treated as one unit.",
-              "structure": "Distance + singular verb",
-              "notes": ["Twenty miles is a long walk.", "Five kilometers is not far."]
-            },
-            {
-              "title": "2. Money and time",
-              "explanation": "Singular agreement.",
-              "structure": "Amount + singular verb",
-              "notes": ["Ten dollars is enough.", "Three hours is a long time."]
-            }
+            { "title": "1. Distance + singular verb", "explanation": "Treated as one unit.", "structure": "Distance + singular verb", "notes": ["Twenty miles is a long walk.", "Five kilometers is not far."] },
+            { "title": "2. Money and time", "explanation": "Singular agreement.", "structure": "Amount + singular verb", "notes": ["Ten dollars is enough.", "Three hours is a long time."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Twenty miles are a long distance.",
-              "correct": "Twenty miles is a long distance.",
-              "reason": "The distance is treated as one unit."
-            }
+            { "wrong": "Twenty miles are a long distance.", "correct": "Twenty miles is a long distance.", "reason": "The distance is treated as one unit." }
           ]
         },
         "other_examples": [
@@ -2068,32 +1515,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0040",
         "slug": "fish-and-chips-singular-is",
+        "topic": "Compound subject referring to a single dish (singular agreement), subject–verb agreement",
+        "sample": "Fish and chips is my favorite meal.",
+        "sample_translation_id": "Ikan dan kentang goreng adalah makanan favorit saya.",
         "details_explanation": {
-          "topic": "Compound subject referring to a single dish (singular agreement), subject–verb agreement",
-          "sample": "Fish and chips is my favorite meal.",
-          "id": "Ikan dan kentang goreng adalah makanan favorit saya.",
           "explanation": "'Fish and chips' refers to one dish, so it is treated as singular: 'is' or 'was'.",
           "introduction": "When two nouns joined by 'and' refer to a single entity, the verb is singular.",
           "rules": [
-            {
-              "title": "1. Single dish/concept + singular verb",
-              "explanation": "Treats the two nouns as one.",
-              "structure": "S1 and S2 (one entity) + singular verb",
-              "notes": ["Fish and chips is popular.", "Bread and butter is delicious."]
-            },
-            {
-              "title": "2. Two distinct items + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "S1 and S2 (distinct) + plural verb",
-              "notes": ["The fish and the chips are on separate plates.", "The bread and the butter are on the table."]
-            }
+            { "title": "1. Single dish/concept + singular verb", "explanation": "Treats the two nouns as one.", "structure": "S1 and S2 (one entity) + singular verb", "notes": ["Fish and chips is popular.", "Bread and butter is delicious."] },
+            { "title": "2. Two distinct items + plural verb", "explanation": "Plural agreement.", "structure": "S1 and S2 (distinct) + plural verb", "notes": ["The fish and the chips are on separate plates.", "The bread and the butter are on the table."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Fish and chips are my favorite meal.",
-              "correct": "Fish and chips is my favorite meal.",
-              "reason": "It refers to one dish."
-            }
+            { "wrong": "Fish and chips are my favorite meal.", "correct": "Fish and chips is my favorite meal.", "reason": "It refers to one dish." }
           ]
         },
         "other_examples": [
@@ -2118,32 +1551,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0041",
         "slug": "neither-of-seems",
+        "topic": "'Neither of' + plural noun + singular verb, subject–verb agreement",
+        "sample": "Neither of the solutions seems feasible.",
+        "sample_translation_id": "Tidak ada dari solusi yang diajukan yang tampak layak.",
         "details_explanation": {
-          "topic": "'Neither of' + plural noun + singular verb, subject–verb agreement",
-          "sample": "Neither of the solutions seems feasible.",
-          "id": "Tidak ada dari solusi yang diajukan yang tampak layak.",
           "explanation": "'Neither of' is singular and takes a singular verb: 'seems'.",
           "introduction": "'Neither' and 'either' are singular pronouns.",
           "rules": [
-            {
-              "title": "1. Neither of + plural noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Neither of + plural noun + singular verb",
-              "notes": ["Neither of the solutions seems feasible.", "Neither of the boys is here."]
-            },
-            {
-              "title": "2. Either of + plural noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Either of + plural noun + singular verb",
-              "notes": ["Either of the answers is acceptable.", "Either of the options seems fine."]
-            }
+            { "title": "1. Neither of + plural noun + singular verb", "explanation": "Singular agreement.", "structure": "Neither of + plural noun + singular verb", "notes": ["Neither of the solutions seems feasible.", "Neither of the boys is here."] },
+            { "title": "2. Either of + plural noun + singular verb", "explanation": "Singular agreement.", "structure": "Either of + plural noun + singular verb", "notes": ["Either of the answers is acceptable.", "Either of the options seems fine."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Neither of the solutions seem feasible.",
-              "correct": "Neither of the solutions seems feasible.",
-              "reason": "'Neither' is singular."
-            }
+            { "wrong": "Neither of the solutions seem feasible.", "correct": "Neither of the solutions seems feasible.", "reason": "'Neither' is singular." }
           ]
         },
         "other_examples": [
@@ -2168,32 +1587,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0042",
         "slug": "each-of-has-been-required",
+        "topic": "'Each of' + plural noun + singular verb, present perfect passive",
+        "sample": "Each of the managers has been required to complete the training.",
+        "sample_translation_id": "Setiap manajer yang baru diangkat diwajibkan menyelesaikan pelatihan kepatuhan.",
         "details_explanation": {
-          "topic": "'Each of' + plural noun + singular verb, present perfect passive",
-          "sample": "Each of the managers has been required to complete the training.",
-          "id": "Setiap manajer yang baru diangkat diwajibkan menyelesaikan pelatihan kepatuhan.",
           "explanation": "'Each' is singular and takes a singular verb: 'has been required'.",
           "introduction": "Indefinite pronouns like 'each', 'everyone', 'someone', and 'nobody' are singular.",
           "rules": [
-            {
-              "title": "1. Each of + plural noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Each of + plural noun + singular verb",
-              "notes": ["Each of the managers has been trained.", "Each of the students is responsible."]
-            },
-            {
-              "title": "2. Each + singular noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Each + singular noun + singular verb",
-              "notes": ["Each manager has a key.", "Each applicant is interviewed separately."]
-            }
+            { "title": "1. Each of + plural noun + singular verb", "explanation": "Singular agreement.", "structure": "Each of + plural noun + singular verb", "notes": ["Each of the managers has been trained.", "Each of the students is responsible."] },
+            { "title": "2. Each + singular noun + singular verb", "explanation": "Singular agreement.", "structure": "Each + singular noun + singular verb", "notes": ["Each manager has a key.", "Each applicant is interviewed separately."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Each of the managers have been informed.",
-              "correct": "Each of the managers has been informed.",
-              "reason": "'Each' is singular."
-            }
+            { "wrong": "Each of the managers have been informed.", "correct": "Each of the managers has been informed.", "reason": "'Each' is singular." }
           ]
         },
         "other_examples": [
@@ -2219,32 +1624,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0043",
         "slug": "more-than-one-has-expressed",
+        "topic": "'More than one' + singular noun + singular verb, subject–verb agreement",
+        "sample": "More than one candidate has expressed reservations.",
+        "sample_translation_id": "Lebih dari satu kandidat telah menyatakan keberatan.",
         "details_explanation": {
-          "topic": "'More than one' + singular noun + singular verb, subject–verb agreement",
-          "sample": "More than one candidate has expressed reservations.",
-          "id": "Lebih dari satu kandidat telah menyatakan keberatan.",
           "explanation": "'More than one' is followed by a singular noun and takes a singular verb: 'has expressed'.",
           "introduction": "'More than one' is grammatically singular despite the plural meaning.",
           "rules": [
-            {
-              "title": "1. More than one + singular noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "More than one + singular noun + singular verb",
-              "notes": ["More than one candidate has expressed reservations.", "More than one student is absent."]
-            },
-            {
-              "title": "2. More than two/three + plural noun + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "More than two + plural noun + plural verb",
-              "notes": ["More than two candidates have applied.", "More than three issues remain."]
-            }
+            { "title": "1. More than one + singular noun + singular verb", "explanation": "Singular agreement.", "structure": "More than one + singular noun + singular verb", "notes": ["More than one candidate has expressed reservations.", "More than one student is absent."] },
+            { "title": "2. More than two/three + plural noun + plural verb", "explanation": "Plural agreement.", "structure": "More than two + plural noun + plural verb", "notes": ["More than two candidates have applied.", "More than three issues remain."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "More than one candidate have applied.",
-              "correct": "More than one candidate has applied.",
-              "reason": "'More than one' takes a singular verb."
-            }
+            { "wrong": "More than one candidate have applied.", "correct": "More than one candidate has applied.", "reason": "'More than one' takes a singular verb." }
           ]
         },
         "other_examples": [
@@ -2269,32 +1660,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0044",
         "slug": "government-has-announced",
+        "topic": "Collective nouns ('government') as singular (American English), present perfect",
+        "sample": "The government has announced new policies.",
+        "sample_translation_id": "Pemerintah telah mengumumkan kebijakan baru.",
         "details_explanation": {
-          "topic": "Collective nouns ('government') as singular (American English), present perfect",
-          "sample": "The government has announced new policies.",
-          "id": "Pemerintah telah mengumumkan kebijakan baru.",
           "explanation": "In American English, the collective noun 'government' is treated as singular and takes 'has announced'.",
           "introduction": "Collective nouns in American English take singular verbs when acting as one unit.",
           "rules": [
-            {
-              "title": "1. American English: singular verb",
-              "explanation": "Group treated as one entity.",
-              "structure": "Collective noun + singular verb",
-              "notes": ["The government has decided.", "The team is winning."]
-            },
-            {
-              "title": "2. British English: plural verb (individual action)",
-              "explanation": "Group viewed as individuals.",
-              "structure": "Collective noun + plural verb (British)",
-              "notes": ["The government have divided on the issue. (British)", "The team are playing well. (British)"]
-            }
+            { "title": "1. American English: singular verb", "explanation": "Group treated as one entity.", "structure": "Collective noun + singular verb", "notes": ["The government has decided.", "The team is winning."] },
+            { "title": "2. British English: plural verb (individual action)", "explanation": "Group viewed as individuals.", "structure": "Collective noun + plural verb (British)", "notes": ["The government have divided on the issue. (British)", "The team are playing well. (British)"] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The government have announced new policies. (American English)",
-              "correct": "The government has announced new policies.",
-              "reason": "American English treats collective nouns as singular."
-            }
+            { "wrong": "The government have announced new policies. (American English)", "correct": "The government has announced new policies.", "reason": "American English treats collective nouns as singular." }
           ]
         },
         "other_examples": [
@@ -2319,32 +1696,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0045",
         "slug": "united-states-has-announced",
+        "topic": "Proper nouns ending in -s but singular ('The United States'), subject–verb agreement",
+        "sample": "The United States has announced new tariffs.",
+        "sample_translation_id": "Amerika Serikat telah mengumumkan tarif baru.",
         "details_explanation": {
-          "topic": "Proper nouns ending in -s but singular ('The United States'), subject–verb agreement",
-          "sample": "The United States has announced new tariffs.",
-          "id": "Amerika Serikat telah mengumumkan tarif baru.",
           "explanation": "Country names like 'The United States' are grammatically singular and take 'has announced'.",
           "introduction": "Names of countries that end in -s are usually singular.",
           "rules": [
-            {
-              "title": "1. The United States + singular verb",
-              "explanation": "One country.",
-              "structure": "The United States + singular verb",
-              "notes": ["The United States has announced tariffs.", "The United States is large."]
-            },
-            {
-              "title": "2. Similar singular proper nouns",
-              "explanation": "Other names may also be singular.",
-              "structure": "Singular entity + singular verb",
-              "notes": ["The United Nations has a headquarters.", "The Philippines is an archipelago."]
-            }
+            { "title": "1. The United States + singular verb", "explanation": "One country.", "structure": "The United States + singular verb", "notes": ["The United States has announced tariffs.", "The United States is large."] },
+            { "title": "2. Similar singular proper nouns", "explanation": "Other names may also be singular.", "structure": "Singular entity + singular verb", "notes": ["The United Nations has a headquarters.", "The Philippines is an archipelago."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The United States have announced new tariffs.",
-              "correct": "The United States has announced new tariffs.",
-              "reason": "One country = singular."
-            }
+            { "wrong": "The United States have announced new tariffs.", "correct": "The United States has announced new tariffs.", "reason": "One country = singular." }
           ]
         },
         "other_examples": [
@@ -2369,32 +1732,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0046",
         "slug": "ten-years-is",
+        "topic": "Time spans treated as singular, subject–verb agreement",
+        "sample": "Ten years is a long time to spend abroad.",
+        "sample_translation_id": "Sepuluh tahun adalah waktu yang lama untuk dihabiskan di luar negeri.",
         "details_explanation": {
-          "topic": "Time spans treated as singular, subject–verb agreement",
-          "sample": "Ten years is a long time to spend abroad.",
-          "id": "Sepuluh tahun adalah waktu yang lama untuk dihabiskan di luar negeri.",
           "explanation": "A period of time is treated as singular: 'Ten years is …'.",
           "introduction": "Time, money, and distance are treated as singular units.",
           "rules": [
-            {
-              "title": "1. Time span + singular verb",
-              "explanation": "Singular unit.",
-              "structure": "Amount of time + singular verb",
-              "notes": ["Ten years is a long time.", "Three hours is enough."]
-            },
-            {
-              "title": "2. Money + singular verb",
-              "explanation": "Singular unit.",
-              "structure": "Amount of money + singular verb",
-              "notes": ["Fifty dollars is too much.", "Ten euros is enough."]
-            }
+            { "title": "1. Time span + singular verb", "explanation": "Singular unit.", "structure": "Amount of time + singular verb", "notes": ["Ten years is a long time.", "Three hours is enough."] },
+            { "title": "2. Money + singular verb", "explanation": "Singular unit.", "structure": "Amount of money + singular verb", "notes": ["Fifty dollars is too much.", "Ten euros is enough."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Ten years are a long time.",
-              "correct": "Ten years is a long time.",
-              "reason": "Treated as one unit."
-            }
+            { "wrong": "Ten years are a long time.", "correct": "Ten years is a long time.", "reason": "Treated as one unit." }
           ]
         },
         "other_examples": [
@@ -2419,32 +1768,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0047",
         "slug": "everybody-has-been",
+        "topic": "Indefinite pronouns ('everybody') + singular verb, present perfect passive",
+        "sample": "Everybody has been asked to complete the survey.",
+        "sample_translation_id": "Semua orang telah diminta untuk mengisi survei.",
         "details_explanation": {
-          "topic": "Indefinite pronouns ('everybody') + singular verb, present perfect passive",
-          "sample": "Everybody has been asked to complete the survey.",
-          "id": "Semua orang telah diminta untuk mengisi survei.",
           "explanation": "'Everybody' is grammatically singular and takes 'has been'.",
           "introduction": "Indefinite pronouns ending in -one, -body, -thing are singular.",
           "rules": [
-            {
-              "title": "1. Everybody + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Everybody + singular verb",
-              "notes": ["Everybody is invited.", "Everybody has been informed."]
-            },
-            {
-              "title": "2. They/their in reference",
-              "explanation": "Modern usage allows 'they/their' for reference, but the verb remains singular.",
-              "structure": "Everybody + singular verb + their",
-              "notes": ["Everybody has their own opinion.", "Everybody is doing their best."]
-            }
+            { "title": "1. Everybody + singular verb", "explanation": "Singular agreement.", "structure": "Everybody + singular verb", "notes": ["Everybody is invited.", "Everybody has been informed."] },
+            { "title": "2. They/their in reference", "explanation": "Modern usage allows 'they/their' for reference, but the verb remains singular.", "structure": "Everybody + singular verb + their", "notes": ["Everybody has their own opinion.", "Everybody is doing their best."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Everybody have been asked.",
-              "correct": "Everybody has been asked.",
-              "reason": "'Everybody' is singular."
-            }
+            { "wrong": "Everybody have been asked.", "correct": "Everybody has been asked.", "reason": "'Everybody' is singular." }
           ]
         },
         "other_examples": [
@@ -2469,32 +1804,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0048",
         "slug": "every-one-has-submitted",
+        "topic": "'Every one of' + plural noun + singular verb",
+        "sample": "Every one of the applicants has submitted the required documents.",
+        "sample_translation_id": "Setiap pelamar telah menyerahkan dokumen yang diwajibkan.",
         "details_explanation": {
-          "topic": "'Every one of' + plural noun + singular verb",
-          "sample": "Every one of the applicants has submitted the required documents.",
-          "id": "Setiap pelamar telah menyerahkan dokumen yang diwajibkan.",
           "explanation": "'Every one' is singular and takes 'has submitted'.",
           "introduction": "'Every one of' is different from 'everyone'. 'Every one' emphasizes each individual and is singular.",
           "rules": [
-            {
-              "title": "1. Every one of + plural noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Every one of + plural noun + singular verb",
-              "notes": ["Every one of the applicants has submitted.", "Every one of the books is new."]
-            },
-            {
-              "title": "2. Everyone is also singular",
-              "explanation": "Singular agreement.",
-              "structure": "Everyone + singular verb",
-              "notes": ["Everyone has submitted.", "Everyone is ready."]
-            }
+            { "title": "1. Every one of + plural noun + singular verb", "explanation": "Singular agreement.", "structure": "Every one of + plural noun + singular verb", "notes": ["Every one of the applicants has submitted.", "Every one of the books is new."] },
+            { "title": "2. Everyone is also singular", "explanation": "Singular agreement.", "structure": "Everyone + singular verb", "notes": ["Everyone has submitted.", "Everyone is ready."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Every one of the applicants have submitted.",
-              "correct": "Every one of the applicants has submitted.",
-              "reason": "'Every one' is singular."
-            }
+            { "wrong": "Every one of the applicants have submitted.", "correct": "Every one of the applicants has submitted.", "reason": "'Every one' is singular." }
           ]
         },
         "other_examples": [
@@ -2519,32 +1840,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0049",
         "slug": "scissors-are",
+        "topic": "Two-part nouns ('scissors') + plural verb",
+        "sample": "Scissors are kept in the drawer.",
+        "sample_translation_id": "Gunting disimpan di laci.",
         "details_explanation": {
-          "topic": "Two-part nouns ('scissors') + plural verb",
-          "sample": "Scissors are kept in the drawer.",
-          "id": "Gunting disimpan di laci.",
           "explanation": "'Scissors' is always plural and takes 'are'.",
           "introduction": "Two-part nouns such as 'scissors', 'pants', 'glasses', and 'pliers' are plural.",
           "rules": [
-            {
-              "title": "1. Two-part nouns + plural verb",
-              "explanation": "Plural agreement.",
-              "structure": "scissors/pants/glasses + plural verb",
-              "notes": ["Scissors are sharp.", "My glasses are broken."]
-            },
-            {
-              "title": "2. 'A pair of' changes agreement",
-              "explanation": "Singular agreement.",
-              "structure": "A pair of + plural noun + singular verb",
-              "notes": ["A pair of scissors is on the table.", "A pair of pants was bought."]
-            }
+            { "title": "1. Two-part nouns + plural verb", "explanation": "Plural agreement.", "structure": "scissors/pants/glasses + plural verb", "notes": ["Scissors are sharp.", "My glasses are broken."] },
+            { "title": "2. 'A pair of' changes agreement", "explanation": "Singular agreement.", "structure": "A pair of + plural noun + singular verb", "notes": ["A pair of scissors is on the table.", "A pair of pants was bought."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Scissors is in the drawer.",
-              "correct": "Scissors are in the drawer.",
-              "reason": "'Scissors' is plural."
-            }
+            { "wrong": "Scissors is in the drawer.", "correct": "Scissors are in the drawer.", "reason": "'Scissors' is plural." }
           ]
         },
         "other_examples": [
@@ -2569,32 +1876,18 @@
       "explanationDetails": {
         "id": "GRAM-ADV-0050",
         "slug": "flock-has-been-flying",
+        "topic": "Collective nouns ('flock') + singular verb, present perfect continuous",
+        "sample": "The flock of geese has been flying south for several days.",
+        "sample_translation_id": "Kawanan angsa telah terbang ke selatan selama beberapa hari.",
         "details_explanation": {
-          "topic": "Collective nouns ('flock') + singular verb, present perfect continuous",
-          "sample": "The flock of geese has been flying south for several days.",
-          "id": "Kawanan angsa telah terbang ke selatan selama beberapa hari.",
           "explanation": "The subject is 'The flock' (singular collective noun), so the verb must be 'has been flying'.",
           "introduction": "Collective nouns for animals are singular when acting as one unit.",
           "rules": [
-            {
-              "title": "1. Collective noun + singular verb",
-              "explanation": "Singular agreement.",
-              "structure": "Collective noun + singular verb",
-              "notes": ["The flock has flown south.", "A herd of cattle is grazing."]
-            },
-            {
-              "title": "2. Subject is the collective noun",
-              "explanation": "The prepositional phrase does not change the number.",
-              "structure": "Collective noun + of + plural noun + singular verb",
-              "notes": ["The pack of wolves is hunting.", "The school of fish is swimming."]
-            }
+            { "title": "1. Collective noun + singular verb", "explanation": "Singular agreement.", "structure": "Collective noun + singular verb", "notes": ["The flock has flown south.", "A herd of cattle is grazing."] },
+            { "title": "2. Subject is the collective noun", "explanation": "The prepositional phrase does not change the number.", "structure": "Collective noun + of + plural noun + singular verb", "notes": ["The pack of wolves is hunting.", "The school of fish is swimming."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "The flock of geese have flown south.",
-              "correct": "The flock of geese has flown south.",
-              "reason": "The subject is 'flock'."
-            }
+            { "wrong": "The flock of geese have flown south.", "correct": "The flock of geese has flown south.", "reason": "The subject is 'flock'." }
           ]
         },
         "other_examples": [
