@@ -1,0 +1,2369 @@
+{
+  "meta": {
+    "title": "Advanced English Grammar – Multi-Error Test (B2–C2)",
+    "show_answer": true,
+    "show_explanation": true,
+    "no_timer": true,
+    "description": "Identify and correct grammatical errors in advanced sentences. Each item combines at least two advanced grammar topics. Some sentences contain more than one error.",
+    "timeLimits": { "fast": 7, "normal": 15, "easy": 24 },
+    "updatedAt": "June 11, 2025 09:00:00"
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had the committee been informed", "clickable": true, "isError": false },
+        { "id": "s2", "text": "of the risks,", "clickable": false },
+        { "id": "s3", "text": "they would not approve", "clickable": true, "isError": true, "correctAnswers": ["they would not have approved"] },
+        { "id": "s4", "text": "the plan", "clickable": true, "isError": false },
+        { "id": "s5", "text": "without further delay.", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0001",
+        "slug": "inverted-third-conditional",
+        "details_explanation": {
+          "explanation": "The sentence uses an inverted third conditional. The if-clause refers to the past, so the main clause must also refer to the past with would have + past participle.",
+          "introduction": "Inverted conditionals omit if and place had, should or were before the subject. The main clause must match the time frame established by the if-clause.",
+          "rules": [
+            {
+              "title": "1. Inversion with had",
+              "explanation": "In a third conditional, if + had + past participle can become Had + subject + past participle.",
+              "structure": "Had + subject + past participle, subject + would have + past participle.",
+              "notes": ["No if is used.", "The main clause keeps would have."]
+            },
+            {
+              "title": "2. Mixed conditionals",
+              "explanation": "When the if-clause is past and the result is also past, use would have + past participle.",
+              "structure": "If + past perfect, subject + would have + past participle.",
+              "notes": ["Do not use would + base form for a past result."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Had I known, I would not approve the plan.",
+              "correct": "Had I known, I would not have approved the plan.",
+              "reason": "The result is in the past, so the conditional perfect is required."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Had the warning been heeded, the accident would have been prevented.", "translation": "Seandainya peringatan itu diindahkan, kecelakaan itu bisa dicegah." },
+          { "sentence": "Had she applied earlier, she would have been offered the position.", "translation": "Seandainya dia melamar lebih awal, dia akan ditawari posisi itu." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not only it is", "clickable": true, "isError": true, "correctAnswers": ["Not only is it"] },
+        { "id": "s2", "text": "essential", "clickable": false },
+        { "id": "s3", "text": "that the manager be informed", "clickable": true, "isError": false },
+        { "id": "s4", "text": "but he also must approve", "clickable": true, "isError": false },
+        { "id": "s5", "text": "the budget.", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0002",
+        "slug": "not-only-inversion-subjunctive",
+        "details_explanation": {
+          "explanation": "The sentence combines subject-auxiliary inversion after not only with the mandative subjunctive after essential. Not only requires inversion in the first clause, and essential that requires the base form be.",
+          "introduction": "Negative and restrictive adverbials at the beginning of a clause trigger inversion. Mandative adjectives such as essential, imperative and vital trigger the base subjunctive in the following that-clause.",
+          "rules": [
+            {
+              "title": "1. Inversion after not only",
+              "explanation": "When not only begins a clause, the auxiliary comes before the subject.",
+              "structure": "Not only + auxiliary + subject + main verb ... but + subject + also + verb.",
+              "notes": ["The inversion applies only to the first clause.", "Do not invert the but-clause."]
+            },
+            {
+              "title": "2. Mandative subjunctive",
+              "explanation": "After adjectives such as essential, the that-clause uses the base form of the verb for all subjects.",
+              "structure": "It is essential + that + subject + base verb.",
+              "notes": ["Be is used even with he, she and it.", "In informal British English, should + base verb is also possible."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not only it is essential that he is informed.",
+              "correct": "Not only is it essential that he be informed.",
+              "reason": "Not only triggers inversion, and essential that requires the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Not only did she refuse the offer, but she also criticized it publicly.", "translation": "Tidak hanya dia menolak tawaran itu, tetapi dia juga mengkritiknya secara terbuka." },
+          { "sentence": "It is vital that every member be present at the hearing.", "translation": "Sangat penting bahwa setiap anggota hadir di sidang." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It is", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the shareholders", "clickable": true, "isError": false },
+        { "id": "s3", "text": "not the board", "clickable": false },
+        { "id": "s4", "text": "who decides", "clickable": true, "isError": true, "correctAnswers": ["who decide"] },
+        { "id": "s5", "text": "the final outcome.", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0003",
+        "slug": "cleft-agreement",
+        "details_explanation": {
+          "explanation": "The sentence is an it-cleft. The relative pronoun who refers to the plural noun shareholders, so the verb must be plural: decide. The phrase not the board does not change the agreement.",
+          "introduction": "Cleft sentences split information into two clauses for emphasis. The verb in the relative clause agrees with the focused noun, not with the singular dummy it.",
+          "rules": [
+            {
+              "title": "1. It-clefts",
+              "explanation": "An it-cleft has the pattern It is/was + focus + relative clause.",
+              "structure": "It is + noun phrase + who/that + verb + rest.",
+              "notes": ["Who is used for people; that is also possible.", "The verb agrees with the focused noun phrase."]
+            },
+            {
+              "title": "2. Agreement with alternative subjects",
+              "explanation": "When the subject is X, not Y, the verb agrees with X.",
+              "structure": "X, not Y, + plural/singular verb.",
+              "notes": ["The not-phrase is parenthetical.", "Do not let the nearer noun control agreement."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It is the shareholders who decides the outcome.",
+              "correct": "It is the shareholders who decide the outcome.",
+              "reason": "The relative clause agrees with the plural shareholders."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is the teachers, not the parents, who are responsible for attendance.", "translation": "Guru, bukan orang tua, yang bertanggung jawab atas kehadiran." },
+          { "sentence": "It was the directors who approved the merger.", "translation": "Para direkturlah yang menyetujui merger itu." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Walking through the museum", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the paintings impressed the visitors enormously", "clickable": true, "isError": true, "correctAnswers": ["the visitors were enormously impressed by the paintings", "the visitors were greatly impressed by the paintings"] },
+        { "id": "s3", "text": "despite the crowd", "clickable": true, "isError": false },
+        { "id": "s4", "text": "and the noise", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0004",
+        "slug": "dangling-participle-passive",
+        "details_explanation": {
+          "explanation": "The participial phrase Walking through the museum must describe the subject of the main clause. The original subject the paintings cannot walk, so the sentence contains a dangling modifier. The main clause should be passive with the visitors as the subject.",
+          "introduction": "A participial phrase at the beginning of a sentence normally describes the subject of the main clause. If it does not, the modifier is said to dangle.",
+          "rules": [
+            {
+              "title": "1. Dangling participles",
+              "explanation": "The understood subject of an initial participle must be the same as the subject of the main clause.",
+              "structure": "Participle phrase, + subject + verb + rest.",
+              "notes": ["Check who performs the action in the participle.", "If the subject is wrong, rewrite the main clause."]
+            },
+            {
+              "title": "2. Passive voice",
+              "explanation": "When the focus is on the experiencer rather than the agent, use the passive.",
+              "structure": "Subject + be + past participle + by + agent.",
+              "notes": ["The passive is common with impress, astonish and shock.", "Keep the adverb before the past participle."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Walking through the museum, the paintings impressed the visitors.",
+              "correct": "Walking through the museum, the visitors were impressed by the paintings.",
+              "reason": "The visitors, not the paintings, are walking through the museum."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Having read the report, the committee rejected the proposal.", "translation": "Setelah membaca laporan itu, komite menolak proposal tersebut." },
+          { "sentence": "Shocked by the news, she could not speak.", "translation": "Terkejut oleh berita itu, dia tidak bisa berbicara." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "No sooner the meeting had begun", "clickable": true, "isError": true, "correctAnswers": ["No sooner had the meeting begun"] },
+        { "id": "s2", "text": "when", "clickable": true, "isError": true, "correctAnswers": ["than"] },
+        { "id": "s3", "text": "the fire alarm went off", "clickable": true, "isError": false },
+        { "id": "s4", "text": "forcing everyone to evacuate", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0005",
+        "slug": "no-sooner-inversion",
+        "details_explanation": {
+          "explanation": "No sooner at the beginning of a clause triggers inversion: had + subject + past participle. It is also followed by than, not when. The participial phrase forcing everyone to evacuate correctly describes the result.",
+          "introduction": "No sooner ... than is a fixed correlative structure used to show that one event happened immediately after another. It requires inversion in the first clause.",
+          "rules": [
+            {
+              "title": "1. Inversion after no sooner",
+              "explanation": "Place the auxiliary had before the subject.",
+              "structure": "No sooner + had + subject + past participle + than + past simple.",
+              "notes": ["The first clause uses the past perfect.", "The second clause uses the past simple."]
+            },
+            {
+              "title": "2. Than, not when",
+              "explanation": "The correct second element of the correlative is than.",
+              "structure": "No sooner ... than ...",
+              "notes": ["When is used with hardly ... when and scarcely ... when.", "Do not mix the two patterns."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "No sooner the meeting had begun when the alarm went off.",
+              "correct": "No sooner had the meeting begun than the alarm went off.",
+              "reason": "No sooner requires inversion and is followed by than."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "No sooner had she sat down than the phone rang.", "translation": "Belum sempat dia duduk, telepon berdering." },
+          { "sentence": "No sooner had the announcement been made than the shares fell.", "translation": "Begitu pengumuman dibuat, saham langsung jatuh." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Such intense was the debate", "clickable": true, "isError": true, "correctAnswers": ["So intense was the debate", "Such was the intensity of the debate"] },
+        { "id": "s2", "text": "that even the chairperson", "clickable": true, "isError": false },
+        { "id": "s3", "text": "lost his composure", "clickable": true, "isError": false },
+        { "id": "s4", "text": "during the session", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0006",
+        "slug": "so-such-inversion",
+        "details_explanation": {
+          "explanation": "Such is used before a noun phrase, while so is used before an adjective. Since intense is an adjective, the correct structure is So intense was the debate. Alternatively, Such was the intensity of the debate uses such before a noun phrase.",
+          "introduction": "So and such can be fronted for emphasis, triggering inversion. So precedes an adjective or adverb; such precedes a noun phrase.",
+          "rules": [
+            {
+              "title": "1. So + adjective + inversion",
+              "explanation": "Front so + adjective and invert the subject and verb.",
+              "structure": "So + adjective + be + subject + that + result clause.",
+              "notes": ["Use so with adjectives such as intense, clear and rapid.", "The result clause is introduced by that."]
+            },
+            {
+              "title": "2. Such + noun phrase",
+              "explanation": "Such is used before a noun phrase, often with be inversion.",
+              "structure": "Such + be + noun phrase + that + result clause.",
+              "notes": ["Such cannot directly modify an adjective.", "Such a + adjective + noun is also possible."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Such intense was the debate that everyone lost composure.",
+              "correct": "So intense was the debate that everyone lost composure.",
+              "reason": "Intense is an adjective, so so is required."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "So rapid was the decline that investors panicked.", "translation": "Begitu cepat penurunannya sehingga para investor panik." },
+          { "sentence": "Such was her influence that few dared to object.", "translation": "Begitu besar pengaruhnya sehingga sedikit yang berani membantah." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had it not been", "clickable": true, "isError": false },
+        { "id": "s2", "text": "for the timely intervention", "clickable": false },
+        { "id": "s3", "text": "of the mediator", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the negotiations would collapse", "clickable": true, "isError": true, "correctAnswers": ["the negotiations would have collapsed"] },
+        { "id": "s5", "text": "before an agreement was reached", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0007",
+        "slug": "had-it-not-been-for",
+        "details_explanation": {
+          "explanation": "Had it not been for introduces an unreal past condition, so the result must be would have + past participle. The phrase before an agreement was reached confirms the past time frame.",
+          "introduction": "Had it not been for + noun phrase is an inverted alternative to If it had not been for. It describes an unreal past cause.",
+          "rules": [
+            {
+              "title": "1. Had it not been for",
+              "explanation": "This structure replaces if it had not been for in formal English.",
+              "structure": "Had it not been for + noun phrase, subject + would have + past participle.",
+              "notes": ["It refers to an unreal past situation.", "The main clause uses the conditional perfect."]
+            },
+            {
+              "title": "2. Conditional perfect",
+              "explanation": "Use would have + past participle for an unreal past result.",
+              "structure": "Subject + would have + past participle.",
+              "notes": ["Do not use would + base form with a past result.", "This applies to both if-clauses and inverted clauses."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Had it not been for her help, I would fail.",
+              "correct": "Had it not been for her help, I would have failed.",
+              "reason": "The situation is in the past, so the conditional perfect is needed."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Had it not been for the delay, we would have arrived on time.", "translation": "Seandainya bukan karena keterlambatan, kami akan tiba tepat waktu." },
+          { "sentence": "Had it not been for his evidence, the case would have collapsed.", "translation": "Seandainya bukan karena kesaksiannya, kasus itu akan runtuh." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The proposal", "clickable": true, "isError": false },
+        { "id": "s2", "text": "which was submitted by the consultant", "clickable": true, "isError": false },
+        { "id": "s3", "text": "requires that every department is audited", "clickable": true, "isError": true, "correctAnswers": ["requires that every department be audited", "requires every department to be audited"] },
+        { "id": "s4", "text": "annually", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0008",
+        "slug": "relative-subjunctive-passive",
+        "details_explanation": {
+          "explanation": "The verb require triggers the mandative subjunctive in the that-clause: every department be audited. The non-defining relative clause which was submitted by the consultant is correctly formed and passive.",
+          "introduction": "Verbs such as require, demand, insist and recommend can be followed by that + subject + base verb. This is the mandative subjunctive, common in formal English.",
+          "rules": [
+            {
+              "title": "1. Mandative subjunctive after require",
+              "explanation": "Use the base form of the verb in the that-clause, even with singular subjects.",
+              "structure": "require + that + subject + base verb.",
+              "notes": ["Be is used for all persons.", "An alternative is require + object + to be + past participle."]
+            },
+            {
+              "title": "2. Non-defining relative clauses",
+              "explanation": "Non-defining relative clauses add extra information and are separated by commas.",
+              "structure": "Noun phrase, + which/who + clause, + main verb.",
+              "notes": ["They cannot be reduced to a participle if the meaning would change.", "The relative pronoun cannot be omitted."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The rules require that every employee is trained.",
+              "correct": "The rules require that every employee be trained.",
+              "reason": "Require that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The regulations require that all visitors be registered.", "translation": "Peraturan mengharuskan semua pengunjung terdaftar." },
+          { "sentence": "She insisted that the meeting be postponed.", "translation": "Dia bersikeras agar rapat ditunda." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Little the researchers realized", "clickable": true, "isError": true, "correctAnswers": ["Little did the researchers realize"] },
+        { "id": "s2", "text": "that their findings", "clickable": true, "isError": false },
+        { "id": "s3", "text": "would later be challenged", "clickable": true, "isError": false },
+        { "id": "s4", "text": "by the scientific community", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0009",
+        "slug": "little-inversion-passive",
+        "details_explanation": {
+          "explanation": "Little at the beginning of a clause is negative and triggers inversion with do-support: Little did the researchers realize. The passive would later be challenged is correctly formed with modal + be + past participle.",
+          "introduction": "Negative adverbials such as little, rarely, seldom and never at the start of a clause require subject-auxiliary inversion.",
+          "rules": [
+            {
+              "title": "1. Negative inversion with little",
+              "explanation": "Place the auxiliary before the subject after little.",
+              "structure": "Little + auxiliary + subject + main verb.",
+              "notes": ["Use do/does/did when there is no auxiliary.", "The meaning is emphatic."]
+            },
+            {
+              "title": "2. Modal passive",
+              "explanation": "The passive with a modal has the pattern modal + be + past participle.",
+              "structure": "subject + modal + be + past participle.",
+              "notes": ["Would later be challenged is correct.", "Do not use would later be challenging for a passive meaning."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Little the researchers realized the importance of the discovery.",
+              "correct": "Little did the researchers realize the importance of the discovery.",
+              "reason": "Little at the beginning requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Little did she suspect that she was being watched.", "translation": "Sedikit pun dia tidak menduga bahwa dia sedang diawasi." },
+          { "sentence": "Rarely has such a claim been made.", "translation": "Jarang sekali klaim seperti itu dibuat." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It is imperative", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that the report is submitted", "clickable": true, "isError": true, "correctAnswers": ["that the report be submitted", "for the report to be submitted"] },
+        { "id": "s3", "text": "before the deadline", "clickable": true, "isError": false },
+        { "id": "s4", "text": "otherwise the grant will be revoked", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0010",
+        "slug": "subjunctive-otherwise",
+        "details_explanation": {
+          "explanation": "Imperative that requires the base subjunctive: that the report be submitted. Otherwise functions as a conditional connector meaning if not, and the passive will be revoked is correct.",
+          "introduction": "The mandative subjunctive is used after adjectives such as imperative, essential and vital. Otherwise introduces a consequence of not doing something.",
+          "rules": [
+            {
+              "title": "1. Subjunctive after imperative",
+              "explanation": "Use the base form be in the that-clause.",
+              "structure": "It is imperative + that + subject + be + past participle.",
+              "notes": ["An infinitive alternative is for + object + to be + past participle.", "The indicative is is not used in formal writing."]
+            },
+            {
+              "title": "2. Otherwise as a conditional",
+              "explanation": "Otherwise means if not or or else and introduces the consequence.",
+              "structure": "Clause + otherwise + clause.",
+              "notes": ["It can join two independent clauses.", "A comma usually precedes otherwise."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It is imperative that the form is signed.",
+              "correct": "It is imperative that the form be signed.",
+              "reason": "Imperative that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is essential that all documents be verified before release.", "translation": "Sangat penting bahwa semua dokumen diverifikasi sebelum dirilis." },
+          { "sentence": "You must submit the form today; otherwise your application will be rejected.", "translation": "Anda harus menyerahkan formulir hari ini; jika tidak, lamaran Anda akan ditolak." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Rarely I have encountered", "clickable": true, "isError": true, "correctAnswers": ["Rarely have I encountered"] },
+        { "id": "s2", "text": "a candidate whose command of syntax", "clickable": true, "isError": false },
+        { "id": "s3", "text": "is as impressive as hers", "clickable": true, "isError": false },
+        { "id": "s4", "text": "despite her limited experience", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0011",
+        "slug": "rarely-inversion-comparative",
+        "details_explanation": {
+          "explanation": "Rarely at the beginning of a clause triggers inversion: Rarely have I encountered. The comparative as impressive as hers and the possessive relative clause whose command of syntax are correct.",
+          "introduction": "Rarely, seldom and hardly are negative adverbials that require inversion when fronted. Comparative as ... as shows equality.",
+          "rules": [
+            {
+              "title": "1. Inversion after rarely",
+              "explanation": "Move the auxiliary before the subject.",
+              "structure": "Rarely + auxiliary + subject + main verb.",
+              "notes": ["Use do-support if there is no auxiliary.", "The meaning is emphatic and formal."]
+            },
+            {
+              "title": "2. As ... as comparatives",
+              "explanation": "Use as + adjective + as to show equality.",
+              "structure": "as + adjective + as + noun/pronoun.",
+              "notes": ["Use the subject pronoun form after as in formal writing.", "Hers replaces her command of syntax."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Rarely I have seen such dedication.",
+              "correct": "Rarely have I seen such dedication.",
+              "reason": "Rarely at the beginning requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Seldom have I read a more persuasive argument.", "translation": "Jarang sekali saya membaca argumen yang lebih persuasif." },
+          { "sentence": "Her analysis is as rigorous as his.", "translation": "Analisisnya sama ketatnya dengan analisisnya." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "has decided that", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the funds be allocated", "clickable": true, "isError": false },
+        { "id": "s3", "text": "according to the criteria", "clickable": true, "isError": false },
+        { "id": "s4", "text": "which set out in the appendix", "clickable": true, "isError": true, "correctAnswers": ["which are set out in the appendix", "set out in the appendix"] }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0012",
+        "slug": "subjunctive-passive-relative",
+        "details_explanation": {
+          "explanation": "The relative clause which set out in the appendix is missing a passive verb. The correct form is which are set out or the reduced form set out. The mandative subjunctive be allocated is correct.",
+          "introduction": "Relative clauses with a passive meaning need be + past participle unless the relative pronoun and auxiliary are reduced. The verb decide that can take the subjunctive.",
+          "rules": [
+            {
+              "title": "1. Passive relative clauses",
+              "explanation": "Use which/that + be + past participle in a full passive relative clause.",
+              "structure": "noun + which + be + past participle.",
+              "notes": ["The reduced form omits which and be.", "Set out is the past participle of set."]
+            },
+            {
+              "title": "2. Subjunctive after decide",
+              "explanation": "Decide that can be followed by the base subjunctive in formal English.",
+              "structure": "decide + that + subject + base verb.",
+              "notes": ["Be allocated is passive subjunctive.", "Should be allocated is an alternative."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "the criteria which set out in the appendix",
+              "correct": "the criteria which are set out in the appendix",
+              "reason": "The relative clause needs a passive verb."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The rules, which are set out in the handbook, apply to everyone.", "translation": "Aturan, yang tercantum dalam buku panduan, berlaku untuk semua orang." },
+          { "sentence": "The board decided that the policy be reviewed.", "translation": "Dewan memutuskan agar kebijakan itu ditinjau." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "By the time", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the auditors arrived", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the accountant already shredded", "clickable": true, "isError": true, "correctAnswers": ["the accountant had already shredded"] },
+        { "id": "s4", "text": "the documents", "clickable": true, "isError": false },
+        { "id": "s5", "text": "which was a serious offence", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0013",
+        "slug": "past-perfect-by-the-time",
+        "details_explanation": {
+          "explanation": "By the time the auditors arrived establishes a point in the past. The earlier action must be in the past perfect: had already shredded. The non-defining relative clause which was a serious offence is correct.",
+          "introduction": "The past perfect is used for an action completed before another past action. By the time introduces the later event.",
+          "rules": [
+            {
+              "title": "1. Past perfect with by the time",
+              "explanation": "Use had + past participle for the earlier action.",
+              "structure": "By the time + past simple, subject + had + past participle.",
+              "notes": ["The later event is in the past simple.", "Already often appears with the past perfect."]
+            },
+            {
+              "title": "2. Non-defining relative clauses",
+              "explanation": "Which can refer to a whole clause and is separated by a comma.",
+              "structure": "clause, which + verb ...",
+              "notes": ["Which was a serious offence refers to the whole preceding action.", "That is not used in this way."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "By the time we arrived, the film already started.",
+              "correct": "By the time we arrived, the film had already started.",
+              "reason": "The earlier action requires the past perfect."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "By the time the police arrived, the thief had escaped.", "translation": "Pada saat polisi tiba, pencuri sudah kabur." },
+          { "sentence": "He failed the exam, which surprised no one.", "translation": "Dia gagal ujian, yang tidak mengejutkan siapa pun." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The harder", "clickable": true, "isError": false },
+        { "id": "s2", "text": "we tried to persuade him", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the more he became determined", "clickable": true, "isError": true, "correctAnswers": ["the more determined he became"] },
+        { "id": "s4", "text": "to resign", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0014",
+        "slug": "comparative-correlative-word-order",
+        "details_explanation": {
+          "explanation": "The comparative correlative the more ... the more requires the comparative adjective before the subject and verb: the more determined he became. The structure the more he became determined is ungrammatical.",
+          "introduction": "The more ... the more is a correlative construction showing parallel increase. The comparative phrase comes first in each clause.",
+          "rules": [
+            {
+              "title": "1. Comparative correlative",
+              "explanation": "Use the + comparative at the beginning of each clause.",
+              "structure": "The + comparative + subject + verb, the + comparative + subject + verb.",
+              "notes": ["The comparative adjective stays before the subject.", "Do not insert became before the adjective."]
+            },
+            {
+              "title": "2. Adjective order with become",
+              "explanation": "Become is a linking verb followed by an adjective.",
+              "structure": "subject + become + adjective.",
+              "notes": ["The adjective describes the subject.", "In the correlative, the adjective is fronted with more."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The more he became tired, the more he made mistakes.",
+              "correct": "The more tired he became, the more mistakes he made.",
+              "reason": "The comparative adjective must be fronted in the correlative."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The more carefully you listen, the more you will notice.", "translation": "Semakin cermat Anda mendengarkan, semakin banyak yang Anda perhatikan." },
+          { "sentence": "The longer the meeting lasted, the more impatient everyone became.", "translation": "Semakin lama rapat berlangsung, semakin tidak sabar semua orang." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Should you required", "clickable": true, "isError": true, "correctAnswers": ["Should you require", "If you require"] },
+        { "id": "s2", "text": "further assistance", "clickable": true, "isError": false },
+        { "id": "s3", "text": "please do not hesitate", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to contact the undersigned", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0015",
+        "slug": "should-inversion-formal",
+        "details_explanation": {
+          "explanation": "Should you require is an inverted first conditional. After should, the base form require is used, not the past form required. The formal request please do not hesitate to contact is correct.",
+          "introduction": "Should + subject + base verb is a formal alternative to If + subject + present simple. It is common in business and legal writing.",
+          "rules": [
+            {
+              "title": "1. Inverted should-conditional",
+              "explanation": "Omit if and place should before the subject.",
+              "structure": "Should + subject + base verb, subject + modal + verb.",
+              "notes": ["Use the base form after should.", "The main clause often contains will, can or an imperative."]
+            },
+            {
+              "title": "2. Formal requests",
+              "explanation": "Do not hesitate to + infinitive is a fixed polite formula.",
+              "structure": "Please do not hesitate to + base verb.",
+              "notes": ["The undersigned is a formal way to refer to the writer.", "This register is common in letters and emails."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Should you required anything, let me know.",
+              "correct": "Should you require anything, let me know.",
+              "reason": "The base form follows should."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Should you have any questions, please contact our office.", "translation": "Jika Anda memiliki pertanyaan, silakan hubungi kantor kami." },
+          { "sentence": "Should the weather deteriorate, the event will be cancelled.", "translation": "Jika cuaca memburuk, acara akan dibatalkan." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Only after", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the investigation had been concluded", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the authorities released", "clickable": true, "isError": true, "correctAnswers": ["did the authorities release"] },
+        { "id": "s4", "text": "the findings", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0016",
+        "slug": "only-after-inversion",
+        "details_explanation": {
+          "explanation": "Only after at the beginning of a sentence triggers inversion in the main clause: did the authorities release. The passive past perfect had been concluded is correct.",
+          "introduction": "Only after, only when and only then are restrictive adverbials that cause inversion in the main clause.",
+          "rules": [
+            {
+              "title": "1. Inversion after only after",
+              "explanation": "The main clause uses auxiliary + subject + main verb.",
+              "structure": "Only after + clause, auxiliary + subject + main verb.",
+              "notes": ["The inversion is in the main clause, not the after-clause.", "Use did with the past simple."]
+            },
+            {
+              "title": "2. Past perfect passive",
+              "explanation": "The earlier action is had been + past participle.",
+              "structure": "subject + had been + past participle.",
+              "notes": ["The investigation had been concluded is passive.", "The main clause then uses the past simple."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Only after the meeting ended the decision was announced.",
+              "correct": "Only after the meeting ended was the decision announced.",
+              "reason": "Only after requires inversion in the main clause."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Only after the evidence was examined did the jury reach a verdict.", "translation": "Baru setelah bukti diperiksa, juri mencapai putusan." },
+          { "sentence": "Only when the rain stopped did we leave the shelter.", "translation": "Baru setelah hujan berhenti, kami meninggalkan tempat berlindung." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It was not until", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the final chapter", "clickable": true, "isError": false },
+        { "id": "s3", "text": "when the author revealed", "clickable": true, "isError": true, "correctAnswers": ["that the author revealed"] },
+        { "id": "s4", "text": "the identity of the murderer", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0017",
+        "slug": "not-until-cleft-that",
+        "details_explanation": {
+          "explanation": "The cleft structure It was not until ... is completed by that, not when. The verb revealed is in the correct past simple because the cleft focuses on a past time.",
+          "introduction": "It was not until + time + that + clause is an emphatic way to say something did not happen before a certain time.",
+          "rules": [
+            {
+              "title": "1. Not until cleft",
+              "explanation": "Use that to introduce the clause after the focused time expression.",
+              "structure": "It was not until + time + that + subject + past simple.",
+              "notes": ["When is not used in this cleft.", "The main verb is not inverted."]
+            },
+            {
+              "title": "2. Tense in the cleft",
+              "explanation": "The verb in the that-clause matches the time of the narrative.",
+              "structure": "It was not until ... that + past simple.",
+              "notes": ["The focus is on the late time.", "Do not use the past perfect unless the sequence requires it."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It was not until midnight when he arrived.",
+              "correct": "It was not until midnight that he arrived.",
+              "reason": "The cleft is completed by that, not when."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It was not until the war ended that the truth emerged.", "translation": "Baru setelah perang berakhir, kebenaran terungkap." },
+          { "sentence": "It was not until she left that he realized his mistake.", "translation": "Baru setelah dia pergi, dia menyadari kesalahannya." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "As much as", "clickable": true, "isError": false },
+        { "id": "s2", "text": "I admire his scholarship", "clickable": true, "isError": false },
+        { "id": "s3", "text": "but I cannot condone", "clickable": true, "isError": true, "correctAnswers": ["I cannot condone"] },
+        { "id": "s4", "text": "his methods", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0018",
+        "slug": "concessive-much-as",
+        "details_explanation": {
+          "explanation": "As much as introduces a concessive clause meaning although. It cannot be followed by but because the concession is already expressed. The correct clause is simply I cannot condone his methods.",
+          "introduction": "Much as and as much as are concessive structures meaning although. They introduce a contrast without a second conjunction.",
+          "rules": [
+            {
+              "title": "1. Concessive as much as",
+              "explanation": "As much as + clause expresses concession.",
+              "structure": "As much as + subject + verb, + main clause.",
+              "notes": ["The main clause is not introduced by but.", "The structure is formal and emphatic."]
+            },
+            {
+              "title": "2. No double conjunction",
+              "explanation": "A concessive subordinator cannot be paired with but.",
+              "structure": "Although/though/as much as + clause, + main clause.",
+              "notes": ["But is redundant after a concessive clause.", "Yet can be used for emphasis in some styles, but not but."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Although he was tired, but he continued.",
+              "correct": "Although he was tired, he continued.",
+              "reason": "Although and but are not used together."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Much as I respect her, I cannot agree with her conclusion.", "translation": "Meskipun saya menghormatinya, saya tidak bisa menyetujui kesimpulannya." },
+          { "sentence": "As much as he wanted to stay, he had to leave.", "translation": "Meskipun dia ingin tinggal, dia harus pergi." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The report", "clickable": true, "isError": false },
+        { "id": "s2", "text": "having drafted in haste", "clickable": true, "isError": true, "correctAnswers": ["having been drafted in haste", "drafted in haste"] },
+        { "id": "s3", "text": "contained numerous errors", "clickable": true, "isError": false },
+        { "id": "s4", "text": "that could have been avoided", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0019",
+        "slug": "perfect-passive-participle",
+        "details_explanation": {
+          "explanation": "The report was drafted, so the perfect participle must be passive: having been drafted. The reduced form drafted is also possible. The modal perfect passive could have been avoided is correct.",
+          "introduction": "Perfect participles can be active (having written) or passive (having been written). The choice depends on whether the subject performs or receives the action.",
+          "rules": [
+            {
+              "title": "1. Perfect passive participle",
+              "explanation": "Use having been + past participle when the subject receives the action.",
+              "structure": "Having been + past participle, + main clause.",
+              "notes": ["The active form having drafted would mean the report drafted something.", "The reduced form drafted is also acceptable."]
+            },
+            {
+              "title": "2. Modal perfect passive",
+              "explanation": "Could have been + past participle expresses an unreal past possibility in the passive.",
+              "structure": "could have been + past participle.",
+              "notes": ["Avoided is the past participle.", "The relative clause modifies errors."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Having written in haste, the report contained errors.",
+              "correct": "Having been written in haste, the report contained errors.",
+              "reason": "The report was written; it did not write."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Having been warned repeatedly, he ignored the advice.", "translation": "Setelah diperingatkan berulang kali, dia mengabaikan nasihat itu." },
+          { "sentence": "The mistake could have been prevented.", "translation": "Kesalahan itu bisa saja dicegah." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Under no circumstances", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the alarm should be disabled", "clickable": true, "isError": true, "correctAnswers": ["should the alarm be disabled"] },
+        { "id": "s3", "text": "while the experiment", "clickable": true, "isError": false },
+        { "id": "s4", "text": "is in progress", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0020",
+        "slug": "negative-inversion-modal-passive",
+        "details_explanation": {
+          "explanation": "Under no circumstances is a negative adverbial and requires inversion: should the alarm be disabled. The passive modal structure should be + past participle is correct after inversion.",
+          "introduction": "Negative adverbial expressions such as under no circumstances, on no account and at no time trigger inversion of the modal and subject.",
+          "rules": [
+            {
+              "title": "1. Negative inversion with modals",
+              "explanation": "Place the modal before the subject.",
+              "structure": "Negative adverbial + modal + subject + main verb.",
+              "notes": ["The main verb remains in the base form.", "The passive uses be + past participle."]
+            },
+            {
+              "title": "2. Passive with modals",
+              "explanation": "The passive is formed with modal + be + past participle.",
+              "structure": "modal + be + past participle.",
+              "notes": ["Should be disabled is correct.", "Do not use should be disabling for a passive meaning."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Under no circumstances the door should be left open.",
+              "correct": "Under no circumstances should the door be left open.",
+              "reason": "The negative adverbial requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "At no time should the equipment be operated without supervision.", "translation": "Kapan pun peralatan tidak boleh dioperasikan tanpa pengawasan." },
+          { "sentence": "On no account should this password be shared.", "translation": "Dengan alasan apa pun kata sandi ini tidak boleh dibagikan." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had it not been", "clickable": true, "isError": false },
+        { "id": "s2", "text": "for her meticulous proofreading", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the manuscript would have riddled", "clickable": true, "isError": true, "correctAnswers": ["the manuscript would have been riddled"] },
+        { "id": "s4", "text": "with errors", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0021",
+        "slug": "conditional-passive-be-riddled",
+        "details_explanation": {
+          "explanation": "The passive construction be riddled with requires been in the conditional perfect: would have been riddled. Without been, riddled would be an active verb, which is incorrect here.",
+          "introduction": "Be riddled with is a fixed passive expression meaning be full of. In the conditional perfect, the passive is would have been + past participle.",
+          "rules": [
+            {
+              "title": "1. Conditional perfect passive",
+              "explanation": "Use would have been + past participle for an unreal past passive result.",
+              "structure": "subject + would have been + past participle.",
+              "notes": ["The auxiliary been is obligatory.", "This applies to both if-clauses and inverted clauses."]
+            },
+            {
+              "title": "2. Fixed passive expressions",
+              "explanation": "Some verbs are commonly used in the passive with a preposition.",
+              "structure": "be + past participle + with + noun.",
+              "notes": ["Riddled with errors is a standard collocation.", "The active form has a different meaning."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The document would have riddled with mistakes.",
+              "correct": "The document would have been riddled with mistakes.",
+              "reason": "The passive requires been."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Without her edits, the article would have been riddled with inaccuracies.", "translation": "Tanpa editsnya, artikel itu akan penuh dengan ketidakakuratan." },
+          { "sentence": "The system was riddled with security flaws.", "translation": "Sistem itu penuh dengan celah keamanan." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "So compelling her argument was", "clickable": true, "isError": true, "correctAnswers": ["So compelling was her argument"] },
+        { "id": "s2", "text": "that even her critics", "clickable": true, "isError": false },
+        { "id": "s3", "text": "were forced to concede", "clickable": true, "isError": false },
+        { "id": "s4", "text": "despite their reservations", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0022",
+        "slug": "so-inversion-result-passive",
+        "details_explanation": {
+          "explanation": "So + adjective at the beginning requires inversion: So compelling was her argument. The result clause that even her critics were forced to concede is correct, including the passive were forced to.",
+          "introduction": "So + adjective + be + subject + that introduces an emphatic result clause. The passive be forced to + infinitive is a common fixed structure.",
+          "rules": [
+            {
+              "title": "1. So-inversion",
+              "explanation": "Place so + adjective first, then invert the subject and be.",
+              "structure": "So + adjective + be + subject + that + result.",
+              "notes": ["The adjective comes immediately after so.", "The subject follows the verb be."]
+            },
+            {
+              "title": "2. Passive with force",
+              "explanation": "Be forced to + infinitive means be made to do something.",
+              "structure": "subject + be + forced + to + base verb.",
+              "notes": ["Were forced to concede is correct.", "The agent can be omitted."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "So compelling her argument was that everyone agreed.",
+              "correct": "So compelling was her argument that everyone agreed.",
+              "reason": "So at the beginning requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "So convincing was his explanation that the jury acquitted him.", "translation": "Begitu meyakinkan penjelasannya sehingga juri membebaskannya." },
+          { "sentence": "They were forced to admit their mistake.", "translation": "Mereka dipaksa mengakui kesalahan mereka." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The professor insisted", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that the student rewrites", "clickable": true, "isError": true, "correctAnswers": ["that the student rewrite"] },
+        { "id": "s3", "text": "the essay", "clickable": true, "isError": false },
+        { "id": "s4", "text": "citing numerous inconsistencies", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0023",
+        "slug": "insist-subjunctive-participle",
+        "details_explanation": {
+          "explanation": "Insist that takes the mandative subjunctive: that the student rewrite. The present participle citing introduces a reason and is correctly attached to the professor.",
+          "introduction": "Verbs of demand and recommendation such as insist, demand and suggest can take the base subjunctive in the that-clause.",
+          "rules": [
+            {
+              "title": "1. Subjunctive after insist",
+              "explanation": "Use the base form of the verb in the that-clause.",
+              "structure": "insist + that + subject + base verb.",
+              "notes": ["Rewrites is indicative and is not used in formal mandative contexts.", "Should rewrite is an alternative in British English."]
+            },
+            {
+              "title": "2. Participle clause of reason",
+              "explanation": "A present participle clause can explain why something happened.",
+              "structure": "Main clause, + -ing clause.",
+              "notes": ["The understood subject is the main subject.", "Citing means because he cited."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "She insisted that he apologizes.",
+              "correct": "She insisted that he apologize.",
+              "reason": "Insist that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The editor insisted that the article be shortened.", "translation": "Editor bersikeras agar artikel itu dipersingkat." },
+          { "sentence": "He left early, citing a prior engagement.", "translation": "Dia pergi lebih awal, dengan alasan ada janji sebelumnya." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not until", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the results were replicated", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the scientific community accepted", "clickable": true, "isError": true, "correctAnswers": ["did the scientific community accept"] },
+        { "id": "s4", "text": "the hypothesis", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0024",
+        "slug": "not-until-inversion-passive",
+        "details_explanation": {
+          "explanation": "Not until at the beginning triggers inversion in the main clause: did the scientific community accept. The passive were replicated is correct.",
+          "introduction": "Not until + time/clause + auxiliary + subject + main verb is an emphatic negative structure.",
+          "rules": [
+            {
+              "title": "1. Inversion after not until",
+              "explanation": "The main clause uses auxiliary + subject + main verb.",
+              "structure": "Not until + clause, auxiliary + subject + main verb.",
+              "notes": ["Use did for the past simple.", "The verb after did is the base form accept."]
+            },
+            {
+              "title": "2. Passive in the until-clause",
+              "explanation": "The results were replicated is a past simple passive.",
+              "structure": "subject + was/were + past participle.",
+              "notes": ["The passive focuses on the results.", "The main clause remains active."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not until the report was published the public learned the truth.",
+              "correct": "Not until the report was published did the public learn the truth.",
+              "reason": "Not until requires inversion in the main clause."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Not until the storm had passed did the rescue team set out.", "translation": "Baru setelah badai berlalu, tim penyelamat berangkat." },
+          { "sentence": "Not until the data were analysed did a pattern emerge.", "translation": "Baru setelah data dianalisis, sebuah pola muncul." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Were the government raised taxes", "clickable": true, "isError": true, "correctAnswers": ["Were the government to raise taxes", "If the government raised taxes"] },
+        { "id": "s2", "text": "public support", "clickable": true, "isError": false },
+        { "id": "s3", "text": "would plummet", "clickable": true, "isError": false },
+        { "id": "s4", "text": "during the next fiscal year", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0025",
+        "slug": "were-to-inverted-conditional",
+        "details_explanation": {
+          "explanation": "Were + subject + to + base verb is the inverted form of a second conditional. Raised taxes is not grammatical after were; the correct form is Were the government to raise taxes. The result would plummet is correct.",
+          "introduction": "Were + subject + to + infinitive is a formal inverted conditional used for hypothetical future situations.",
+          "rules": [
+            {
+              "title": "1. Were ... to inversion",
+              "explanation": "Omit if and place were before the subject, followed by to + base verb.",
+              "structure": "Were + subject + to + base verb, subject + would + base verb.",
+              "notes": ["This is a second conditional.", "It is common in formal and hypothetical contexts."]
+            },
+            {
+              "title": "2. Result with would",
+              "explanation": "The main clause uses would + base verb.",
+              "structure": "subject + would + base verb.",
+              "notes": ["Would plummet is correct.", "Do not use would have for a hypothetical future."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Were the company increased prices, sales would fall.",
+              "correct": "Were the company to increase prices, sales would fall.",
+              "reason": "The inverted conditional requires to + base verb."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Were the ban to be lifted, the market would expand rapidly.", "translation": "Jika larangan itu dicabut, pasar akan berkembang pesat." },
+          { "sentence": "Were she to accept the offer, she would have to relocate.", "translation": "Jika dia menerima tawaran itu, dia harus pindah." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Whomever wins the election", "clickable": true, "isError": true, "correctAnswers": ["Whoever wins the election"] },
+        { "id": "s2", "text": "will inherit", "clickable": true, "isError": false },
+        { "id": "s3", "text": "a struggling economy", "clickable": true, "isError": false },
+        { "id": "s4", "text": "regardless of their promises", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0026",
+        "slug": "whoever-nominal-relative",
+        "details_explanation": {
+          "explanation": "The pronoun is the subject of wins, so the subject form whoever is required, not whomever. The future will inherit and the phrase regardless of their promises are correct.",
+          "introduction": "Whoever is a nominal relative pronoun meaning the person who. Its case depends on its function in the relative clause.",
+          "rules": [
+            {
+              "title": "1. Whoever as subject",
+              "explanation": "Use whoever when it is the subject of the following verb.",
+              "structure": "Whoever + verb + main clause.",
+              "notes": ["Whomever is used only as an object.", "In modern English, whoever is often used for both."]
+            },
+            {
+              "title": "2. Nominal relative clauses",
+              "explanation": "A nominal relative clause functions as a noun phrase.",
+              "structure": "Whoever/whatever/whichever + clause + main verb.",
+              "notes": ["The whole clause is the subject of will inherit.", "Regardless of is a prepositional phrase."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Whomever calls first will get the tickets.",
+              "correct": "Whoever calls first will get the tickets.",
+              "reason": "The pronoun is the subject of calls."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Whoever arrives late will be denied entry.", "translation": "Siapa pun yang datang terlambat akan ditolak masuk." },
+          { "sentence": "She will support whoever is elected.", "translation": "Dia akan mendukung siapa pun yang terpilih." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The data", "clickable": true, "isError": false },
+        { "id": "s2", "text": "though collected meticulously", "clickable": true, "isError": false },
+        { "id": "s3", "text": "was interpreted", "clickable": true, "isError": true, "correctAnswers": ["were interpreted"] },
+        { "id": "s4", "text": "in a way that distorted the findings", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0027",
+        "slug": "data-agreement-concessive",
+        "details_explanation": {
+          "explanation": "In formal academic English, data is a plural noun, so the verb must be were. The concessive participle though collected meticulously is correct and modifies the data.",
+          "introduction": "Data is the plural of datum and takes a plural verb in formal writing. Concessive participle clauses can be introduced by though or although.",
+          "rules": [
+            {
+              "title": "1. Agreement with data",
+              "explanation": "Use a plural verb with data in formal contexts.",
+              "structure": "The data + plural verb.",
+              "notes": ["Were interpreted is correct.", "In informal English, data is sometimes treated as uncountable."]
+            },
+            {
+              "title": "2. Concessive participle",
+              "explanation": "Though + past participle can replace a full concessive clause.",
+              "structure": "Noun + though + past participle + main clause.",
+              "notes": ["The participle must relate to the noun.", "Collected meticulously is passive."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The data was analysed carefully.",
+              "correct": "The data were analysed carefully.",
+              "reason": "Data is plural in formal usage."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The findings, though challenged repeatedly, remain influential.", "translation": "Temuan itu, meskipun ditantang berulang kali, tetap berpengaruh." },
+          { "sentence": "The data were collected over three years.", "translation": "Data itu dikumpulkan selama tiga tahun." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "In no way", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the new policy addresses", "clickable": true, "isError": true, "correctAnswers": ["does the new policy address"] },
+        { "id": "s3", "text": "the root causes", "clickable": true, "isError": false },
+        { "id": "s4", "text": "of inequality", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0028",
+        "slug": "in-no-way-inversion",
+        "details_explanation": {
+          "explanation": "In no way is a negative adverbial and requires inversion with do-support: does the new policy address. The base form address follows does.",
+          "introduction": "Negative adverbials such as in no way, by no means and on no account trigger inversion when they begin a clause.",
+          "rules": [
+            {
+              "title": "1. Inversion with in no way",
+              "explanation": "Place the auxiliary before the subject.",
+              "structure": "In no way + auxiliary + subject + main verb.",
+              "notes": ["Use does with a third-person singular subject.", "The main verb is in the base form."]
+            },
+            {
+              "title": "2. Do-support",
+              "explanation": "When there is no auxiliary, use do/does/did.",
+              "structure": "does + subject + base verb.",
+              "notes": ["Addresses becomes address after does.", "The meaning remains negative."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "In no way this solves the problem.",
+              "correct": "In no way does this solve the problem.",
+              "reason": "In no way requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "By no means is this a final decision.", "translation": "Ini sama sekali bukan keputusan final." },
+          { "sentence": "In no way do these measures address the underlying problem.", "translation": "Dengan cara apa pun langkah-langkah ini tidak mengatasi masalah mendasar." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It is high time", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the authorities take", "clickable": true, "isError": true, "correctAnswers": ["the authorities took"] },
+        { "id": "s3", "text": "decisive action", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to curb emissions", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0029",
+        "slug": "it-is-high-time-unreal-past",
+        "details_explanation": {
+          "explanation": "It is high time is followed by the past simple to express an unreal or urgent present situation: the authorities took. The infinitive to curb emissions is correct.",
+          "introduction": "It is time and it is high time can be followed by the past simple to imply that something should have happened already.",
+          "rules": [
+            {
+              "title": "1. It is high time + past simple",
+              "explanation": "Use the past simple after it is high time.",
+              "structure": "It is high time + subject + past simple.",
+              "notes": ["The past form has present/future meaning.", "It expresses urgency or criticism."]
+            },
+            {
+              "title": "2. Alternative with to-infinitive",
+              "explanation": "It is time to + base verb is also possible when no subject is mentioned.",
+              "structure": "It is time + to + base verb.",
+              "notes": ["Do not combine the two structures.", "The subject version requires the past simple."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It is high time he apologizes.",
+              "correct": "It is high time he apologized.",
+              "reason": "It is high time is followed by the past simple."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is high time we addressed the issue seriously.", "translation": "Sudah waktunya kita menangani masalah ini dengan serius." },
+          { "sentence": "It is time to reconsider the policy.", "translation": "Sudah waktunya mempertimbangkan kembali kebijakan itu." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The candidate", "clickable": true, "isError": false },
+        { "id": "s2", "text": "would rather", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the committee did not disclose", "clickable": true, "isError": true, "correctAnswers": ["the committee had not disclosed"] },
+        { "id": "s4", "text": "her previous employment", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0030",
+        "slug": "would-rather-past-perfect",
+        "details_explanation": {
+          "explanation": "Would rather about the past is followed by the past perfect: the committee had not disclosed. The present form did not disclose would refer to the present or future.",
+          "introduction": "Would rather + subject + past simple refers to the present or future. Would rather + subject + past perfect refers to the past.",
+          "rules": [
+            {
+              "title": "1. Would rather about the past",
+              "explanation": "Use had + past participle for a past unreal preference.",
+              "structure": "would rather + subject + had + past participle.",
+              "notes": ["Had not disclosed is negative past perfect.", "This expresses regret about the past."]
+            },
+            {
+              "title": "2. Would rather about the present",
+              "explanation": "Use the past simple for a present or future preference.",
+              "structure": "would rather + subject + past simple.",
+              "notes": ["Do not use the present tense after would rather.", "The meaning is hypothetical."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I would rather she told me the truth yesterday.",
+              "correct": "I would rather she had told me the truth yesterday.",
+              "reason": "A past preference requires the past perfect."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "I would rather you had not mentioned the incident.", "translation": "Saya lebih suka Anda tidak menyebutkan insiden itu." },
+          { "sentence": "She would rather he stayed at home tonight.", "translation": "Dia lebih suka dia tinggal di rumah malam ini." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "No matter how hard did he try", "clickable": true, "isError": true, "correctAnswers": ["No matter how hard he tried"] },
+        { "id": "s2", "text": "he could not convince", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the panel", "clickable": true, "isError": false },
+        { "id": "s4", "text": "of his innocence", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0031",
+        "slug": "no-matter-how-concessive",
+        "details_explanation": {
+          "explanation": "No matter how introduces a concessive clause with normal word order: No matter how hard he tried. Inversion is not used in this clause. The main clause he could not convince is correct.",
+          "introduction": "No matter how, however, whatever and whoever introduce concessive clauses. The subordinate clause keeps statement word order.",
+          "rules": [
+            {
+              "title": "1. No matter how + adjective/adverb",
+              "explanation": "Use no matter how + adjective/adverb + subject + verb.",
+              "structure": "No matter how + adjective/adverb + subject + verb, + main clause.",
+              "notes": ["Do not invert the subject and auxiliary.", "The past simple tried matches the narrative."]
+            },
+            {
+              "title": "2. Concessive meaning",
+              "explanation": "The clause means it does not matter how hard he tried.",
+              "structure": "No matter how ... = however ...",
+              "notes": ["However hard he tried is an equivalent.", "The main clause states the unchanged result."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "No matter how hard did he work, he failed.",
+              "correct": "No matter how hard he worked, he failed.",
+              "reason": "No matter how does not trigger inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "No matter how carefully she planned, something always went wrong.", "translation": "Tidak peduli seberapa cermat dia merencanakan, selalu ada yang salah." },
+          { "sentence": "However hard we tried, we could not open the door.", "translation": "Betapa pun kerasnya kami mencoba, kami tidak bisa membuka pintu." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Such the scale of the damage was", "clickable": true, "isError": true, "correctAnswers": ["Such was the scale of the damage"] },
+        { "id": "s2", "text": "that reconstruction", "clickable": true, "isError": false },
+        { "id": "s3", "text": "took decades", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to complete", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0032",
+        "slug": "such-inversion-result",
+        "details_explanation": {
+          "explanation": "Such at the beginning of a sentence is followed by be + subject: Such was the scale of the damage. The result clause that reconstruction took decades is correct.",
+          "introduction": "Such can be fronted for emphasis, producing inversion with be. It is followed by a noun phrase.",
+          "rules": [
+            {
+              "title": "1. Such + be inversion",
+              "explanation": "Place such first, then be, then the noun phrase.",
+              "structure": "Such + be + noun phrase + that + result clause.",
+              "notes": ["Such was the scale is the correct order.", "The noun phrase follows the verb."]
+            },
+            {
+              "title": "2. Result clause with that",
+              "explanation": "The result is introduced by that.",
+              "structure": "such ... that + clause.",
+              "notes": ["The result clause uses normal word order.", "Took decades is the past simple."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Such the damage was that repairs took years.",
+              "correct": "Such was the damage that repairs took years.",
+              "reason": "Such requires inversion with be."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Such was the demand that tickets sold out within minutes.", "translation": "Begitu besar permintaan sehingga tiket terjual habis dalam hitungan menit." },
+          { "sentence": "Such was his reputation that no one questioned him.", "translation": "Begitu besar reputasinya sehingga tidak ada yang mempertanyakannya." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Having completed the survey", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the results astonished the researchers", "clickable": true, "isError": true, "correctAnswers": ["the researchers were astonished by the results", "the researchers were astonished at the results"] },
+        { "id": "s3", "text": "despite their expectations", "clickable": true, "isError": false },
+        { "id": "s4", "text": "of a modest effect", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0033",
+        "slug": "dangling-participle-passive-astonish",
+        "details_explanation": {
+          "explanation": "The perfect participle Having completed the survey refers to the researchers, so the main clause must have the researchers as subject. The passive were astonished by/at the results corrects the dangling modifier.",
+          "introduction": "An initial participle clause must share its subject with the main clause. Astonish is commonly used in the passive with by or at.",
+          "rules": [
+            {
+              "title": "1. Dangling participle correction",
+              "explanation": "Rewrite the main clause so that its subject performs the participle action.",
+              "structure": "Having + past participle, + subject (same doer) + verb.",
+              "notes": ["The results cannot complete a survey.", "The researchers must be the subject."]
+            },
+            {
+              "title": "2. Passive with astonished",
+              "explanation": "Use be astonished by/at + noun.",
+              "structure": "subject + be + astonished + by/at + noun.",
+              "notes": ["By is more common with an agent.", "At is common with a cause."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Having finished the experiment, the results were analysed.",
+              "correct": "Having finished the experiment, the team analysed the results.",
+              "reason": "The team, not the results, finished the experiment."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Having read the reviews, we decided not to buy the product.", "translation": "Setelah membaca ulasan, kami memutuskan tidak membeli produk itu." },
+          { "sentence": "She was astonished at the speed of the response.", "translation": "Dia terkejut pada kecepatan responsnya." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "34",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The board recommended", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that the CEO resigns", "clickable": true, "isError": true, "correctAnswers": ["that the CEO resign"] },
+        { "id": "s3", "text": "but he refused", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to do so", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0034",
+        "slug": "recommend-subjunctive-do-so",
+        "details_explanation": {
+          "explanation": "Recommend that takes the mandative subjunctive: that the CEO resign. The pro-verb do so correctly replaces resign in the second clause.",
+          "introduction": "Recommend, suggest and propose can be followed by that + subject + base verb. Do so is a formal pro-verb phrase.",
+          "rules": [
+            {
+              "title": "1. Subjunctive after recommend",
+              "explanation": "Use the base form of the verb in the that-clause.",
+              "structure": "recommend + that + subject + base verb.",
+              "notes": ["Resigns is indicative and is not used in formal mandative contexts.", "Should resign is an alternative."]
+            },
+            {
+              "title": "2. Pro-verb do so",
+              "explanation": "Do so replaces a previously mentioned verb phrase.",
+              "structure": "refuse/agree + to do so.",
+              "notes": ["It avoids repetition.", "It is more formal than do it in this context."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "They recommended that he applies immediately.",
+              "correct": "They recommended that he apply immediately.",
+              "reason": "Recommend that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The panel recommended that the policy be revised.", "translation": "Panel merekomendasikan agar kebijakan itu direvisi." },
+          { "sentence": "He was asked to apologize but refused to do so.", "translation": "Dia diminta meminta maaf tetapi menolak melakukannya." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not only she finished", "clickable": true, "isError": true, "correctAnswers": ["Not only did she finish"] },
+        { "id": "s2", "text": "the marathon", "clickable": true, "isError": false },
+        { "id": "s3", "text": "but she also broke", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the national record", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0035",
+        "slug": "not-only-inversion-correlative",
+        "details_explanation": {
+          "explanation": "Not only at the beginning requires inversion with do-support: Not only did she finish. The correlative but she also broke is correct.",
+          "introduction": "Not only ... but also is a correlative conjunction. When not only begins a clause, inversion occurs in that clause.",
+          "rules": [
+            {
+              "title": "1. Inversion after not only",
+              "explanation": "Place the auxiliary before the subject.",
+              "structure": "Not only + auxiliary + subject + main verb + ... but + subject + also + verb.",
+              "notes": ["Use did for the past simple.", "The base form finish follows did."]
+            },
+            {
+              "title": "2. Parallel structure",
+              "explanation": "The two clauses should be grammatically parallel.",
+              "structure": "Not only + clause, but + subject + also + clause.",
+              "notes": ["Also comes before the main verb.", "The second clause is not inverted."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not only he passed the exam, but he also got the highest mark.",
+              "correct": "Not only did he pass the exam, but he also got the highest mark.",
+              "reason": "Not only at the beginning requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Not only did they win, but they also set a new record.", "translation": "Tidak hanya mereka menang, tetapi mereka juga mencetak rekor baru." },
+          { "sentence": "Not only is the plan expensive, but it is also impractical.", "translation": "Tidak hanya rencana itu mahal, tetapi juga tidak praktis." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Should the premises are found deficient", "clickable": true, "isError": true, "correctAnswers": ["Should the premises be found deficient", "If the premises are found deficient"] },
+        { "id": "s2", "text": "the lease will be terminated", "clickable": true, "isError": false },
+        { "id": "s3", "text": "immediately", "clickable": true, "isError": false },
+        { "id": "s4", "text": "without further notice", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0036",
+        "slug": "should-inversion-passive-legal",
+        "details_explanation": {
+          "explanation": "Should the premises be found deficient is the correct inverted passive conditional. After should, the base form be is used, not are. The main clause will be terminated is correct.",
+          "introduction": "Should + subject + be + past participle is a formal inverted passive conditional, common in legal and contractual writing.",
+          "rules": [
+            {
+              "title": "1. Inverted should-conditional",
+              "explanation": "Omit if and place should before the subject.",
+              "structure": "Should + subject + base verb, subject + will + base verb.",
+              "notes": ["Use the base form after should.", "The structure is formal."]
+            },
+            {
+              "title": "2. Passive conditional",
+              "explanation": "The passive is be + past participle after should.",
+              "structure": "Should + subject + be + past participle.",
+              "notes": ["Be found deficient is passive.", "The main clause can also be passive."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Should the goods are damaged, we will replace them.",
+              "correct": "Should the goods be damaged, we will replace them.",
+              "reason": "The base form be follows should."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Should the contract be breached, legal action will follow.", "translation": "Jika kontrak dilanggar, tindakan hukum akan menyusul." },
+          { "sentence": "Should any discrepancies be found, the auditor must be notified.", "translation": "Jika ditemukan ketidaksesuaian, auditor harus diberi tahu." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Only when", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the last witness had testified", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the judge called", "clickable": true, "isError": true, "correctAnswers": ["did the judge call"] },
+        { "id": "s4", "text": "a recess", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0037",
+        "slug": "only-when-inversion-past-perfect",
+        "details_explanation": {
+          "explanation": "Only when at the beginning triggers inversion in the main clause: did the judge call. The past perfect had testified is correct for the earlier action.",
+          "introduction": "Only when, only after and only if are restrictive adverbials that cause inversion in the main clause.",
+          "rules": [
+            {
+              "title": "1. Inversion after only when",
+              "explanation": "The main clause uses auxiliary + subject + main verb.",
+              "structure": "Only when + clause, auxiliary + subject + main verb.",
+              "notes": ["Use did for the past simple.", "The when-clause itself is not inverted."]
+            },
+            {
+              "title": "2. Past perfect in the when-clause",
+              "explanation": "Use had + past participle for the earlier event.",
+              "structure": "Only when + subject + had + past participle.",
+              "notes": ["Had testified precedes called a recess.", "The main clause is in the past simple after did."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Only when the meeting ended he spoke.",
+              "correct": "Only when the meeting ended did he speak.",
+              "reason": "Only when requires inversion in the main clause."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Only when the lights dimmed did the audience fall silent.", "translation": "Baru setelah lampu meredup, penonton terdiam." },
+          { "sentence": "Only when she had read the letter twice did she understand it.", "translation": "Baru setelah membaca surat itu dua kali, dia memahaminya." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Little they knew", "clickable": true, "isError": true, "correctAnswers": ["Little did they know"] },
+        { "id": "s2", "text": "that the bridge", "clickable": true, "isError": false },
+        { "id": "s3", "text": "had been condemned", "clickable": true, "isError": false },
+        { "id": "s4", "text": "years earlier", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0038",
+        "slug": "little-inversion-past-perfect-passive",
+        "details_explanation": {
+          "explanation": "Little at the beginning is negative and requires inversion: Little did they know. The past perfect passive had been condemned is correct for an earlier passive event.",
+          "introduction": "Little, rarely and seldom are negative adverbials that trigger inversion. The past perfect passive describes an action completed before another past time.",
+          "rules": [
+            {
+              "title": "1. Negative inversion with little",
+              "explanation": "Use did + subject + base verb in the past simple.",
+              "structure": "Little + did + subject + base verb.",
+              "notes": ["Knew becomes know after did.", "The meaning is emphatic."]
+            },
+            {
+              "title": "2. Past perfect passive",
+              "explanation": "Use had been + past participle.",
+              "structure": "subject + had been + past participle.",
+              "notes": ["Had been condemned is passive.", "Years earlier establishes the earlier time."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Little they knew about the danger.",
+              "correct": "Little did they know about the danger.",
+              "reason": "Little at the beginning requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Little did we realize that the decision had already been made.", "translation": "Sedikit pun kami tidak menyadari bahwa keputusan itu sudah dibuat." },
+          { "sentence": "Seldom had the city been so quiet.", "translation": "Jarang sekali kota itu begitu sepi." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The manuscript", "clickable": true, "isError": false },
+        { "id": "s2", "text": "which is believed", "clickable": true, "isError": false },
+        { "id": "s3", "text": "to have written", "clickable": true, "isError": true, "correctAnswers": ["to have been written"] },
+        { "id": "s4", "text": "in the twelfth century", "clickable": true, "isError": false },
+        { "id": "s5", "text": "was discovered in a monastery", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0039",
+        "slug": "passive-reporting-perfect-infinitive",
+        "details_explanation": {
+          "explanation": "The manuscript was written, so the perfect infinitive must be passive: to have been written. The passive reporting structure is believed to ... is correct.",
+          "introduction": "Reporting verbs such as believe, say and think can be used in the passive with a to-infinitive. The infinitive is passive when its subject receives the action.",
+          "rules": [
+            {
+              "title": "1. Passive reporting",
+              "explanation": "Use subject + be + believed + to-infinitive.",
+              "structure": "subject + is believed + to + infinitive.",
+              "notes": ["The structure is impersonal and formal.", "It is common in academic writing."]
+            },
+            {
+              "title": "2. Perfect infinitive passive",
+              "explanation": "Use to have been + past participle for an earlier passive action.",
+              "structure": "to have been + past participle.",
+              "notes": ["To have written would mean the manuscript wrote something.", "The twelfth century is earlier than the discovery."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The temple is believed to have built in 500 BC.",
+              "correct": "The temple is believed to have been built in 500 BC.",
+              "reason": "The temple receives the action, so the passive infinitive is needed."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The painting is thought to have been completed in 1889.", "translation": "Lukisan itu diyakini telah diselesaikan pada tahun 1889." },
+          { "sentence": "The documents are said to have been destroyed.", "translation": "Dokumen-dokumen itu dikatakan telah dihancurkan." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "He would rather", "clickable": true, "isError": false },
+        { "id": "s2", "text": "have stayed at home", "clickable": true, "isError": false },
+        { "id": "s3", "text": "than to attend", "clickable": true, "isError": true, "correctAnswers": ["than attend"] },
+        { "id": "s4", "text": "the reception", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0040",
+        "slug": "would-rather-than-parallel",
+        "details_explanation": {
+          "explanation": "After would rather ... than, the infinitive is used without to: than attend. The perfect form have stayed is correct for a past preference.",
+          "introduction": "Would rather + bare infinitive is followed by than + bare infinitive. The two infinitives should be parallel.",
+          "rules": [
+            {
+              "title": "1. Would rather ... than",
+              "explanation": "Use the bare infinitive after than.",
+              "structure": "would rather + bare infinitive + than + bare infinitive.",
+              "notes": ["To is not used after than.", "The structure expresses preference."]
+            },
+            {
+              "title": "2. Perfect infinitive",
+              "explanation": "Would rather have + past participle refers to the past.",
+              "structure": "would rather have + past participle + than + bare infinitive.",
+              "notes": ["Have stayed is the perfect infinitive.", "The second infinitive remains bare."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I would rather stay than to go out.",
+              "correct": "I would rather stay than go out.",
+              "reason": "The bare infinitive follows than."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "She would rather resign than compromise her principles.", "translation": "Dia lebih suka mengundurkan diri daripada mengompromikan prinsipnya." },
+          { "sentence": "They would rather have cancelled the event than postpone it.", "translation": "Mereka lebih suka membatalkan acara itu daripada menundanya." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Provided that", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the conditions will be met", "clickable": true, "isError": true, "correctAnswers": ["the conditions are met"] },
+        { "id": "s3", "text": "the contract will be signed", "clickable": true, "isError": false },
+        { "id": "s4", "text": "by both parties", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0041",
+        "slug": "provided-that-tense",
+        "details_explanation": {
+          "explanation": "After provided that, the present simple is used to refer to the future: the conditions are met. The main clause will be signed correctly uses will.",
+          "introduction": "Provided that, on condition that and as long as introduce conditions. The condition clause uses the present simple for future meaning.",
+          "rules": [
+            {
+              "title": "1. Tense in conditional clauses",
+              "explanation": "Do not use will in the condition clause.",
+              "structure": "Provided that + present simple, + will + base verb.",
+              "notes": ["Are met is present simple passive.", "Will is used only in the main clause."]
+            },
+            {
+              "title": "2. Passive present simple",
+              "explanation": "The passive present simple is am/is/are + past participle.",
+              "structure": "subject + are + past participle.",
+              "notes": ["The conditions are met is passive.", "The main clause is also passive."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Provided that it will rain, the match will be cancelled.",
+              "correct": "Provided that it rains, the match will be cancelled.",
+              "reason": "The condition clause uses the present simple."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Provided that the funding is approved, the project will begin in June.", "translation": "Asalkan pendanaannya disetujui, proyek akan dimulai pada bulan Juni." },
+          { "sentence": "As long as the rules are followed, no action will be taken.", "translation": "Selama aturan diikuti, tidak ada tindakan yang akan diambil." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The more one reads", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the more one realizes", "clickable": true, "isError": false },
+        { "id": "s3", "text": "how little does one know", "clickable": true, "isError": true, "correctAnswers": ["how little one knows"] },
+        { "id": "s4", "text": "about the world", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0042",
+        "slug": "embedded-question-word-order",
+        "details_explanation": {
+          "explanation": "The clause how little one knows is an embedded question, so it uses statement word order, not inversion. The comparative correlative the more ... the more is correct.",
+          "introduction": "Embedded questions and nominal clauses use statement word order: subject + verb. Inversion occurs only in direct questions.",
+          "rules": [
+            {
+              "title": "1. Embedded question word order",
+              "explanation": "Do not invert after how, what, where, whether, etc. in an embedded clause.",
+              "structure": "how + adjective/adverb + subject + verb.",
+              "notes": ["How little one knows is correct.", "Does is not used."]
+            },
+            {
+              "title": "2. Comparative correlative",
+              "explanation": "The more ... the more shows parallel increase.",
+              "structure": "The more + subject + verb, the more + subject + verb.",
+              "notes": ["Both clauses use statement word order.", "The structure is not inverted."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I wonder where does he live.",
+              "correct": "I wonder where he lives.",
+              "reason": "Embedded questions do not invert."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The more she practiced, the more confident she became.", "translation": "Semakin dia berlatih, semakin percaya diri dia." },
+          { "sentence": "I do not know how much it costs.", "translation": "Saya tidak tahu berapa harganya." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It is essential", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that every applicant is interviewed", "clickable": true, "isError": true, "correctAnswers": ["that every applicant be interviewed"] },
+        { "id": "s3", "text": "by at least two members", "clickable": true, "isError": false },
+        { "id": "s4", "text": "of staff", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0043",
+        "slug": "essential-subjunctive-passive",
+        "details_explanation": {
+          "explanation": "Essential that requires the mandative subjunctive, and the passive subjunctive is be interviewed. The present indicative is interviewed is not used in this formal structure.",
+          "introduction": "Adjectives such as essential, vital and imperative trigger the base subjunctive in a following that-clause.",
+          "rules": [
+            {
+              "title": "1. Subjunctive after essential",
+              "explanation": "Use the base form of the verb in the that-clause.",
+              "structure": "It is essential + that + subject + base verb.",
+              "notes": ["Be interviewed is passive subjunctive.", "Should be interviewed is an alternative."]
+            },
+            {
+              "title": "2. Passive subjunctive",
+              "explanation": "The passive subjunctive is be + past participle.",
+              "structure": "that + subject + be + past participle.",
+              "notes": ["Be is invariable.", "The agent is introduced by by."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "It is essential that the sample is stored correctly.",
+              "correct": "It is essential that the sample be stored correctly.",
+              "reason": "Essential that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is vital that all safety checks be completed before departure.", "translation": "Sangat penting bahwa semua pemeriksaan keselamatan diselesaikan sebelum keberangkatan." },
+          { "sentence": "It is imperative that the data be backed up daily.", "translation": "Sangat penting bahwa data dicadangkan setiap hari." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "By no means", "clickable": true, "isError": false },
+        { "id": "s2", "text": "this information should be disclosed", "clickable": true, "isError": true, "correctAnswers": ["should this information be disclosed"] },
+        { "id": "s3", "text": "to the press", "clickable": true, "isError": false },
+        { "id": "s4", "text": "before the inquiry concludes", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0044",
+        "slug": "by-no-means-inversion-passive",
+        "details_explanation": {
+          "explanation": "By no means is a negative adverbial and requires inversion: should this information be disclosed. The passive modal should be + past participle is correct after inversion.",
+          "introduction": "By no means, in no way and under no circumstances are negative adverbials that trigger inversion of the modal and subject.",
+          "rules": [
+            {
+              "title": "1. Negative inversion",
+              "explanation": "Place the modal before the subject.",
+              "structure": "Negative adverbial + modal + subject + main verb.",
+              "notes": ["The main verb remains in the base form.", "The structure is formal and emphatic."]
+            },
+            {
+              "title": "2. Passive with should",
+              "explanation": "The passive is should be + past participle.",
+              "structure": "should + subject + be + past participle.",
+              "notes": ["Be disclosed is correct.", "Do not use should be disclosing."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "By no means this should be allowed.",
+              "correct": "By no means should this be allowed.",
+              "reason": "By no means requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "By no means is the result conclusive.", "translation": "Hasilnya sama sekali tidak konklusif." },
+          { "sentence": "Under no circumstances should these files be removed.", "translation": "Dalam keadaan apa pun file-file ini tidak boleh dipindahkan." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The scientist's findings", "clickable": true, "isError": false },
+        { "id": "s2", "text": "though controversial", "clickable": true, "isError": false },
+        { "id": "s3", "text": "have yet to disprove", "clickable": true, "isError": true, "correctAnswers": ["have yet to be disproven", "have yet to be disproved"] },
+        { "id": "s4", "text": "by the wider community", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0045",
+        "slug": "yet-to-passive-infinitive",
+        "details_explanation": {
+          "explanation": "The findings are disproven by others, so the passive infinitive is required: have yet to be disproven. The concessive though controversial is correct.",
+          "introduction": "Have yet to + infinitive means have not yet + past participle. The infinitive is passive when the subject receives the action.",
+          "rules": [
+            {
+              "title": "1. Have yet to + infinitive",
+              "explanation": "This formal structure means something has not happened yet.",
+              "structure": "subject + have/has yet to + base verb.",
+              "notes": ["The meaning is negative.", "It is common in formal writing."]
+            },
+            {
+              "title": "2. Passive infinitive",
+              "explanation": "Use to be + past participle when the subject receives the action.",
+              "structure": "to be + past participle.",
+              "notes": ["To be disproven is passive.", "The agent is introduced by by."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "The theory has yet to prove.",
+              "correct": "The theory has yet to be proven.",
+              "reason": "The theory receives the action, so the passive infinitive is needed."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The allegations have yet to be substantiated.", "translation": "Tuduhan-tuduhan itu belum dibuktikan." },
+          { "sentence": "The proposal, though promising, has yet to be approved.", "translation": "Proposal itu, meskipun menjanjikan, belum disetujui." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had the alarm not sound", "clickable": true, "isError": true, "correctAnswers": ["Had the alarm not sounded"] },
+        { "id": "s2", "text": "the fire would have spread", "clickable": true, "isError": false },
+        { "id": "s3", "text": "to the adjacent building", "clickable": true, "isError": false },
+        { "id": "s4", "text": "within minutes", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0046",
+        "slug": "negative-inverted-third-conditional",
+        "details_explanation": {
+          "explanation": "The inverted third conditional requires the past participle sounded, not the base form sound. The main clause would have spread is correct.",
+          "introduction": "In negative inverted conditionals, not comes after the subject: Had + subject + not + past participle.",
+          "rules": [
+            {
+              "title": "1. Negative inversion",
+              "explanation": "Place not after the subject in an inverted conditional.",
+              "structure": "Had + subject + not + past participle, subject + would have + past participle.",
+              "notes": ["Sound is the base form and is incorrect.", "Sounded is the past participle."]
+            },
+            {
+              "title": "2. Conditional perfect",
+              "explanation": "The result uses would have + past participle.",
+              "structure": "subject + would have + past participle.",
+              "notes": ["Would have spread is correct.", "The time reference is past."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Had he not arrive, we would have left.",
+              "correct": "Had he not arrived, we would have left.",
+              "reason": "The past participle is required after had."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Had the treaty not been signed, the war would have continued.", "translation": "Seandainya perjanjian itu tidak ditandatangani, perang akan berlanjut." },
+          { "sentence": "Had she not intervened, the deal would have collapsed.", "translation": "Seandainya dia tidak ikut campur, kesepakatan itu akan runtuh." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Having deliberated for hours", "clickable": true, "isError": false },
+        { "id": "s2", "text": "a unanimous verdict was finally reached", "clickable": true, "isError": true, "correctAnswers": ["the committee finally reached a unanimous verdict", "the jury finally reached a unanimous verdict"] },
+        { "id": "s3", "text": "after lengthy discussion", "clickable": true, "isError": false },
+        { "id": "s4", "text": "of the evidence", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0047",
+        "slug": "dangling-perfect-participle-verdict",
+        "details_explanation": {
+          "explanation": "Having deliberated for hours must refer to the subject of the main clause. A verdict cannot deliberate, so the main clause must be active with the committee or jury as subject.",
+          "introduction": "Perfect participle clauses describe an action completed before the main action. Their understood subject must match the main subject.",
+          "rules": [
+            {
+              "title": "1. Dangling perfect participle",
+              "explanation": "Rewrite the main clause so that its subject performs the participle action.",
+              "structure": "Having + past participle, + subject (same doer) + verb.",
+              "notes": ["The committee or jury deliberates.", "The verdict is the result, not the doer."]
+            },
+            {
+              "title": "2. Active vs passive main clause",
+              "explanation": "Choose active voice when the subject performs the action.",
+              "structure": "subject + past simple + object.",
+              "notes": ["Reached a verdict is active.", "Was reached is passive and creates a dangling modifier."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Having examined the evidence, a decision was reached.",
+              "correct": "Having examined the evidence, the panel reached a decision.",
+              "reason": "The panel, not the decision, examined the evidence."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Having listened to both sides, the judge reserved her decision.", "translation": "Setelah mendengarkan kedua belah pihak, hakim menunda keputusannya." },
+          { "sentence": "Having been reviewed twice, the manuscript was finally accepted.", "translation": "Setelah ditinjau dua kali, naskah itu akhirnya diterima." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Under no circumstances", "clickable": true, "isError": false },
+        { "id": "s2", "text": "employees are permitted", "clickable": true, "isError": true, "correctAnswers": ["are employees permitted"] },
+        { "id": "s3", "text": "to remove documents", "clickable": true, "isError": false },
+        { "id": "s4", "text": "from the premises", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0048",
+        "slug": "negative-inversion-passive-permit",
+        "details_explanation": {
+          "explanation": "Under no circumstances requires inversion: are employees permitted. The passive are permitted + to-infinitive is correct.",
+          "introduction": "Negative adverbials at the beginning of a clause cause inversion of the auxiliary and subject.",
+          "rules": [
+            {
+              "title": "1. Inversion with be",
+              "explanation": "Place the form of be before the subject.",
+              "structure": "Negative adverbial + be + subject + past participle.",
+              "notes": ["Are employees permitted is correct.", "The passive infinitive follows."]
+            },
+            {
+              "title": "2. Passive + to-infinitive",
+              "explanation": "Permit takes a to-infinitive in the passive.",
+              "structure": "be permitted + to + base verb.",
+              "notes": ["To remove is correct.", "The agent is not expressed."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Under no circumstances visitors are allowed entry.",
+              "correct": "Under no circumstances are visitors allowed entry.",
+              "reason": "The negative adverbial requires inversion."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "At no time were the prisoners left unsupervised.", "translation": "Kapan pun para tahanan tidak dibiarkan tanpa pengawasan." },
+          { "sentence": "On no account are these documents to be copied.", "translation": "Dengan alasan apa pun dokumen-dokumen ini tidak boleh disalin." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "It was the chairman who", "clickable": true, "isError": false },
+        { "id": "s2", "text": "despite considerable opposition", "clickable": true, "isError": false },
+        { "id": "s3", "text": "insisted that the motion is put", "clickable": true, "isError": true, "correctAnswers": ["insisted that the motion be put"] },
+        { "id": "s4", "text": "to a vote", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0049",
+        "slug": "cleft-concessive-subjunctive",
+        "details_explanation": {
+          "explanation": "The sentence combines an it-cleft, a concessive phrase and the mandative subjunctive. Insist that requires be put, not is put.",
+          "introduction": "It-clefts emphasize a noun phrase. Concessive phrases with despite introduce contrast. Insist that takes the base subjunctive.",
+          "rules": [
+            {
+              "title": "1. It-cleft with who",
+              "explanation": "Use it was + noun + who + clause to focus on a person.",
+              "structure": "It was + noun phrase + who + verb.",
+              "notes": ["The chairman is the focus.", "Who refers to the chairman."]
+            },
+            {
+              "title": "2. Subjunctive after insist",
+              "explanation": "Use the base form be in the passive subjunctive.",
+              "structure": "insist + that + subject + be + past participle.",
+              "notes": ["Be put is correct.", "Is put is indicative and not used here."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "He insisted that the vote is taken.",
+              "correct": "He insisted that the vote be taken.",
+              "reason": "Insist that takes the base subjunctive."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It was the manager who, despite the criticism, insisted that the plan be revised.", "translation": "Manajerlah yang, meskipun ada kritik, bersikeras agar rencana itu direvisi." },
+          { "sentence": "It was the students who demanded that the fees be reduced.", "translation": "Para mahasiswalah yang menuntut agar biaya dikurangi." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "https://www.oxfordlearnersdictionaries.com", "type": "grammar reference" }
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "type": "multi_error",
+      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not until", "clickable": true, "isError": false },
+        { "id": "s2", "text": "she had read the letter twice", "clickable": true, "isError": false },
+        { "id": "s3", "text": "she understood", "clickable": true, "isError": true, "correctAnswers": ["did she understand"] },
+        { "id": "s4", "text": "its implications", "clickable": true, "isError": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-0050",
+        "slug": "not-until-inversion-past-perfect-final",
+        "details_explanation": {
+          "explanation": "Not until at the beginning triggers inversion in the main clause: did she understand. The past perfect had read is correct for the earlier action.",
+          "introduction": "Not until + clause + auxiliary + subject + main verb is an emphatic negative structure meaning she did not understand until she had read the letter twice.",
+          "rules": [
+            {
+              "title": "1. Inversion after not until",
+              "explanation": "The main clause uses auxiliary + subject + base verb.",
+              "structure": "Not until + clause, did + subject + base verb.",
+              "notes": ["Understood becomes understand after did.", "The until-clause is not inverted."]
+            },
+            {
+              "title": "2. Past perfect",
+              "explanation": "The action in the until-clause happened before the main action.",
+              "structure": "had + past participle.",
+              "notes": ["Had read is correct.", "The main clause then uses the past simple after did."]
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Not until he left she realized the truth.",
+              "correct": "Not until he left did she realize the truth.",
+              "reason": "Not until requires inversion in the main clause."
+            }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Not until the final bell rang did the students leave.", "translation": "Baru setelah bel terakhir berbunyi, para siswa pergi." },
+          { "sentence": "Not until she had spoken to the witness did she believe the story.", "translation": "Baru setelah dia berbicara dengan saksi, dia percaya cerita itu." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "https://www.cambridge.org", "type": "grammar reference" }
+        ]
+      }
+    }
+  ]
+}
