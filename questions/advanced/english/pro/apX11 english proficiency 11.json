@@ -5,7 +5,7 @@
     "show_explanation": true,
     "no_timer": true,
     "description": "50 error-correction questions that combine two or more advanced grammar topics (conditionals, inversion, subjunctive, passive, participle clauses, relative clauses, reported speech, comparison, ellipsis, articles, prepositions, and more). Click every incorrect part and type the correct form. Some items accept more than one correct answer.",
-    "timeLimits": { "fast": 420, "normal": 720, "easy": 1200 },
+    "timeLimits": { "fast": 35, "normal": 60, "easy": 80 },
     "updatedAt": "November 12, 2026 10:00:00"
   },
   "questions": [
