@@ -112,7 +112,7 @@
         { "id": "s1", "text": "Having warned", "clickable": true, "isError": true, "correctAnswers": ["Having been warned"] },
         { "id": "s2", "text": "about the risks,", "clickable": false },
         { "id": "s3", "text": "the team,", "clickable": true, "isError": false },
-        { "id": "s4", "text": "which were responsible", "clickable": true, "isError": true, "correctAnswers": ["which was responsible"] },
+        { "id": "s4", "text": "which were responsible", "clickable": true, "isError": true, "correctAnswers": ["which was responsible","that was responsible"] },
         { "id": "s5", "text": "for the safety checks,", "clickable": false },
         { "id": "s6", "text": "proceeded cautiously,", "clickable": true, "isError": false },
         { "id": "s7", "text": "neither of the supervisors being aware", "clickable": true, "isError": false },
@@ -254,9 +254,9 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "She said", "clickable": true, "isError": false },
-        { "id": "s2", "text": "that she will finish", "clickable": true, "isError": true, "correctAnswers": ["that she would finish"] },
+        { "id": "s2", "text": "that she will finish", "clickable": true, "isError": true, "correctAnswers": ["that she would finish","she would finish"] },
         { "id": "s3", "text": "the report", "clickable": false },
-        { "id": "s4", "text": "tomorrow,", "clickable": true, "isError": true, "correctAnswers": ["the next day", "the following day"] },
+        { "id": "s4", "text": "tomorrow,", "clickable": true, "isError": true, "correctAnswers": ["the next day", "the following day", "a day later"] },
         { "id": "s5", "text": "but her colleague insisted", "clickable": true, "isError": false },
         { "id": "s6", "text": "that she had been working", "clickable": true, "isError": false },
         { "id": "s7", "text": "on it for weeks.", "clickable": false }
@@ -395,7 +395,7 @@
       "multiErrorSegments": [
         { "id": "s1", "text": "The new policy", "clickable": true, "isError": false },
         { "id": "s2", "text": "is far more comprehensive", "clickable": true, "isError": false },
-        { "id": "s3", "text": "than the previous administration,", "clickable": true, "isError": true, "correctAnswers": ["than that of the previous administration,"] },
+        { "id": "s3", "text": "than the previous administration,", "clickable": true, "isError": true, "correctAnswers": ["than that of the previous administration,","than the policy of the previous administration,"] },
         { "id": "s4", "text": "and it could be implemented", "clickable": true, "isError": true, "correctAnswers": ["and it could have been implemented"] },
         { "id": "s5", "text": "sooner", "clickable": true, "isError": false },
         { "id": "s6", "text": "had the resources been available.", "clickable": true, "isError": false }
@@ -542,7 +542,7 @@
         { "id": "s2", "text": "who's research", "clickable": true, "isError": true, "correctAnswers": ["whose research"] },
         { "id": "s3", "text": "had been funded by the government,", "clickable": true, "isError": false },
         { "id": "s4", "text": "was awarded the prize,", "clickable": true, "isError": false },
-        { "id": "s5", "text": "having been dedicated", "clickable": true, "isError": true, "correctAnswers": ["having dedicated"] },
+        { "id": "s5", "text": "having been dedicated", "clickable": true, "isError": true, "correctAnswers": ["having dedicated", "after dedicating"] },
         { "id": "s6", "text": "her entire career", "clickable": true, "isError": false },
         { "id": "s7", "text": "to the field.", "clickable": false }
       ],
@@ -679,7 +679,7 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "She is accustomed to work late", "clickable": true, "isError": true, "correctAnswers": ["She is accustomed to working late"] },
+        { "id": "s1", "text": "She is accustomed to work late", "clickable": true, "isError": true, "correctAnswers": ["She is accustomed to working late","She is used to working late"] },
         { "id": "s2", "text": "and prefers to finish her tasks", "clickable": true, "isError": false },
         { "id": "s3", "text": "rather than leaving them", "clickable": true, "isError": false },
         { "id": "s4", "text": "for the next day,", "clickable": false },
@@ -772,7 +772,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "The population of Tokyo", "clickable": true, "isError": false },
-        { "id": "s2", "text": "is larger than any city in Japan,", "clickable": true, "isError": true, "correctAnswers": ["is larger than that of any other city in Japan,"] },
+        { "id": "s2", "text": "is larger than any city in Japan,", "clickable": true, "isError": true, "correctAnswers": ["is larger than that of any other city in Japan,","has a larger population than any other city in Japan,"] },
         { "id": "s3", "text": "and its transport system", "clickable": true, "isError": false },
         { "id": "s4", "text": "is more efficient", "clickable": true, "isError": false },
         { "id": "s5", "text": "than those of", "clickable": true, "isError": true, "correctAnswers": ["than that of"] },
@@ -912,7 +912,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "The reports,", "clickable": false },
-        { "id": "s2", "text": "which was submitted last week,", "clickable": true, "isError": true, "correctAnswers": ["which were submitted last week,"] },
+        { "id": "s2", "text": "which was submitted last week,", "clickable": true, "isError": true, "correctAnswers": ["which were submitted last week,","that were submitted last week,"] },
         { "id": "s3", "text": "has been reviewed", "clickable": true, "isError": true, "correctAnswers": ["have been reviewed"] },
         { "id": "s4", "text": "by the committee,", "clickable": false },
         { "id": "s5", "text": "and the recommendations", "clickable": true, "isError": false },
@@ -1103,8 +1103,8 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "He said me", "clickable": true, "isError": true, "correctAnswers": ["He told me"] },
-        { "id": "s2", "text": "that he will call", "clickable": true, "isError": true, "correctAnswers": ["that he would call"] },
+        { "id": "s1", "text": "He said me", "clickable": true, "isError": true, "correctAnswers": ["He told me","He said to me"] },
+        { "id": "s2", "text": "that he will call", "clickable": true, "isError": true, "correctAnswers": ["that he would call","he would call"] },
         { "id": "s3", "text": "me back", "clickable": false },
         { "id": "s4", "text": "later,", "clickable": true, "isError": false },
         { "id": "s5", "text": "but he hasn't done so", "clickable": true, "isError": false },
@@ -1238,7 +1238,7 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Having been finished", "clickable": true, "isError": true, "correctAnswers": ["Having finished"] },
+        { "id": "s1", "text": "Having been finished", "clickable": true, "isError": true, "correctAnswers": ["Having finished","After finishing"] },
         { "id": "s2", "text": "the report,", "clickable": false },
         { "id": "s3", "text": "she was looking forward", "clickable": true, "isError": false },
         { "id": "s4", "text": "to receive", "clickable": true, "isError": true, "correctAnswers": ["to receiving"] },
@@ -1467,7 +1467,7 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Comparing to", "clickable": true, "isError": true, "correctAnswers": ["Compared to", "Compared with"] },
+        { "id": "s1", "text": "Comparing to", "clickable": true, "isError": true, "correctAnswers": ["Compared to", "Compared with", "In comparison with"] },
         { "id": "s2", "text": "her previous work,", "clickable": false },
         { "id": "s3", "text": "this novel is more ambitious", "clickable": true, "isError": false },
         { "id": "s4", "text": "and better written", "clickable": true, "isError": false },
@@ -1695,7 +1695,7 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Had I informed", "clickable": true, "isError": true, "correctAnswers": ["Had I been informed"] },
+        { "id": "s1", "text": "Had I informed", "clickable": true, "isError": true, "correctAnswers": ["Had I been informed","If I had been informed"] },
         { "id": "s2", "text": "earlier,", "clickable": false },
         { "id": "s3", "text": "I would be attending the conference now,", "clickable": true, "isError": false },
         { "id": "s4", "text": "and I would prepare", "clickable": true, "isError": true, "correctAnswers": ["and I would have prepared"] },
@@ -1741,7 +1741,7 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "The students,", "clickable": true, "isError": false },
-        { "id": "s2", "text": "having been completed", "clickable": true, "isError": true, "correctAnswers": ["having completed"] },
+        { "id": "s2", "text": "having been completed", "clickable": true, "isError": true, "correctAnswers": ["having completed","after completing"] },
         { "id": "s3", "text": "their assignments,", "clickable": false },
         { "id": "s4", "text": "were allowed to leave,", "clickable": true, "isError": false },
         { "id": "s5", "text": "that pleased them greatly.", "clickable": true, "isError": true, "correctAnswers": ["which pleased them greatly."] }
@@ -1875,7 +1875,7 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "She insisted to be informed", "clickable": true, "isError": true, "correctAnswers": ["She insisted on being informed"] },
+        { "id": "s1", "text": "She insisted to be informed", "clickable": true, "isError": true, "correctAnswers": ["She insisted on being informed","She insisted that she be informed"] },
         { "id": "s2", "text": "about any changes,", "clickable": true, "isError": false },
         { "id": "s3", "text": "and she objected to", "clickable": true, "isError": false },
         { "id": "s4", "text": "the way the project", "clickable": false },
@@ -2010,9 +2010,9 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Having warned", "clickable": true, "isError": true, "correctAnswers": ["Having been warned"] },
+        { "id": "s1", "text": "Having warned", "clickable": true, "isError": true, "correctAnswers": ["Having been warned","After being warned"] },
         { "id": "s2", "text": "about the storm,", "clickable": false },
-        { "id": "s3", "text": "the sailors decided returning", "clickable": true, "isError": true, "correctAnswers": ["the sailors decided to return"] },
+        { "id": "s3", "text": "the sailors decided returning", "clickable": true, "isError": true, "correctAnswers": ["the sailors decided to return","the sailors decided on returning"] },
         { "id": "s4", "text": "to port,", "clickable": true, "isError": false },
         { "id": "s5", "text": "which was a wiser decision", "clickable": true, "isError": false },
         { "id": "s6", "text": "than continuing.", "clickable": true, "isError": false }
@@ -2193,10 +2193,11 @@
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
         { "id": "s1", "text": "The proposal,", "clickable": false },
-        { "id": "s2", "text": "which submitted", "clickable": true, "isError": true, "correctAnswers": ["which was submitted"] },
+        { "id": "s2", "text": "which submitted", "clickable": true, "isError": true, "correctAnswers": ["which was submitted","which had been submitted","that was submitted","that had been submitted"] },
         { "id": "s3", "text": "by the marketing team,", "clickable": true, "isError": false },
         { "id": "s4", "text": "was rejected", "clickable": true, "isError": false },
-        { "id": "s5", "text": "because it lacked necessary details.", "clickable": true, "isError": true, "correctAnswers": ["because it lacked the necessary details."] }
+        { "id": "s5", "text": "because it lacked necessary", "clickable": true, "isError": true, "correctAnswers": ["because it lacked the necessary","because it lacked necessary"] },
+        { "id": "s6", "text": "details.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-0048",
