@@ -962,7 +962,7 @@
         { "id": "s2", "text": "the medication,", "clickable": false },
         { "id": "s3", "text": "she would be feeling better now,", "clickable": true, "isError": false },
         { "id": "s4", "text": "and the symptoms", "clickable": true, "isError": false },
-        { "id": "s5", "text": "would have subsided", "clickable": true, "isError": true, "correctAnswers": ["would subside"] },
+        { "id": "s5", "text": "would have subsided", "clickable": true, "isError": true, "correctAnswers": ["would subside", "would be subsiding"] },
         { "id": "s6", "text": "by now.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
