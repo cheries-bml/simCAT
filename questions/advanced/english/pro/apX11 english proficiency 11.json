@@ -109,14 +109,15 @@
       "type": "multi_error",
       "question": "The passage may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Having warned", "clickable": true, "isError": true, "correctAnswers": ["Having been warned"] },
-        { "id": "s2", "text": "about the risks,", "clickable": false },
-        { "id": "s3", "text": "the team,", "clickable": true, "isError": false },
-        { "id": "s4", "text": "which were responsible", "clickable": true, "isError": true, "correctAnswers": ["which was responsible","that was responsible"] },
-        { "id": "s5", "text": "for the safety checks,", "clickable": false },
-        { "id": "s6", "text": "proceeded cautiously,", "clickable": true, "isError": false },
-        { "id": "s7", "text": "neither of the supervisors being aware", "clickable": true, "isError": false },
-        { "id": "s8", "text": "of the final decision.", "clickable": false }
+        { "id": "s1", "text": "Having", "clickable": false },
+        { "id": "s2", "text": "warning", "clickable": true, "isError": true, "correctAnswers": ["been warned"] },
+        { "id": "s3", "text": "about the risks,", "clickable": false },
+        { "id": "s4", "text": "the team,", "clickable": true, "isError": false },
+        { "id": "s5", "text": "which were responsible", "clickable": true, "isError": true, "correctAnswers": ["which was responsible","that was responsible"] },
+        { "id": "s6", "text": "for the safety checks,", "clickable": false },
+        { "id": "s7", "text": "proceeded cautiously,", "clickable": true, "isError": false },
+        { "id": "s8", "text": "neither of the supervisors being aware", "clickable": true, "isError": false },
+        { "id": "s9", "text": "of the final decision.", "clickable": false }
       ],
       "explanationDetails": {
         "id": "GRAM-0003",
