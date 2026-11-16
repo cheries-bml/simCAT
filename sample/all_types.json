@@ -1,6 +1,10 @@
 {
   "meta": {
     "title": "Test title",
+    "description": "Question Description",
+    "show_answer": true,
+    "show_explanation": true,
+    "no_timer": true,
     "timeLimits": {
       "fast": 20,
       "normal": 35,
