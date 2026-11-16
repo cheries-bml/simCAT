@@ -152,7 +152,8 @@
   /* --- UI: button + modal --- */
   function buildUI() {
     injectCSS();
-    if (document.getElementById('tg-overlay')) return;
+    if (!document.body) return false;
+    if (document.getElementById('tg-overlay')) return true;
 
     var overlay = document.createElement('div');
     overlay.id = 'tg-overlay';
@@ -212,10 +213,11 @@
     document.getElementById('tg-prev').addEventListener('click', function () { goTo(state.idx - 1); });
     document.getElementById('tg-next').addEventListener('click', function () { goTo(state.idx + 1); });
     document.getElementById('tg-submit').addEventListener('click', submitTest);
+    return true;
   }
 
   function openModal() {
-    buildUI();
+    if (!buildUI()) { setTimeout(openModal, 300); return; }
     document.getElementById('tg-overlay').classList.add('open');
     var status = document.getElementById('tg-status');
     status.textContent = 'Loading via app manifest…';
@@ -242,21 +244,37 @@
 
   /* --- Inject button before Favorites --- */
   function ensureButton() {
-    buildUI();
+    if (!buildUI()) return false;
     if (document.getElementById('tg-add-on-btn')) return true;
     var fav = null;
-    var btns = Array.prototype.slice.call(document.querySelectorAll('button'));
+    var btns = Array.prototype.slice.call(document.querySelectorAll('button, [role="button"], a'));
     for (var i = 0; i < btns.length; i++) {
-      if (normalize(btns[i].textContent) === 'favorites' || normalize(btns[i].textContent) === 'favourites') { fav = btns[i]; break; }
+      var t = normalize(btns[i].textContent) + ' ' + normalize(btns[i].getAttribute('aria-label') || '') + ' ' + normalize(btns[i].getAttribute('title') || '');
+      if (t.indexOf('favor') >= 0 || t.indexOf('favour') >= 0) { fav = btns[i]; break; }
     }
-    if (!fav) return false;
-    // Only inject on Take Test page: header should be near a Take Test heading / test area
+    // Fallback: if Favorites is not on screen yet (e.g. you are on Dashboard,
+    // or Favorites has an icon-only label), show a floating Test Gen button
+    // top-right so the feature is still reachable. It moves next to Favorites
+    // automatically once Favorites appears.
+    if (!fav) {
+      if (document.getElementById('tg-fallback-btn')) return false;
+      var fb = document.createElement('button');
+      fb.id = 'tg-fallback-btn';
+      fb.type = 'button';
+      fb.textContent = 'Test Gen';
+      fb.style.cssText = 'position:fixed;top:12px;right:12px;z-index:9997;padding:10px 16px;border-radius:11px;background:#0F172A;color:#fff;border:none;cursor:pointer;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.3)';
+      fb.addEventListener('click', openModal);
+      document.body.appendChild(fb);
+      return false;
+    }
+    // Favorites found — remove fallback if it exists, place real button before Favorites
+    var oldFb = document.getElementById('tg-fallback-btn');
+    if (oldFb) oldFb.remove();
     var btn = document.createElement('button');
     btn.id = 'tg-add-on-btn';
     btn.type = 'button';
     btn.textContent = 'Test Gen';
     btn.className = fav.className || '';
-    // If Favorites has no class (unstyled), give it a visible fallback
     if (!btn.className) {
       btn.style.cssText = 'padding:8px 12px;border-radius:10px;border:1px solid #CBD5E1;background:#fff;cursor:pointer;font-weight:700;margin-right:8px';
     } else {
@@ -532,16 +550,33 @@
     });
   }
 
-  // Boot: keep trying to inject the button as React re-renders
-  injectCSS();
-  buildUI();
-  var tries = 0;
-  var iv = setInterval(function () {
-    tries++;
-    if (ensureButton() || tries > 60) clearInterval(iv);
-  }, 500);
-  var mo = new MutationObserver(function () { ensureButton(); });
-  mo.observe(document.documentElement, { childList: true, subtree: true });
+  // Boot: works whether the script is in <head> or before </body>.
+  // If in <head>, document.body does not exist yet, so wait for it.
+  function boot() {
+    if (!document.body) { setTimeout(boot, 200); return; }
+    injectCSS();
+    buildUI();
+    var tries = 0;
+    var iv = setInterval(function () {
+      tries++;
+      if (ensureButton() || tries > 120) clearInterval(iv);
+    }, 500);
+    var mo = new MutationObserver(function () { ensureButton(); });
+    mo.observe(document.documentElement, { childList: true, subtree: true });
+    // Debug helper: in Console, type TGAddon.debug() to see what it found
+    window.TGAddon.debug = function () {
+      var btns = Array.prototype.slice.call(document.querySelectorAll('button, [role="button"], a')).map(function (b) { return (b.textContent || '').trim().slice(0, 60); });
+      return { hasBody: !!document.body, hasOverlay: !!document.getElementById('tg-overlay'), hasBtn: !!document.getElementById('tg-add-on-btn'), hasFallback: !!document.getElementById('tg-fallback-btn'), buttonsFound: btns };
+    };
+    console.log('[Test Gen add-on] loaded. If no button, type TGAddon.debug() in Console.');
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 
-  window.TGAddon = { open: openModal, ensureButton: ensureButton };
+  window.TGAddon = window.TGAddon || { open: openModal, ensureButton: ensureButton };
+  window.TGAddon.open = openModal;
+  window.TGAddon.ensureButton = ensureButton;
 })();
