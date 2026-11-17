@@ -1,389 +1,239 @@
-/* Test Gen add-on v2 for CAT v2.7.57 (locked) — REPLACES test-gen-addon.js
- * Use this file, not the old one. The old file kept getting overwritten.
- * Usage: in a COPY of v2.7.57, add ONE line (in <head> or before </body>):
- *   <script src="test-gen-addon-v2.js"></script>
- * Fixes in v2:
- *  - Button ONLY on Take Test page (never Dashboard). It checks for the
- *    Take Test heading / SELECT+Favorites+REFRESH together. If you leave
- *    Take Test, the button removes itself.
- *  - Button clones Favorites exactly (same class, same size) + 🧪 icon.
- *  - After START, it tries to hand the generated questions to the real
- *    Take Test engine via window.startGeneratedTest / window.__CAT__.startTest.
- *    If the base app has no hook (it doesn't today), it runs the test in a
- *    runner that uses the SAME Take Test layout: Take Test title, Q X/Y,
- *    timer, Prev/Next/Submit, same multi_error padding 2px 5px / margin 2px 3px.
+/* Auto Gen add-on v1 for CAT v2.7.52 (locked)
+ * Usage: in a COPY of v2.7.52, add ONE line right before </body>:
+ *   <script src="auto-gen-addon-v1.js"></script>
+ * Put this file next to that copy. If it breaks, delete that one line
+ * and you are back to working v2.7.52.
+ * It never edits the base app. It only injects an "Auto Gen" card
+ * next to "Quiz Blitz" on the Games page, and opens its own setup modal.
+ * v1 = card + setup only. START just confirms the setup was captured.
+ * The full test engine (no LIVES, no Hint, Take Test-style play)
+ * comes in v2, on top of this same card.
  */
 (function () {
-  if (window.__TG_ADDON_V2_LOADED) return;
-  window.__TG_ADDON_V2_LOADED = true;
+  if (window.__AUTO_GEN_ADDON_LOADED) return;
+  window.__AUTO_GEN_ADDON_LOADED = true;
 
   var CSS = ''
-    + '#tg-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:9998;display:none;align-items:center;justify-content:center;padding:16px}'
-    + '#tg-overlay.open{display:flex}'
-    + '#tg-modal{background:#fff;color:#0F172A;border-radius:16px;max-width:520px;width:100%;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.35);max-height:90vh;overflow:auto}'
-    + '#tg-modal h2{margin:0 0 4px;font-size:20px}'
-    + '#tg-modal p.sub{margin:0 0 16px;color:#64748B;font-size:13px}'
-    + '.tg-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #E2E8F0}'
-    + '.tg-row label{font-weight:600}'
-    + '.tg-row input[type=number]{width:90px;padding:8px 10px;border:1px solid #CBD5E1;border-radius:8px;font-size:15px}'
-    + '.tg-total{font-weight:800;padding:12px 0 4px}'
-    + '.tg-opts{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}'
-    + '.tg-opts label{display:flex;align-items:center;gap:7px;padding:8px 12px;border:1px solid #CBD5E1;border-radius:999px;cursor:pointer;font-weight:600;font-size:13px;background:#F8FAFC}'
-    + '.tg-opts label.checked{background:#0F172A;color:#fff;border-color:#0F172A}'
-    + '#tg-status{font-size:12px;color:#64748B;margin:8px 0;min-height:18px}'
-    + '.tg-btns{display:flex;gap:10px;justify-content:flex-end;margin-top:12px}'
-    + '.tg-btns button{padding:10px 16px;border-radius:10px;border:1px solid #CBD5E1;background:#fff;cursor:pointer;font-weight:700}'
-    + '#tg-start{background:#0F172A;color:#fff;border-color:#0F172A}'
-    + '#tg-start:disabled{opacity:.45;cursor:not-allowed}'
-    + '#tg-runner{position:fixed;inset:0;background:#F8FAFC;color:#0F172A;z-index:9999;display:none;flex-direction:column}'
-    + '#tg-runner.open{display:flex}'
-    + '#tg-run-head{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 18px;background:#fff;border-bottom:1px solid #E2E8F0;flex-wrap:wrap}'
-    + '#tg-run-body{padding:20px;max-width:760px;width:100%;margin:0 auto;overflow:auto;flex:1}'
-    + '#tg-run-body h3{font-size:18px;line-height:1.5;margin:0 0 12px}'
-    + '#tg-passage{background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:14px;margin:0 0 14px;line-height:1.6;white-space:pre-wrap}'
-    + '.tg-opt{display:block;width:100%;text-align:left;padding:12px 14px;margin:0 0 8px;background:#fff;border:1px solid #CBD5E1;border-radius:10px;cursor:pointer}'
-    + '.tg-opt.selected{background:#0F172A;color:#fff;border-color:#0F172A}'
-    + '.tg-seg{display:inline-block;padding:2px 5px;margin:2px 3px;border-radius:8px;border:1px solid transparent;cursor:pointer;background:#fff}'
-    + '.tg-seg.selected{background:rgba(255,232,204,.2);border:1px solid #F59E0B}'
-    + '.tg-seg .idx{font-size:.85em;opacity:.7;margin-right:4px}'
-    + '.tg-corr{width:100%;padding:8px 10px;margin:6px 0 12px;border:1px solid #F59E0B;border-radius:8px}'
-    + '.tg-token{display:inline-block;padding:4px 7px;margin:2px;border:1px solid #CBD5E1;border-radius:8px;cursor:pointer;background:#fff}'
-    + '.tg-token.selected{background:#FEE2E2;border-color:#EF4444}'
-    + '#tg-run-foot{display:flex;gap:10px;justify-content:space-between;padding:14px 18px;background:#fff;border-top:1px solid #E2E8F0}'
-    + '#tg-run-foot button{padding:10px 16px;border-radius:10px;border:1px solid #CBD5E1;background:#fff;cursor:pointer;font-weight:700}'
-    + '#tg-submit{background:#0F172A;color:#fff;border-color:#0F172A}'
-    + '.tg-result{margin:0 0 10px;padding:12px;background:#fff;border:1px solid #E2E8F0;border-radius:10px}'
-    + '.tg-result.good{border-color:#22C55E}.tg-result.bad{border-color:#EF4444}';
+    + '#ag-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:9998;display:none;align-items:center;justify-content:center;padding:16px}'
+    + '#ag-overlay.open{display:flex}'
+    + '#ag-modal{background:#fff;color:#0F172A;border-radius:16px;max-width:520px;width:100%;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.35);max-height:90vh;overflow:auto}'
+    + '#ag-modal h2{margin:0 0 4px;font-size:20px}'
+    + '#ag-modal p.sub{margin:0 0 16px;color:#64748B;font-size:13px}'
+    + '.ag-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #E2E8F0}'
+    + '.ag-row label{font-weight:600}'
+    + '.ag-row input[type=number]{width:90px;padding:8px 10px;border:1px solid #CBD5E1;border-radius:8px;font-size:15px}'
+    + '.ag-total{font-weight:800;padding:12px 0 4px}'
+    + '.ag-opts{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}'
+    + '.ag-opts label{display:flex;align-items:center;gap:7px;padding:8px 12px;border:1px solid #CBD5E1;border-radius:999px;cursor:pointer;font-weight:600;font-size:13px;background:#F8FAFC}'
+    + '.ag-opts label.checked{background:#0F172A;color:#fff;border-color:#0F172A}'
+    + '.ag-opts input{accent-color:#0F172A}'
+    + '#ag-status{font-size:12px;color:#64748B;margin:8px 0 0}'
+    + '#ag-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0F172A;color:#fff;padding:10px 16px;border-radius:999px;font-size:13px;font-weight:600;z-index:9999;display:none;box-shadow:0 10px 30px rgba(0,0,0,.3)}'
+    + '#auto-gen-card{cursor:pointer}';
+  var st = document.createElement('style');
+  st.textContent = CSS;
+  document.head.appendChild(st);
 
-  function injectCSS() {
-    if (!document.head || document.getElementById('tg-addon-css')) return;
-    var s = document.createElement('style'); s.id = 'tg-addon-css'; s.textContent = CSS;
-    document.head.appendChild(s);
-  }
-  function normalize(v) { return String(v == null ? '' : v).trim().toLowerCase(); }
-  function textOf(q) { return q.question || q.text || q.stem || q.prompt || q.title || '(No question text)'; }
-  function passageOf(q) { return q.passage || q.context || q.reading || q.story || ''; }
-  function difficultyOf(q) {
-    var raw = '';
-    if (q.meta && q.meta.level != null) raw = String(q.meta.level);
-    else if (q.level != null) raw = String(q.level);
-    else if (q.difficulty != null) raw = String(q.difficulty);
-    else if (q.meta && q.meta.difficulty != null) raw = String(q.meta.difficulty);
-    raw = raw.toLowerCase().trim();
-    if (raw === '1' || raw === 'easy' || raw === 'beginner' || raw === 'a1' || raw === 'a2') return 'Easy';
-    if (raw === '3' || raw === 'hard' || raw === 'advanced' || raw === 'difficult' || raw === 'c1' || raw === 'c2') return 'Hard';
-    return 'Medium';
-  }
-  function shuffle(a) { var arr = a.slice(); for (var i = arr.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = arr[i]; arr[i] = arr[j]; arr[j] = t; } return arr; }
-  function asArray(x) { if (!x) return []; if (Array.isArray(x)) return x; if (Array.isArray(x.questions)) return x.questions; if (Array.isArray(x.data)) return x.data; if (Array.isArray(x.items)) return x.items; return [x]; }
-  function escapeHtml(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function normalize(s) { return (s || '').toLowerCase().replace(/\s+/g, ' ').trim(); }
 
-  async function loadPool(statusEl) {
-    if (Array.isArray(window.__CAT_QUESTIONS) && window.__CAT_QUESTIONS.length) return { pool: window.__CAT_QUESTIONS, source: 'app question pool' };
-    var urls = ['./data/questions-manifest.json', 'data/questions-manifest.json'];
-    for (var mi = 0; mi < urls.length; mi++) {
-      try {
-        if (statusEl) statusEl.textContent = 'Loading via app manifest…';
-        var res = await fetch(urls[mi]); if (!res.ok) continue;
-        var man = await res.json(); var entries = [];
-        if (Array.isArray(man)) entries = man;
-        else if (Array.isArray(man.files)) entries = man.files;
-        else if (Array.isArray(man.tests)) entries = man.tests;
-        else if (Array.isArray(man.questions)) return { pool: man.questions, source: 'app manifest' };
-        else if (man && typeof man === 'object') Object.keys(man).forEach(function (k) { if (typeof man[k] === 'string') entries.push(man[k]); });
-        if (!entries.length) continue;
-        var pool = [];
-        for (var ei = 0; ei < entries.length; ei++) {
-          var e = entries[ei]; var url = typeof e === 'string' ? e : (e.path || e.file || e.url || '');
-          if (!url) continue;
-          try { var r = await fetch(url); if (!r.ok) continue; pool = pool.concat(asArray(await r.json())); } catch (err) {}
-        }
-        if (pool.length) return { pool: pool, source: 'app manifest (' + pool.length + ' questions)' };
-      } catch (err) {}
-    }
-    return { pool: [], source: 'none' };
-  }
-
-  function buildUI() {
-    injectCSS();
-    if (!document.body) return false;
-    if (document.getElementById('tg-overlay')) return true;
-    var overlay = document.createElement('div'); overlay.id = 'tg-overlay';
-    overlay.innerHTML = '<div id="tg-modal"><h2>Test Generator</h2><p class="sub">Choose how many questions for each difficulty, then START.</p>'
-      + '<div class="tg-row"><label>Easy</label><input id="tg-count-Easy" type="number" min="0" max="50" value="0"></div>'
-      + '<div class="tg-row"><label>Medium</label><input id="tg-count-Medium" type="number" min="0" max="50" value="0"></div>'
-      + '<div class="tg-row"><label>Hard</label><input id="tg-count-Hard" type="number" min="0" max="50" value="0"></div>'
-      + '<div class="tg-total" id="tg-total">Total: 0 questions</div>'
-      + '<div class="tg-opts"><label><input type="checkbox" id="tg-opt-FAST"> FAST</label><label class="checked"><input type="checkbox" id="tg-opt-NORMAL" checked> NORMAL</label><label><input type="checkbox" id="tg-opt-EASY"> EASY</label></div>'
-      + '<div id="tg-status">Source: —</div>'
-      + '<div class="tg-btns"><button id="tg-cancel" type="button">Cancel</button><button id="tg-start" type="button" disabled>START</button></div></div>';
-    document.body.appendChild(overlay);
-    var runner = document.createElement('div'); runner.id = 'tg-runner';
-    runner.innerHTML = '<div id="tg-run-head"><b id="tg-run-title">Take Test</b><span id="tg-run-timer"></span><button id="tg-run-close" type="button">✕ End test</button></div>'
-      + '<div id="tg-run-body"></div>'
-      + '<div id="tg-run-foot"><button id="tg-prev" type="button">← Prev</button><span id="tg-run-progress"></span><button id="tg-next" type="button">Next →</button><button id="tg-submit" type="button">Submit</button></div>';
-    document.body.appendChild(runner);
-    ['FAST', 'NORMAL', 'EASY'].forEach(function (name) {
-      var cb = document.getElementById('tg-opt-' + name);
-      cb.addEventListener('change', function () {
-        if (!cb.checked) { cb.checked = true; return; }
-        ['FAST', 'NORMAL', 'EASY'].forEach(function (o) { var el = document.getElementById('tg-opt-' + o); el.checked = (o === name); el.closest('label').classList.toggle('checked', el.checked); });
-      });
-    });
-    function updateTotal() {
-      var t = 0; ['Easy', 'Medium', 'Hard'].forEach(function (d) { t += parseInt(document.getElementById('tg-count-' + d).value || '0', 10) || 0; });
-      document.getElementById('tg-total').textContent = 'Total: ' + t + ' questions';
-      document.getElementById('tg-start').disabled = (t <= 0);
-    }
-    ['Easy', 'Medium', 'Hard'].forEach(function (d) { document.getElementById('tg-count-' + d).addEventListener('input', updateTotal); });
-    document.getElementById('tg-cancel').addEventListener('click', closeModal);
-    overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
-    document.getElementById('tg-start').addEventListener('click', startTest);
-    document.getElementById('tg-run-close').addEventListener('click', closeRunner);
-    document.getElementById('tg-prev').addEventListener('click', function () { goTo(state.idx - 1); });
-    document.getElementById('tg-next').addEventListener('click', function () { goTo(state.idx + 1); });
-    document.getElementById('tg-submit').addEventListener('click', submitTest);
+  function isGamesList() {
+    // Games list has Quiz Blitz card, but NOT the Quiz Blitz lobby.
+    var body = document.body ? document.body.innerText || '' : '';
+    if (!body) return false;
+    if (body.indexOf('Quiz Blitz') < 0) return false;
+    if (body.indexOf('Start Quiz Blitz') >= 0) return false;
+    if (body.indexOf('LIVES') >= 0 && body.indexOf('Quit Game') >= 0) return false;
     return true;
   }
-  function openModal() {
-    if (!buildUI()) { setTimeout(openModal, 300); return; }
-    document.getElementById('tg-overlay').classList.add('open');
-    var status = document.getElementById('tg-status');
-    status.textContent = 'Loading via app manifest…';
-    loadPool(status).then(function (res) {
-      state.pool = res.pool;
-      var counts = { Easy: 0, Medium: 0, Hard: 0 };
-      res.pool.forEach(function (q) { counts[difficultyOf(q)]++; });
-      status.textContent = res.pool.length ? 'Source: ' + res.source + ' — ' + res.pool.length + ' questions (Easy ' + counts.Easy + ' · Medium ' + counts.Medium + ' · Hard ' + counts.Hard + ')' : 'Source: could not load app pool. Open a test first, then try again.';
-    });
-  }
-  function closeModal() { var o = document.getElementById('tg-overlay'); if (o) o.classList.remove('open'); }
-  function closeRunner() { var r = document.getElementById('tg-runner'); if (r) r.classList.remove('open'); stopTimer(); }
 
-  function isTakeTestPage() {
-    var heads = document.querySelectorAll('h1, h2, h3, [role="heading"]');
-    var hasTake = false, hasDash = false;
-    for (var i = 0; i < heads.length; i++) { var ht = normalize(heads[i].textContent); if (ht === 'take test') hasTake = true; if (ht === 'dashboard') hasDash = true; }
-    if (hasTake) return true; if (hasDash) return false;
-    var actives = document.querySelectorAll('[aria-current="page"], .active, [aria-selected="true"]');
-    for (var a = 0; a < actives.length; a++) { if (normalize(actives[a].textContent).indexOf('take test') >= 0) return true; }
-    var btns = Array.prototype.slice.call(document.querySelectorAll('button, [role="button"]'));
-    var hasSelect = false, hasFav = false;
-    for (var b = 0; b < btns.length; b++) { var bt = normalize(btns[b].textContent); if (bt === 'select') hasSelect = true; if (bt.indexOf('favor') >= 0 || bt.indexOf('favour') >= 0) hasFav = true; }
-    if (hasSelect && hasFav) return true;
-    var loc = (window.location.hash + ' ' + window.location.pathname).toLowerCase();
-    if (loc.indexOf('take') >= 0) return true;
-    return false;
-  }
-
-  function ensureButton() {
-    if (!buildUI()) return false;
-    if (!isTakeTestPage()) { var old = document.getElementById('tg-add-on-btn'); if (old) old.remove(); return false; }
-    if (document.getElementById('tg-add-on-btn')) return true;
-    var cands = [];
-    var all = Array.prototype.slice.call(document.querySelectorAll('button, [role="button"], a'));
+  function findQuizCard() {
+    // Find the most likely Games-list card for Quiz Blitz.
+    var candidates = [];
+    var all = document.querySelectorAll('div, section, article, li, button, a');
     for (var i = 0; i < all.length; i++) {
-      var t = normalize(all[i].textContent) + ' ' + normalize(all[i].getAttribute('aria-label') || '');
-      if (t.indexOf('favor') < 0 && t.indexOf('favour') < 0) continue;
-      var parentText = all[i].parentNode ? normalize(all[i].parentNode.textContent) : '';
+      var el = all[i];
+      if (el.id === 'auto-gen-card') continue;
+      var txt = el.textContent || '';
+      if (txt.indexOf('Quiz Blitz') < 0) continue;
+      // Score: prefer small elements that directly contain the title,
+      // then walk up to a card-like container.
       var score = 0;
-      if (parentText.indexOf('select') >= 0) score += 3;
-      if (parentText.indexOf('refresh') >= 0) score += 2;
-      if (parentText.indexOf('take test') >= 0) score += 1;
-      cands.push({ el: all[i], score: score });
+      if (el.children.length <= 5) score += 3;
+      if (txt.length < 600) score += 2;
+      if (/button|card/i.test(el.className || '')) score += 2;
+      candidates.push({ el: el, score: score, len: txt.length });
     }
-    if (!cands.length) return false;
-    cands.sort(function (a, b) { return b.score - a.score; });
-    var fav = cands[0].el;
-    var btn = fav.cloneNode(true);
-    btn.id = 'tg-add-on-btn'; btn.type = 'button';
-    ['data-testid', 'data-id', 'data-action', 'aria-pressed', 'aria-label'].forEach(function (at) { btn.removeAttribute(at); });
-    btn.setAttribute('aria-label', 'Test Generator');
-    var replaced = false;
-    (function walk(node) {
-      for (var ci = 0; ci < node.childNodes.length; ci++) {
-        var child = node.childNodes[ci];
-        if (child.nodeType === 3) {
-          if (/favor/i.test(child.nodeValue) || /favour/i.test(child.nodeValue)) { child.nodeValue = child.nodeValue.replace(/favorites?/i, 'Test Gen').replace(/favourites?/i, 'Test Gen'); replaced = true; }
-          if (child.nodeValue && /[★☆♥⭐]/.test(child.nodeValue)) { child.nodeValue = child.nodeValue.replace(/[★☆♥⭐]/g, '🧪'); replaced = true; }
-        } else if (child.nodeType === 1) walk(child);
+    if (!candidates.length) return null;
+    candidates.sort(function (a, b) { return (b.score - a.score) || (a.len - b.len); });
+    var titleEl = candidates[0].el;
+    // Walk up to find the card: parent that looks like a card / grid item
+    // and still contains only this one game (not the whole page).
+    var node = titleEl;
+    for (var d = 0; d < 6; d++) {
+      var p = node.parentElement;
+      if (!p) break;
+      var ptxt = p.textContent || '';
+      // Card should contain Quiz Blitz once, plus a description/button,
+      // but not the whole Games page (which would be very long).
+      if (ptxt.length > 80 && ptxt.length < 1200 && ptxt.indexOf('Quiz Blitz') >= 0) {
+        // If parent is a grid / list that holds BOTH games, stop one level down.
+        var parentStyle = window.getComputedStyle ? window.getComputedStyle(p) : null;
+        var isGrid = parentStyle && (parentStyle.display === 'grid' || parentStyle.display === 'flex');
+        if (isGrid && p.children.length > 1) return node;
+        node = p;
+        // If this node itself looks like a card (border / background / padding),
+        // keep it as candidate and keep walking one more level to check grid.
+        continue;
       }
-    })(btn);
-    if (!replaced || normalize(btn.textContent).indexOf('test gen') < 0) {
-      btn.innerHTML = '<span aria-hidden="true" style="margin-right:6px">🧪</span>Test Gen';
-    } else if (normalize(btn.textContent).indexOf('🧪') < 0) {
-      btn.innerHTML = '<span aria-hidden="true" style="margin-right:6px">🧪</span>' + btn.innerHTML;
+      break;
     }
-    btn.style.marginRight = btn.style.marginRight || '8px';
-    btn.addEventListener('click', function (e) { e.preventDefault(); e.stopPropagation(); openModal(); });
-    fav.parentNode.insertBefore(btn, fav);
+    return node;
+  }
+
+  function replaceText(node, fromRe, toStr) {
+    for (var i = 0; i < node.childNodes.length; i++) {
+      var ch = node.childNodes[i];
+      if (ch.nodeType === 3) {
+        if (fromRe.test(ch.nodeValue)) ch.nodeValue = ch.nodeValue.replace(fromRe, toStr);
+      } else if (ch.nodeType === 1) {
+        replaceText(ch, fromRe, toStr);
+      }
+    }
+  }
+
+  function ensureModal() {
+    var existing = document.getElementById('ag-overlay');
+    if (existing) return existing;
+    var ov = document.createElement('div');
+    ov.id = 'ag-overlay';
+    ov.innerHTML = ''
+      + '<div id="ag-modal" role="dialog" aria-modal="true" aria-labelledby="ag-title">'
+      + '<h2 id="ag-title">🤖 Auto Gen</h2>'
+      + '<p class="sub">Build your own test — pick how many questions and difficulty, no lives, no hints, just like Take Test.</p>'
+      + '<div class="ag-row"><label for="ag-easy">Easy</label><input id="ag-easy" type="number" min="0" max="50" value="2"></div>'
+      + '<div class="ag-row"><label for="ag-med">Medium</label><input id="ag-med" type="number" min="0" max="50" value="3"></div>'
+      + '<div class="ag-row"><label for="ag-hard">Hard</label><input id="ag-hard" type="number" min="0" max="50" value="1"></div>'
+      + '<div class="ag-total" id="ag-total">Total: 6 questions</div>'
+      + '<div class="ag-opts" id="ag-modes">'
+      + '<label><input type="radio" name="ag-mode" value="FAST"> FAST (30s/q)</label>'
+      + '<label class="checked"><input type="radio" name="ag-mode" value="NORMAL" checked> NORMAL (60s/q)</label>'
+      + '<label><input type="radio" name="ag-mode" value="EASY"> EASY (No Timer)</label>'
+      + '</div>'
+      + '<p id="ag-status">v1 — setup only. START confirms your setup. Full Take Test-style play comes in v2.</p>'
+      + '<div style="display:flex;gap:10px;justify-content:flex-end;margin-top:16px">'
+      + '<button id="ag-cancel" type="button" style="padding:10px 16px;border:1px solid #CBD5E1;border-radius:10px;background:#fff;cursor:pointer;font-weight:600">Cancel</button>'
+      + '<button id="ag-start" type="button" style="padding:10px 18px;border:none;border-radius:10px;background:#0F172A;color:#fff;cursor:pointer;font-weight:700">START</button>'
+      + '</div></div>';
+    document.body.appendChild(ov);
+    var toast = document.createElement('div');
+    toast.id = 'ag-toast';
+    document.body.appendChild(toast);
+
+    function updateTotal() {
+      var e = parseInt(document.getElementById('ag-easy').value || '0', 10) || 0;
+      var m = parseInt(document.getElementById('ag-med').value || '0', 10) || 0;
+      var h = parseInt(document.getElementById('ag-hard').value || '0', 10) || 0;
+      var t = e + m + h;
+      document.getElementById('ag-total').textContent = 'Total: ' + t + ' question' + (t === 1 ? '' : 's');
+      document.getElementById('ag-start').disabled = (t === 0);
+      document.getElementById('ag-start').style.opacity = (t === 0) ? '0.4' : '1';
+    }
+    ['ag-easy', 'ag-med', 'ag-hard'].forEach(function (id) {
+      document.getElementById(id).addEventListener('input', updateTotal);
+    });
+    document.querySelectorAll('#ag-modes label').forEach(function (lab) {
+      lab.addEventListener('click', function () {
+        document.querySelectorAll('#ag-modes label').forEach(function (l) { l.classList.remove('checked'); });
+        lab.classList.add('checked');
+      });
+    });
+    document.getElementById('ag-cancel').addEventListener('click', closeModal);
+    ov.addEventListener('click', function (e) { if (e.target === ov) closeModal(); });
+    document.getElementById('ag-start').addEventListener('click', function () {
+      var e = parseInt(document.getElementById('ag-easy').value || '0', 10) || 0;
+      var m = parseInt(document.getElementById('ag-med').value || '0', 10) || 0;
+      var h = parseInt(document.getElementById('ag-hard').value || '0', 10) || 0;
+      var mode = (document.querySelector('input[name="ag-mode"]:checked') || {}).value || 'NORMAL';
+      closeModal();
+      showToast('Auto Gen setup captured — Easy ' + e + ' · Medium ' + m + ' · Hard ' + h + ' · ' + mode + '. Full play comes in v2.');
+      window.__AUTO_GEN_LAST_SETUP = { easy: e, medium: m, hard: h, total: e + m + h, mode: mode };
+    });
+    updateTotal();
+    return ov;
+  }
+  function openModal() { ensureModal().classList.add('open'); }
+  function closeModal() { var ov = document.getElementById('ag-overlay'); if (ov) ov.classList.remove('open'); }
+  function showToast(msg) {
+    var t = document.getElementById('ag-toast');
+    if (!t) return;
+    t.textContent = msg;
+    t.style.display = 'block';
+    clearTimeout(t._h);
+    t._h = setTimeout(function () { t.style.display = 'none'; }, 4000);
+  }
+
+  function tryInject() {
+    if (!isGamesList()) return false;
+    if (document.getElementById('auto-gen-card')) return true;
+    var quizCard = findQuizCard();
+    if (!quizCard || !quizCard.parentElement) return false;
+    // Don't inject if the card we found is the whole page / body.
+    if (quizCard === document.body || quizCard.parentElement === document.body) return false;
+
+    var clone = quizCard.cloneNode(true);
+    clone.id = 'auto-gen-card';
+    // Remove React / framework ids that could confuse re-renders.
+    clone.removeAttribute('data-testid');
+    // Rewrite title / description / icon.
+    replaceText(clone, /Quiz Blitz/g, 'Auto Gen');
+    replaceText(clone, /⚡/g, '🤖');
+    // Replace any description that mentions lives / hints / blitz.
+    var descs = clone.querySelectorAll('p, span, div');
+    for (var i = 0; i < descs.length; i++) {
+      var el = descs[i];
+      // Only leaf-ish nodes with short text, to avoid rewriting the whole card.
+      if (el.children.length === 0 && el.textContent) {
+        var t = el.textContent;
+        if (/lives|hint|blitz|fast.*quiz/i.test(t) && t.length < 300) {
+          el.textContent = 'Build your own test — pick how many questions and difficulty, no lives, no hints, just like Take Test.';
+        }
+      }
+    }
+    // Ensure there is a visible title if the clone lost it.
+    if (clone.textContent.indexOf('Auto Gen') < 0) {
+      var h = document.createElement('div');
+      h.style.fontWeight = '700';
+      h.style.fontSize = '18px';
+      h.textContent = '🤖 Auto Gen';
+      clone.prepend(h);
+    }
+    // Click opens our setup, not Quiz Blitz.
+    clone.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openModal();
+    }, true);
+    // Also intercept clicks on inner buttons/links.
+    var inners = clone.querySelectorAll('button, a');
+    for (var j = 0; j < inners.length; j++) {
+      inners[j].addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        openModal();
+      }, true);
+    }
+    quizCard.parentElement.insertBefore(clone, quizCard.nextSibling);
     return true;
   }
 
-  var state = { pool: [], picked: [], answers: {}, idx: 0, mode: 'NORMAL', timerId: null, secondsLeft: 0 };
-  function stopTimer() { if (state.timerId) { clearInterval(state.timerId); state.timerId = null; } }
-  function modeOf() { if (document.getElementById('tg-opt-FAST').checked) return 'FAST'; if (document.getElementById('tg-opt-EASY').checked) return 'EASY'; return 'NORMAL'; }
-  function tryRegularTestHandoff(picked, mode, notes) {
-    try {
-      window.__TG_GENERATED_TEST = { questions: picked, mode: mode, notes: notes, at: Date.now() };
-      try { localStorage.setItem('tg_generated_test', JSON.stringify(window.__TG_GENERATED_TEST)); } catch (e) {}
-      try { window.dispatchEvent(new CustomEvent('tg-generated-test', { detail: window.__TG_GENERATED_TEST })); } catch (e) {}
-      if (typeof window.startGeneratedTest === 'function') { window.startGeneratedTest(picked, mode); return true; }
-      if (window.__CAT__ && typeof window.__CAT__.startTest === 'function') { window.__CAT__.startTest(picked, mode); return true; }
-      if (window.CAT && typeof window.CAT.startTest === 'function') { window.CAT.startTest(picked, mode); return true; }
-    } catch (e) {}
-    return false;
-  }
-  function startTest() {
-    var wants = { Easy: parseInt(document.getElementById('tg-count-Easy').value || '0', 10) || 0, Medium: parseInt(document.getElementById('tg-count-Medium').value || '0', 10) || 0, Hard: parseInt(document.getElementById('tg-count-Hard').value || '0', 10) || 0 };
-    var total = wants.Easy + wants.Medium + wants.Hard;
-    if (!total) return;
-    if (!state.pool.length) { document.getElementById('tg-status').textContent = 'No questions loaded yet. Open a test first, then try again.'; return; }
-    var buckets = { Easy: [], Medium: [], Hard: [] };
-    state.pool.forEach(function (q) { buckets[difficultyOf(q)].push(q); });
-    var picked = [], notes = [];
-    ['Easy', 'Medium', 'Hard'].forEach(function (d) {
-      var n = wants[d]; if (!n) return;
-      var avail = shuffle(buckets[d]);
-      if (avail.length < n) notes.push('Only ' + avail.length + ' ' + d + ' available');
-      picked = picked.concat(avail.slice(0, n));
-    });
-    if (!picked.length) { document.getElementById('tg-status').textContent = 'No questions matched those difficulties.'; return; }
-    state.picked = shuffle(picked); state.answers = {}; state.idx = 0; state.mode = modeOf();
-    if (tryRegularTestHandoff(state.picked, state.mode, notes)) { closeModal(); return; }
-    closeModal();
-    var runner = document.getElementById('tg-runner'); runner.classList.add('open');
-    document.getElementById('tg-run-title').textContent = 'Take Test — Generated Test • ' + state.mode + (notes.length ? ' • ' + notes.join(' • ') : '');
-    var perQ = state.mode === 'FAST' ? 30 : state.mode === 'NORMAL' ? 60 : 0;
-    state.secondsLeft = perQ ? perQ * state.picked.length : 0;
-    stopTimer();
-    if (perQ) { updateTimerLabel(); state.timerId = setInterval(function () { state.secondsLeft--; updateTimerLabel(); if (state.secondsLeft <= 0) { stopTimer(); submitTest(); } }, 1000); }
-    else document.getElementById('tg-run-timer').textContent = 'No Timer';
-    goTo(0);
-  }
-  function updateTimerLabel() { var m = Math.floor(state.secondsLeft / 60); var s = state.secondsLeft % 60; document.getElementById('tg-run-timer').textContent = 'Time left ' + m + ':' + (s < 10 ? '0' + s : s); }
-  function goTo(i) { if (i < 0) i = 0; if (i >= state.picked.length) i = state.picked.length - 1; state.idx = i; renderQuestion(); }
-
-  function renderQuestion() {
-    var body = document.getElementById('tg-run-body');
-    var q = state.picked[state.idx];
-    if (!q) { body.innerHTML = '<p>No questions.</p>'; return; }
-    document.getElementById('tg-run-progress').textContent = 'Q ' + (state.idx + 1) + ' / ' + state.picked.length;
-    var html = '';
-    var passage = passageOf(q);
-    if (passage) html += '<div id="tg-passage">' + escapeHtml(passage) + '</div>';
-    html += '<h3>' + escapeHtml(textOf(q)) + '</h3><div id="tg-q-area"></div>';
-    body.innerHTML = html;
-    var area = document.getElementById('tg-q-area');
-    var key = 'q' + state.idx;
-    var segs = q.multiErrorSegments || q.segments || q.errors || null;
-    if (Array.isArray(segs) && segs.length) {
-      var saved = state.answers[key] || { selected: [], corrections: {} }; state.answers[key] = saved;
-      segs.forEach(function (seg, si) {
-        var txt = typeof seg === 'string' ? seg : (seg.text || seg.word || '');
-        var b = document.createElement('button'); b.type = 'button';
-        b.className = 'tg-seg' + (saved.selected.indexOf(si) >= 0 ? ' selected' : '');
-        b.innerHTML = '<span class="idx">' + (si + 1) + '</span>' + escapeHtml(txt);
-        b.addEventListener('click', function () { var at = saved.selected.indexOf(si); if (at >= 0) saved.selected.splice(at, 1); else saved.selected.push(si); renderQuestion(); });
-        area.appendChild(b); area.appendChild(document.createTextNode(' '));
-        if (saved.selected.indexOf(si) >= 0) { var inp = document.createElement('input'); inp.className = 'tg-corr'; inp.placeholder = 'Correction for #' + (si + 1); inp.value = saved.corrections[si] || ''; inp.addEventListener('input', function () { saved.corrections[si] = inp.value; }); area.appendChild(inp); }
-      });
-      var hint = document.createElement('p'); hint.style.cssText = 'color:#64748B;font-size:13px'; hint.textContent = 'Tap a phrase to mark it as an error, then type the correction.'; area.appendChild(hint);
-      return;
-    }
-    var tokens = q.tokens || q.words || null;
-    if (Array.isArray(tokens) && tokens.length) {
-      var tSaved = state.answers[key] || { selected: [] }; state.answers[key] = tSaved;
-      tokens.forEach(function (tok, ti) {
-        var t = typeof tok === 'string' ? tok : (tok.text || tok.word || '');
-        var b = document.createElement('button'); b.type = 'button';
-        b.className = 'tg-token' + (tSaved.selected.indexOf(ti) >= 0 ? ' selected' : ''); b.textContent = t;
-        b.addEventListener('click', function () { var at = tSaved.selected.indexOf(ti); if (at >= 0) tSaved.selected.splice(at, 1); else tSaved.selected.push(ti); renderQuestion(); });
-        area.appendChild(b);
-      });
-      var corr = document.createElement('input'); corr.className = 'tg-corr'; corr.placeholder = 'Correction (if any)'; corr.value = (state.answers[key] && state.answers[key].correction) || ''; corr.addEventListener('input', function () { state.answers[key].correction = corr.value; }); area.appendChild(corr);
-      return;
-    }
-    var opts = q.options || q.choices || q.answers || null;
-    if (Array.isArray(opts) && opts.length) {
-      var multi = !!(q.multiple || q.multiCorrect || (Array.isArray(q.correctAnswer) && q.correctAnswer.length > 1));
-      var oSaved = state.answers[key]; if (oSaved == null) oSaved = multi ? [] : -1; state.answers[key] = oSaved;
-      opts.forEach(function (opt, oi) {
-        var label = typeof opt === 'string' ? opt : (opt.text || opt.label || JSON.stringify(opt));
-        var b = document.createElement('button'); b.type = 'button';
-        b.className = 'tg-opt' + ((multi ? oSaved.indexOf(oi) >= 0 : oSaved === oi) ? ' selected' : ''); b.textContent = label;
-        b.addEventListener('click', function () { if (multi) { var at = oSaved.indexOf(oi); if (at >= 0) oSaved.splice(at, 1); else oSaved.push(oi); } else state.answers[key] = oi; renderQuestion(); });
-        area.appendChild(b);
-      });
-      return;
-    }
-    var inp = document.createElement('input'); inp.className = 'tg-corr'; inp.placeholder = 'Type your answer'; inp.value = state.answers[key] || ''; inp.addEventListener('input', function () { state.answers[key] = inp.value; }); area.appendChild(inp);
-  }
-  function isCorrect(q, ans) {
-    var segs = q.multiErrorSegments || q.segments || null;
-    if (Array.isArray(segs) && segs.length) {
-      var expected = []; segs.forEach(function (seg, si) { if (seg && (seg.isError || seg.error || seg.incorrect)) expected.push(si); });
-      if (!expected.length && q.errorIndices) expected = q.errorIndices;
-      if (!expected.length) return null;
-      var sel = (ans && ans.selected) || [];
-      if (sel.length !== expected.length) return false;
-      var s1 = sel.slice().sort(function (a, b) { return a - b; }); var s2 = expected.slice().sort(function (a, b) { return a - b; });
-      for (var i = 0; i < s2.length; i++) if (s1[i] !== s2[i]) return false;
-      for (var j = 0; j < expected.length; j++) { var seg = segs[expected[j]]; var want = seg && (seg.correction || seg.correct || seg.fix || ''); if (want) { var got = (ans.corrections && ans.corrections[expected[j]]) || ''; if (normalize(got) !== normalize(want)) return false; } }
-      return true;
-    }
-    var tokens = q.tokens || q.words || null;
-    if (Array.isArray(tokens) && tokens.length) {
-      var idx = q.incorrectIndex != null ? q.incorrectIndex : (q.meta && q.meta.incorrectIndex);
-      if (idx == null) return null;
-      var tSel = (ans && ans.selected) || [];
-      if (tSel.length !== 1 || tSel[0] !== idx) return false;
-      var wantT = q.correction || (q.meta && q.meta.correction) || '';
-      if (wantT && normalize(ans.correction || '') !== normalize(wantT)) return false;
-      return true;
-    }
-    var opts = q.options || q.choices || null;
-    if (Array.isArray(opts) && opts.length) {
-      var correct = q.correctAnswer != null ? q.correctAnswer : (q.correctIndex != null ? q.correctIndex : (q.answer != null ? q.answer : (q.meta && q.meta.correctAnswer)));
-      if (correct == null) return null;
-      if (Array.isArray(correct)) { var selArr = Array.isArray(ans) ? ans.slice().sort() : []; return JSON.stringify(selArr) === JSON.stringify(correct.slice().sort()); }
-      if (typeof correct === 'number') return ans === correct;
-      var ci = -1; for (var k = 0; k < opts.length; k++) { var lt = typeof opts[k] === 'string' ? opts[k] : (opts[k].text || ''); if (normalize(lt) === normalize(correct)) { ci = k; break; } }
-      if (ci >= 0) return ans === ci; return null;
-    }
-    var wantText = q.correctAnswer || q.answer || (q.meta && q.meta.answer) || '';
-    if (wantText) return normalize(ans || '') === normalize(wantText);
-    return null;
-  }
-  function submitTest() {
-    stopTimer();
-    var body = document.getElementById('tg-run-body');
-    var correctCount = 0, scored = 0, html = '<h3>Result</h3>';
-    state.picked.forEach(function (q, i) {
-      var res = isCorrect(q, state.answers['q' + i]);
-      if (res === true) correctCount++; if (res !== null) scored++;
-      var cls = res === true ? ' good' : res === false ? ' bad' : '';
-      var label = res === true ? '✓ Correct' : res === false ? '✗ Wrong' : '• Answered';
-      html += '<div class="tg-result' + cls + '"><b>Q' + (i + 1) + ' — ' + label + '</b><div>' + escapeHtml(textOf(q)) + '</div></div>';
-    });
-    html += '<p><b>Score: ' + correctCount + ' / ' + state.picked.length + '</b>' + (scored < state.picked.length ? ' (some questions could not be auto-scored)' : '') + '</p>';
-    html += '<p><button id="tg-done" type="button" style="padding:10px 16px;border-radius:10px;background:#0F172A;color:#fff;border:none;cursor:pointer;font-weight:700">Done</button></p>';
-    body.innerHTML = html;
-    document.getElementById('tg-run-foot').style.display = 'none';
-    document.getElementById('tg-done').addEventListener('click', function () { document.getElementById('tg-run-foot').style.display = ''; closeRunner(); });
-  }
-
-  function boot() {
-    if (!document.body) { setTimeout(boot, 200); return; }
-    injectCSS(); buildUI();
-    var iv = setInterval(function () { ensureButton(); }, 500);
-    setTimeout(function () { clearInterval(iv); }, 60000);
-    var mo = new MutationObserver(function () { ensureButton(); });
-    mo.observe(document.documentElement, { childList: true, subtree: true });
-    window.TGAddonV2 = { open: openModal, ensureButton: ensureButton, isTakeTestPage: isTakeTestPage };
-    window.TGAddon = window.TGAddonV2;
-    console.log('[Test Gen v2] loaded. Take Test only.');
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
-  else boot();
+  // Re-try because CAT is a SPA: Games page mounts after nav clicks.
+  function scan() { tryInject(); }
+  setInterval(scan, 800);
+  var mo = new MutationObserver(function () { scan(); });
+  if (document.body) mo.observe(document.body, { childList: true, subtree: true });
+  document.addEventListener('click', function () { setTimeout(scan, 300); }, true);
+  window.addEventListener('hashchange', function () { setTimeout(scan, 300); });
+  document.addEventListener('DOMContentLoaded', scan);
+  setTimeout(scan, 500);
+  setTimeout(scan, 1500);
 })();
