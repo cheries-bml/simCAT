@@ -146,10 +146,11 @@
     // var note = document.createElement('div');
     // note.id = 'qb-pause-note';
     // note.textContent = 'Pause freezes the countdown. Resume continues from where it froze.';
-    box.appendChild(btn);
+    // box.appendChild(btn);
     // box.appendChild(statusEl);
     // box.appendChild(note);
-    document.body.appendChild(box);
+    // document.body.appendChild(box);
+    document.body.appendChild(btn);
     return box;
   }
 
