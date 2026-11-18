@@ -131,7 +131,7 @@
     if (box) return box;
     box = document.createElement('div');
     box.id = 'qb-pause-box';
-    box.innerHTML = '<h3>QUIZ BLITZ TIMER</h3>';
+    // box.innerHTML = '<h3>QUIZ BLITZ TIMER</h3>';
     btn = document.createElement('button');
     btn.id = 'qb-pause-btn';
     btn.type = 'button';
@@ -140,15 +140,15 @@
       e.preventDefault(); e.stopPropagation();
       if (paused) resumeTimer(); else pauseTimer();
     });
-    statusEl = document.createElement('div');
-    statusEl.id = 'qb-pause-status';
-    statusEl.textContent = 'Timer Running';
-    var note = document.createElement('div');
-    note.id = 'qb-pause-note';
-    note.textContent = 'Pause freezes the countdown. Resume continues from where it froze.';
+    // statusEl = document.createElement('div');
+    // statusEl.id = 'qb-pause-status';
+    // statusEl.textContent = 'Timer Running';
+    // var note = document.createElement('div');
+    // note.id = 'qb-pause-note';
+    // note.textContent = 'Pause freezes the countdown. Resume continues from where it froze.';
     box.appendChild(btn);
-    box.appendChild(statusEl);
-    box.appendChild(note);
+    // box.appendChild(statusEl);
+    // box.appendChild(note);
     document.body.appendChild(box);
     return box;
   }
