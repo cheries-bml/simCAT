@@ -983,7 +983,7 @@
         "C": "had kept / wore",
         "D": "am keeping / had worn"
       },
-      "correctAnswer": "A",
+      "correctAnswer": ["A","D"],
       "explanation": "Present perfect for a state continuing to the present, past continuous for an action in progress at a specific past time.",
       "explanationDetails": {
         "id": "GRAM-0013",
