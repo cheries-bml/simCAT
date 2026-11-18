@@ -5,61 +5,55 @@
     "show_answer": true,
     "show_explanation": true,
     "no_timer": true,
-    "timeLimits": { "fast": 8, "normal": 14, "easy": 25 },
-    "updatedAt": "use current datetime with format MMMM dd, yyyy HH:mm:ss"
+    "timeLimits": { "fast": 8, "normal": 14, "easy": 25 }
   },
   "questions": [
     {
       "id": "01",
       "type": "multi_error",
-      "question": "The sentence may contain 0, 1 or multiple errors. Click the incorrect parts and type the correct form. If no error, choose No Error.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "If", "clickable": false },
-        { "id": "s2", "text": "I would have studied", "clickable": true, "isError": true, "correctAnswers": ["I had studied", "I had studied harder"] },
-        { "id": "s3", "text": "harder,", "clickable": false },
-        { "id": "s4", "text": "I would have passed", "clickable": false },
-        { "id": "s5", "text": "the exam.", "clickable": false }
+        { "id": "s1", "text": "Having", "clickable": false },
+        { "id": "s2", "text": "warning", "clickable": true, "isError": true, "correctAnswers": ["been warned"] },
+        { "id": "s3", "text": "about the risks,", "clickable": false },
+        { "id": "s4", "text": "the team,", "clickable": true, "isError": false },
+        { "id": "s5", "text": "which were responsible", "clickable": true, "isError": true, "correctAnswers": ["which was responsible","that was responsible"] },
+        { "id": "s6", "text": "for the safety checks,", "clickable": false },
+        { "id": "s7", "text": "proceeded cautiously,", "clickable": true, "isError": false },
+        { "id": "s8", "text": "neither of the supervisors being aware", "clickable": true, "isError": false },
+        { "id": "s9", "text": "of the final decision.", "clickable": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-0001",
-        "slug": "explanation-topic",
+        "id": "GRAM-0003",
+        "slug": "passive-participle-and-relative-agreement",
         "details_explanation": {
-          "explanation": "Explanation here",
-          "introduction": "Introduction here",
+          "explanation": "The opening participle clause is passive in meaning ('the team had been warned'), so it must be 'Having been warned'. The relative clause refers to 'the team', which is treated as a singular unit here, so 'which was responsible'. 'Neither of the supervisors being aware' is a correct absolute construction.",
+          "introduction": "Perfect participle clauses can be active ('Having finished') or passive ('Having been warned'). Relative pronoun agreement depends on the noun the clause modifies.",
           "rules": [
             {
-              "title": "1. Rule One",
-              "explanation": "rule explanation",
-              "structure": "structure here",
-              "notes": ["notes 1", "notes 2"]
+              "title": "1. Passive perfect participle",
+              "explanation": "Use 'having been + past participle' when the subject receives the action.",
+              "structure": "Having been + past participle, main clause",
+              "notes": ["'Having warned' would mean the team did the warning."]
             },
             {
-              "title": "2. Rule Two",
-              "explanation": "rule explanation",
-              "structure": "structure here",
-              "notes": ["notes 1", "notes 2"]
+              "title": "2. Relative clause agreement",
+              "explanation": "The relative verb agrees with its antecedent.",
+              "structure": "noun + which/who + verb",
+              "notes": ["'The team' as a unit takes a singular verb in this context."]
             }
           ],
           "common_mistakes": [
-            {
-              "wrong": "If I would have known, I would have helped.",
-              "correct": "If I had known, I would have helped.",
-              "reason": "Don't use would have in if-clause."
-            }
+            { "wrong": "Having warned about the risks, the team proceeded.", "correct": "Having been warned about the risks, the team proceeded.", "reason": "The team received the warning." },
+            { "wrong": "The team which were responsible.", "correct": "The team which was responsible.", "reason": "Collective noun treated as singular." }
           ]
         },
         "other_examples": [
-          {
-            "sentence": "Sentence one",
-            "translation": "Kalimat satu"
-          },
-          {
-            "sentence": "Sentence two",
-            "translation": "Kalimat dua"
-          }
+          { "sentence": "Having been praised for her work, she felt encouraged.", "translation": "Setelah dipuji atas karyanya, dia merasa terdorong." },
+          { "sentence": "The committee, which was formed last year, meets monthly.", "translation": "Komite, yang dibentuk tahun lalu, bertemu setiap bulan." }
         ],
         "references": [
-          { "title": "title", "author": "reference author", "url": "reference url", "type": "topic type" }
+          { "title": "Participle Clauses", "author": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/participle-clauses", "type": "grammar reference" }
         ]
       }
     }

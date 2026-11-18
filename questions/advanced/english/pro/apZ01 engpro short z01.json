@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "title": "Advanced English Grammar Diagnostics: Indonesia",
+    "description": "C2+/Near-native grammar error-correction test focused on Indonesian government, economy, and public satisfaction topics.",
+    "show_answer": true,
+    "show_explanation": true,
+    "no_timer": true,
+    "timeLimits": { "fast": 8, "normal": 14, "easy": 25 }
+  },
+  "questions": [
+    {
+      "id": "01",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Having", "clickable": false },
+        { "id": "s2", "text": "publish", "clickable": true, "isError": true, "correctAnswers": ["published","been published"] },
+        { "id": "s3", "text": "its fiscal report earlier than expected,", "clickable": false },
+        { "id": "s4", "text": "the Ministry of Finance,", "clickable": true, "isError": false },
+        { "id": "s5", "text": "whose projections was widely praised,", "clickable": true, "isError": true, "correctAnswers": ["whose projections were widely praised"] },
+        { "id": "s6", "text": "enhanced investor confidence.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1001",
+        "slug": "perfect-participle-and-agreement",
+        "details_explanation": {
+          "explanation": "Use the past participle after 'having'. 'Projections' is plural, so it takes 'were'.",
+          "bahasa": "Gunakan past participle setelah 'having'. Karena 'projections' jamak, kata kerjanya harus 'were'.",
+          "introduction": "This question combines participle clauses and subject-verb agreement.",
+          "rules": [
+            {
+              "title": "Perfect participle",
+              "explanation": "Having + past participle expresses a completed earlier action.",
+              "structure": "Having + V3"
+            },
+            {
+              "title": "Agreement",
+              "explanation": "Plural nouns require plural verbs.",
+              "structure": "plural noun + were"
+            }
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Having publish",
+              "correct": "Having published",
+              "reason": "Past participle required."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "02",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Rarely", "clickable": false },
+        { "id": "s2", "text": "the government had faced", "clickable": true, "isError": true, "correctAnswers": ["had the government faced"] },
+        { "id": "s3", "text": "such intense scrutiny before the audit findings were released.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1002",
+        "slug": "negative-adverb-inversion",
+        "details_explanation": {
+          "explanation": "Negative adverbials at the beginning trigger inversion.",
+          "bahasa": "Keterangan negatif di awal kalimat memerlukan inversi.",
+          "introduction": "Advanced inversion structure.",
+          "rules": [
+            {
+              "title": "Inversion",
+              "explanation": "Rarely + auxiliary + subject + verb.",
+              "structure": "Rarely had + subject + V3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "03",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Were", "clickable": false },
+        { "id": "s2", "text": "the inflation rate had remained", "clickable": true, "isError": true, "correctAnswers": ["the inflation rate to remain","the inflation rate to have remained"] },
+        { "id": "s3", "text": "at that level, consumer confidence would have deteriorated further.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1003",
+        "slug": "mixed-conditional-inversion",
+        "details_explanation": {
+          "explanation": "Inverted conditionals use 'were + subject + to + verb'.",
+          "bahasa": "Conditional inversion menggunakan pola 'were + subject + to + verb'.",
+          "introduction": "Formal conditional structure.",
+          "rules": [
+            {
+              "title": "Inverted conditional",
+              "explanation": "Avoid 'had remained' after initial 'were'.",
+              "structure": "Were + subject + to + verb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "04",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Not only", "clickable": false },
+        { "id": "s2", "text": "the reforms increased", "clickable": true, "isError": true, "correctAnswers": ["did the reforms increase"] },
+        { "id": "s3", "text": "foreign investment, but they also improved public trust.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1004",
+        "slug": "not-only-inversion",
+        "details_explanation": {
+          "explanation": "Not only at the start requires inversion.",
+          "bahasa": "Frasa 'Not only' di awal memerlukan inversi.",
+          "introduction": "Correlative conjunction pattern.",
+          "rules": [
+            {
+              "title": "Inversion after Not only",
+              "explanation": "Use auxiliary before subject.",
+              "structure": "Not only did + subject + verb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "05",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The governor recommended", "clickable": false },
+        { "id": "s2", "text": "that the central bank raises", "clickable": true, "isError": true, "correctAnswers": ["that the central bank raise"] },
+        { "id": "s3", "text": "interest rates gradually.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1005",
+        "slug": "subjunctive",
+        "details_explanation": {
+          "explanation": "Mandative subjunctive takes the base verb.",
+          "bahasa": "Subjunctive setelah recommendation menggunakan bentuk dasar kata kerja.",
+          "introduction": "Formal recommendation structures.",
+          "rules": [
+            {
+              "title": "Mandative subjunctive",
+              "explanation": "Use base form after 'recommend that'.",
+              "structure": "recommend that + subject + base verb"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "06",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "No sooner", "clickable": false },
+        { "id": "s2", "text": "the unemployment figures had been announced", "clickable": true, "isError": true, "correctAnswers": ["had the unemployment figures been announced"] },
+        { "id": "s3", "text": "than analysts revised their forecasts.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1006",
+        "slug": "no-sooner-inversion",
+        "details_explanation": {
+          "explanation": "No sooner requires inversion with 'had'.",
+          "bahasa": "No sooner memerlukan inversi memakai 'had'.",
+          "introduction": "Advanced sequencing structure."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The survey results,", "clickable": false },
+        { "id": "s2", "text": "many of them was collected", "clickable": true, "isError": true, "correctAnswers": ["many of them were collected"] },
+        { "id": "s3", "text": "from rural provinces, indicated rising satisfaction.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1007",
+        "slug": "quantifier-agreement",
+        "details_explanation": {
+          "explanation": "The pronoun 'them' refers to plural results.",
+          "bahasa": "'Them' merujuk pada bentuk jamak sehingga harus memakai 'were'."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had", "clickable": false },
+        { "id": "s2", "text": "the ministry informed earlier the public", "clickable": true, "isError": true, "correctAnswers": ["the ministry informed the public earlier"] },
+        { "id": "s3", "text": "the controversy might have been avoided.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1008",
+        "slug": "adverb-placement",
+        "details_explanation": {
+          "explanation": "The adverb naturally follows the object here.",
+          "bahasa": "Penempatan adverb lebih tepat setelah objek pada struktur ini."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Whatever", "clickable": false },
+        { "id": "s2", "text": "be the outcome,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the administration remains committed to fiscal discipline.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1009",
+        "slug": "formal-subjunctive",
+        "details_explanation": {
+          "explanation": "The sentence is already correct.",
+          "bahasa": "Kalimat sudah benar. 'Whatever be the outcome' adalah bentuk formal yang sah."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had it not been for", "clickable": false },
+        { "id": "s2", "text": "the stimulus measures, GDP would not recovered", "clickable": true, "isError": true, "correctAnswers": ["the stimulus measures, GDP would not have recovered"] },
+        { "id": "s3", "text": "so quickly.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1010",
+        "slug": "third-conditional",
+        "details_explanation": {
+          "explanation": "Third conditional requires 'would have + past participle'.",
+          "bahasa": "Third conditional menggunakan 'would have + V3'."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The policy,", "clickable": false },
+        { "id": "s2", "text": "having been scrutinizing", "clickable": true, "isError": true, "correctAnswers": ["having been scrutinized"] },
+        { "id": "s3", "text": "by independent experts, was eventually adopted.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1011",
+        "slug": "passive-perfect-participle",
+        "details_explanation": {
+          "explanation": "Passive meaning requires 'having been scrutinized'.",
+          "bahasa": "Makna pasif memerlukan bentuk 'having been scrutinized'."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Scarcely", "clickable": false },
+        { "id": "s2", "text": "the report was released", "clickable": true, "isError": true, "correctAnswers": ["had the report been released"] },
+        { "id": "s3", "text": "when debate erupted across parliament.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1012",
+        "slug": "scarcely-inversion",
+        "details_explanation": {
+          "explanation": "Scarcely at sentence start triggers inversion.",
+          "bahasa": "Scarcely di awal kalimat memerlukan inversi."
+        }
+      }
+    },
+    {
+      "id": "13",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The cabinet insisted", "clickable": false },
+        { "id": "s2", "text": "that every agency submits", "clickable": true, "isError": true, "correctAnswers": ["that every agency submit"] },
+        { "id": "s3", "text": "a transparency report.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1013",
+        "slug": "subjunctive-after-insist",
+        "details_explanation": {
+          "explanation": "Use the mandative subjunctive after 'insist'.",
+          "bahasa": "Setelah 'insist', gunakan subjunctive bentuk dasar."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Little", "clickable": false },
+        { "id": "s2", "text": "citizens realized", "clickable": true, "isError": true, "correctAnswers": ["did citizens realize"] },
+        { "id": "s3", "text": "how significant the reform would become.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1014",
+        "slug": "little-inversion",
+        "details_explanation": {
+          "explanation": "Fronted negative expressions require inversion.",
+          "bahasa": "Ekspresi negatif di depan kalimat memerlukan inversi."
+        }
+      }
+    },
+    {
+      "id": "15",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The president spoke as though", "clickable": false },
+        { "id": "s2", "text": "the crisis is already resolved", "clickable": true, "isError": true, "correctAnswers": ["the crisis were already resolved","the crisis had already been resolved"] },
+        { "id": "s3", "text": ".", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1015",
+        "slug": "unreal-comparison",
+        "details_explanation": {
+          "explanation": "Hypothetical situations require subjunctive or past perfect forms.",
+          "bahasa": "Situasi hipotetis memerlukan subjunctive atau past perfect."
+        }
+      }
+    },
+    {
+      "id": "16",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "So successful", "clickable": false },
+        { "id": "s2", "text": "the digitalization program was", "clickable": true, "isError": true, "correctAnswers": ["was the digitalization program"] },
+        { "id": "s3", "text": "that tax collection exceeded expectations.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1016",
+        "slug": "so-adjective-inversion",
+        "details_explanation": {
+          "explanation": "Formal emphasis requires inversion after fronted 'so + adjective'.",
+          "bahasa": "Penekanan formal membutuhkan inversi setelah 'so + adjective'."
+        }
+      }
+    },
+    {
+      "id": "17",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The statistics,", "clickable": false },
+        { "id": "s2", "text": "none of which was independently verified", "clickable": true, "isError": true, "correctAnswers": ["none of which were independently verified"] },
+        { "id": "s3", "text": ", were criticized by economists.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1017",
+        "slug": "relative-clause-agreement",
+        "details_explanation": {
+          "explanation": "The antecedent is plural ('statistics').",
+          "bahasa": "Antecedent 'statistics' berbentuk jamak sehingga memakai 'were'."
+        }
+      }
+    },
+    {
+      "id": "18",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Only after", "clickable": false },
+        { "id": "s2", "text": "the review was completed did officials realized", "clickable": true, "isError": true, "correctAnswers": ["the review was completed did officials realize"] },
+        { "id": "s3", "text": "the scale of the problem.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1018",
+        "slug": "inversion-base-verb",
+        "details_explanation": {
+          "explanation": "After auxiliary 'did', use the base verb.",
+          "bahasa": "Setelah 'did', gunakan bentuk dasar kata kerja."
+        }
+      }
+    },
+    {
+      "id": "19",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "The anti-corruption measures,", "clickable": false },
+        { "id": "s2", "text": "effective though they are,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "cannot solve every institutional problem.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1019",
+        "slug": "concessive-inversion",
+        "details_explanation": {
+          "explanation": "The sentence is grammatically correct.",
+          "bahasa": "Kalimat sudah benar. Ini merupakan concessive inversion yang valid."
+        }
+      }
+    },
+    {
+      "id": "20",
+      "type": "multi_error",
+      "question": "Click the incorrect parts and type the correct form.",
+      "multiErrorSegments": [
+        { "id": "s1", "text": "Had the regulators", "clickable": false },
+        { "id": "s2", "text": "acted more decisively, not only market volatility would have decreased", "clickable": true, "isError": true, "correctAnswers": ["acted more decisively, not only would market volatility have decreased"] },
+        { "id": "s3", "text": "but investor confidence would also have recovered sooner.", "clickable": false }
+      ],
+      "explanationDetails": {
+        "id": "GRAM-1020",
+        "slug": "conditional-and-correlative-inversion",
+        "details_explanation": {
+          "explanation": "Not only in this structure requires inversion: 'would market volatility have decreased'.",
+          "bahasa": "Pada struktur ini, 'not only' memerlukan inversi: 'would market volatility have decreased'.",
+          "introduction": "Combines conditional inversion and correlative inversion, a very advanced structure."
+        }
+      }
+    }
+  ]
+}
