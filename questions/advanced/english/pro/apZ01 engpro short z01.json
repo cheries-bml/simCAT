@@ -1,428 +1,664 @@
 {
   "meta": {
-    "title": "Advanced English Grammar Diagnostics: Indonesia",
-    "description": "C2+/Near-native grammar error-correction test focused on Indonesian government, economy, and public satisfaction topics.",
+    "title": "Advanced English Grammar Test: Indonesian Context",
+    "description": "A C2/C3 level multi-error identification test focusing on complex grammar structures within the context of Indonesian government, economy, and citizen satisfaction.",
     "show_answer": true,
     "show_explanation": true,
     "no_timer": true,
-    "timeLimits": { "fast": 8, "normal": 14, "easy": 25 }
+    "timeLimits": {
+      "fast": 8,
+      "normal": 14,
+      "easy": 25
+    }
   },
   "questions": [
     {
       "id": "01",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Having", "clickable": false },
-        { "id": "s2", "text": "publish", "clickable": true, "isError": true, "correctAnswers": ["published","been published"] },
-        { "id": "s3", "text": "its fiscal report earlier than expected,", "clickable": false },
-        { "id": "s4", "text": "the Ministry of Finance,", "clickable": true, "isError": false },
-        { "id": "s5", "text": "whose projections was widely praised,", "clickable": true, "isError": true, "correctAnswers": ["whose projections were widely praised"] },
-        { "id": "s6", "text": "enhanced investor confidence.", "clickable": false }
+        { "id": "s1", "text": "Not only has", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the recent fiscal policy stimulated growth,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "but it is also imperative", "clickable": true, "isError": false },
+        { "id": "s4", "text": "that the ministry allocates", "clickable": true, "isError": true, "correctAnswers": ["that the ministry allocate", "that the ministry should allocate"] },
+        { "id": "s5", "text": "more funds to rural infrastructure.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1001",
-        "slug": "perfect-participle-and-agreement",
+        "id": "GRAM-0001",
+        "slug": "inversion-and-mandative-subjunctive",
         "details_explanation": {
-          "explanation": "Use the past participle after 'having'. 'Projections' is plural, so it takes 'were'.",
-          "bahasa": "Gunakan past participle setelah 'having'. Karena 'projections' jamak, kata kerjanya harus 'were'.",
-          "introduction": "This question combines participle clauses and subject-verb agreement.",
+          "explanation": "The sentence begins with a negative adverbial ('Not only'), which correctly triggers subject-auxiliary inversion ('has the recent fiscal policy'). Furthermore, the adjective 'imperative' triggers the mandative subjunctive in the following 'that' clause, meaning the verb must be in its base form ('allocate') regardless of the singular subject 'the ministry'.",
+          "bahasa": "Kalimat dimulai dengan adverbia negatif ('Not only'), yang secara benar memicu inversi subjek-auxiliary ('has the recent fiscal policy'). Selain itu, kata sifat 'imperative' memicu subjungtif mandatif dalam klausa 'that' berikutnya, yang berarti kata kerja harus dalam bentuk dasar ('allocate') terlepas dari subjek tunggal 'the ministry'.",
+          "introduction": "Advanced sentence structures often combine inversion for emphasis with the subjunctive mood for expressing necessity or importance.",
           "rules": [
-            {
-              "title": "Perfect participle",
-              "explanation": "Having + past participle expresses a completed earlier action.",
-              "structure": "Having + V3"
-            },
-            {
-              "title": "Agreement",
-              "explanation": "Plural nouns require plural verbs.",
-              "structure": "plural noun + were"
-            }
+            { "title": "1. Negative Inversion", "explanation": "When a sentence starts with a negative or restrictive adverbial, the subject and auxiliary verb must be inverted.", "structure": "Negative adverbial + auxiliary + subject + main verb", "notes": ["e.g., 'Not only has the policy...', 'Seldom do we see...'"] },
+            { "title": "2. Mandative Subjunctive", "explanation": "After adjectives of importance or necessity (e.g., imperative, crucial, essential), the 'that' clause uses the base form of the verb.", "structure": "It is + adjective + that + subject + base verb", "notes": ["'allocate' is correct; 'allocates' is indicative and incorrect here."] }
           ],
           "common_mistakes": [
-            {
-              "wrong": "Having publish",
-              "correct": "Having published",
-              "reason": "Past participle required."
-            }
+            { "wrong": "Not only the recent fiscal policy has stimulated growth, but it is imperative that the ministry allocates...", "correct": "Not only has the recent fiscal policy stimulated growth, but it is imperative that the ministry allocate...", "reason": "Fails to invert after 'Not only' and uses indicative 'allocates' instead of subjunctive 'allocate'." }
           ]
-        }
+        },
+        "other_examples": [
+          { "sentence": "Not only has the new regulation improved compliance, but it is essential that every business adhere to it.", "translation": "Tidak hanya peraturan baru telah meningkatkan kepatuhan, tetapi sangat penting bahwa setiap bisnis mematuhiinya." }
+        ],
+        "references": [
+          { "title": "Advanced English Grammar", "author": "Cambridge University Press", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "02",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Rarely", "clickable": false },
-        { "id": "s2", "text": "the government had faced", "clickable": true, "isError": true, "correctAnswers": ["had the government faced"] },
-        { "id": "s3", "text": "such intense scrutiny before the audit findings were released.", "clickable": false }
+        { "id": "s1", "text": "Having been surveyed extensively,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the citizens,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "many of whom expresses", "clickable": true, "isError": true, "correctAnswers": ["many of whom express"] },
+        { "id": "s4", "text": "dissatisfaction with the current healthcare system,", "clickable": true, "isError": false },
+        { "id": "s5", "text": "demand immediate reforms.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1002",
-        "slug": "negative-adverb-inversion",
+        "id": "GRAM-0002",
+        "slug": "participle-clause-and-relative-quantifier-agreement",
         "details_explanation": {
-          "explanation": "Negative adverbials at the beginning trigger inversion.",
-          "bahasa": "Keterangan negatif di awal kalimat memerlukan inversi.",
-          "introduction": "Advanced inversion structure.",
+          "explanation": "The opening perfect passive participle clause ('Having been surveyed') correctly modifies 'the citizens'. The non-defining relative clause uses the quantifier 'many of whom', which refers to the plural 'citizens', thus requiring the plural verb 'express' instead of the singular 'expresses'.",
+          "bahasa": "Klausa partisipel sempurna pasif pembuka ('Having been surveyed') secara benar memodifikasi 'the citizens'. Klausa relatif non-defining menggunakan kuantifier 'many of whom', yang merujuk pada 'citizens' yang jamak, sehingga memerlukan kata kerja jamak 'express' bukan 'expresses' yang tunggal.",
+          "introduction": "Relative clauses with quantifiers (e.g., 'many of whom', 'all of which') must agree in number with their antecedent.",
           "rules": [
-            {
-              "title": "Inversion",
-              "explanation": "Rarely + auxiliary + subject + verb.",
-              "structure": "Rarely had + subject + V3"
-            }
+            { "title": "1. Quantifier + Relative Pronoun Agreement", "explanation": "The verb in a relative clause introduced by a quantifier must agree with the noun the quantifier refers to.", "structure": "plural noun + many of whom + plural verb", "notes": ["'Whom' refers to 'citizens' (plural), so the verb must be plural."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "the citizens, many of whom expresses dissatisfaction...", "correct": "the citizens, many of whom express dissatisfaction...", "reason": "The verb must agree with 'many' (plural), not the nearest singular noun or a mistaken assumption of singularity." }
           ]
-        }
+        },
+        "other_examples": [
+          { "sentence": "The policies, none of which were effective, were eventually repealed.", "translation": "Kebijakan-kebijakan tersebut, yang tidak satupun efektif, akhirnya dicabut." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "03",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Were", "clickable": false },
-        { "id": "s2", "text": "the inflation rate had remained", "clickable": true, "isError": true, "correctAnswers": ["the inflation rate to remain","the inflation rate to have remained"] },
-        { "id": "s3", "text": "at that level, consumer confidence would have deteriorated further.", "clickable": false }
+        { "id": "s1", "text": "Had the decentralization law been enforced", "clickable": true, "isError": false },
+        { "id": "s2", "text": "more rigorously in the past decade,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the regional governments would be better equipped", "clickable": true, "isError": false },
+        { "id": "s4", "text": "to handling the current economic crisis.", "clickable": true, "isError": true, "correctAnswers": ["to handle the current economic crisis."] }
       ],
       "explanationDetails": {
-        "id": "GRAM-1003",
-        "slug": "mixed-conditional-inversion",
+        "id": "GRAM-0003",
+        "slug": "inverted-conditional-and-infinitive-complement",
         "details_explanation": {
-          "explanation": "Inverted conditionals use 'were + subject + to + verb'.",
-          "bahasa": "Conditional inversion menggunakan pola 'were + subject + to + verb'.",
-          "introduction": "Formal conditional structure.",
+          "explanation": "The sentence uses a correct inverted third conditional structure ('Had the decentralization law been enforced'). The main clause correctly uses 'would be better equipped'. However, the adjective 'equipped' is followed by a to-infinitive ('to handle'), not a gerund ('to handling').",
+          "bahasa": "Kalimat ini menggunakan struktur kondisional tipe tiga inversi yang benar ('Had the decentralization law been enforced'). Klausa utama secara benar menggunakan 'would be better equipped'. Namun, kata sifat 'equipped' diikuti oleh to-infinitif ('to handle'), bukan gerund ('to handling').",
+          "introduction": "Inverted conditionals omit 'if' and invert the subject and auxiliary verb. Adjectives like 'equipped' or 'prepared' take a to-infinitive complement.",
           "rules": [
-            {
-              "title": "Inverted conditional",
-              "explanation": "Avoid 'had remained' after initial 'were'.",
-              "structure": "Were + subject + to + verb"
-            }
+            { "title": "1. Inverted Conditional", "explanation": "Omitting 'if' in a past unreal conditional requires inversion of 'had' and the subject.", "structure": "Had + subject + past participle, subject + would have + past participle", "notes": ["Formal and advanced alternative to 'If the law had been enforced...'"] },
+            { "title": "2. Adjective + To-Infinitive", "explanation": "Certain adjectives, including 'equipped', 'prepared', and 'ready', are followed by a to-infinitive, not a gerund.", "structure": "be + adjective + to + base verb", "notes": ["'equipped to handle', not 'equipped to handling'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...would be better equipped to handling the crisis.", "correct": "...would be better equipped to handle the crisis.", "reason": "Confusing the preposition 'to' with the infinitive marker 'to'." }
           ]
-        }
+        },
+        "other_examples": [
+          { "sentence": "Had the infrastructure been developed earlier, the region would be better prepared to attract investors.", "translation": "Seandainya infrastruktur telah dikembangkan lebih awal, wilayah tersebut akan lebih siap untuk menarik investor." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "04",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Not only", "clickable": false },
-        { "id": "s2", "text": "the reforms increased", "clickable": true, "isError": true, "correctAnswers": ["did the reforms increase"] },
-        { "id": "s3", "text": "foreign investment, but they also improved public trust.", "clickable": false }
+        { "id": "s1", "text": "It is the implementation of these new tax regulations,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "rather than the public discourse surrounding them,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "that determine", "clickable": true, "isError": true, "correctAnswers": ["that determines"] },
+        { "id": "s4", "text": "the ultimate success of the fiscal reform.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1004",
-        "slug": "not-only-inversion",
+        "id": "GRAM-0004",
+        "slug": "cleft-sentence-and-subject-verb-agreement",
         "details_explanation": {
-          "explanation": "Not only at the start requires inversion.",
-          "bahasa": "Frasa 'Not only' di awal memerlukan inversi.",
-          "introduction": "Correlative conjunction pattern.",
+          "explanation": "This is an 'it-cleft' sentence used for emphasis. The relative verb in the cleft clause must agree with the focused element. Here, the focused element is 'the implementation' (singular), not 'regulations' or 'discourse'. Therefore, the verb must be the singular 'determines'.",
+          "bahasa": "Ini adalah kalimat 'it-cleft' yang digunakan untuk penekanan. Kata kerja relatif dalam klausa cleft harus sesuai dengan elemen yang difokuskan. Di sini, elemen yang difokuskan adalah 'the implementation' (tunggal), bukan 'regulations' atau 'discourse'. Oleh karena itu, kata kerjanya haruslah 'determines' (tunggal).",
+          "introduction": "Cleft sentences divide a sentence into two parts to emphasize a specific element. Subject-verb agreement depends on the emphasized noun phrase.",
           "rules": [
-            {
-              "title": "Inversion after Not only",
-              "explanation": "Use auxiliary before subject.",
-              "structure": "Not only did + subject + verb"
-            }
+            { "title": "1. It-Cleft Agreement", "explanation": "The verb in the 'that/who' clause of an it-cleft sentence agrees with the noun phrase immediately following 'It is/was'.", "structure": "It is + singular noun phrase + that + singular verb", "notes": ["Ignore intervening phrases like 'rather than...' when determining agreement."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "It is the implementation of these new tax regulations... that determine...", "correct": "It is the implementation of these new tax regulations... that determines...", "reason": "The verb mistakenly agrees with the plural 'regulations' instead of the singular head noun 'implementation'." }
           ]
-        }
+        },
+        "other_examples": [
+          { "sentence": "It is the minister, not the advisors, who makes the final decision.", "translation": "Menteri, bukan para penasihat, yang membuat keputusan akhir." }
+        ],
+        "references": [
+          { "title": "Longman Student Grammar of Spoken and Written English", "author": "Douglas Biber et al.", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "05",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The governor recommended", "clickable": false },
-        { "id": "s2", "text": "that the central bank raises", "clickable": true, "isError": true, "correctAnswers": ["that the central bank raise"] },
-        { "id": "s3", "text": "interest rates gradually.", "clickable": false }
+        { "id": "s1", "text": "The parliament convened in an extraordinary session,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the prime minister delivering a comprehensive address,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "outlining the strategies to mitigating", "clickable": true, "isError": true, "correctAnswers": ["outlining the strategies to mitigate", "outlining the strategies for mitigating"] },
+        { "id": "s4", "text": "inflation and to stabilize the currency.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1005",
-        "slug": "subjunctive",
+        "id": "GRAM-0005",
+        "slug": "absolute-phrase-and-parallelism",
         "details_explanation": {
-          "explanation": "Mandative subjunctive takes the base verb.",
-          "bahasa": "Subjunctive setelah recommendation menggunakan bentuk dasar kata kerja.",
-          "introduction": "Formal recommendation structures.",
+          "explanation": "The sentence correctly uses an absolute phrase ('the prime minister delivering...'). However, it fails in parallelism. The phrase 'strategies to mitigating' mixes a to-infinitive marker with a gerund. It must be parallel with the subsequent infinitive 'to stabilize', making 'to mitigate' the correct form.",
+          "bahasa": "Kalimat ini secara benar menggunakan frasa absolut ('the prime minister delivering...'). Namun, kalimat ini gagal dalam paralelisme. Frasa 'strategies to mitigating' mencampurkan penanda to-infinitif dengan gerund. Frasa ini harus paralel dengan infinitif berikutnya 'to stabilize', sehingga 'to mitigate' adalah bentuk yang benar.",
+          "introduction": "Absolute phrases provide additional context without a finite verb. Parallel structure requires identical grammatical forms for items in a series or pair.",
           "rules": [
-            {
-              "title": "Mandative subjunctive",
-              "explanation": "Use base form after 'recommend that'.",
-              "structure": "recommend that + subject + base verb"
-            }
+            { "title": "1. Absolute Phrase", "explanation": "A noun followed by a participle, grammatically independent from the main clause.", "structure": "Noun + participle, main clause", "notes": ["e.g., 'the prime minister delivering...'"] },
+            { "title": "2. Parallelism with Infinitives", "explanation": "When two infinitives are joined by 'and', the 'to' is often omitted in the second, but both must be base verbs.", "structure": "to + base verb + and + (to) + base verb", "notes": ["'to mitigate... and to stabilize'"] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...strategies to mitigating inflation and to stabilize...", "correct": "...strategies to mitigate inflation and to stabilize...", "reason": "Breaks parallel structure and misuses the infinitive marker." }
           ]
-        }
+        },
+        "other_examples": [
+          { "sentence": "The budget having been approved, the committee proceeded to allocate funds and to monitor expenditures.", "translation": "Anggaran telah disetujui, komite melanjutkan untuk mengalokasikan dana dan memantau pengeluaran." }
+        ],
+        "references": [
+          { "title": "The Chicago Manual of Style", "author": "University of Chicago Press", "url": "", "type": "style guide" }
+        ]
       }
     },
     {
       "id": "06",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "No sooner", "clickable": false },
-        { "id": "s2", "text": "the unemployment figures had been announced", "clickable": true, "isError": true, "correctAnswers": ["had the unemployment figures been announced"] },
-        { "id": "s3", "text": "than analysts revised their forecasts.", "clickable": false }
+        { "id": "s1", "text": "Seldom do we see a public policy", "clickable": true, "isError": false },
+        { "id": "s2", "text": "that is so universally acclaimed,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "yet it is essential", "clickable": true, "isError": false },
+        { "id": "s4", "text": "that every citizen are given", "clickable": true, "isError": true, "correctAnswers": ["that every citizen be given", "that every citizen is given"] },
+        { "id": "s5", "text": "the opportunity to voice their concerns.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1006",
-        "slug": "no-sooner-inversion",
+        "id": "GRAM-0006",
+        "slug": "negative-inversion-and-subjunctive-mood",
         "details_explanation": {
-          "explanation": "No sooner requires inversion with 'had'.",
-          "bahasa": "No sooner memerlukan inversi memakai 'had'.",
-          "introduction": "Advanced sequencing structure."
-        }
+          "explanation": "The sentence correctly uses negative inversion ('Seldom do we see'). The second clause introduces a necessity with 'it is essential', which triggers the mandative subjunctive. Therefore, the verb should be the base form 'be given' (or 'should be given' in British English), not the indicative 'are given'.",
+          "bahasa": "Kalimat ini secara benar menggunakan inversi negatif ('Seldom do we see'). Klausa kedua memperkenalkan kebutuhan dengan 'it is essential', yang memicu subjungtif mandatif. Oleh karena itu, kata kerjanya harus berupa bentuk dasar 'be given' (atau 'should be given' dalam Bahasa Inggris Britania), bukan indikatif 'are given'.",
+          "introduction": "The mandative subjunctive is used in formal English to express demands, recommendations, or necessities.",
+          "rules": [
+            { "title": "1. Mandative Subjunctive", "explanation": "After expressions of necessity (e.g., 'it is essential'), the verb in the 'that' clause takes the base form.", "structure": "It is essential + that + subject + base verb", "notes": ["'be given' is the passive base form."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...it is essential that every citizen are given...", "correct": "...it is essential that every citizen be given...", "reason": "Using the indicative 'are' instead of the subjunctive 'be' after a trigger of necessity." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is crucial that the new law be ratified before the end of the session.", "translation": "Sangat penting bahwa undang-undang baru diratifikasi sebelum akhir sidang." }
+        ],
+        "references": [
+          { "title": "Cambridge Grammar of English", "author": "Ronald Carter and Michael McCarthy", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "07",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The survey results,", "clickable": false },
-        { "id": "s2", "text": "many of them was collected", "clickable": true, "isError": true, "correctAnswers": ["many of them were collected"] },
-        { "id": "s3", "text": "from rural provinces, indicated rising satisfaction.", "clickable": false }
+        { "id": "s1", "text": "The commodities exported from Indonesia,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "primarily consisting of palm oil and coal,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "has seen a significant surge", "clickable": true, "isError": true, "correctAnswers": ["have seen a significant surge"] },
+        { "id": "s4", "text": "in demand, thereby bolstering the national trade surplus.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1007",
-        "slug": "quantifier-agreement",
+        "id": "GRAM-0007",
+        "slug": "reduced-relative-clause-and-subject-verb-agreement",
         "details_explanation": {
-          "explanation": "The pronoun 'them' refers to plural results.",
-          "bahasa": "'Them' merujuk pada bentuk jamak sehingga harus memakai 'were'."
-        }
+          "explanation": "The subject of the main clause is 'The commodities' (plural). The phrase 'primarily consisting of palm oil and coal' is a reduced relative clause modifying 'commodities' and does not affect the number of the subject. Therefore, the main verb must be plural ('have seen'), not singular ('has seen').",
+          "bahasa": "Subjek dari klausa utama adalah 'The commodities' (jamak). Frasa 'primarily consisting of palm oil and coal' adalah klausa relatif yang direduksi yang memodifikasi 'commodities' dan tidak mempengaruhi jumlah subjek. Oleh karena itu, kata kerja utama harus jamak ('have seen'), bukan tunggal ('has seen').",
+          "introduction": "Intervening phrases, including reduced relative clauses, do not change the grammatical number of the main subject.",
+          "rules": [
+            { "title": "1. Subject-Verb Agreement with Intervening Phrases", "explanation": "The verb must agree with the true subject, ignoring prepositional or participial phrases that come between the subject and the verb.", "structure": "Plural subject + intervening phrase + plural verb", "notes": ["Do not be distracted by singular nouns inside the intervening phrase."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "The commodities... primarily consisting of palm oil and coal, has seen...", "correct": "The commodities... primarily consisting of palm oil and coal, have seen...", "reason": "Mistakenly agreeing with the nearest noun ('coal') or treating the whole phrase as singular." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The policies implemented last year, despite initial criticism, have proven effective.", "translation": "Kebijakan yang diterapkan tahun lalu, meskipun mendapat kritik awal, telah terbukti efektif." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "08",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Had", "clickable": false },
-        { "id": "s2", "text": "the ministry informed earlier the public", "clickable": true, "isError": true, "correctAnswers": ["the ministry informed the public earlier"] },
-        { "id": "s3", "text": "the controversy might have been avoided.", "clickable": false }
+        { "id": "s1", "text": "The new anti-corruption task force is tasked", "clickable": true, "isError": false },
+        { "id": "s2", "text": "not only with investigating high-profile cases", "clickable": true, "isError": false },
+        { "id": "s3", "text": "but also to recommend", "clickable": true, "isError": true, "correctAnswers": ["but also with recommending", "but also recommending"] },
+        { "id": "s4", "text": "systemic institutional reforms.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1008",
-        "slug": "adverb-placement",
+        "id": "GRAM-0008",
+        "slug": "correlative-conjunctions-and-parallelism",
         "details_explanation": {
-          "explanation": "The adverb naturally follows the object here.",
-          "bahasa": "Penempatan adverb lebih tepat setelah objek pada struktur ini."
-        }
+          "explanation": "The correlative conjunction 'not only... but also' requires strict parallel structure. Since the first part uses the prepositional phrase 'with investigating' (preposition + gerund), the second part must mirror this structure with 'with recommending' or simply 'recommending' to maintain grammatical balance.",
+          "bahasa": "Konjungsi korelatif 'not only... but also' memerlukan struktur paralel yang ketat. Karena bagian pertama menggunakan frasa preposisional 'with investigating' (preposisi + gerund), bagian kedua harus mencerminkan struktur ini dengan 'with recommending' atau cukup 'recommending' untuk menjaga keseimbangan tata bahasa.",
+          "introduction": "Correlative conjunctions demand that the grammatical structures following each part of the pair are identical.",
+          "rules": [
+            { "title": "1. Parallelism with Correlative Conjunctions", "explanation": "The elements following 'not only' and 'but also' must be of the same grammatical category.", "structure": "not only + [preposition + gerund] + but also + [preposition + gerund]", "notes": ["'with investigating' must be matched by 'with recommending'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...not only with investigating... but also to recommend...", "correct": "...not only with investigating... but also with recommending...", "reason": "Mixing a prepositional phrase with an infinitive breaks parallel structure." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The committee is responsible not only for drafting the bill but also for lobbying its passage.", "translation": "Komite bertanggung jawab tidak hanya untuk menyusun RUU tetapi juga untuk melobi pengesahannya." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "09",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Whatever", "clickable": false },
-        { "id": "s2", "text": "be the outcome,", "clickable": true, "isError": false },
-        { "id": "s3", "text": "the administration remains committed to fiscal discipline.", "clickable": false }
+        { "id": "s1", "text": "The new subsidy framework,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "implementing by the Ministry of Trade,", "clickable": true, "isError": true, "correctAnswers": ["implemented by the Ministry of Trade,", "which was implemented by the Ministry of Trade,"] },
+        { "id": "s3", "text": "has noticeably improved the citizens' purchasing power,", "clickable": true, "isError": false },
+        { "id": "s4", "text": "which are a testament", "clickable": true, "isError": true, "correctAnswers": ["which is a testament"] },
+        { "id": "s5", "text": "to the government's dedication.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1009",
-        "slug": "formal-subjunctive",
+        "id": "GRAM-0009",
+        "slug": "passive-participle-and-relative-clause-agreement",
         "details_explanation": {
-          "explanation": "The sentence is already correct.",
-          "bahasa": "Kalimat sudah benar. 'Whatever be the outcome' adalah bentuk formal yang sah."
-        }
+          "explanation": "This sentence contains two errors. First, 'implementing' is an active participle, but the framework receives the action, so it must be the passive participle 'implemented'. Second, the relative pronoun 'which' refers to the entire preceding clause (the improvement of purchasing power), which is a singular concept, requiring the singular verb 'is', not 'are'.",
+          "bahasa": "Kalimat ini mengandung dua kesalahan. Pertama, 'implementing' adalah partisipel aktif, tetapi kerangka kerja tersebut menerima tindakan, sehingga harus berupa partisipel pasif 'implemented'. Kedua, kata ganti relatif 'which' merujuk pada seluruh klausa sebelumnya (peningkatan daya beli), yang merupakan konsep tunggal, sehingga memerlukan kata kerja tunggal 'is', bukan 'are'.",
+          "introduction": "Reduced relative clauses must use the correct voice (active or passive). Sentential relative clauses referring to a whole idea take a singular verb.",
+          "rules": [
+            { "title": "1. Passive Reduced Relative Clause", "explanation": "When the noun is the receiver of the action, use the past participle.", "structure": "Noun + past participle + by + agent", "notes": ["'framework implemented by', not 'framework implementing by'."] },
+            { "title": "2. Sentential Relative Clause", "explanation": "When 'which' refers to an entire preceding clause, it is treated as singular.", "structure": "Main clause, which + singular verb", "notes": ["The fact that it improved power 'is' a testament."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "The framework, implementing by the ministry, which are a testament...", "correct": "The framework, implemented by the ministry, which is a testament...", "reason": "Confusing active/passive participles and misidentifying the antecedent of 'which'." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The policy, drafted by experts, has been successful, which is a rare achievement.", "translation": "Kebijakan tersebut, yang disusun oleh para ahli, telah berhasil, yang merupakan pencapaian langka." }
+        ],
+        "references": [
+          { "title": "Cambridge Dictionary Grammar", "author": "Cambridge University Press", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "10",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Had it not been for", "clickable": false },
-        { "id": "s2", "text": "the stimulus measures, GDP would not recovered", "clickable": true, "isError": true, "correctAnswers": ["the stimulus measures, GDP would not have recovered"] },
-        { "id": "s3", "text": "so quickly.", "clickable": false }
+        { "id": "s1", "text": "If the electoral commission had not delayed", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the vote counting, the results would have been announced yesterday,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "preventing the widespread speculation", "clickable": true, "isError": false },
+        { "id": "s4", "text": "that currently plague the political discourse.", "clickable": true, "isError": true, "correctAnswers": ["that currently plagues the political discourse."] }
       ],
       "explanationDetails": {
-        "id": "GRAM-1010",
-        "slug": "third-conditional",
+        "id": "GRAM-0010",
+        "slug": "third-conditional-and-relative-clause-agreement",
         "details_explanation": {
-          "explanation": "Third conditional requires 'would have + past participle'.",
-          "bahasa": "Third conditional menggunakan 'would have + V3'."
-        }
+          "explanation": "The third conditional structure ('had not delayed... would have been announced') is correctly formed. The participle 'preventing' correctly shows result. However, the relative clause 'that currently plague' has 'speculation' as its antecedent, which is an uncountable singular noun. Thus, the verb must be singular: 'plagues'.",
+          "bahasa": "Struktur kondisional tipe tiga ('had not delayed... would have been announced') dibentuk dengan benar. Partisipel 'preventing' secara benar menunjukkan hasil. Namun, klausa relatif 'that currently plague' memiliki 'speculation' sebagai anteseden, yang merupakan kata benda tunggal yang tidak dapat dihitung. Oleh karena itu, kata kerjanya harus tunggal: 'plagues'.",
+          "introduction": "Relative pronouns must agree in number with their specific antecedent, even if the main clause is in a different tense.",
+          "rules": [
+            { "title": "1. Relative Clause Agreement", "explanation": "The verb in a relative clause must agree with the noun it modifies.", "structure": "singular noun + that/which + singular verb", "notes": ["'speculation' is singular, so 'plagues' is required."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...speculation that currently plague...", "correct": "...speculation that currently plagues...", "reason": "Mistakenly treating the uncountable noun 'speculation' as plural." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The misinformation that spreads online is difficult to contain.", "translation": "Misinformasi yang menyebar secara online sulit untuk dibendung." }
+        ],
+        "references": [
+          { "title": "Longman Student Grammar of Spoken and Written English", "author": "Douglas Biber et al.", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "11",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The policy,", "clickable": false },
-        { "id": "s2", "text": "having been scrutinizing", "clickable": true, "isError": true, "correctAnswers": ["having been scrutinized"] },
-        { "id": "s3", "text": "by independent experts, was eventually adopted.", "clickable": false }
+        { "id": "s1", "text": "A comprehensive analysis of the recent trade agreements,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "alongside the projected inflation rates,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "indicate a positive outlook", "clickable": true, "isError": true, "correctAnswers": ["indicates a positive outlook"] },
+        { "id": "s4", "text": "for the Indonesian Rupiah.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1011",
-        "slug": "passive-perfect-participle",
+        "id": "GRAM-0011",
+        "slug": "complex-subject-and-verb-agreement",
         "details_explanation": {
-          "explanation": "Passive meaning requires 'having been scrutinized'.",
-          "bahasa": "Makna pasif memerlukan bentuk 'having been scrutinized'."
-        }
+          "explanation": "The true subject of the sentence is 'A comprehensive analysis' (singular). The phrase 'alongside the projected inflation rates' is a prepositional phrase acting as an adjunct, not part of a compound subject. Therefore, the verb must be singular ('indicates'), not plural ('indicate').",
+          "bahasa": "Subjek sebenarnya dari kalimat ini adalah 'A comprehensive analysis' (tunggal). Frasa 'alongside the projected inflation rates' adalah frasa preposisional yang bertindak sebagai adjung, bukan bagian dari subjek majemuk. Oleh karena itu, kata kerjanya harus tunggal ('indicates'), bukan jamak ('indicate').",
+          "introduction": "Phrases like 'along with', 'as well as', and 'alongside' do not create compound subjects. The verb agrees only with the main subject.",
+          "rules": [
+            { "title": "1. Subject-Verb Agreement with Additive Phrases", "explanation": "Additive phrases do not change the number of the subject.", "structure": "Singular subject + alongside/with + plural noun + singular verb", "notes": ["The verb agrees with 'analysis', not 'rates'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "A comprehensive analysis... alongside the projected inflation rates, indicate...", "correct": "A comprehensive analysis... alongside the projected inflation rates, indicates...", "reason": "Proximity error: the verb incorrectly agrees with the nearest plural noun ('rates') instead of the true subject." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The minister, as well as his advisors, is attending the summit.", "translation": "Menteri, serta para penasihatnya, menghadiri KTT tersebut." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "12",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Scarcely", "clickable": false },
-        { "id": "s2", "text": "the report was released", "clickable": true, "isError": true, "correctAnswers": ["had the report been released"] },
-        { "id": "s3", "text": "when debate erupted across parliament.", "clickable": false }
+        { "id": "s1", "text": "It is crucial that the proposed housing bill", "clickable": true, "isError": false },
+        { "id": "s2", "text": "is passed before the end", "clickable": true, "isError": true, "correctAnswers": ["be passed before the end", "should be passed before the end"] },
+        { "id": "s3", "text": "of the fiscal year to ensure", "clickable": true, "isError": false },
+        { "id": "s4", "text": "that affordable accommodation is provided to low-income families.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1012",
-        "slug": "scarcely-inversion",
+        "id": "GRAM-0012",
+        "slug": "mandative-subjunctive-and-passive-voice",
         "details_explanation": {
-          "explanation": "Scarcely at sentence start triggers inversion.",
-          "bahasa": "Scarcely di awal kalimat memerlukan inversi."
-        }
+          "explanation": "The adjective 'crucial' triggers the mandative subjunctive in the following 'that' clause. In formal English, this requires the base form of the verb. Since the bill receives the action, the passive base form 'be passed' (or 'should be passed') must be used, rather than the indicative 'is passed'.",
+          "bahasa": "Kata sifat 'crucial' memicu subjungtif mandatif dalam klausa 'that' berikutnya. Dalam bahasa Inggris formal, ini memerlukan bentuk dasar kata kerja. Karena RUU tersebut menerima tindakan, bentuk dasar pasif 'be passed' (atau 'should be passed') harus digunakan, bukan indikatif 'is passed'.",
+          "introduction": "The mandative subjunctive is required after adjectives expressing necessity, importance, or urgency.",
+          "rules": [
+            { "title": "1. Mandative Subjunctive (Passive)", "explanation": "After 'it is crucial/essential/vital that', use 'be + past participle' for passive meaning.", "structure": "It is crucial + that + subject + be + past participle", "notes": ["'be passed' is the correct subjunctive passive form."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "It is crucial that the bill is passed...", "correct": "It is crucial that the bill be passed...", "reason": "Using the indicative mood instead of the required subjunctive mood in formal contexts." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is imperative that the documents be signed by the director.", "translation": "Sangat penting bahwa dokumen-dokumen tersebut ditandatangani oleh direktur." }
+        ],
+        "references": [
+          { "title": "Cambridge Grammar of English", "author": "Ronald Carter and Michael McCarthy", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "13",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The cabinet insisted", "clickable": false },
-        { "id": "s2", "text": "that every agency submits", "clickable": true, "isError": true, "correctAnswers": ["that every agency submit"] },
-        { "id": "s3", "text": "a transparency report.", "clickable": false }
+        { "id": "s1", "text": "Not only the Ministry of Education has", "clickable": true, "isError": true, "correctAnswers": ["Not only has the Ministry of Education"] },
+        { "id": "s2", "text": "revamped the national curriculum,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "but it has also increased", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the budget for vocational training.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1013",
-        "slug": "subjunctive-after-insist",
+        "id": "GRAM-0013",
+        "slug": "negative-inversion-with-not-only",
         "details_explanation": {
-          "explanation": "Use the mandative subjunctive after 'insist'.",
-          "bahasa": "Setelah 'insist', gunakan subjunctive bentuk dasar."
-        }
+          "explanation": "When a sentence begins with the restrictive phrase 'Not only', it must be followed by subject-auxiliary inversion. The correct order is 'Not only has the Ministry of Education', not 'Not only the Ministry of Education has'.",
+          "bahasa": "Ketika kalimat dimulai dengan frasa restriktif 'Not only', kalimat tersebut harus diikuti oleh inversi subjek-auxiliary. Urutan yang benar adalah 'Not only has the Ministry of Education', bukan 'Not only the Ministry of Education has'.",
+          "introduction": "Negative inversion is a formal grammatical structure used to add emphasis to a negative or restrictive adverbial at the beginning of a sentence.",
+          "rules": [
+            { "title": "1. Inversion after 'Not only'", "explanation": "Place the auxiliary verb before the subject when 'Not only' starts the clause.", "structure": "Not only + auxiliary + subject + main verb", "notes": ["'Not only has the Ministry...'"] }
+          ],
+          "common_mistakes": [
+            { "wrong": "Not only the Ministry of Education has revamped...", "correct": "Not only has the Ministry of Education revamped...", "reason": "Failing to invert the subject and auxiliary verb after a fronted negative adverbial." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "Not only did the government lower taxes, but it also created jobs.", "translation": "Tidak hanya pemerintah menurunkan pajak, tetapi juga menciptakan lapangan kerja." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "14",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Little", "clickable": false },
-        { "id": "s2", "text": "citizens realized", "clickable": true, "isError": true, "correctAnswers": ["did citizens realize"] },
-        { "id": "s3", "text": "how significant the reform would become.", "clickable": false }
+        { "id": "s1", "text": "The microfinance initiatives,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "which the government has heavily invested in them,", "clickable": true, "isError": true, "correctAnswers": ["which the government has heavily invested in,", "in which the government has heavily invested,"] },
+        { "id": "s3", "text": "have significantly empowered rural entrepreneurs", "clickable": true, "isError": false },
+        { "id": "s4", "text": "across the archipelago.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1014",
-        "slug": "little-inversion",
+        "id": "GRAM-0014",
+        "slug": "relative-clause-and-redundant-pronoun",
         "details_explanation": {
-          "explanation": "Fronted negative expressions require inversion.",
-          "bahasa": "Ekspresi negatif di depan kalimat memerlukan inversi."
-        }
+          "explanation": "In the relative clause 'which the government has heavily invested in', the relative pronoun 'which' already serves as the object of the preposition 'in'. Adding the pronoun 'them' creates a redundant object. The correct forms are either 'which... in' or 'in which...'.",
+          "bahasa": "Dalam klausa relatif 'which the government has heavily invested in', kata ganti relatif 'which' sudah berfungsi sebagai objek dari preposisi 'in'. Menambahkan kata ganti 'them' menciptakan objek yang redundan. Bentuk yang benar adalah 'which... in' atau 'in which...'.",
+          "introduction": "Relative pronouns replace the noun they refer to. Repeating the noun or a pronoun referring to it within the relative clause is a common error.",
+          "rules": [
+            { "title": "1. No Redundant Objects in Relative Clauses", "explanation": "The relative pronoun fulfills the grammatical role of the noun it replaces. Do not add an extra pronoun.", "structure": "which + subject + verb + preposition", "notes": ["'which... in', not 'which... in them'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...which the government has invested in them...", "correct": "...which the government has invested in...", "reason": "Double object: 'which' and 'them' both try to serve as the object of 'in'." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The program that I told you about is starting soon.", "translation": "Program yang saya beri tahu Anda tentang itu akan segera dimulai." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "15",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The president spoke as though", "clickable": false },
-        { "id": "s2", "text": "the crisis is already resolved", "clickable": true, "isError": true, "correctAnswers": ["the crisis were already resolved","the crisis had already been resolved"] },
-        { "id": "s3", "text": ".", "clickable": false }
+        { "id": "s1", "text": "When compared with the previous administration,", "clickable": true, "isError": true, "correctAnswers": ["When compared with those of the previous administration,", "Compared to the previous administration's,"] },
+        { "id": "s2", "text": "the current government's approval ratings", "clickable": true, "isError": false },
+        { "id": "s3", "text": "are substantially higher,", "clickable": true, "isError": false },
+        { "id": "s4", "text": "reflecting a growing public trust.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1015",
-        "slug": "unreal-comparison",
+        "id": "GRAM-0015",
+        "slug": "faulty-comparison-and-dangling-modifier",
         "details_explanation": {
-          "explanation": "Hypothetical situations require subjunctive or past perfect forms.",
-          "bahasa": "Situasi hipotetis memerlukan subjunctive atau past perfect."
-        }
+          "explanation": "The original sentence creates a faulty comparison by comparing 'approval ratings' to 'the previous administration' (an entity). To be logical and grammatically correct, ratings must be compared to ratings. Therefore, 'those of' (referring to ratings) must be added to make the comparison valid.",
+          "bahasa": "Kalimat asli menciptakan perbandingan yang salah dengan membandingkan 'approval ratings' dengan 'the previous administration' (sebuah entitas). Agar logis dan benar secara tata bahasa, peringkat harus dibandingkan dengan peringkat. Oleh karena itu, 'those of' (yang merujuk pada peringkat) harus ditambahkan untuk membuat perbandingan menjadi valid.",
+          "introduction": "Comparisons must be logically and grammatically parallel. You cannot compare an attribute of one thing to a different thing entirely.",
+          "rules": [
+            { "title": "1. Logical Comparison", "explanation": "Ensure that the two items being compared are of the same category.", "structure": "X's ratings are higher than those of Y", "notes": ["Use 'those' to stand in for the plural noun 'ratings'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "When compared with the previous administration, the current government's ratings are higher.", "correct": "When compared with those of the previous administration, the current government's ratings are higher.", "reason": "Illogical comparison between 'ratings' and an 'administration'." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The climate in Jakarta is hotter than that of Bandung.", "translation": "Iklim di Jakarta lebih panas daripada iklim di Bandung." }
+        ],
+        "references": [
+          { "title": "The Chicago Manual of Style", "author": "University of Chicago Press", "url": "", "type": "style guide" }
+        ]
       }
     },
     {
       "id": "16",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "So successful", "clickable": false },
-        { "id": "s2", "text": "the digitalization program was", "clickable": true, "isError": true, "correctAnswers": ["was the digitalization program"] },
-        { "id": "s3", "text": "that tax collection exceeded expectations.", "clickable": false }
+        { "id": "s1", "text": "Were the new bureaucratic streamlining measures", "clickable": true, "isError": false },
+        { "id": "s2", "text": "to be successfully implemented,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "the efficiency of public service delivery would improve significantly,", "clickable": true, "isError": false },
+        { "id": "s4", "text": "thereby reducing the grievances what have long plagued", "clickable": true, "isError": true, "correctAnswers": ["thereby reducing the grievances that have long plagued", "thereby reducing the grievances which have long plagued"] },
+        { "id": "s5", "text": "the civil service.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1016",
-        "slug": "so-adjective-inversion",
+        "id": "GRAM-0016",
+        "slug": "inverted-conditional-and-relative-pronoun",
         "details_explanation": {
-          "explanation": "Formal emphasis requires inversion after fronted 'so + adjective'.",
-          "bahasa": "Penekanan formal membutuhkan inversi setelah 'so + adjective'."
-        }
+          "explanation": "The sentence correctly uses an inverted second conditional ('Were the... measures to be...'). However, the relative pronoun 'what' cannot be used to refer to a specific antecedent ('the grievances'). The correct relative pronouns for things are 'that' or 'which'.",
+          "bahasa": "Kalimat ini secara benar menggunakan kondisional tipe dua inversi ('Were the... measures to be...'). Namun, kata ganti relatif 'what' tidak dapat digunakan untuk merujuk pada anteseden spesifik ('the grievances'). Kata ganti relatif yang benar untuk benda adalah 'that' atau 'which'.",
+          "introduction": "The relative pronoun 'what' means 'the thing(s) that' and cannot be used after a noun. Use 'that' or 'which' for defining or non-defining relative clauses modifying a noun.",
+          "rules": [
+            { "title": "1. Relative Pronoun Selection", "explanation": "Use 'that' or 'which' to refer to a preceding noun. 'What' is a nominal relative pronoun and stands alone.", "structure": "noun + that/which + verb", "notes": ["'grievances that have', not 'grievances what have'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...the grievances what have long plagued...", "correct": "...the grievances that have long plagued...", "reason": "Using 'what' as a relative pronoun with an explicit antecedent is grammatically incorrect in standard English." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The reforms that were introduced last year have been effective.", "translation": "Reformasi yang diperkenalkan tahun lalu telah efektif." }
+        ],
+        "references": [
+          { "title": "Cambridge Grammar of English", "author": "Ronald Carter and Michael McCarthy", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "17",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The statistics,", "clickable": false },
-        { "id": "s2", "text": "none of which was independently verified", "clickable": true, "isError": true, "correctAnswers": ["none of which were independently verified"] },
-        { "id": "s3", "text": ", were criticized by economists.", "clickable": false }
+        { "id": "s1", "text": "It is the sustained investment in digital infrastructure,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "rather than short-term fiscal stimulus,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "that are driving Indonesia's economic resilience", "clickable": true, "isError": true, "correctAnswers": ["that is driving Indonesia's economic resilience"] },
+        { "id": "s4", "text": "in the face of global headwinds.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1017",
-        "slug": "relative-clause-agreement",
+        "id": "GRAM-0017",
+        "slug": "cleft-sentence-and-subject-verb-agreement",
         "details_explanation": {
-          "explanation": "The antecedent is plural ('statistics').",
-          "bahasa": "Antecedent 'statistics' berbentuk jamak sehingga memakai 'were'."
-        }
+          "explanation": "This is an 'it-cleft' sentence. The verb in the relative clause must agree with the emphasized noun phrase, which is 'the sustained investment' (singular). The intervening phrase 'rather than short-term fiscal stimulus' does not change the subject's number. Thus, 'is driving' is correct.",
+          "bahasa": "Ini adalah kalimat 'it-cleft'. Kata kerja dalam klausa relatif harus sesuai dengan frasa kata benda yang ditekankan, yaitu 'the sustained investment' (tunggal). Frasa penyela 'rather than short-term fiscal stimulus' tidak mengubah jumlah subjek. Oleh karena itu, 'is driving' adalah benar.",
+          "introduction": "In cleft sentences, the focus is on a specific element. The verb in the cleft clause must agree with this focused element, ignoring any contrasting phrases.",
+          "rules": [
+            { "title": "1. Cleft Sentence Agreement", "explanation": "The verb agrees with the noun phrase following 'It is/was'.", "structure": "It is + singular noun + that + singular verb", "notes": ["'investment' is singular, so 'is driving' is required."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "It is the sustained investment..., rather than short-term fiscal stimulus, that are driving...", "correct": "It is the sustained investment..., rather than short-term fiscal stimulus, that is driving...", "reason": "Mistakenly allowing the verb to agree with a plural notion implied by the contrast, or misidentifying the subject." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "It is the quality of the products, not the quantity, that matters.", "translation": "Kualitas produk, bukan kuantitasnya, yang penting." }
+        ],
+        "references": [
+          { "title": "Longman Student Grammar of Spoken and Written English", "author": "Douglas Biber et al.", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "18",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Only after", "clickable": false },
-        { "id": "s2", "text": "the review was completed did officials realized", "clickable": true, "isError": true, "correctAnswers": ["the review was completed did officials realize"] },
-        { "id": "s3", "text": "the scale of the problem.", "clickable": false }
+        { "id": "s1", "text": "The committee recommended that the new public transportation system", "clickable": true, "isError": false },
+        { "id": "s2", "text": "be operational by next year,", "clickable": true, "isError": false },
+        { "id": "s3", "text": "aiming to reducing traffic congestion", "clickable": true, "isError": true, "correctAnswers": ["aiming to reduce traffic congestion", "with the aim of reducing traffic congestion"] },
+        { "id": "s4", "text": "in major metropolitan areas.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1018",
-        "slug": "inversion-base-verb",
+        "id": "GRAM-0018",
+        "slug": "mandative-subjunctive-and-infinitive-complement",
         "details_explanation": {
-          "explanation": "After auxiliary 'did', use the base verb.",
-          "bahasa": "Setelah 'did', gunakan bentuk dasar kata kerja."
-        }
+          "explanation": "The first clause correctly uses the mandative subjunctive ('recommended that... be operational'). The error lies in the participle phrase 'aiming to reducing'. The verb 'aim' when followed by 'to' requires the base form of the verb (to-infinitive), so it must be 'to reduce'. Alternatively, 'aiming at reducing' or 'with the aim of reducing' would be correct.",
+          "bahasa": "Klausa pertama secara benar menggunakan subjungtif mandatif ('recommended that... be operational'). Kesalahan terletak pada frasa partisipel 'aiming to reducing'. Kata kerja 'aim' ketika diikuti oleh 'to' memerlukan bentuk dasar kata kerja (to-infinitif), sehingga harus 'to reduce'. Sebagai alternatif, 'aiming at reducing' atau 'with the aim of reducing' akan benar.",
+          "introduction": "The verb 'aim' can be followed by a to-infinitive ('aim to do') or a preposition + gerund ('aim at doing'), but not 'to' + gerund.",
+          "rules": [
+            { "title": "1. Verb Complementation: Aim", "explanation": "'Aim' takes a to-infinitive or 'at' + gerund.", "structure": "aim + to + base verb OR aim + at + gerund", "notes": ["'aiming to reduce', not 'aiming to reducing'."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...aiming to reducing traffic congestion...", "correct": "...aiming to reduce traffic congestion...", "reason": "Incorrectly combining the infinitive marker 'to' with a gerund." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The policy aims to improve public health outcomes.", "translation": "Kebijakan ini bertujuan untuk meningkatkan hasil kesehatan masyarakat." }
+        ],
+        "references": [
+          { "title": "Practical English Usage", "author": "Michael Swan", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "19",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "The anti-corruption measures,", "clickable": false },
-        { "id": "s2", "text": "effective though they are,", "clickable": true, "isError": false },
-        { "id": "s3", "text": "cannot solve every institutional problem.", "clickable": false }
+        { "id": "s1", "text": "Under no circumstances", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the anti-corruption commission should compromise", "clickable": true, "isError": true, "correctAnswers": ["should the anti-corruption commission compromise"] },
+        { "id": "s3", "text": "its independence, which is", "clickable": true, "isError": false },
+        { "id": "s4", "text": "the cornerstone of its credibility and public trust.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1019",
-        "slug": "concessive-inversion",
+        "id": "GRAM-0019",
+        "slug": "negative-inversion-with-under-no-circumstances",
         "details_explanation": {
-          "explanation": "The sentence is grammatically correct.",
-          "bahasa": "Kalimat sudah benar. Ini merupakan concessive inversion yang valid."
-        }
+          "explanation": "The phrase 'Under no circumstances' is a negative adverbial. When placed at the beginning of a sentence for emphasis, it mandates subject-auxiliary inversion. Therefore, 'should the anti-corruption commission compromise' is the correct order, not the standard declarative order.",
+          "bahasa": "Frasa 'Under no circumstances' adalah adverbia negatif. Ketika ditempatkan di awal kalimat untuk penekanan, frasa ini mewajibkan inversi subjek-auxiliary. Oleh karena itu, 'should the anti-corruption commission compromise' adalah urutan yang benar, bukan urutan deklaratif standar.",
+          "introduction": "Negative adverbials at the beginning of a clause trigger inversion, a hallmark of formal and advanced English.",
+          "rules": [
+            { "title": "1. Inversion after Negative Adverbials", "explanation": "Phrases like 'under no circumstances', 'in no way', or 'on no account' require the auxiliary verb to precede the subject.", "structure": "Negative adverbial + auxiliary + subject + main verb", "notes": ["'should the commission compromise'"] }
+          ],
+          "common_mistakes": [
+            { "wrong": "Under no circumstances the anti-corruption commission should compromise...", "correct": "Under no circumstances should the anti-corruption commission compromise...", "reason": "Failing to invert the subject and modal verb after a fronted negative phrase." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "On no account should the funds be diverted from their intended purpose.", "translation": "Dalam keadaan apa pun dana tidak boleh dialihkan dari tujuan yang dimaksudkan." }
+        ],
+        "references": [
+          { "title": "Advanced Grammar in Use", "author": "Martin Hewings", "url": "", "type": "grammar reference" }
+        ]
       }
     },
     {
       "id": "20",
       "type": "multi_error",
-      "question": "Click the incorrect parts and type the correct form.",
+      "question": "Click the incorrect parts and type the correct form (may contain 0, 1 or multiple errors). If no error, choose No Error.",
       "multiErrorSegments": [
-        { "id": "s1", "text": "Had the regulators", "clickable": false },
-        { "id": "s2", "text": "acted more decisively, not only market volatility would have decreased", "clickable": true, "isError": true, "correctAnswers": ["acted more decisively, not only would market volatility have decreased"] },
-        { "id": "s3", "text": "but investor confidence would also have recovered sooner.", "clickable": false }
+        { "id": "s1", "text": "The national budget having been approved by the parliament,", "clickable": true, "isError": false },
+        { "id": "s2", "text": "the allocation of funds to the healthcare and education sectors", "clickable": true, "isError": false },
+        { "id": "s3", "text": "remain a top priority", "clickable": true, "isError": true, "correctAnswers": ["remains a top priority"] },
+        { "id": "s4", "text": "for the administration.", "clickable": true, "isError": false }
       ],
       "explanationDetails": {
-        "id": "GRAM-1020",
-        "slug": "conditional-and-correlative-inversion",
+        "id": "GRAM-0020",
+        "slug": "absolute-phrase-and-subject-verb-agreement",
         "details_explanation": {
-          "explanation": "Not only in this structure requires inversion: 'would market volatility have decreased'.",
-          "bahasa": "Pada struktur ini, 'not only' memerlukan inversi: 'would market volatility have decreased'.",
-          "introduction": "Combines conditional inversion and correlative inversion, a very advanced structure."
-        }
+          "explanation": "The sentence begins with a correct absolute phrase ('The national budget having been approved...'). The main subject is 'the allocation' (singular). The prepositional phrase 'of funds to the healthcare and education sectors' does not change the subject's number. Therefore, the verb must be singular ('remains'), not plural ('remain').",
+          "bahasa": "Kalimat dimulai dengan frasa absolut yang benar ('The national budget having been approved...'). Subjek utama adalah 'the allocation' (tunggal). Frasa preposisional 'of funds to the healthcare and education sectors' tidak mengubah jumlah subjek. Oleh karena itu, kata kerjanya harus tunggal ('remains'), bukan jamak ('remain').",
+          "introduction": "Absolute phrases set the context for the main clause. The main clause's verb must strictly agree with its own subject, ignoring intervening prepositional phrases.",
+          "rules": [
+            { "title": "1. Subject-Verb Agreement", "explanation": "The verb must agree with the head noun of the subject phrase, regardless of intervening plural nouns.", "structure": "Singular subject + prepositional phrase + singular verb", "notes": ["'allocation' is singular, so 'remains' is required."] }
+          ],
+          "common_mistakes": [
+            { "wrong": "...the allocation of funds to the healthcare and education sectors remain...", "correct": "...the allocation of funds to the healthcare and education sectors remains...", "reason": "Proximity error: the verb incorrectly agrees with the plural noun 'sectors' or 'funds' instead of the singular head noun 'allocation'." }
+          ]
+        },
+        "other_examples": [
+          { "sentence": "The meeting having concluded, the distribution of tasks remains the manager's responsibility.", "translation": "Rapat telah selesai, distribusi tugas tetap menjadi tanggung jawab manajer." }
+        ],
+        "references": [
+          { "title": "Cambridge Grammar of English", "author": "Ronald Carter and Michael McCarthy", "url": "", "type": "grammar reference" }
+        ]
       }
     }
   ]
